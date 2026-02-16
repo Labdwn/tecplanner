@@ -1,0 +1,2977 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TecPlanner - Skill Tree</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap');
+
+/* ==================== TEMAS ==================== */
+
+/* TEMA OSCURO (Default) */
+:root {
+    --bg-color: #121214;
+    --card-bg: #1e1e24;
+    --text-main: #e1e1e6;
+    --text-dim: #a8a8b3;
+    --accent: #8257e6;
+    
+    --status-aprobado: #10b981;
+    --status-cursando: #06b6d4;
+    --status-pendiente: #555;
+    
+    --timing-adelantado: #f59e0b;
+    --timing-atrasado: #ef4444;
+    --timing-verano: #ff6b35;
+    
+    --hover-requisito: #ff0066;
+    --hover-correquisito: #ffdd00;
+    --hover-desbloquea: #00ff88;
+    
+    --filter-selected: #3b82f6;
+    --filter-unlocked: #34d399;
+    
+    --edit-cursando: #a855f7;
+    --edit-aprobado: #84cc16;
+    
+    --anomaly: #ef4444;
+}
+
+
+
+body[data-theme="light"] .game-area::-webkit-scrollbar-track {
+    background: #e5e5e7;
+}
+
+body[data-theme="light"] .game-area::-webkit-scrollbar-thumb {
+    background-color: #c7c7cc;
+}
+
+body[data-theme="light"] .node {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid #d1d1d6;
+}
+
+body[data-theme="light"] .column-header {
+    color: #86868b;
+}
+
+body[data-theme="light"] path {
+    stroke: #d1d1d6;
+}
+
+body[data-theme="light"] .hud-panel {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #d1d1d6;
+}
+
+body[data-theme="light"] .btn-sem,
+body[data-theme="light"] .btn-action,
+body[data-theme="light"] .btn-export,
+body[data-theme="light"] .btn-profile {
+    background: #ffffff;
+    border-color: #d1d1d6;
+    color: #1d1d1f;
+}
+
+body[data-theme="light"] .search-input,
+body[data-theme="light"] .list-select {
+    background: #ffffff;
+    border-color: #d1d1d6;
+    color: #1d1d1f;
+}
+
+:root {
+    --bg-color: #121214;
+    --card-bg: #1e1e24;
+    --text-main: #e1e1e6;
+    --text-dim: #a8a8b3;
+    --accent: #8257e6;
+    
+   
+    --status-aprobado: #10b981;
+    --status-cursando: #06b6d4;
+    --status-pendiente: #555;
+    
+   
+    --timing-adelantado: #f59e0b;
+    --timing-atrasado: #ef4444;
+    --timing-verano: #ff6b35;
+    
+    
+    --hover-requisito: #ff0066;
+    --hover-correquisito: #ffdd00;
+    --hover-desbloquea: #00ff88;
+    
+ 
+    --filter-selected: #3b82f6;
+    --filter-unlocked: #34d399;
+    
+    
+    --edit-cursando: #a855f7;
+    --edit-aprobado: #84cc16;
+    
+ 
+    --anomaly: #ef4444;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* --- HUD SUPERIOR  --- */
+.hud-panel {
+    flex: 0 0 auto;
+    background: rgba(18, 18, 20, 0.95);
+    border-bottom: 1px solid #333;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.hud-row-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hud-row-bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.hud-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: var(--accent);
+    letter-spacing: 2px;
+    white-space: nowrap;
+}
+
+.search-container {
+    flex: 0 0 250px;
+    min-width: 200px;
+}
+
+.search-input {
+    width: 100%;
+    background: #2c2c35;
+    border: 1px solid #444;
+    color: var(--text-main);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--filter-selected);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.semester-selector {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.btn-sem {
+    background: #2c2c35;
+    border: 1px solid #444;
+    color: var(--text-dim);
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.btn-sem:hover,
+.btn-sem.active {
+    background: var(--filter-selected);
+    color: #fff;
+    border-color: var(--filter-selected);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+.btn-sem.active-summer {
+    background: var(--timing-verano) !important;
+    color: #fff !important;
+    border-color: var(--timing-verano) !important;
+    box-shadow: 0 0 15px rgba(255, 107, 53, 0.5) !important;
+}
+
+.quick-actions {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #333;
+}
+
+.btn-action {
+    background: transparent;
+    border: 1px solid #444;
+    color: var(--text-dim);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.btn-action:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.btn-action.active-cursando {
+    background: var(--edit-cursando);
+    color: #fff;
+    border-color: var(--edit-cursando);
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
+}
+
+.btn-action.active-aprobado {
+    background: var(--edit-aprobado);
+    color: #000;
+    border-color: var(--edit-aprobado);
+    box-shadow: 0 0 15px rgba(132, 204, 22, 0.5);
+}
+
+.stats-info {
+    display: flex;
+    gap: 25px;
+    padding-right: 20px;
+    border-right: 1px solid #333;
+}
+
+.stat-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.stat-num {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+}
+
+.stat-desc {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-top: 3px;
+}
+
+.stat-num.over {
+    color: var(--timing-adelantado);
+}
+
+.stat-num.under {
+    color: var(--timing-atrasado);
+}
+
+.btn-export {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: 1px solid #444;
+    color: var(--text-dim);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.btn-export:hover {
+    border-color: var(--status-aprobado);
+    color: var(--status-aprobado);
+    background: rgba(16, 185, 129, 0.1);
+}
+
+.btn-profile {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.btn-profile:hover {
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 10px rgba(130, 87, 230, 0.4);
+}
+
+/* --- ÁREA DE JUEGO --- */
+.game-area {
+    flex: 1;
+    overflow: auto;
+    position: relative;
+    padding: 40px;
+}
+
+.tree-container {
+    display: flex;
+    gap: 80px;
+    min-width: max-content;
+    flex-shrink: 0;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.game-area::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+}
+
+.game-area::-webkit-scrollbar-track {
+    background: #09090b;
+    border: 1px solid #333;
+}
+
+.game-area::-webkit-scrollbar-thumb {
+    background-color: #3f3f46;
+    border-radius: 8px;
+    border: 3px solid #09090b;
+}
+
+.game-area::-webkit-scrollbar-thumb:hover {
+    background-color: var(--accent);
+}
+
+#connections {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.semester-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.column-header {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+/* --- NODOS --- */
+.node {
+    background: var(--card-bg);
+    border: 1px solid #333;
+    border-left: 4px solid var(--status-pendiente);
+    border-radius: 4px;
+    padding: 12px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 180px;
+}
+
+.node:hover {
+    transform: scale(1.05);
+    background: #25252c;
+    z-index: 100;
+}
+
+.node-code {
+    font-size: 0.7rem;
+    color: var(--accent);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.node-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 6px 0;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.node-credits {
+    font-size: 0.7rem;
+    color: #777;
+}
+
+.user-sem-badge {
+    background: var(--filter-selected);
+    color: #fff;
+    font-size: 0.6rem;
+    padding: 1px 5px;
+    border-radius: 3px;
+    display: none;
+}
+
+.node.in-user-semester .user-sem-badge {
+    display: block;
+}
+
+/* ESTADOS DE CURSO */
+.node.status-aprobado {
+    border-left-color: var(--status-aprobado);
+    background: linear-gradient(90deg, rgba(16, 185, 129, 0.08) 0%, transparent 100%);
+}
+
+.node.status-aprobado .node-name {
+    color: #4ade80;
+}
+
+.node.status-cursando {
+    border-left-color: var(--status-cursando);
+    background: linear-gradient(90deg, rgba(6, 182, 212, 0.08) 0%, transparent 100%);
+}
+
+.node.status-cursando .node-name {
+    color: #22d3ee;
+}
+
+/* TIMING */
+.node.timing-adelantado::before,
+.node.timing-atrasado::before,
+.node.timing-verano::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.node.timing-adelantado::before {
+    background: var(--timing-adelantado);
+    box-shadow: 0 0 4px rgba(245, 158, 11, 0.6);
+}
+
+.node.timing-atrasado::before {
+    background: var(--timing-atrasado);
+    box-shadow: 0 0 4px rgba(239, 68, 68, 0.6);
+}
+
+.node.timing-verano::before {
+    background: var(--timing-verano);
+    box-shadow: 0 0 6px rgba(255, 107, 53, 0.8);
+}
+
+.node.timing-verano .user-sem-badge {
+    background: var(--timing-verano);
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 0 6px rgba(255, 107, 53, 0.6);
+}
+
+/* HOVER - RELACIONES */
+.node.highlight-main {
+    border-color: #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    transform: scale(1.08);
+}
+
+.node.highlight-req {
+    border-color: var(--hover-requisito);
+    box-shadow: 0 0 15px var(--hover-requisito);
+}
+
+.node.highlight-coreq {
+    border-color: var(--hover-correquisito);
+    box-shadow: 0 0 15px var(--hover-correquisito);
+}
+
+.node.highlight-unlock {
+    border-color: var(--hover-desbloquea);
+    box-shadow: 0 0 15px var(--hover-desbloquea);
+}
+
+/* FILTROS DE SEMESTRE */
+body.filtering-active .node {
+    opacity: 0.15;
+    filter: grayscale(100%);
+}
+
+body.filtering-active .node.filter-selected {
+    opacity: 1 !important;
+    filter: grayscale(0%) !important;
+    border: 2px solid var(--filter-selected) !important;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+}
+
+body.filtering-active .node.filter-unlocked {
+    opacity: 0.9 !important;
+    filter: grayscale(0%) !important;
+    border: 2px dashed var(--filter-unlocked) !important;
+    box-shadow: 0 0 10px rgba(52, 211, 153, 0.3);
+}
+
+/* MODO EDICIÓN */
+body.edit-mode-cursando .node {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="8" fill="%23a855f7"/></svg>') 10 10, crosshair;
+}
+
+body.edit-mode-cursando .node:hover {
+    border-color: var(--edit-cursando) !important;
+    box-shadow: 0 0 20px var(--edit-cursando) !important;
+}
+
+body.edit-mode-aprobado .node {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="8" fill="%2384cc16"/></svg>') 10 10, crosshair;
+}
+
+body.edit-mode-aprobado .node:hover {
+    border-color: var(--edit-aprobado) !important;
+    box-shadow: 0 0 20px var(--edit-aprobado) !important;
+}
+
+/* ANOMALÍAS */
+.node.anomaly {
+    border-color: var(--anomaly) !important;
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.6);
+    animation: pulse-error 2s infinite;
+}
+
+.node.anomaly .node-name {
+    color: #f87171;
+}
+
+.anomaly-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--anomaly);
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+@keyframes pulse-error {
+    0% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 15px rgba(239, 68, 68, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    }
+}
+
+/* HOVER MODE */
+body.hover-mode .node {
+    opacity: 0.1 !important;
+    filter: grayscale(100%) !important;
+    transition: all 0.2s;
+}
+
+body.hover-mode .node.highlight-main,
+body.hover-mode .node.highlight-req,
+body.hover-mode .node.highlight-coreq,
+body.hover-mode .node.highlight-unlock {
+    opacity: 1 !important;
+    filter: none !important;
+}
+
+/* CONEXIONES */
+path {
+    fill: none;
+    stroke: #333;
+    stroke-width: 2px;
+    transition: stroke 0.3s, stroke-width 0.3s;
+}
+
+.path-req {
+    stroke: var(--hover-requisito) !important;
+    stroke-width: 3px !important;
+    stroke-dasharray: 8;
+    animation: dash 1s linear infinite;
+}
+
+.path-coreq {
+    stroke: var(--hover-correquisito) !important;
+    stroke-width: 3px !important;
+}
+
+.path-unlock {
+    stroke: var(--hover-desbloquea) !important;
+    stroke-width: 3px !important;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: -16;
+    }
+}
+
+.key-course-badge {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    background: linear-gradient(135deg, #ffd700, #ffa500);
+    color: #000;
+    font-size: 0.65rem;
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);
+    pointer-events: none;
+}
+
+.character-sheet {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 350px;
+    height: 100vh;
+    background: #18181b;
+    border-left: 1px solid #333;
+    z-index: 3000;
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -5px 0 25px rgba(0, 0, 0, 0.8);
+}
+
+.character-sheet.open {
+    right: 0;
+}
+
+.cs-header {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(18, 18, 20, 0.9);
+}
+
+.cs-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 1px;
+}
+
+.cs-close {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: color 0.2s;
+}
+
+.cs-close:hover {
+    color: #fff;
+}
+
+.cs-body {
+    padding: 25px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.pond-box {
+    background: #09090b;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.pond-val {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--filter-selected);
+    line-height: 1;
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+.pond-label {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.progress-dashboard {
+    background: #09090b;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.progress-section {
+    margin-bottom: 20px;
+}
+
+.progress-label {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.progress-bar-container {
+    background: #18181b;
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--filter-selected));
+    transition: width 0.5s ease;
+    box-shadow: 0 0 10px rgba(130, 87, 230, 0.5);
+}
+
+.progress-stats {
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: var(--text-main);
+    text-align: right;
+}
+
+.semester-chart {
+    display: flex;
+    gap: 6px;
+    align-items: flex-end;
+    height: 120px;
+    padding: 10px;
+    background: #18181b;
+    border-radius: 6px;
+}
+
+.chart-bar {
+    flex: 1;
+    background: var(--accent);
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    transition: all 0.3s;
+    min-width: 20px;
+}
+
+.chart-bar:hover {
+    background: var(--filter-selected);
+    transform: scaleY(1.05);
+}
+
+.chart-bar-label {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    white-space: nowrap;
+}
+
+.chart-bar-value {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ql-title {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ql-semester {
+    margin-bottom: 20px;
+    background: #222228;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+.ql-sem-title {
+    font-weight: 700;
+    color: var(--text-main);
+    border-bottom: 1px dashed #555;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+}
+
+.ql-course {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    padding: 4px 0;
+}
+
+.ql-grade {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 0.95rem;
+}
+
+.ql-grade.good {
+    color: var(--status-aprobado);
+}
+
+.ql-grade.bad {
+    color: var(--anomaly);
+}
+
+.ql-grade.none {
+    color: #555;
+}
+
+/* --- MODAL --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    background: #18181b;
+    border: 1px solid #444;
+    width: 550px;
+    border-radius: 12px;
+    box-shadow: 0 0 60px rgba(130, 87, 230, 0.25);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.modal-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent), var(--filter-selected));
+}
+
+.modal-header {
+    padding: 30px 30px 20px;
+    border-bottom: 1px solid #27272a;
+}
+
+.modal-title-code {
+    font-family: monospace;
+    color: var(--filter-selected);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.modal-title-name {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.modal-body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-label {
+    display: block;
+    color: #d4d4d8;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.rpg-input {
+    width: 100%;
+    background: #09090b;
+    border: 1px solid #444;
+    color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.25rem;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+.rpg-input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(130, 87, 230, 0.3);
+}
+
+.status-selector {
+    display: flex;
+    gap: 10px;
+    background: #09090b;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.status-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #71717a;
+    padding: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.1rem;
+    font-family: 'Rajdhani', sans-serif;
+    transition: all 0.2s;
+}
+
+.status-btn:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.status-btn.active[data-val="pendiente"] {
+    background: #3f3f46;
+    color: #fff;
+}
+
+.status-btn.active[data-val="cursando"] {
+    background: var(--status-cursando);
+    color: #000;
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.4);
+}
+
+.status-btn.active[data-val="aprobado"] {
+    background: var(--status-aprobado);
+    color: #000;
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+}
+
+.modal-footer {
+    padding: 25px 30px;
+    background: #121214;
+    display: flex;
+    gap: 15px;
+    border-top: 1px solid #27272a;
+    border-radius: 0 0 12px 12px;
+}
+
+.btn-modal {
+    flex: 1;
+    padding: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+.btn-confirm {
+    background: var(--accent);
+    color: white;
+}
+
+.btn-confirm:hover {
+    background: #9d7cf3;
+    box-shadow: 0 0 20px rgba(130, 87, 230, 0.5);
+}
+
+.btn-cancel {
+    background: transparent;
+    color: var(--text-dim);
+    border: 1px solid #444;
+}
+
+.btn-cancel:hover {
+    color: #fff;
+    border-color: #777;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* --- MAJOR CARDS --- */
+.major-card {
+    background: #121214;
+    border: 2px solid #333;
+    border-radius: 12px;
+    width: 280px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.major-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--accent);
+    box-shadow: 0 15px 30px rgba(130, 87, 230, 0.3);
+    background: #18181b;
+}
+
+.major-icon {
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.major-title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.major-desc {
+    color: var(--text-dim);
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.list-view {
+    flex: 1;
+    overflow: auto;
+    background: var(--bg-color);
+    padding: 30px;
+}
+
+.list-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #333;
+}
+
+.list-header h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.list-filters {
+    display: flex;
+    gap: 10px;
+}
+
+.list-select {
+    background: #2c2c35;
+    border: 1px solid #444;
+    color: var(--text-main);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.list-select:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.list-table {
+    width: 100%;
+    background: var(--card-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+
+.list-table th {
+    background: #121214;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #333;
+    font-weight: 700;
+}
+
+.list-table td {
+    padding: 15px;
+    border-bottom: 1px solid #27272a;
+    color: var(--text-main);
+}
+
+.list-table tr:last-child td {
+    border-bottom: none;
+}
+
+.list-table tr:hover {
+    background: #25252c;
+}
+
+.list-status-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.list-status-badge.pendiente {
+    background: #3f3f46;
+    color: #a1a1aa;
+}
+
+.list-status-badge.cursando {
+    background: rgba(6, 182, 212, 0.2);
+    color: #22d3ee;
+    border: 1px solid #06b6d4;
+}
+
+.list-status-badge.aprobado {
+    background: rgba(16, 185, 129, 0.2);
+    color: #4ade80;
+    border: 1px solid #10b981;
+}
+
+.list-code {
+    font-family: monospace;
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.list-grade {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.list-grade.good {
+    color: var(--status-aprobado);
+}
+
+.list-grade.bad {
+    color: var(--anomaly);
+}
+    </style>
+</head>
+<body>
+
+    <div class="modal-overlay" id="majorSelectionOverlay" style="z-index: 5000; display: none; flex-direction: column; background: #09090b;">
+        <h1 style="color: #fff; font-size: 2.5rem; letter-spacing: 2px; margin-bottom: 10px;">INICIALIZANDO SISTEMA</h1>
+        <p style="color: var(--selected-blue); font-size: 1.2rem; margin-bottom: 40px; text-transform: uppercase;">Selecciona tu especialización táctica</p>
+        
+        <div style="display: flex; gap: 30px;">
+            <div class="major-card" onclick="selectMajor('fisica', 'ING. FÍSICA')">
+                <div class="major-icon">⚛️</div>
+                <div class="major-title">Ingeniería Física</div>
+                <div class="major-desc">Plan 1042 • Física Cuántica, Óptica y Materiales Avanzados.</div>
+            </div>
+            
+            <div class="major-card" onclick="selectMajor('biotecnologia', 'BIOTECNOLOGÍA')">
+                <div class="major-icon">🧬</div>
+                <div class="major-title">Ing. Biotecnología</div>
+                <div class="major-desc">Plan 1053 • Genética, Cultivo de Tejidos y Bioinformática.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hud-panel">
+            <!-- FILA 1: Título, Búsqueda y Botones de Semestre -->
+            <div class="hud-row-top">
+                <div class="hud-title" id="hudTitle">TEC // SISTEMA</div>
+                <div class="search-container">
+                    <input type="text" id="searchBox" class="search-input" placeholder="🔍 Buscar curso..." oninput="searchCourse(this.value)">
+                </div>
+                <div class="semester-selector" id="userSemestersBtn"></div>
+            </div>
+            
+            <!-- FILA 2: Acciones Rápidas, Stats y Botones -->
+            <div class="hud-row-bottom">
+                <div class="quick-actions">
+                    <button class="btn-action" id="btnEditCursando" onclick="toggleEditMode('cursando')">⚡ CURSANDO</button>
+                    <button class="btn-action" id="btnEditAprobado" onclick="toggleEditMode('aprobado')">✔ APROBADO</button>
+                </div>
+
+                <div class="stats-info" id="statsPanel">
+                    <div class="stat-group">
+                        <span class="stat-num" id="dispUserCreds">0</span>
+                        <span class="stat-desc" id="descUserCreds">Mis Créditos</span>
+                    </div>
+                    <div class="stat-group">
+                        <span class="stat-num" id="dispBlockCreds">0</span>
+                        <span class="stat-desc" id="descBlockCreds">Oficiales</span>
+                    </div>
+                </div>
+                
+                <button class="btn-profile" onclick="openTutorial()" style="border-color: #f59e0b; color: #f59e0b;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                    MANUAL
+                </button>
+
+                <button class="btn-export" onclick="exportJSON()" style="margin-left: 10px;">
+                    💾 GUARDAR
+                </button>
+                <label class="btn-export" style="cursor: pointer; margin-left: 10px;">
+                    📂 CARGAR
+                    <input type="file" accept=".json" style="display: none;" onchange="importJSON(event)">
+                </label>
+
+                <button class="btn-action" onclick="openGraduationSimulator()" style="border-color: #10b981; color: #10b981;">
+                    🎓 SIMULAR
+                </button>
+
+                <button class="btn-action" onclick="toggleViewMode()" id="btnViewMode">
+                    📋 LISTA
+                </button>
+
+                <button class="btn-export" onclick="exportToExcel()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    EXCEL
+                </button>
+
+                <button class="btn-profile" onclick="toggleCharacterSheet()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    PERFIL
+                </button>
+            </div>
+        </div>
+
+    <div class="game-area">
+        <div class="tree-container" id="treeGrid">
+            <svg id="connections"></svg>
+        </div>
+    </div>
+
+    <div class="list-view" id="listView" style="display: none;">
+    <div class="list-container">
+        <div class="list-header">
+    <h2>PLAN DE ESTUDIOS - VISTA LISTA</h2>
+    <div class="list-filters">
+        <input type="text" id="listSearchBox" class="search-input" placeholder="🔍 Buscar..." oninput="filterListView()" style="width: 200px;">
+        <select id="listFilterStatus" class="list-select" onchange="filterListView()">
+            <option value="all">Todos los Estados</option>
+            <option value="pendiente">Pendientes</option>
+            <option value="cursando">Cursando</option>
+            <option value="aprobado">Aprobados</option>
+        </select>
+        <select id="listFilterSem" class="list-select" onchange="filterListView()">
+            <option value="all">Todos los Semestres</option>
+        </select>
+    </div>
+</div>
+        <div class="list-body" id="listBody">
+            <!-- Table will be generated here -->
+        </div>
+    </div>
+</div>
+
+    <div class="character-sheet" id="characterSheet">
+        <div class="cs-header">
+            <div class="cs-title">PERFIL DE KENNETH</div>
+            <button class="btn-action" style="border-color: var(--req-red); color: var(--req-red); margin-left: 10px;" onclick="resetMajor()">⟲ CAMBIAR CARRERA</button>
+            <button class="cs-close" onclick="toggleCharacterSheet()">×</button>
+        </div>
+        <div class="cs-body">
+            <div class="pond-box">
+                <div class="pond-val" id="pondGeneral">0.00</div>
+                <div class="pond-label">Promedio Ponderado TEC</div>
+            </div>
+
+            <div class="progress-dashboard">
+
+            <div class="progress-section">
+                <div class="progress-label">PROGRESO TOTAL</div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="totalProgress"></div>
+                </div>
+                <div class="progress-stats" id="progressStats">0 / 0 créditos (0%)</div>
+            </div>
+
+            
+            
+            <div class="semester-chart" id="semesterChart">
+                <!-- Gráfico de créditos por semestre -->
+            </div>
+        </div>
+            
+            <div class="ql-title">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                QUEST LOG (Historial)
+            </div>
+            <div id="questLogContainer">
+                </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="courseModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title-code" id="modalCode">MA1102</div>
+                <div class="modal-title-name" id="modalName">Cálculo Diferencial e Integral</div>
+            </div>
+            <div class="modal-body">
+                <div class="input-group">
+                    <label class="input-label">Estado del Curso</label>
+                    <div class="status-selector" id="statusContainer">
+                        <button class="status-btn active" data-val="pendiente" onclick="setStatus('pendiente')">PENDIENTE</button>
+                        <button class="status-btn" data-val="cursando" onclick="setStatus('cursando')">CURSANDO</button>
+                        <button class="status-btn" data-val="aprobado" onclick="setStatus('aprobado')">APROBADO</button>
+                    </div>
+                    <input type="hidden" id="inpStatus" value="pendiente">
+                </div>
+                <div class="input-group">
+                    <label class="input-label">Planear en (Usa .5 para Veranos, ej: 1.5)</label>
+                    <input type="number" id="inpUserSem" class="rpg-input" step="0.5" placeholder="Ej: 1, 1.5, 2, 11...">
+                </div>
+                <div style="display:flex; gap:15px;">
+                    <div class="input-group" style="flex:2;">
+                        <label class="input-label">Profesor (Opcional)</label>
+                        <input type="text" id="inpProf" class="rpg-input" placeholder="Nombre...">
+                    </div>
+                    <div class="input-group" style="flex:1;">
+                        <label class="input-label">Nota</label>
+                        <input type="number" id="inpGrade" class="rpg-input" placeholder="0-100">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-modal btn-cancel" onclick="closeModal()">Cancelar</button>
+                <button class="btn-modal btn-confirm" onclick="saveCourseData()">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- REEMPLAZA TODO EL CONTENIDO DEL MODAL tutorialModal CON ESTO -->
+
+<div class="modal-overlay" id="tutorialModal" style="z-index: 4000;">
+    <div class="modal-content" style="width: 900px; max-height: 90vh; overflow-y: auto;">
+        <div class="modal-header">
+            <div class="modal-title-code" style="color: #f59e0b; font-size: 1.2rem;">📖 MANUAL DE USUARIO</div>
+            <div class="modal-title-name" style="font-size: 2rem;">TecPlanner v2.0 // Guía Completa</div>
+        </div>
+        <div class="modal-body" style="font-size: 1rem; line-height: 1.5; padding: 30px;">
+            
+            <!-- SECCIÓN 1: LEYENDA DE COLORES -->
+            <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
+                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🎨 LEYENDA DE COLORES</h2>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <!-- Estados -->
+                    <div>
+                        <h3 style="color: var(--accent); font-size: 1.1rem; margin-bottom: 15px;">📊 Estados del Curso</h3>
+                        <div style="display: flex; flex-direction: column; gap: 12px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 60px; height: 40px; background: var(--card-bg); border-left: 4px solid #555; border-radius: 4px;"></div>
+                                <div>
+                                    <div style="font-weight: 700; color: #fff;">Pendiente</div>
+                                    <div style="font-size: 0.85rem; color: var(--text-dim);">No lo has tomado aún</div>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 60px; height: 40px; background: linear-gradient(90deg, rgba(6, 182, 212, 0.08) 0%, transparent 100%); border-left: 4px solid #06b6d4; border-radius: 4px;"></div>
+                                <div>
+                                    <div style="font-weight: 700; color: #22d3ee;">Cursando</div>
+                                    <div style="font-size: 0.85rem; color: var(--text-dim);">Lo estás llevando ahora</div>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 60px; height: 40px; background: linear-gradient(90deg, rgba(16, 185, 129, 0.08) 0%, transparent 100%); border-left: 4px solid #10b981; border-radius: 4px;"></div>
+                                <div>
+                                    <div style="font-weight: 700; color: #4ade80;">Aprobado</div>
+                                    <div style="font-size: 0.85rem; color: var(--text-dim);">Ya lo completaste (≥70)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Timing -->
+                    <div>
+                        <h3 style="color: var(--accent); font-size: 1.1rem; margin-bottom: 15px;">⏱️ Indicadores de Timing</h3>
+                        <div style="display: flex; flex-direction: column; gap: 12px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="position: relative; width: 60px; height: 40px; background: var(--card-bg); border: 1px solid #333; border-radius: 4px;">
+                                    <div style="position: absolute; top: 6px; right: 6px; width: 8px; height: 8px; background: #f59e0b; border-radius: 50%; box-shadow: 0 0 4px rgba(245, 158, 11, 0.6);"></div>
+                                </div>
+                                <div>
+                                    <div style="font-weight: 700; color: #f59e0b;">Adelantado</div>
+                                    <div style="font-size: 0.85rem; color: var(--text-dim);">Lo llevas antes de su bloque</div>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="position: relative; width: 60px; height: 40px; background: var(--card-bg); border: 1px solid #333; border-radius: 4px;">
+                                    <div style="position: absolute; top: 6px; right: 6px; width: 8px; height: 8px; background: #ef4444; border-radius: 50%; box-shadow: 0 0 4px rgba(239, 68, 68, 0.6);"></div>
+                                </div>
+                                <div>
+                                    <div style="font-weight: 700; color: #ef4444;">Atrasado</div>
+                                    <div style="font-size: 0.85rem; color: var(--text-dim);">Lo llevas después de su bloque</div>
+                                </div>
+                            </div>
+                            
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="position: relative; width: 60px; height: 40px; background: var(--card-bg); border: 1px solid #333; border-radius: 4px;">
+                                    <div style="position: absolute; top: 6px; right: 6px; width: 8px; height: 8px; background: #ff6b35; border-radius: 50%; box-shadow: 0 0 6px rgba(255, 107, 53, 0.8);"></div>
+                                    <div style="position: absolute; top: 3px; right: 18px; background: #ff6b35; color: #fff; font-size: 0.5rem; padding: 1px 3px; border-radius: 2px; font-weight: 700;">S1.5</div>
+                                </div>
+                                <div>
+                                    <div style="font-weight: 700; color: #ff6b35;">Verano</div>
+                                    <div style="font-size: 0.85rem; color: var(--text-dim);">Usa decimales (ej: 1.5, 2.5)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Alertas y Especiales -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div>
+                        <h3 style="color: var(--accent); font-size: 1.1rem; margin-bottom: 15px;">⚠️ Alertas</h3>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div style="position: relative; width: 60px; height: 40px; background: var(--card-bg); border: 2px solid #ef4444; border-radius: 4px; animation: pulse-error 2s infinite;">
+                                <div style="position: absolute; top: -8px; right: -8px; background: #ef4444; color: white; font-size: 0.6rem; padding: 2px 4px; border-radius: 8px; font-weight: bold;">⚠️</div>
+                            </div>
+                            <div>
+                                <div style="font-weight: 700; color: #f87171;">Anomalía</div>
+                                <div style="font-size: 0.85rem; color: var(--text-dim);">Faltan requisitos o correquisitos</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 style="color: var(--accent); font-size: 1.1rem; margin-bottom: 15px;">🔑 Especiales</h3>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div style="position: relative; width: 60px; height: 40px; background: var(--card-bg); border: 1px solid #333; border-radius: 4px;">
+                                <div style="position: absolute; top: -6px; left: -6px; background: linear-gradient(135deg, #ffd700, #ffa500); color: #000; font-size: 0.55rem; padding: 2px 4px; border-radius: 6px; font-weight: bold;">🔑 5</div>
+                            </div>
+                            <div>
+                                <div style="font-weight: 700; color: #ffd700;">Curso Clave</div>
+                                <div style="font-size: 0.85rem; color: var(--text-dim);">Desbloquea 3+ cursos</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 2: RELACIONES AL PASAR EL MOUSE -->
+            <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
+                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🖱️ HOVER: Ver Relaciones de Cursos</h2>
+                
+                <p style="color: var(--text-dim); margin-bottom: 20px;">Pasa el mouse sobre cualquier curso para ver sus conexiones:</p>
+                
+                <div style="background: #121214; border: 1px solid #333; border-radius: 8px; padding: 30px; display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                    
+                    <!-- Requisito -->
+                    <div style="text-align: center;">
+                        <div style="border: 2px solid #ff0066; background: var(--card-bg); padding: 12px; border-radius: 6px; color: #fff; font-size: 0.75rem; min-width: 100px; box-shadow: 0 0 15px #ff0066;">MA1102<br>Cálculo</div>
+                        <div style="color: #ff0066; font-size: 0.7rem; margin-top: 8px; font-weight: bold;">← Requisito</div>
+                    </div>
+                    
+                    <div style="width: 50px; border-top: 3px dashed #ff0066;"></div>
+                    
+                    <!-- Curso Principal -->
+                    <div style="text-align: center; z-index: 2;">
+                        <div style="border: 2px solid #fff; background: #25252c; padding: 16px; border-radius: 6px; color: #fff; font-size: 0.9rem; font-weight: bold; box-shadow: 0 0 20px rgba(255,255,255,0.3); min-width: 120px;">PI2610<br>Probabilidad I</div>
+                        <div style="color: #fff; font-size: 0.7rem; margin-top: 8px; font-weight: bold;">⬆ Mouse aquí</div>
+                    </div>
+                    
+                    <!-- Correquisito y Desbloquea -->
+                    <div style="display: flex; flex-direction: column; gap: 20px;">
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div style="width: 50px; height: 3px; background: #ffdd00;"></div>
+                            <div style="text-align: left;">
+                                <div style="border: 2px solid #ffdd00; background: var(--card-bg); padding: 10px; border-radius: 6px; color: #fff; font-size: 0.75rem; min-width: 100px; box-shadow: 0 0 15px #ffdd00;">CA2125<br>Elementos</div>
+                                <div style="color: #ffdd00; font-size: 0.7rem; margin-top: 5px; font-weight: bold;">Correquisito →</div>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <div style="width: 50px; height: 3px; background: #00ff88;"></div>
+                            <div style="text-align: left;">
+                                <div style="border: 2px solid #00ff88; background: var(--card-bg); padding: 10px; border-radius: 6px; color: #fff; font-size: 0.75rem; min-width: 100px; box-shadow: 0 0 15px #00ff88;">PI3612<br>Prob. II</div>
+                                <div style="color: #00ff88; font-size: 0.7rem; margin-top: 5px; font-weight: bold;">Desbloquea →</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px; background: #18181b; padding: 15px; border-radius: 6px; border-left: 4px solid var(--accent);">
+                    <div style="font-weight: 700; color: #fff; margin-bottom: 8px;">💡 Tip:</div>
+                    <ul style="margin: 0; padding-left: 20px; color: var(--text-dim);">
+                        <li><strong style="color: #ff0066;">Línea Roja Punteada</strong>: Debes aprobar este curso primero</li>
+                        <li><strong style="color: #ffdd00;">Línea Amarilla</strong>: Debes llevar ambos cursos juntos</li>
+                        <li><strong style="color: #00ff88;">Línea Verde</strong>: Este curso se desbloquea cuando apruebes el principal</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 3: FILTROS DE SEMESTRE -->
+            <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
+                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🔍 FILTROS DE SEMESTRE</h2>
+                
+                <p style="color: var(--text-dim); margin-bottom: 20px;">Cuando planeas cursos en un semestre, aparecen botones arriba. Haz clic para filtrar:</p>
+                
+                <div style="display: flex; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; justify-content: center;">
+                    <button style="background: #2c2c35; border: 1px solid #444; color: var(--text-dim); padding: 6px 14px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 600; font-size: 0.85rem;">TODOS</button>
+                    <button style="background: #3b82f6; color: #fff; padding: 6px 14px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 600; font-size: 0.85rem; border: none; box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);">MI S3</button>
+                    <button style="background: #2c2c35; border: 1px solid #444; color: var(--text-dim); padding: 6px 14px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 600; font-size: 0.85rem;">MI S4</button>
+                    <button style="background: linear-gradient(90deg, #ff6b35, #ff9100); color: #fff; padding: 6px 14px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 600; font-size: 0.85rem; border: none; box-shadow: 0 0 15px rgba(255, 107, 53, 0.5);">VERANO 1</button>
+                </div>
+                
+                <div style="background: #121214; padding: 20px; border-radius: 8px; border: 1px solid #333;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                        <div>
+                            <div style="font-weight: 700; color: #3b82f6; margin-bottom: 10px;">🔵 Cursos del Semestre</div>
+                            <div style="border: 2px solid #3b82f6; background: var(--card-bg); padding: 12px; border-radius: 6px; box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);">
+                                <div style="font-size: 0.7rem; color: var(--accent);">MA1103</div>
+                                <div style="font-size: 0.85rem; color: #fff; margin: 4px 0;">Cálculo y Álgebra</div>
+                                <div style="font-size: 0.65rem; color: #777;">4 cr</div>
+                            </div>
+                            <div style="color: var(--text-dim); font-size: 0.8rem; margin-top: 8px;">Los que planeaste para ese semestre</div>
+                        </div>
+                        
+                        <div>
+                            <div style="font-weight: 700; color: #34d399; margin-bottom: 10px;">🟢 Cursos Desbloqueados</div>
+                            <div style="border: 2px dashed #34d399; background: var(--card-bg); padding: 12px; border-radius: 6px; box-shadow: 0 0 10px rgba(52, 211, 153, 0.3); opacity: 0.9;">
+                                <div style="font-size: 0.7rem; color: var(--accent);">FI1102</div>
+                                <div style="font-size: 0.85rem; color: #fff; margin: 4px 0;">Física General II</div>
+                                <div style="font-size: 0.65rem; color: #777;">3 cr</div>
+                            </div>
+                            <div style="color: var(--text-dim); font-size: 0.8rem; margin-top: 8px;">Puedes llevarlos (requisitos cumplidos)</div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 20px; padding: 15px; background: rgba(168, 85, 247, 0.1); border-radius: 6px; border: 1px solid rgba(168, 85, 247, 0.3);">
+                        <div style="font-weight: 700; color: var(--accent); margin-bottom: 5px;">✨ Los demás cursos aparecen en gris</div>
+                        <div style="color: var(--text-dim); font-size: 0.9rem;">Esto te ayuda a enfocarte en lo que importa para ese semestre específico</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 4: MODO EDICIÓN RÁPIDA -->
+            <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
+                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">⚡ EDICIÓN RÁPIDA</h2>
+                
+                <p style="color: var(--text-dim); margin-bottom: 20px;">Marca cursos como CURSANDO o APROBADO con un solo clic:</p>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <!-- Modo Cursando -->
+                    <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a;">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                            <button style="background: #a855f7; color: #fff; border: none; padding: 8px 14px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 0.85rem; box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);">⚡ CURSANDO</button>
+                            <span style="color: var(--text-dim); font-size: 0.85rem;">← Activa este modo</span>
+                        </div>
+                        
+                        <div style="margin: 15px 0;">
+                            <div style="text-align: center; color: #a855f7; font-size: 2rem; margin-bottom: 8px;">🖱️</div>
+                            <div style="text-align: center; color: var(--text-dim); font-size: 0.85rem;">Tu cursor se vuelve púrpura</div>
+                        </div>
+                        
+                        <div style="border: 2px solid #a855f7; background: var(--card-bg); padding: 12px; border-radius: 6px; box-shadow: 0 0 20px #a855f7; cursor: pointer;">
+                            <div style="font-size: 0.7rem; color: var(--accent);">MA2105</div>
+                            <div style="font-size: 0.85rem; color: #fff; margin: 4px 0;">Ecuaciones Dif.</div>
+                            <div style="font-size: 0.65rem; color: #777;">4 cr</div>
+                        </div>
+                        
+                        <div style="text-align: center; margin-top: 15px; color: #a855f7; font-weight: 700;">↓ Haz clic</div>
+                        
+                        <div style="border-left: 4px solid #06b6d4; background: linear-gradient(90deg, rgba(6, 182, 212, 0.08) 0%, transparent 100%); padding: 12px; border-radius: 4px; margin-top: 10px;">
+                            <div style="font-size: 0.7rem; color: var(--accent);">MA2105</div>
+                            <div style="font-size: 0.85rem; color: #22d3ee; margin: 4px 0;">Ecuaciones Dif.</div>
+                            <div style="font-size: 0.65rem; color: #777;">4 cr</div>
+                        </div>
+                        
+                        <div style="margin-top: 15px; padding: 10px; background: rgba(168, 85, 247, 0.1); border-radius: 4px;">
+                            <div style="color: var(--text-dim); font-size: 0.8rem;"><strong style="color: #fff;">Tip:</strong> Haz clic de nuevo para desmarcar</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Modo Aprobado -->
+                    <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a;">
+                        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
+                            <button style="background: #84cc16; color: #000; border: none; padding: 8px 14px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 0.85rem; box-shadow: 0 0 15px rgba(132, 204, 22, 0.5);">✔ APROBADO</button>
+                            <span style="color: var(--text-dim); font-size: 0.85rem;">← Activa este modo</span>
+                        </div>
+                        
+                        <div style="margin: 15px 0;">
+                            <div style="text-align: center; color: #84cc16; font-size: 2rem; margin-bottom: 8px;">🖱️</div>
+                            <div style="text-align: center; color: var(--text-dim); font-size: 0.85rem;">Tu cursor se vuelve verde lima</div>
+                        </div>
+                        
+                        <div style="border: 2px solid #84cc16; background: var(--card-bg); padding: 12px; border-radius: 6px; box-shadow: 0 0 20px #84cc16; cursor: pointer;">
+                            <div style="font-size: 0.7rem; color: var(--accent);">FI1101</div>
+                            <div style="font-size: 0.85rem; color: #fff; margin: 4px 0;">Física General I</div>
+                            <div style="font-size: 0.65rem; color: #777;">3 cr</div>
+                        </div>
+                        
+                        <div style="text-align: center; margin-top: 15px; color: #84cc16; font-weight: 700;">↓ Haz clic</div>
+                        
+                        <div style="border-left: 4px solid #10b981; background: linear-gradient(90deg, rgba(16, 185, 129, 0.08) 0%, transparent 100%); padding: 12px; border-radius: 4px; margin-top: 10px;">
+                            <div style="font-size: 0.7rem; color: var(--accent);">FI1101</div>
+                            <div style="font-size: 0.85rem; color: #4ade80; margin: 4px 0;">Física General I</div>
+                            <div style="font-size: 0.65rem; color: #777;">3 cr</div>
+                        </div>
+                        
+                        <div style="margin-top: 15px; padding: 10px; background: rgba(132, 204, 22, 0.1); border-radius: 4px;">
+                            <div style="color: var(--text-dim); font-size: 0.8rem;"><strong style="color: #fff;">Tip:</strong> Los cursos aprobados desbloquean otros automáticamente</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 5: BÚSQUEDA -->
+            <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
+                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🔍 BÚSQUEDA RÁPIDA</h2>
+                
+                <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a;">
+                    <div style="margin-bottom: 15px;">
+                        <input type="text" placeholder="🔍 Buscar curso..." value="física" style="width: 100%; background: #2c2c35; border: 1px solid #3b82f6; color: var(--text-main); padding: 12px; border-radius: 6px; font-family: 'Rajdhani', sans-serif; font-size: 1rem; box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);" readonly>
+                    </div>
+                    
+                    <div style="display: flex; gap: 15px; align-items: center;">
+                        <div style="flex: 1; opacity: 0.2; filter: grayscale(100%);">
+                            <div style="border: 1px solid #333; background: var(--card-bg); padding: 10px; border-radius: 4px;">
+                                <div style="font-size: 0.65rem; color: #777;">MA1102</div>
+                                <div style="font-size: 0.8rem; color: #999;">Cálculo</div>
+                            </div>
+                        </div>
+                        
+                        <div style="flex: 1; transform: scale(1.1); border: 2px solid #3b82f6; background: var(--card-bg); padding: 12px; border-radius: 6px; box-shadow: 0 0 20px #3b82f6;">
+                            <div style="font-size: 0.7rem; color: var(--accent);">FI1101</div>
+                            <div style="font-size: 0.9rem; color: #fff; font-weight: 700;">Física General I</div>
+                            <div style="font-size: 0.65rem; color: #777;">3 cr</div>
+                        </div>
+                        
+                        <div style="flex: 1; opacity: 0.2; filter: grayscale(100%);">
+                            <div style="border: 1px solid #333; background: var(--card-bg); padding: 10px; border-radius: 4px;">
+                                <div style="font-size: 0.65rem; color: #777;">QU1106</div>
+                                <div style="font-size: 0.8rem; color: #999;">Química</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 20px; padding: 15px; background: rgba(59, 130, 246, 0.1); border-radius: 6px; border: 1px solid rgba(59, 130, 246, 0.3);">
+                        <div style="color: var(--text-dim); font-size: 0.9rem;">
+                            <strong style="color: #fff;">💡 Funciona con:</strong> Código del curso (ej: "MA1102") o nombre parcial (ej: "cálculo", "física")
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 6: PERFIL Y PONDERADO -->
+            <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
+                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">📊 PERFIL Y PROMEDIO PONDERADO</h2>
+                
+                <p style="color: var(--text-dim); margin-bottom: 20px;">Guarda tus notas para calcular automáticamente tu promedio TEC:</p>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a;">
+                        <div style="font-weight: 700; color: var(--accent); margin-bottom: 15px; font-size: 1.1rem;">1️⃣ Ingresa tus notas</div>
+                        <div style="background: var(--card-bg); padding: 15px; border-radius: 6px; border: 1px solid #333;">
+                            <div style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 8px;">NOTA (0-100)</div>
+                            <input type="number" value="85" style="width: 100%; background: #09090b; border: 1px solid var(--accent); color: #fff; padding: 12px; border-radius: 6px; font-family: 'Rajdhani', sans-serif; font-size: 1.1rem;" readonly>
+                        </div>
+                        <div style="margin-top: 15px; color: var(--text-dim); font-size: 0.85rem;">
+                            ✅ Nota ≥ 70 → Aprobado (verde)<br>
+                            ❌ Nota < 70 → Reprobado (rojo)
+                        </div>
+                    </div>
+                    
+                    <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a;">
+                        <div style="font-weight: 700; color: var(--accent); margin-bottom: 15px; font-size: 1.1rem;">2️⃣ Ve tu ponderado</div>
+                        <div style="background: #09090b; padding: 20px; border-radius: 8px; border: 1px solid #333; text-align: center; box-shadow: inset 0 0 20px rgba(0,0,0,0.5);">
+                            <div style="font-size: 3rem; font-weight: 700; color: #3b82f6; line-height: 1; text-shadow: 0 0 10px rgba(59,130,246,0.3);">82.5</div>
+                            <div style="font-size: 0.8rem; color: var(--text-dim); text-transform: uppercase; margin-top: 8px; letter-spacing: 1px;">Promedio Ponderado TEC</div>
+                        </div>
+                        <div style="margin-top: 15px; padding: 12px; background: rgba(59, 130, 246, 0.1); border-radius: 6px;">
+                            <div style="color: var(--text-dim); font-size: 0.85rem;">
+                                <strong style="color: #fff;">Automático:</strong> Se calcula con (nota × créditos) / total créditos
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px; background: #121214; padding: 20px; border-radius: 8px; border: 1px solid #333;">
+                    <div style="font-weight: 700; color: #fff; margin-bottom: 12px;">📈 Gráfico de Progreso</div>
+                    <div style="display: flex; gap: 8px; align-items: flex-end; height: 100px; background: #18181b; padding: 15px; border-radius: 6px;">
+                        <div style="flex: 1; background: var(--accent); height: 60%; border-radius: 4px 4px 0 0; position: relative;">
+                            <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; font-weight: bold; color: #fff;">15</div>
+                            <div style="position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); font-size: 0.65rem; color: var(--text-dim);">S1</div>
+                        </div>
+                        <div style="flex: 1; background: var(--accent); height: 80%; border-radius: 4px 4px 0 0; position: relative;">
+                            <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; font-weight: bold; color: #fff;">18</div>
+                            <div style="position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); font-size: 0.65rem; color: var(--text-dim);">S2</div>
+                        </div>
+                        <div style="flex: 1; background: var(--accent); height: 100%; border-radius: 4px 4px 0 0; position: relative;">
+                            <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; font-weight: bold; color: #fff;">20</div>
+                            <div style="position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); font-size: 0.65rem; color: var(--text-dim);">S3</div>
+                        </div>
+                    </div>
+                    <div style="text-align: center; margin-top: 30px; color: var(--text-dim); font-size: 0.85rem;">Créditos cursados por semestre</div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 7: EXPORTAR -->
+            <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
+                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">💾 GUARDAR Y EXPORTAR</h2>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
+                    <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a; text-align: center;">
+                        <div style="font-size: 2.5rem; margin-bottom: 10px;">💾</div>
+                        <div style="font-weight: 700; color: #fff; margin-bottom: 8px;">GUARDAR</div>
+                        <div style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 15px;">Exporta tu plan como .json</div>
+                        <button style="background: transparent; border: 1px solid #10b981; color: #10b981; padding: 8px 16px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 700; cursor: pointer;">Descargar JSON</button>
+                    </div>
+                    
+                    <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a; text-align: center;">
+                        <div style="font-size: 2.5rem; margin-bottom: 10px;">📂</div>
+                        <div style="font-weight: 700; color: #fff; margin-bottom: 8px;">CARGAR</div>
+                        <div style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 15px;">Importa un plan guardado</div>
+                        <button style="background: transparent; border: 1px solid #3b82f6; color: #3b82f6; padding: 8px 16px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 700; cursor: pointer;">Cargar JSON</button>
+                    </div>
+                    
+                    <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a; text-align: center;">
+                        <div style="font-size: 2.5rem; margin-bottom: 10px;">📊</div>
+                        <div style="font-weight: 700; color: #fff; margin-bottom: 8px;">EXCEL</div>
+                        <div style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 15px;">Exporta a Excel (.xls)</div>
+                        <button style="background: transparent; border: 1px solid #10b981; color: #10b981; padding: 8px 16px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 700; cursor: pointer;">Descargar Excel</button>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 20px; padding: 15px; background: rgba(16, 185, 129, 0.1); border-radius: 6px; border: 1px solid rgba(16, 185, 129, 0.3);">
+                    <div style="font-weight: 700; color: #10b981; margin-bottom: 8px;">✨ Auto-Guardado Inteligente</div>
+                    <div style="color: var(--text-dim); font-size: 0.9rem;">Tu progreso se guarda automáticamente en tu navegador. Los botones son para hacer respaldos adicionales o compartir tu plan.</div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN 8: SIMULADOR -->
+            <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333;">
+                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🎓 SIMULADOR DE GRADUACIÓN</h2>
+                
+                <p style="color: var(--text-dim); margin-bottom: 20px;">Calcula cuándo te graduarás según diferentes ritmos de estudio:</p>
+                
+                <div style="background: #18181b; padding: 25px; border-radius: 8px; border: 1px solid #27272a;">
+                    <div style="background: #09090b; padding: 20px; border-radius: 8px; margin-bottom: 20px; text-align: center;">
+                        <div style="font-size: 1rem; color: var(--text-dim); margin-bottom: 10px;">Te faltan:</div>
+                        <div style="font-size: 3rem; font-weight: 700; color: #3b82f6;">65 <span style="font-size: 1.5rem;">créditos</span></div>
+                    </div>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <div style="background: #121214; padding: 18px; border-radius: 8px; border-left: 4px solid var(--accent);">
+                            <div style="font-weight: 700; font-size: 1.1rem; color: #fff; margin-bottom: 8px;">Rápido (18 cr/sem)</div>
+                            <div style="color: var(--text-dim); font-size: 0.95rem;">📅 4 semestres (~2.0 años) • 📚 18 créditos por semestre</div>
+                        </div>
+                        
+                        <div style="background: #121214; padding: 18px; border-radius: 8px; border-left: 4px solid #3b82f6;">
+                            <div style="font-weight: 700; font-size: 1.1rem; color: #fff; margin-bottom: 8px;">Normal (15 cr/sem)</div>
+                            <div style="color: var(--text-dim); font-size: 0.95rem;">📅 5 semestres (~2.5 años) • 📚 15 créditos por semestre</div>
+                        </div>
+                        
+                        <div style="background: #121214; padding: 18px; border-radius: 8px; border-left: 4px solid #10b981;">
+                            <div style="font-weight: 700; font-size: 1.1rem; color: #fff; margin-bottom: 8px;">Tranquilo (12 cr/sem)</div>
+                            <div style="color: var(--text-dim); font-size: 0.95rem;">📅 6 semestres (~3.0 años) • 📚 12 créditos por semestre</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal-footer" style="padding: 25px 30px;">
+            <button class="btn-modal btn-confirm" onclick="closeTutorial()" style="width: 100%; background: var(--accent); color: #fff; font-size: 1.2rem; padding: 18px; box-shadow: 0 0 20px rgba(130, 87, 230, 0.5);">¡ENTENDIDO, EMPECEMOS! 🚀</button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        // 1. EL CATÁLOGO MAESTRO DE CARRERAS
+        // 1. EL CATÁLOGO MAESTRO DE CARRERAS (PRE-CARGADO CON LA RUTA IDEAL)
+        const curriculums = {
+            fisica: [
+                // BLOQUE 0 
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, reqs: [], coreqs: [], userSem: 0 },
+                // BLOQUE 1 
+                { id: 'IF1101', block: 1, name: 'Introducción a la Ingeniería Física', cred: 3, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Lab. Química I', cred: 1, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CI1230', block: 1, name: 'Inglés I', cred: 2, reqs: ['CI0202'], coreqs: [], userSem: 1 },
+                // BLOQUE 2 
+                { id: 'MA1102', block: 2, name: 'Cálculo Dif. e Integral', cred: 4, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, reqs: [], coreqs: ['MA1102'], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Lab. Física I', cred: 1, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, reqs: ['QU1106'], coreqs: [], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Lab. Química II', cred: 1, reqs: ['QU1102'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'CS2101', block: 2, name: 'Ambiente Humano', cred: 2, reqs: ['IF1101','CI1106'], coreqs: [], userSem: 2 },
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+                { id: 'CI1231', block: 2, name: 'Inglés II', cred: 2, reqs: ['CI1230'], coreqs: [], userSem: 2 },
+                // BLOQUE 3 
+                { id: 'CA2125', block: 3, name: 'Elementos De Computación', cred: 3, reqs: [], coreqs: [], userSem: 3 },
+                { id: 'FI1102', block: 3, name: 'Física General II', cred: 3, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 3 },
+                { id: 'FI1202', block: 3, name: 'Laboratorio Física General II', cred: 1, reqs: ['FI1201'], coreqs: ['FI1102'], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'MI2101', block: 3, name: 'Dibujo Técnico', cred: 3, reqs: ['MA0101'], coreqs: [], userSem: 3 },
+                { id: 'MI2106', block: 3, name: 'Estática', cred: 3, reqs: ['FI1101'], coreqs: [], userSem: 3 },
+                { id: 'SE1400', block: 3, name: 'Actividad Cultural-Deportiva', cred: 0, reqs: [], coreqs: [], userSem: 3 },
+                // BLOQUE 4 
+                { id: 'FI2103', block: 4, name: 'Física General III', cred: 3, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 4 },
+                { id: 'IF3502', block: 4, name: 'Instrumentación I', cred: 1, reqs: [], coreqs: ['MT2001', 'MT2002'], userSem: 4 },
+                { id: 'MA2105', block: 4, name: 'Ecuaciones Diferenciales', cred: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+                { id: 'MI3117', block: 4, name: 'Dinámica', cred: 3, reqs: ['MI2106'], coreqs: [], userSem: 4 },
+                { id: 'MT2001', block: 4, name: 'Circuitos Eléctricos En Cc Y Ca', cred: 3, reqs: ['FI1102'], coreqs: [], userSem: 4 },
+                { id: 'MT2002', block: 4, name: 'Lab. De Circuitos De CC Y CA', cred: 1, reqs: ['MA1102'], coreqs: ['MT2001'], userSem: 4 },
+                { id: 'PI2610', block: 4, name: 'Probabilidad Y Estadística I', cred: 3, reqs: ['MA1102'], coreqs: ['CA2125'], userSem: 4 },        
+                // BLOQUE 5 
+                { id: 'FI2104', block: 5, name: 'Física General IV', cred: 3, reqs: ['FI1102'], coreqs: ['MA2104'], userSem: 5 },
+                { id: 'IF3501', block: 5, name: 'Termodinámica I', cred: 3, reqs: ['FI2103'], coreqs: [], userSem: 5 },
+                { id: 'IF3503', block: 5, name: 'Instrumentación II', cred: 1, reqs: ['IF3502'], coreqs: [], userSem: 5 },
+                { id: 'MA2104', block: 5, name: 'Cálculo Superior', cred: 4, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+                { id: 'MA3106', block: 5, name: 'Métodos Numéricos', cred: 4, reqs: ['MA2105'], coreqs: [], userSem: 5 },
+                { id: 'PI3612', block: 5, name: 'Probabilidad Y Estadística II', cred: 3, reqs: ['MA1103', 'PI2610'], coreqs: [], userSem: 5 },
+                // BLOQUE 6 
+                { id: 'IF3601', block: 6, name: 'Metodología De La Investigación', cred: 3, hrs: 9, reqs: ['PI3612'], coreqs: [], userSem: 6 },
+                { id: 'IF3602', block: 6, name: 'Métodos Matemáticos De Física E Ingeniería I', cred: 3, hrs: 9, reqs: ['MA2105'], coreqs: ['IF3603'], userSem: 6 },
+                { id: 'IF3603', block: 6, name: 'Óptica', cred: 3, hrs: 9, reqs: ['FI2104'], coreqs: ['IF3604'], userSem: 6 },
+                { id: 'IF3604', block: 6, name: 'Laboratorio De Óptica', cred: 1, hrs: 3, reqs: [], coreqs: ['IF3603'], userSem: 6 },
+                { id: 'MI3108', block: 6, name: 'Mecánica De Fluidos', cred: 4, hrs: 4, reqs: ['MA2105', 'MI3117'], coreqs: [], userSem: 6 },
+                { id: 'PI5302', block: 6, name: 'Diseño De Experimentos', cred: 4, hrs: 4, reqs: ['PI3612'], coreqs: [], userSem: 6 },
+                // BLOQUE 7 
+                { id: 'CS3404', block: 7, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['IF1101'], coreqs: [], userSem: 7 },
+                { id: 'EL4513', block: 7, name: 'Teoría Electromagnética I', cred: 4, hrs: 4, reqs: ['FI1102', 'MA2105'], coreqs: [], userSem: 7 },
+                { id: 'IF4701', block: 7, name: 'Métodos Matemáticos De Física E Ingeniería II', cred: 3, hrs: 9, reqs: ['IF3602'], coreqs: [], userSem: 7 },
+                { id: 'IF4702', block: 7, name: 'Física Computacional I', cred: 3, hrs: 9, reqs: ['MA3106', 'MI2101'], coreqs: [], userSem: 7 },
+                { id: 'IF4703', block: 7, name: 'Análisis De Incertidumbres', cred: 3, hrs: 9, reqs: ['PI5302'], coreqs: [], userSem: 7 },
+                { id: 'IF4704', block: 7, name: 'Electiva I', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 7 },
+                // BLOQUE 8 
+                { id: 'CS4402', block: 8, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 8 },
+                { id: 'IF4801', block: 8, name: 'Mecánica Cuántica Para Ingeniería', cred: 3, hrs: 9, reqs: ['IF3603', 'IF4701'], coreqs: [], userSem: 8 },
+                { id: 'IF4802', block: 8, name: 'Laboratorio Metrología I', cred: 2, hrs: 6, reqs: [], coreqs: ['IF4803'], userSem: 8 },
+                { id: 'IF4803', block: 8, name: 'Metrología Industrial Y Legal', cred: 3, hrs: 9, reqs: ['IF4703'], coreqs: [], userSem: 8 },
+                { id: 'IF4804', block: 8, name: 'Física Computacional II', cred: 3, hrs: 9, reqs: ['IF4702'], coreqs: [], userSem: 8 },
+                { id: 'MT7001', block: 8, name: 'Análisis Y Simulación De Sistemas', cred: 3, hrs: 4, reqs: ['IF4701', 'MA2105'], coreqs: [], userSem: 8 },
+                // BLOQUE 9 
+                { id: 'IF5901', block: 9, name: 'Física Experimental', cred: 3, hrs: 9, reqs: ['IF3503', 'IF3604'], coreqs: [], userSem: 9 },
+                { id: 'IF5902', block: 9, name: 'Física Contemporánea', cred: 3, hrs: 9, reqs: ['FI2104'], coreqs: [], userSem: 9 },
+                { id: 'IF5903', block: 9, name: 'Metrología Científica', cred: 3, hrs: 9, reqs: ['IF4803'], coreqs: [], userSem: 9 },
+                { id: 'IF5904', block: 9, name: 'Electiva II', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 9 },
+                { id: 'IF5905', block: 9, name: 'Física De La Materia Condensada', cred: 3, hrs: 9, reqs: ['IF4801'], coreqs: [], userSem: 9 },
+                { id: 'IF5906', block: 9, name: 'Energía Y Sus Transformaciones', cred: 3, hrs: 9, reqs: ['IF3501'], coreqs: [], userSem: 9 },
+                // BLOQUE 10
+                { id: 'AE4208', block: 10, name: 'Desarrollo De Emprendedores', cred: 4, hrs: 12, reqs: ['IF3601'], coreqs: [], userSem: 10 },
+                { id: 'AE5121', block: 10, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: ['IF3601'], coreqs: [], userSem: 10 },
+                { id: 'IF5108', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['IF5905'], coreqs: [], userSem: 10 },
+                { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['IF4804'], coreqs: [], userSem: 10 }
+            ],
+            biotecnologia: [
+                // BLOQUE 0
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+
+                // BLOQUE 1
+                { id: 'BI1101', block: 1, name: 'Biología General', cred: 3, hrs: 9, reqs: [], coreqs: ['BI1102'], userSem: 1 },
+                { id: 'BI1102', block: 1, name: 'Laboratorio De Biología General', cred: 1, hrs: 3, reqs: [], coreqs: ['BI1101'], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'FI1105', block: 1, name: 'Física Para Biotecnología', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'IB1601', block: 1, name: 'Introducción A La Biotecnología', cred: 2, hrs: 3, reqs: [], coreqs: ['BI1101', 'BI1102'], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+
+                // BLOQUE 2
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'CI1202', block: 2, name: 'Inglés Para Biotecnología I', cred: 2, hrs: 3, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'IB2113', block: 2, name: 'Análisis Estadístico Para Biotecnología', cred: 3, hrs: 9, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'IB2203', block: 2, name: 'Anatomía Vegetal', cred: 3, hrs: 4, reqs: ['BI1101', 'BI1102'], coreqs: ['IB2204'], userSem: 2 },
+                { id: 'IB2204', block: 2, name: 'Laboratorio De Anatomía Vegetal', cred: 1, hrs: 3, reqs: ['BI1101', 'BI1102'], coreqs: ['IB2203'], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1104'], userSem: 2 },
+                { id: 'SE1200', block: 2, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+
+                // BLOQUE 3
+                { id: 'CI1203', block: 3, name: 'Inglés Para Biotecnología II', cred: 2, hrs: 3, reqs: ['CI1202'], coreqs: [], userSem: 3 },
+                { id: 'CS3301', block: 3, name: 'Derecho Ambiental Y Biotecnológico', cred: 2, hrs: 2, reqs: ['CI1107'], coreqs: [], userSem: 3 },
+                { id: 'IB2205', block: 3, name: 'Fisiología Vegetal', cred: 3, hrs: 3, reqs: ['IB2203', 'IB2204'], coreqs: ['IB2211'], userSem: 3 },
+                { id: 'IB2211', block: 3, name: 'Laboratorio De Fisiología Vegetal', cred: 2, hrs: 3, reqs: ['IB2203', 'IB2204'], coreqs: ['IB2205'], userSem: 3 },
+                { id: 'IB2302', block: 3, name: 'Laboratorio De Genética', cred: 1, hrs: 3, reqs: ['BI1101', 'BI1102'], coreqs: ['IB2304'], userSem: 3 },
+                { id: 'IB2304', block: 3, name: 'Genética', cred: 3, hrs: 4, reqs: ['BI1101', 'BI1102'], coreqs: ['IB2302'], userSem: 3 },
+                { id: 'QU2403', block: 3, name: 'Química Orgánica', cred: 3, hrs: 4, reqs: ['QU1107'], coreqs: ['QU2404'], userSem: 3 },
+                { id: 'QU2404', block: 3, name: 'Laboratorio De Química Orgánica', cred: 2, hrs: 4, reqs: ['QU1104'], coreqs: ['QU2403'], userSem: 3 },
+                { id: 'SE1400', block: 3, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+
+                // BLOQUE 4
+                { id: 'FH1000', block: 4, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 4 },
+                { id: 'IB2021', block: 4, name: 'Sistemas Bioinformáticos', cred: 2, hrs: 3, reqs: ['IB2113', 'IB2304'], coreqs: [], userSem: 4 },
+                { id: 'IB3210', block: 4, name: 'Sistemas Ecológicos', cred: 3, hrs: 3, reqs: ['IB2113'], coreqs: ['IB2021'], userSem: 4 },
+                { id: 'IB3302', block: 4, name: 'Mejoramiento Genético', cred: 3, hrs: 3, reqs: ['IB2302', 'IB2304'], coreqs: [], userSem: 4 },
+                { id: 'IB3404', block: 4, name: 'Aplicación De Sistemas De Producción Agrícola', cred: 3, hrs: 3, reqs: ['IB2205', 'IB2211'], coreqs: ['IB3405'], userSem: 4 },
+                { id: 'IB3405', block: 4, name: 'Laboratorio Aplicación De Sistemas De Producción Agrícola', cred: 2, hrs: 3, reqs: ['IB2205', 'IB2211'], coreqs: ['IB3404'], userSem: 4 },
+                { id: 'IB3601', block: 4, name: 'Bioquímica', cred: 3, hrs: 3, reqs: ['QU2403', 'QU2404'], coreqs: ['IB3603'], userSem: 4 },
+                { id: 'IB3603', block: 4, name: 'Laboratorio De Bioquímica', cred: 1, hrs: 3, reqs: ['QU2403', 'QU2404'], coreqs: ['IB3601'], userSem: 4 },
+
+                // BLOQUE 5
+                { id: 'CS3401', block: 5, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, hrs: 3, reqs: ['CS1502'], coreqs: [], userSem: 5 },
+                { id: 'IB2105', block: 5, name: 'Microbiología Aplicada', cred: 3, hrs: 3, reqs: ['IB3601'], coreqs: ['IB2106'], userSem: 5 },
+                { id: 'IB2106', block: 5, name: 'Laboratorio De Microbiología Aplicada', cred: 1, hrs: 3, reqs: ['IB3603'], coreqs: ['IB2105'], userSem: 5 },
+                { id: 'IB3202', block: 5, name: 'Cultivos De Tejidos I', cred: 3, hrs: 3, reqs: ['IB2205', 'IB2211'], coreqs: ['IB3203'], userSem: 5 },
+                { id: 'IB3203', block: 5, name: 'Laboratorio De Cultivo De Tejidos I', cred: 2, hrs: 4, reqs: ['IB2205', 'IB2211'], coreqs: ['IB3202'], userSem: 5 },
+                { id: 'IB3204', block: 5, name: 'Ingeniería Bioquímica', cred: 4, hrs: 4, reqs: ['FI1105', 'IB3601', 'IB3603'], coreqs: [], userSem: 5 },
+                { id: 'IB4803', block: 5, name: 'Tratamiento Biotecnológico De Aguas Residuales', cred: 3, hrs: 3, reqs: ['IB3603'], coreqs: ['IB2105', 'IB2106'], userSem: 5 },
+
+                // BLOQUE 6 
+                { id: 'AE4208', block: 6, name: 'Desarrollo De Emprendedores', cred: 4, hrs: 12, reqs: ['CS3301'], coreqs: [], userSem: 6 },
+                { id: 'IB3107', block: 6, name: 'Microbiología Industrial', cred: 3, hrs: 3, reqs: ['IB2105', 'IB2106'], coreqs: [], userSem: 6 },
+                { id: 'IB4101', block: 6, name: 'Biología Molecular Aplicada', cred: 3, hrs: 3, reqs: ['IB2105', 'IB2106'], coreqs: ['IB4106'], userSem: 6 },
+                { id: 'IB4106', block: 6, name: 'Laboratorio De Biología Molecular Aplicada', cred: 2, hrs: 4, reqs: ['IB2105', 'IB2106'], coreqs: ['IB4101'], userSem: 6 },
+                { id: 'IB4201', block: 6, name: 'Cultivo De Tejidos II', cred: 3, hrs: 3, reqs: ['IB3202', 'IB3203'], coreqs: ['IB4202'], userSem: 6 },
+                { id: 'IB4202', block: 6, name: 'Laboratorio De Cultivo De Tejidos II', cred: 2, hrs: 4, reqs: ['IB3202', 'IB3203'], coreqs: ['IB4201'], userSem: 6 },
+
+                // BLOQUE 7
+                { id: 'CS4402', block: 7, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3401'], coreqs: [], userSem: 7 },
+                { id: 'IB3101', block: 7, name: 'Seminario Taller De Formulación, Evaluación Y Gestión De Proyectos', cred: 3, hrs: 3, reqs: ['AE4208', 'IB4201'], coreqs: [], userSem: 7 },
+                { id: 'IB4505', block: 7, name: 'Sistemas Biotecnológicos De Producción', cred: 4, hrs: 4, reqs: ['IB3204', 'IB4101'], coreqs: [], userSem: 7 },
+                { id: 'IB6001', block: 7, name: 'Electiva I', cred: 3, hrs: 3, reqs: [], coreqs: [], userSem: 7 },
+                { id: 'IB6002', block: 7, name: 'Electiva II', cred: 3, hrs: 3, reqs: [], coreqs: [], userSem: 7 },
+                { id: 'IB6003', block: 7, name: 'Electiva III', cred: 3, hrs: 3, reqs: [], coreqs: [], userSem: 7 },
+
+                // BLOQUE 8
+                { id: 'IB4001', block: 8, name: 'Trabajo Final De Graduación', cred: 10, hrs: 0, reqs: ['IB4505'], coreqs: [], userSem: 8 }
+            ]
+        };
+
+        // 2. VARIABLES GLOBALES DINÁMICAS
+        let coursesDB = []; 
+        let currentMajor = null; 
+        
+        let activeFilterSemester = null;
+        let currentCourse = null;
+        let editMode = null; 
+
+        // 3. SECUENCIA DE ARRANQUE
+        function bootSystem() {
+            currentMajor = localStorage.getItem('TecPlanner_ActiveMajor');
+            
+            if (!currentMajor) {
+                document.getElementById('majorSelectionOverlay').style.display = 'flex';
+            } else {
+                const title = currentMajor === 'fisica' ? 'ING. FÍSICA' : 'BIOTECNOLOGÍA';
+                loadMajor(currentMajor, title);
+            }
+        }
+
+        function selectMajor(majorKey, titleText) {
+            document.getElementById('majorSelectionOverlay').style.display = 'none';
+            localStorage.setItem('TecPlanner_ActiveMajor', majorKey);
+            loadMajor(majorKey, titleText);
+            
+            if (!localStorage.getItem('TecPlanner_TutorialSeen')) {
+                openTutorial();
+            }
+        }
+
+        function loadMajor(majorKey, titleText) {
+            currentMajor = majorKey;
+            document.getElementById('hudTitle').innerText = `TEC // ${titleText}`;
+            
+            // Cargar el catálogo de la carrera seleccionada
+            coursesDB = JSON.parse(JSON.stringify(curriculums[majorKey]));
+            
+            init(); 
+        }
+
+        function resetMajor() {
+            if(confirm("¿Estás seguro de cambiar de carrera? Esto ocultará tu progreso actual (no se borrará, solo se guardará internamente).")) {
+                localStorage.removeItem('TecPlanner_ActiveMajor');
+                location.reload(); 
+            }
+        }
+
+        function init() {
+            loadFromLocal();
+            renderGrid();
+            renderButtons();
+            setTimeout(drawConnections, 100);
+            window.addEventListener('resize', drawConnections);
+            document.querySelector('.game-area').addEventListener('scroll', drawConnections);
+            updateStats(activeFilterSemester);
+        }
+
+        // --- LÓGICA DE EDICIÓN RÁPIDA ---
+        function toggleEditMode(mode) {
+            if (editMode === mode) {
+                editMode = null;
+                document.body.classList.remove('edit-mode', `edit-mode-${mode}`);
+                document.getElementById(`btnEdit${mode.charAt(0).toUpperCase() + mode.slice(1)}`).classList.remove(`active-${mode}`);
+            } else {
+                if (editMode) {
+                    document.body.classList.remove(`edit-mode-${editMode}`);
+                    document.getElementById(`btnEdit${editMode.charAt(0).toUpperCase() + editMode.slice(1)}`).classList.remove(`active-${editMode}`);
+                }
+                editMode = mode;
+                document.body.classList.add('edit-mode', `edit-mode-${mode}`);
+                document.getElementById(`btnEdit${mode.charAt(0).toUpperCase() + mode.slice(1)}`).classList.add(`active-${mode}`);
+            }
+        }
+
+        function renderGrid() {
+            const container = document.getElementById('treeGrid');
+            const svg = document.getElementById('connections');
+            
+            while(container.childNodes.length > 2) { 
+                if(container.lastChild !== svg) container.removeChild(container.lastChild); 
+            }
+
+            const blocks = {};
+            coursesDB.forEach(c => {
+                if(!blocks[c.block]) blocks[c.block] = [];
+                blocks[c.block].push(c);
+            });
+
+            Object.keys(blocks).sort((a,b)=>a-b).forEach(blockNum => {
+                const col = document.createElement('div');
+                col.className = 'semester-column';
+                col.innerHTML = `<div class="column-header">BLOQUE ${blockNum}</div>`;
+                
+                blocks[blockNum].forEach(c => {
+                    // ✅ DETERMINAR CLASES DE TIMING
+                    let timingClass = '';
+                    if (c.userSem) {
+                        if (c.userSem % 1 !== 0) {
+                            timingClass = 'timing-verano'; // Verano
+                        } else if (c.userSem > c.block) {
+                            timingClass = 'timing-atrasado'; // Atrasado
+                        } else if (c.userSem < c.block) {
+                            timingClass = 'timing-adelantado'; // Adelantado
+                        }
+                    }
+
+                    // ✅ CALCULAR BADGES
+                    const unlocksCount = coursesDB.filter(course => course.reqs.includes(c.id)).length;
+                    let keyBadge = '';
+                    if (unlocksCount >= 3) {
+                        keyBadge = `<div class="key-course-badge" title="Desbloquea ${unlocksCount} cursos">🔑 ${unlocksCount}</div>`;
+                    }
+
+                    const node = document.createElement('div');
+                    const nodeStatus = c.status || 'pendiente';
+                    
+                    node.className = `node ${c.userSem ? 'in-user-semester' : ''} ${timingClass} status-${nodeStatus}`;
+                    node.id = c.id;
+                    node.dataset.userSem = c.userSem || '';
+                    
+                    node.innerHTML = `
+                        <div class="node-code"><span>${c.id}</span> <span class="user-sem-badge">S${c.userSem}</span></div>
+                        <div class="node-name">${c.name}</div>
+                        <div class="node-credits">${c.cred} cr</div>
+                        ${keyBadge}
+                    `;
+                    
+                    node.onmouseenter = () => handleHover(c.id, true);
+                    node.onmouseleave = () => handleHover(c.id, false);
+                    
+                    node.onclick = () => {
+                        if (editMode) {
+                            c.status = (c.status === editMode) ? 'pendiente' : editMode;
+                            saveToLocal(); renderGrid(); drawConnections();
+                            updateStats(activeFilterSemester);
+                            if (activeFilterSemester) filterByUserSemester(activeFilterSemester);
+                            if (document.getElementById('characterSheet').classList.contains('open')) updateCharacterSheet();
+                        } else {
+                            openModal(c);
+                        }
+                    };
+
+                    col.appendChild(node);
+                });
+                container.appendChild(col);
+            });
+
+            checkAnomalies();
+        }
+
+        function updateProgressDashboard() {
+            const totalCredits = coursesDB.reduce((sum, c) => sum + c.cred, 0);
+            const approvedCredits = coursesDB.filter(c => c.status === 'aprobado').reduce((sum, c) => sum + c.cred, 0);
+            const percentage = ((approvedCredits / totalCredits) * 100).toFixed(1);
+            
+            // Barra de progreso
+            const bar = document.getElementById('totalProgress');
+            if (bar) bar.style.width = `${percentage}%`;
+            
+            const stats = document.getElementById('progressStats');
+            if (stats) stats.innerText = `${approvedCredits} / ${totalCredits} créditos (${percentage}%)`;
+            
+            // Gráfico de créditos por semestre
+            const semesterData = {};
+            coursesDB.forEach(c => {
+                if (c.userSem) {
+                    if (!semesterData[c.userSem]) semesterData[c.userSem] = 0;
+                    semesterData[c.userSem] += c.cred;
+                }
+            });
+            
+            const chartContainer = document.getElementById('semesterChart');
+            if (chartContainer) {
+                chartContainer.innerHTML = '';
+                Object.keys(semesterData).sort((a, b) => a - b).forEach(sem => {
+                    const credits = semesterData[sem];
+                    const maxCredits = Math.max(...Object.values(semesterData));
+                    const height = (credits / maxCredits) * 100;
+                    
+                    const bar = document.createElement('div');
+                    bar.className = 'chart-bar';
+                    bar.style.height = `${height}%`;
+                    bar.innerHTML = `
+                        <div class="chart-bar-value">${credits}</div>
+                        <div class="chart-bar-label">S${sem}</div>
+                    `;
+                    bar.title = `Semestre ${sem}: ${credits} créditos`;
+                    chartContainer.appendChild(bar);
+                });
+            }
+        }
+
+        // --- VALIDACIÓN DE ANOMALÍAS ESPACIOTEMPORALES ---
+        function checkAnomalies() {
+            document.querySelectorAll('.anomaly-badge').forEach(e => e.remove());
+            document.querySelectorAll('.node').forEach(n => n.classList.remove('anomaly'));
+
+            coursesDB.forEach(c => {
+                if (!c.userSem) return; 
+                
+                let isAnomaly = false;
+                let errorMsg = [];
+
+                c.reqs.forEach(reqId => {
+                    const reqCourse = coursesDB.find(x => x.id === reqId);
+                    
+                    // ✅ CAMBIO: Si el requisito está aprobado, se cumple automáticamente
+                    if (reqCourse.status === 'aprobado') {
+                        return; // El requisito está cumplido, no hay problema
+                    }
+                    
+                    // Si NO está aprobado, entonces validamos que esté en un semestre anterior
+                    if (!reqCourse.userSem || reqCourse.userSem >= c.userSem) {
+                        isAnomaly = true;
+                        errorMsg.push(`Requiere ${reqId} antes del S${c.userSem}`);
+                    }
+                });
+
+                c.coreqs.forEach(coreqId => {
+                    const coreqCourse = coursesDB.find(x => x.id === coreqId);
+                    
+                    // ✅ CAMBIO: Si el correquisito está aprobado, también se cumple
+                    if (coreqCourse.status === 'aprobado') {
+                        return; // Correquisito cumplido
+                    }
+                    
+                    // Si NO está aprobado, debe estar en el mismo semestre o antes
+                    if (!coreqCourse.userSem || coreqCourse.userSem > c.userSem) {
+                        isAnomaly = true;
+                        errorMsg.push(`El correquisito ${coreqId} no puede ir después del S${c.userSem}`);
+                    }
+                });
+
+                if (isAnomaly) {
+                    const node = document.getElementById(c.id);
+                    if (node) {
+                        node.classList.add('anomaly');
+                        const badge = document.createElement('div');
+                        badge.className = 'anomaly-badge';
+                        badge.title = errorMsg.join(' | ');
+                        badge.innerText = "⚠️";
+                        node.appendChild(badge);
+                    }
+                }
+            });
+        }
+
+        // --- CHARACTER SHEET & PONDERADO ---
+        function toggleCharacterSheet() {
+            const sheet = document.getElementById('characterSheet');
+            sheet.classList.toggle('open');
+            if(sheet.classList.contains('open')) updateCharacterSheet();
+        }
+
+        function updateCharacterSheet() {
+            let totalCreds = 0;
+            let sumGrades = 0;
+            const logContainer = document.getElementById('questLogContainer');
+            logContainer.innerHTML = '';
+
+            const sems = {};
+            coursesDB.forEach(c => {
+                if(c.userSem) {
+                    if(!sems[c.userSem]) sems[c.userSem] = [];
+                    sems[c.userSem].push(c);
+                    
+                    if (c.grade && !isNaN(c.grade) && c.grade.toString().trim() !== '') {
+                        const gradeNum = parseFloat(c.grade);
+                        totalCreds += c.cred;
+                        sumGrades += (gradeNum * c.cred);
+                    }
+                }
+            });
+
+            const ponderado = totalCreds > 0 ? (sumGrades / totalCreds).toFixed(2) : '0.00';
+            document.getElementById('pondGeneral').innerText = ponderado;
+
+            const sortedSems = Object.keys(sems).sort((a,b)=>a-b);
+            if (sortedSems.length === 0) {
+                logContainer.innerHTML = '<div style="color:#777; text-align:center; margin-top: 20px;">No has planeado ningún semestre aún.</div>';
+                return;
+            }
+
+            sortedSems.forEach(semNum => {
+                let html = `<div class="ql-semester"><div class="ql-sem-title">SEMESTRE ${semNum}</div>`;
+                sems[semNum].forEach(c => {
+                    let gradeClass = 'none';
+                    let gradeText = '-';
+                    if (c.grade && c.grade.toString().trim() !== '') {
+                        gradeText = parseFloat(c.grade).toFixed(0);
+                        gradeClass = parseFloat(c.grade) >= 70 ? 'good' : 'bad';
+                    }
+                    html += `<div class="ql-course"><span>${c.name}</span><span class="ql-grade ${gradeClass}">${gradeText}</span></div>`;
+                });
+                html += `</div>`;
+                logContainer.innerHTML += html;
+            });
+            updateProgressDashboard();
+        }
+
+        function handleHover(id, active) {
+            if(active) {
+                document.body.classList.add('hover-mode');
+                const node = document.getElementById(id);
+                node.classList.add('highlight-main');
+                const course = coursesDB.find(c => c.id === id);
+                course.reqs.forEach(req => highlightRel(req, id, 'path-req', 'highlight-req'));
+                course.coreqs.forEach(co => highlightRel(id, co, 'path-coreq', 'highlight-coreq'));
+                coursesDB.filter(c => c.reqs.includes(id)).forEach(unl => highlightRel(id, unl.id, 'path-unlock', 'highlight-unlock'));
+            } else {
+                document.body.classList.remove('hover-mode');
+                document.querySelectorAll('.node').forEach(n => {
+                    n.classList.remove('highlight-main', 'highlight-req', 'highlight-coreq', 'highlight-unlock');
+                    n.style.opacity = ''; n.style.filter = '';
+                });
+                document.querySelectorAll('path').forEach(p => p.setAttribute('class', ''));
+                if(activeFilterSemester) filterByUserSemester(activeFilterSemester);
+            }
+        }
+
+        // --- SISTEMA DE GUARDADO (DINÁMICO POR CARRERA) ---
+        function saveToLocal() { 
+            localStorage.setItem(`TecPlanner_Data_${currentMajor}`, JSON.stringify(coursesDB)); 
+        }
+
+        function loadFromLocal() {
+            const savedData = localStorage.getItem(`TecPlanner_Data_${currentMajor}`);
+            if (savedData) {
+                const parsedData = JSON.parse(savedData);
+                parsedData.forEach(savedCourse => {
+                    const originalCourse = coursesDB.find(c => c.id === savedCourse.id);
+                    if (originalCourse) {
+                        originalCourse.userSem = savedCourse.userSem;
+                        originalCourse.status = savedCourse.status;
+                        originalCourse.grade = savedCourse.grade;
+                        originalCourse.prof = savedCourse.prof;
+                    }
+                });
+            }
+        }
+
+        function highlightRel(from, to, lineClass, nodeClass) {
+            const el1 = document.getElementById(from);
+            const el2 = document.getElementById(to);
+            if(el1) { el1.classList.add(nodeClass); el1.style.opacity='1'; el1.style.filter='none'; }
+            if(el2) { el2.classList.add(nodeClass); el2.style.opacity='1'; el2.style.filter='none'; }
+            const line = document.getElementById(`line-${from}-${to}`);
+            if(line) line.setAttribute('class', lineClass);
+        }
+
+        function drawConnections() {
+            const svg = document.getElementById('connections');
+            svg.innerHTML = '';
+            const container = document.getElementById('treeGrid');
+            svg.setAttribute('width', container.scrollWidth);
+            svg.setAttribute('height', container.scrollHeight);
+
+            coursesDB.forEach(c => {
+                c.reqs.forEach(req => drawOrthogonalPath(req, c.id, svg));
+                c.coreqs.forEach(coreq => drawOrthogonalPath(c.id, coreq, svg, true));
+            });
+        }
+
+        function setStatus(status) {
+            document.getElementById('inpStatus').value = status;
+            document.querySelectorAll('.status-btn').forEach(btn => {
+                if(btn.dataset.val === status) btn.classList.add('active');
+                else btn.classList.remove('active');
+            });
+        }
+
+        function openModal(c) {
+            currentCourse = c;
+            const modal = document.getElementById('courseModal');
+            document.getElementById('modalCode').innerText = c.id + ` • ${c.cred} Créditos`;
+            document.getElementById('modalName').innerText = c.name;
+            document.getElementById('inpUserSem').value = c.userSem || '';
+            document.getElementById('inpProf').value = c.prof || '';
+            document.getElementById('inpGrade').value = c.grade || '';
+            setStatus(c.status || 'pendiente');
+            modal.style.display = 'flex'; 
+        }
+
+        function closeModal() { document.getElementById('courseModal').style.display = 'none'; }
+
+        function openTutorial() {
+            document.getElementById('tutorialModal').style.display = 'flex';
+        }
+
+        function closeTutorial() {
+            document.getElementById('tutorialModal').style.display = 'none';
+            localStorage.setItem('TecPlanner_TutorialSeen', 'true');
+        }
+
+        function drawOrthogonalPath(fromId, toId, svg, isCoreq=false) {
+            const startEl = document.getElementById(fromId);
+            const endEl = document.getElementById(toId);
+            if(!startEl || !endEl) return;
+
+            const container = document.querySelector('.game-area');
+            const svgRect = svg.getBoundingClientRect();
+            const startRect = startEl.getBoundingClientRect();
+            const endRect = endEl.getBoundingClientRect();
+
+            const startX = startRect.right - svgRect.left;
+            const startY = startRect.top + startRect.height / 2 - svgRect.top;
+            const endX = endRect.left - svgRect.left;
+            const endY = endRect.top + endRect.height / 2 - svgRect.top;
+
+            let d = '';
+            if (isCoreq) { d = `M ${startX} ${startY} L ${endX} ${endY}`; } 
+            else { const midX = (startX + endX) / 2; d = `M ${startX} ${startY} L ${midX} ${startY} L ${midX} ${endY} L ${endX} ${endY}`; }
+
+            const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+            path.setAttribute("d", d);
+            path.setAttribute("id", `line-${fromId}-${toId}`);
+            svg.appendChild(path);
+        }
+
+        function openGraduationSimulator() {
+            const totalCredits = coursesDB.reduce((sum, c) => sum + c.cred, 0);
+            const approvedCredits = coursesDB.filter(c => c.status === 'aprobado').reduce((sum, c) => sum + c.cred, 0);
+            const remainingCredits = totalCredits - approvedCredits;
+            
+            const scenarios = [
+                { name: 'Rápido (18 cr/sem)', credits: 18 },
+                { name: 'Normal (15 cr/sem)', credits: 15 },
+                { name: 'Tranquilo (12 cr/sem)', credits: 12 }
+            ];
+            
+            let html = `
+                <div class="modal-overlay" style="display: flex;">
+                    <div class="modal-content" style="width: 600px;">
+                        <div class="modal-header">
+                            <div class="modal-title-code" style="color: #10b981;">SIMULADOR DE GRADUACIÓN</div>
+                            <div class="modal-title-name">¿Cuándo termino la carrera?</div>
+                        </div>
+                        <div class="modal-body">
+                            <div style="background: #09090b; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                                <div style="font-size: 1.1rem; color: var(--text-dim); margin-bottom: 10px;">Te faltan:</div>
+                                <div style="font-size: 3rem; font-weight: 700; color: var(--selected-blue);">${remainingCredits} <span style="font-size: 1.5rem;">créditos</span></div>
+                            </div>
+            `;
+            
+            scenarios.forEach(scenario => {
+                const semesters = Math.ceil(remainingCredits / scenario.credits);
+                const years = (semesters / 2).toFixed(1);
+                
+                html += `
+                    <div style="background: #18181b; padding: 15px; border-radius: 8px; margin-bottom: 15px; border-left: 4px solid var(--accent);">
+                        <div style="font-weight: 700; font-size: 1.1rem; color: #fff; margin-bottom: 5px;">${scenario.name}</div>
+                        <div style="color: var(--text-dim); font-size: 0.95rem;">
+                            📅 ${semesters} semestres (~${years} años) • 
+                            📚 ${scenario.credits} créditos por semestre
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += `
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn-modal btn-confirm" onclick="this.closest('.modal-overlay').remove()">Entendido</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.body.insertAdjacentHTML('beforeend', html);
+        }
+
+        function renderButtons() {
+            const container = document.getElementById('userSemestersBtn');
+            const periods = [...new Set(coursesDB.map(c => parseFloat(c.userSem)).filter(n => !isNaN(n) && n > 0))].sort((a,b) => a - b);
+            let html = `<button class="btn-sem" id="btnSnull" onclick="filterByUserSemester(null)">TODOS</button>`;
+            
+            periods.forEach(p => {
+                const isSummer = p % 1 !== 0; 
+                const label = isSummer ? `VERANO ${Math.floor(p)}` : `MI S${p}`;
+                const btnId = `btnS${p.toString().replace('.','_')}`; 
+                html += `<button class="btn-sem" id="${btnId}" onclick="filterByUserSemester(${p})">${label}</button>`;
+            });
+            container.innerHTML = html;
+            
+            if (activeFilterSemester === null) {
+                document.getElementById('btnSnull').classList.add('active');
+            } else {
+                const activeBtn = document.getElementById(`btnS${activeFilterSemester.toString().replace('.','_')}`);
+                if (activeBtn) activeBtn.classList.add('active');
+            }
+        }
+
+        function exportToExcel() {
+    const plannedCourses = coursesDB.filter(c => c.userSem !== null && c.userSem > 0);
+    
+    if (plannedCourses.length === 0) { 
+        alert("Primero planea algunos cursos."); 
+        return; 
+    }
+
+    const sems = [...new Set(plannedCourses.map(c => c.userSem))].sort((a, b) => a - b);
+    
+    // Crear HTML table que Excel puede abrir
+    let htmlContent = `
+    <html xmlns:o="urn:schemas-microsoft-com:office:office" 
+          xmlns:x="urn:schemas-microsoft-com:office:excel" 
+          xmlns="http://www.w3.org/TR/REC-html40">
+    <head>
+        <meta charset="utf-8">
+        <!--[if gte mso 9]>
+        <xml>
+            <x:ExcelWorkbook>
+                <x:ExcelWorksheets>
+                    <x:ExcelWorksheet>
+                        <x:Name>Plan de Estudios</x:Name>
+                        <x:WorksheetOptions>
+                            <x:DisplayGridlines/>
+                        </x:WorksheetOptions>
+                    </x:ExcelWorksheet>
+                </x:ExcelWorksheets>
+            </x:ExcelWorkbook>
+        </xml>
+        <![endif]-->
+    </head>
+    <body>
+    <table border="1">`;
+
+    sems.forEach(semNum => {
+        const coursesInSem = plannedCourses.filter(c => c.userSem === semNum);
+        const plannedCreds = coursesInSem.reduce((sum, c) => sum + c.cred, 0);
+        const officialCreds = coursesDB.filter(c => c.block === semNum).reduce((sum, c) => sum + c.cred, 0);
+
+        // Fila de encabezado del semestre
+        htmlContent += `
+        <tr style="background-color: #4CAF50; color: white; font-weight: bold;">
+            <td>SEM:</td>
+            <td>${semNum}</td>
+            <td>Créditos:</td>
+            <td>${plannedCreds}</td>
+            <td>Original:</td>
+            <td>${officialCreds}</td>
+            <td colspan="5"></td>
+        </tr>`;
+        
+        // Fila de columnas
+        htmlContent += `
+        <tr style="background-color: #f2f2f2; font-weight: bold;">
+            <td>#</td>
+            <td>Código</td>
+            <td>Curso</td>
+            <td>Grupo</td>
+            <td>Profesor</td>
+            <td>Horario</td>
+            <td>Aula</td>
+            <td>Modalidad</td>
+            <td>Créditos</td>
+            <td>Nota</td>
+            <td>Estado</td>
+        </tr>`;
+
+        coursesInSem.forEach((c, index) => {
+            let estado = "Pendiente";
+            let bgColor = "";
+            
+            if (c.grade && c.grade.toString().trim() !== '') {
+                const numGrade = parseFloat(c.grade);
+                if (!isNaN(numGrade)) {
+                    if (numGrade >= 70) {
+                        estado = "Aprobado";
+                        bgColor = "#d4edda";
+                    } else {
+                        estado = "Reprobado";
+                        bgColor = "#f8d7da";
+                    }
+                }
+            }
+
+            htmlContent += `
+            <tr style="background-color: ${bgColor};">
+                <td>${index + 1}</td>
+                <td>${c.id}</td>
+                <td>${c.name}</td>
+                <td>-</td>
+                <td>${c.prof || ""}</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>${c.cred}</td>
+                <td>${c.grade !== undefined && c.grade !== null ? c.grade : ""}</td>
+                <td>${estado}</td>
+            </tr>`;
+        });
+
+        htmlContent += `<tr><td colspan="11"></td></tr>`; // Fila vacía entre semestres
+    });
+
+    htmlContent += `
+    </table>
+    </body>
+    </html>`;
+
+    // Crear blob con el HTML
+    const blob = new Blob(["\ufeff" + htmlContent], {
+        type: "application/vnd.ms-excel;charset=utf-8;"
+    });
+    
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute("download", `Plan_TEC_${currentMajor}.xls`); // Nota: .xls no .csv
+    document.body.appendChild(link); 
+    link.click(); 
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+}
+
+        function filterByUserSemester(sem) {
+            activeFilterSemester = sem;
+            updateStats(sem);
+            
+            document.querySelectorAll('.btn-sem').forEach(b => {
+                b.classList.remove('active', 'active-summer');
+            });
+            
+            if (sem) {
+                const btnId = `btnS${sem.toString().replace('.','_')}`;
+                const btn = document.getElementById(btnId);
+                
+                if (btn) {
+                    btn.classList.add('active'); 
+                    if (sem % 1 !== 0) {
+                        btn.classList.add('active-summer'); 
+                    }
+                }
+
+                document.body.classList.add('filtering-active');
+                
+                const passedIds = coursesDB.filter(c => c.status === 'aprobado' || (c.userSem !== null && c.userSem <= sem)).map(c => c.id);
+
+                document.querySelectorAll('.node').forEach(n => {
+                    n.classList.remove('filter-selected', 'filter-unlocked'); // ✅ Nuevas clases
+                    const courseUserSem = parseFloat(n.dataset.userSem); 
+                    const cData = coursesDB.find(c => c.id === n.id);
+                    
+                    if (courseUserSem === sem) { 
+                        n.classList.add('filter-selected'); // ✅ Azul eléctrico
+                    } 
+                    else if (isNaN(courseUserSem) || courseUserSem > sem) {
+                        if (!cData) return;
+                        const reqsMetCount = cData.reqs.filter(r => passedIds.includes(r)).length;
+                        const allReqsMet = cData.reqs.length === 0 || reqsMetCount === cData.reqs.length;
+                        const coreqsAvailable = cData.coreqs.every(coId => {
+                            if (passedIds.includes(coId)) return true; 
+                            const coCourse = coursesDB.find(x => x.id === coId);
+                            if (!coCourse) return false; 
+                            return coCourse.reqs.every(r => passedIds.includes(r));
+                        });
+                        
+                        if (allReqsMet && coreqsAvailable) { 
+                            n.classList.add('filter-unlocked'); // ✅ Verde menta
+                        } 
+                    }
+                });
+            } else {
+                document.body.classList.remove('filtering-active');
+                document.querySelectorAll('.node').forEach(n => n.classList.remove('filter-selected', 'filter-unlocked'));
+            }
+        }
+
+        function updateStats(sem) {
+            const panel = document.getElementById('statsPanel');
+            if (panel) panel.style.display = 'flex';
+
+            const userSpan = document.getElementById('dispUserCreds');
+            const blockSpan = document.getElementById('dispBlockCreds');
+            const descUser = document.getElementById('descUserCreds');
+            const descBlock = document.getElementById('descBlockCreds');
+
+            if (sem === null) {
+                const totalCreds = coursesDB.reduce((sum, c) => sum + c.cred, 0);
+                const approvedCreds = coursesDB.filter(c => c.status === 'aprobado').reduce((sum, c) => sum + c.cred, 0);
+
+                if (userSpan) { userSpan.innerText = approvedCreds; userSpan.className = 'stat-num'; userSpan.style.color = 'var(--unlock-green)'; }
+                if (blockSpan) blockSpan.innerText = totalCreds;
+                if (descUser) descUser.innerText = "Aprobados";
+                if (descBlock) descBlock.innerText = "Total Carrera";
+            } else {
+                const myCredits = coursesDB.filter(c => parseFloat(c.userSem) === sem).reduce((sum, c) => sum + c.cred, 0);
+                const officialCredits = coursesDB.filter(c => c.block === sem).reduce((sum, c) => sum + c.cred, 0);
+
+                if (userSpan) {
+                    userSpan.innerText = myCredits; userSpan.className = 'stat-num'; userSpan.style.color = ''; 
+                    if (myCredits > officialCredits) userSpan.classList.add('over'); 
+                    if (myCredits < officialCredits) userSpan.classList.add('under'); 
+                }
+                if (blockSpan) blockSpan.innerText = officialCredits;
+                if (descUser) descUser.innerText = "Mis Créditos";
+                if (descBlock) descBlock.innerText = "Oficiales";
+            }
+        }
+
+        function saveCourseData() {
+            const val = document.getElementById('inpUserSem').value;
+            currentCourse.userSem = val ? parseFloat(val) : null;
+            currentCourse.status = document.getElementById('inpStatus').value;
+            currentCourse.prof = document.getElementById('inpProf').value;
+            currentCourse.grade = document.getElementById('inpGrade').value;
+            
+            saveToLocal(); renderGrid(); renderButtons(); drawConnections();
+            
+            if(activeFilterSemester) filterByUserSemester(activeFilterSemester);
+            else updateStats(null);
+            
+            if (document.getElementById('characterSheet').classList.contains('open')) updateCharacterSheet();
+
+            closeModal();
+        }
+
+        function exportJSON() {
+            const dataStr = JSON.stringify(coursesDB, null, 2);
+            const blob = new Blob([dataStr], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `TecPlanner_${currentMajor}_Backup.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+        function searchCourse(query) {
+            const nodes = document.querySelectorAll('.node');
+            if (!query.trim()) {
+                nodes.forEach(n => {
+                    n.style.opacity = '1';
+                    n.style.filter = 'none';
+                });
+                return;
+            }
+            
+            const q = query.toLowerCase();
+            let found = null;
+            
+            nodes.forEach(n => {
+                const course = coursesDB.find(c => c.id === n.id);
+                const matches = course.id.toLowerCase().includes(q) || 
+                            course.name.toLowerCase().includes(q);
+                
+                if (matches) {
+                    n.style.opacity = '1';
+                    n.style.filter = 'none';
+                    n.style.transform = 'scale(1.1)';
+                    n.style.boxShadow = '0 0 20px var(--selected-blue)';
+                    if (!found) {
+                        found = n;
+                        // Scroll suave al primer resultado
+                        setTimeout(() => {
+                            n.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }, 100);
+                    }
+                } else {
+                    n.style.opacity = '0.2';
+                    n.style.filter = 'grayscale(80%)';
+                    n.style.transform = 'scale(1)';
+                    n.style.boxShadow = '';
+                }
+            });
+        }
+
+        function importJSON(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const importedData = JSON.parse(e.target.result);
+                    if (Array.isArray(importedData)) {
+                        importedData.forEach(importedCourse => {
+                            const originalCourse = coursesDB.find(c => c.id === importedCourse.id);
+                            if (originalCourse) {
+                                originalCourse.userSem = importedCourse.userSem;
+                                originalCourse.status = importedCourse.status;
+                                originalCourse.grade = importedCourse.grade;
+                                originalCourse.prof = importedCourse.prof;
+                            }
+                        });
+                        
+                        saveToLocal(); renderGrid(); renderButtons(); drawConnections(); updateStats(activeFilterSemester);
+                        if (document.getElementById('characterSheet').classList.contains('open')) updateCharacterSheet();
+                        
+                        alert("SISTEMA ACTUALIZADO: Los datos se cargaron con éxito.");
+                    } else { alert("ERROR: El archivo no tiene el formato correcto."); }
+                } catch (err) { alert("ERROR CRÍTICO: No se pudo leer el archivo JSON."); }
+            };
+            reader.readAsText(file);
+            event.target.value = '';
+        }
+
+let viewMode = 'tree'; // 'tree' o 'list'
+
+function toggleViewMode() {
+    const gameArea = document.querySelector('.game-area');
+    const listView = document.getElementById('listView');
+    const btn = document.getElementById('btnViewMode');
+    
+    if (viewMode === 'tree') {
+        viewMode = 'list';
+        gameArea.style.display = 'none';
+        listView.style.display = 'block';
+        btn.innerHTML = '🌳 ÁRBOL';
+        renderListView();
+    } else {
+        viewMode = 'tree';
+        gameArea.style.display = 'block';
+        listView.style.display = 'none';
+        btn.innerHTML = '📋 LISTA';
+    }
+}
+
+function renderListView() {
+    const body = document.getElementById('listBody');
+    const filterSem = document.getElementById('listFilterSem');
+    
+    // Poblar filtro de semestres (solo los que tienen cursos planeados)
+    const semesters = [...new Set(coursesDB.map(c => c.userSem).filter(s => s !== null && s !== undefined))].sort((a, b) => a - b);
+    
+    filterSem.innerHTML = '<option value="all">Todos los Semestres</option>';
+    semesters.forEach(sem => {
+        const isSummer = sem % 1 !== 0;
+        const label = isSummer ? `Verano ${Math.floor(sem)}` : `Semestre ${sem}`;
+        filterSem.innerHTML += `<option value="${sem}">${label}</option>`;
+    });
+    
+    // Generar tabla con datos filtrados
+    updateListTable();
+}
+
+function updateListTable() {
+    const body = document.getElementById('listBody');
+    const filtered = filterListViewData();
+    
+    if (filtered.length === 0) {
+        body.innerHTML = `
+            <div style="text-align: center; padding: 60px; color: var(--text-dim);">
+                <div style="font-size: 3rem; margin-bottom: 15px;">🔍</div>
+                <div style="font-size: 1.2rem; font-weight: 700;">No se encontraron cursos</div>
+                <div style="margin-top: 8px; font-size: 0.9rem;">Intenta con otros filtros</div>
+            </div>
+        `;
+        return;
+    }
+    
+    let html = `
+        <table class="list-table">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Créditos</th>
+                    <th>Bloque</th>
+                    <th>Mi Semestre</th>
+                    <th>Estado</th>
+                    <th>Nota</th>
+                    <th>Profesor</th>
+                </tr>
+            </thead>
+            <tbody>
+    `;
+    
+    filtered.forEach(c => {
+        const statusClass = c.status || 'pendiente';
+        const statusText = statusClass.charAt(0).toUpperCase() + statusClass.slice(1);
+        
+        let gradeText = '-';
+        let gradeClass = '';
+        if (c.grade && c.grade.toString().trim() !== '') {
+            gradeText = parseFloat(c.grade).toFixed(0);
+            gradeClass = parseFloat(c.grade) >= 70 ? 'good' : 'bad';
+        }
+        
+        const semesterText = c.userSem ? `S${c.userSem}` : '-';
+        
+        html += `
+            <tr onclick="openModal(coursesDB.find(x => x.id === '${c.id}'))" style="cursor: pointer;">
+                <td class="list-code">${c.id}</td>
+                <td>${c.name}</td>
+                <td>${c.cred}</td>
+                <td>${c.block}</td>
+                <td>${semesterText}</td>
+                <td><span class="list-status-badge ${statusClass}">${statusText}</span></td>
+                <td><span class="list-grade ${gradeClass}">${gradeText}</span></td>
+                <td>${c.prof || '-'}</td>
+            </tr>
+        `;
+    });
+    
+    html += `
+            </tbody>
+        </table>
+    `;
+    
+    body.innerHTML = html;
+}
+
+function filterListViewData() {
+    const statusFilter = document.getElementById('listFilterStatus')?.value || 'all';
+    const semFilter = document.getElementById('listFilterSem')?.value || 'all';
+    const searchQuery = document.getElementById('listSearchBox')?.value.toLowerCase() || '';
+    
+    return coursesDB.filter(c => {
+        // Filtro por estado
+        const statusMatch = statusFilter === 'all' || (c.status || 'pendiente') === statusFilter;
+        
+        // Filtro por semestre
+        let semMatch = true;
+        if (semFilter !== 'all') {
+            // Convertir a número para comparar correctamente
+            semMatch = c.userSem !== null && c.userSem !== undefined && parseFloat(c.userSem) === parseFloat(semFilter);
+        }
+        
+        // Filtro por búsqueda (código o nombre)
+        const searchMatch = searchQuery === '' || 
+                           c.id.toLowerCase().includes(searchQuery) || 
+                           c.name.toLowerCase().includes(searchQuery);
+        
+        return statusMatch && semMatch && searchMatch;
+    });
+}
+
+function filterListView() {
+    if (viewMode === 'list') {
+        updateListTable();
+    }
+}
+
+        // ENCEDER SISTEMA
+        bootSystem();
+    </script>
+</body>
+</html>
