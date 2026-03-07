@@ -817,6 +817,397 @@ path {
     border-radius: 6px;
 }
 
+/* ==================== FOOTER ==================== */
+.app-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(18, 18, 20, 0.98);
+    border-top: 1px solid #333;
+    padding: 10px 20px;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-size: 0.85rem;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    color: var(--text-dim);
+}
+
+.footer-left strong {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    color: var(--text-dim);
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: color 0.2s;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.footer-link:hover {
+    color: var(--accent);
+    background: rgba(130, 87, 230, 0.1);
+}
+
+/* Ajustar game-area y list-view para que no queden detrás del footer */
+.game-area {
+    padding-bottom: 60px;
+}
+
+.list-view {
+    padding-bottom: 60px;
+}
+
+/* ==================== MODAL DE INFORMACIÓN ==================== */
+.info-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s;
+}
+
+.info-modal-overlay.active {
+    display: flex;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.info-modal {
+    background: #18181b;
+    border: 1px solid #444;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 700px;
+    max-height: 85vh;
+    box-shadow: 0 0 60px rgba(130, 87, 230, 0.3);
+    animation: slideUp 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.info-modal-header {
+    padding: 25px 30px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(130, 87, 230, 0.15), rgba(109, 40, 217, 0.15));
+    border-radius: 12px 12px 0 0;
+}
+
+.info-modal-header h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.info-modal-close {
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-size: 2rem;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    border-radius: 6px;
+}
+
+.info-modal-close:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.info-modal-body {
+    padding: 30px;
+    color: var(--text-main);
+    overflow-y: auto;
+    flex: 1;
+}
+
+.info-modal-body p {
+    margin: 0 0 12px 0;
+    line-height: 1.6;
+}
+
+.disclaimer-box {
+    padding: 18px;
+    background: rgba(245, 158, 11, 0.1);
+    border-left: 4px solid #f59e0b;
+    border-radius: 6px;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* ==================== PROMEDIO POR SEMESTRE ==================== */
+
+.semester-grades-section {
+    margin-top: 20px;
+}
+
+.semester-grades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.semester-grade-card {
+    background: rgba(130, 87, 230, 0.05);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.3s;
+}
+
+.semester-grade-card:hover {
+    background: rgba(130, 87, 230, 0.1);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+.semester-grade-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #333;
+}
+
+.semester-grade-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text-main);
+}
+
+.semester-grade-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.semester-grade-details {
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    margin-bottom: 10px;
+}
+
+.semester-grade-courses {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.semester-course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.semester-course-name {
+    color: var(--text-main);
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.semester-course-grade {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* ==================== QUEST LOG TABS ==================== */
+
+.quest-log-tabs {
+    display: flex;
+    gap: 8px;
+    margin: 15px 0;
+    border-bottom: 2px solid #333;
+}
+
+.quest-tab {
+    flex: 1;
+    padding: 10px 16px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--text-dim);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.quest-tab:hover {
+    color: var(--text-main);
+    background: rgba(130, 87, 230, 0.05);
+}
+
+.quest-tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+    background: rgba(130, 87, 230, 0.1);
+}
+
+.disclaimer-box strong {
+    color: #fbbf24;
+}
+
+.info-section {
+    margin: 25px 0;
+    padding: 20px;
+    background: rgba(130, 87, 230, 0.05);
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+}
+
+.info-section h3 {
+    margin: 0 0 12px 0;
+    font-size: 1.15rem;
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.info-section p {
+    margin: 0;
+    line-height: 1.8;
+}
+
+.info-section a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.info-section a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.warning-box {
+    margin: 25px 0;
+    padding: 20px;
+    background: rgba(239, 68, 68, 0.08);
+    border-left: 4px solid #ef4444;
+    border-radius: 6px;
+}
+
+.warning-box h3 {
+    margin: 0 0 12px 0;
+    font-size: 1.1rem;
+    color: #f87171;
+    font-weight: 700;
+}
+
+.warning-box p {
+    margin: 0 0 12px 0;
+    line-height: 1.7;
+}
+
+.warning-box a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.warning-box a:hover {
+    text-decoration: underline;
+}
+
+.tech-info {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+/* Responsive para móvil */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .footer-right {
+        justify-content: center;
+    }
+    
+    .info-modal {
+        width: 95%;
+        max-height: 90vh;
+    }
+    
+    .info-modal-body {
+        padding: 20px;
+    }
+}
+
 .chart-bar {
     flex: 1;
     background: var(--accent);
@@ -1368,19 +1759,37 @@ path {
 </div>
 
     <div class="character-sheet" id="characterSheet">
-        <div class="cs-header">
-            <div class="cs-title">PERFIL DE KENNETH</div>
-            <button class="btn-action" style="border-color: var(--req-red); color: var(--req-red); margin-left: 10px;" onclick="resetMajor()">⟲ CAMBIAR CARRERA</button>
+    <div class="cs-header">
+        <div class="cs-title">📊 PERFIL ACADÉMICO</div>
+        <div style="display: flex; gap: 10px;">
+            <button class="btn-action" style="border-color: var(--anomaly); color: var(--anomaly);" onclick="resetMajor()">⟲ CAMBIAR CARRERA</button>
             <button class="cs-close" onclick="toggleCharacterSheet()">×</button>
         </div>
-        <div class="cs-body">
-            <div class="pond-box">
-                <div class="pond-val" id="pondGeneral">0.00</div>
-                <div class="pond-label">Promedio Ponderado TEC</div>
+    </div>
+    <div class="cs-body">
+        <!-- SECCIÓN 1: PROMEDIO TOTAL -->
+        <div class="pond-box">
+            <div class="pond-val" id="pondGeneral">0.00</div>
+            <div class="pond-label">Promedio Ponderado Total</div>
+        </div>
+
+        <!-- SECCIÓN 2: PROMEDIO POR SEMESTRE -->
+        <div class="semester-grades-section">
+            <h3 style="margin: 25px 0 15px 0; color: var(--accent); font-size: 1.2rem; display: flex; align-items: center; gap: 8px;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="20" x2="12" y2="10"></line>
+                    <line x1="18" y1="20" x2="18" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="16"></line>
+                </svg>
+                Promedio por Semestre
+            </h3>
+            <div id="semesterGradesContainer">
+                <!-- Se llenará dinámicamente con JavaScript -->
             </div>
+        </div>
 
-            <div class="progress-dashboard">
-
+        <!-- SECCIÓN 3: PROGRESO TOTAL -->
+        <div class="progress-dashboard">
             <div class="progress-section">
                 <div class="progress-label">PROGRESO TOTAL</div>
                 <div class="progress-bar-container">
@@ -1388,22 +1797,39 @@ path {
                 </div>
                 <div class="progress-stats" id="progressStats">0 / 0 créditos (0%)</div>
             </div>
-
-            
             
             <div class="semester-chart" id="semesterChart">
                 <!-- Gráfico de créditos por semestre -->
             </div>
         </div>
-            
-            <div class="ql-title">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                QUEST LOG (Historial)
-            </div>
-            <div id="questLogContainer">
-                </div>
+        
+        <!-- SECCIÓN 4: QUEST LOG CON TABS -->
+        <div class="ql-title" style="margin-top: 30px; display: flex; align-items: center; gap: 8px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            QUEST LOG (Historial)
+        </div>
+        
+        <!-- Pestañas del Quest Log -->
+        <div class="quest-log-tabs">
+            <button class="quest-tab active" id="tabUserPlan" onclick="switchQuestLogView('user')">
+                📅 Mi Plan
+            </button>
+            <button class="quest-tab" id="tabOriginalPlan" onclick="switchQuestLogView('original')">
+                📚 Plan TEC
+            </button>
+        </div>
+        
+        <div id="questLogContainer">
+            <!-- Se llenará dinámicamente con JavaScript -->
         </div>
     </div>
+</div>
 
     <div class="modal-overlay" id="courseModal">
         <div class="modal-content">
@@ -2300,36 +2726,151 @@ path {
         }
 
         function updateCharacterSheet() {
-            let totalCreds = 0;
-            let sumGrades = 0;
-            const logContainer = document.getElementById('questLogContainer');
-            logContainer.innerHTML = '';
-
-            const sems = {};
-            coursesDB.forEach(c => {
-                if(c.userSem) {
-                    if(!sems[c.userSem]) sems[c.userSem] = [];
-                    sems[c.userSem].push(c);
-                    
-                    if (c.grade && !isNaN(c.grade) && c.grade.toString().trim() !== '') {
-                        const gradeNum = parseFloat(c.grade);
-                        totalCreds += c.cred;
-                        sumGrades += (gradeNum * c.cred);
-                    }
-                }
-            });
-
-            const ponderado = totalCreds > 0 ? (sumGrades / totalCreds).toFixed(2) : '0.00';
-            document.getElementById('pondGeneral').innerText = ponderado;
-
-            const sortedSems = Object.keys(sems).sort((a,b)=>a-b);
-            if (sortedSems.length === 0) {
-                logContainer.innerHTML = '<div style="color:#777; text-align:center; margin-top: 20px;">No has planeado ningún semestre aún.</div>';
-                return;
+    // 1. CALCULAR PROMEDIO TOTAL
+    let totalCreds = 0;
+    let sumGrades = 0;
+    
+    coursesDB.forEach(c => {
+        if (c.status === 'aprobado' && c.grade && !isNaN(c.grade) && c.grade.toString().trim() !== '') {
+            const gradeNum = parseFloat(c.grade);
+            totalCreds += c.cred;
+            sumGrades += (gradeNum * c.cred);
+        }
+    });
+    
+    const ponderado = totalCreds > 0 ? (sumGrades / totalCreds).toFixed(2) : '0.00';
+    document.getElementById('pondGeneral').innerText = ponderado;
+    
+    // 2. CALCULAR PROMEDIO POR SEMESTRE
+    const sems = {};
+    coursesDB.forEach(c => {
+        if (c.userSem && c.status === 'aprobado' && c.grade && !isNaN(c.grade) && c.grade.toString().trim() !== '') {
+            if (!sems[c.userSem]) {
+                sems[c.userSem] = {
+                    cursos: [],
+                    totalCred: 0,
+                    sumaPond: 0
+                };
             }
+            const gradeNum = parseFloat(c.grade);
+            sems[c.userSem].cursos.push(c);
+            sems[c.userSem].totalCred += c.cred;
+            sems[c.userSem].sumaPond += (gradeNum * c.cred);
+        }
+    });
+    
+    // Renderizar promedio por semestre
+    const semGradesContainer = document.getElementById('semesterGradesContainer');
+    const semestresOrdenados = Object.keys(sems).sort((a, b) => parseFloat(a) - parseFloat(b));
+    
+    if (semestresOrdenados.length === 0) {
+        semGradesContainer.innerHTML = `
+            <div style="text-align: center; padding: 30px; color: var(--text-dim); background: rgba(130, 87, 230, 0.05); border-radius: 8px; border: 1px dashed #333;">
+                <div style="font-size: 2rem; margin-bottom: 10px;">📝</div>
+                <div>No hay cursos aprobados con nota aún</div>
+                <div style="font-size: 0.85rem; margin-top: 5px;">Asigna notas a tus cursos aprobados para ver los promedios</div>
+            </div>
+        `;
+    } else {
+        let html = '<div class="semester-grades-grid">';
+        
+        semestresOrdenados.forEach(sem => {
+            const data = sems[sem];
+            const promedio = (data.sumaPond / data.totalCred).toFixed(2);
+            const semInt = Math.floor(parseFloat(sem));
+            const isVerano = parseFloat(sem) % 1 !== 0;
+            const semesterName = isVerano ? `☀️ Verano ${semInt}` : `📖 Semestre ${semInt}`;
+            
+            html += `
+                <div class="semester-grade-card">
+                    <div class="semester-grade-header">
+                        <span class="semester-grade-name">${semesterName}</span>
+                        <span class="semester-grade-value" style="color: ${getGradeColor(parseFloat(promedio))};">
+                            ${promedio}
+                        </span>
+                    </div>
+                    <div class="semester-grade-details">
+                        ${data.cursos.length} curso${data.cursos.length !== 1 ? 's' : ''} · ${data.totalCred} créditos
+                    </div>
+                    <div class="semester-grade-courses">
+                        ${data.cursos.map(c => `
+                            <div class="semester-course-item">
+                                <span class="semester-course-name">${c.name}</span>
+                                <span class="semester-course-grade" style="color: ${getGradeColor(parseFloat(c.grade))};">
+                                    ${parseFloat(c.grade).toFixed(0)}
+                                </span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        });
+        
+        html += '</div>';
+        semGradesContainer.innerHTML = html;
+    }
+    
+    // 3. ACTUALIZAR PROGRESO Y GRÁFICO (mantener código existente)
+    updateProgressDashboard();
+    
+    // 4. RENDERIZAR QUEST LOG
+    renderQuestLog();
+}
 
+// Función auxiliar para color de notas
+function getGradeColor(grade) {
+    if (grade >= 90) return '#10b981';
+    if (grade >= 80) return '#34d399';
+    if (grade >= 70) return '#fbbf24';
+    if (grade >= 60) return '#fb923c';
+    return '#ef4444';
+}
+
+let questLogView = 'user'; // 'user' o 'original'
+
+function switchQuestLogView(view) {
+    questLogView = view;
+    
+    // Actualizar tabs
+    document.getElementById('tabUserPlan').classList.toggle('active', view === 'user');
+    document.getElementById('tabOriginalPlan').classList.toggle('active', view === 'original');
+    
+    renderQuestLog();
+}
+
+function renderQuestLog() {
+    const logContainer = document.getElementById('questLogContainer');
+    let html = '';
+    
+    if (questLogView === 'user') {
+        // ===== VISTA: MI PLAN (por userSem) =====
+        const sems = {};
+        coursesDB.forEach(c => {
+            if (c.userSem) {
+                if (!sems[c.userSem]) sems[c.userSem] = [];
+                sems[c.userSem].push(c);
+            }
+        });
+        
+        const sortedSems = Object.keys(sems).sort((a, b) => parseFloat(a) - parseFloat(b));
+        
+        if (sortedSems.length === 0) {
+            html = `
+                <div style="text-align: center; padding: 40px; color: var(--text-dim);">
+                    <div style="font-size: 3rem; margin-bottom: 10px;">📅</div>
+                    <div style="font-size: 1.1rem; margin-bottom: 5px;">No hay cursos planificados</div>
+                    <div style="font-size: 0.9rem;">Haz click en un curso y asigna un semestre</div>
+                </div>
+            `;
+        } else {
             sortedSems.forEach(semNum => {
-                let html = `<div class="ql-semester"><div class="ql-sem-title">SEMESTRE ${semNum}</div>`;
+                const semInt = Math.floor(parseFloat(semNum));
+                const isVerano = parseFloat(semNum) % 1 !== 0;
+                const semName = isVerano ? `☀️ Verano ${semInt}` : `📖 Semestre ${semInt}`;
+                
+                html += `<div class="ql-semester">`;
+                html += `<div class="ql-sem-title" style="background: ${isVerano ? 'rgba(255, 107, 53, 0.1)' : 'rgba(130, 87, 230, 0.05)'}; border-left: 3px solid ${isVerano ? '#ff6b35' : 'var(--accent)'};">${semName}</div>`;
+                
                 sems[semNum].forEach(c => {
                     let gradeClass = 'none';
                     let gradeText = '-';
@@ -2337,13 +2878,42 @@ path {
                         gradeText = parseFloat(c.grade).toFixed(0);
                         gradeClass = parseFloat(c.grade) >= 70 ? 'good' : 'bad';
                     }
-                    html += `<div class="ql-course"><span>${c.name}</span><span class="ql-grade ${gradeClass}">${gradeText}</span></div>`;
+                    html += `<div class="ql-course"><span>${c.id} - ${c.name}</span><span class="ql-grade ${gradeClass}">${gradeText}</span></div>`;
                 });
+                
                 html += `</div>`;
-                logContainer.innerHTML += html;
             });
-            updateProgressDashboard();
         }
+        
+    } else {
+        // ===== VISTA: PLAN ORIGINAL (por block) =====
+        const blocks = {};
+        coursesDB.forEach(c => {
+            if (!blocks[c.block]) blocks[c.block] = [];
+            blocks[c.block].push(c);
+        });
+        
+        Object.keys(blocks).sort((a, b) => parseInt(a) - parseInt(b)).forEach(blockNum => {
+            html += `<div class="ql-semester">`;
+            html += `<div class="ql-sem-title" style="background: rgba(59, 130, 246, 0.05); border-left: 3px solid #3b82f6;">📚 Bloque ${blockNum} (TEC)</div>`;
+            
+            blocks[blockNum].forEach(c => {
+                const userSemText = c.userSem ? `<span style="color: var(--accent); font-size: 0.75rem; margin-left: 8px;">(Planeado: S${c.userSem})</span>` : '';
+                let gradeClass = 'none';
+                let gradeText = '-';
+                if (c.grade && c.grade.toString().trim() !== '') {
+                    gradeText = parseFloat(c.grade).toFixed(0);
+                    gradeClass = parseFloat(c.grade) >= 70 ? 'good' : 'bad';
+                }
+                html += `<div class="ql-course"><span>${c.id} - ${c.name} ${userSemText}</span><span class="ql-grade ${gradeClass}">${gradeText}</span></div>`;
+            });
+            
+            html += `</div>`;
+        });
+    }
+    
+    logContainer.innerHTML = html;
+}
 
         function handleHover(id, active) {
             if(active) {
@@ -2976,6 +3546,35 @@ function filterListViewData() {
     });
 }
 
+
+function openAboutModal() {
+    document.getElementById('infoModal').classList.add('active');
+    document.body.style.overflow = 'hidden'; // Prevenir scroll del body
+}
+
+function closeAboutModal() {
+    document.getElementById('infoModal').classList.remove('active');
+    document.body.style.overflow = ''; // Restaurar scroll
+}
+
+// Cerrar modal con tecla ESC
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        closeAboutModal();
+    }
+});
+
+// Mostrar modal automáticamente en primera visita (opcional)
+function checkFirstVisit() {
+    if (!localStorage.getItem('TecPlanner_VisitedBefore')) {
+        // Esperar 2 segundos después de cargar
+        setTimeout(() => {
+            openAboutModal();
+        }, 2000);
+        localStorage.setItem('TecPlanner_VisitedBefore', 'true');
+    }
+}
+
 function filterListView() {
     if (viewMode === 'list') {
         updateListTable();
@@ -2985,6 +3584,77 @@ function filterListView() {
         // ENCEDER SISTEMA
         bootSystem();
     </script>
+
+    <!-- FOOTER -->
+<footer class="app-footer">
+    <div class="footer-content">
+        <div class="footer-left">
+            <strong>TecPlanner</strong> · Herramienta no oficial del TEC
+            . . . . . . . . . . .
+            <strong>· Kenneth Sandí / k.sandi.2@estudiantec.cr</strong>
+        </div>
+        <div class="footer-right">
+            <button class="footer-link" onclick="openAboutModal()">ℹ️ Acerca de</button>
+            <a href="mailto:kenneth.sandi@estudiantec.cr" class="footer-link">📧 Sugerencias</a>
+        </div>
+    </div>
+</footer>
+
+<!-- MODAL DE INFORMACIÓN -->
+<div class="info-modal-overlay" id="infoModal" onclick="closeAboutModal()">
+    <div class="info-modal" onclick="event.stopPropagation()">
+        <div class="info-modal-header">
+            <h2>ℹ️ Acerca de TecPlanner</h2>
+            <button class="info-modal-close" onclick="closeAboutModal()">✕</button>
+        </div>
+        <div class="info-modal-body">
+            <div class="disclaimer-box">
+                ⚠️ <strong>Herramienta NO oficial</strong><br>
+                TecPlanner es un proyecto estudiantil independiente, no está afiliado ni respaldado por el Tecnológico de Costa Rica (TEC).
+            </div>
+            
+            <div class="info-section">
+                <h3>👨‍💻 Creador</h3>
+                <p>
+                    <strong>Kenneth Sandí</strong><br>
+                    Estudiante de Ingeniería Física - TEC<br>
+                </p>
+            </div>
+            
+            <div class="info-section">
+                <h3>📧 Contacto y Sugerencias</h3>
+                <p>
+                    ¿Bug o sugerencia?<br>
+                    Escribir a: <a href="mailto:kenneth.sandi@estudiantec.cr">k.sandi.2@estudiantec.cr</a>
+                </p>
+            </div>
+            
+            <div class="info-section">
+                <h3>🎓 Carreras Disponibles</h3>
+                <p>
+                    Actualmente TecPlanner incluye:<br>
+                    • Ingeniería Física (Plan 1042)<br>
+                    • Ingeniería en Biotecnología (Plan 1053)<br>
+                    Más carreras pronto.
+                </p>
+
+            </div>
+            
+            <div class="warning-box">
+                <h3>⚠️ IMPORTANTE: Verificar siempre con fuentes oficiales</h3>
+                <p>
+                    Esta herramienta es una <strong>guía visual</strong> para facilitar la planificación académica.
+                    Los datos se obtienen de los planes de estudio oficiales, pero pueden contener errores o estar desactualizados.
+                </p>
+                <p>
+                    <strong>Siempre verificar el plan de estudios en:</strong><br>
+                    🔗 <a href="https://www.tec.ac.cr/carreras" target="_blank">www.tec.ac.cr/carreras</a><br>
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
