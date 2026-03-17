@@ -1662,6 +1662,12 @@ path {
                 <div class="major-title">Ing. Biotecnología</div>
                 <div class="major-desc">Plan 1053 • Genética, Cultivo de Tejidos y Bioinformática.</div>
             </div>
+
+            <div class="major-card" onclick="selectMajor('electronica', 'ING. ELECTRÓNICA')">
+                <div class="major-icon">E</div>
+                <div class="major-title">Ing. Electrónica</div>
+                <div class="major-desc">Plan ...</div>
+            </div>
         </div>
     </div>
 
@@ -2396,6 +2402,315 @@ path {
                 { id: 'AE5121', block: 10, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: ['IF3601'], coreqs: [], userSem: 10 },
                 { id: 'IF5108', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['IF5905'], coreqs: [], userSem: 10 },
                 { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['IF4804'], coreqs: [], userSem: 10 }
+            ],
+            administracion: [
+                // BLOQUE 0
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'MA0001', block: 0, name: 'Precálculo', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 0 },
+            
+                // BLOQUE 1
+                { id: 'AE1105', block: 1, name: 'Introducción A La Administración', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'AE1106', block: 1, name: 'Legislación I', cred: 3, hrs: 3, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA1101', block: 1, name: 'Matemática Para Administración I', cred: 4, hrs: 5, reqs: ['MA0001'], coreqs: [], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+            
+                // BLOQUE 2
+                { id: 'AE1208', block: 2, name: 'Contabilidad I', cred: 4, hrs: 4, reqs: ['AE1105'], coreqs: [], userSem: 2 },
+                { id: 'AE2107', block: 2, name: 'Legislación II', cred: 3, hrs: 3, reqs: ['AE1106'], coreqs: [], userSem: 2 },
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0202'], coreqs: [], userSem: 2 },
+                { id: 'MA2101', block: 2, name: 'Matemática Para Administración II', cred: 4, hrs: 4, reqs: ['MA1101'], coreqs: [], userSem: 2 },
+                { id: 'SE1200', block: 2, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+            
+                // BLOQUE 3
+                { id: 'AE2108', block: 3, name: 'Contabilidad II', cred: 4, hrs: 4, reqs: ['AE1208'], coreqs: [], userSem: 3 },
+                { id: 'AE2112', block: 3, name: 'Comportamiento Humano En La Organización', cred: 3, hrs: 4, reqs: ['AE1105'], coreqs: [], userSem: 3 },
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'MA2401', block: 3, name: 'Probabilidad Y Estadística I', cred: 4, hrs: 4, reqs: ['MA2101'], coreqs: [], userSem: 3 },
+                { id: 'SE1400', block: 3, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+                { id: 'AE-EL1', block: 3, name: 'Electiva I', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 3 },
+            
+                // BLOQUE 4
+                { id: 'AE2211', block: 4, name: 'Contabilidad De Costos I', cred: 4, hrs: 4, reqs: ['AE2108'], coreqs: [], userSem: 4 },
+                { id: 'AE2212', block: 4, name: 'Administración Del Talento Humano', cred: 3, hrs: 4, reqs: ['AE2112'], coreqs: [], userSem: 4 },
+                { id: 'MA3401', block: 4, name: 'Probabilidad Y Estadística II', cred: 4, hrs: 4, reqs: ['MA2401'], coreqs: [], userSem: 4 },
+                { id: 'CS2101', block: 4, name: 'Ambiente Humano', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 4 },
+                { id: 'AE-EL2', block: 4, name: 'Electiva II', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 4 },
+            
+                // BLOQUE 5
+                { id: 'AE3111', block: 5, name: 'Contabilidad De Costos II', cred: 3, hrs: 4, reqs: ['AE2211'], coreqs: [], userSem: 5 },
+                { id: 'AE3115', block: 5, name: 'Mercadeo I', cred: 3, hrs: 4, reqs: ['AE1105'], coreqs: [], userSem: 5 },
+                { id: 'AE3117', block: 5, name: 'Finanzas I', cred: 4, hrs: 4, reqs: ['AE2108', 'MA2101'], coreqs: [], userSem: 5 },
+                { id: 'CS3401', block: 5, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, hrs: 3, reqs: ['CS2101'], coreqs: [], userSem: 5 },
+                { id: 'AE-EL3', block: 5, name: 'Electiva III', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 5 },
+            
+                // BLOQUE 6
+                { id: 'AE3215', block: 6, name: 'Mercadeo II', cred: 3, hrs: 4, reqs: ['AE3115'], coreqs: [], userSem: 6 },
+                { id: 'AE3217', block: 6, name: 'Finanzas II', cred: 4, hrs: 4, reqs: ['AE3117'], coreqs: [], userSem: 6 },
+                { id: 'AE3218', block: 6, name: 'Administración De La Producción I', cred: 4, hrs: 4, reqs: ['AE1105', 'MA3401'], coreqs: [], userSem: 6 },
+                { id: 'AE4121', block: 6, name: 'Economía Para La Administración I', cred: 3, hrs: 4, reqs: ['MA2101'], coreqs: [], userSem: 6 },
+                { id: 'CS4402', block: 6, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3401'], coreqs: [], userSem: 6 },
+            
+                // BLOQUE 7
+                { id: 'AE4119', block: 7, name: 'Administración De La Producción II', cred: 4, hrs: 4, reqs: ['AE3218'], coreqs: [], userSem: 7 },
+                { id: 'AE4221', block: 7, name: 'Economía Para La Administración II', cred: 3, hrs: 4, reqs: ['AE4121'], coreqs: [], userSem: 7 },
+                { id: 'AE4225', block: 7, name: 'Sistemas De Información Administrativa', cred: 3, hrs: 4, reqs: ['AE1105'], coreqs: [], userSem: 7 },
+                { id: 'AE4700', block: 7, name: 'Metodología De La Investigación', cred: 3, hrs: 9, reqs: ['MA3401'], coreqs: [], userSem: 7 },
+                { id: 'AE-EL4', block: 7, name: 'Electiva IV', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 7 },
+            
+                // BLOQUE 8
+                { id: 'AE4219', block: 8, name: 'Administración Estratégica', cred: 4, hrs: 4, reqs: ['AE3215', 'AE3217', 'AE4119'], coreqs: [], userSem: 8 },
+                { id: 'AE5800', block: 8, name: 'Anteproyecto De Graduación', cred: 3, hrs: 9, reqs: ['AE4700'], coreqs: [], userSem: 8 },
+                { id: 'AE-EL5', block: 8, name: 'Electiva V', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 8 },
+                { id: 'AE-EL6', block: 8, name: 'Electiva VI', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 8 }
+            ],
+            electronica: [
+                // BLOQUE 0
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+            
+                // BLOQUE 1
+                { id: 'CA2125', block: 1, name: 'Elementos De Computación', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'EL1100', block: 1, name: 'Introducción A La Ingeniería', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MI2101', block: 1, name: 'Dibujo Técnico', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SO4604', block: 1, name: 'Seguridad Y Salud Ocupacional', cred: 3, hrs: 3, reqs: [], coreqs: [], userSem: 1 },
+            
+                // BLOQUE 2
+                { id: 'CA3125', block: 2, name: 'Análisis Y Diseño De Algoritmos', cred: 3, hrs: 4, reqs: ['CA2125'], coreqs: [], userSem: 2 },
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'CI1407', block: 2, name: 'Habilidades De Comunicación En Ingeniería', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'EL1200', block: 2, name: 'Introducción A La Electrónica', cred: 0, hrs: 2, reqs: ['EL1100'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['MA1102'], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+            
+                // BLOQUE 3
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'EL2110', block: 3, name: 'Laboratorio De Mediciones Eléctricas', cred: 1, hrs: 2, reqs: ['FI1201'], coreqs: ['EL2113'], userSem: 3 },
+                { id: 'EL2113', block: 3, name: 'Circuitos Eléctricos En Corriente Continua', cred: 4, hrs: 4, reqs: ['EL1200', 'MA1102'], coreqs: ['FI1102'], userSem: 3 },
+                { id: 'FI1102', block: 3, name: 'Física General II', cred: 3, hrs: 4, reqs: ['FI1101'], coreqs: [], userSem: 3 },
+                { id: 'FI2103', block: 3, name: 'Física General III', cred: 3, hrs: 4, reqs: ['FI1101'], coreqs: [], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'SE1100', block: 3, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+            
+                // BLOQUE 4
+                { id: 'CS2303', block: 4, name: 'Relaciones Laborales', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 4 },
+                { id: 'EL2111', block: 4, name: 'Laboratorio De Circuitos Eléctricos', cred: 1, hrs: 2, reqs: ['EL2110'], coreqs: ['EL2114'], userSem: 4 },
+                { id: 'EL2114', block: 4, name: 'Circuitos Eléctricos En Corriente Alterna', cred: 4, hrs: 4, reqs: ['EL2113', 'FI2103'], coreqs: [], userSem: 4 },
+                { id: 'EL2207', block: 4, name: 'Elementos Activos', cred: 4, hrs: 4, reqs: ['EL2113'], coreqs: ['EL2114'], userSem: 4 },
+                { id: 'EL4702', block: 4, name: 'Probabilidad Y Estadística', cred: 3, hrs: 4, reqs: [], coreqs: ['MA2104'], userSem: 4 },
+                { id: 'MA2104', block: 4, name: 'Cálculo Superior', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+                { id: 'SE1400', block: 4, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 4 },
+            
+                // BLOQUE 5
+                { id: 'CS3404', block: 5, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['EL1100'], coreqs: [], userSem: 5 },
+                { id: 'EL3101', block: 5, name: 'Electromagnetismo', cred: 4, hrs: 4, reqs: ['FI1102', 'MA1103'], coreqs: [], userSem: 5 },
+                { id: 'EL3213', block: 5, name: 'Electrónica Lineal', cred: 4, hrs: 4, reqs: ['EL2114', 'EL2207'], coreqs: ['EL3214'], userSem: 5 },
+                { id: 'EL3214', block: 5, name: 'Laboratorio De Electrónica Lineal', cred: 1, hrs: 2, reqs: ['EL2111'], coreqs: ['EL3213'], userSem: 5 },
+                { id: 'EL3307', block: 5, name: 'Diseño Lógico', cred: 3, hrs: 4, reqs: ['EL2207'], coreqs: ['EL3308'], userSem: 5 },
+                { id: 'EL3308', block: 5, name: 'Laboratorio De Diseño Lógico', cred: 1, hrs: 2, reqs: [], coreqs: ['EL3307'], userSem: 5 },
+                { id: 'MA2105', block: 5, name: 'Ecuaciones Diferenciales', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+            
+                // BLOQUE 6
+                { id: 'CS4402', block: 6, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 6 },
+                { id: 'EL3105', block: 6, name: 'Señales Y Sistemas', cred: 4, hrs: 4, reqs: ['EL2114', 'MA2105'], coreqs: [], userSem: 6 },
+                { id: 'EL3215', block: 6, name: 'Dispositivos Semiconductores', cred: 3, hrs: 4, reqs: ['EL2207', 'FI2103'], coreqs: [], userSem: 6 },
+                { id: 'EL3305', block: 6, name: 'Microprocesadores Y Microcontroladores', cred: 4, hrs: 4, reqs: ['EL3307'], coreqs: ['EL3306'], userSem: 6 },
+                { id: 'EL3306', block: 6, name: 'Laboratorio De Microprocesadores Y Microcontroladores', cred: 1, hrs: 2, reqs: ['EL3308'], coreqs: ['EL3305'], userSem: 6 },
+                { id: 'EL4102', block: 6, name: 'Teoría De Control', cred: 4, hrs: 4, reqs: ['EL3101'], coreqs: ['EL4104'], userSem: 6 },
+                { id: 'EL4104', block: 6, name: 'Laboratorio De Teoría De Control', cred: 1, hrs: 2, reqs: ['EL2111'], coreqs: ['EL4102'], userSem: 6 },
+            
+                // BLOQUE 7
+                { id: 'AE4208', block: 7, name: 'Desarrollo De Emprendedores', cred: 4, hrs: 12, reqs: [], coreqs: [], userSem: 7 },
+                { id: 'EL3401', block: 7, name: 'Introducción A Los Sistemas De Potencia', cred: 3, hrs: 4, reqs: ['EL2114', 'EL3101'], coreqs: [], userSem: 7 },
+                { id: 'EL4406', block: 7, name: 'Máquinas Eléctricas', cred: 3, hrs: 4, reqs: ['EL3101'], coreqs: ['EL4407'], userSem: 7 },
+                { id: 'EL4407', block: 7, name: 'Laboratorio De Máquinas Eléctricas', cred: 1, hrs: 2, reqs: ['EL2111'], coreqs: ['EL4406'], userSem: 7 },
+                { id: 'EL4501', block: 7, name: 'Sistemas De Comunicación', cred: 4, hrs: 4, reqs: ['EL3105', 'EL4702'], coreqs: ['EL4502'], userSem: 7 },
+                { id: 'EL4502', block: 7, name: 'Laboratorio De Sistemas De Comunicación', cred: 1, hrs: 2, reqs: ['EL3214'], coreqs: ['EL4501'], userSem: 7 },
+                { id: 'EL5700', block: 7, name: 'Metodología De La Investigación', cred: 3, hrs: 9, reqs: ['EL4702'], coreqs: [], userSem: 7 },
+            
+                // BLOQUE 8
+                { id: 'EL4205', block: 8, name: 'Electrónica De Potencia', cred: 3, hrs: 4, reqs: ['EL3213', 'EL3215'], coreqs: ['EL4206'], userSem: 8 },
+                { id: 'EL4206', block: 8, name: 'Laboratorio De Electrónica De Potencia', cred: 1, hrs: 2, reqs: ['EL3214'], coreqs: ['EL4205'], userSem: 8 },
+                { id: 'EL4301', block: 8, name: 'Sistemas Digitales', cred: 3, hrs: 4, reqs: ['EL3305'], coreqs: ['EL4302'], userSem: 8 },
+                { id: 'EL4302', block: 8, name: 'Laboratorio De Sistemas Digitales', cred: 1, hrs: 2, reqs: ['EL3306'], coreqs: ['EL4301'], userSem: 8 },
+                { id: 'EL4303', block: 8, name: 'Redes De Computadores I', cred: 4, hrs: 12, reqs: ['EL3305'], coreqs: [], userSem: 8 },
+                { id: 'EL5101', block: 8, name: 'Procesamiento Digital De Señales', cred: 4, hrs: 4, reqs: ['EL3105'], coreqs: [], userSem: 8 },
+                { id: 'EL5800', block: 8, name: 'Anteproyecto De Graduación', cred: 3, hrs: 9, reqs: ['EL5700'], coreqs: [], userSem: 8 },
+            
+                // BLOQUE 9
+                { id: 'AE5121', block: 9, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: ['EL5700'], coreqs: [], userSem: 9 },
+                { id: 'EL5201', block: 9, name: 'Diseño De Sistemas Electrónicos', cred: 4, hrs: 12, reqs: ['EL4205', 'EL4301'], coreqs: [], userSem: 9 },
+                { id: 'EL5505', block: 9, name: 'Redes De Computadores II', cred: 4, hrs: 12, reqs: ['EL4303'], coreqs: [], userSem: 9 },
+                { id: 'EL5600', block: 9, name: 'Taller De Ingeniería', cred: 3, hrs: 9, reqs: ['EL4102', 'EL4205', 'EL4301', 'EL4501'], coreqs: [], userSem: 9 },
+                { id: 'EL-EL1', block: 9, name: 'Electiva I', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 9 },
+                { id: 'EL-EL2', block: 9, name: 'Electiva II', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 9 },
+            
+                // BLOQUE 10
+                { id: 'EL5801', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['EL5800'], coreqs: [], userSem: 10 },
+                { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['EL5700'], coreqs: [], userSem: 10 }
+            ],
+            computacion: [
+                // BLOQUE 0
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'MA0101', block: 0, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 0 },
+            
+                // BLOQUE 1
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'IC1400', block: 1, name: 'Fundamentos De Organización De Computadoras', cred: 3, hrs: 9, reqs: [], coreqs: ['MA1403'], userSem: 1 },
+                { id: 'IC1802', block: 1, name: 'Introducción A La Programación', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'IC1803', block: 1, name: 'Taller De Programación', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA1403', block: 1, name: 'Matemática Discreta', cred: 4, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+            
+                // BLOQUE 2
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'IC2001', block: 2, name: 'Estructuras De Datos', cred: 4, hrs: 12, reqs: [], coreqs: ['IC2101'], userSem: 2 },
+                { id: 'IC2101', block: 2, name: 'Programación Orientada A Objetos', cred: 3, hrs: 9, reqs: ['IC1802', 'IC1803'], coreqs: [], userSem: 2 },
+                { id: 'IC3101', block: 2, name: 'Arquitectura De Computadores', cred: 4, hrs: 4, reqs: ['IC1400', 'IC1803'], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101', 'MA1403'], coreqs: [], userSem: 2 },
+                { id: 'SE1200', block: 2, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+            
+                // BLOQUE 3
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'IC3002', block: 3, name: 'Análisis De Algoritmos', cred: 4, hrs: 12, reqs: ['IC2001', 'MA1102'], coreqs: [], userSem: 3 },
+                { id: 'IC4301', block: 3, name: 'Bases De Datos I', cred: 4, hrs: 9, reqs: ['IC2001'], coreqs: ['MA1103'], userSem: 3 },
+                { id: 'IC5821', block: 3, name: 'Requerimientos De Software', cred: 4, hrs: 12, reqs: [], coreqs: ['IC4301'], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'SE1400', block: 3, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+            
+                // BLOQUE 4
+                { id: 'CS2101', block: 4, name: 'Ambiente Humano', cred: 2, hrs: 6, reqs: ['CI1107'], coreqs: [], userSem: 4 },
+                { id: 'IC4302', block: 4, name: 'Bases De Datos II', cred: 3, hrs: 9, reqs: ['IC4301'], coreqs: [], userSem: 4 },
+                { id: 'IC4700', block: 4, name: 'Lenguajes De Programación', cred: 4, hrs: 4, reqs: ['IC3002', 'IC3101'], coreqs: [], userSem: 4 },
+                { id: 'IC6821', block: 4, name: 'Diseño De Software', cred: 4, hrs: 12, reqs: ['IC5821'], coreqs: [], userSem: 4 },
+                { id: 'MA2404', block: 4, name: 'Probabilidades', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+            
+                // BLOQUE 5
+                { id: 'CS3401', block: 5, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, hrs: 3, reqs: ['CS2101'], coreqs: [], userSem: 5 },
+                { id: 'IC4810', block: 5, name: 'Administración De Proyectos', cred: 4, hrs: 4, reqs: ['IC5821'], coreqs: [], userSem: 5 },
+                { id: 'IC5701', block: 5, name: 'Compiladores E Intérpretes', cred: 4, hrs: 4, reqs: ['IC4700'], coreqs: [], userSem: 5 },
+                { id: 'IC6831', block: 5, name: 'Aseguramiento De La Calidad Del Software', cred: 3, hrs: 9, reqs: ['IC6821'], coreqs: ['IC4810'], userSem: 5 },
+                { id: 'MA3405', block: 5, name: 'Estadística', cred: 4, hrs: 4, reqs: ['MA2404'], coreqs: [], userSem: 5 },
+            
+                // BLOQUE 6
+                { id: 'CS4402', block: 6, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3401'], coreqs: [], userSem: 6 },
+                { id: 'IC4003', block: 6, name: 'Electiva I', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 6 },
+                { id: 'IC6400', block: 6, name: 'Investigación De Operaciones', cred: 4, hrs: 4, reqs: ['MA3405'], coreqs: [], userSem: 6 },
+                { id: 'IC6600', block: 6, name: 'Principios De Sistemas Operativos', cred: 4, hrs: 4, reqs: ['IC5701'], coreqs: [], userSem: 6 },
+                { id: 'IC7900', block: 6, name: 'Computación Y Sociedad', cred: 2, hrs: 7, reqs: ['IC4810'], coreqs: ['CS4402'], userSem: 6 },
+                { id: 'IC8071', block: 6, name: 'Seguridad Del Software', cred: 3, hrs: 9, reqs: ['IC4810', 'IC6831'], coreqs: [], userSem: 6 },
+            
+                // BLOQUE 7
+                { id: 'AE4208', block: 7, name: 'Desarrollo De Emprendedores', cred: 4, hrs: 12, reqs: [], coreqs: ['IC7841'], userSem: 7 },
+                { id: 'IC5001', block: 7, name: 'Electiva II', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 7 },
+                { id: 'IC6200', block: 7, name: 'Inteligencia Artificial', cred: 4, hrs: 4, reqs: ['IC5701', 'IC6400'], coreqs: [], userSem: 7 },
+                { id: 'IC7602', block: 7, name: 'Redes', cred: 4, hrs: 12, reqs: ['IC6600'], coreqs: [], userSem: 7 },
+                { id: 'IC7841', block: 7, name: 'Proyecto De Ingeniería De Software', cred: 3, hrs: 9, reqs: ['IC4302', 'IC6831', 'IC8071'], coreqs: [], userSem: 7 },
+            
+                // BLOQUE 8
+                { id: 'IC8842', block: 8, name: 'Práctica Profesional', cred: 12, hrs: 40, reqs: ['TODO_EL_PLAN'], coreqs: [], userSem: 8 }
+            ],
+            mecatronica: [
+                // BLOQUE 0
+                { id: 'CI0205', block: 0, name: 'Prueba Avanzada Inglés', cred: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'MA0101', block: 0, name: 'Matemática General', cred: 2, reqs: [], coreqs: [], userSem: 0 },
+                
+                // BLOQUE 1
+                { id: 'CA2125', block: 1, name: 'Elementos De Computación', cred: 3, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, reqs: [], coreqs: ['CS1502'], userSem: 1 },
+                { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, reqs: [], coreqs: ['CI1106'], userSem: 1 },
+                { id: 'FI1101', block: 1, name: 'Física General I', cred: 3, reqs: [], coreqs: ['MA1102'], userSem: 1 },
+                { id: 'FI1201', block: 1, name: 'Laboratorio Física General I', cred: 1, reqs: [], coreqs: ['FI1101'], userSem: 1 },
+                { id: 'MA1102', block: 1, name: 'Cálculo Diferencial E Integral', cred: 4, reqs: ['MA0101'], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, reqs: [], coreqs: [], userSem: 1 },
+            
+                // BLOQUE 2
+                { id: 'CA3125', block: 2, name: 'Análisis Y Diseño De Algoritmos', cred: 3, reqs: ['CA2125'], coreqs: [], userSem: 2 },
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+                { id: 'CS2101', block: 2, name: 'Ambiente Humano', cred: 2, reqs: ['CS1502'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FI1102', block: 2, name: 'Física General II', cred: 3, reqs: ['FI1101', 'FI1201', 'MA1102'], coreqs: ['FI1202'], userSem: 2 },
+                { id: 'FI1202', block: 2, name: 'Laboratorio Física General II', cred: 1, reqs: ['FI1201'], coreqs: ['FI1102'], userSem: 2 },
+                { id: 'MA1103', block: 2, name: 'Cálculo Y Álgebra Lineal', cred: 4, reqs: ['MA1102'], coreqs: [], userSem: 2 },
+                { id: 'MT2001', block: 2, name: 'Circuitos Eléctricos En Cc Y Ca', cred: 3, reqs: ['MA1102'], coreqs: ['MT2002'], userSem: 2 },
+                { id: 'MT2002', block: 2, name: 'Laboratorio De Circuitos De Corriente Continua Y Corriente Alterna', cred: 1, reqs: [], coreqs: ['MT2001'], userSem: 2 },
+                { id: 'SE1200', block: 2, name: 'Actividad Deportiva I', cred: 0, reqs: [], coreqs: [], userSem: 2 },
+            
+                // BLOQUE 3
+                { id: 'FI2103', block: 3, name: 'Física General III', cred: 3, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 3 },
+                { id: 'MA2104', block: 3, name: 'Cálculo Superior', cred: 4, reqs: ['MA1103'], coreqs: [], userSem: 3 },
+                { id: 'MI2101', block: 3, name: 'Dibujo Técnico', cred: 3, reqs: [], coreqs: [], userSem: 3 },
+                { id: 'MT3001', block: 3, name: 'Electrónica Analógica', cred: 3, reqs: ['MT2001'], coreqs: ['MT3002'], userSem: 3 },
+                { id: 'MT3002', block: 3, name: 'Laboratorio De Electrónica Analógica', cred: 1, reqs: ['MT2001'], coreqs: ['MA2104', 'MT3001'], userSem: 3 },
+                { id: 'MT3003', block: 3, name: 'Máquinas Eléctricas Para Mecatrónica', cred: 3, reqs: ['FI1102', 'MT2001'], coreqs: ['MT3004'], userSem: 3 },
+                { id: 'MT3004', block: 3, name: 'Laboratorio De Máquinas Eléctricas Para Mecatrónica', cred: 1, reqs: ['FI1102'], coreqs: ['MT3003'], userSem: 3 },
+            
+                // BLOQUE 4
+                { id: 'MA2105', block: 4, name: 'Ecuaciones Diferenciales', cred: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+                { id: 'ME3208', block: 4, name: 'Tecnología De Materiales', cred: 2, reqs: ['MI2101'], coreqs: ['ME3209'], userSem: 4 },
+                { id: 'ME3209', block: 4, name: 'Laboratorio De Tecnología De Materiales', cred: 1, reqs: [], coreqs: ['ME3208'], userSem: 4 },
+                { id: 'MI2106', block: 4, name: 'Estática', cred: 3, reqs: ['FI1101', 'MI2101'], coreqs: [], userSem: 4 },
+                { id: 'MI3103', block: 4, name: 'Procesos De Manufactura', cred: 3, reqs: ['MI2101'], coreqs: ['MI3104'], userSem: 4 },
+                { id: 'MI3104', block: 4, name: 'Laboratorio Procesos De Manufactura', cred: 2, reqs: [], coreqs: ['MI3103'], userSem: 4 },
+                { id: 'MT4001', block: 4, name: 'Electrónica Digital', cred: 3, reqs: ['CA3125', 'MT3001'], coreqs: ['MT4002'], userSem: 4 },
+                { id: 'MT4002', block: 4, name: 'Laboratorio Electrónica Digital', cred: 1, reqs: [], coreqs: ['MT4001'], userSem: 4 },
+                { id: 'SE1400', block: 4, name: 'Actividad Cultural-Deportiva', cred: 0, reqs: [], coreqs: [], userSem: 4 },
+            
+                // BLOQUE 5
+                { id: 'CI3202', block: 5, name: 'Inglés Para Mecatrónica', cred: 1, reqs: ['CI0205'], coreqs: [], userSem: 5 },
+                { id: 'CS3401', block: 5, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, reqs: ['CS2101'], coreqs: [], userSem: 5 },
+                { id: 'MI3115', block: 5, name: 'Resistencia De Materiales', cred: 3, reqs: ['MI2106'], coreqs: ['ME3208'], userSem: 5 },
+                { id: 'MI3117', block: 5, name: 'Dinámica', cred: 3, reqs: ['MI2106'], coreqs: [], userSem: 5 },
+                { id: 'MT5002', block: 5, name: 'Modelos De Sistemas Para Mecatrónica', cred: 3, reqs: ['MA2105', 'MT4001'], coreqs: [], userSem: 5 },
+                { id: 'MT5003', block: 5, name: 'Electrónica De Potencia Aplicada', cred: 4, reqs: ['MT3003'], coreqs: ['MT5004'], userSem: 5 },
+                { id: 'MT5004', block: 5, name: 'Laboratorio De Electrónica De Potencia Aplicada', cred: 2, reqs: ['MT3004'], coreqs: ['MT5003'], userSem: 5 },
+            
+                // BLOQUE 6
+                { id: 'CM3207', block: 6, name: 'Métodos Numéricos Para Ingeniería', cred: 3, reqs: ['MT5002'], coreqs: ['MT6001'], userSem: 6 },
+                { id: 'CS4402', block: 6, name: 'Seminario De Estudios Costarricenses', cred: 2, reqs: ['CS3401', 'FH1000'], coreqs: [], userSem: 6 },
+                { id: 'MI3124', block: 6, name: 'Dibujo Industrial', cred: 4, reqs: ['MI3103'], coreqs: [], userSem: 6 },
+                { id: 'MT6001', block: 6, name: 'Probabilidad Y Procesos Estocásticos', cred: 3, reqs: ['MA2105', 'MT5002'], coreqs: [], userSem: 6 },
+                { id: 'MT6002', block: 6, name: 'Termofluidos', cred: 4, reqs: ['MI3117'], coreqs: ['MT6003'], userSem: 6 },
+                { id: 'MT6003', block: 6, name: 'Laboratorio De Termofluidos', cred: 1, reqs: [], coreqs: ['MT6002'], userSem: 6 },
+            
+                // BLOQUE 7
+                { id: 'MT7001', block: 7, name: 'Análisis Y Simulación De Sistemas', cred: 3, reqs: ['MT5002'], coreqs: [], userSem: 7 },
+                { id: 'MT7002', block: 7, name: 'Sensores Y Actuadores', cred: 3, reqs: ['MT4001'], coreqs: ['MT7001'], userSem: 7 },
+                { id: 'MT7003', block: 7, name: 'Microprocesadores Y Microcontroladores', cred: 3, reqs: ['MT5003'], coreqs: [], userSem: 7 },
+                { id: 'MT7004', block: 7, name: 'Neumática Y Oleohidráulica', cred: 3, reqs: ['MT6002'], coreqs: [], userSem: 7 },
+                { id: 'MT7006', block: 7, name: 'Diseño Máquinas Y Mecanismos', cred: 4, reqs: ['MI3115', 'MI3124'], coreqs: [], userSem: 7 },
+                { id: 'SO4604', block: 7, name: 'Seguridad Y Salud Ocupacional', cred: 3, reqs: ['MT6001'], coreqs: [], userSem: 7 },
+            
+                // BLOQUE 8
+                { id: 'AE4208', block: 8, name: 'Desarrollo De Emprendedores', cred: 4, reqs: ['SO4604'], coreqs: [], userSem: 8 },
+                { id: 'MT8001', block: 8, name: 'Teoría De Comunicación Y Procesamiento De Señales', cred: 3, reqs: ['MT7001'], coreqs: [], userSem: 8 },
+                { id: 'MT8002', block: 8, name: 'Automatización Y Redes Industriales', cred: 3, reqs: ['MT7002'], coreqs: [], userSem: 8 },
+                { id: 'MT8003', block: 8, name: 'Sistemas De Manufactura', cred: 4, reqs: ['MI3103'], coreqs: ['MT8002'], userSem: 8 },
+                { id: 'MT8004', block: 8, name: 'Electiva', cred: 4, reqs: ['MT6001', 'MT7003'], coreqs: [], userSem: 8 },
+            
+                // BLOQUE 9
+                { id: 'EL5408', block: 9, name: 'Control Automático', cred: 4, reqs: ['MT7001'], coreqs: ['EL5409'], userSem: 9 },
+                { id: 'EL5409', block: 9, name: 'Laboratorio De Control Automático', cred: 2, reqs: [], coreqs: ['EL5408'], userSem: 9 },
+                { id: 'MT7005', block: 9, name: 'Formulación De Proyectos', cred: 2, reqs: ['MT8004'], coreqs: ['MT9001'], userSem: 9 },
+                { id: 'MT9001', block: 9, name: 'Diseño De Sistemas Mecatrónicos', cred: 4, reqs: ['MT8003'], coreqs: ['MT9002'], userSem: 9 },
+                { id: 'MT9002', block: 9, name: 'Mantenimiento De Sistemas Mecatrónicos', cred: 4, reqs: ['MT8003'], coreqs: [], userSem: 9 },
+            
+                // BLOQUE 10
+                { id: 'MT9003', block: 10, name: 'Proyecto Final De Graduación', cred: 10, reqs: ['Ver todos'], coreqs: [], userSem: 10 },
+                { id: 'MT9004', block: 10, name: 'Electiva II', cred: 4, reqs: ['MT8004'], coreqs: [], userSem: 10 }
             ],
             biotecnologia: [
                 // BLOQUE 0
