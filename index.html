@@ -818,7 +818,7 @@ path {
 
 
 .app-footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -1642,50 +1642,51 @@ path {
 .list-grade.bad {
     color: var(--anomaly);
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+
+  max-height: 800px;
+  overflow-y: auto;
+}
     </style>
 </head>
 <body>
 
     <div class="modal-overlay" id="majorSelectionOverlay" style="z-index: 5000; display: none; flex-direction: column; background: #09090b;">
-        <h1 style="color: #fff; font-size: 2.5rem; letter-spacing: 2px; margin-bottom: 10px;">INICIALIZANDO SISTEMA</h1>
-        <p style="color: var(--selected-blue); font-size: 1.2rem; margin-bottom: 40px; text-transform: uppercase;">Selecciona su carrera</p>
+        <h1 style="color: #fff; font-size: 2.5rem; letter-spacing: 2px; margin-bottom: 10px;">TEC PLANNER</h1>
+        <p style="color: var(--selected-blue); font-size: 1.2rem; margin-bottom: 40px; text-transform: uppercase;">Seleccione su carrera</p>
         
-        <div style="display: flex; gap: 30px;">
-            <div class="major-card" onclick="selectMajor('fisica', 'ING. FÍSICA')">
-                <div class="major-icon">⚛️</div>
-                <div class="major-title">Ingeniería Física</div>
-                <div class="major-desc">Plan 1042 • Física Cuántica, Óptica y Materiales Avanzados.</div>
-            </div>
-            
-            <div class="major-card" onclick="selectMajor('biotecnologia', 'BIOTECNOLOGÍA')">
-                <div class="major-icon">🧬</div>
-                <div class="major-title">Ing. Biotecnología</div>
-                <div class="major-desc">Plan 1053 • Genética, Cultivo de Tejidos y Bioinformática.</div>
-            </div>
+        <!--tarjetas carreras-->
+        <div class="container">
 
-            <div class="major-card" onclick="selectMajor('electronica', 'ING. ELECTRÓNICA')">
-                <div class="major-icon">E</div>
-                <div class="major-title">Ing. Electrónica</div>
-                <div class="major-desc">Plan ...</div>
-            </div>
-
-            <div class="major-card" onclick="selectMajor('computacion', 'ING. COMPUTACIÓN')">
-                <div class="major-icon">E</div>
-                <div class="major-title">Ing. Computación</div>
-                <div class="major-desc">Plan ...</div>
-            </div>
-
-            <div class="major-card" onclick="selectMajor('mecatronica', 'ING. MECATRÓNICA')">
-                <div class="major-icon">E</div>
-                <div class="major-title">Ing. Mecatrónica</div>
-                <div class="major-desc">Plan ...</div>
-            </div>
-
-            <div class="major-card" onclick="selectMajor('administracion', 'ADMINISTRACIÓN DE EMPRESAS')">
-                <div class="major-icon">E</div>
-                <div class="major-title">Administración de Empresas</div>
-                <div class="major-desc">Plan ...</div>
-            </div>
+                        <div class="major-card" data-career="fisica"></div>
+                   
+                        <div class="major-card" data-career="biotecnologia"></div>
+                   
+                        <div class="major-card" data-career="electronica"></div>
+                    
+                        <div class="major-card" data-career="computacion"></div>
+                   
+                        <div class="major-card" data-career="mecatronica"></div>
+                    
+                        <div class="major-card" data-career="administracion"></div>
+                   
+                        <div class="major-card" data-career="mantenimiento"></div>
+                    
+                        <div class="major-card" data-career="produccion"></div>
+                    
+                        <div class="major-card" data-career="computadores"></div>
+                    
+                        <div class="major-card" data-career="diseno"></div>
+                   
+                        <div class="major-card" data-career="ati"></div>
+                                     
+                        <div class="major-card" data-career="materiales"></div>
+                    
+ 
         </div>
     </div>
 
@@ -2341,6 +2342,84 @@ path {
 </div>
 
     <script>
+
+        const careers_information = {
+            fisica: {
+                name: "Ing. Física",
+                icon: "⚛️",
+                plan: 2300,
+                grado: "Licenciatura",
+            },
+            biotecnologia: {
+                name: "Ing. Biotecnología",
+                icon: "🧬",
+                plan: 1053,
+                grado: "Bachillerato"
+            },
+            electronica: {
+                name: "Ing. Electrónica",
+                icon: "🔌",
+                plan: 809,
+                grado: "Licenciatura"
+            },
+            computacion: {
+                name: "Ing. Computación",
+                icon: "💻",
+                plan: 412,
+                grado: "Bachillerato"
+            },
+            mecatronica: {
+                name: "Ing. Mecatrónica",
+                icon: "🤖",
+                plan: 2201,
+                grado: "Licenciatura"
+            },
+            administracion: {
+                name: "Administración de Empresas",
+                icon: "🏢",
+                plan: 231,
+                grado: "Bachillerato",
+                modalidad: "Diurna"
+            },
+
+            //pendiente
+            produccion: {
+                name: "Ing. Producción Industrial",
+                icon: "🏭",
+                plan: 1425,
+                grado: "Licenciatura",
+            },
+            mantenimiento: {
+                name: "Ing. Mantenimiento Industrial",
+                icon: "🔧",
+                plan: 1313,
+                grado: "Licenciatura",
+            },
+            computadores: {
+                name: "Ing. Computadores",
+                icon: "🖥️",
+                plan: 2103,
+                grado: "Licenciatura",
+            },
+            diseno: {
+                name: "Ing. Diseño Industrial",
+                icon: "🎨",
+                plan: 707,
+                grado: "Bachillerato",
+            },
+            ati: {
+                name: "Administración de Tecnologías de Información",
+                icon: "📊",
+                plan: 2053,
+                grado: "Licenciatura",
+            },
+            materiales: {
+                name: "Ing. Materiales",
+                icon: "🧪",
+                plan: 1216,
+                grado: "Licenciatura",
+            }
+        };
         
         const curriculums = {
             fisica: [
@@ -2637,7 +2716,7 @@ path {
                 { id: 'IC7841', block: 7, name: 'Proyecto De Ingeniería De Software', cred: 3, hrs: 9, reqs: ['IC4302', 'IC6831', 'IC8071'], coreqs: [], userSem: 7 },
             
                 // BLOQUE 8
-                { id: 'IC8842', block: 8, name: 'Práctica Profesional', cred: 12, hrs: 40, reqs: ['TODO_EL_PLAN'], coreqs: [], userSem: 8 }
+                { id: 'IC8842', block: 8, name: 'Práctica Profesional', cred: 12, hrs: 40, reqs: ['AE4208', 'FH1000', 'IC4003', 'IC5001', 'IC6200', 'IC7602', 'IC7841', 'SE1100', 'SE1200', 'SE1400'], coreqs: [], userSem: 8 }
             ],
             mecatronica: [
                 // BLOQUE 0
@@ -2727,7 +2806,7 @@ path {
                 { id: 'MT9002', block: 9, name: 'Mantenimiento De Sistemas Mecatrónicos', cred: 4, reqs: ['MT8003'], coreqs: [], userSem: 9 },
             
                 // BLOQUE 10
-                { id: 'MT9003', block: 10, name: 'Proyecto Final De Graduación', cred: 10, reqs: ['Ver todos'], coreqs: [], userSem: 10 },
+                { id: 'MT9003', block: 10, name: 'Proyecto Final De Graduación', cred: 10, reqs: ['AE4208', 'EL5408', 'EL5409', 'MT9001', 'MT9002'], coreqs: [], userSem: 10 },
                 { id: 'MT9004', block: 10, name: 'Electiva II', cred: 4, reqs: ['MT8004'], coreqs: [], userSem: 10 }
             ],
             biotecnologia: [
@@ -2809,6 +2888,38 @@ path {
             ]
         };
 
+        //desplegar información tarjetas carreras
+        document.querySelectorAll('.major-card').forEach(card => {
+            const careerKey = card.dataset.career;
+           const data = careers_information[careerKey];
+
+            const parts = [
+                `Código ${data.plan}`,
+                data.grado,
+                data.modalidad
+            ].filter(Boolean);
+
+            card.innerHTML = `
+                <div class="major-icon">${data.icon}</div>
+                <div class="major-title">${data.name}</div>
+                <div class="major-desc">${parts.join(' | ')}</div>
+            `;
+
+            card.onclick = () => selectMajor(careerKey, data.name.toUpperCase());
+            });
+        //fin desplegar información tarjetas carreras
+
+        //desplegar lista carreras Acerca de
+        document.addEventListener("DOMContentLoaded", () => {
+        const container = document.getElementById("careers-list");
+
+        const list = Object.values(careers_information)
+            .map(c => `• ${c.name} (Plan ${c.plan})`)
+            .join("<br>");
+
+        container.innerHTML = list + "<br>Más carreras pronto.";
+        });
+        //fin desplegar lista carreras Acerca de
       
         let coursesDB = []; 
         let currentMajor = null; 
@@ -4046,6 +4157,8 @@ function checkFirstVisit() {
     }
 }
 
+
+
 function filterListView() {
     if (viewMode === 'list') {
         updateListTable();
@@ -4102,13 +4215,7 @@ function filterListView() {
             
             <div class="info-section">
                 <h3>🎓 Carreras Disponibles</h3>
-                <p>
-                    Actualmente TecPlanner incluye:<br>
-                    • Ingeniería Física (Plan 1042)<br>
-                    • Ingeniería en Biotecnología (Plan 1053)<br>
-                    Más carreras pronto.
-                </p>
-
+                <p id="careers-list"></p>
             </div>
             
             <div class="warning-box">
@@ -4129,6 +4236,5 @@ function filterListView() {
 </body>
 
 </html>
-
 
 
