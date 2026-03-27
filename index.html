@@ -1651,6 +1651,126 @@ path {
   max-height: 800px;
   overflow-y: auto;
 }
+
+/* Modal de Promedio Ponderado */
+.pond-modal-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85); z-index: 6000;
+    display: none; justify-content: center; align-items: center;
+    backdrop-filter: blur(8px);
+}
+.pond-modal-overlay.open { display: flex; }
+
+.pond-modal {
+    background: #18181b; border: 1px solid #444; border-radius: 12px;
+    width: 660px; max-width: 95vw; max-height: 88vh;
+    display: flex; flex-direction: column;
+    box-shadow: 0 0 60px rgba(59,130,246,0.2);
+    position: relative;
+}
+.pond-modal::before {
+    content: ''; position: absolute; top: 0; left: 0;
+    width: 100%; height: 4px; border-radius: 12px 12px 0 0;
+    background: linear-gradient(90deg, var(--accent), var(--filter-selected));
+}
+.pond-modal-header {
+    padding: 24px 28px 16px;
+    border-bottom: 1px solid #27272a;
+    display: flex; justify-content: space-between; align-items: flex-start;
+}
+.pond-modal-title { color: #fff; font-size: 1.4rem; font-weight: 700; }
+.pond-modal-subtitle { color: var(--text-dim); font-size: 0.85rem; margin-top: 4px; }
+.pond-modal-close {
+    background: none; border: none; color: var(--text-dim);
+    font-size: 1.5rem; cursor: pointer; transition: color 0.2s;
+    padding: 0 4px; line-height: 1;
+}
+.pond-modal-close:hover { color: #fff; }
+
+.pond-modal-body { padding: 20px 28px; overflow-y: auto; flex: 1; }
+
+.pond-sem-block { margin-bottom: 24px; }
+.pond-sem-header {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 14px; border-radius: 8px 8px 0 0;
+    background: rgba(130,87,230,0.1); border: 1px solid #333;
+    border-bottom: none;
+}
+.pond-sem-name { font-weight: 700; color: var(--text-main); font-size: 1rem; }
+.pond-sem-avg {
+    font-size: 1.4rem; font-weight: 700;
+}
+
+.pond-course-row {
+    display: grid;
+    grid-template-columns: 1fr 48px 70px 80px 80px;
+    gap: 8px; align-items: center;
+    padding: 9px 14px;
+    border: 1px solid #27272a; border-top: none;
+    font-size: 0.85rem;
+    transition: background 0.15s;
+}
+.pond-course-row:hover { background: rgba(255,255,255,0.03); }
+.pond-course-row:last-child { border-radius: 0 0 8px 8px; }
+
+.pond-col-name { color: var(--text-main); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pond-col-cred { color: var(--text-dim); text-align: center; font-size: 0.8rem; }
+.pond-col-peso {
+    text-align: center; font-weight: 600;
+    color: var(--accent); font-size: 0.82rem;
+}
+.pond-col-nota { text-align: center; font-weight: 700; font-family: monospace; font-size: 1rem; }
+.pond-col-aporte { text-align: right; font-weight: 600; font-size: 0.85rem; color: var(--text-dim); }
+
+.pond-col-header {
+    color: #555; font-size: 0.72rem; text-transform: uppercase;
+    letter-spacing: 0.5px; font-weight: 700;
+}
+
+.pond-no-nota {
+    color: #555; font-size: 0.78rem; font-style: italic; text-align: center;
+}
+
+.pond-total-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 14px 28px;
+    border-top: 1px solid #27272a;
+    background: #121214;
+    border-radius: 0 0 12px 12px;
+}
+.pond-total-label { color: var(--text-dim); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; }
+.pond-total-val { font-size: 2rem; font-weight: 700; color: var(--filter-selected); }
+
+.tutorial-close-fixed {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px 0 10px;
+    background: linear-gradient(to bottom, #18181b 80%, transparent);
+    pointer-events: none;
+}
+
+.tutorial-close-fixed button {
+    pointer-events: all;
+    background: #27272a;
+    border: 1px solid #444;
+    color: var(--text-dim);
+    font-size: 1rem;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+.tutorial-close-fixed button:hover {
+    background: var(--anomaly);
+    border-color: var(--anomaly);
+    color: #fff;
+}
     </style>
 </head>
 <body>
@@ -1705,6 +1825,9 @@ path {
                 <div class="quick-actions">
                     <button class="btn-action" id="btnEditCursando" onclick="toggleEditMode('cursando')">⚡ CURSANDO</button>
                     <button class="btn-action" id="btnEditAprobado" onclick="toggleEditMode('aprobado')">✔ APROBADO</button>
+                    <button class="btn-action" onclick="openBulkGrades()" style="border-color: #f59e0b; color: #f59e0b;">
+                        📝 NOTAS
+                    </button>
                 </div>
 
                 <div class="stats-info" id="statsPanel">
@@ -1800,9 +1923,11 @@ path {
     <div class="cs-body">
  
         <div class="pond-box">
-            <div class="pond-val" id="pondGeneral">0.00</div>
+            <div class="pond-val" id="pondGeneral" onclick="openPondModal()" 
+     style="cursor:pointer;" title="Ver desglose completo">0.00</div>
             <div class="pond-label">Promedio Ponderado Total</div>
         </div>
+        <p>Clic en la nota ↑ para visualizar más datos.</p>
 
   
         <div class="semester-grades-section">
@@ -1889,7 +2014,7 @@ path {
                     </div>
                     <div class="input-group" style="flex:1;">
                         <label class="input-label">Nota</label>
-                        <input type="number" id="inpGrade" class="rpg-input" placeholder="0-100">
+                        <input type="number" id="inpGrade" class="rpg-input" placeholder="0-100" min="0" max="100" step="0.01">
                     </div>
                 </div>
             </div>
@@ -1904,6 +2029,9 @@ path {
 
 <div class="modal-overlay" id="tutorialModal" style="z-index: 4000;">
     <div class="modal-content" style="width: 900px; max-height: 90vh; overflow-y: auto;">
+        <div class="tutorial-close-fixed">
+            <button onclick="closeTutorial()">✕ CERRAR</button>
+        </div>
         <div class="modal-header">
             <div class="modal-title-code" style="color: #f59e0b; font-size: 1.2rem;">📖 MANUAL DE USUARIO</div>
             <div class="modal-title-name" style="font-size: 2rem;">TecPlanner v2.0 // Guía Completa</div>
@@ -2176,6 +2304,54 @@ path {
                         </div>
                     </div>
                 </div>
+                <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-top: 30px;">
+    <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">📝 CARGA MASIVA DE NOTAS</h2>
+
+    <p style="color: var(--text-dim); margin-bottom: 20px;">
+        El botón <strong style="color: #f59e0b;">📝 NOTAS</strong> en el HUD superior te permite ingresar las notas de todos tus cursos <strong style="color: var(--status-cursando);">Cursando</strong> de una sola vez, sin tener que abrir cada curso individualmente.
+    </p>
+
+    <div style="background: #121214; border: 1px solid #333; border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+
+            <div style="display: flex; align-items: center; gap: 14px; background: #09090b; border: 1px solid #333; border-left: 3px solid var(--status-cursando); border-radius: 6px; padding: 12px 14px;">
+                <div style="flex: 1;">
+                    <div style="font-size: 0.72rem; color: var(--accent); font-weight: 700;">MA1102</div>
+                    <div style="font-size: 0.9rem; color: #fff;">Cálculo Diferencial e Integral</div>
+                    <div style="font-size: 0.72rem; color: #555;">4 créditos</div>
+                </div>
+                <div style="width: 90px; background: #18181b; border: 1px solid var(--status-aprobado); color: #4ade80; padding: 10px; border-radius: 6px; text-align: center; font-size: 1.1rem; font-weight: 700;">85</div>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 14px; background: #09090b; border: 1px solid #333; border-left: 3px solid var(--status-cursando); border-radius: 6px; padding: 12px 14px;">
+                <div style="flex: 1;">
+                    <div style="font-size: 0.72rem; color: var(--accent); font-weight: 700;">FI1101</div>
+                    <div style="font-size: 0.9rem; color: #fff;">Física General I</div>
+                    <div style="font-size: 0.72rem; color: #555;">3 créditos</div>
+                </div>
+                <div style="width: 90px; background: #18181b; border: 1px solid var(--anomaly); color: #f87171; padding: 10px; border-radius: 6px; text-align: center; font-size: 1.1rem; font-weight: 700;">62</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+        <div style="background: #18181b; padding: 15px; border-radius: 8px; border-left: 4px solid var(--status-aprobado);">
+            <div style="font-weight: 700; color: var(--status-aprobado); margin-bottom: 6px;">✅ Nota ≥ 70</div>
+            <div style="color: var(--text-dim); font-size: 0.88rem;">El curso pasa automáticamente a <strong style="color: var(--status-aprobado);">Aprobado</strong> al guardar.</div>
+        </div>
+        <div style="background: #18181b; padding: 15px; border-radius: 8px; border-left: 4px solid var(--anomaly);">
+            <div style="font-weight: 700; color: var(--anomaly); margin-bottom: 6px;">❌ Nota &lt; 70</div>
+            <div style="color: var(--text-dim); font-size: 0.88rem;">Se guarda la nota pero el curso sigue en <strong style="color: var(--status-cursando);">Cursando</strong>.</div>
+        </div>
+    </div>
+
+    <div style="margin-top: 15px; padding: 14px; background: rgba(59,130,246,0.08); border-radius: 6px; border: 1px solid rgba(59,130,246,0.2);">
+        <div style="color: var(--text-dim); font-size: 0.9rem;">
+            💡 <strong style="color:#fff;">Tip:</strong> Si dejás un input vacío al guardar, se borra la nota de ese curso sin afectar su estado.
+        </div>
+    </div>
+</div>
             </div>
 
            
@@ -2244,7 +2420,7 @@ path {
                         </div>
                         <div style="margin-top: 15px; padding: 12px; background: rgba(59, 130, 246, 0.1); border-radius: 6px;">
                             <div style="color: var(--text-dim); font-size: 0.85rem;">
-                                <strong style="color: #fff;">Automático:</strong> Se calcula con (nota × créditos) / total créditos
+                                <strong style="color: #fff;">Automático:</strong> Se calcula con sumatoria ( (nota × créditos) / total créditos)
                             </div>
                         </div>
                     </div>
@@ -2336,7 +2512,7 @@ path {
 
         </div>
         <div class="modal-footer" style="padding: 25px 30px;">
-            <button class="btn-modal btn-confirm" onclick="closeTutorial()" style="width: 100%; background: var(--accent); color: #fff; font-size: 1.2rem; padding: 18px; box-shadow: 0 0 20px rgba(130, 87, 230, 0.5);">¡ENTENDIDO, EMPECEMOS! 🚀</button>
+            <button class="btn-modal btn-confirm" onclick="closeTutorial()" style="width: 100%; background: var(--accent); color: #fff; font-size: 1.2rem; padding: 18px; box-shadow: 0 0 20px rgba(130, 87, 230, 0.5);">INICIAR</button>
         </div>
     </div>
 </div>
@@ -2381,8 +2557,6 @@ path {
                 grado: "Bachillerato",
                 modalidad: "Diurna"
             },
-
-            //pendiente
             produccion: {
                 name: "Ing. Producción Industrial",
                 icon: "🏭",
@@ -2407,6 +2581,7 @@ path {
                 plan: 707,
                 grado: "Bachillerato",
             },
+            //pendiente
             ati: {
                 name: "Administración de Tecnologías de Información",
                 icon: "📊",
@@ -2499,6 +2674,338 @@ path {
                 { id: 'AE5121', block: 10, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: ['IF3601'], coreqs: [], userSem: 10 },
                 { id: 'IF5108', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['IF5905'], coreqs: [], userSem: 10 },
                 { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['IF4804'], coreqs: [], userSem: 10 }
+            ],
+            diseno: [
+                // BLOQUE 0
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+
+                // BLOQUE 1
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'ID1101', block: 1, name: 'Análisis De Producto I', cred: 2, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'ID1102', block: 1, name: 'Teoría Del Diseño I', cred: 3, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'ID1103', block: 1, name: 'Métodos De Desarrollo De Productos', cred: 2, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'ID1201', block: 1, name: 'Representación I', cred: 3, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+
+                // BLOQUE 2
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+                { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['MA1102'], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'ID1104', block: 2, name: 'Análisis De Producto II', cred: 2, hrs: 2, reqs: ['ID1101', 'ID1103'], coreqs: [], userSem: 2 },
+                { id: 'ID1105', block: 2, name: 'Teoría Del Diseño II', cred: 3, hrs: 6, reqs: ['ID1102'], coreqs: [], userSem: 2 },
+                { id: 'ID1202', block: 2, name: 'Representación II', cred: 3, hrs: 6, reqs: ['ID1201'], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+
+                // BLOQUE 3
+                { id: 'FI2103', block: 3, name: 'Física General III', cred: 3, hrs: 4, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 3 },
+                { id: 'ID2106', block: 3, name: 'Teoría Del Diseño III', cred: 3, hrs: 6, reqs: ['ID1105'], coreqs: [], userSem: 3 },
+                { id: 'ID2203', block: 3, name: 'Representación III', cred: 3, hrs: 6, reqs: ['CI1107', 'ID1202'], coreqs: [], userSem: 3 },
+                { id: 'ID2301', block: 3, name: 'Principios Estructurales', cred: 2, hrs: 4, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 3 },
+                { id: 'ID2401', block: 3, name: 'Ergonomía', cred: 2, hrs: 3, reqs: ['ID1202'], coreqs: [], userSem: 3 },
+                { id: 'QU1902', block: 3, name: 'Fundamentos De Química', cred: 4, hrs: 5, reqs: [], coreqs: [], userSem: 3 },
+
+                // BLOQUE 4
+                { id: 'CI1230', block: 4, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 4 },
+                { id: 'ID2107', block: 4, name: 'Diseño I', cred: 4, hrs: 3, reqs: ['FI2103', 'ID1104'], coreqs: ['ID2108'], userSem: 4 },
+                { id: 'ID2108', block: 4, name: 'Diseño II', cred: 4, hrs: 3, reqs: ['ID2106', 'ID2401'], coreqs: ['ID2107', 'ID2302'], userSem: 4 },
+                { id: 'ID2204', block: 4, name: 'Herramientas Digitales Para Diseño', cred: 2, hrs: 3, reqs: ['ID2203'], coreqs: [], userSem: 4 },
+                { id: 'ID2302', block: 4, name: 'Procesos De Manufactura I', cred: 2, hrs: 3, reqs: ['ID2301', 'QU1902'], coreqs: ['ID2108'], userSem: 4 },
+                { id: 'MA2117', block: 4, name: 'Cálculo Y Geometría Analítica', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 4 },
+                { id: 'SE1100', block: 4, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 4 },
+
+                // BLOQUE 5
+                { id: 'CI1231', block: 5, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 5 },
+                { id: 'ID3109', block: 5, name: 'Diseño III', cred: 4, hrs: 3, reqs: ['ID2107', 'ID2301'], coreqs: ['ID3110'], userSem: 5 },
+                { id: 'ID3110', block: 5, name: 'Diseño IV', cred: 4, hrs: 3, reqs: ['ID2108', 'ID2204'], coreqs: ['ID3109', 'ID3303'], userSem: 5 },
+                { id: 'ID3205', block: 5, name: 'Cultura Material', cred: 3, hrs: 3, reqs: ['ID2108'], coreqs: [], userSem: 5 },
+                { id: 'ID3303', block: 5, name: 'Procesos De Manufactura II', cred: 2, hrs: 3, reqs: ['ID2302', 'MA2117'], coreqs: ['ID3110'], userSem: 5 },
+                { id: 'PI2608', block: 5, name: 'Análisis Estadístico', cred: 3, hrs: 4, reqs: ['MA2117'], coreqs: [], userSem: 5 },
+                { id: 'SE1200', block: 5, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 5 },
+
+                // BLOQUE 6
+                { id: 'CA2125', block: 6, name: 'Elementos De Computación', cred: 3, hrs: 4, reqs: ['ID2204'], coreqs: [], userSem: 6 },
+                { id: 'ID3111', block: 6, name: 'Diseño V', cred: 4, hrs: 3, reqs: ['ID3109', 'ID3205'], coreqs: ['ID3112'], userSem: 6 },
+                { id: 'ID3112', block: 6, name: 'Diseño VI', cred: 4, hrs: 3, reqs: ['ID3110'], coreqs: ['ID3111', 'ID3304'], userSem: 6 },
+                { id: 'ID3113', block: 6, name: 'Biónica Y Eco-Diseño', cred: 3, hrs: 3, reqs: ['ID3109'], coreqs: [], userSem: 6 },
+                { id: 'ID3304', block: 6, name: 'Procesos De Manufactura III', cred: 2, hrs: 3, reqs: ['ID3303', 'PI2608'], coreqs: ['ID3112'], userSem: 6 },
+                { id: 'SE1400', block: 6, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 6 },
+
+                // BLOQUE 7
+                { id: 'AE3414', block: 7, name: 'Fundamentos De Mercadeo', cred: 3, hrs: 9, reqs: ['PI2608'], coreqs: [], userSem: 7 },
+                { id: 'AE4121', block: 7, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: ['CA2125', 'ID3304'], coreqs: [], userSem: 7 },
+                { id: 'CS3401', block: 7, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, hrs: 3, reqs: ['CS1502'], coreqs: [], userSem: 7 },
+                { id: 'FH1000', block: 7, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 7 },
+                { id: 'ID4501', block: 7, name: 'Diseño De Productos VII', cred: 5, hrs: 4, reqs: ['ID3111'], coreqs: ['ID4601'], userSem: 7 },
+                { id: 'ID4601', block: 7, name: 'Diseño De Comunicación Visual VII', cred: 5, hrs: 4, reqs: ['ID3112'], coreqs: ['ID4501'], userSem: 7 },
+
+                // BLOQUE 8
+                { id: 'CS4402', block: 8, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3401'], coreqs: [], userSem: 8 },
+                { id: 'ID4503', block: 8, name: 'Diseño VIII (Proyecto De Graduación)', cred: 10, hrs: 30, reqs: ['ID4501', 'ID4601'], coreqs: [], userSem: 8 },
+
+                // BLOQUE 9
+                { id: 'CE5507', block: 9, name: 'Modelación Hardware/Software Con Orientación A Objetos', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 9 },
+                { id: 'ID5513', block: 9, name: 'Curso Electivo I', cred: 3, hrs: 4, reqs: ['ID4503'], coreqs: [], userSem: 9 },
+                { id: 'ID5604', block: 9, name: 'Manufactura De Empaque / Embalaje', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 9 },
+                { id: 'ID5605', block: 9, name: 'Diseño IX (Comunicación Visual)', cred: 5, hrs: 4, reqs: ['ID4503'], coreqs: [], userSem: 9 },
+                { id: 'ID5606', block: 9, name: 'Seminario De Investigación (Comunicación Visual)', cred: 3, hrs: 4, reqs: [], coreqs: ['ID5605'], userSem: 9 },
+
+                // BLOQUE 10
+                { id: 'ID5114', block: 10, name: 'Gestión De Proyectos', cred: 2, hrs: 2, reqs: ['AE3414', 'AE4121'], coreqs: [], userSem: 10 },
+                { id: 'ID5115', block: 10, name: 'Innovación De Productos', cred: 2, hrs: 2, reqs: ['ID5513'], coreqs: [], userSem: 10 },
+                { id: 'ID5510', block: 10, name: 'Teoría De Las Interfases E Interactividad', cred: 4, hrs: 4, reqs: ['ID5605'], coreqs: [], userSem: 10 },
+                { id: 'ID5514', block: 10, name: 'Curso Electivo II', cred: 3, hrs: 4, reqs: ['ID5513'], coreqs: [], userSem: 10 },
+                { id: 'ID5602', block: 10, name: 'Teoría Del Diseño De La Información', cred: 2, hrs: 4, reqs: ['ID5604'], coreqs: [], userSem: 10 },
+                { id: 'ID5611', block: 10, name: 'Trabajo Final De Graduación (Comunicación Visual)', cred: 7, hrs: 30, reqs: ['ID5605', 'ID5606'], coreqs: [], userSem: 10 }
+],
+            computadores: [
+                // BLOQUE 0
+                { id: 'CI0205', block: 0, name: 'Prueba Avanzada Inglés', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'MA0101', block: 0, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 0 },
+
+                // BLOQUE 1
+                { id: 'CE1101', block: 1, name: 'Introducción A La Programación', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CE1104', block: 1, name: 'Fundamentos De Sistemas Computacionales', cred: 3, hrs: 9, reqs: [], coreqs: ['CE1101'], userSem: 1 },
+                { id: 'MA1102', block: 1, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 1 },
+                { id: 'MA1403', block: 1, name: 'Matemática Discreta', cred: 4, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+
+                // BLOQUE 2
+                { id: 'CE1103', block: 2, name: 'Algoritmos Y Estructuras De Datos I', cred: 4, hrs: 12, reqs: ['CE1101', 'CE1104', 'MA1403'], coreqs: [], userSem: 2 },
+                { id: 'CE1105', block: 2, name: 'Principios De Modelado En Ingeniería', cred: 3, hrs: 9, reqs: ['CE1104'], coreqs: [], userSem: 2 },
+                { id: 'CI1407', block: 2, name: 'Habilidades De Comunicación En Ingeniería', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'CS1502', block: 2, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'MA1103', block: 2, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 2 },
+                { id: 'SE1400', block: 2, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+
+                // BLOQUE 3
+                { id: 'CE2103', block: 3, name: 'Algoritmos Y Estructuras De Datos II', cred: 4, hrs: 12, reqs: ['CE1103', 'CE1105'], coreqs: [], userSem: 3 },
+                { id: 'CS2101', block: 3, name: 'Ambiente Humano', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 3 },
+                { id: 'EL2113', block: 3, name: 'Circuitos Eléctricos En Corriente Continua', cred: 4, hrs: 4, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 3 },
+                { id: 'FH1000', block: 3, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+                { id: 'FI1102', block: 3, name: 'Física General II', cred: 3, hrs: 4, reqs: ['FI1101'], coreqs: ['MA1102'], userSem: 3 },
+                { id: 'FI1202', block: 3, name: 'Laboratorio Física General II', cred: 1, hrs: 2, reqs: ['FI1201'], coreqs: ['FI1102'], userSem: 3 },
+                { id: 'MA2104', block: 3, name: 'Cálculo Superior', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 3 },
+
+                // BLOQUE 4
+                { id: 'CE1106', block: 4, name: 'Paradigmas De Programación', cred: 3, hrs: 9, reqs: ['CE2103'], coreqs: [], userSem: 4 },
+                { id: 'CE2201', block: 4, name: 'Laboratorio De Circuitos Eléctricos', cred: 1, hrs: 3, reqs: ['FI1202'], coreqs: [], userSem: 4 },
+                { id: 'EL2114', block: 4, name: 'Circuitos Eléctricos En Corriente Alterna', cred: 4, hrs: 4, reqs: ['EL2113'], coreqs: ['EL2207'], userSem: 4 },
+                { id: 'EL2207', block: 4, name: 'Elementos Activos', cred: 4, hrs: 4, reqs: ['EL2113'], coreqs: [], userSem: 4 },
+                { id: 'PI2609', block: 4, name: 'Probabilidad Y Estadística', cred: 2, hrs: 3, reqs: ['MA2104'], coreqs: [], userSem: 4 },
+                { id: 'SO4604', block: 4, name: 'Seguridad Y Salud Ocupacional', cred: 3, hrs: 3, reqs: ['FI1102'], coreqs: [], userSem: 4 },
+                // BLOQUE 5
+                { id: 'CE1107', block: 5, name: 'Fundamentos De Arquitectura De Computadores', cred: 4, hrs: 12, reqs: ['EL2207'], coreqs: [], userSem: 5 },
+                { id: 'CE3101', block: 5, name: 'Bases De Datos', cred: 4, hrs: 12, reqs: ['CE1106'], coreqs: [], userSem: 5 },
+                { id: 'CE3201', block: 5, name: 'Taller De Diseño Digital', cred: 2, hrs: 6, reqs: ['CE2201'], coreqs: ['CE1107'], userSem: 5 },
+                { id: 'MA2105', block: 5, name: 'Ecuaciones Diferenciales', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+                { id: 'PI5516', block: 5, name: 'Ingeniería Económica', cred: 3, hrs: 4, reqs: ['PI2609'], coreqs: [], userSem: 5 },
+
+                // BLOQUE 6
+                { id: 'CE1108', block: 6, name: 'Compiladores E Intérpretes', cred: 4, hrs: 12, reqs: ['CE1107'], coreqs: ['CE4301'], userSem: 6 },
+                { id: 'CE1109', block: 6, name: 'Circuitos Analógicos', cred: 4, hrs: 12, reqs: ['EL2207', 'SO4604'], coreqs: [], userSem: 6 },
+                { id: 'CE1110', block: 6, name: 'Análisis De Señales Mixtas', cred: 4, hrs: 12, reqs: ['EL2114', 'MA2105'], coreqs: [], userSem: 6 },
+                { id: 'CE4301', block: 6, name: 'Arquitectura De Computadores I', cred: 4, hrs: 12, reqs: ['CE1107', 'CE3201'], coreqs: [], userSem: 6 },
+                { id: 'CI3203', block: 6, name: 'Inglés Especializado Para Ingenierías En Computadores', cred: 2, hrs: 6, reqs: ['CI0205'], coreqs: [], userSem: 6 },
+
+                // BLOQUE 7
+                { id: 'CE1111', block: 7, name: 'Análisis Numérico Para La Ingeniería', cred: 3, hrs: 9, reqs: ['MA2105'], coreqs: [], userSem: 7 },
+                { id: 'CE1112', block: 7, name: 'Taller De Señales Mixtas', cred: 3, hrs: 9, reqs: ['CE1109', 'CE1110'], coreqs: [], userSem: 7 },
+                { id: 'CE1116', block: 7, name: 'Diseño Y Calidad En Productos Tecnológicos', cred: 4, hrs: 12, reqs: ['CE3101', 'CE4301', 'PI5516'], coreqs: [], userSem: 7 },
+                { id: 'CE4302', block: 7, name: 'Arquitectura De Computadores II', cred: 4, hrs: 12, reqs: ['CE4301'], coreqs: ['CE4303'], userSem: 7 },
+                { id: 'CE4303', block: 7, name: 'Principios De Sistemas Operativos', cred: 4, hrs: 12, reqs: ['CE1108'], coreqs: [], userSem: 7 },
+
+                // BLOQUE 8
+                { id: 'AE4208', block: 8, name: 'Desarrollo De Emprendedores', cred: 4, hrs: 12, reqs: ['CS2101'], coreqs: [], userSem: 8 },
+                { id: 'CE1113', block: 8, name: 'Sistemas Empotrados', cred: 3, hrs: 9, reqs: ['CE4303'], coreqs: [], userSem: 8 },
+                { id: 'CE5301', block: 8, name: 'Redes De Computadores', cred: 4, hrs: 12, reqs: ['CE1116', 'CE4303'], coreqs: [], userSem: 8 },
+                { id: 'CE5701', block: 8, name: 'Electiva I', cred: 3, hrs: 9, reqs: ['CE4302', 'CI3203'], coreqs: [], userSem: 8 },
+                { id: 'CS3404', block: 8, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['CS2101'], coreqs: [], userSem: 8 },
+
+                // BLOQUE 9
+                { id: 'CE1114', block: 9, name: 'Proyecto De Aplicación De La Ingeniería En Computadores', cred: 4, hrs: 12, reqs: ['AE4208', 'CE1112', 'CE1113'], coreqs: [], userSem: 9 },
+                { id: 'CE1115', block: 9, name: 'Seguridad De La Información', cred: 3, hrs: 9, reqs: ['CE5301'], coreqs: [], userSem: 9 },
+                { id: 'CE1117', block: 9, name: 'Formulación Y Gestión De Proyectos', cred: 3, hrs: 9, reqs: ['CE5301'], coreqs: ['CE1114'], userSem: 9 },
+                { id: 'CE5801', block: 9, name: 'Electiva II', cred: 3, hrs: 9, reqs: ['CE5701'], coreqs: [], userSem: 9 },
+                { id: 'CE5901', block: 9, name: 'Electiva III', cred: 3, hrs: 9, reqs: ['CE5701'], coreqs: [], userSem: 9 },
+                { id: 'CS4402', block: 9, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 9 },
+
+                // BLOQUE 10
+                { id: 'CE5601', block: 10, name: 'Trabajo Final De Graduación', cred: 12, hrs: 36, reqs: ['CE1111', 'CE1114', 'CE1115', 'CE1117', 'CE5801', 'CE5901', 'CS4402'], coreqs: [], userSem: 10 }
+            ],
+            mantenimiento: [
+                // BLOQUE 0 
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+                // BLOQUE 1 
+                { id: 'CA2125', block: 1, name: 'Elementos De Computación', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CI1230', block: 1, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 1 },
+                { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                // BLOQUE 2 
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['MA1102'], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'MI2101', block: 2, name: 'Dibujo Técnico', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1104'], userSem: 2 },
+                { id: 'SE1100', block: 2, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                // BLOQUE 3 
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'CS2303', block: 3, name: 'Relaciones Laborales', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 3 },
+                { id: 'FI1102', block: 3, name: 'Física General II', cred: 3, hrs: 4, reqs: ['FI1101', 'FI1201', 'MA1102'], coreqs: ['FI1202'], userSem: 3 },
+                { id: 'FI1202', block: 3, name: 'Laboratorio Física General II', cred: 1, hrs: 2, reqs: ['FI1201'], coreqs: ['FI1102'], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'MI2106', block: 3, name: 'Estática', cred: 3, hrs: 4, reqs: ['FI1101', 'MI2101'], coreqs: [], userSem: 3 },
+                { id: 'MI3103', block: 3, name: 'Procesos De Manufactura', cred: 3, hrs: 3, reqs: ['MI2101'], coreqs: ['MI3104'], userSem: 3 },
+                { id: 'MI3104', block: 3, name: 'Laboratorio Procesos De Manufactura', cred: 2, hrs: 4, reqs: [], coreqs: ['MI3103'], userSem: 3 },
+                { id: 'SE1400', block: 3, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+                // BLOQUE 4 
+                { id: 'FH1000', block: 4, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 4 },
+                { id: 'FI2103', block: 4, name: 'Física General III', cred: 3, hrs: 4, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 4 },
+                { id: 'MA2104', block: 4, name: 'Cálculo Superior', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+                { id: 'MI2202', block: 4, name: 'Laboratorio De Electricidad I', cred: 1, hrs: 2, reqs: [], coreqs: ['MI2205'], userSem: 4 },
+                { id: 'MI2205', block: 4, name: 'Electricidad I', cred: 3, hrs: 9, reqs: ['FI1102', 'MA1103'], coreqs: ['MI2202'], userSem: 4 },
+                { id: 'MI3117', block: 4, name: 'Dinámica', cred: 3, hrs: 4, reqs: ['MI2106'], coreqs: [], userSem: 4 },
+                { id: 'MI3124', block: 4, name: 'Dibujo Industrial', cred: 4, hrs: 4, reqs: ['MI3104'], coreqs: [], userSem: 4 },
+                // BLOQUE 5 
+                { id: 'MA2105', block: 5, name: 'Ecuaciones Diferenciales', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+                { id: 'ME3208', block: 5, name: 'Tecnología De Materiales', cred: 2, hrs: 3, reqs: ['QU1107'], coreqs: ['ME3209'], userSem: 5 },
+                { id: 'ME3209', block: 5, name: 'Laboratorio De Tecnología De Materiales', cred: 1, hrs: 2, reqs: [], coreqs: ['ME3208'], userSem: 5 },
+                { id: 'MI2204', block: 5, name: 'Laboratorio De Electricidad II', cred: 1, hrs: 2, reqs: [], coreqs: ['MI2207'], userSem: 5 },
+                { id: 'MI2207', block: 5, name: 'Electricidad II', cred: 4, hrs: 4, reqs: ['MI2202', 'MI2205'], coreqs: [], userSem: 5 },
+                { id: 'MI3115', block: 5, name: 'Resistencia De Materiales', cred: 3, hrs: 4, reqs: ['MI2106', 'MI3124'], coreqs: [], userSem: 5 },
+                { id: 'MI3130', block: 5, name: 'Termodinámica', cred: 4, hrs: 4, reqs: ['FI2103'], coreqs: [], userSem: 5 },
+                // BLOQUE 6 
+                { id: 'AE5121', block: 6, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: [], coreqs: ['PI2609'], userSem: 6 },
+                { id: 'CM4108', block: 6, name: 'Transferencia De Calor', cred: 3, hrs: 3, reqs: ['MI3130'], coreqs: [], userSem: 6 },
+                { id: 'MI3108', block: 6, name: 'Mecánica De Fluidos', cred: 4, hrs: 4, reqs: ['MA2105', 'MI3117'], coreqs: [], userSem: 6 },
+                { id: 'MI3111', block: 6, name: 'Laboratorio De Mecánica De Fluidos', cred: 1, hrs: 2, reqs: ['MI3130'], coreqs: ['MI3108'], userSem: 6 },
+                { id: 'MI3206', block: 6, name: 'Laboratorio De Máquinas Eléctricas', cred: 1, hrs: 2, reqs: [], coreqs: ['MI3210'], userSem: 6 },
+                { id: 'MI3210', block: 6, name: 'Máquinas Eléctricas', cred: 3, hrs: 9, reqs: ['MI2204', 'MI2207'], coreqs: ['MI3206'], userSem: 6 },
+                { id: 'PI2609', block: 6, name: 'Probabilidad Y Estadística', cred: 2, hrs: 3, reqs: ['MA2104'], coreqs: [], userSem: 6 },
+                // BLOQUE 7 
+                { id: 'AE4208', block: 7, name: 'Desarrollo De Emprendedores', cred: 4, hrs: 12, reqs: ['CS2303'], coreqs: [], userSem: 7 },
+                { id: 'CM3207', block: 7, name: 'Métodos Numéricos Para Ingeniería', cred: 3, hrs: 4, reqs: ['PI2609'], coreqs: [], userSem: 7 },
+                { id: 'MI3116', block: 7, name: 'Turbo Máquinas', cred: 4, hrs: 4, reqs: ['MI3108', 'MI3111'], coreqs: [], userSem: 7 },
+                { id: 'MI3119', block: 7, name: 'Laboratorio De Turbomáquinas', cred: 1, hrs: 2, reqs: ['MI3111'], coreqs: ['MI3116'], userSem: 7 },
+                { id: 'MI3209', block: 7, name: 'Electricidad III', cred: 3, hrs: 3, reqs: ['MI2207'], coreqs: [], userSem: 7 },
+                { id: 'MI4300', block: 7, name: 'Administración Mantenimiento I', cred: 4, hrs: 4, reqs: ['AE5121', 'MI3210', 'PI2609'], coreqs: [], userSem: 7 },
+                { id: 'MI4311', block: 7, name: 'Modelos Cuantitativos Para La Toma De Decisiones', cred: 3, hrs: 9, reqs: ['MA1103', 'PI2609'], coreqs: ['MI4300'], userSem: 7 },
+                // BLOQUE 8 
+                { id: 'CS3404', block: 8, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['CS2303'], coreqs: [], userSem: 8 },
+                { id: 'MI4101', block: 8, name: 'Electiva I', cred: 4, hrs: 4, reqs: [], coreqs: [], userSem: 8 },
+                { id: 'MI4136', block: 8, name: 'Elementas De Máquinas', cred: 4, hrs: 5, reqs: ['MI3115', 'MI3119'], coreqs: [], userSem: 8 },
+                { id: 'MI4209', block: 8, name: 'Control Eléctrico', cred: 3, hrs: 9, reqs: ['MI3209', 'MI3210'], coreqs: [], userSem: 8 },
+                { id: 'MI4210', block: 8, name: 'Laboratorio De Control Eléctrico', cred: 1, hrs: 2, reqs: [], coreqs: ['MI4209'], userSem: 8 },
+                { id: 'MI4305', block: 8, name: 'Administración De Mantenimiento II', cred: 3, hrs: 3, reqs: ['MI4300'], coreqs: [], userSem: 8 },
+                { id: 'SO2601', block: 8, name: 'Fundamentos De Seguridad E Higiene Ocupacional', cred: 1, hrs: 2, reqs: ['AE4208'], coreqs: [], userSem: 8 },
+                // BLOQUE 9 
+                { id: 'CS4402', block: 9, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 9 },
+                { id: 'MI4125', block: 9, name: 'Laboratorio De Sistemas De Vapor', cred: 1, hrs: 2, reqs: [], coreqs: ['MI4129'], userSem: 9 },
+                { id: 'MI4129', block: 9, name: 'Sistemas De Vapor', cred: 3, hrs: 4, reqs: ['CM4108', 'MI3116', 'MI3119'], coreqs: [], userSem: 9 },
+                { id: 'MI4212', block: 9, name: 'Instalaciones Eléctricas', cred: 4, hrs: 4, reqs: ['MI4209'], coreqs: [], userSem: 9 },
+                { id: 'MI5102', block: 9, name: 'Electiva II', cred: 4, hrs: 4, reqs: [], coreqs: [], userSem: 9 },
+                { id: 'MI5215', block: 9, name: 'Análisis De Sistemas Eléctricos De Potencia', cred: 4, hrs: 4, reqs: [], coreqs: ['MI4212'], userSem: 9 },
+                { id: 'MI6351', block: 9, name: 'Mantenimiento Predictivo', cred: 4, hrs: 4, reqs: ['MI4300'], coreqs: [], userSem: 9 },
+                // BLOQUE 10
+                { id: 'MI5521', block: 10, name: 'Trabajo Final De Graduación', cred: 12, hrs: 36, reqs: ['MI4305'], coreqs: [], userSem: 10 }
+            ],
+            produccion: [
+                // BLOQUE 0 
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+
+                // BLOQUE 1 
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CI1230', block: 1, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 1 },
+                { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MI2101', block: 1, name: 'Dibujo Técnico', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+
+                // BLOQUE 2 
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'CI1231', block: 2, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['MA1102'], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'PI3501', block: 2, name: 'Costos Industriales I', cred: 3, hrs: 3, reqs: ['CS1502', 'MA0101'], coreqs: [], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1104'], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1107'], userSem: 2 },
+
+                // BLOQUE 3 
+                { id: 'CA2125', block: 3, name: 'Elementos De Computación', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 3 },
+                { id: 'CS2101', block: 3, name: 'Ambiente Humano', cred: 2, hrs: 6, reqs: ['CI1107'], coreqs: [], userSem: 3 },
+                { id: 'FI1102', block: 3, name: 'Física General II', cred: 3, hrs: 4, reqs: ['FI1101', 'FI1201', 'MA1102'], coreqs: ['FI1202'], userSem: 3 },
+                { id: 'FI1202', block: 3, name: 'Laboratorio Física General II', cred: 1, hrs: 2, reqs: ['FI1201'], coreqs: ['FI1102'], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'PI3502', block: 3, name: 'Costos Industriales II', cred: 3, hrs: 3, reqs: ['PI3501'], coreqs: [], userSem: 3 },
+                { id: 'SE1400', block: 3, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+
+                // BLOQUE 4 
+                { id: 'CS2303', block: 4, name: 'Relaciones Laborales', cred: 2, hrs: 6, reqs: ['CS2101'], coreqs: [], userSem: 4 },
+                { id: 'FI2103', block: 4, name: 'Física General III', cred: 3, hrs: 4, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 4 },
+                { id: 'MA2104', block: 4, name: 'Cálculo Superior', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+                { id: 'MI2109', block: 4, name: 'Estática', cred: 3, hrs: 9, reqs: ['FI1101', 'FI1201'], coreqs: [], userSem: 4 },
+                { id: 'PI2304', block: 4, name: 'Estudio Del Trabajo I', cred: 3, hrs: 4, reqs: ['MI2101', 'PI3501'], coreqs: ['PI2610'], userSem: 4 },
+                { id: 'PI2610', block: 4, name: 'Probabilidad Y Estadística I', cred: 3, hrs: 4, reqs: ['CA2125', 'MA1102'], coreqs: [], userSem: 4 },
+
+                // BLOQUE 5 
+                { id: 'CS3404', block: 5, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['CS2101'], coreqs: [], userSem: 5 },
+                { id: 'MA2105', block: 5, name: 'Ecuaciones Diferenciales', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+                { id: 'MI3138', block: 5, name: 'Máquinas Y Equipos', cred: 3, hrs: 4, reqs: ['MI2109'], coreqs: [], userSem: 5 },
+                { id: 'PI3308', block: 5, name: 'Estudio Del Trabajo II', cred: 3, hrs: 4, reqs: ['PI2304'], coreqs: [], userSem: 5 },
+                { id: 'PI3407', block: 5, name: 'Computación Industrial', cred: 3, hrs: 3, reqs: ['CA2125', 'CI1231'], coreqs: [], userSem: 5 },
+                { id: 'PI3612', block: 5, name: 'Probabilidad Y Estadística II', cred: 3, hrs: 9, reqs: ['MA1103', 'PI2610'], coreqs: [], userSem: 5 },
+
+                // BLOQUE 6 
+                { id: 'CM3207', block: 6, name: 'Métodos Numéricos Para Ingeniería', cred: 3, hrs: 4, reqs: ['MA2105', 'PI3407'], coreqs: [], userSem: 6 },
+                { id: 'ME2208', block: 6, name: 'Ciencias De Los Materiales', cred: 3, hrs: 3, reqs: ['FI1102', 'QU1107'], coreqs: [], userSem: 6 },
+                { id: 'PI3206', block: 6, name: 'Logística Y Administración De La Cadena De Abastecimiento', cred: 3, hrs: 3, reqs: ['PI3612'], coreqs: ['PI3603'], userSem: 6 },
+                { id: 'PI3403', block: 6, name: 'Sistema De Información', cred: 3, hrs: 3, reqs: ['PI3407'], coreqs: [], userSem: 6 },
+                { id: 'PI3512', block: 6, name: 'Dirección De Personal', cred: 3, hrs: 4, reqs: ['CS2303', 'PI3308'], coreqs: [], userSem: 6 },
+                { id: 'PI3603', block: 6, name: 'Investigación De Operaciones I', cred: 3, hrs: 4, reqs: ['MA2105'], coreqs: [], userSem: 6 },
+
+                // BLOQUE 7 
+                { id: 'PI4303', block: 7, name: 'Control De Producción', cred: 4, hrs: 4, reqs: ['PI3206', 'PI3603'], coreqs: [], userSem: 7 },
+                { id: 'PI4306', block: 7, name: 'Metrología Y Normalización', cred: 3, hrs: 4, reqs: ['PI3308'], coreqs: ['PI4307'], userSem: 7 },
+                { id: 'PI4307', block: 7, name: 'Control De Calidad', cred: 4, hrs: 4, reqs: ['PI3612'], coreqs: ['PI4306'], userSem: 7 },
+                { id: 'PI4309', block: 7, name: 'Planeación Y Diseño De Instalaciones', cred: 3, hrs: 4, reqs: ['PI3308'], coreqs: [], userSem: 7 },
+                { id: 'PI4505', block: 7, name: 'Análisis Económico', cred: 3, hrs: 4, reqs: ['PI3308', 'PI3502'], coreqs: [], userSem: 7 },
+
+                // BLOQUE 8 
+                { id: 'CS4402', block: 8, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 8 },
+                { id: 'PI4308', block: 8, name: 'Electiva I', cred: 3, hrs: 3, reqs: ['PI4303', 'PI4307'], coreqs: [], userSem: 8 },
+                { id: 'PI4802', block: 8, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['PI4303'], coreqs: [], userSem: 8 },
+                { id: 'PI4803', block: 8, name: 'Gestión De La Innovación', cred: 3, hrs: 4, reqs: ['PI3512'], coreqs: [], userSem: 8 },
+                { id: 'PI5707', block: 8, name: 'Ingeniería De La Confiabilidad', cred: 3, hrs: 4, reqs: ['PI4307'], coreqs: [], userSem: 8 },
+                { id: 'SO4604', block: 8, name: 'Seguridad Y Salud Ocupacional', cred: 3, hrs: 3, reqs: ['PI3308'], coreqs: [], userSem: 8 },
+
+                // BLOQUE 9 
+                { id: 'PI5302', block: 9, name: 'Diseño De Experimentos', cred: 4, hrs: 4, reqs: ['PI5707'], coreqs: [], userSem: 9 },
+                { id: 'PI5303', block: 9, name: 'Electiva II', cred: 3, hrs: 4, reqs: ['PI4308'], coreqs: [], userSem: 9 },
+                { id: 'PI5401', block: 9, name: 'Simulación Industrial', cred: 4, hrs: 4, reqs: ['PI3206', 'PI5707'], coreqs: [], userSem: 9 },
+                { id: 'PI5402', block: 9, name: 'Automatización De Manufactura', cred: 4, hrs: 3, reqs: ['MI3138', 'PI4306'], coreqs: [], userSem: 9 },
+                { id: 'PI5601', block: 9, name: 'Diagnóstico Industrial', cred: 3, hrs: 4, reqs: ['PI4303', 'PI4802'], coreqs: [], userSem: 9 },
+
+                // BLOQUE 10
+                { id: 'PI5901', block: 10, name: 'Proyecto De Graduación', cred: 12, hrs: 40, reqs: ['CS4402', 'PI4308', 'PI5302', 'PI5303', 'PI5401', 'PI5402', 'PI5601', 'SO4604'], coreqs: [], userSem: 10 }
             ],
             administracion: [
                 // BLOQUE 0
@@ -3575,7 +4082,7 @@ function resetEverything(modal) {
             document.getElementById('modalName').innerText = c.name;
             document.getElementById('inpUserSem').value = c.userSem || '';
             document.getElementById('inpProf').value = c.prof || '';
-            document.getElementById('inpGrade').value = c.grade || '';
+            document.getElementById('inpGrade').value = (c.grade !== null && c.grade !== undefined) ? c.grade : '';
             setStatus(c.status || 'pendiente');
             modal.style.display = 'flex'; 
         }
@@ -3903,7 +4410,8 @@ function resetEverything(modal) {
             currentCourse.userSem = val ? parseFloat(val) : null;
             currentCourse.status = document.getElementById('inpStatus').value;
             currentCourse.prof = document.getElementById('inpProf').value;
-            currentCourse.grade = document.getElementById('inpGrade').value;
+            const gradeVal = document.getElementById('inpGrade').value.trim();
+            currentCourse.grade = gradeVal === '' ? null : gradeVal;
             
             saveToLocal(); renderGrid(); renderButtons(); drawConnections();
             
@@ -4167,6 +4675,258 @@ function filterListView() {
 
         
         bootSystem();
+
+function openPondModal() {
+    // Incluir TODOS los cursos que tienen semestre asignado
+    const sems = {};
+    coursesDB.forEach(c => {
+        if (!c.userSem) return;
+        if (!sems[c.userSem]) sems[c.userSem] = [];
+        sems[c.userSem].push(c);
+    });
+
+    const semKeys = Object.keys(sems).sort((a, b) => parseFloat(a) - parseFloat(b));
+    const body = document.getElementById('pondModalBody');
+
+    if (semKeys.length === 0) {
+        body.innerHTML = `
+            <div style="text-align:center; padding:50px 20px; color:var(--text-dim);">
+                <div style="font-size:3rem; margin-bottom:12px;">📅</div>
+                <div style="font-size:1.1rem;">No hay cursos planificados aún.</div>
+            </div>`;
+        document.getElementById('pondModalTotal').textContent = '—';
+        document.getElementById('pondModal').classList.add('open');
+        return;
+    }
+
+    let globalCreds = 0, globalSum = 0;
+    let html = '';
+
+    semKeys.forEach(sem => {
+        const courses = sems[sem];
+        const totalCredsSem = courses.reduce((s, c) => s + c.cred, 0);
+
+        // Solo cursos aprobados con nota para el promedio
+        const conNota = courses.filter(c =>
+            c.status === 'aprobado' &&
+            c.grade !== undefined && c.grade !== null && c.grade.toString().trim() !== ''
+        );
+        const sumPond = conNota.reduce((s, c) => s + parseFloat(c.grade) * c.cred, 0);
+        const credConNota = conNota.reduce((s, c) => s + c.cred, 0);
+        const hayPromedioSem = credConNota > 0;
+        const promSem = hayPromedioSem ? sumPond / credConNota : null;
+
+        if (hayPromedioSem) {
+            globalCreds += credConNota;
+            globalSum   += sumPond;
+        }
+
+        const isSummer = parseFloat(sem) % 1 !== 0;
+        const semLabel = isSummer
+            ? `☀️ Verano ${Math.floor(parseFloat(sem))}`
+            : `📖 Semestre ${sem}`;
+
+        html += `<div class="pond-sem-block">
+            <div class="pond-sem-header">
+                <span class="pond-sem-name">${semLabel}
+                    <span style="font-size:0.75rem; color:#555; font-weight:400; margin-left:8px;">
+                        ${totalCredsSem} cr totales
+                    </span>
+                </span>
+                <span class="pond-sem-avg" style="color:${hayPromedioSem ? gradeColor(promSem) : '#555'};">
+                    ${hayPromedioSem ? promSem.toFixed(2) : '—'}
+                </span>
+            </div>`;
+
+        // Cabecera de columnas — se adapta si hay o no notas en el semestre
+        html += `<div class="pond-course-row" style="background:#0d0d0f; border-top:1px solid #27272a;">
+            <span class="pond-col-header">Curso</span>
+            <span class="pond-col-header" style="text-align:center;">Cr</span>
+            <span class="pond-col-header" style="text-align:center;">Peso %</span>
+            <span class="pond-col-header" style="text-align:center;">Nota</span>
+            <span class="pond-col-header" style="text-align:right;">Aporte</span>
+        </div>`;
+
+        courses.forEach(c => {
+            const peso = totalCredsSem > 0 ? (c.cred / totalCredsSem * 100) : 0;
+            const tieneNota = c.status === 'aprobado' &&
+                c.grade !== undefined && c.grade !== null && c.grade.toString().trim() !== '';
+
+            if (tieneNota) {
+                const nota   = parseFloat(c.grade);
+                const aporte = (nota * c.cred / credConNota); // aporte sobre créditos con nota
+                const color  = gradeColor(nota);
+                html += `<div class="pond-course-row">
+                    <span class="pond-col-name" title="${c.name}">${c.id} · ${c.name}</span>
+                    <span class="pond-col-cred">${c.cred}</span>
+                    <span class="pond-col-peso">${peso.toFixed(1)}%</span>
+                    <span class="pond-col-nota" style="color:${color};">${nota.toFixed(0)}</span>
+                    <span class="pond-col-aporte">${aporte.toFixed(2)} pts</span>
+                </div>`;
+            } else {
+                // Sin nota: mostrar nombre, créditos, peso. Columnas nota/aporte vacías.
+                const dimStyle = c.status !== 'aprobado' ? 'opacity:0.45;' : 'opacity:0.6;';
+                const statusTag = c.status === 'cursando'
+                    ? `<span style="font-size:0.68rem; color:var(--status-cursando); margin-left:6px;">cursando</span>`
+                    : c.status === 'pendiente'
+                    ? `<span style="font-size:0.68rem; color:#555; margin-left:6px;">pendiente</span>`
+                    : `<span style="font-size:0.68rem; color:#555; margin-left:6px;">sin nota</span>`;
+
+                html += `<div class="pond-course-row" style="${dimStyle}">
+                    <span class="pond-col-name" title="${c.name}">${c.id} · ${c.name} ${statusTag}</span>
+                    <span class="pond-col-cred">${c.cred}</span>
+                    <span class="pond-col-peso">${peso.toFixed(1)}%</span>
+                    <span class="pond-col-nota" style="color:#555;">—</span>
+                    <span class="pond-col-aporte" style="color:#555;">—</span>
+                </div>`;
+            }
+        });
+
+        html += `</div>`;
+    });
+
+    body.innerHTML = html;
+
+    const total = globalCreds > 0 ? (globalSum / globalCreds).toFixed(2) : '—';
+    const totalEl = document.getElementById('pondModalTotal');
+    totalEl.textContent = total;
+    totalEl.style.color = globalCreds > 0 ? gradeColor(parseFloat(total)) : '#555';
+    document.getElementById('pondModal').classList.add('open');
+}
+
+function closePondModal() {
+    document.getElementById('pondModal').classList.remove('open');
+}
+
+function gradeColor(g) {
+    if (g >= 90) return '#10b981';
+    if (g >= 80) return '#34d399';
+    if (g >= 70) return '#fbbf24';
+    if (g >= 60) return '#fb923c';
+    return '#ef4444';
+}
+
+function openBulkGrades() {
+    const cursando = coursesDB.filter(c => c.status === 'cursando');
+
+    const body = document.getElementById('bulkGradesBody');
+    const subtitle = document.getElementById('bulkGradesSubtitle');
+
+    if (cursando.length === 0) {
+        body.innerHTML = `
+            <div style="text-align:center; padding: 40px; color: var(--text-dim);">
+                <div style="font-size: 3rem; margin-bottom: 12px;">🎓</div>
+                <div style="font-size: 1.1rem;">No hay cursos marcados como <strong style="color: var(--status-cursando);">Cursando</strong>.</div>
+            </div>`;
+        subtitle.innerText = 'Sin cursos activos';
+        document.getElementById('bulkGradesModal').style.display = 'flex';
+        return;
+    }
+
+    subtitle.innerText = `${cursando.length} curso${cursando.length !== 1 ? 's' : ''} activo${cursando.length !== 1 ? 's' : ''}`;
+
+    // Agrupar por semestre si tienen uno asignado
+    const groups = {};
+    cursando.forEach(c => {
+        const key = c.userSem ? `S${c.userSem}` : 'Sin semestre';
+        if (!groups[key]) groups[key] = [];
+        groups[key].push(c);
+    });
+
+    let html = '';
+    Object.keys(groups).sort().forEach(key => {
+        html += `<div style="font-size: 0.75rem; color: var(--accent); text-transform: uppercase; 
+                             letter-spacing: 1px; font-weight: 700; margin: 4px 0 8px 0;">${key}</div>`;
+
+        groups[key].forEach(c => {
+            html += `
+                <div style="display: flex; align-items: center; gap: 12px; 
+                            background: #09090b; border: 1px solid #333; border-left: 3px solid var(--status-cursando);
+                            border-radius: 6px; padding: 12px 14px; margin-bottom: 8px;">
+                    <div style="flex: 1; min-width: 0;">
+                        <div style="font-size: 0.72rem; color: var(--accent); font-weight: 700;">${c.id}</div>
+                        <div style="font-size: 0.9rem; color: #fff; white-space: nowrap; 
+                                    overflow: hidden; text-overflow: ellipsis;">${c.name}</div>
+                        <div style="font-size: 0.72rem; color: #555; margin-top: 2px;">${c.cred} créditos</div>
+                    </div>
+                    <input 
+                        type="number" 
+                        id="bulk_${c.id}" 
+                        value="${c.grade || ''}"
+                        min="0" max="100" step="0.1"
+                        placeholder="0–100"
+                        style="width: 90px; background: #18181b; border: 1px solid #444; color: #fff;
+                               padding: 10px; border-radius: 6px; font-family: 'Rajdhani', sans-serif;
+                               font-size: 1.1rem; text-align: center;"
+                        oninput="highlightBulkInput(this)"
+                    >
+                </div>`;
+        });
+    });
+
+    body.innerHTML = html;
+    document.getElementById('bulkGradesModal').style.display = 'flex';
+}
+
+function highlightBulkInput(input) {
+    const val = parseFloat(input.value);
+    if (isNaN(val) || input.value.trim() === '') {
+        input.style.borderColor = '#444';
+        input.style.color = '#fff';
+    } else if (val >= 70) {
+        input.style.borderColor = 'var(--status-aprobado)';
+        input.style.color = '#4ade80';
+    } else {
+        input.style.borderColor = 'var(--anomaly)';
+        input.style.color = '#f87171';
+    }
+}
+
+function saveBulkGrades() {
+    const cursando = coursesDB.filter(c => c.status === 'cursando');
+    let changed = 0;
+
+    cursando.forEach(c => {
+        const input = document.getElementById(`bulk_${c.id}`);
+        if (!input) return;
+
+        const val = input.value.trim();
+
+        // Input vacío → borrar nota explícitamente
+        if (val === '') {
+            c.grade = null;
+            changed++;
+            return;
+        }
+
+        const nota = parseFloat(val);
+        if (isNaN(nota)) return;
+
+        c.grade = nota;
+        if (nota >= 70) c.status = 'aprobado';
+        changed++;
+    });
+
+    if (changed === 0) {
+        closeBulkGrades();
+        return;
+    }
+
+    saveToLocal();
+    renderGrid();
+    renderButtons();
+    drawConnections();
+    updateStats(activeFilterSemester);
+    if (activeFilterSemester) filterByUserSemester(activeFilterSemester);
+    if (document.getElementById('characterSheet').classList.contains('open')) updateCharacterSheet();
+
+    closeBulkGrades();
+}
+
+function closeBulkGrades() {
+    document.getElementById('bulkGradesModal').style.display = 'none';
+}
+
     </script>
 
     
@@ -4202,6 +4962,7 @@ function filterListView() {
                 <p>
                     <strong>Kenneth Sandí</strong><br>
                     Estudiante de Ingeniería Física - TEC<br>
+                    Técnico Medio en Desarrollo de Software
                 </p>
             </div>
             
@@ -4233,6 +4994,44 @@ function filterListView() {
         </div>
     </div>
 </div>
+
+<div class="pond-modal-overlay" id="pondModal" onclick="if(event.target===this)closePondModal()">
+    <div class="pond-modal">
+        <div class="pond-modal-header">
+            <div>
+                <div class="pond-modal-title">📊 Promedio Ponderado</div>
+                <div class="pond-modal-subtitle">Peso por créditos dentro de cada semestre</div>
+            </div>
+            <button class="pond-modal-close" onclick="closePondModal()">×</button>
+        </div>
+        <div class="pond-modal-body" id="pondModalBody"></div>
+        <div class="pond-total-row">
+            <span class="pond-total-label">Promedio Ponderado Total</span>
+            <span class="pond-total-val" id="pondModalTotal">0.00</span>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="bulkGradesModal" onclick="if(event.target===this)closeBulkGrades()">
+    <div class="modal-content" style="width: 580px; max-height: 85vh; display: flex; flex-direction: column;">
+        <div class="modal-header">
+            <div class="modal-title-code" style="color: #f59e0b;">📝 CARGA MASIVA DE NOTAS</div>
+            <div class="modal-title-name" id="bulkGradesSubtitle">Cursos Cursando</div>
+        </div>
+        <div class="modal-body" id="bulkGradesBody" style="overflow-y: auto; flex: 1; gap: 12px;">
+        </div>
+        <div class="modal-footer" style="flex-direction: column; gap: 10px;">
+            <div style="font-size: 0.82rem; color: var(--text-dim); text-align: center;">
+                ✅ Nota ≥ 70 → se marca automáticamente como <strong style="color: var(--status-aprobado);">Aprobado</strong>
+            </div>
+            <div style="display: flex; gap: 12px; width: 100%;">
+                <button class="btn-modal btn-cancel" onclick="closeBulkGrades()">Cancelar</button>
+                <button class="btn-modal btn-confirm" onclick="saveBulkGrades()">Guardar Todo</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 
 </html>
