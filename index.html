@@ -2685,6 +2685,98 @@ path {
                 { id: 'IF5108', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['IF5905'], coreqs: [], userSem: 10 },
                 { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['IF4804'], coreqs: [], userSem: 10 }
             ],
+            ambiental: [
+              // BLOQUE 0 
+              { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+              { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+          
+              // BLOQUE 1 
+              { id: 'AI1100', block: 1, name: 'Introducción A La Ingeniería Ambiental', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'BI1106', block: 1, name: 'Laboratorio De Biología General Para Ingeniería Ambiental', cred: 1, hrs: 3, reqs: [], coreqs: ['BI1107'], userSem: 1 },
+              { id: 'BI1107', block: 1, name: 'Biología Para Ingeniería Ambiental', cred: 3, hrs: 9, reqs: [], coreqs: ['BI1106'], userSem: 1 },
+              { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'CI1230', block: 1, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 1 },
+              { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+              { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+          
+              // BLOQUE 2 
+              { id: 'AI2101', block: 2, name: 'Análisis Estadístico Para Ingeniería Ambiental', cred: 3, hrs: 9, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+              { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+              { id: 'CI1231', block: 2, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 2 },
+              { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+              { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['FI1201', 'MA1102'], userSem: 2 },
+              { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+              { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+              { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1107'], userSem: 2 },
+              { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1104'], userSem: 2 },
+          
+              // BLOQUE 3 
+              { id: 'AI3104', block: 3, name: 'Ecosaneamiento Ambiental', cred: 1, hrs: 3, reqs: ['BI1107'], coreqs: [], userSem: 3 },
+              { id: 'CA2125', block: 3, name: 'Elementos De Computación', cred: 3, hrs: 4, reqs: ['AI1100'], coreqs: [], userSem: 3 },
+              { id: 'FI2103', block: 3, name: 'Física General III', cred: 3, hrs: 4, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 3 },
+              { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+              { id: 'QU2604', block: 3, name: 'Química Ambiental Y Analítica', cred: 3, hrs: 9, reqs: ['QU1107'], coreqs: ['QU2605'], userSem: 3 },
+              { id: 'QU2605', block: 3, name: 'Laboratorio De Química Ambiental Y Analítica', cred: 3, hrs: 9, reqs: ['AI2101', 'QU1104'], coreqs: ['QU2604'], userSem: 3 },
+              { id: 'SE1100', block: 3, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+          
+              // BLOQUE 4 
+              { id: 'AI2401', block: 4, name: 'Análisis Topográfico En Ingeniería Ambiental', cred: 3, hrs: 9, reqs: ['MA1102'], coreqs: [], userSem: 4 },
+              { id: 'AI3208', block: 4, name: 'Hidráulica Para Ingeniería Ambiental', cred: 3, hrs: 9, reqs: ['FI2103'], coreqs: [], userSem: 4 },
+              { id: 'AI3212', block: 4, name: 'Termodinámica Y Cinética Ambiental', cred: 4, hrs: 12, reqs: ['FI2103', 'QU1107'], coreqs: [], userSem: 4 },
+              { id: 'CS2101', block: 4, name: 'Ambiente Humano', cred: 2, hrs: 6, reqs: ['CS1502'], coreqs: [], userSem: 4 },
+              { id: 'CS4108', block: 4, name: 'Derecho Ambiental', cred: 1, hrs: 3, reqs: ['AI3104'], coreqs: [], userSem: 4 },
+              { id: 'QU2409', block: 4, name: 'Química Orgánica Y Bioquímica', cred: 3, hrs: 9, reqs: ['QU1107'], coreqs: ['QU2410'], userSem: 4 },
+              { id: 'QU2410', block: 4, name: 'Laboratorio De Química Orgánica Y Bioquímica', cred: 2, hrs: 6, reqs: ['QU1104'], coreqs: ['QU2409'], userSem: 4 },
+          
+              // BLOQUE 5 
+              { id: 'AI3105', block: 5, name: 'Laboratorio De Microbiología Ambiental', cred: 2, hrs: 6, reqs: ['QU2410'], coreqs: ['AI3106'], userSem: 5 },
+              { id: 'AI3106', block: 5, name: 'Microbiología Ambiental', cred: 3, hrs: 9, reqs: ['QU2409'], coreqs: ['AI3105'], userSem: 5 },
+              { id: 'AI3107', block: 5, name: 'Operaciones Unitarias', cred: 3, hrs: 9, reqs: ['AI3208', 'QU2604'], coreqs: [], userSem: 5 },
+              { id: 'AI3108', block: 5, name: 'Dibujo E Interpretación De Planos', cred: 3, hrs: 9, reqs: ['AI2401'], coreqs: [], userSem: 5 },
+              { id: 'FO3401', block: 5, name: 'Sistemas De Información Geográfica', cred: 3, hrs: 4, reqs: ['AI2401'], coreqs: [], userSem: 5 },
+              { id: 'MA2104', block: 5, name: 'Cálculo Superior', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+          
+              // BLOQUE 6 
+              { id: 'AI3109', block: 6, name: 'Laboratorio De Tratamiento De Agua Potable Y Residual', cred: 2, hrs: 6, reqs: ['AI3105'], coreqs: ['AI3110', 'AI3112'], userSem: 6 },
+              { id: 'AI3110', block: 6, name: 'Diseño De Sistemas De Potabilización De Agua', cred: 3, hrs: 9, reqs: ['AI3107', 'AI3108'], coreqs: ['AI3109'], userSem: 6 },
+              { id: 'AI3111', block: 6, name: 'Administración De Proyectos De Infraestructura Ambiental', cred: 3, hrs: 9, reqs: ['AI3108', 'CS2101'], coreqs: [], userSem: 6 },
+              { id: 'AI3112', block: 6, name: 'Diseño Y Tratamiento De Aguas Residuales', cred: 3, hrs: 9, reqs: ['AI3106', 'QU2604'], coreqs: ['AI3109'], userSem: 6 },
+              { id: 'AI3209', block: 6, name: 'Hidrología', cred: 3, hrs: 9, reqs: ['FO3401'], coreqs: [], userSem: 6 },
+              { id: 'MA2105', block: 6, name: 'Ecuaciones Diferenciales', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 6 },
+              { id: 'SE1200', block: 6, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 6 },
+          
+              // BLOQUE 7 
+              { id: 'AE5121', block: 7, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: ['AI3111'], coreqs: [], userSem: 7 },
+              { id: 'AI4101', block: 7, name: 'Gestión Y Diseño En Tratamiento De Residuos Sólidos', cred: 3, hrs: 9, reqs: ['AI3112'], coreqs: [], userSem: 7 },
+              { id: 'AI4102', block: 7, name: 'Ingeniería En Emisiones Atmosféricas', cred: 3, hrs: 4, reqs: ['AI3107', 'AI3212'], coreqs: ['AI4103'], userSem: 7 },
+              { id: 'AI4103', block: 7, name: 'Laboratorio De Ingeniería En Emisiones Atmosféricas', cred: 2, hrs: 6, reqs: [], coreqs: ['AI4102'], userSem: 7 },
+              { id: 'AI4104', block: 7, name: 'Administración De La Energía En La Industria', cred: 3, hrs: 9, reqs: ['AI3212'], coreqs: ['AE5121'], userSem: 7 },
+              { id: 'MA3106', block: 7, name: 'Métodos Numéricos', cred: 4, hrs: 4, reqs: ['CA2125', 'MA2105'], coreqs: [], userSem: 7 },
+              { id: 'SE1400', block: 7, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 7 },
+          
+              // BLOQUE 8 
+              { id: 'AE4208', block: 8, name: 'Desarrollo De Emprendedores', cred: 4, hrs: 12, reqs: ['AE5121'], coreqs: [], userSem: 8 },
+              { id: 'AI5104', block: 8, name: 'Análisis Y Diseño Experimental Para Ingeniería Ambiental', cred: 3, hrs: 9, reqs: ['MA3106'], coreqs: [], userSem: 8 },
+              { id: 'AI5105', block: 8, name: 'Consumo Y Producción Sostenible', cred: 3, hrs: 9, reqs: ['AI4101'], coreqs: ['AI5106'], userSem: 8 },
+              { id: 'AI5106', block: 8, name: 'Gestión Ambiental', cred: 3, hrs: 9, reqs: ['AI4102', 'AI4104'], coreqs: ['AI5105'], userSem: 8 },
+              { id: 'AI5107', block: 8, name: 'Mecánica De Suelos Para Ingeniería Ambiental', cred: 3, hrs: 9, reqs: ['AI3209', 'AI3212'], coreqs: [], userSem: 8 },
+              { id: 'CS3404', block: 8, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['AI3111'], coreqs: [], userSem: 8 },
+          
+              // BLOQUE 9 
+              { id: 'AI4304', block: 9, name: 'Formulación Y Evaluación De Proyectos Ambientales', cred: 3, hrs: 3, reqs: ['AE5121', 'AI5106'], coreqs: [], userSem: 9 },
+              { id: 'AI5903', block: 9, name: 'Práctica Profesional', cred: 4, hrs: 0, reqs: ['CURSOS_APROBADOS'], coreqs: [], userSem: 9 },
+              { id: 'AI6101', block: 9, name: 'Metodología De La Investigación Ambiental', cred: 3, hrs: 9, reqs: ['AI5104'], coreqs: ['AI6102'], userSem: 9 },
+              { id: 'AI6102', block: 9, name: 'Huellas Y Métricas Ambientales', cred: 3, hrs: 9, reqs: ['AI5105'], coreqs: [], userSem: 9 },
+              { id: 'AI6103', block: 9, name: 'Electiva I', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 9 },
+              { id: 'CS2404', block: 9, name: 'Seminario De Problemática Urbana', cred: 1, hrs: 2, reqs: ['AI5106'], coreqs: [], userSem: 9 },
+          
+              // BLOQUE 10 
+              { id: 'AI6104', block: 10, name: 'Seguridad Y Salud Ocupacional En Ingeniería Ambiental', cred: 3, hrs: 9, reqs: ['AI4104'], coreqs: [], userSem: 10 },
+              { id: 'AI6105', block: 10, name: 'Evaluación De Impacto Ambiental', cred: 3, hrs: 9, reqs: ['AI6102'], coreqs: [], userSem: 10 },
+              { id: 'AI6106', block: 10, name: 'Proyecto De Graduación', cred: 8, hrs: 24, reqs: ['AE4208', 'AE5121', 'AI1100', 'AI2101', 'AI3104', 'AI3105', 'AI3106', 'AI3107', 'AI3108', 'AI3109', 'AI3110', 'AI3111', 'AI3112', 'AI3208', 'AI3209', 'AI3212', 'AI4101', 'AI4102', 'AI4103', 'AI4104', 'AI4304', 'AI5104', 'AI5105', 'AI5106', 'AI5107', 'AI5903', 'AI6101', 'AI6102', 'AI6103', 'BI1106', 'BI1107', 'CA2125', 'CI1106', 'CI1107', 'CI1230', 'CI1231', 'CS1502', 'CS2101', 'CS2404', 'CS3404','CS4108', 'FH1000', 'FI1101', 'FI1201', 'FI2103', 'FO3401', 'MA0101', 'MA1102', 'MA1103', 'MA2104', 'MA2105', 'MA3106', 'QU1102', 'QU1104', 'QU1106', 'QU1107', 'QU2409', 'QU2410', 'QU2604', 'QU2605', 'SE1100', 'SE1200', 'SE1400'], coreqs: [], userSem: 10 }
+          ],
             diseno: [
                 // BLOQUE 0
                 { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
