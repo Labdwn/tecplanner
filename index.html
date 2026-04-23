@@ -2649,7 +2649,7 @@ path {
             seguridad: {
                 name: "Ing. Seguridad Laboral e Higiene Ambiental",
                 icon: "🦺",
-                plan: 0,
+                plan: 2151,
                 grado: "Licenciatura",
             },
             arquitectura: {
@@ -2739,6 +2739,96 @@ path {
                 { id: 'IF5108', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['IF5905'], coreqs: [], userSem: 10 },
                 { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['IF4804'], coreqs: [], userSem: 10 }
             ],
+            seguridad: [
+              // BLOQUE 0
+              { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+              { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+          
+              // BLOQUE 1
+              { id: 'BI5406', block: 1, name: 'Biología General Para Entornos Laborales', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+              { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+              { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'SO1102', block: 1, name: 'Dibujo E Interpretación De Planos', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+              { id: 'SO1103', block: 1, name: 'Introducción A La Seguridad Laboral', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+          
+              // BLOQUE 2
+              { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+              { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+              { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+              { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['MA1102'], userSem: 2 },
+              { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+              { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+              { id: 'MI8304', block: 2, name: 'Máquinas Y Equipos', cred: 3, hrs: 9, reqs: ['SO1102', 'SO1103'], coreqs: [], userSem: 2 },
+              { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1107'], userSem: 2 },
+              { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1104'], userSem: 2 },
+              { id: 'SE1400', block: 2, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+          
+              // BLOQUE 3
+              { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+              { id: 'CS2101', block: 3, name: 'Ambiente Humano', cred: 2, hrs: 6, reqs: ['CI1106'], coreqs: [], userSem: 3 },
+              { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+              { id: 'PI2608', block: 3, name: 'Análisis Estadístico', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+              { id: 'QU2402', block: 3, name: 'Laboratorio Fundamentos Química Orgánica', cred: 1, hrs: 2, reqs: ['QU1104', 'QU1107'], coreqs: ['QU2407'], userSem: 3 },
+              { id: 'QU2407', block: 3, name: 'Fundamentos De Química Orgánica', cred: 3, hrs: 4, reqs: ['QU1104', 'QU1107'], coreqs: ['QU2402'], userSem: 3 },
+              { id: 'SO2309', block: 3, name: 'Seguridad En Instalaciones Y Maquinaria', cred: 3, hrs: 9, reqs: ['MI8304'], coreqs: [], userSem: 3 },
+          
+              // BLOQUE 4
+              { id: 'FI2103', block: 4, name: 'Física General III', cred: 3, hrs: 4, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 4 },
+              { id: 'MA2105', block: 4, name: 'Ecuaciones Diferenciales', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+              { id: 'SO2404', block: 4, name: 'Procesos De Manufactura', cred: 3, hrs: 9, reqs: ['SO2309'], coreqs: [], userSem: 4 },
+              { id: 'SO2405', block: 4, name: 'Bioestadística', cred: 3, hrs: 9, reqs: ['PI2608'], coreqs: ['SO2406'], userSem: 4 },
+              { id: 'SO2406', block: 4, name: 'Anatomía Y Fisiología Médica', cred: 3, hrs: 9, reqs: [], coreqs: ['SO2405'], userSem: 4 },
+              { id: 'SO2407', block: 4, name: 'Legislación Ocupacional Y Ambiental', cred: 2, hrs: 6, reqs: ['CS2101'], coreqs: [], userSem: 4 },
+          
+              // BLOQUE 5
+              { id: 'AE5113', block: 5, name: 'Contabilidad Financiera', cred: 3, hrs: 9, reqs: ['MA2105'], coreqs: [], userSem: 5 },
+              { id: 'SO3503', block: 5, name: 'Fundamentos De Medicina Y Toxicología Laboral', cred: 3, hrs: 9, reqs: ['SO2406'], coreqs: ['SO3507'], userSem: 5 },
+              { id: 'SO3507', block: 5, name: 'Epidemiología En Salud Ocupacional', cred: 3, hrs: 9, reqs: [], coreqs: ['SO3503'], userSem: 5 },
+              { id: 'SO3510', block: 5, name: 'Agentes Ambientales Biológicos', cred: 3, hrs: 9, reqs: ['BI5406'], coreqs: ['SO3604'], userSem: 5 },
+              { id: 'SO3513', block: 5, name: 'Seguridad En Procesos Industriales', cred: 3, hrs: 9, reqs: ['SO2404'], coreqs: [], userSem: 5 },
+              { id: 'SO3604', block: 5, name: 'Agentes Ambientales Químicos', cred: 3, hrs: 9, reqs: ['QU2407', 'SO2405'], coreqs: ['SO3510'], userSem: 5 },
+          
+              // BLOQUE 6
+              { id: 'AE5122', block: 6, name: 'Ingeniería Financiera', cred: 3, hrs: 9, reqs: ['AE5113'], coreqs: ['SO3506'], userSem: 6 },
+              { id: 'MA3106', block: 6, name: 'Métodos Numéricos', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 6 },
+              { id: 'SO3506', block: 6, name: 'Metodología Investigación', cred: 3, hrs: 4, reqs: ['CI1231'], coreqs: ['AE5122'], userSem: 6 },
+              { id: 'SO3603', block: 6, name: 'Evaluación Y Control De Ruidos Y Vibraciones', cred: 3, hrs: 9, reqs: ['SO3503'], coreqs: [], userSem: 6 },
+              { id: 'SO3606', block: 6, name: 'Factores Psicosociales', cred: 3, hrs: 9, reqs: ['SO3507'], coreqs: [], userSem: 6 },
+              { id: 'SO4701', block: 6, name: 'Taller De Agentes Ambientales Químicos', cred: 2, hrs: 6, reqs: ['SO3604'], coreqs: [], userSem: 6 },
+          
+              // BLOQUE 7
+              { id: 'SO3508', block: 7, name: 'Seguridad Contra Incendios', cred: 3, hrs: 9, reqs: ['FI2103', 'SO3513'], coreqs: [], userSem: 7 },
+              { id: 'SO4703', block: 7, name: 'Evaluación Y Control De Exposición Al Ambiente Térmico', cred: 3, hrs: 9, reqs: ['SO3603'], coreqs: [], userSem: 7 },
+              { id: 'SO4705', block: 7, name: 'Control De Los Factores Psicosociales', cred: 3, hrs: 9, reqs: ['SO3606'], coreqs: ['SO4804'], userSem: 7 },
+              { id: 'SO4802', block: 7, name: 'Control De Agentes Ambientales Químicos', cred: 3, hrs: 9, reqs: ['SO4701'], coreqs: [], userSem: 7 },
+              { id: 'SO4804', block: 7, name: 'Principios De Ergonomía Ocupacional', cred: 3, hrs: 9, reqs: [], coreqs: ['SO4705'], userSem: 7 },
+          
+              // BLOQUE 8
+              { id: 'SO4508', block: 8, name: 'Protección Del Ambiente', cred: 3, hrs: 4, reqs: [], coreqs: ['SO4706'], userSem: 8 },
+              { id: 'SO4702', block: 8, name: 'Seguridad Eléctrica', cred: 3, hrs: 11, reqs: ['SO3508'], coreqs: [], userSem: 8 },
+              { id: 'SO4706', block: 8, name: 'Seminario De Adaptación Al Cambio Climático', cred: 2, hrs: 6, reqs: [], coreqs: ['SO4508', 'SO4707'], userSem: 8 },
+              { id: 'SO4707', block: 8, name: 'Administración De Proyectos', cred: 3, hrs: 9, reqs: ['AE5122', 'SO3506'], coreqs: ['SO4706'], userSem: 8 },
+              { id: 'SO4803', block: 8, name: 'Evaluación Y Control De Radiaciones E Iluminación', cred: 3, hrs: 4, reqs: ['SO4703'], coreqs: [], userSem: 8 },
+              { id: 'SO5904', block: 8, name: 'Factores Humanos Y Ergonomía Ocupacional', cred: 3, hrs: 9, reqs: ['SO4804'], coreqs: [], userSem: 8 },
+          
+              // BLOQUE 9
+              { id: 'CS3404', block: 9, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['SO2407'], coreqs: [], userSem: 9 },
+              { id: 'SO4402', block: 9, name: 'Gerencia De Riesgos', cred: 3, hrs: 4, reqs: [], coreqs: ['SO4801'], userSem: 9 },
+              { id: 'SO4801', block: 9, name: 'Gerencia Estratégica', cred: 3, hrs: 9, reqs: ['SO4707'], coreqs: ['SO4402'], userSem: 9 },
+              { id: 'SO5903', block: 9, name: 'Gestión Ambiental', cred: 3, hrs: 9, reqs: ['SO4508'], coreqs: ['SO5905'], userSem: 9 },
+              { id: 'SO5905', block: 9, name: 'Gestión Integral De Desastres', cred: 3, hrs: 9, reqs: [], coreqs: ['SO5903'], userSem: 9 },
+              { id: 'SO5910', block: 9, name: 'Taller De Diseño', cred: 4, hrs: 12, reqs: ['SO4702', 'SO4803'], coreqs: [], userSem: 9 },
+          
+              // BLOQUE 10
+              { id: 'CS4402', block: 10, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 10 },
+              { id: 'SO5101', block: 10, name: 'Trabajo Final De Graduación', cred: 10, hrs: 30, reqs: ['SO5905', 'SO5910'], coreqs: [], userSem: 10 },
+              { id: 'SO5906', block: 10, name: 'Electiva', cred: 3, hrs: 9, reqs: ['SO4803', 'SO5904'], coreqs: [], userSem: 10 }
+          ],
             e_mate: [
                 // BLOQUE 0 
                 { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, reqs: [], coreqs: [], userSem: 0 },
@@ -3993,54 +4083,108 @@ path {
         });
         //fin desplegar lista carreras Acerca de
 
-        function notifyOpen() {
-            const WEBHOOK = 'https://discord.com/api/webhooks/1496671101294481418/zFhuYS-F88Zu9Aahv_FXNEOOHd3IqEb3cXyW7DFerpOEZawcFZNunFqAcM85TA83lIWA';
-            const COOLDOWN_MS = 30 * 60 * 1000; // 30 minutos
+        async function notifyOpen() {
+    const WEBHOOK     = 'TU_WEBHOOK_URL';
+    const BIN_ID      = 'TU_BIN_ID';
+    const API_KEY     = 'TU_API_KEY';
+    const COOLDOWN_MS = 30 * 60 * 1000;
 
-            const ahora = Date.now();
-            const ultimaVez = parseInt(localStorage.getItem('TecPlanner_LastNotify') || '0');
+    const ahora     = Date.now();
+    const ultimaVez = parseInt(localStorage.getItem('TecPlanner_LastNotify') || '0');
+    if (ahora - ultimaVez < COOLDOWN_MS) return;
+    localStorage.setItem('TecPlanner_LastNotify', ahora.toString());
 
-            // Si está dentro del cooldown, no enviar
-            if (ahora - ultimaVez < COOLDOWN_MS) return;
+    // Detectar si es primera vez (en este dispositivo/navegador)
+    const esNuevo = !localStorage.getItem('TecPlanner_EverOpened');
+    if (esNuevo) localStorage.setItem('TecPlanner_EverOpened', 'true');
 
-            // Actualizar timestamp
-            localStorage.setItem('TecPlanner_LastNotify', ahora.toString());
+    // Leer contadores globales
+    let data = { total: 0, semanas: {}, carreras: {}, nuevos: 0, recurrentes: 0 };
+    try {
+        const res = await fetch(`https://api.jsonbin.io/v3/b/${BIN_ID}/latest`, {
+            headers: { 'X-Master-Key': API_KEY }
+        });
+        const json = await res.json();
+        data = { ...data, ...json.record };
+    } catch(e) {}
 
-            // Contador total
-            const totalAperturas = parseInt(localStorage.getItem('TecPlanner_OpenCount') || '0') + 1;
-            localStorage.setItem('TecPlanner_OpenCount', totalAperturas.toString());
+    // Actualizar contadores
+    const semKey = getWeekKey();
+    const major  = localStorage.getItem('TecPlanner_ActiveMajor') || 'sin_carrera';
 
-            // Contador semanal
-            const semanaActual = getWeekKey();
-            const semanaGuardada = localStorage.getItem('TecPlanner_WeekKey') || '';
-            let countSemana = parseInt(localStorage.getItem('TecPlanner_WeekCount') || '0');
+    data.total                    = (data.total || 0) + 1;
+    data.semanas[semKey]          = (data.semanas[semKey] || 0) + 1;
+    data.carreras[major]          = (data.carreras[major] || 0) + 1;
+    data.nuevos                   = (data.nuevos || 0) + (esNuevo ? 1 : 0);
+    data.recurrentes              = (data.recurrentes || 0) + (esNuevo ? 0 : 1);
 
-            if (semanaActual !== semanaGuardada) {
-                // Nueva semana → resetear contador semanal
-                countSemana = 1;
-                localStorage.setItem('TecPlanner_WeekKey', semanaActual);
-            } else {
-                countSemana++;
-            }
-            localStorage.setItem('TecPlanner_WeekCount', countSemana.toString());
+    // Guardar
+    try {
+        await fetch(`https://api.jsonbin.io/v3/b/${BIN_ID}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Master-Key': API_KEY
+            },
+            body: JSON.stringify(data)
+        });
+    } catch(e) {}
 
-            // Mensaje
-            const now = new Date().toLocaleString('es-CR', { timeZone: 'America/Costa_Rica' });
-            const major = localStorage.getItem('TecPlanner_ActiveMajor') || 'sin carrera';
+    // Construir ranking de carreras
+    const rankingCarreras = Object.entries(data.carreras)
+        .sort((a, b) => b[1] - a[1])
+        .map(([nombre, count], i) => {
+            const medals = ['🥇','🥈','🥉'];
+            const medal  = medals[i] || '▪️';
+          
+            const info = careers_information[nombre];
+            const label = info ? `${info.icon} ${info.name}` : nombre;
+            return `${medal} ${label}: ${count}`;
+        })
+        .join('\n');
 
-            fetch(WEBHOOK, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    content: [
-                        `👀 **TecPlanner** fue abierto`,
-                        `🕐 ${now}`,
-                        `🎓 Carrera: \`${major}\``,
-                        `📊 Apertura #${totalAperturas} en total · #${countSemana} esta semana`
-                    ].join('\n')
-                })
-            }).catch(() => {});
-        }
+    // Notificación
+    const now       = new Date().toLocaleString('es-CR', { timeZone: 'America/Costa_Rica' });
+    const tipoUsuario = esNuevo
+        ? '🆕 **Usuario nuevo**'
+        : '🔄 Usuario recurrente';
+
+    fetch(WEBHOOK, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            embeds: [{
+                title: '👀 TecPlanner fue abierto',
+                color: esNuevo ? 0x10b981 : 0x8257e6,
+                fields: [
+                    {
+                        name: '📋 Detalle',
+                        value: [
+                            `🕐 ${now}`,
+                            `🎓 Carrera: ${careers_information[major]?.icon || ''} ${careers_information[major]?.name || major}`,
+                            tipoUsuario
+                        ].join('\n'),
+                        inline: true
+                    },
+                    {
+                        name: '📊 Contadores',
+                        value: [
+                            `Total: **${data.total}**`,
+                            `Esta semana: **${data.semanas[semKey]}**`,
+                            `Nuevos: **${data.nuevos}** · Recurrentes: **${data.recurrentes}**`
+                        ].join('\n'),
+                        inline: true
+                    },
+                    {
+                        name: '🏆 Carreras más populares',
+                        value: rankingCarreras || 'Sin datos',
+                        inline: false
+                    }
+                ]
+            }]
+        })
+    }).catch(() => {});
+}
 
         function getWeekKey() {
             const now = new Date();
