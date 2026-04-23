@@ -4210,7 +4210,6 @@ path {
                 const title = currentMajor === 'fisica' ? 'ING. FÍSICA' : 'BIOTECNOLOGÍA';
                 loadMajor(currentMajor, title);
             }
-            notifyOpen();
         }
 
         function selectMajor(majorKey, titleText) {
@@ -4231,6 +4230,7 @@ path {
             coursesDB = JSON.parse(JSON.stringify(curriculums[majorKey]));
             
             init(); 
+            notifyOpen();
         }
 
         function resetMajor() {
