@@ -1815,6 +1815,15 @@ path {
                         <div class="major-card" data-career="ati"></div>
                                      
                         <div class="major-card" data-career="materiales"></div>
+
+                        <div class="major-card" data-career="ambiental"></div>
+
+                        <div class="major-card" data-career="agricola"></div>
+                        <!--<div class="major-card" data-career="forestal"></div>-->
+                        <div class="major-card" data-career="agronegocios"></div>
+                        <div class="major-card" data-career="e_mate"></div>
+                        <!--<div class="major-card" data-career="seguridad"></div>-->
+                        <!--<div class="major-card" data-career="arquitectura"></div>-->
                     
  
         </div>
@@ -2562,7 +2571,7 @@ path {
             },
             administracion: {
                 name: "Administración de Empresas",
-                icon: "🏢",
+                icon: "💼",
                 plan: 231,
                 grado: "Bachillerato",
                 modalidad: "Diurna"
@@ -2591,7 +2600,12 @@ path {
                 plan: 707,
                 grado: "Bachillerato",
             },
-            //pendiente
+            ambiental: {
+                name: "Ing. Ambiental",
+                icon: "🍃",
+                plan: 1802,
+                grado: "Licenciatura",
+            },
             ati: {
                 name: "Administración de Tecnologías de Información",
                 icon: "📊",
@@ -2604,10 +2618,44 @@ path {
                 plan: 1216,
                 grado: "Licenciatura",
             },
-            ambiental: {
-                name: "Ing. Ambiental",
-                icon: ".",
-                plan: 1802,
+            agricola: {
+                name: "Ing. Agrícola",
+                icon: "🚜",
+                plan: 1008,
+                grado: "Licenciatura",
+            },
+            agronegocios: {
+                name: "Ing. Agronegocios",
+                icon: "🌾",
+                plan: 114,
+                grado: "Licenciatura",
+            },
+            e_mate: {
+                name: "Enseñanza De La Matemática con Entornos Tecnológicos",
+                icon: "♾️",
+                plan: 1605,
+                grado: "Bachillerato",
+            },
+            //pendiente
+
+            forestal: {
+                name: "Ing. Forestal",
+                icon: "🌲",
+                plan: 0,
+                grado: "Licenciatura",
+            },
+            
+            
+            seguridad: {
+                name: "Ing. Seguridad Laboral e Higiene Ambiental",
+                icon: "🦺",
+                plan: 0,
+                grado: "Licenciatura",
+            },
+            arquitectura: {
+                name: "Arquitectura y Urbanismo",
+                icon: "🏛️",
+                plan: 0,
                 grado: "Licenciatura",
             },
         };
@@ -2691,6 +2739,415 @@ path {
                 { id: 'IF5108', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['IF5905'], coreqs: [], userSem: 10 },
                 { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['IF4804'], coreqs: [], userSem: 10 }
             ],
+            e_mate: [
+                // BLOQUE 0 
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, reqs: [], coreqs: [], userSem: 0 },
+
+                // BLOQUE 1 
+                { id: 'CI1405', block: 1, name: 'Fundamentos De Comunicación Académica', cred: 3, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'EM1401', block: 1, name: 'Introducción A La Pedagogía', cred: 3, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'EM1404', block: 1, name: 'Teorías Psicopedagógicas Del Aprendizaje', cred: 3, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'EM1605', block: 1, name: 'Fundamentos De Matemática I', cred: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA1403', block: 1, name: 'Matemática Discreta', cred: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, reqs: [], coreqs: [], userSem: 1 },
+
+                // BLOQUE 2 
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'CI1406', block: 2, name: 'Argumentación E Investigación En Comunicación Académica', cred: 3, reqs: ['CI1405'], coreqs: [], userSem: 2 },
+                { id: 'EM1600', block: 2, name: 'Tecnologías Digitales Aplicadas A La Matemática Educativa I', cred: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'EM1606', block: 2, name: 'Fundamentos De Matemática II', cred: 4, reqs: ['EM1605'], coreqs: [], userSem: 2 },
+                { id: 'EM2408', block: 2, name: 'Aprendizaje Y Didáctica De La Matemática', cred: 2, reqs: ['EM1401'], coreqs: [], userSem: 2 },
+                { id: 'EM2604', block: 2, name: 'Geometría I', cred: 4, reqs: ['MA1403'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'SE1400', block: 2, name: 'Actividad Cultural-Deportiva', cred: 0, reqs: [], coreqs: [], userSem: 2 },
+
+                // BLOQUE 3 
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'EM1608', block: 3, name: 'Didáctica Del Álgebra Y Funciones', cred: 3, reqs: ['EM1606', 'EM2408'], coreqs: [], userSem: 3 },
+                { id: 'EM2606', block: 3, name: 'Geometría II', cred: 4, reqs: ['EM2604'], coreqs: [], userSem: 3 },
+                { id: 'EM3407', block: 3, name: 'Psicología Del Desarrollo', cred: 3, reqs: ['EM1404'], coreqs: [], userSem: 3 },
+                { id: 'EM3607', block: 3, name: 'Álgebra Lineal', cred: 5, reqs: ['EM1606'], coreqs: ['EM1608'], userSem: 3 },
+
+                // BLOQUE 4 
+                { id: 'CA2125', block: 4, name: 'Elementos De Computación', cred: 3, reqs: [], coreqs: [], userSem: 4 },
+                { id: 'EM1607', block: 4, name: 'Didáctica De La Geometría', cred: 3, reqs: ['EM1608', 'EM2606'], coreqs: [], userSem: 4 },
+                { id: 'EM2603', block: 4, name: 'Cálculo Y Análisis I', cred: 5, reqs: ['EM3607'], coreqs: [], userSem: 4 },
+                { id: 'EM2608', block: 4, name: 'Elementos De Análisis De Datos Y Probabilidad', cred: 3, reqs: ['EM1606'], coreqs: [], userSem: 4 },
+                { id: 'EM2610', block: 4, name: 'Módulo Requisito Graduación', cred: 0, reqs: [], coreqs: ['EM1607'], userSem: 4 },
+                { id: 'EM3048', block: 4, name: 'Atención A La Diversidad En La Enseñanza Y El Aprendizaje De La Matemática', cred: 3, reqs: ['EM3407'], coreqs: [], userSem: 4 },
+
+                // BLOQUE 5 
+                { id: 'EM1609', block: 5, name: 'Didáctica De La Probabilidad Y La Estadística', cred: 3, reqs: ['EM1607', 'EM2608'], coreqs: [], userSem: 5 },
+                { id: 'EM1610', block: 5, name: 'Tecnologías Digitales Aplicadas A La Matemática Educativa II', cred: 3, reqs: ['CA2125', 'EM1600'], coreqs: [], userSem: 5 },
+                { id: 'EM2607', block: 5, name: 'Cálculo Y Análisis II', cred: 5, reqs: ['EM2603'], coreqs: [], userSem: 5 },
+                { id: 'EM3001', block: 5, name: 'Electivo I', cred: 4, reqs: [], coreqs: ['EM1609'], userSem: 5 },
+                { id: 'EM3408', block: 5, name: 'Evaluación Del Aprendizaje', cred: 3, reqs: ['EM3048'], coreqs: ['EM1609'], userSem: 5 },
+
+                // BLOQUE 6 
+                { id: 'CS3401', block: 6, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, reqs: [], coreqs: [], userSem: 6 },
+                { id: 'EM3409', block: 6, name: 'Práctica Docente', cred: 6, reqs: [], coreqs: [], userSem: 6 }, // Requisito: "Ver todos" en origen
+                { id: 'EM3608', block: 6, name: 'Cálculo Y Análisis III', cred: 5, reqs: ['EM2607'], coreqs: [], userSem: 6 },
+                { id: 'EM3610', block: 6, name: 'Electivo II', cred: 3, reqs: [], coreqs: [], userSem: 6 },
+
+                // BLOQUE 7 
+                { id: 'CS4402', block: 7, name: 'Seminario De Estudios Costarricenses', cred: 2, reqs: ['CS3401'], coreqs: [], userSem: 7 },
+                { id: 'EM1611', block: 7, name: 'Geometría Analítica', cred: 4, reqs: ['EM2606'], coreqs: [], userSem: 7 },
+                { id: 'EM4609', block: 7, name: 'Álgebra', cred: 5, reqs: ['EM3607'], coreqs: [], userSem: 7 },
+                { id: 'EM4610', block: 7, name: 'Ecuaciones Diferenciales', cred: 5, reqs: ['EM3608'], coreqs: [], userSem: 7 },
+
+                // BLOQUE 8 
+                { id: 'EM1613', block: 8, name: 'Tecnologías Digitales Aplicadas A La Matemática Educativa III', cred: 3, reqs: ['EM1610'], coreqs: [], userSem: 8 },
+                { id: 'EM1614', block: 8, name: 'Estadística Inferencial', cred: 4, reqs: ['EM2608'], coreqs: ['EM4612'], userSem: 8 },
+                { id: 'EM4001', block: 8, name: 'Electivo III', cred: 4, reqs: ['EM3608'], coreqs: [], userSem: 8 },
+                { id: 'EM4612', block: 8, name: 'Métodos Numéricos', cred: 4, reqs: ['EM4610'], coreqs: [], userSem: 8 }
+            ],
+            agronegocios: [
+                // BLOQUE 0
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+
+                // BLOQUE 1
+                { id: 'AN1003', block: 1, name: 'Introducción A La Ingeniería En Agronegocios', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'BI1101', block: 1, name: 'Biología General', cred: 3, hrs: 9, reqs: [], coreqs: ['BI1102'], userSem: 1 },
+                { id: 'BI1102', block: 1, name: 'Laboratorio De Biología General', cred: 1, hrs: 3, reqs: [], coreqs: ['BI1101'], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+
+                // BLOQUE 2
+                { id: 'AN1004', block: 2, name: 'Gestión En Agronegocios', cred: 3, hrs: 9, reqs: ['AN1003'], coreqs: [], userSem: 2 },
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['MA1102'], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1104'], userSem: 2 },
+                { id: 'SE1400', block: 2, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+
+                // BLOQUE 3
+                { id: 'AE3103', block: 3, name: 'Contabilidad General', cred: 3, hrs: 4, reqs: ['MA0101'], coreqs: ['AN2002'], userSem: 3 },
+                { id: 'AN2002', block: 3, name: 'Agronegocios En El Desarrollo Rural', cred: 2, hrs: 4, reqs: ['AN1004'], coreqs: ['AE3103'], userSem: 3 },
+                { id: 'AN2007', block: 3, name: 'Microeconomía En Los Agronegocios', cred: 3, hrs: 9, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'QU2402', block: 3, name: 'Laboratorio Fundamentos Química Orgánica', cred: 1, hrs: 2, reqs: ['QU1104', 'QU1107'], coreqs: ['QU2407'], userSem: 3 },
+                { id: 'QU2407', block: 3, name: 'Fundamentos De Química Orgánica', cred: 3, hrs: 4, reqs: ['QU1104', 'QU1107'], coreqs: ['QU2402'], userSem: 3 },
+
+                // BLOQUE 4
+                { id: 'AA2302', block: 4, name: 'Contabilidad De Costos Aplicada', cred: 3, hrs: 9, reqs: ['AE3103'], coreqs: ['AA3202'], userSem: 4 },
+                { id: 'AA3202', block: 4, name: 'Anatomía Y Fisiología Animal', cred: 3, hrs: 9, reqs: ['BI1101'], coreqs: ['AA2302'], userSem: 4 },
+                { id: 'AE4312', block: 4, name: 'Macroeconomía', cred: 3, hrs: 4, reqs: ['AN2007'], coreqs: [], userSem: 4 },
+                { id: 'AN2003', block: 4, name: 'Bioquímica Agroalimentaria', cred: 3, hrs: 7, reqs: ['QU2402', 'QU2407'], coreqs: ['AN2004'], userSem: 4 },
+                { id: 'AN2004', block: 4, name: 'Laboratorio De Bioquímica Agroalimentaria', cred: 3, hrs: 9, reqs: ['QU2402', 'QU2407'], coreqs: ['AN2003'], userSem: 4 },
+                { id: 'AN3008', block: 4, name: 'Probabilidad Y Estadísticas En Los Agronegocios', cred: 3, hrs: 9, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+
+                // BLOQUE 5
+                { id: 'AA3203', block: 5, name: 'Nutrición Y Agrostología', cred: 3, hrs: 9, reqs: ['AA3202', 'AN3008'], coreqs: [], userSem: 5 },
+                { id: 'AA3328', block: 5, name: 'Mercadeo Agropecuario', cred: 3, hrs: 4, reqs: ['AE4312'], coreqs: [], userSem: 5 },
+                { id: 'AN3001', block: 5, name: 'Microbiología Agroalimentaria', cred: 3, hrs: 8, reqs: ['AN2003', 'AN2004'], coreqs: [], userSem: 5 },
+                { id: 'AN3003', block: 5, name: 'Gestión Contable En Agronegocios', cred: 3, hrs: 9, reqs: ['AA2302'], coreqs: [], userSem: 5 },
+                { id: 'AN3009', block: 5, name: 'Diseño Experimental En Los Agronegocios', cred: 3, hrs: 9, reqs: ['AN3008'], coreqs: [], userSem: 5 },
+                { id: 'IA3010', block: 5, name: 'Suelos Y Labranza', cred: 3, hrs: 9, reqs: ['FI1101'], coreqs: [], userSem: 5 },
+
+                // BLOQUE 6
+                { id: 'AA4205', block: 6, name: 'Producción Bovina', cred: 3, hrs: 6, reqs: ['AA3203'], coreqs: [], userSem: 6 },
+                { id: 'AN3004', block: 6, name: 'Fundamentos De Agroindustria Alimentaria', cred: 3, hrs: 9, reqs: ['AN3001'], coreqs: [], userSem: 6 },
+                { id: 'AN3006', block: 6, name: 'Investigación De Operaciones En Agronegocios', cred: 3, hrs: 9, reqs: ['AN3009'], coreqs: [], userSem: 6 },
+                { id: 'AN3007', block: 6, name: 'Cultivos Hortícolas', cred: 3, hrs: 9, reqs: ['IA3010'], coreqs: [], userSem: 6 },
+                { id: 'AN4002', block: 6, name: 'Mercadeo Productos Agroindustriales', cred: 3, hrs: 4, reqs: ['AA3328'], coreqs: [], userSem: 6 },
+                { id: 'AN4008', block: 6, name: 'Sistematización De Datos En Agronegocios', cred: 3, hrs: 9, reqs: ['AN3003'], coreqs: [], userSem: 6 },
+
+                // BLOQUE 7
+                { id: 'AN4001', block: 7, name: 'Procesado Productos Agrícolas', cred: 3, hrs: 9, reqs: ['AN3004'], coreqs: ['AN4003'], userSem: 7 },
+                { id: 'AN4003', block: 7, name: 'Abastecimiento De Los Agronegocios', cred: 3, hrs: 9, reqs: ['AA4205', 'AN3007'], coreqs: ['AN4001'], userSem: 7 },
+                { id: 'AN4004', block: 7, name: 'Cultivos Perennes Y Granos', cred: 3, hrs: 9, reqs: ['AN3007'], coreqs: [], userSem: 7 },
+                { id: 'AN4009', block: 7, name: 'Mercadeo Internacional', cred: 3, hrs: 9, reqs: ['AN4002'], coreqs: [], userSem: 7 },
+                { id: 'AN4010', block: 7, name: 'Producción Porcina Y Avícola', cred: 3, hrs: 4, reqs: ['AA4205'], coreqs: [], userSem: 7 },
+                { id: 'PI3901', block: 7, name: 'Administración De La Producción', cred: 2, hrs: 3, reqs: ['AN3006'], coreqs: [], userSem: 7 },
+
+                // BLOQUE 8
+                { id: 'AN3005', block: 8, name: 'Finanzas En Agronegocios', cred: 3, hrs: 4, reqs: ['PI3901'], coreqs: [], userSem: 8 },
+                { id: 'AN4005', block: 8, name: 'Procesado Productos Pecuarios', cred: 3, hrs: 9, reqs: ['AN4010'], coreqs: ['AN4006'], userSem: 8 },
+                { id: 'AN4006', block: 8, name: 'Gestión Ambiental En Agronegocios', cred: 2, hrs: 5, reqs: ['AN4001'], coreqs: ['AN4005'], userSem: 8 },
+                { id: 'AN4007', block: 8, name: 'Cultivos No Tradicionales Y Tecnologías Alternativas', cred: 3, hrs: 9, reqs: ['AN4004'], coreqs: [], userSem: 8 },
+                { id: 'AN7000', block: 8, name: 'Electivo', cred: 3, hrs: 7, reqs: [], coreqs: [], userSem: 8 },
+                { id: 'CS1308', block: 8, name: 'Derecho Comercial', cred: 2, hrs: 4, reqs: [], coreqs: [], userSem: 8 },
+                { id: 'CS3404', block: 8, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: [], coreqs: ['AN4006'], userSem: 8 },
+
+                // BLOQUE 9
+                { id: 'AA4113', block: 9, name: 'Control De Calidad De Procesos Agroindustriales', cred: 3, hrs: 4, reqs: ['AN4005'], coreqs: [], userSem: 9 },
+                { id: 'AN5001', block: 9, name: 'Seminario De Graduación En Agronegocios', cred: 3, hrs: 9, reqs: [], coreqs: ['AN5002'], userSem: 9 },
+                { id: 'AN5002', block: 9, name: 'Gestión De Recursos Humanos En Agronegocios', cred: 3, hrs: 9, reqs: [], coreqs: ['AN5001', 'AN5003'], userSem: 9 },
+                { id: 'AN5003', block: 9, name: 'Formulación Y Evaluación De Proyectos', cred: 3, hrs: 9, reqs: ['AN3005', 'AN4009'], coreqs: ['AN5002'], userSem: 9 },
+                { id: 'AN5004', block: 9, name: 'Estrategia Empresarial En Agronegocios', cred: 3, hrs: 9, reqs: ['AN3005', 'AN4009'], coreqs: [], userSem: 9 },
+                { id: 'CS4402', block: 9, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 9 },
+
+                // BLOQUE 10
+                { id: 'AN6001', block: 10, name: 'Trabajo Final De Graduación', cred: 10, hrs: 0, reqs: ['AN5001'], coreqs: [], userSem: 10 }
+            ],
+            agricola: [
+                // BLOQUE 0
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+
+                // BLOQUE 1
+                { id: 'BI1103', block: 1, name: 'Biología Agrícola', cred: 3, hrs: 3, reqs: [], coreqs: ['BI1104'], userSem: 1 },
+                { id: 'BI1104', block: 1, name: 'Laboratorio De Biología Agrícola', cred: 1, hrs: 2, reqs: [], coreqs: ['BI1103'], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CI1230', block: 1, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 1 },
+                { id: 'IA1002', block: 1, name: 'Fundamentos De Ingeniería Agrícola', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+
+                // BLOQUE 2
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'CI1231', block: 2, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 2 },
+                { id: 'CS1502', block: 2, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'CS3305', block: 2, name: 'Legislación Agrícola', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'IA1203', block: 2, name: 'Dibujo Técnico', cred: 3, hrs: 4, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1104'], userSem: 2 },
+
+                // BLOQUE 3
+                { id: 'FI1101', block: 3, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['MA1102'], userSem: 3 },
+                { id: 'FI1201', block: 3, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 3 },
+                { id: 'IA2105', block: 3, name: 'Laboratorio De Edafología', cred: 2, hrs: 3, reqs: [], coreqs: ['IA2107'], userSem: 3 },
+                { id: 'IA2107', block: 3, name: 'Edafología', cred: 3, hrs: 9, reqs: ['QU1106'], coreqs: ['IA2105'], userSem: 3 },
+                { id: 'IA2204', block: 3, name: 'Programación Aplicada', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'IA3302', block: 3, name: 'Topografía', cred: 3, hrs: 5, reqs: ['IA1203'], coreqs: [], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'SE1100', block: 3, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+
+                // BLOQUE 4
+                { id: 'FH1000', block: 4, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 4 },
+                { id: 'FI2103', block: 4, name: 'Física General III', cred: 3, hrs: 4, reqs: ['FI1101', 'MA1102'], coreqs: [], userSem: 4 },
+                { id: 'IA2106', block: 4, name: 'Sistemas De Producción Agrícola', cred: 4, hrs: 5, reqs: ['BI1103', 'IA2107'], coreqs: [], userSem: 4 },
+                { id: 'IA2202', block: 4, name: 'Estática', cred: 3, hrs: 4, reqs: ['FI1101', 'IA1203'], coreqs: [], userSem: 4 },
+                { id: 'IA3303', block: 4, name: 'Aplicaciones Topográficas', cred: 3, hrs: 5, reqs: ['IA3302'], coreqs: [], userSem: 4 },
+                { id: 'MA2105', block: 4, name: 'Ecuaciones Diferenciales', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+                { id: 'SE1200', block: 4, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 4 },
+
+                // BLOQUE 5
+                { id: 'IA3202', block: 5, name: 'Estadística Aplicada', cred: 3, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+                { id: 'IA3206', block: 5, name: 'Resistencia De Materiales', cred: 3, hrs: 4, reqs: ['IA2202'], coreqs: [], userSem: 5 },
+                { id: 'IA3208', block: 5, name: 'Electricidad', cred: 3, hrs: 4, reqs: ['FI1101'], coreqs: [], userSem: 5 },
+                { id: 'IA3212', block: 5, name: 'Mecánica De Fluidos Aplicada', cred: 3, hrs: 5, reqs: ['FI2103'], coreqs: [], userSem: 5 },
+                { id: 'MA3106', block: 5, name: 'Métodos Numéricos', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+                { id: 'SE1400', block: 5, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 5 },
+
+                // BLOQUE 6
+                { id: 'CM2103', block: 6, name: 'Termodinámica', cred: 3, hrs: 4, reqs: ['MA1102', 'QU1107'], coreqs: [], userSem: 6 },
+                { id: 'IA3105', block: 6, name: 'Relación Suelo-Agua-Planta', cred: 3, hrs: 4, reqs: ['IA2106', 'QU1107'], coreqs: [], userSem: 6 },
+                { id: 'IA3203', block: 6, name: 'Hidrología', cred: 3, hrs: 4, reqs: ['IA3202'], coreqs: [], userSem: 6 },
+                { id: 'IA3210', block: 6, name: 'Laboratorio De Hidráulica', cred: 1, hrs: 2, reqs: [], coreqs: ['IA3213'], userSem: 6 },
+                { id: 'IA3213', block: 6, name: 'Hidráulica De Canales', cred: 3, hrs: 4, reqs: ['IA3212'], coreqs: [], userSem: 6 },
+                { id: 'IA3401', block: 6, name: 'Elementos Y Mecanismos De Máquinas Agrícolas', cred: 2, hrs: 3, reqs: ['IA3206', 'IA3208'], coreqs: [], userSem: 6 },
+                { id: 'IA5601', block: 6, name: 'Protección Ambiental', cred: 3, hrs: 4, reqs: ['IA2106'], coreqs: [], userSem: 6 },
+
+                // BLOQUE 7
+                { id: 'CS3404', block: 7, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['CS1502'], coreqs: [], userSem: 7 },
+                { id: 'IA4307', block: 7, name: 'Diseño Estructuras Hidráulicas', cred: 3, hrs: 4, reqs: ['IA3213'], coreqs: [], userSem: 7 },
+                { id: 'IA4311', block: 7, name: 'Riego Superficial', cred: 3, hrs: 4, reqs: ['IA3105', 'IA3303'], coreqs: [], userSem: 7 },
+                { id: 'IA4312', block: 7, name: 'Drenaje Superficial', cred: 2, hrs: 3, reqs: ['IA3203', 'IA3213'], coreqs: [], userSem: 7 },
+                { id: 'IA4402', block: 7, name: 'Motores De Combustión Interna', cred: 3, hrs: 4, reqs: ['CM2103', 'IA3401'], coreqs: [], userSem: 7 },
+                { id: 'IA4407', block: 7, name: 'Tractores Agrícolas', cred: 2, hrs: 3, reqs: [], coreqs: ['IA4402'], userSem: 7 },
+                { id: 'PI5516', block: 7, name: 'Ingeniería Económica', cred: 3, hrs: 4, reqs: ['MA3106'], coreqs: [], userSem: 7 },
+
+                // BLOQUE 8
+                { id: 'CS4402', block: 8, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 8 },
+                { id: 'IA3501', block: 8, name: 'Electrificación Rural', cred: 3, hrs: 5, reqs: ['IA3208'], coreqs: [], userSem: 8 },
+                { id: 'IA4313', block: 8, name: 'Riego A Presión', cred: 3, hrs: 4, reqs: ['IA3212', 'IA4311'], coreqs: [], userSem: 8 },
+                { id: 'IA4314', block: 8, name: 'Drenaje Sub-Superficial', cred: 3, hrs: 4, reqs: ['IA4312'], coreqs: [], userSem: 8 },
+                { id: 'IA4315', block: 8, name: 'Manejo De Suelos, Aguas Y Diseño De Obras De Conservación', cred: 3, hrs: 4, reqs: ['IA3203', 'IA4312'], coreqs: [], userSem: 8 },
+                { id: 'IA4403', block: 8, name: 'Mecanización Agrícola', cred: 2, hrs: 3, reqs: ['IA4407'], coreqs: [], userSem: 8 },
+                { id: 'IA5402', block: 8, name: 'Laboratorio De Tractores Y Mecanización', cred: 2, hrs: 3, reqs: [], coreqs: ['IA4403'], userSem: 8 },
+
+                // BLOQUE 9
+                { id: 'AE4208', block: 9, name: 'Desarrollo De Emprendedores', cred: 4, hrs: 12, reqs: ['PI5516'], coreqs: [], userSem: 9 },
+                { id: 'IA4004', block: 9, name: 'Electiva I', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 9 },
+                { id: 'IA4408', block: 9, name: 'Taller De Diseño', cred: 6, hrs: 18, reqs: ['IA4307', 'IA4313', 'IA4314', 'IA4315', 'IA4403'], coreqs: [], userSem: 9 },
+                { id: 'SO4604', block: 9, name: 'Seguridad Y Salud Ocupacional', cred: 3, hrs: 3, reqs: [], coreqs: ['AE4208'], userSem: 9 },
+
+                // BLOQUE 10
+                { id: 'IA3004', block: 10, name: 'Trabajo Final De Graduación', cred: 9, hrs: 0, reqs: ['IA4408'], coreqs: [], userSem: 10 },
+                { id: 'IA4005', block: 10, name: 'Electiva II', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 10 }
+            ],
+            materiales: [
+                // BLOQUE 0
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+
+                // BLOQUE 1
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CM1103', block: 1, name: 'Introducción A La Ciencia E Ingeniería De Los Materiales', cred: 3, hrs: 8, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'CS1502', block: 1, name: 'Introducción A La Técnica Ciencia Y Tecnología', cred: 1, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MI2101', block: 1, name: 'Dibujo Técnico', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+
+                // BLOQUE 2
+                { id: 'CA2125', block: 2, name: 'Elementos De Computación', cred: 3, hrs: 4, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: ['CI1106'], coreqs: [], userSem: 2 },
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, hrs: 4, reqs: [], coreqs: ['MA1102'], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1104'], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102', 'QU1106'], coreqs: ['QU1107'], userSem: 2 },
+
+                // BLOQUE 3
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'CM2103', block: 3, name: 'Termodinámica', cred: 3, hrs: 4, reqs: ['MA1102', 'QU1107'], coreqs: [], userSem: 3 },
+                { id: 'FI1102', block: 3, name: 'Física General II', cred: 3, hrs: 4, reqs: ['FI1101', 'FI1201'], coreqs: [], userSem: 3 },
+                { id: 'FI1202', block: 3, name: 'Laboratorio Física General II', cred: 1, hrs: 2, reqs: ['FI1101', 'FI1201'], coreqs: ['FI1102'], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'QU2403', block: 3, name: 'Química Orgánica', cred: 3, hrs: 4, reqs: ['QU1104', 'QU1107'], coreqs: ['QU2404'], userSem: 3 },
+                { id: 'QU2404', block: 3, name: 'Laboratorio De Química Orgánica', cred: 2, hrs: 4, reqs: ['QU1104', 'QU1107'], coreqs: ['QU2403'], userSem: 3 },
+                { id: 'SE1200', block: 3, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+
+                // BLOQUE 4
+                { id: 'CM2401', block: 4, name: 'Metalurgia Física', cred: 3, hrs: 9, reqs: ['CM2103'], coreqs: ['CM3103'], userSem: 4 },
+                { id: 'CM2402', block: 4, name: 'Laboratorio De Metalurgia Física', cred: 1, hrs: 3, reqs: ['CM1103'], coreqs: ['CM2401'], userSem: 4 },
+                { id: 'CM3103', block: 4, name: 'Termodinámica De Materiales', cred: 3, hrs: 4, reqs: ['CM2103'], coreqs: [], userSem: 4 },
+                { id: 'MA2105', block: 4, name: 'Ecuaciones Diferenciales', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+                { id: 'MI2106', block: 4, name: 'Estática', cred: 3, hrs: 4, reqs: ['FI1101', 'FI1201'], coreqs: [], userSem: 4 },
+                { id: 'MI3124', block: 4, name: 'Dibujo Industrial', cred: 4, hrs: 4, reqs: ['MI2101'], coreqs: [], userSem: 4 },
+                { id: 'SE1400', block: 4, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 4 },
+
+                // BLOQUE 5
+                { id: 'CM3207', block: 5, name: 'Métodos Numéricos Para Ingeniería', cred: 3, hrs: 4, reqs: ['CA2125', 'MA2105'], coreqs: [], userSem: 5 },
+                { id: 'CM3501', block: 5, name: 'Materiales Poliméricos', cred: 3, hrs: 9, reqs: ['QU2403', 'QU2404'], coreqs: [], userSem: 5 },
+                { id: 'CS2303', block: 5, name: 'Relaciones Laborales', cred: 2, hrs: 6, reqs: ['CS1502'], coreqs: [], userSem: 5 },
+                { id: 'FH1000', block: 5, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 5 },
+                { id: 'MI3115', block: 5, name: 'Resistencia De Materiales', cred: 3, hrs: 4, reqs: ['MI2106'], coreqs: [], userSem: 5 },
+                { id: 'MI4510', block: 5, name: 'Electrotecnia', cred: 3, hrs: 4, reqs: ['FI1102', 'FI1202'], coreqs: [], userSem: 5 },
+                { id: 'PI2609', block: 5, name: 'Probabilidad Y Estadística', cred: 2, hrs: 3, reqs: ['MA1103'], coreqs: [], userSem: 5 },
+                { id: 'SO2601', block: 5, name: 'Fundamentos De Seguridad E Higiene Ocupacional', cred: 1, hrs: 2, reqs: [], coreqs: ['CS2303'], userSem: 5 },
+            
+                // BLOQUE 6 
+                { id: 'CM3208', block: 6, name: 'Metrología Para Ingeniería', cred: 3, hrs: 4, reqs: ['MI3124', 'PI2609'], coreqs: [], userSem: 6 },
+                { id: 'CM3601', block: 6, name: 'Mecánica De Fluidos', cred: 3, hrs: 9, reqs: ['CM3103', 'CM3207'], coreqs: [], userSem: 6 },
+                { id: 'CM3602', block: 6, name: 'Tecnología De Aleaciones Metálicas', cred: 3, hrs: 9, reqs: ['CM2401', 'CM3103'], coreqs: [], userSem: 6 },
+                { id: 'CM3603', block: 6, name: 'Mecánica De Materiales Avanzada', cred: 3, hrs: 9, reqs: ['CM2401', 'MI3115'], coreqs: [], userSem: 6 },
+                { id: 'CM4202', block: 6, name: 'Laboratorio Tecnología Aleaciones Metálicas', cred: 2, hrs: 3, reqs: ['CM2401', 'CM3103'], coreqs: ['CM3602'], userSem: 6 },
+                { id: 'CM4305', block: 6, name: 'Tecnología De Polímeros', cred: 2, hrs: 3, reqs: ['CM3501'], coreqs: [], userSem: 6 },
+                { id: 'CS3404', block: 6, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['CS1502'], coreqs: [], userSem: 6 },
+
+                // BLOQUE 7 
+                { id: 'AE5121', block: 7, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: ['PI2609'], coreqs: [], userSem: 7 },
+                { id: 'CM3205', block: 7, name: 'Tecnología De Maquinado', cred: 3, hrs: 4, reqs: ['CM3208', 'CM3602'], coreqs: ['CM4307'], userSem: 7 },
+                { id: 'CM4307', block: 7, name: 'Conformado De Materiales', cred: 4, hrs: 4, reqs: ['CM3603'], coreqs: ['CM3205'], userSem: 7 },
+                { id: 'CM4701', block: 7, name: 'Transferencia De Calor Y Masa', cred: 3, hrs: 9, reqs: ['CM3207', 'CM3601'], coreqs: [], userSem: 7 },
+                { id: 'CM4702', block: 7, name: 'Materiales Cerámicos Y Compuestos', cred: 3, hrs: 9, reqs: ['CM2401', 'CM4305'], coreqs: [], userSem: 7 },
+                { id: 'CS4402', block: 7, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 7 },
+
+                // BLOQUE 8 
+                { id: 'CM4101', block: 8, name: 'Modelación Y Simulación', cred: 4, hrs: 4, reqs: ['CM3603', 'CM4701'], coreqs: [], userSem: 8 },
+                { id: 'CM4801', block: 8, name: 'Caracterización De Materiales', cred: 4, hrs: 4, reqs: ['CM4305', 'CM4702'], coreqs: [], userSem: 8 },
+                { id: 'CM4802', block: 8, name: 'Gestión De Proyectos', cred: 3, hrs: 9, reqs: ['AE5121'], coreqs: [], userSem: 8 },
+                { id: 'CM4803', block: 8, name: 'Taller De Diseño En Ciencia E Ingeniería De Los Materiales', cred: 7, hrs: 21, reqs: ['CM3205'], coreqs: ['CM4101', 'CM4802'], userSem: 8 },
+
+                // BLOQUE 9 
+                { id: 'CM4309', block: 9, name: 'Corrosión Y Protección De Materiales', cred: 4, hrs: 12, reqs: ['CM3602', 'CM4801'], coreqs: [], userSem: 9 },
+                { id: 'CM5104', block: 9, name: 'Diseño De Moldes Y Troqueles', cred: 4, hrs: 4, reqs: ['CM3205', 'CM4305'], coreqs: [], userSem: 9 },
+                { id: 'CM5200', block: 9, name: 'Electiva I', cred: 4, hrs: 12, reqs: ['CM4802'], coreqs: [], userSem: 9 },
+                { id: 'CM5302', block: 9, name: 'Equipos Auxiliares De Planta', cred: 3, hrs: 4, reqs: ['CM3208', 'CM4701'], coreqs: [], userSem: 9 },
+                { id: 'CM5901', block: 9, name: 'Ensayos No Destructivos', cred: 3, hrs: 9, reqs: ['CM4801'], coreqs: [], userSem: 9 },
+
+                // BLOQUE 10
+                { id: 'CM5220', block: 10, name: 'Electiva II', cred: 4, hrs: 12, reqs: ['CM4802'], coreqs: [], userSem: 10 },
+                { id: 'CM5240', block: 10, name: 'Electiva III', cred: 4, hrs: 12, reqs: ['CM4309'], coreqs: [], userSem: 10 },
+                { id: 'CM5300', block: 10, name: 'Proyecto Final De Graduación', cred: 10, hrs: 12, reqs: ['CM4803', 'CM5104'], coreqs: [], userSem: 10 },
+                { id: 'PI5101', block: 10, name: 'Gestión De Procesos', cred: 4, hrs: 8, reqs: ['CM4802'], coreqs: [], userSem: 10 }
+            ],
+            ati: [
+                // BLOQUE 0 
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'MA0101', block: 0, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 0 },
+                // BLOQUE 1 
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'MA1403', block: 1, name: 'Matemática Discreta', cred: 4, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'TI1102', block: 1, name: 'Información Contable', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'TI1103', block: 1, name: 'Modelos Organizacionales Y Gestión De Ti', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'TI1400', block: 1, name: 'Introducción A La Programación', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'TI1401', block: 1, name: 'Taller De Programación', cred: 3, hrs: 4, reqs: [], coreqs: ['TI1400'], userSem: 1 },
+                // BLOQUE 2 
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101', 'MA1403'], coreqs: [], userSem: 2 },
+                { id: 'SE1200', block: 2, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'TI1201', block: 2, name: 'Comportamiento Organizacional Y Talento Humano', cred: 3, hrs: 9, reqs: ['TI1103'], coreqs: [], userSem: 2 },
+                { id: 'TI2402', block: 2, name: 'Algoritmos Y Estructuras De Datos', cred: 4, hrs: 4, reqs: ['TI1400', 'TI1401'], coreqs: [], userSem: 2 },
+                { id: 'TI2404', block: 2, name: 'Organización Y Arquitectura De Computadoras', cred: 3, hrs: 4, reqs: ['TI1401'], coreqs: [], userSem: 2 },
+                { id: 'TI4500', block: 2, name: 'Ingeniería De Requerimientos', cred: 3, hrs: 4, reqs: ['TI1400'], coreqs: [], userSem: 2 },
+                // BLOQUE 3 
+                { id: 'CI3400', block: 3, name: 'Inglés 1 (Ati)', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                { id: 'SE1400', block: 3, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 3 },
+                { id: 'TI2800', block: 3, name: 'Administración De Proyectos I', cred: 3, hrs: 9, reqs: ['TI4500'], coreqs: [], userSem: 3 },
+                { id: 'TI3103', block: 3, name: 'Costos En Ambientes Informáticos', cred: 3, hrs: 4, reqs: ['TI1102'], coreqs: [], userSem: 3 },
+                { id: 'TI3600', block: 3, name: 'Bases De Datos', cred: 3, hrs: 4, reqs: ['MA1403', 'TI2402'], coreqs: [], userSem: 3 },
+                { id: 'TI4200', block: 3, name: 'Economía', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                // BLOQUE 4 
+                { id: 'CI4401', block: 4, name: 'Inglés II (Ati)', cred: 2, hrs: 6, reqs: ['CI3400'], coreqs: [], userSem: 4 },
+                { id: 'MA2404', block: 4, name: 'Probabilidades', cred: 4, hrs: 4, reqs: ['MA1103'], coreqs: [], userSem: 4 },
+                { id: 'TI2201', block: 4, name: 'Programación Orientada A Objetos', cred: 3, hrs: 9, reqs: ['TI3600'], coreqs: [], userSem: 4 },
+                { id: 'TI3801', block: 4, name: 'Administración De Proyectos II', cred: 3, hrs: 4, reqs: ['TI2800'], coreqs: [], userSem: 4 },
+                { id: 'TI4101', block: 4, name: 'Planificación Y Presupuesto', cred: 2, hrs: 4, reqs: ['TI3103'], coreqs: [], userSem: 4 },
+                { id: 'TI4601', block: 4, name: 'Bases De Datos Avanzados', cred: 4, hrs: 4, reqs: ['TI3600'], coreqs: [], userSem: 4 },
+                // BLOQUE 5 
+                { id: 'CS3404', block: 5, name: 'Seminario De Ética Para La Ingeniería', cred: 2, hrs: 5, reqs: ['TI3801'], coreqs: [], userSem: 5 },
+                { id: 'MA3405', block: 5, name: 'Estadística', cred: 4, hrs: 4, reqs: ['MA2404'], coreqs: [], userSem: 5 },
+                { id: 'TI3500', block: 5, name: 'Mercadeo En La Era Digital', cred: 3, hrs: 9, reqs: ['MA2404'], coreqs: [], userSem: 5 },
+                { id: 'TI3501', block: 5, name: 'Fundamentos De Sistemas Operativos', cred: 3, hrs: 9, reqs: ['TI2201', 'TI2404'], coreqs: [], userSem: 5 },
+                { id: 'TI5100', block: 5, name: 'Gestión Y Toma De Decisiones Financieras', cred: 3, hrs: 4, reqs: ['TI4101', 'TI4200'], coreqs: [], userSem: 5 },
+                { id: 'TI5501', block: 5, name: 'Diseño De Software', cred: 3, hrs: 4, reqs: ['TI2201', 'TI4500'], coreqs: [], userSem: 5 },
+                // BLOQUE 6 
+                { id: 'CS2304', block: 6, name: 'Derecho Laboral', cred: 2, hrs: 3, reqs: ['CS3404'], coreqs: [], userSem: 6 },
+                { id: 'TI3601', block: 6, name: 'Modelo De Toma De Decisiones', cred: 2, hrs: 6, reqs: ['MA3405', 'TI5100'], coreqs: [], userSem: 6 },
+                { id: 'TI3602', block: 6, name: 'Producción, Logística Y Calidad', cred: 2, hrs: 6, reqs: ['MA3405', 'TI5100'], coreqs: [], userSem: 6 },
+                { id: 'TI3603', block: 6, name: 'Calidad En Sistemas De Información', cred: 3, hrs: 9, reqs: ['TI3801', 'TI5501'], coreqs: [], userSem: 6 },
+                { id: 'TI3604', block: 6, name: 'Fundamentos De Redes', cred: 3, hrs: 9, reqs: ['TI3501'], coreqs: [], userSem: 6 },
+                { id: 'TI6900', block: 6, name: 'Inteligencia De Negocios', cred: 3, hrs: 9, reqs: ['TI4601'], coreqs: [], userSem: 6 },
+                { id: 'TI9003', block: 6, name: 'Computación Y Sociedad', cred: 2, hrs: 4, reqs: ['CS3404', 'TI1201'], coreqs: [], userSem: 6 },
+                // BLOQUE 7 
+                { id: 'CS3405', block: 7, name: 'Derecho Informático Y Mercantil', cred: 3, hrs: 9, reqs: ['TI1201'], coreqs: [], userSem: 7 },
+                { id: 'TI4701', block: 7, name: 'Seguridad En Sistemas De Información', cred: 3, hrs: 9, reqs: ['TI3604'], coreqs: [], userSem: 7 },
+                { id: 'TI5000', block: 7, name: 'Electiva 1', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 7 },
+                { id: 'TI7503', block: 7, name: 'Arquitectura De Aplicaciones', cred: 3, hrs: 9, reqs: ['TI3604', 'TI5501'], coreqs: [], userSem: 7 },
+                { id: 'TI7901', block: 7, name: 'Negocios Electrónicos', cred: 3, hrs: 4, reqs: ['TI3603', 'TI6900'], coreqs: [], userSem: 7 },
+                { id: 'TI8109', block: 7, name: 'Formulación Y Evaluación De Proyectos De Ti', cred: 3, hrs: 4, reqs: ['TI3500', 'TI3601'], coreqs: [], userSem: 7 },
+                // BLOQUE 8 
+                { id: 'TI6000', block: 8, name: 'Electiva 2', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 8 },
+                { id: 'TI8902', block: 8, name: 'Adquisición De Ti', cred: 3, hrs: 4, reqs: ['TI7503', 'TI8109'], coreqs: [], userSem: 8 },
+                { id: 'TI8904', block: 8, name: 'Administración De Procesos De Negocios', cred: 3, hrs: 9, reqs: ['TI7503'], coreqs: [], userSem: 8 },
+                { id: 'TI8905', block: 8, name: 'Administración De Servicios De Tecnologías De Información I', cred: 3, hrs: 9, reqs: ['TI4701', 'TI7901'], coreqs: [], userSem: 8 },
+                { id: 'TI9805', block: 8, name: 'Auditoría De Ti', cred: 3, hrs: 4, reqs: ['TI4701'], coreqs: [], userSem: 8 },
+                { id: 'TI9905', block: 8, name: 'Sistemas De Información Empresarial', cred: 3, hrs: 4, reqs: ['TI7901'], coreqs: [], userSem: 8 },
+                // BLOQUE 9 
+                { id: 'TI5901', block: 9, name: 'Espíritu Emprendedor Y Creación De Empresas', cred: 3, hrs: 13, reqs: ['TI8109'], coreqs: [], userSem: 9 },
+                { id: 'TI5902', block: 9, name: 'Analítica Empresarial', cred: 3, hrs: 9, reqs: ['TI9905'], coreqs: [], userSem: 9 },
+                { id: 'TI5903', block: 9, name: 'Planificación Estratégica De Tecnología De Información', cred: 3, hrs: 9, reqs: ['TI8902'], coreqs: [], userSem: 9 },
+                { id: 'TI5904', block: 9, name: 'Investigación En Sistemas De Información', cred: 3, hrs: 9, reqs: ['TI8904', 'TI9905'], coreqs: [], userSem: 9 },
+                { id: 'TI5905', block: 9, name: 'Fundamentos De Arquitectura Empresarial', cred: 3, hrs: 9, reqs: ['TI8904'], coreqs: [], userSem: 9 },
+                { id: 'TI9004', block: 9, name: 'Administración De Servicios De Tecnologías De Información II', cred: 3, hrs: 9, reqs: ['TI8905'], coreqs: [], userSem: 9 },
+                // BLOQUE 10
+                { id: 'TI9000', block: 10, name: 'Trabajo Final De Graduación', cred: 10, hrs: 0, reqs: ['TI5901', 'TI5902', 'TI5903', 'TI5904', 'TI5905', 'TI9004'], coreqs: [], userSem: 10 }
+            ],
             ambiental: [
               // BLOQUE 0 
               { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
@@ -2772,7 +3229,7 @@ path {
           
               // BLOQUE 9 
               { id: 'AI4304', block: 9, name: 'Formulación Y Evaluación De Proyectos Ambientales', cred: 3, hrs: 3, reqs: ['AE5121', 'AI5106'], coreqs: [], userSem: 9 },
-              { id: 'AI5903', block: 9, name: 'Práctica Profesional', cred: 4, hrs: 0, reqs: ['CURSOS_APROBADOS'], coreqs: [], userSem: 9 },
+              { id: 'AI5903', block: 9, name: 'Práctica Profesional', cred: 4, hrs: 0, reqs: ['AE4208', 'AE5121', 'AI1100', 'AI2101', 'AI3104', 'AI3105', 'AI3106', 'AI3107', 'AI3108', 'AI3109', 'AI3110', 'AI3111', 'AI3112', 'AI3208', 'AI3209', 'AI3212', 'AI4101', 'AI4102', 'AI4103', 'AI4104', 'AI5104', 'AI5105', 'AI5106', 'AI5107', 'BI1106', 'BI1107', 'CA2125', 'CI1106', 'CI1107', 'CI1230', 'CI1231', 'CS1502', 'CS2101', 'CS3404', 'CS4108', 'FH1000', 'FI1101', 'FI1201', 'FI2103', 'FO3401', 'MA0101', 'MA1102', 'MA1103', 'MA2104', 'MA2105', 'MA3106', 'QU1102', 'QU1104', 'QU1106', 'QU1107', 'QU2409', 'QU2410', 'QU2604', 'QU2605', 'SE1100', 'SE1200', 'SE1400'], coreqs: [], userSem: 9 },
               { id: 'AI6101', block: 9, name: 'Metodología De La Investigación Ambiental', cred: 3, hrs: 9, reqs: ['AI5104'], coreqs: ['AI6102'], userSem: 9 },
               { id: 'AI6102', block: 9, name: 'Huellas Y Métricas Ambientales', cred: 3, hrs: 9, reqs: ['AI5105'], coreqs: [], userSem: 9 },
               { id: 'AI6103', block: 9, name: 'Electiva I', cred: 3, hrs: 9, reqs: [], coreqs: [], userSem: 9 },
@@ -5260,5 +5717,4 @@ function closeBulkGrades() {
 </body>
 
 </html>
-
 
