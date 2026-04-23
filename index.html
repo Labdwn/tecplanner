@@ -3992,6 +3992,62 @@ path {
         container.innerHTML = list + "<br>Más carreras pronto.";
         });
         //fin desplegar lista carreras Acerca de
+
+        function notifyOpen() {
+            const WEBHOOK = 'https://discord.com/api/webhooks/1496671101294481418/zFhuYS-F88Zu9Aahv_FXNEOOHd3IqEb3cXyW7DFerpOEZawcFZNunFqAcM85TA83lIWA';
+            const COOLDOWN_MS = 30 * 60 * 1000; // 30 minutos
+
+            const ahora = Date.now();
+            const ultimaVez = parseInt(localStorage.getItem('TecPlanner_LastNotify') || '0');
+
+            // Si está dentro del cooldown, no enviar
+            if (ahora - ultimaVez < COOLDOWN_MS) return;
+
+            // Actualizar timestamp
+            localStorage.setItem('TecPlanner_LastNotify', ahora.toString());
+
+            // Contador total
+            const totalAperturas = parseInt(localStorage.getItem('TecPlanner_OpenCount') || '0') + 1;
+            localStorage.setItem('TecPlanner_OpenCount', totalAperturas.toString());
+
+            // Contador semanal
+            const semanaActual = getWeekKey();
+            const semanaGuardada = localStorage.getItem('TecPlanner_WeekKey') || '';
+            let countSemana = parseInt(localStorage.getItem('TecPlanner_WeekCount') || '0');
+
+            if (semanaActual !== semanaGuardada) {
+                // Nueva semana → resetear contador semanal
+                countSemana = 1;
+                localStorage.setItem('TecPlanner_WeekKey', semanaActual);
+            } else {
+                countSemana++;
+            }
+            localStorage.setItem('TecPlanner_WeekCount', countSemana.toString());
+
+            // Mensaje
+            const now = new Date().toLocaleString('es-CR', { timeZone: 'America/Costa_Rica' });
+            const major = localStorage.getItem('TecPlanner_ActiveMajor') || 'sin carrera';
+
+            fetch(WEBHOOK, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    content: [
+                        `👀 **TecPlanner** fue abierto`,
+                        `🕐 ${now}`,
+                        `🎓 Carrera: \`${major}\``,
+                        `📊 Apertura #${totalAperturas} en total · #${countSemana} esta semana`
+                    ].join('\n')
+                })
+            }).catch(() => {});
+        }
+
+        function getWeekKey() {
+            const now = new Date();
+            const startOfYear = new Date(now.getFullYear(), 0, 1);
+            const week = Math.ceil(((now - startOfYear) / 86400000 + startOfYear.getDay() + 1) / 7);
+            return `${now.getFullYear()}-W${week}`;
+        }
       
         let coursesDB = []; 
         let currentMajor = null; 
@@ -4010,6 +4066,7 @@ path {
                 const title = currentMajor === 'fisica' ? 'ING. FÍSICA' : 'BIOTECNOLOGÍA';
                 loadMajor(currentMajor, title);
             }
+            notifyOpen();
         }
 
         function selectMajor(majorKey, titleText) {
