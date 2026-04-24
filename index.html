@@ -1720,6 +1720,13 @@ path {
     font-size: 0.85rem;
     transition: background 0.15s;
 }
+
+#btnEnfasis:hover {
+    background: rgba(16,185,129,0.18) !important;
+    box-shadow: 0 0 20px rgba(16,185,129,0.4) !important;
+    transform: scale(1.03);
+}
+
 .pond-course-row:hover { background: rgba(255,255,255,0.03); }
 .pond-course-row:last-child { border-radius: 0 0 8px 8px; }
 
@@ -1819,7 +1826,7 @@ path {
                         <div class="major-card" data-career="ambiental"></div>
 
                         <div class="major-card" data-career="agricola"></div>
-                        <!--<div class="major-card" data-career="forestal"></div>-->
+                        <div class="major-card" data-career="forestal"></div>
                         <div class="major-card" data-career="agronegocios"></div>
                         <div class="major-card" data-career="e_mate"></div>
                         <div class="major-card" data-career="seguridad"></div>
@@ -1892,13 +1899,32 @@ path {
                 </button>
 
                 <button class="btn-action" onclick="confirmReset()" style="border-color: #ef4444; color: #ef4444; margin-left: 10px;">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="1 4 1 10 7 10"></polyline>
-        <polyline points="23 20 23 14 17 14"></polyline>
-        <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
-    </svg>
-    REINICIAR
-</button>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="1 4 1 10 7 10"></polyline>
+                        <polyline points="23 20 23 14 17 14"></polyline>
+                        <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
+                    </svg>
+                    REINICIAR
+                </button>
+
+                <button class="btn-action" id="btnEnfasis"
+                        onclick="openEnfasisModal()"
+                        style="display:none; 
+                            border: 2px solid #10b981; 
+                            color: #10b981;
+                            background: rgba(16,185,129,0.08);
+                            padding: 6px 16px;
+                            font-size: 0.9rem;
+                            letter-spacing: 1px;
+                            box-shadow: 0 0 12px rgba(16,185,129,0.2);">
+                    🌲 ÉNFASIS FORESTAL
+                </button>
+
+                <button class="btn-action" id="btnOtroEnfasis"
+                        onclick="openOtroEnfasisPanel()"
+                        style="display:none; border-color:#555; color:#777;">
+                    🔀 VER OTRO ÉNFASIS
+                </button>
             </div>
         </div>
 
@@ -2636,22 +2662,37 @@ path {
                 plan: 1605,
                 grado: "Bachillerato",
             },
-            //pendiente
-
             forestal: {
                 name: "Ing. Forestal",
                 icon: "🌲",
-                plan: 0,
-                grado: "Licenciatura",
+                plan: "910/911",
+                grado: "Licenciatura"
             },
-            
-            
+            forestal_manejoYproduccion: {
+                name: "Ing. Forestal",
+                icon: "🌲",
+                plan: 910,
+                grado: "Licenciatura",
+                enfasisNombre: "Manejo y Producción Forestal"
+            },
+            forestal_conservacionYrestauracion: {
+                name: "Ing. Forestal",
+                icon: "🌲",
+                plan: 911,
+                grado: "Licenciatura",
+                enfasisNombre: "Conservación y Restauración"
+            },
             seguridad: {
                 name: "Ing. Seguridad Laboral e Higiene Ambiental",
                 icon: "🦺",
                 plan: 2151,
                 grado: "Licenciatura",
             },
+            //pendiente
+
+            
+            
+            
             arquitectura: {
                 name: "Arquitectura y Urbanismo",
                 icon: "🏛️",
@@ -2738,6 +2779,227 @@ path {
                 { id: 'AE5121', block: 10, name: 'Ingeniería Económica', cred: 3, hrs: 3, reqs: ['IF3601'], coreqs: [], userSem: 10 },
                 { id: 'IF5108', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['IF5905'], coreqs: [], userSem: 10 },
                 { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['IF4804'], coreqs: [], userSem: 10 }
+            ],
+            //forestal y sus énfasis
+            forestal: [
+                // BLOQUE 0
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+                // BLOQUE 1
+                { id: 'BI1101', block: 1, name: 'Biología General', cred: 3, hrs: 9, reqs: [], coreqs: ['BI1102'], userSem: 1 },
+                { id: 'BI1102', block: 1, name: 'Laboratorio De Biología General', cred: 1, hrs: 3, reqs: [], coreqs: ['BI1101'], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'FO1103', block: 1, name: 'Introducción A La Ingeniería Forestal', cred: 1, hrs: 2, reqs: [], coreqs: ['FO1104', 'FO2202'], userSem: 1 },
+                { id: 'FO1104', block: 1, name: 'Laboratorio Introducción A La Ingeniería Forestal', cred: 2, hrs: 2, reqs: [], coreqs: ['FO1103'], userSem: 1 },
+                { id: 'FO2202', block: 1, name: 'Mediciones Forestales', cred: 3, hrs: 4, reqs: [], coreqs: ['FO1103'], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                // BLOQUE 2
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FO1107', block: 2, name: 'Botánica Forestal', cred: 3, hrs: 3, reqs: ['BI1101'], coreqs: ['FO1108'], userSem: 2 },
+                { id: 'FO1108', block: 2, name: 'Laboratorio De Botánica Forestal', cred: 1, hrs: 2, reqs: ['BI1102'], coreqs: ['FO1107'], userSem: 2 },
+                { id: 'FO2201', block: 2, name: 'Levantamiento Forestal', cred: 3, hrs: 4, reqs: ['FO2202'], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1106'], coreqs: ['QU1104'], userSem: 2 },
+                { id: 'SE1400', block: 2, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                // BLOQUE 3
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'FO2109', block: 3, name: 'Dendrología Tropical', cred: 3, hrs: 4, reqs: ['FO1107', 'FO1108'], coreqs: [], userSem: 3 },
+                { id: 'FO2113', block: 3, name: 'Análisis Estadístico', cred: 3, hrs: 4, reqs: ['MA0101'], coreqs: [], userSem: 3 },
+                { id: 'FO2115', block: 3, name: 'Laboratorio De Reproducción De Especies Forestales', cred: 1, hrs: 2, reqs: ['FO2201'], coreqs: ['FO2117'], userSem: 3 },
+                { id: 'FO2117', block: 3, name: 'Reproducción De Especies Forestales', cred: 2, hrs: 3, reqs: ['QU1106'], coreqs: ['FO2115'], userSem: 3 },
+                { id: 'FO3401', block: 3, name: 'Sistemas De Información Geográfica', cred: 3, hrs: 4, reqs: ['FO2201'], coreqs: [], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                // BLOQUE 4
+                { id: 'CS2303', block: 4, name: 'Relaciones Laborales', cred: 2, hrs: 6, reqs: ['CI1107'], coreqs: [], userSem: 4 },
+                { id: 'FI1101', block: 4, name: 'Física General I', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 4 },
+                { id: 'FI1201', block: 4, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 4 },
+                { id: 'FO1106', block: 4, name: 'Climatología Forestal', cred: 3, hrs: 4, reqs: ['FO3401'], coreqs: [], userSem: 4 },
+                { id: 'FO2108', block: 4, name: 'Laboratorio De Suelos Forestales', cred: 1, hrs: 2, reqs: ['QU1106'], coreqs: ['FO4107'], userSem: 4 },
+                { id: 'FO3113', block: 4, name: 'Inventarios Forestales', cred: 3, hrs: 4, reqs: ['FO2113', 'FO3401'], coreqs: [], userSem: 4 },
+                { id: 'FO4107', block: 4, name: 'Suelos Forestales', cred: 2, hrs: 3, reqs: ['QU1106'], coreqs: ['FO2108'], userSem: 4 },
+                { id: 'FO4417', block: 4, name: 'Ecofisiología Forestal', cred: 3, hrs: 4, reqs: ['FO2113'], coreqs: ['FO4107'], userSem: 4 },
+                // BLOQUE 5
+                { id: 'CS3401', block: 5, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, hrs: 3, reqs: ['CS2303'], coreqs: [], userSem: 5 },
+                { id: 'FO2114', block: 5, name: 'Ecología Forestal', cred: 3, hrs: 4, reqs: ['FO2109', 'FO3113'], coreqs: [], userSem: 5 },
+                { id: 'FO2116', block: 5, name: 'Establecimiento De Plantaciones Forestales', cred: 3, hrs: 4, reqs: ['FO2117', 'FO4107'], coreqs: [], userSem: 5 },
+                { id: 'FO3120', block: 5, name: 'Economía Forestal', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: ['FO3130'], userSem: 5 },
+                { id: 'FO3130', block: 5, name: 'Métodos De Investigación Forestal', cred: 3, hrs: 5, reqs: ['FO3113'], coreqs: ['FO3120'], userSem: 5 },
+                { id: 'FO4203', block: 5, name: 'Hidrología Forestal Y Manejo De Cuencas', cred: 3, hrs: 4, reqs: ['FO1106', 'FO4107'], coreqs: [], userSem: 5 },
+            ],
+            forestal_manejoYproduccion: [
+                // BLOQUE 0 
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+                // BLOQUE 1 
+                { id: 'BI1101', block: 1, name: 'Biología General', cred: 3, hrs: 9, reqs: [], coreqs: ['BI1102'], userSem: 1 },
+                { id: 'BI1102', block: 1, name: 'Laboratorio De Biología General', cred: 1, hrs: 3, reqs: [], coreqs: ['BI1101'], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'FO1103', block: 1, name: 'Introducción A La Ingeniería Forestal', cred: 1, hrs: 2, reqs: [], coreqs: ['FO1104', 'FO2202'], userSem: 1 },
+                { id: 'FO1104', block: 1, name: 'Laboratorio Introducción A La Ingeniería Forestal', cred: 2, hrs: 2, reqs: [], coreqs: ['FO1103'], userSem: 1 },
+                { id: 'FO2202', block: 1, name: 'Mediciones Forestales', cred: 3, hrs: 4, reqs: [], coreqs: ['FO1103'], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                // BLOQUE 2 
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FO1107', block: 2, name: 'Botánica Forestal', cred: 3, hrs: 3, reqs: ['BI1101'], coreqs: ['FO1108'], userSem: 2 },
+                { id: 'FO1108', block: 2, name: 'Laboratorio De Botánica Forestal', cred: 1, hrs: 2, reqs: ['BI1102'], coreqs: ['FO1107'], userSem: 2 },
+                { id: 'FO2201', block: 2, name: 'Levantamiento Forestal', cred: 3, hrs: 4, reqs: ['FO2202'], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1106'], coreqs: ['QU1104'], userSem: 2 },
+                { id: 'SE1400', block: 2, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                // BLOQUE 3 
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'FO2109', block: 3, name: 'Dendrología Tropical', cred: 3, hrs: 4, reqs: ['FO1107', 'FO1108'], coreqs: [], userSem: 3 },
+                { id: 'FO2113', block: 3, name: 'Análisis Estadístico', cred: 3, hrs: 4, reqs: ['MA0101'], coreqs: [], userSem: 3 },
+                { id: 'FO2115', block: 3, name: 'Laboratorio De Reproducción De Especies Forestales', cred: 1, hrs: 2, reqs: ['FO2201'], coreqs: ['FO2117'], userSem: 3 },
+                { id: 'FO2117', block: 3, name: 'Reproducción De Especies Forestales', cred: 2, hrs: 3, reqs: ['QU1106'], coreqs: ['FO2115'], userSem: 3 },
+                { id: 'FO3401', block: 3, name: 'Sistemas De Información Geográfica', cred: 3, hrs: 4, reqs: ['FO2201'], coreqs: [], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                // BLOQUE 4 
+                { id: 'CS2303', block: 4, name: 'Relaciones Laborales', cred: 2, hrs: 6, reqs: ['CI1107'], coreqs: [], userSem: 4 },
+                { id: 'FI1101', block: 4, name: 'Física General I', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 4 },
+                { id: 'FI1201', block: 4, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 4 },
+                { id: 'FO1106', block: 4, name: 'Climatología Forestal', cred: 3, hrs: 4, reqs: ['FO3401'], coreqs: [], userSem: 4 },
+                { id: 'FO2108', block: 4, name: 'Laboratorio De Suelos Forestales', cred: 1, hrs: 2, reqs: ['QU1106'], coreqs: ['FO4107'], userSem: 4 },
+                { id: 'FO3113', block: 4, name: 'Inventarios Forestales', cred: 3, hrs: 4, reqs: ['FO2113', 'FO3401'], coreqs: [], userSem: 4 },
+                { id: 'FO4107', block: 4, name: 'Suelos Forestales', cred: 2, hrs: 3, reqs: ['QU1106'], coreqs: ['FO2108'], userSem: 4 },
+                { id: 'FO4417', block: 4, name: 'Ecofisiología Forestal', cred: 3, hrs: 4, reqs: ['FO2113'], coreqs: ['FO4107'], userSem: 4 },
+                // BLOQUE 5 
+                { id: 'CS3401', block: 5, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, hrs: 3, reqs: ['CS2303'], coreqs: [], userSem: 5 },
+                { id: 'FO2114', block: 5, name: 'Ecología Forestal', cred: 3, hrs: 4, reqs: ['FO2109', 'FO3113'], coreqs: [], userSem: 5 },
+                { id: 'FO2116', block: 5, name: 'Establecimiento De Plantaciones Forestales', cred: 3, hrs: 4, reqs: ['FO2117', 'FO4107'], coreqs: [], userSem: 5 },
+                { id: 'FO3120', block: 5, name: 'Economía Forestal', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: ['FO3130'], userSem: 5 },
+                { id: 'FO3130', block: 5, name: 'Métodos De Investigación Forestal', cred: 3, hrs: 5, reqs: ['FO3113'], coreqs: ['FO3120'], userSem: 5 },
+                { id: 'FO4203', block: 5, name: 'Hidrología Forestal Y Manejo De Cuencas', cred: 3, hrs: 4, reqs: ['FO1106', 'FO4107'], coreqs: [], userSem: 5 },
+                // BLOQUE 6 
+                { id: 'FO2303', block: 6, name: 'Propiedades De La Madera', cred: 3, hrs: 4, reqs: ['FI1101', 'FO1107'], coreqs: ['FO3203'], userSem: 6 },
+                { id: 'FO3109', block: 6, name: 'Manejo De Plantaciones Forestales', cred: 3, hrs: 4, reqs: ['FO2116', 'FO3130'], coreqs: ['FO3132', 'FO3203'], userSem: 6 },
+                { id: 'FO3118', block: 6, name: 'Silvicultura Bosque Natural', cred: 3, hrs: 4, reqs: ['FO2114'], coreqs: [], userSem: 6 },
+                { id: 'FO3132', block: 6, name: 'Entomología Y Patología Forestales', cred: 2, hrs: 2, reqs: ['FO4417'], coreqs: ['FO3109', 'FO3133'], userSem: 6 },
+                { id: 'FO3133', block: 6, name: 'Laboratorio De Entomología Y Patología Forestales', cred: 1, hrs: 3, reqs: [], coreqs: ['FO3132'], userSem: 6 },
+                { id: 'FO3203', block: 6, name: 'Aprovechamiento Forestal I', cred: 3, hrs: 5, reqs: ['FO3113'], coreqs: ['FO2303', 'FO3109'], userSem: 6 },
+                { id: 'FO3210', block: 6, name: 'Gestión De Administración Forestal', cred: 3, hrs: 4, reqs: ['CS2303', 'FO3120'], coreqs: [], userSem: 6 },
+                // BLOQUE 7 
+                { id: 'FO4114', block: 7, name: 'Manejo Integrado De Plagas', cred: 3, hrs: 4, reqs: ['FO3132', 'FO3133'], coreqs: ['FO5218'], userSem: 7 },
+                { id: 'FO4201', block: 7, name: 'Ordenación Forestal', cred: 3, hrs: 4, reqs: ['FO3118'], coreqs: ['FO4204', 'FO4211'], userSem: 7 },
+                { id: 'FO4204', block: 7, name: 'Aprovechamiento Forestal II', cred: 3, hrs: 5, reqs: ['FO3203'], coreqs: ['FO4201'], userSem: 7 },
+                { id: 'FO4211', block: 7, name: 'Política Y Legislación Ambiental', cred: 3, hrs: 4, reqs: [], coreqs: ['FO4201'], userSem: 7 },
+                { id: 'FO4308', block: 7, name: 'Manufactura De Productos Forestales I', cred: 3, hrs: 4, reqs: ['FO2303'], coreqs: [], userSem: 7 },
+                { id: 'FO5218', block: 7, name: 'Crecimiento Y Rendimiento', cred: 3, hrs: 5, reqs: ['FO3109', 'MA1102'], coreqs: [], userSem: 7 },
+                // BLOQUE 8 
+                { id: 'FO3123', block: 8, name: 'Mejora Genética Forestal', cred: 3, hrs: 4, reqs: ['FO5218'], coreqs: [], userSem: 8 },
+                { id: 'FO4104', block: 8, name: 'Formulación Y Evaluación De Proyectos', cred: 3, hrs: 4, reqs: ['FO3210', 'MA1103'], coreqs: [], userSem: 8 },
+                { id: 'FO4223', block: 8, name: 'Dendroenergía', cred: 3, hrs: 4, reqs: ['FO3109'], coreqs: ['FO4309'], userSem: 8 },
+                { id: 'FO4309', block: 8, name: 'Manufactura De Productos Forestales II', cred: 3, hrs: 4, reqs: ['FO4308', 'QU1107'], coreqs: [], userSem: 8 },
+                { id: 'FO4412', block: 8, name: 'Mercadeo Y Comercialización De Productos Forestales', cred: 3, hrs: 4, reqs: ['FO3210'], coreqs: [], userSem: 8 },
+                { id: 'FO8101', block: 8, name: 'Electiva I Énfasis En Manejo Y Producción Forestal', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 8 },
+                // BLOQUE 9 
+                { id: 'CS4402', block: 9, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3401'], coreqs: [], userSem: 9 },
+                { id: 'FO4102', block: 9, name: 'Gestión De Industrias Forestales', cred: 3, hrs: 4, reqs: ['FO4309', 'FO4412'], coreqs: [], userSem: 9 },
+                { id: 'FO4441', block: 9, name: 'Valoración Y Evaluación De Plantaciones Forestales', cred: 3, hrs: 4, reqs: ['FO3123'], coreqs: ['FO5106'], userSem: 9 },
+                { id: 'FO5049', block: 9, name: 'Seminario De Graduación', cred: 2, hrs: 3, reqs: ['FO4104'], coreqs: [], userSem: 9 },
+                { id: 'FO5101', block: 9, name: 'Extensión Forestal', cred: 3, hrs: 4, reqs: ['FO4201'], coreqs: [], userSem: 9 },
+                { id: 'FO5106', block: 9, name: 'Sistemas Agroforestales', cred: 2, hrs: 4, reqs: ['FO3109'], coreqs: ['FO4441'], userSem: 9 },
+                { id: 'FO8201', block: 9, name: 'Electiva II Énfasis En Manejo Y Producción Forestal', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 9 },
+                // BLOQUE 10 
+                { id: 'FO5052', block: 10, name: 'Trabajo Final De Graduación', cred: 10, hrs: 48, reqs: ['BI1101', 'BI1102', 'CI1106', 'CI1107', 'CI1230', 'CI1231', 'CS2303', 'CS3401', 'CS4402', 'FH1000', 'FI1101', 'FI1201', 'FO1103', 'FO1104', 'FO1106', 'FO1107', 'FO1108', 'FO2108', 'FO2109', 'FO2113', 'FO2114', 'FO2115', 'FO2116', 'FO2117', 'FO2201', 'FO2202', 'FO2303', 'FO3109', 'FO3113', 'FO3118', 'FO3120', 'FO3123', 'FO3130', 'FO3132', 'FO3133', 'FO3203', 'FO3210', 'FO3401', 'FO4102', 'FO4104', 'FO4107', 'FO4114', 'FO4201', 'FO4203', 'FO4204', 'FO4211', 'FO4223', 'FO4308', 'FO4309', 'FO4412', 'FO4417', 'FO4441', 'FO5049', 'FO5101', 'FO5106', 'FO5218', 'FO8101', 'FO8201', 'MA0101', 'MA1102', 'MA1103', 'QU1102', 'QU1104', 'QU1106', 'QU1107', 'SE1100', 'SE1200', 'SE1400'], coreqs: [], userSem: 10 },
+            ],
+            forestal_conservacionYrestauracion: [
+                // BLOQUE 0 
+                { id: 'CI0200', block: 0, name: 'Examen Diagnóstico', cred: 0, hrs: 0, reqs: [], coreqs: [], userSem: 0 },
+                { id: 'CI0202', block: 0, name: 'Inglés Básico', cred: 2, hrs: 3, reqs: [], coreqs: [], userSem: 0 },
+                // BLOQUE 1 
+                { id: 'BI1101', block: 1, name: 'Biología General', cred: 3, hrs: 9, reqs: [], coreqs: ['BI1102'], userSem: 1 },
+                { id: 'BI1102', block: 1, name: 'Laboratorio De Biología General', cred: 1, hrs: 3, reqs: [], coreqs: ['BI1101'], userSem: 1 },
+                { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, hrs: 6, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'FO1103', block: 1, name: 'Introducción A La Ingeniería Forestal', cred: 1, hrs: 2, reqs: [], coreqs: ['FO1104', 'FO2202'], userSem: 1 },
+                { id: 'FO1104', block: 1, name: 'Laboratorio Introducción A La Ingeniería Forestal', cred: 2, hrs: 2, reqs: [], coreqs: ['FO1103'], userSem: 1 },
+                { id: 'FO2202', block: 1, name: 'Mediciones Forestales', cred: 3, hrs: 4, reqs: [], coreqs: ['FO1103'], userSem: 1 },
+                { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, hrs: 5, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio De Química Básica I', cred: 1, hrs: 2, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, hrs: 4, reqs: [], coreqs: ['QU1102'], userSem: 1 },
+                { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 1 },
+                // BLOQUE 2 
+                { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, hrs: 3, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'CI1230', block: 2, name: 'Inglés I', cred: 2, hrs: 6, reqs: ['CI0200', 'CI0202'], coreqs: [], userSem: 2 },
+                { id: 'FH1000', block: 2, name: 'Centros De Formación Humanística', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                { id: 'FO1107', block: 2, name: 'Botánica Forestal', cred: 3, hrs: 3, reqs: ['BI1101'], coreqs: ['FO1108'], userSem: 2 },
+                { id: 'FO1108', block: 2, name: 'Laboratorio De Botánica Forestal', cred: 1, hrs: 2, reqs: ['BI1102'], coreqs: ['FO1107'], userSem: 2 },
+                { id: 'FO2201', block: 2, name: 'Levantamiento Forestal', cred: 3, hrs: 4, reqs: ['FO2202'], coreqs: [], userSem: 2 },
+                { id: 'MA1102', block: 2, name: 'Cálculo Diferencial E Integral', cred: 4, hrs: 5, reqs: ['MA0101'], coreqs: [], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio De Química Básica II', cred: 1, hrs: 2, reqs: ['QU1102'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, hrs: 4, reqs: ['QU1106'], coreqs: ['QU1104'], userSem: 2 },
+                { id: 'SE1400', block: 2, name: 'Actividad Cultural-Deportiva', cred: 0, hrs: 2, reqs: [], coreqs: [], userSem: 2 },
+                // BLOQUE 3 
+                { id: 'CI1231', block: 3, name: 'Inglés II', cred: 2, hrs: 3, reqs: ['CI1230'], coreqs: [], userSem: 3 },
+                { id: 'FO2109', block: 3, name: 'Dendrología Tropical', cred: 3, hrs: 4, reqs: ['FO1107', 'FO1108'], coreqs: [], userSem: 3 },
+                { id: 'FO2113', block: 3, name: 'Análisis Estadístico', cred: 3, hrs: 4, reqs: ['MA0101'], coreqs: [], userSem: 3 },
+                { id: 'FO2115', block: 3, name: 'Laboratorio De Reproducción De Especies Forestales', cred: 1, hrs: 2, reqs: ['FO2201'], coreqs: ['FO2117'], userSem: 3 },
+                { id: 'FO2117', block: 3, name: 'Reproducción De Especies Forestales', cred: 2, hrs: 3, reqs: ['QU1106'], coreqs: ['FO2115'], userSem: 3 },
+                { id: 'FO3401', block: 3, name: 'Sistemas De Información Geográfica', cred: 3, hrs: 4, reqs: ['FO2201'], coreqs: [], userSem: 3 },
+                { id: 'MA1103', block: 3, name: 'Cálculo Y Álgebra Lineal', cred: 4, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 3 },
+                // BLOQUE 4 
+                { id: 'CS2303', block: 4, name: 'Relaciones Laborales', cred: 2, hrs: 6, reqs: ['CI1107'], coreqs: [], userSem: 4 },
+                { id: 'FI1101', block: 4, name: 'Física General I', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: [], userSem: 4 },
+                { id: 'FI1201', block: 4, name: 'Laboratorio Física General I', cred: 1, hrs: 2, reqs: [], coreqs: ['FI1101'], userSem: 4 },
+                { id: 'FO1106', block: 4, name: 'Climatología Forestal', cred: 3, hrs: 4, reqs: ['FO3401'], coreqs: [], userSem: 4 },
+                { id: 'FO2108', block: 4, name: 'Laboratorio De Suelos Forestales', cred: 1, hrs: 2, reqs: ['QU1106'], coreqs: ['FO4107'], userSem: 4 },
+                { id: 'FO3113', block: 4, name: 'Inventarios Forestales', cred: 3, hrs: 4, reqs: ['FO2113', 'FO3401'], coreqs: [], userSem: 4 },
+                { id: 'FO4107', block: 4, name: 'Suelos Forestales', cred: 2, hrs: 3, reqs: ['QU1106'], coreqs: ['FO2108'], userSem: 4 },
+                { id: 'FO4417', block: 4, name: 'Ecofisiología Forestal', cred: 3, hrs: 4, reqs: ['FO2113'], coreqs: ['FO4107'], userSem: 4 },
+                // BLOQUE 5 
+                { id: 'CS3401', block: 5, name: 'Seminario De Estudios Filosóficos Históricos', cred: 2, hrs: 3, reqs: ['CS2303'], coreqs: [], userSem: 5 },
+                { id: 'FO2114', block: 5, name: 'Ecología Forestal', cred: 3, hrs: 4, reqs: ['FO2109', 'FO3113'], coreqs: [], userSem: 5 },
+                { id: 'FO2116', block: 5, name: 'Establecimiento De Plantaciones Forestales', cred: 3, hrs: 4, reqs: ['FO2117', 'FO4107'], coreqs: [], userSem: 5 },
+                { id: 'FO3120', block: 5, name: 'Economía Forestal', cred: 3, hrs: 4, reqs: ['MA1102'], coreqs: ['FO3130'], userSem: 5 },
+                { id: 'FO3130', block: 5, name: 'Métodos De Investigación Forestal', cred: 3, hrs: 5, reqs: ['FO3113'], coreqs: ['FO3120'], userSem: 5 },
+                { id: 'FO4203', block: 5, name: 'Hidrología Forestal Y Manejo De Cuencas', cred: 3, hrs: 4, reqs: ['FO1106', 'FO4107'], coreqs: [], userSem: 5 },
+                // BLOQUE 6 
+                { id: 'FO3109', block: 6, name: 'Manejo De Plantaciones Forestales', cred: 3, hrs: 4, reqs: ['FO2116', 'FO3130'], coreqs: ['FO3132', 'FO3203'], userSem: 6 },
+                { id: 'FO3118', block: 6, name: 'Silvicultura Bosque Natural', cred: 3, hrs: 4, reqs: ['FO2114'], coreqs: [], userSem: 6 },
+                { id: 'FO3132', block: 6, name: 'Entomología Y Patología Forestales', cred: 2, hrs: 2, reqs: ['FO4417'], coreqs: ['FO3109', 'FO3133'], userSem: 6 },
+                { id: 'FO3133', block: 6, name: 'Laboratorio De Entomología Y Patología Forestales', cred: 1, hrs: 3, reqs: [], coreqs: ['FO3132'], userSem: 6 },
+                { id: 'FO3203', block: 6, name: 'Aprovechamiento Forestal I', cred: 3, hrs: 5, reqs: ['FO3113'], coreqs: ['FO3109', 'FO3307'], userSem: 6 },
+                { id: 'FO3210', block: 6, name: 'Gestión De Administración Forestal', cred: 3, hrs: 4, reqs: ['CS2303', 'FO3120'], coreqs: [], userSem: 6 },
+                { id: 'FO3307', block: 6, name: 'Biología De La Conservación', cred: 3, hrs: 4, reqs: ['FI1101', 'FO2114'], coreqs: ['FO3203'], userSem: 6 },
+                // BLOQUE 7 
+                { id: 'FO4001', block: 7, name: 'Bases Y Principios Para La Restauración Ecológica', cred: 3, hrs: 4, reqs: ['FO3307'], coreqs: ['FO4004', 'FO4201'], userSem: 7 },
+                { id: 'FO4003', block: 7, name: 'Sistemas De Gestión Ambiental', cred: 3, hrs: 4, reqs: ['FO4203'], coreqs: ['FO4004'], userSem: 7 },
+                { id: 'FO4004', block: 7, name: 'Evaluación De Impacto Ambiental', cred: 3, hrs: 5, reqs: ['FO4203'], coreqs: ['FO4001', 'FO4003'], userSem: 7 },
+                { id: 'FO4201', block: 7, name: 'Ordenación Forestal', cred: 3, hrs: 4, reqs: ['FO3118'], coreqs: ['FO4204', 'FO4211'], userSem: 7 },
+                { id: 'FO4204', block: 7, name: 'Aprovechamiento Forestal II', cred: 3, hrs: 5, reqs: ['FO3203'], coreqs: ['FO4201'], userSem: 7 },
+                { id: 'FO4211', block: 7, name: 'Política Y Legislación Ambiental', cred: 3, hrs: 4, reqs: [], coreqs: ['FO4201'], userSem: 7 },
+                // BLOQUE 8 
+                { id: 'FO4104', block: 8, name: 'Formulación Y Evaluación De Proyectos', cred: 3, hrs: 4, reqs: ['FO3210', 'MA1103'], coreqs: [], userSem: 8 },
+                { id: 'FO4220', block: 8, name: 'Restauración De Ecosistemas Tropicales', cred: 3, hrs: 4, reqs: ['FO4001', 'QU1107'], coreqs: [], userSem: 8 },
+                { id: 'FO4224', block: 8, name: 'Introducción A La Fauna Silvestre En Ecosistemas Forestales', cred: 3, hrs: 4, reqs: ['FO4211'], coreqs: [], userSem: 8 },
+                { id: 'FO4225', block: 8, name: 'Seguimiento Y Auditoría Ambiental', cred: 3, hrs: 4, reqs: ['FO4004'], coreqs: [], userSem: 8 },
+                { id: 'FO4418', block: 8, name: 'Cambio Climático: Acciones Y Métricas En Sistemas Terrestres', cred: 3, hrs: 4, reqs: ['FO4001'], coreqs: [], userSem: 8 },
+                { id: 'FO7001', block: 8, name: 'Electiva I Énfasis En Conservación Y Restauración De Los Ecosistemas Forestales', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 8 },
+                // BLOQUE 9 
+                { id: 'CS4402', block: 9, name: 'Seminario De Estudios Costarricenses', cred: 2, hrs: 3, reqs: ['CS3401'], coreqs: [], userSem: 9 },
+                { id: 'FO5049', block: 9, name: 'Seminario De Graduación', cred: 2, hrs: 3, reqs: ['FO4104'], coreqs: [], userSem: 9 },
+                { id: 'FO5103', block: 9, name: 'Gestión De Áreas Silvestres', cred: 2, hrs: 4, reqs: ['FO4224', 'FO4225'], coreqs: ['FO5123'], userSem: 9 },
+                { id: 'FO5120', block: 9, name: 'Técnicas De Identificación Y Valoración De Daño Ambiental', cred: 3, hrs: 4, reqs: ['FO4220', 'FO4225'], coreqs: [], userSem: 9 },
+                { id: 'FO5121', block: 9, name: 'Restauración Del Paisaje: Áreas Urbanas Y Ecosistemas Agropecuarios', cred: 3, hrs: 4, reqs: ['FO4220'], coreqs: [], userSem: 9 },
+                { id: 'FO5123', block: 9, name: 'Monitoreo De Vida Silvestre En Ecosistemas Forestales', cred: 3, hrs: 4, reqs: ['FO4224'], coreqs: ['FO5103'], userSem: 9 },
+                { id: 'FO7020', block: 9, name: 'Electiva II Énfasis En Conservación Y Restauración De Ecosistemas Forestales', cred: 3, hrs: 4, reqs: [], coreqs: [], userSem: 9 },
+                // BLOQUE 10 
+                { id: 'FO5051', block: 10, name: 'Trabajo Final De Graduación', cred: 10, hrs: 48, reqs: ['BI1101', 'BI1102', 'CI1106', 'CI1107', 'CI1230', 'CI1231', 'CS2303', 'CS3401', 'CS4402', 'FH1000', 'FI1101', 'FI1201', 'FO1103', 'FO1104', 'FO1106', 'FO1107', 'FO1108', 'FO2108', 'FO2109', 'FO2113', 'FO2114', 'FO2115', 'FO2116', 'FO2117', 'FO2201', 'FO2202', 'FO3109', 'FO3113', 'FO3118', 'FO3120', 'FO3130', 'FO3132', 'FO3133', 'FO3203', 'FO3210', 'FO3307', 'FO3401', 'FO4001', 'FO4003', 'FO4004', 'FO4104', 'FO4107', 'FO4201', 'FO4203', 'FO4204', 'FO4211', 'FO4220', 'FO4224', 'FO4225', 'FO4417', 'FO4418', 'FO5049', 'FO5103', 'FO5120', 'FO5121', 'FO5123', 'FO7001', 'FO7020', 'MA0101', 'MA1102', 'MA1103', 'QU1102', 'QU1104', 'QU1106', 'QU1107', 'SE1100', 'SE1200', 'SE1400'], coreqs: [], userSem: 10 },
             ],
             seguridad: [
               // BLOQUE 0
@@ -4200,13 +4462,26 @@ path {
       
         function bootSystem() {
             currentMajor = localStorage.getItem('TecPlanner_ActiveMajor');
-            
+
             if (!currentMajor) {
                 document.getElementById('majorSelectionOverlay').style.display = 'flex';
             } else {
-                const title = currentMajor === 'fisica' ? 'ING. FÍSICA' : 'BIOTECNOLOGÍA';
+                const titles = {
+                    fisica:                             'ING. FÍSICA',
+                    biotecnologia:                      'BIOTECNOLOGÍA',
+                    electronica:                        'ING. ELECTRÓNICA',
+                    computacion:                        'ING. COMPUTACIÓN',
+                    mecatronica:                        'ING. MECATRÓNICA',
+                    administracion:                     'ADMINISTRACIÓN',
+                    forestal:                           'ING. FORESTAL',
+                    forestal_manejoYproduccion:         'ING. FORESTAL · MANEJO',
+                    forestal_conservacionYrestauracion: 'ING. FORESTAL · CONSERVACIÓN'
+                };
+                const title = titles[currentMajor] || currentMajor.toUpperCase();
                 loadMajor(currentMajor, title);
             }
+
+            renderEnfasisBtn();
         }
 
         function selectMajor(majorKey, titleText) {
@@ -4227,8 +4502,357 @@ path {
             coursesDB = JSON.parse(JSON.stringify(curriculums[majorKey]));
             
             init(); 
+            renderEnfasisBtn()
             notifyOpen();
+            
         }
+
+        // ── Helpers ──────────────────────────────────────────────────
+
+function esForestal(key) {
+    return key && key.startsWith('forestal');
+}
+
+function otroEnfasis() {
+    if (currentMajor === 'forestal_manejoYproduccion')
+        return 'forestal_conservacionYrestauracion';
+    if (currentMajor === 'forestal_conservacionYrestauracion')
+        return 'forestal_manejoYproduccion';
+    return null;
+}
+
+function nombreEnfasis(key) {
+    if (key === 'forestal_manejoYproduccion')        return '🌳 Manejo y Producción';
+    if (key === 'forestal_conservacionYrestauracion') return '🍃 Conservación y Restauración';
+    return '🌲 Forestal (genérico)';
+}
+
+// ── Mostrar/ocultar botones ───────────────────────────────────
+
+function renderEnfasisBtn() {
+    const btnE  = document.getElementById('btnEnfasis');
+    const btnO  = document.getElementById('btnOtroEnfasis');
+    if (!btnE || !btnO) return;
+
+    const tieneEnfasis = currentMajor === 'forestal_manejoYproduccion' ||
+                         currentMajor === 'forestal_conservacionYrestauracion';
+
+    btnE.style.display = esForestal(currentMajor) ? 'flex' : 'none';
+    btnO.style.display = tieneEnfasis ? 'flex' : 'none';
+
+    if (tieneEnfasis) {
+        btnE.innerHTML  = `${nombreEnfasis(currentMajor).split(' ')[0]} ÉNFASIS`;
+        btnE.title      = `Énfasis activo: ${nombreEnfasis(currentMajor)} · Clic para cambiar`;
+        btnO.innerHTML  = `🔀 ${nombreEnfasis(otroEnfasis()).split(' ')[0]} VER`;
+        btnO.title      = `Ver cursos de: ${nombreEnfasis(otroEnfasis())}`;
+    } else {
+        btnE.innerHTML  = '🌿 ÉNFASIS';
+        btnE.title      = 'Seleccioná tu énfasis';
+    }
+}
+
+// ── Selector de énfasis ───────────────────────────────────────
+
+function openEnfasisModal() {
+    const activo = currentMajor !== 'forestal' ? currentMajor : null;
+
+    const cardStyle = (key) => {
+        const isActivo = activo === key;
+        const color    = key === 'forestal_manejoYproduccion' ? '#10b981' : '#3b82f6';
+        return `background:#09090b; border:2px solid ${isActivo ? color : '#333'};
+                border-left:4px solid ${color}; border-radius:8px; padding:18px;
+                cursor:pointer; transition:all 0.2s;
+                ${isActivo ? `box-shadow:0 0 15px ${color}33;` : ''}`;
+    };
+
+    const badge = (key) => activo === key
+        ? `<span style="background:${key === 'forestal_manejoYproduccion' ? '#10b981' : '#3b82f6'};
+                        color:${key === 'forestal_manejoYproduccion' ? '#000' : '#fff'};
+                        font-size:0.7rem; padding:2px 8px; border-radius:10px; font-weight:700;">
+               ACTIVO
+           </span>`
+        : '';
+
+    const modal = document.createElement('div');
+    modal.id        = 'enfasisModal';
+    modal.className = 'modal-overlay';
+    modal.style.cssText = 'display:flex; z-index:5000;';
+    modal.onclick   = (e) => { if (e.target === modal) modal.remove(); };
+
+    modal.innerHTML = `
+        <div class="modal-content" style="width:520px;">
+            <div class="modal-header">
+                <div class="modal-title-code" style="color:#10b981;">🌲 ING. FORESTAL</div>
+                <div class="modal-title-name">Seleccioná tu énfasis</div>
+            </div>
+            <div class="modal-body" style="gap:16px;">
+                <div style="background:rgba(59,130,246,0.08); border:1px solid rgba(59,130,246,0.2);
+                            border-radius:6px; padding:12px; font-size:0.88rem; color:var(--text-dim);">
+                    💡 El progreso de los bloques 1-5 se conserva al cambiar de énfasis.
+                    Los bloques 6-10 son propios de cada énfasis y se guardan por separado.
+                </div>
+
+                <div style="display:flex; flex-direction:column; gap:12px;">
+
+                    <div onclick="selectEnfasis('forestal_manejoYproduccion')"
+                         style="${cardStyle('forestal_manejoYproduccion')}">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                            <span style="font-weight:700; color:#fff; font-size:1.05rem;">
+                                🌳 Manejo y Producción Forestal
+                            </span>
+                            ${badge('forestal_manejoYproduccion')}
+                        </div>
+                        <div style="color:var(--text-dim); font-size:0.83rem;">
+                            Aprovechamiento · Manufactura · Plantaciones · Mercadeo forestal
+                        </div>
+                    </div>
+
+                    <div onclick="selectEnfasis('forestal_conservacionYrestauracion')"
+                         style="${cardStyle('forestal_conservacionYrestauracion')}">
+                        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;">
+                            <span style="font-weight:700; color:#fff; font-size:1.05rem;">
+                                🍃 Conservación y Restauración
+                            </span>
+                            ${badge('forestal_conservacionYrestauracion')}
+                        </div>
+                        <div style="color:var(--text-dim); font-size:0.83rem;">
+                            Restauración ecológica · Fauna silvestre · Impacto ambiental
+                        </div>
+                    </div>
+
+                    ${activo ? `
+                    <div onclick="selectEnfasis('forestal')"
+                         style="background:#09090b; border:1px dashed #444; border-radius:8px;
+                                padding:12px; cursor:pointer; text-align:center; transition:all 0.2s;"
+                         onmouseover="this.style.borderColor='#666'"
+                         onmouseout="this.style.borderColor='#444'">
+                        <span style="color:#555; font-size:0.85rem;">
+                            ✕ Quitar énfasis · volver al plan genérico (bloques 1-5)
+                        </span>
+                    </div>` : ''}
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-modal btn-cancel" onclick="document.getElementById('enfasisModal').remove()">
+                    Cancelar
+                </button>
+            </div>
+        </div>`;
+
+    document.body.appendChild(modal);
+}
+
+// ── Cambiar énfasis con migración de progreso ─────────────────
+
+function selectEnfasis(majorKey) {
+    document.getElementById('enfasisModal')?.remove();
+
+    // Guardar progreso actual antes de cambiar
+    const progresoActual = JSON.parse(JSON.stringify(coursesDB));
+
+    // Cargar el plan del nuevo énfasis
+    localStorage.setItem('TecPlanner_ActiveMajor', majorKey);
+    currentMajor = majorKey;
+    coursesDB    = JSON.parse(JSON.stringify(curriculums[majorKey]));
+
+    // Cargar lo que ya tenía guardado en ESE énfasis (si había estado antes)
+    const savedData = localStorage.getItem(`TecPlanner_Data_${majorKey}`);
+    if (savedData) {
+        const parsed = JSON.parse(savedData);
+        parsed.forEach(saved => {
+            const c = coursesDB.find(x => x.id === saved.id);
+            if (c) {
+                c.userSem = saved.userSem;
+                c.status  = saved.status;
+                c.grade   = saved.grade;
+                c.prof    = saved.prof;
+            }
+        });
+    } else {
+        // Primera vez en este énfasis → migrar cursos comunes del plan anterior
+        progresoActual.forEach(anterior => {
+            const c = coursesDB.find(x => x.id === anterior.id);
+            if (c) {
+                c.userSem = anterior.userSem;
+                c.status  = anterior.status;
+                c.grade   = anterior.grade;
+                c.prof    = anterior.prof;
+            }
+        });
+    }
+
+    const titles = {
+    fisica:                             'ING. FÍSICA',
+    biotecnologia:                      'BIOTECNOLOGÍA',
+    electronica:                        'ING. ELECTRÓNICA',
+    computacion:                        'ING. COMPUTACIÓN',
+    mecatronica:                        'ING. MECATRÓNICA',
+    administracion:                     'ADMINISTRACIÓN',
+    forestal:                           'ING. FORESTAL',
+    forestal_manejoYproduccion:         'ING. FORESTAL · MANEJO',
+    forestal_conservacionYrestauracion: 'ING. FORESTAL · CONSERVACIÓN'
+    };
+    const title = titles[majorKey] || majorKey.toUpperCase();
+    document.getElementById('hudTitle').innerText = `TEC // ${title}`;
+    document.getElementById('hudTitle').innerText = `TEC // ${title}`;
+
+    saveToLocal();
+    renderGrid();
+    renderButtons();
+    setTimeout(drawConnections, 150);
+    setTimeout(drawConnections, 700);
+    updateStats(activeFilterSemester);
+    renderEnfasisBtn();
+
+    if (document.getElementById('characterSheet').classList.contains('open')) {
+        updateCharacterSheet();
+    }
+}
+
+// ── Panel del otro énfasis ────────────────────────────────────
+
+function openOtroEnfasisPanel() {
+    const otroKey  = otroEnfasis();
+    if (!otroKey) return;
+
+    const otroNombre = nombreEnfasis(otroKey);
+
+    // Cargar el plan del otro énfasis
+    const otroPlan = JSON.parse(JSON.stringify(curriculums[otroKey]));
+
+    // Cargar progreso guardado del otro énfasis si existe
+    const savedData = localStorage.getItem(`TecPlanner_Data_${otroKey}`);
+    if (savedData) {
+        const parsed = JSON.parse(savedData);
+        parsed.forEach(saved => {
+            const c = otroPlan.find(x => x.id === saved.id);
+            if (c) {
+                c.userSem = saved.userSem;
+                c.status  = saved.status;
+                c.grade   = saved.grade;
+            }
+        });
+    }
+
+    // Separar comunes (bloques 0-5) y exclusivos (bloques 6+)
+    const exclusivos = otroPlan.filter(c => c.block >= 6);
+    const comunes    = otroPlan.filter(c => c.block < 6);
+
+    // Agrupar exclusivos por bloque
+    const bloques = {};
+    exclusivos.forEach(c => {
+        if (!bloques[c.block]) bloques[c.block] = [];
+        bloques[c.block].push(c);
+    });
+
+    const statusColor = (s) => {
+        if (s === 'aprobado')  return '#10b981';
+        if (s === 'cursando')  return '#06b6d4';
+        return '#555';
+    };
+    const statusLabel = (s) => {
+        if (s === 'aprobado')  return '✅ Aprobado';
+        if (s === 'cursando')  return '⚡ Cursando';
+        return '⬜ Pendiente';
+    };
+
+    // Estadísticas
+    const totalCreds    = otroPlan.reduce((s, c) => s + c.cred, 0);
+    const exclCreds     = exclusivos.reduce((s, c) => s + c.cred, 0);
+    const aprobCreds    = exclusivos.filter(c => c.status === 'aprobado').reduce((s, c) => s + c.cred, 0);
+
+    let tablasHtml = '';
+    Object.keys(bloques).sort((a, b) => a - b).forEach(blk => {
+        tablasHtml += `
+            <div style="margin-bottom:16px;">
+                <div style="font-size:0.75rem; color:var(--accent); text-transform:uppercase;
+                            letter-spacing:1px; font-weight:700; margin-bottom:8px; padding-left:4px;">
+                    Bloque ${blk}
+                </div>
+                <div style="background:#09090b; border:1px solid #27272a; border-radius:6px; overflow:hidden;">`;
+
+        bloques[blk].forEach((c, i) => {
+            const borderTop = i > 0 ? 'border-top:1px solid #1a1a1a;' : '';
+            tablasHtml += `
+                <div style="display:grid; grid-template-columns:1fr 40px 80px 100px;
+                             gap:8px; align-items:center; padding:10px 14px; ${borderTop}">
+                    <div>
+                        <div style="font-size:0.72rem; color:var(--accent); font-weight:700;">${c.id}</div>
+                        <div style="font-size:0.88rem; color:#fff;">${c.name}</div>
+                    </div>
+                    <div style="text-align:center; font-size:0.8rem; color:#555;">${c.cred} cr</div>
+                    <div style="text-align:center; font-size:0.75rem; color:#555;">Bloque ${c.block}</div>
+                    <div style="text-align:right; font-size:0.78rem; color:${statusColor(c.status || 'pendiente')};">
+                        ${statusLabel(c.status || 'pendiente')}
+                    </div>
+                </div>`;
+        });
+
+        tablasHtml += `</div></div>`;
+    });
+
+    const modal = document.createElement('div');
+    modal.id        = 'otroEnfasisModal';
+    modal.className = 'modal-overlay';
+    modal.style.cssText = 'display:flex; z-index:5000;';
+    modal.onclick   = (e) => { if (e.target === modal) modal.remove(); };
+
+    modal.innerHTML = `
+        <div class="modal-content" style="width:600px; height:88vh; display:flex; flex-direction:column; overflow:hidden;">
+            <div class="modal-header">
+                <div>
+                    <div class="modal-title-code" style="color:#555;">COMPARACIÓN DE ÉNFASIS</div>
+                    <div class="modal-title-name" style="font-size:1.3rem;">${otroNombre}</div>
+                </div>
+                <button class="modal-content::before" onclick="document.getElementById('otroEnfasisModal').remove()"
+                        style="background:none; border:none; color:var(--text-dim); font-size:1.5rem;
+                               cursor:pointer; line-height:1; padding:0 4px;">×</button>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr 1fr;
+                        gap:1px; background:#27272a; border-bottom:1px solid #27272a;">
+                <div style="background:#121214; padding:14px; text-align:center;">
+                    <div style="font-size:1.4rem; font-weight:700; color:#fff;">${totalCreds}</div>
+                    <div style="font-size:0.7rem; color:#555; text-transform:uppercase; margin-top:2px;">Créditos totales</div>
+                </div>
+                <div style="background:#121214; padding:14px; text-align:center;">
+                    <div style="font-size:1.4rem; font-weight:700; color:var(--accent);">${exclCreds}</div>
+                    <div style="font-size:0.7rem; color:#555; text-transform:uppercase; margin-top:2px;">Créditos exclusivos</div>
+                </div>
+                <div style="background:#121214; padding:14px; text-align:center;">
+                    <div style="font-size:1.4rem; font-weight:700; color:#10b981;">${aprobCreds}</div>
+                    <div style="font-size:0.7rem; color:#555; text-transform:uppercase; margin-top:2px;">Aprobados en este énfasis</div>
+                </div>
+            </div>
+
+            <div style="overflow-y:auto; flex:1; min-height:0; padding:20px 28px;">
+                <div style="font-size:0.78rem; color:#555; margin-bottom:16px; padding:10px 12px;
+                            background:#09090b; border-radius:6px; border:1px dashed #333;">
+                    Mostrando solo los cursos exclusivos de este énfasis (bloques 6-10).
+                    Los bloques 1-5 son comunes y ya los ves en tu árbol principal.
+                </div>
+                ${tablasHtml}
+            </div>
+
+            <div class="modal-footer" style="flex-direction:column; gap:10px;">
+                <div style="font-size:0.82rem; color:var(--text-dim); text-align:center;">
+                    ¿Querés cambiar a este énfasis?
+                </div>
+                <div style="display:flex; gap:12px; width:100%;">
+                    <button class="btn-modal btn-cancel"
+                            onclick="document.getElementById('otroEnfasisModal').remove()">
+                        Cerrar
+                    </button>
+                    <button class="btn-modal btn-confirm"
+                            onclick="document.getElementById('otroEnfasisModal').remove(); selectEnfasis('${otroKey}')">
+                        Cambiar a este énfasis
+                    </button>
+                </div>
+            </div>
+        </div>`;
+
+    document.body.appendChild(modal);
+}
 
         function resetMajor() {
             if(confirm("¿Estás seguro de cambiar de carrera? Esto ocultará tu progreso actual (no se borrará, solo se guardará internamente).")) {
@@ -4335,6 +4959,10 @@ path {
                     col.appendChild(node);
                 });
                 container.appendChild(col);
+
+                if (parseInt(blockNum) === 5 && esForestal(currentMajor)) {
+                    container.appendChild(buildEnfasisColumn());
+                }
             });
 
             checkAnomalies();
@@ -4396,12 +5024,12 @@ path {
                 c.reqs.forEach(reqId => {
                     const reqCourse = coursesDB.find(x => x.id === reqId);
                     
-                   
+                    if (!reqCourse) return;
                     if (reqCourse.status === 'aprobado') {
                         return;
                     }
                     
-                   
+
                     if (!reqCourse.userSem || reqCourse.userSem >= c.userSem) {
                         isAnomaly = true;
                         errorMsg.push(`Requiere ${reqId} antes del S${c.userSem}`);
@@ -4411,7 +5039,7 @@ path {
                 c.coreqs.forEach(coreqId => {
                     const coreqCourse = coursesDB.find(x => x.id === coreqId);
                     
-                  
+                    if (!coreqCourse) return;
                     if (coreqCourse.status === 'aprobado') {
                         return; 
                     }
@@ -4632,6 +5260,86 @@ function renderQuestLog() {
     }
     
     logContainer.innerHTML = html;
+}
+
+function buildEnfasisColumn() {
+    const col = document.createElement('div');
+    col.className = 'semester-column';
+    col.id = 'enfasisColumn';
+    col.style.cssText = 'min-width:160px; justify-content:center; align-items:center;';
+
+    const tieneEnfasis = currentMajor !== 'forestal';
+    const colorActivo  = currentMajor === 'forestal_manejoYproduccion' ? '#10b981' : '#3b82f6';
+
+    col.innerHTML = `
+        <div style="display:flex; flex-direction:column; align-items:center; gap:12px;
+                    padding:20px 10px; position:sticky; top:40px;">
+
+            <div style="width:2px; height:40px; background:linear-gradient(to bottom, #333, ${tieneEnfasis ? colorActivo : 'var(--accent)'}); border-radius:2px;"></div>
+
+            <div style="background:${tieneEnfasis ? colorActivo + '18' : 'rgba(130,87,230,0.08)'};
+                        border:2px solid ${tieneEnfasis ? colorActivo : 'var(--accent)'};
+                        border-radius:12px; padding:18px 14px; text-align:center;
+                        box-shadow: 0 0 20px ${tieneEnfasis ? colorActivo + '33' : 'rgba(130,87,230,0.2)'};
+                        min-width:140px;">
+
+                <div style="font-size:1.4rem; margin-bottom:8px;">
+                    ${tieneEnfasis
+                        ? (currentMajor === 'forestal_manejoYproduccion' ? '🌳' : '🍃')
+                        : '🌿'}
+                </div>
+
+                <div style="font-size:0.7rem; color:#555; text-transform:uppercase;
+                            letter-spacing:1px; margin-bottom:6px;">
+                    ${tieneEnfasis ? 'Énfasis activo' : 'Bifurcación'}
+                </div>
+
+                <div style="font-weight:700; color:${tieneEnfasis ? colorActivo : 'var(--accent)'};
+                            font-size:0.85rem; margin-bottom:12px; line-height:1.3;">
+                    ${tieneEnfasis
+                        ? nombreEnfasis(currentMajor).replace(/^[^\s]+\s/, '')
+                        : 'Seleccioná\ntu énfasis'}
+                </div>
+
+                ${tieneEnfasis ? `
+                <button onclick="openEnfasisModal()"
+                        style="background:transparent; border:1px solid ${colorActivo};
+                               color:${colorActivo}; padding:5px 12px; border-radius:6px;
+                               cursor:pointer; font-family:'Rajdhani',sans-serif;
+                               font-weight:700; font-size:0.75rem; width:100%;
+                               transition:all 0.2s;"
+                        onmouseover="this.style.background='${colorActivo}22'"
+                        onmouseout="this.style.background='transparent'">
+                    Cambiar
+                </button>` : `
+                <div style="display:flex; flex-direction:column; gap:8px;">
+                    <button onclick="selectEnfasis('forestal_manejoYproduccion')"
+                            style="background:rgba(16,185,129,0.08); border:1px solid #10b981;
+                                   color:#10b981; padding:7px 10px; border-radius:6px;
+                                   cursor:pointer; font-family:'Rajdhani',sans-serif;
+                                   font-weight:700; font-size:0.75rem; width:100%;
+                                   transition:all 0.2s;"
+                            onmouseover="this.style.background='rgba(16,185,129,0.18)'"
+                            onmouseout="this.style.background='rgba(16,185,129,0.08)'">
+                        🌳 Manejo
+                    </button>
+                    <button onclick="selectEnfasis('forestal_conservacionYrestauracion')"
+                            style="background:rgba(59,130,246,0.08); border:1px solid #3b82f6;
+                                   color:#3b82f6; padding:7px 10px; border-radius:6px;
+                                   cursor:pointer; font-family:'Rajdhani',sans-serif;
+                                   font-weight:700; font-size:0.75rem; width:100%;
+                                   transition:all 0.2s;"
+                            onmouseover="this.style.background='rgba(59,130,246,0.18)'"
+                            onmouseout="this.style.background='rgba(59,130,246,0.08)'">
+                        🍃 Conservación
+                    </button>
+                </div>`}
+            </div>
+
+            <div style="width:2px; height:40px; background:linear-gradient(to bottom, ${tieneEnfasis ? colorActivo : 'var(--accent)'}, #333); border-radius:2px;"></div>
+        </div>`;
+
+    return col;
 }
 
         function confirmReset() {
@@ -5915,4 +6623,3 @@ function closeBulkGrades() {
 </body>
 
 </html>
-
