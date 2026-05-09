@@ -4768,15 +4768,15 @@ function buildAiContext() {
     const nombre  = carrera?.name || currentMajor;
 
     const cursos = coursesDB.map(c => ({
-        id:            c.id,
-        nombre:        c.name,
-        creditos:      c.cred,
-        bloque:        c.block,
-        miSemestre:    c.userSem || null,
-        estado:        c.status || 'pendiente',
-        nota:          c.grade  || null,
-        requisitos:    c.reqs,
-        correquisitos: c.coreqs
+        id:         c.id,
+        nombre:     c.name,
+        cred:       c.cred,
+        bloque:     c.block,
+        sem:        c.userSem || null,
+        estado:     c.status || 'pendiente',
+        nota:       c.grade  || null,
+        reqs:       c.reqs,
+        coreqs:     c.coreqs
     }));
 
     const aprobados  = cursos.filter(c => c.estado === 'aprobado');
@@ -4799,7 +4799,7 @@ RESUMEN:
 - Cursos sin semestre asignado: ${sinSem.length}
 
 PLAN COMPLETO:
-${JSON.stringify(cursos, null, 2)}
+${JSON.stringify(cursos)}
 
 INSTRUCCIONES:
 - Respondé en español, de forma concisa y práctica
