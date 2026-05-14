@@ -2050,9 +2050,7 @@ path {
                 </div>
                 <div class="input-group">
                     <label class="input-label">Planear en (Usa .5 para Veranos, ej: 1.5)</label>
-                    <input type="number" id="inpUserSem" class="rpg-input" 
-       placeholder="Ej: 1, 2, 2.5, 4.5..." 
-       oninput="validateUserSem(this)">
+                    <input type="number" id="inpUserSem" class="rpg-input" step="0.5" placeholder="Ej: 1, 2, 2.5, 4.5...">
                 </div>
                 <div style="display:flex; gap:15px;">
                     <div class="input-group" style="flex:2;">
@@ -4447,46 +4445,7 @@ path {
     }).catch(() => {});
 }
 
-      function validateUserSem(input) {
-    const raw = input.value;
-    if (raw === '' || raw === '-') return;
-
-    const val = parseFloat(raw);
-    if (isNaN(val) || val < 0) {
-        input.style.borderColor = 'var(--anomaly)';
-        return;
-    }
-
-    const isDecimal = val % 1 !== 0;
-
-    if (isDecimal) {
-        // Verificar que sea .5 exactamente
-        if (val % 1 !== 0.5) {
-            input.value = Math.floor(val);
-            input.style.borderColor = 'var(--anomaly)';
-            setTimeout(() => input.style.borderColor = '', 2000);
-            return;
-        }
-
-        const base = Math.floor(val);
-        if (base % 2 !== 0) {
-            // Verano inválido (1.5, 3.5, etc.)
-            input.value = '';
-            input.style.borderColor = 'var(--anomaly)';
-            input.placeholder = 'Veranos válidos: 2.5, 4.5, 6.5...';
-            setTimeout(() => {
-                input.style.borderColor = '';
-                input.placeholder = 'Ej: 1, 2, 2.5, 4.5...';
-            }, 2000);
-            return;
-        }
-
-        // Verano válido
-        input.style.borderColor = 'var(--timing-verano)';
-    } else {
-        input.style.borderColor = '';
-    }
-}
+      
 
         function getWeekKey() {
             const now = new Date();
@@ -6036,6 +5995,18 @@ function toggleSimSection(id) {
 
         function saveCourseData() {
             const val = document.getElementById('inpUserSem').value;
+          if (val !== '') {
+        const num = parseFloat(val);
+        const isDecimal = num % 1 !== 0;
+        
+        if (isDecimal) {
+            const base = Math.floor(num);
+            if (base % 2 !== 0) {
+                alert(`❌ Verano inválido. Los veranos solo existen después de semestres pares.\nVálidos: 2.5, 4.5, 6.5...\nInválidos: 1.5, 3.5, 5.5...`);
+                return; 
+            }
+        }
+    }
             currentCourse.userSem = val ? parseFloat(val) : null;
             currentCourse.status = document.getElementById('inpStatus').value;
             currentCourse.prof = document.getElementById('inpProf').value;
