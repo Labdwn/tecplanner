@@ -2050,7 +2050,9 @@ path {
                 </div>
                 <div class="input-group">
                     <label class="input-label">Planear en (Usa .5 para Veranos, ej: 1.5)</label>
-                    <input type="number" id="inpUserSem" class="rpg-input" step="0.5" placeholder="Ej: 1, 1.5, 2, 11...">
+                    <input type="number" id="inpUserSem" class="rpg-input" step="0.5" 
+                   placeholder="Ej: 1, 2, 2.5, 4.5..." 
+                   oninput="validateUserSem(this)">
                 </div>
                 <div style="display:flex; gap:15px;">
                     <div class="input-group" style="flex:2;">
@@ -4443,6 +4445,30 @@ path {
             }]
         })
     }).catch(() => {});
+}
+
+      function validateUserSem(input) {
+    const val = parseFloat(input.value);
+    if (isNaN(val)) return;
+
+    const isDecimal = val % 1 !== 0;
+    if (isDecimal) {
+        const base = Math.floor(val); // ej: 1.5 → base = 1
+        if (base % 2 !== 0) {
+            // Base impar → verano inválido
+            input.value = '';
+            input.style.borderColor = 'var(--anomaly)';
+            input.title = 'Los veranos solo son válidos después de semestres pares (2.5, 4.5, 6.5...)';
+            setTimeout(() => {
+                input.style.borderColor = '';
+                input.title = '';
+            }, 2000);
+        } else {
+            input.style.borderColor = 'var(--timing-verano)';
+        }
+    } else {
+        input.style.borderColor = '';
+    }
 }
 
         function getWeekKey() {
