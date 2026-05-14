@@ -2050,9 +2050,9 @@ path {
                 </div>
                 <div class="input-group">
                     <label class="input-label">Planear en (Usa .5 para Veranos, ej: 1.5)</label>
-                    <input type="number" id="inpUserSem" class="rpg-input" step="0.5" 
-                   placeholder="Ej: 1, 2, 2.5, 4.5..." 
-                   oninput="validateUserSem(this)">
+                    <input type="number" id="inpUserSem" class="rpg-input" 
+       placeholder="Ej: 1, 2, 2.5, 4.5..." 
+       oninput="validateUserSem(this)">
                 </div>
                 <div style="display:flex; gap:15px;">
                     <div class="input-group" style="flex:2;">
@@ -4448,24 +4448,41 @@ path {
 }
 
       function validateUserSem(input) {
-    const val = parseFloat(input.value);
-    if (isNaN(val)) return;
+    const raw = input.value;
+    if (raw === '' || raw === '-') return;
+
+    const val = parseFloat(raw);
+    if (isNaN(val) || val < 0) {
+        input.style.borderColor = 'var(--anomaly)';
+        return;
+    }
 
     const isDecimal = val % 1 !== 0;
+
     if (isDecimal) {
-        const base = Math.floor(val); // ej: 1.5 → base = 1
+        // Verificar que sea .5 exactamente
+        if (val % 1 !== 0.5) {
+            input.value = Math.floor(val);
+            input.style.borderColor = 'var(--anomaly)';
+            setTimeout(() => input.style.borderColor = '', 2000);
+            return;
+        }
+
+        const base = Math.floor(val);
         if (base % 2 !== 0) {
-            // Base impar → verano inválido
+            // Verano inválido (1.5, 3.5, etc.)
             input.value = '';
             input.style.borderColor = 'var(--anomaly)';
-            input.title = 'Los veranos solo son válidos después de semestres pares (2.5, 4.5, 6.5...)';
+            input.placeholder = 'Veranos válidos: 2.5, 4.5, 6.5...';
             setTimeout(() => {
                 input.style.borderColor = '';
-                input.title = '';
+                input.placeholder = 'Ej: 1, 2, 2.5, 4.5...';
             }, 2000);
-        } else {
-            input.style.borderColor = 'var(--timing-verano)';
+            return;
         }
+
+        // Verano válido
+        input.style.borderColor = 'var(--timing-verano)';
     } else {
         input.style.borderColor = '';
     }
