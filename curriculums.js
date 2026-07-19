@@ -130,6 +130,14 @@ const careers_information = {
                 plan: 0,
                 grado: "Licenciatura",
             },
+
+            biotec_una: {
+                name: "Biotecnología (UNA)",
+                icon: "🧬",
+                plan: 0,
+                grado: "Bachillerato"
+            },
+
         };
         
         const curriculums = {
@@ -140,7 +148,7 @@ const careers_information = {
                 { id: 'IF1101', block: 1, name: 'Introducción a la Ingeniería Física', cred: 3, reqs: [], coreqs: [], userSem: 1 },
                 { id: 'MA0101', block: 1, name: 'Matemática General', cred: 2, reqs: [], coreqs: [], userSem: 1 },
                 { id: 'QU1106', block: 1, name: 'Química Básica I', cred: 3, reqs: [], coreqs: [], userSem: 1 },
-                { id: 'QU1102', block: 1, name: 'Lab. Química I', cred: 1, reqs: [], coreqs: ['QU1106'], userSem: 1 },
+                { id: 'QU1102', block: 1, name: 'Laboratorio Química I', cred: 1, reqs: [], coreqs: ['QU1106'], userSem: 1 },
                 { id: 'SE1100', block: 1, name: 'Actividad Cultural I', cred: 0, reqs: [], coreqs: [], userSem: 1 },
                 { id: 'SE1200', block: 1, name: 'Actividad Deportiva I', cred: 0, reqs: [], coreqs: [], userSem: 1 },
                 { id: 'CI1106', block: 1, name: 'Comunicación Escrita', cred: 2, reqs: [], coreqs: [], userSem: 1 },
@@ -148,9 +156,9 @@ const careers_information = {
                 // BLOQUE 2 
                 { id: 'MA1102', block: 2, name: 'Cálculo Dif. e Integral', cred: 4, reqs: ['MA0101'], coreqs: [], userSem: 2 },
                 { id: 'FI1101', block: 2, name: 'Física General I', cred: 3, reqs: [], coreqs: ['MA1102'], userSem: 2 },
-                { id: 'FI1201', block: 2, name: 'Lab. Física I', cred: 1, reqs: [], coreqs: ['FI1101'], userSem: 2 },
+                { id: 'FI1201', block: 2, name: 'Laboratorio Física I', cred: 1, reqs: [], coreqs: ['FI1101'], userSem: 2 },
                 { id: 'QU1107', block: 2, name: 'Química Básica II', cred: 3, reqs: ['QU1106'], coreqs: [], userSem: 2 },
-                { id: 'QU1104', block: 2, name: 'Lab. Química II', cred: 1, reqs: ['QU1102'], coreqs: ['QU1107'], userSem: 2 },
+                { id: 'QU1104', block: 2, name: 'Laboratorio Química II', cred: 1, reqs: ['QU1102'], coreqs: ['QU1107'], userSem: 2 },
                 { id: 'CS2101', block: 2, name: 'Ambiente Humano', cred: 2, reqs: ['IF1101','CI1106'], coreqs: [], userSem: 2 },
                 { id: 'CI1107', block: 2, name: 'Comunicación Oral', cred: 1, reqs: ['CI1106'], coreqs: [], userSem: 2 },
                 { id: 'CI1231', block: 2, name: 'Inglés II', cred: 2, reqs: ['CI1230'], coreqs: [], userSem: 2 },
@@ -1737,7 +1745,88 @@ const careers_information = {
 
                 // BLOQUE 8
                 { id: 'IB4001', block: 8, name: 'Trabajo Final De Graduación', cred: 10, hrs: 0, reqs: ['IB4505'], coreqs: [], userSem: 8 }
-            ]
+            ],
+
+            biotec_una: [
+                // BLOQUE 1 (Nivel I, Ciclo I)
+                { id: 'GEN-I', block: 1, name: 'Estudios Generales I', cred: 3, reqs: [], coreqs: [], userSem: 1 }, // [cite: 15]
+                { id: 'GEN-II', block: 1, name: 'Estudios Generales II', cred: 3, reqs: [], coreqs: [], userSem: 1 }, // [cite: 15]
+                { id: 'GEN-III', block: 1, name: 'Estudios Generales III', cred: 3, reqs: [], coreqs: [], userSem: 1 }, // [cite: 15]
+                { id: 'BIJ400', block: 1, name: 'Biología General Teoría', cred: 4, reqs: [], coreqs: [], userSem: 1 }, // [cite: 15]
+                { id: 'BIJ400L', block: 1, name: 'Biología General Laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 1 }, // [cite: 15]
+                { id: 'QUX103', block: 1, name: 'Fundamentos de Química Teoría', cred: 4, reqs: [], coreqs: [], userSem: 1 }, // [cite: 15]
+                { id: 'QUX103L', block: 1, name: 'Fundamentos de Química Laboratorio', cred: 1, reqs: [], coreqs: [], userSem: 1 }, // [cite: 15]
+
+                // BLOQUE 2 (Nivel I, Ciclo II)
+                { id: 'GEN-IV', block: 2, name: 'Estudios Generales IV', cred: 3, reqs: [], coreqs: [], userSem: 2 }, // [cite: 15]
+                { id: 'LIX410', block: 2, name: 'Inglés Integrado I', cred: 4, reqs: [], coreqs: [], userSem: 2 }, // [cite: 15]
+                { id: 'QUX104', block: 2, name: 'Biorgánica', cred: 3, reqs: [], coreqs: [], userSem: 2 }, // [cite: 15]
+                { id: 'QUX104L', block: 2, name: 'Biorgánica Laboratorio', cred: 1, reqs: [], coreqs: [], userSem: 2 }, // [cite: 15]
+                { id: 'MAT001', block: 2, name: 'Matemática General', cred: 4, reqs: [], coreqs: [], userSem: 2 }, // [cite: 15]
+                { id: 'OPT-1', block: 2, name: 'Optativo libre', cred: 3, reqs: [], coreqs: [], userSem: 2 }, // [cite: 15]
+
+                // BLOQUE 3 (Nivel II, Ciclo I)
+                { id: 'LIX411', block: 3, name: 'Inglés Integrado II para otras carreras', cred: 4, reqs: [], coreqs: [], userSem: 3 }, // [cite: 15]
+                { id: 'QUY427', block: 3, name: 'Elementos de Bioquímica teoría', cred: 4, reqs: [], coreqs: [], userSem: 3 }, // [cite: 15]
+                { id: 'QUY427L', block: 3, name: 'Elementos de Bioquímica laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 3 }, // [cite: 15]
+                { id: 'MAT002', block: 3, name: 'Cálculo I', cred: 4, reqs: [], coreqs: [], userSem: 3 }, // [cite: 15]
+                { id: 'BIJ402', block: 3, name: 'Comunicación científica', cred: 2, reqs: [], coreqs: [], userSem: 3 }, // [cite: 15]
+                { id: 'BIJ401', block: 3, name: 'Zoología General I teoría', cred: 4, reqs: [], coreqs: [], userSem: 3 }, // [cite: 15]
+                { id: 'BIJ401L', block: 3, name: 'Zoología General I laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 3 }, // [cite: 15]
+
+                // BLOQUE 4 (Nivel II, Ciclo II)
+                { id: 'BIJ405', block: 4, name: 'Bioestadística I teoría', cred: 3, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'BIJ405P', block: 4, name: 'Bioestadística I práctica', cred: 0, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'BIJ403', block: 4, name: 'Zoología General II teoría', cred: 4, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'BIJ403L', block: 4, name: 'Zoología General II laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'FIY422', block: 4, name: 'Física para Biólogos', cred: 3, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'FIY422L', block: 4, name: 'Física para Biólogos Laboratorio', cred: 1, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'BIJ404', block: 4, name: 'Botánica General teoría', cred: 4, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'BIJ404L', block: 4, name: 'Botánica General laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'BIJ406', block: 4, name: 'Biología de los Microorganismos teoría', cred: 3, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+                { id: 'BIJ406L', block: 4, name: 'Biología de los Microorganismos laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 4 }, // [cite: 32]
+
+                // BLOQUE 5 (Nivel III, Ciclo I)
+                { id: 'BIJ407', block: 5, name: 'Bioestadística II teoría', cred: 3, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+                { id: 'BIJ407L', block: 5, name: 'Bioestadística II práctica', cred: 0, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+                { id: 'BIJ408', block: 5, name: 'Ecología General teoría', cred: 4, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+                { id: 'BIJ408L', block: 5, name: 'Ecología General laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+                { id: 'BIJ409', block: 5, name: 'Fisiología Vegetal teoría', cred: 4, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+                { id: 'BIJ409L', block: 5, name: 'Fisiología Vegetal laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+                { id: 'BIJ410', block: 5, name: 'Genética teoría', cred: 4, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+                { id: 'BIJ410L', block: 5, name: 'Genética laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+                { id: 'BIJ411', block: 5, name: 'Legislación Ambiental', cred: 3, reqs: [], coreqs: [], userSem: 5 }, // [cite: 32]
+
+                // BLOQUE 6 (Nivel III, Ciclo II)
+                { id: 'BIJ412', block: 6, name: 'Fisiología Animal', cred: 4, reqs: [], coreqs: [], userSem: 6 }, // [cite: 32]
+                { id: 'BIJ412L', block: 6, name: 'Fisiología Animal laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 6 }, // [cite: 32]
+                { id: 'BIJ413', block: 6, name: 'Evolución', cred: 3, reqs: [], coreqs: [], userSem: 6 }, // [cite: 49]
+                { id: 'BIJ414', block: 6, name: 'Biología Celular', cred: 3, reqs: [], coreqs: [], userSem: 6 }, // [cite: 49]
+                { id: 'BIJ450', block: 6, name: 'Biotecnología Ambiental teoría', cred: 3, reqs: [], coreqs: [], userSem: 6 }, // [cite: 49]
+                { id: 'BIJ450L', block: 6, name: 'Biotecnología Ambiental laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 6 }, // [cite: 49]
+                { id: 'BIJ451', block: 6, name: 'Técnicas de Biología Molecular teoría', cred: 4, reqs: [], coreqs: [], userSem: 6 }, // [cite: 49]
+                { id: 'BIJ451L', block: 6, name: 'Técnicas de Biología Molecular laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 6 }, // [cite: 49]
+
+                // BLOQUE 7 (Nivel IV, Ciclo I)
+                { id: 'BIJ452', block: 7, name: 'Inmunología y Técnicas Serológicas teoría', cred: 3, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+                { id: 'BIJ452L', block: 7, name: 'Inmunología y Técnicas Serológicas laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+                { id: 'BIJ453', block: 7, name: 'Técnicas de Cultivo de Tejidos Animales teoría', cred: 3, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+                { id: 'BIJ453L', block: 7, name: 'Técnicas de Cultivo de Tejidos Animales laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+                { id: 'BIJ454', block: 7, name: 'Técnicas de Cultivo de Tejidos Vegetales teoría', cred: 3, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+                { id: 'BIJ454L', block: 7, name: 'Técnicas de Cultivo de Tejidos Vegetales laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+                { id: 'OPT-IE1', block: 7, name: 'Optativo I Inter - énfasis', cred: 3, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+                { id: 'OPT-D1', block: 7, name: 'Optativo I Disciplinar', cred: 3, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+                { id: 'BIJ415', block: 7, name: 'Gestión de Empresas', cred: 3, reqs: [], coreqs: [], userSem: 7 }, // [cite: 49]
+
+                // BLOQUE 8 (Nivel IV, Ciclo II)
+                { id: 'BIJ455', block: 8, name: 'Bioinformática teoría', cred: 4, reqs: [], coreqs: [], userSem: 8 }, // [cite: 49]
+                { id: 'BIJ455P', block: 8, name: 'Bioinformática práctica', cred: 0, reqs: [], coreqs: [], userSem: 8 }, // [cite: 49]
+                { id: 'BIJ456', block: 8, name: 'Fisiología y Biotecnología de Microorganismos teoría', cred: 4, reqs: [], coreqs: [], userSem: 8 }, // [cite: 49]
+                { id: 'BIJ456L', block: 8, name: 'Fisiología y Biotecnología de Microorganismos laboratorio', cred: 0, reqs: [], coreqs: [], userSem: 8 }, // [cite: 66]
+                { id: 'BIJ416', block: 8, name: 'Práctica Profesional Supervisada', cred: 4, reqs: [], coreqs: [], userSem: 8 }, // [cite: 66]
+                { id: 'OPT-D2', block: 8, name: 'Optativo II Disciplinario', cred: 3, reqs: [], coreqs: [], userSem: 8 }, // [cite: 66]
+                { id: 'OPT-IE2', block: 8, name: 'Optativo II Inter - énfasis', cred: 3, reqs: [], coreqs: [], userSem: 8 } // [cite: 66]
+            ],
         };
 
         // Versión de cada malla curricular. Incrementar el número correspondiente
@@ -1766,4 +1855,6 @@ const careers_information = {
             forestal_manejoYproduccion: 1,
             forestal_conservacionYrestauracion: 1,
             seguridad: 1,
+
+            biotec_una: 1,
         };

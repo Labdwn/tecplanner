@@ -58,6 +58,8 @@ const MAJOR_TITLES = {
     forestal_manejoYproduccion:         'ING. FORESTAL · MANEJO',
     forestal_conservacionYrestauracion: 'ING. FORESTAL · CONSERVACIÓN',
     seguridad:                          'ING. SEGURIDAD LABORAL',
+
+    biotec_una: 'BIOTEC. (UNA)',
 };
 
 
@@ -116,7 +118,7 @@ function selectMajor(majorKey, titleText) {
     loadMajor(majorKey, titleText);
 
     if (!localStorage.getItem('TecPlanner_TutorialSeen')) {
-        openTutorial();
+        startTour();
     }
 }
 
@@ -2486,7 +2488,366 @@ ${warningHtml}
     setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
 
+// =============================================================================
+// 19. TOUR GUIADO INTERACTIVO (con acciones reales en cada paso)
+// =============================================================================
 
+let tourDynamicModal   = null; // referencia al modal dinámico abierto por el tour (simulador, horario)
+let tourHoverCourseId  = null; // curso resaltado con hover durante el tour
+
+function tourOpenProfileSheet() {
+    const s = document.getElementById('characterSheet');
+    if (s && !s.classList.contains('open')) toggleCharacterSheet();
+}
+function tourCloseProfileSheet() {
+    const s = document.getElementById('characterSheet');
+    if (s && s.classList.contains('open')) toggleCharacterSheet();
+}
+
+function tourFirstNode()   { return document.querySelector('.node'); }
+function tourFirstPeriod() {
+    const periods = [...new Set(coursesDB.map(c => parseFloat(c.userSem)).filter(n => !isNaN(n) && n >= 0))].sort((a, b) => a - b);
+    return periods.length ? periods[0] : null;
+}
+
+const TOUR_STEPS = [
+    {
+        target: null,
+        title: '👋 ¡Bienvenido a TecPlanner!',
+        text: 'Te voy a mostrar cada botón y, después, qué hace al usarlo. Salí cuando quieras con "Saltar" o Esc.<br><br>¿Preferís el manual en texto? <a href="#" onclick="event.preventDefault(); endTour(); openTutorial();" style="color:var(--filter-selected); font-weight:700;">Verlo acá</a>',
+        placement: 'center'
+    },
+
+    // --- BUSCAR ---
+    { target: () => document.getElementById('searchBox'), title: '🔍 Buscar cursos', text: 'Este es el buscador. Escribí un código o nombre y filtra en vivo.', placement: 'bottom' },
+    {
+        target: () => document.getElementById('searchBox'),
+        title: '🔍 Así funciona',
+        text: 'Escribí <strong>"física"</strong> y mirá cómo se resaltan los cursos que coinciden.',
+        placement: 'bottom',
+        onEnter: () => { const b = document.getElementById('searchBox'); if (b) { b.value = 'física'; searchCourse('física'); b.focus(); } },
+        onExit:  () => { const b = document.getElementById('searchBox'); if (b) { b.value = ''; searchCourse(''); } }
+    },
+
+    // --- ABRIR CURSO ---
+    {
+        target: () => tourFirstNode(),
+        title: '📚 Tu malla curricular',
+        text: 'Cada tarjeta es un curso. Hacé clic en cualquiera para ver esto:',
+        placement: 'right',
+        onEnter: () => tourFirstNode()?.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' })
+    },
+    {
+        target: () => document.getElementById('courseModal').style.display === 'flex' ? document.querySelector('#courseModal .modal-content') : null,
+        title: '📚 Así se ve',
+        text: 'Asigná semestre, nota, profesor, grupo y horario. <em>No hace falta que guardes nada, es solo demostración.</em>',
+        placement: 'right',
+        onEnter: () => { const n = tourFirstNode(); if (n) { const c = coursesDB.find(x => x.id === n.id); if (c) openModal(c); } },
+        onExit:  () => closeModal()
+    },
+
+    // --- RELACIONES (hover) ---
+    { target: () => tourFirstNode(), title: '🖱️ Relaciones entre cursos', text: 'Pasá el mouse (sin clic) sobre un curso para ver sus conexiones.', placement: 'right' },
+    {
+        target: () => document.querySelector('.node.highlight-main') || tourFirstNode(),
+        title: '🖱️ Así se ve',
+        text: '<strong style="color:#ff0066">Rojo</strong> = requisitos, <strong style="color:#ffdd00">amarillo</strong> = correquisitos, <strong style="color:#00ff88">verde</strong> = lo que desbloquea.',
+        placement: 'right',
+        onEnter: () => { const n = tourFirstNode(); if (n) { tourHoverCourseId = n.id; handleHover(n.id, true); } },
+        onExit:  () => { if (tourHoverCourseId) { handleHover(tourHoverCourseId, false); tourHoverCourseId = null; } }
+    },
+
+    // --- FILTRO SEMESTRE ---
+    { target: () => document.getElementById('userSemestersBtn'), title: '📅 Filtrar por semestre', text: 'Estos botones aparecen según los semestres que planifiques. Fijate en el primero:', placement: 'bottom' },
+    {
+        target: () => { const p = tourFirstPeriod(); return p !== null ? document.getElementById(`btnS${p.toString().replace('.', '_')}`) : null; },
+        title: '📅 Así filtra',
+        text: 'Se resalta ese semestre, y en verde punteado lo que ya podrías llevar.',
+        placement: 'bottom',
+        onEnter: () => { const p = tourFirstPeriod(); if (p !== null) filterByUserSemester(p); },
+        onExit:  () => filterByUserSemester(null)
+    },
+
+    // --- EDICIÓN RÁPIDA ---
+    { target: () => document.querySelector('.quick-actions'), title: '⚡ Edición rápida', text: 'Estos botones activan un modo de marcado rápido.', placement: 'bottom' },
+    {
+        target: () => document.querySelector('.quick-actions'),
+        title: '⚡ Así funciona',
+        text: 'Con <strong style="color:#a855f7">CURSANDO</strong> activado, un clic en cualquier curso lo marca (o desmarca) sin abrir el modal.',
+        placement: 'bottom',
+        onEnter: () => { if (editMode !== 'cursando') toggleEditMode('cursando'); },
+        onExit:  () => { if (editMode === 'cursando') toggleEditMode('cursando'); }
+    },
+
+    // --- NOTAS MASIVAS ---
+    { target: () => document.getElementById('btnNotas'), title: '📝 Carga masiva de notas', text: 'Este botón abre la carga de notas para todos tus cursos "Cursando" a la vez.', placement: 'bottom' },
+    {
+        target: () => document.getElementById('bulkGradesModal').style.display === 'flex' ? document.querySelector('#bulkGradesModal .modal-content') : null,
+        title: '📝 Así se ve',
+        text: 'Ingresás todas las notas de una sola vez, sin abrir cada curso.',
+        placement: 'bottom',
+        onEnter: () => openBulkGrades(),
+        onExit:  () => closeBulkGrades()
+    },
+
+    // --- CRÉDITOS (sin acción, solo lectura) ---
+    { target: () => document.getElementById('statsPanel'), title: '📊 Tus créditos', text: 'Comparás tus créditos contra el total oficial (de la carrera, o del semestre filtrado).', placement: 'bottom' },
+
+    // --- SIMULADOR ---
+    { target: () => document.getElementById('btnSimular'), title: '🎓 Simulador de graduación', text: 'Este botón estima en cuántos semestres te graduás según tu plan actual.', placement: 'bottom' },
+    {
+        target: () => tourDynamicModal ? tourDynamicModal.querySelector('.modal-content') : null,
+        title: '🎓 Así se ve',
+        text: 'Te muestra semestres estimados y qué cursos llevás adelantado o atrasado.',
+        placement: 'right',
+        onEnter: () => { openGraduationSimulator(); tourDynamicModal = document.body.lastElementChild; },
+        onExit:  () => { tourDynamicModal?.remove(); tourDynamicModal = null; }
+    },
+
+    // --- VISTA LISTA ---
+    { target: () => document.getElementById('btnViewMode'), title: '📋 Vista de lista', text: 'Este botón cambia el árbol visual por una tabla filtrable.', placement: 'bottom' },
+    {
+        target: () => document.getElementById('listView'),
+        title: '📋 Así se ve',
+        text: 'Podés filtrar por semestre, estado, o buscar directamente en la tabla.',
+        placement: 'top',
+        onEnter: () => { if (viewMode === 'tree') toggleViewMode(); },
+        onExit:  () => { if (viewMode === 'list') toggleViewMode(); }
+    },
+
+    // --- HORARIO ---
+    { target: () => document.getElementById('btnHorario'), title: '📅 Generar horario', text: 'Este botón arma un horario semanal con los bloques que le pusiste a tus cursos.', placement: 'bottom' },
+    {
+        target: () => tourDynamicModal ? tourDynamicModal.querySelector('.modal-content') : null,
+        title: '📅 Así se ve',
+        text: 'Elegís un semestre y se genera un horario listo para imprimir.',
+        placement: 'right',
+        onEnter: () => { if (coursesDB.some(c => !isNaN(parseFloat(c.userSem)) && parseFloat(c.userSem) > 0)) { openScheduleModal(); tourDynamicModal = document.body.lastElementChild; } },
+        onExit:  () => { tourDynamicModal?.remove(); tourDynamicModal = null; }
+    },
+
+    // --- EXCEL / GUARDAR (solo señalar, no auto-descargar) ---
+    {
+        target: () => document.getElementById('btnExcel'), title: '📊 Exportar a Excel',
+        text: 'Descarga tu plan en .xls. Pruébralo cuando quieras.',
+        placement: 'bottom',
+        onEnter: () => document.getElementById('btnExcel')?.classList.add('tour-pulse'),
+        onExit:  () => document.getElementById('btnExcel')?.classList.remove('tour-pulse')
+    },
+    {
+        target: () => document.getElementById('btnGuardar'), title: '💾 Guardar y cargar',
+        text: 'Exportá un respaldo .json de tu progreso, o cargalo de vuelta con "Cargar" al lado.',
+        placement: 'bottom',
+        onEnter: () => document.getElementById('btnGuardar')?.classList.add('tour-pulse'),
+        onExit:  () => document.getElementById('btnGuardar')?.classList.remove('tour-pulse')
+    },
+
+    // --- PERFIL ACADÉMICO ---
+    { target: () => document.getElementById('btnProfileToggle'), title: '👤 Perfil académico', text: 'Este botón abre tu panel de perfil académico.', placement: 'bottom' },
+    {
+        target: () => document.getElementById('characterSheet'),
+        title: '👤 Así se ve',
+        text: 'Tu promedio ponderado, progreso total e historial de cursos.',
+        placement: 'left',
+        onEnter: () => tourOpenProfileSheet()
+    },
+
+    // --- PONDERADO ---
+    { target: () => document.getElementById('pondGeneral'), title: '⚖️ Promedio ponderado', text: 'Hacé clic en este número para ver el desglose completo.', placement: 'left' },
+    {
+        target: () => document.getElementById('pondModal').classList.contains('open') ? document.querySelector('#pondModal .pond-modal') : null,
+        title: '⚖️ Así se ve',
+        text: 'El peso de cada curso dentro de su semestre, y su aporte a tu nota final.',
+        placement: 'left',
+        onEnter: () => { tourOpenProfileSheet(); openPondModal(); },
+        onExit:  () => closePondModal()
+    },
+
+    // --- QUEST LOG ---
+    { target: () => document.querySelector('.quest-log-tabs'), title: '📜 Quest Log', text: 'Estas pestañas alternan entre tu plan y el plan oficial del TEC.', placement: 'left' },
+    {
+        target: () => document.getElementById('questLogContainer'),
+        title: '📜 Así se ve',
+        text: 'Tu historial de cursos, agrupado por semestre.',
+        placement: 'left',
+        onExit: () => tourCloseProfileSheet()
+    },
+
+    // --- REINICIAR (solo señalar) ---
+    {
+        target: () => document.getElementById('btnReiniciar'), title: '⟲ Reiniciar todo',
+        text: 'Borra todo tu progreso de este navegador. Pide confirmación porque es irreversible.',
+        placement: 'bottom',
+        onEnter: () => document.getElementById('btnReiniciar')?.classList.add('tour-pulse'),
+        onExit:  () => document.getElementById('btnReiniciar')?.classList.remove('tour-pulse')
+    },
+
+    {
+        target: null,
+        title: '🎉 ¡Listo!',
+        text: 'Ya conocés cada botón y lo que hace. Repetí el recorrido cuando quieras desde <strong>MANUAL</strong>.',
+        placement: 'center'
+    }
+];
+
+let tourIndex = -1;
+
+function startTour() {
+    document.getElementById('tutorialModal').style.display = 'none';
+    tourIndex = -1;
+    buildTourDOM();
+    nextTourStep();
+    document.addEventListener('keydown', tourKeyHandler);
+}
+
+function buildTourDOM() {
+    if (document.getElementById('tourOverlay')) return;
+    const wrap = document.createElement('div');
+    wrap.id = 'tourOverlay';
+    wrap.innerHTML = `
+        <div class="tour-frame" id="tourFrameTop"></div>
+        <div class="tour-frame" id="tourFrameBottom"></div>
+        <div class="tour-frame" id="tourFrameLeft"></div>
+        <div class="tour-frame" id="tourFrameRight"></div>
+        <div class="tour-spot" id="tourSpot"></div>
+        <div class="tour-tooltip" id="tourTooltip">
+            <div class="tour-tt-title" id="tourTitle"></div>
+            <div class="tour-tt-text" id="tourText"></div>
+            <div class="tour-tt-footer">
+                <div class="tour-dots" id="tourDots"></div>
+                <div class="tour-tt-btns">
+                    <button class="tour-btn tour-btn-skip" onclick="endTour()">Saltar</button>
+                    <button class="tour-btn tour-btn-back" id="tourBackBtn" onclick="prevTourStep()">← Atrás</button>
+                    <button class="tour-btn tour-btn-next" id="tourNextBtn" onclick="nextTourStep()">Siguiente →</button>
+                </div>
+            </div>
+        </div>`;
+    document.body.appendChild(wrap);
+}
+
+function tourKeyHandler(e) {
+    if (e.key === 'Escape')    endTour();
+    if (e.key === 'ArrowRight') nextTourStep();
+    if (e.key === 'ArrowLeft')  prevTourStep();
+}
+
+function currentTourStep() { return TOUR_STEPS[tourIndex]; }
+
+function nextTourStep() {
+    const prevStep = TOUR_STEPS[tourIndex];
+    if (prevStep && prevStep.onExit) prevStep.onExit();
+    tourIndex++;
+    if (tourIndex >= TOUR_STEPS.length) { endTour(); return; }
+    advanceToStep();
+}
+
+function prevTourStep() {
+    const prevStep = TOUR_STEPS[tourIndex];
+    if (prevStep && prevStep.onExit) prevStep.onExit();
+    tourIndex--;
+    if (tourIndex < 0) { endTour(); return; }
+    advanceToStep();
+}
+
+// Ejecuta la acción real del paso (onEnter) y RECIÉN DESPUÉS busca el elemento
+// a resaltar — así el target puede ser algo que la propia acción acaba de crear
+// (un modal, un panel abierto, etc.)
+function advanceToStep() {
+    const step = TOUR_STEPS[tourIndex];
+    if (step.onEnter) step.onEnter();
+
+    const el = step.target ? step.target() : null;
+    if (step.target && !el) { nextTourStep(); return; } // nada que mostrar: saltar
+
+    setTimeout(() => renderTourStep(el), el ? 300 : 0);
+}
+
+function renderTourStep(el) {
+    const step = currentTourStep();
+    document.getElementById('tourTitle').innerHTML = step.title;
+    document.getElementById('tourText').innerHTML  = step.text;
+    document.getElementById('tourBackBtn').style.visibility = tourIndex === 0 ? 'hidden' : 'visible';
+    document.getElementById('tourNextBtn').textContent = tourIndex === TOUR_STEPS.length - 1 ? '¡Entendido! ✓' : 'Siguiente →';
+
+    document.getElementById('tourDots').innerHTML = TOUR_STEPS.map((_, i) =>
+        `<span class="tour-dot ${i === tourIndex ? 'active' : ''}"></span>`).join('');
+
+    positionTour(el, step.placement || 'bottom');
+}
+
+function positionTour(el, placement) {
+    const spot    = document.getElementById('tourSpot');
+    const tooltip = document.getElementById('tourTooltip');
+    const top     = document.getElementById('tourFrameTop');
+    const bottom  = document.getElementById('tourFrameBottom');
+    const left    = document.getElementById('tourFrameLeft');
+    const right   = document.getElementById('tourFrameRight');
+
+    if (!el) {
+        spot.style.display = 'none';
+        top.style.cssText    = 'top:0; left:0; width:100%; height:100%;';
+        bottom.style.cssText = 'display:none;';
+        left.style.cssText   = 'display:none;';
+        right.style.cssText  = 'display:none;';
+        tooltip.style.top       = '50%';
+        tooltip.style.left      = '50%';
+        tooltip.style.transform = 'translate(-50%, -50%)';
+        return;
+    }
+
+    const r   = el.getBoundingClientRect();
+    const pad = 8;
+
+    spot.style.display = 'block';
+    spot.style.top     = `${r.top - pad}px`;
+    spot.style.left    = `${r.left - pad}px`;
+    spot.style.width   = `${r.width + pad * 2}px`;
+    spot.style.height  = `${r.height + pad * 2}px`;
+
+    top.style.cssText    = `top:0; left:0; width:100%; height:${r.top - pad}px;`;
+    bottom.style.cssText = `top:${r.bottom + pad}px; left:0; width:100%; height:calc(100% - ${r.bottom + pad}px);`;
+    left.style.cssText   = `top:${r.top - pad}px; left:0; width:${r.left - pad}px; height:${r.height + pad * 2}px;`;
+    right.style.cssText  = `top:${r.top - pad}px; left:${r.right + pad}px; width:calc(100% - ${r.right + pad}px); height:${r.height + pad * 2}px;`;
+
+    tooltip.style.transform = 'none';
+    const ttRect = tooltip.getBoundingClientRect();
+    let ttTop, ttLeft;
+
+    if (placement === 'right' && r.right + 20 + ttRect.width < window.innerWidth) {
+        ttTop = r.top; ttLeft = r.right + 20;
+    } else if (placement === 'left' && r.left - 20 - ttRect.width > 0) {
+        ttTop = r.top; ttLeft = r.left - 20 - ttRect.width;
+    } else if (placement === 'bottom' && r.bottom + 20 + ttRect.height < window.innerHeight) {
+        ttTop = r.bottom + 20; ttLeft = Math.min(Math.max(r.left, 10), window.innerWidth - ttRect.width - 10);
+    } else if (r.top - 20 - ttRect.height > 0) {
+        ttTop = r.top - 20 - ttRect.height; ttLeft = Math.min(Math.max(r.left, 10), window.innerWidth - ttRect.width - 10);
+    } else {
+        ttTop = r.bottom + 20; ttLeft = Math.min(Math.max(r.left, 10), window.innerWidth - ttRect.width - 10);
+    }
+    ttTop = Math.min(Math.max(ttTop, 10), window.innerHeight - ttRect.height - 10);
+
+    tooltip.style.top  = `${ttTop}px`;
+    tooltip.style.left = `${ttLeft}px`;
+}
+
+function endTour() {
+    const step = currentTourStep();
+    if (step && step.onExit) step.onExit();
+    tourDynamicModal?.remove();
+    tourDynamicModal = null;
+    document.getElementById('tourOverlay')?.remove();
+    document.removeEventListener('keydown', tourKeyHandler);
+    tourIndex = -1;
+    localStorage.setItem('TecPlanner_TutorialSeen', 'true');
+}
+
+window.addEventListener('resize', () => {
+    if (tourIndex >= 0) {
+        const step = currentTourStep();
+        const el   = step && step.target ? step.target() : null;
+        positionTour(el, step ? step.placement : 'bottom');
+    }
+});
 
 // =============================================================================
 // INICIALIZACIÓN
@@ -2498,7 +2859,156 @@ document.addEventListener('click', (e) => {
     const toggleBtn = document.getElementById('btnProfileToggle');
     if (!sheet || !sheet.classList.contains('open')) return;
     if (sheet.contains(e.target) || (toggleBtn && toggleBtn.contains(e.target))) return;
+    if (e.target.closest('#tourOverlay')) return; 
     sheet.classList.remove('open');
 });
 
-bootSystem();
+// ===== Easter Egg: Biotecnología UNA =====
+let titleTapCount = 0;
+let titleTapTimer = null;
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const title = document.getElementById("secretTitle");
+    if (!title) return;
+
+    title.addEventListener("click", () => {
+
+        titleTapCount++;
+
+        clearTimeout(titleTapTimer);
+
+        titleTapTimer = setTimeout(() => {
+            titleTapCount = 0;
+        }, 1500);
+
+        if (titleTapCount === 3) {
+
+            titleTapCount = 0;
+
+            const card = document.querySelector(
+                '.major-card[data-career="biotec_una"]'
+            );
+
+            if (card) {
+                card.style.display = "block";
+                card.click();
+            }
+
+        }
+
+    });
+
+});
+
+// =============================================================================
+// 20. HOME / INDEX + MODO ACTIVO PERSISTENTE
+// =============================================================================
+
+// Editar esta lista para publicar novedades. `id` debe ser único y estable.
+const NEWS_ITEMS = [
+    { id: 'horarios-launch', date: '2026-07-11', title: '📅 Nuevo: Generador de Horarios',
+      text: 'Ahora podés armar tu horario semanal con datos reales del TEC y detección de choques en vivo.' },
+];
+
+function getRecommendations() {
+    const recos = [];
+    if (!localStorage.getItem('TecPlanner_ActiveMajor')) {
+        recos.push({ title: '🎓 Elegí tu carrera', text: 'Seleccioná tu plan de estudios para empezar a planificar.', action: () => switchAppMode('arbol') });
+    }
+    if (!localStorage.getItem('TecPlanner_TutorialSeen')) {
+        recos.push({ title: '📖 Hacé el tour guiado', text: 'Conocé todas las funciones de TecPlanner en 2 minutos.', action: () => { switchAppMode('arbol'); setTimeout(startTour, 300); } });
+    }
+    return recos;
+}
+
+function renderIndexView() {
+    const newsList = document.getElementById('indexNewsList');
+    newsList.innerHTML = NEWS_ITEMS.slice().reverse().map(n => `
+        <div style="background:#18181b; border:1px solid #333; border-radius:8px; padding:14px 16px;">
+            <div style="font-weight:700; color:#fff; font-size:0.95rem;">${n.title}</div>
+            <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">${n.text}</div>
+            <div style="color:#555; font-size:0.7rem; margin-top:6px;">${n.date}</div>
+        </div>`).join('') || `<div style="color:#555; font-size:0.85rem;">Sin novedades por ahora.</div>`;
+
+    const recos = getRecommendations();
+    const recosList = document.getElementById('indexRecosList');
+    recosList.innerHTML = recos.map((r, i) => `
+        <div onclick="getRecommendations()[${i}].action()" style="cursor:pointer; background:#18181b; border:1px solid #333;
+             border-left:4px solid #10b981; border-radius:8px; padding:14px 16px;">
+            <div style="font-weight:700; color:#fff; font-size:0.95rem;">${r.title}</div>
+            <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">${r.text}</div>
+        </div>`).join('') || `<div style="color:#555; font-size:0.85rem;">Estás al día.</div>`;
+
+    // marcar novedades como vistas
+    const latest = NEWS_ITEMS.length ? NEWS_ITEMS[NEWS_ITEMS.length - 1].id : null;
+    if (latest) localStorage.setItem('TecPlanner_LastSeenNews', latest);
+    updateNotifDot();
+}
+
+function updateNotifDot() {
+    const dot = document.getElementById('modeNotifDot');
+    if (!dot) return;
+    const lastSeen = localStorage.getItem('TecPlanner_LastSeenNews');
+    const latest = NEWS_ITEMS.length ? NEWS_ITEMS[NEWS_ITEMS.length - 1].id : null;
+    dot.style.display = (latest && latest !== lastSeen) ? 'block' : 'none';
+}
+
+function toggleModeMenu() {
+    const menu = document.getElementById('modeMenu');
+    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+}
+document.addEventListener('click', (e) => {
+    if (!document.getElementById('modeSwitcher').contains(e.target)) {
+        document.getElementById('modeMenu').style.display = 'none';
+    }
+});
+
+function switchAppMode(mode) {
+    document.getElementById('modeMenu').style.display = 'none';
+    localStorage.setItem('TecPlanner_LastMode', mode);
+
+    const sections = {
+        index:    [document.getElementById('indexView')],
+        arbol:    [document.querySelector('.hud-panel'), document.querySelector('.game-area')],
+        horarios: [document.getElementById('horariosView')],
+    };
+
+    Object.entries(sections).forEach(([key, els]) => {
+        els.forEach(el => el && (el.style.display = key === mode ? '' : 'none'));
+    });
+    // .hud-panel usa flex, no bloque vacío
+    if (mode === 'arbol') {
+        const hud = document.querySelector('.hud-panel');
+        if (hud) hud.style.display = 'flex';
+
+        const gameArea = document.querySelector('.game-area');
+        const listView = document.getElementById('listView');
+        if (viewMode === 'list') {
+            gameArea.style.display = 'none';
+            listView.style.display = 'block';
+        } else {
+            gameArea.style.display = 'block';
+            listView.style.display = 'none';
+        }
+    }
+
+    if (mode === 'index') renderIndexView();
+    if (mode === 'horarios' && typeof initHorarios === 'function') initHorarios();
+}
+
+// Al cargar: restaurar el modo donde el usuario se quedó (default: index)
+document.addEventListener('DOMContentLoaded', () => {
+    updateNotifDot();
+
+    const hasMajor = localStorage.getItem('TecPlanner_ActiveMajor');
+    if (!hasMajor) {
+        // Sin carrera aún: dejar que bootSystem() muestre el selector (como siempre)
+        bootSystem();
+        return;
+    }
+
+    bootSystem(); // carga coursesDB en memoria aunque el usuario no esté en 'arbol'
+    const lastMode = localStorage.getItem('TecPlanner_LastMode') || 'index';
+    switchAppMode(lastMode);
+});
