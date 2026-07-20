@@ -1,0 +1,124 @@
+{
+  "codigoEscuela": "CI",
+  "nombreEscuela": "ESCUELA DE CIENCIAS DEL LENGUAJE",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "CI1230",
+      "nombre": "Inglés I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MOLINA VILLALOBOS TANIA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI0202",
+      "nombre": "Inglés básico",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MURILLO ESCALANTE ROCIO",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-20:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MURILLO ESCALANTE ROCIO",
+          "modalidad": "Regular",
+          "horario": "MIE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1106",
+      "nombre": "Comunicación escrita",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 42,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 41,
+          "profesor": "SANCHEZ SANCHEZ DANIELA",
+          "modalidad": "Regular",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 43,
+          "profesor": "VARGAS AMADOR TANIA",
+          "modalidad": "Regular",
+          "horario": "VIE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1107",
+      "nombre": "Comunicación oral",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1306",
+      "nombre": "Inglés II para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "RAMIREZ CASTRO MONSERRAT",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-21:05] SAB[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

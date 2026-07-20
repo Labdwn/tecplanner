@@ -1,0 +1,33 @@
+{
+  "codigoEscuela": "FI",
+  "nombreEscuela": "ESCUELA DE FISICA",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "FI1503",
+      "nombre": "Fundamentos de física para arquitectura",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 42,
+          "profesor": "MURILLO QUIROS NATALIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": "J01",
+          "aula": "401"
+        },
+        {
+          "grupo": 41,
+          "profesor": "SOTO CHINCHILLA YERRY",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": "J01",
+          "aula": "402"
+        }
+      ]
+    }
+  ]
+}

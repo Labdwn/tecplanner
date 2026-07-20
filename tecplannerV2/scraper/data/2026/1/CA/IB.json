@@ -1,0 +1,469 @@
+{
+  "codigoEscuela": "IB",
+  "nombreEscuela": "INGENIERIA EN BIOTECNOLOGIA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "IB4814",
+      "nombre": "Virología molecular de plantas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVARADO MARCHENA LUIS FERNANDO",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB3202",
+      "nombre": "Cultivos de tejidos I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVARADO ULLOA CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB3101",
+      "nombre": "Seminario taller de formulación, evaluación y gestación de proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BARBOZA FALLAS LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB4804",
+      "nombre": "Bioinformática para biotecnología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BARBOZA FALLAS LUIS",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50] JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB3203",
+      "nombre": "Laboratorio de cultivo de tejidos I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "BARRIENTOS ALFARO FRANK CARLOS",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[13:00-16:50] VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "BRENES MADRIZ  JAIME",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "BRENES MADRIZ  JAIME",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SALAS ARIAS KARLA MELISSA",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "SALAS ARIAS KARLA MELISSA",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB3802",
+      "nombre": "Manejo biotecnológico de cultivos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES MADRIZ  JAIME",
+          "modalidad": "Regular",
+          "horario": "VIE[08:30-11:20] VIE[08:30-11:20] VIE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB2304",
+      "nombre": "Genética",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CALVO CASTRO LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50] MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB4807",
+      "nombre": "Fundamentos del cultivo de células animales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CASTRO PIEDRA SILVIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[09:30-12:20] LUN[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB4813",
+      "nombre": "Fundamentos de fisiología humana",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CASTRO PIEDRA SILVIA",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB1601",
+      "nombre": "Introducción a la biotecnología",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CENTENO CERDAS CAROLINA",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "GARRO MONGE GEOVANNY",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB2205",
+      "nombre": "Fisiología vegetal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHACON CERDAS RANDALL",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-11:20] LUN[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB2211",
+      "nombre": "Laboratorio de fisiología vegetal",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHACON CERDAS RANDALL",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SOLERA STELLER PAOLA MARIA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOTO MONTERO SILVIA VANESSA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB4803",
+      "nombre": "Tratamiento biotecnológico de aguas residuales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "CHICAS ROMERO MAURICIO",
+          "modalidad": "Regular",
+          "horario": "JUE[16:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MENESES MONTERO KARLA",
+          "modalidad": "Regular",
+          "horario": "JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MENESES MONTERO KARLA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB4001",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 10,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARRO MONGE GEOVANNY",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB2302",
+      "nombre": "Laboratorio de genética",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "HERNANDEZ CARVAJAL ERICK",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "JARQUIN CORDERO MONSERRAT",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "VALERIN BERROCAL KARLA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB2503",
+      "nombre": "Biotecnología y genética humana",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ CARVAJAL ERICK",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB2106",
+      "nombre": "Laboratorio de microbiología aplicada",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "MONTERO CAMPOS VIRGINIA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MONTERO CAMPOS VIRGINIA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[16:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "RIVAS SOLANO OLGA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "ROJAS CHAVES MIGUEL",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[16:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB2105",
+      "nombre": "Microbiología aplicada",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIVAS SOLANO OLGA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB4809",
+      "nombre": "Procesos biotecnológicos con el empleo de hongos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIVERA MENDEZ WILLIAM EDUARDO",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB3204",
+      "nombre": "Ingeniería bioquímica",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROSALES LOPEZ CATALINA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ROSALES LOPEZ CATALINA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50] MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "ROSALES LOPEZ CATALINA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50] MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IB4505",
+      "nombre": "Sistemas biotecnológicos de producción",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SCHMIDT DURAN ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SCHMIDT DURAN ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SCHMIDT DURAN ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

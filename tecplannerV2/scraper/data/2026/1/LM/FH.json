@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "FH0085",
+      "nombre": "El ser humano y la masculinidad",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "FUENTES MORA ESTEBAN",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0271",
+      "nombre": "De monstruos y vampiros: el horror gótico en Frankenstein y Drácula en la época victoriana",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GUILLEN JIMENEZ LUIS DIEGO",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

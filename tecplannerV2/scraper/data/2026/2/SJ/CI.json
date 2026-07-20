@@ -1,0 +1,140 @@
+{
+  "codigoEscuela": "CI",
+  "nombreEscuela": "ESCUELA DE CIENCIAS DEL LENGUAJE",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CI1230",
+      "nombre": "Inglés I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MOLINA VILLALOBOS TANIA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "J06",
+          "aula": "102"
+        }
+      ]
+    },
+    {
+      "codigo": "CI0202",
+      "nombre": "Inglés básico",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MURILLO ESCALANTE ROCIO",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-20:15]",
+          "edificio": "J06",
+          "aula": "101"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MURILLO ESCALANTE ROCIO",
+          "modalidad": "Regular",
+          "horario": "MIE[08:30-11:20]",
+          "edificio": "J06",
+          "aula": "102"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1106",
+      "nombre": "Comunicación escrita",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "J06",
+          "aula": "101"
+        },
+        {
+          "grupo": 41,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "VIE[17:30-20:15]",
+          "edificio": "J06",
+          "aula": "101"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1107",
+      "nombre": "Comunicación oral",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-20:15]",
+          "edificio": "J06",
+          "aula": "101"
+        },
+        {
+          "grupo": 42,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "VIE[08:30-11:20]",
+          "edificio": "J06",
+          "aula": "102"
+        },
+        {
+          "grupo": 43,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "J06",
+          "aula": "101"
+        },
+        {
+          "grupo": 44,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "J06",
+          "aula": "102"
+        },
+        {
+          "grupo": 40,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": "J06",
+          "aula": "101"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1305",
+      "nombre": "Inglés I para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "RAMIREZ CASTRO MONSERRAT",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-21:05] SAB[15:00-16:50]",
+          "edificio": "J06",
+          "aula": "102"
+        }
+      ]
+    }
+  ]
+}

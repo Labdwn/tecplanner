@@ -1,0 +1,356 @@
+{
+  "codigoEscuela": "E",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN ELECTRONICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "EL5856",
+      "nombre": "Taller de circuitos electrónicos para sistemas energéticos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CARDINALE VILLALOBOS LEONARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[16:10-19:45]",
+          "edificio": "E",
+          "aula": "108"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4513",
+      "nombre": "Teoría electromagnética I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CARRERA RETANA LUIS ERNESTO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-19:45] VIE[16:10-17:55]",
+          "edificio": "E",
+          "aula": "106"
+        }
+      ]
+    },
+    {
+      "codigo": "EL1200",
+      "nombre": "Introducción a la electrónica",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-09:40]",
+          "edificio": "E",
+          "aula": "105"
+        },
+        {
+          "grupo": 51,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-09:40]",
+          "edificio": "A",
+          "aula": "9"
+        },
+        {
+          "grupo": 52,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-08:45]",
+          "edificio": "A",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2111",
+      "nombre": "Laboratorio de circuitos eléctricos",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-09:40]",
+          "edificio": "LE",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2207",
+      "nombre": "Elementos activos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": "A",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5610",
+      "nombre": "Taller integrador",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[16:10-19:45]",
+          "edificio": "E",
+          "aula": "109"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5609",
+      "nombre": "Formulación de proyectos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "FERNANDEZ RODRIGUEZ JOSE MIGUEL",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-19:45] JUE[18:00-19:45]",
+          "edificio": "E",
+          "aula": "209"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2114",
+      "nombre": "Circuitos eléctricos en corriente alterna",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "LUN[16:10-17:55] MAR[13:25-15:10]",
+          "edificio": "E",
+          "aula": "209"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4514",
+      "nombre": "Teoría electromagnética II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "JUE[09:45-11:30] VIE[07:00-08:45]",
+          "edificio": "A",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5513",
+      "nombre": "Comunicaciones eléctricas I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-09:40] VIE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5521",
+      "nombre": "Comunicaciones eléctricas II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:10-17:55] JUE[16:10-17:55]",
+          "edificio": "E",
+          "aula": "209"
+        }
+      ]
+    },
+    {
+      "codigo": "EL3307",
+      "nombre": "Diseño lógico",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LEON VEGA LUIS GERARDO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[07:00-08:45] VIE[07:00-08:45]",
+          "edificio": "E",
+          "aula": "105"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5859",
+      "nombre": "Introducción a la computación heterogénea",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LEON VEGA LUIS GERARDO",
+          "modalidad": "Virtual",
+          "horario": "VIE[16:10-19:45] VIE[16:10-19:45]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL3310",
+      "nombre": "Diseño de sistemas digitales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO ERNESTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:10-17:55] MIE[14:20-16:05]",
+          "edificio": "E",
+          "aula": "105"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4314",
+      "nombre": "Arquitectura de computadoras I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO ERNESTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:45-11:30] MIE[09:45-11:30]",
+          "edificio": "E",
+          "aula": "105"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5522",
+      "nombre": "Taller de comunicaciones eléctricas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO ERNESTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": "E",
+          "aula": "108"
+        }
+      ]
+    },
+    {
+      "codigo": "EL3216",
+      "nombre": "Circuitos integrados analógicos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO JAVIER",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-14:15]",
+          "edificio": "A",
+          "aula": "11"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4703",
+      "nombre": "Señales y sistemas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO JAVIER",
+          "modalidad": "Regular",
+          "horario": "MIE[17:05-20:40]",
+          "edificio": "E",
+          "aula": "209"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2110",
+      "nombre": "Laboratorio de mediciones eléctricas",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
+          "modalidad": "Regular",
+          "horario": "VIE[12:30-14:15]",
+          "edificio": "LE",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2113",
+      "nombre": "Circuitos eléctricos en corriente continua",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
+          "modalidad": "Regular",
+          "horario": "MIE[16:10-17:55] VIE[07:55-09:40]",
+          "edificio": "E",
+          "aula": "105"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5409",
+      "nombre": "Laboratorio de control automático",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "E",
+          "aula": "109"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4702",
+      "nombre": "Probabilidad y estadística",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS RODRIGUEZ DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "E",
+          "aula": "209"
+        }
+      ]
+    }
+  ]
+}

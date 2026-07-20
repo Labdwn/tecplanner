@@ -1,0 +1,839 @@
+{
+  "codigoEscuela": "CA",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTACION",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "IC8071",
+      "nombre": "Seguridad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVAREZ FIGUEROA ADRIANA",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ESQUIVEL VARGAS HERSON",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CA3125",
+      "nombre": "Análisis y diseño de algoritmos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARCE OROZCO ARMANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "GARRO ABARCA VICTOR",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "GARRO ABARCA VICTOR",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "VILLALOBOS ARIAS LUIS ROBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6600",
+      "nombre": "Principios de sistemas operativos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ARCE OROZCO ARMANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MARIN SCHUMANN ERIKA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8056",
+      "nombre": "Visualización de información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARCE OROZCO ARMANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC1400",
+      "nombre": "Fundamentos de organización de computadoras",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS MENDEZ ESTEBAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "BENAVIDES CESPEDES CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "GATJENS SOTO KIRSTEIN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "GATJENS SOTO KIRSTEIN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "VARGAS CALVO JORGE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC3101",
+      "nombre": "Arquitectura de computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BENAVIDES CESPEDES CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "GATJENS SOTO KIRSTEIN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "VARGAS CALVO JORGE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC7602",
+      "nombre": "Redes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BENAVIDES CESPEDES CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[09:30-11:20] MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CAMPOS ARAYA GERARDO NEREO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[19:00-20:50] VIE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CA2125",
+      "nombre": "Elementos de computación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 4,
+          "profesor": "BOGARIN NAVARRO RODRIGO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "BOGARIN NAVARRO RODRIGO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 9,
+          "profesor": "CAMPOS FERNANDEZ IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 10,
+          "profesor": "CAMPOS FERNANDEZ IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 11,
+          "profesor": "CERDAS QUESADA IVANNIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20] MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20] MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 12,
+          "profesor": "NAVAS SU JOSE DOLORES",
+          "modalidad": "Virtual",
+          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "QUIROS RAMIREZ FRANCO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "QUIROS RAMIREZ FRANCO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "VILLALOBOS ARIAS LUIS ROBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC2001",
+      "nombre": "Estructuras de datos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "BOGARIN NAVARRO RODRIGO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CERDAS QUESADA IVANNIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "GARRO ABARCA VICTOR",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4302",
+      "nombre": "Bases de datos II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CAMPOS ARAYA GERARDO NEREO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "OBANDO RODRIGUEZ KENNETH",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC2101",
+      "nombre": "Programación orientada a objetos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CAMPOS FERNANDEZ IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MORA ROJAS DIEGO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SOLANO FERNANDEZ ERICKA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC1802",
+      "nombre": "Introducción a la programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CERDAS QUESADA IVANNIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "COTO SARMIENTO LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "COTO SARMIENTO LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "HERNANDEZ SIBAJA BRYAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORA ROJAS DIEGO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SANABRIA RODRIGUEZ AURELIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC1803",
+      "nombre": "Taller de programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CERDAS QUESADA IVANNIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "COTO SARMIENTO LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "COTO SARMIENTO LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "HERNANDEZ SIBAJA BRYAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORA ROJAS DIEGO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SANABRIA RODRIGUEZ AURELIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC5821",
+      "nombre": "Requerimientos de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CHACON RIVAS  MARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SOLANO SOTO JAIME",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6821",
+      "nombre": "Diseño de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHACON RIVAS  MARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "NUÑEZ NUÑEZ RODRIGO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6831",
+      "nombre": "Aseguramiento de la calidad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHACON RIVAS  MARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SALAZAR HERNANDEZ ALICIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC5701",
+      "nombre": "Compiladores e interpretes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "GATJENS SOTO KIRSTEIN",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SANABRIA RODRIGUEZ AURELIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC3002",
+      "nombre": "Análisis de algoritmos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HELO GUZMAN JOSE ELIAS",
+          "modalidad": "Virtual",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "NAVAS SU JOSE DOLORES",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6400",
+      "nombre": "Investigación de operaciones",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "HELO GUZMAN JOSE ELIAS",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MIRANDA FAJARDO JEAN CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4700",
+      "nombre": "Lenguajes de programación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "HERNANDEZ SIBAJA BRYAN",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "VARGAS CALVO JORGE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4301",
+      "nombre": "Bases de datos I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "NUÑEZ NUÑEZ RODRIGO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "QUIROS RAMIREZ FRANCO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6200",
+      "nombre": "Inteligencia artificial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "OBANDO RODRIGUEZ KENNETH",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "PACHECO PORTUGUEZ STEVEN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4810",
+      "nombre": "Administración de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAZAR HERNANDEZ ALICIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[19:00-20:50] VIE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOLANO SOTO JAIME",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC7841",
+      "nombre": "Proyecto de ingeniería de software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "SALAZAR HERNANDEZ ALICIA",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SOLANO SOTO JAIME",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8842",
+      "nombre": "Práctica profesional",
+      "creditos": 12,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAZAR HERNANDEZ ALICIA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SALAZAR HERNANDEZ ALICIA",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC7900",
+      "nombre": "Computación y sociedad",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "SOLANO SOTO JAIME",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "VILLALOBOS ARIAS LUIS ROBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8052",
+      "nombre": "Criptografía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS CALVO JORGE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

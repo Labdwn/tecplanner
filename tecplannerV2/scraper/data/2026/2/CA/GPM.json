@@ -1,0 +1,220 @@
+{
+  "codigoEscuela": "GPM",
+  "nombreEscuela": "AREA ACADEMICA DE GERENCIA DE PROYECTOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "GP2527",
+      "nombre": "BIM y la gestión de proyectos de construcción",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CABRERA SANDOVAL MARCO",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0102",
+      "nombre": "Formulación de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ LEON BERNAL",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP2531",
+      "nombre": "Estimación en proyectos de desarrollo de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "JIMENEZ FUENTES MARIO AUGUSTO",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0100",
+      "nombre": "Estrategia y gerencia de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORA ROJAS ALFREDO",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP2502",
+      "nombre": "Desarrollo de capacidades organizacionales para la administración de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MUÑOZ CASTRO DONAL",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0201",
+      "nombre": "Gerencia de proyectos I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NAVARRO MATA JORGE",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0205",
+      "nombre": "Oficina de proyectos y portafolios",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NOVO GUTIERREZ LUDBYG JOHANES",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0203",
+      "nombre": "Gerencia de proyectos III",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ CHACON MARCO",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3906",
+      "nombre": "Seminario de metodología de investigación en el énfasis en proyectos empresariales",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ MORA FREDDY",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3909",
+      "nombre": "Seminario de metodología de investigación en el énfasis en tecnología de información",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ MORA FREDDY",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3912",
+      "nombre": "Seminario de metodología de investigación en el énfasis en construcción",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ MORA FREDDY",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3908",
+      "nombre": "Seminario de investigación II en el énfasis en proyectos empresariales",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL QUIROS MILTON",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3911",
+      "nombre": "Seminario de investigación II en el énfasis en tecnología de información",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL QUIROS MILTON",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3914",
+      "nombre": "Seminario de investigación II en el énfasis en construcción",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL QUIROS MILTON",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

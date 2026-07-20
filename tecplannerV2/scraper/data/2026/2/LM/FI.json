@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "FI",
+  "nombreEscuela": "ESCUELA DE FISICA",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "FI1101",
+      "nombre": "Física general I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CASTILLO FALLAS JOSE CARLOS",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "FI1201",
+      "nombre": "Laboratorio física general I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CASTILLO FALLAS JOSE CARLOS",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": "L",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "FI2103",
+      "nombre": "Física general III",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CASTILLO FALLAS JOSE CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] JUE[17:00-18:50]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    }
+  ]
+}

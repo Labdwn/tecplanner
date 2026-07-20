@@ -1,0 +1,154 @@
+{
+  "codigoEscuela": "MA",
+  "nombreEscuela": "ESCUELA DE MATEMATICA",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MA0101",
+      "nombre": "Matemática general",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 92,
+          "profesor": "CHAVES SALAS LEONEL ROLANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 91,
+          "profesor": "GARCIA DELGADO PAULO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:00-11:50] JUE[09:00-10:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 90,
+          "profesor": "PRENDAS ROJAS JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-09:50] JUE[07:00-08:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1102",
+      "nombre": "Cálculo diferencial e integral",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "CHAVES SALAS LEONEL ROLANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[10:00-11:50] JUE[09:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1403",
+      "nombre": "Matemática discreta",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 91,
+          "profesor": "CHAVES SALAS LEONEL ROLANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:00-10:50] VIE[09:00-10:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 90,
+          "profesor": "PRENDAS ROJAS JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MAR[10:00-11:50] JUE[10:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1103",
+      "nombre": "Cálculo y álgebra lineal",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "GARCIA DELGADO PAULO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2104",
+      "nombre": "Cálculo superior",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "GARCIA DELGADO PAULO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2105",
+      "nombre": "Ecuaciones diferenciales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "GARCIA DELGADO PAULO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2404",
+      "nombre": "Probabilidades",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "PRENDAS ROJAS JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA3405",
+      "nombre": "Estadística",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "PRENDAS ROJAS JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

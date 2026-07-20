@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "FH0053",
+      "nombre": "Patrimonio e identidad cultural",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "BONILLA SOTO LUIS CARLOS",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:05-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0024",
+      "nombre": "Lo imaginario en el arte los sueños y la locura",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GARCIA ZAMORA ANTONIO",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-20:40]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0115",
+      "nombre": "García Márquez y el realismo mágico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS BRENES SILVIA ELENA",
+          "modalidad": "Virtual",
+          "horario": "LUN[16:10-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

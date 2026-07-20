@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "FH0223",
+      "nombre": "El erotismo en la literatura: un análisis de \"cuentos sucios\" y otros relatos",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "FUENTES MORA ESTEBAN",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0191",
+      "nombre": "Introducción al pensamiento critico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "GUILLEN MARTINEZ LUIS DIEGO",
+          "modalidad": "Virtual",
+          "horario": "SAB[09:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0162",
+      "nombre": "La enseñanza de la lengua inglesa y su paralelismo con desarrollo económico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SOLANO SOLANO JOSE EDUARDO",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

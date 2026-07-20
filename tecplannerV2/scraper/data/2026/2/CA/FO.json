@@ -1,0 +1,415 @@
+{
+  "codigoEscuela": "FO",
+  "nombreEscuela": "ESCUELA INGENIERIA FORESTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "FO4220",
+      "nombre": "Restauración de ecosistemas tropicales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACOSTA VARGAS LUIS GUILLERMO",
+          "modalidad": "Tutoría",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "FO2108",
+      "nombre": "Laboratorio de suelos forestales",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS AGUILAR  DAGOBERTO",
+          "modalidad": "Regular",
+          "horario": "LUN[10:30-12:20]",
+          "edificio": "L4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4107",
+      "nombre": "Suelos forestales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS AGUILAR  DAGOBERTO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "L3",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4223",
+      "nombre": "Dendroenergía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS AGUILAR  DAGOBERTO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
+          "edificio": "L3",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3109",
+      "nombre": "Manejo de plantaciones forestales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BADILLA VALVERDE YORLENY",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] MAR[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3132",
+      "nombre": "Entomología y patología forestales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BERROCAL JIMENEZ ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] MIE[13:00-14:50]",
+          "edificio": "L3",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3210",
+      "nombre": "Gestión de administración forestal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CAMACHO CORNEJO DIEGO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4412",
+      "nombre": "Mercadeo y comercialización de productos forestales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CAMACHO CORNEJO DIEGO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "FO1106",
+      "nombre": "Climatología forestal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CARVAJAL VANEGAS DORIAN",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "L3",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "FO2201",
+      "nombre": "Levantamiento forestal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CARVAJAL VANEGAS DORIAN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] MAR[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3307",
+      "nombre": "Biología de la conservación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GAMBOA BADILLA NANCY",
+          "modalidad": "Tutoría",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "FO5049",
+      "nombre": "Seminario de graduación",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GAMBOA BADILLA NANCY",
+          "modalidad": "Tutoría",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "L3",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "FO1107",
+      "nombre": "Botánica forestal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HILJE RODRIGUEZ BRANKO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-10:20]",
+          "edificio": "L3",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "FO1108",
+      "nombre": "Laboratorio de botánica forestal",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HILJE RODRIGUEZ BRANKO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": "L4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4224",
+      "nombre": "Introducción a la fauna silvestre en ecosistemas forestales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HILJE RODRIGUEZ BRANKO",
+          "modalidad": "Tutoría",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3133",
+      "nombre": "Laboratorio de entomología y patología forestales",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MENDEZ ALVAREZ DAWA",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-17:50]",
+          "edificio": "L4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "FO2303",
+      "nombre": "Propiedades de la madera",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MOYA ROQUE ROGER",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
+          "edificio": "L3",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4309",
+      "nombre": "Manufactura de productos forestales II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MUÑOZ ACOSTA FREDDY",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3123",
+      "nombre": "Mejora genética forestal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MURILLO GAMBOA OLMAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "L3",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4104",
+      "nombre": "Formulación y evaluación de proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAS GARITA CYNTHIA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4406",
+      "nombre": "Sistemas de información geográfica II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO MONTOYA CASIA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3118",
+      "nombre": "Silvicultura bosque natural",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TORRES GOMEZ DANILO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "L3",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4417",
+      "nombre": "Ecofisiología forestal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALVERDE OTAROLA JUAN CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "L3",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3113",
+      "nombre": "Inventarios forestales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS FONSECA LUPITA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "L3",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4418",
+      "nombre": "Cambio climático: acciones y métricas en sistemas terrestres",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS FONSECA LUPITA",
+          "modalidad": "Tutoría",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "L3",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "FO3203",
+      "nombre": "Aprovechamiento forestal I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VILLALOBOS BARQUERO VERONICA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-12:20]",
+          "edificio": "L3",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "FO4225",
+      "nombre": "Seguimiento y auditoría ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZUÑIGA GARITA IGOR",
+          "modalidad": "Tutoría",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "L3",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

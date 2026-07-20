@@ -1,0 +1,593 @@
+{
+  "codigoEscuela": "DI",
+  "nombreEscuela": "ESCUELA DISEÑO INDUSTRIAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "ID4501",
+      "nombre": "Diseño de productos VII",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA CALVO MIGUEL",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "K6",
+          "aula": "3"
+        },
+        {
+          "grupo": 2,
+          "profesor": "ARAYA CALVO MIGUEL",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
+          "edificio": "K6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "ID1103",
+      "nombre": "Métodos de desarrollo de productos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA ROJAS LUIS CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-09:20]",
+          "edificio": "K6",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "ID3111",
+      "nombre": "Diseño V",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA ROJAS LUIS CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "2"
+        },
+        {
+          "grupo": 2,
+          "profesor": "GONZALEZ RAMIREZ MARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "ID1101",
+      "nombre": "Análisis de producto I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES CATALAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": "K6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "ID2301",
+      "nombre": "Principios estructurales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES CATALAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "K6",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "ID3113",
+      "nombre": "Biónica y eco-diseño",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES CATALAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "K6",
+          "aula": "5"
+        },
+        {
+          "grupo": 2,
+          "profesor": "BRENES CATALAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-10:20]",
+          "edificio": "K6",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "ID2302",
+      "nombre": "Procesos de manufactura I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CUBERO UGALDE MARCELA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[08:30-11:20] MAR[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "5"
+        },
+        {
+          "grupo": 2,
+          "profesor": "CUBERO UGALDE MARCELA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[08:30-11:20] JUE[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "ID3110",
+      "nombre": "Diseño IV",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CUBERO UGALDE MARCELA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-15:50] MIE[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "ID5511",
+      "nombre": "Trabajo final de graduación (productos)",
+      "creditos": 7,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CUBERO UGALDE MARCELA",
+          "modalidad": "Virtual",
+          "horario": "LUN[08:30-10:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "ID1206",
+      "nombre": "Modelado y simulación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ CAMACHO FEDERICO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[08:30-11:20] JUE[08:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 2,
+          "profesor": "GONZALEZ CAMACHO FEDERICO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-17:50] VIE[08:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 3,
+          "profesor": "GONZALEZ CAMACHO FEDERICO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-17:50] JUE[15:00-17:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "ID2207",
+      "nombre": "Análisis del espacio tridimensional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ CAMACHO FEDERICO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[08:30-11:20] VIE[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "ID3303",
+      "nombre": "Procesos de manufactura II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ RAMIREZ MARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "ID5515",
+      "nombre": "Taller de diseño integrado",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ RAMIREZ MARIO",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "ID1118",
+      "nombre": "Fundamentos del diseño",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GRANADOS GOMEZ DONALD",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "ID1119",
+      "nombre": "Principios del diseño",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GRANADOS GOMEZ DONALD",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
+          "edificio": "K6",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MOREIRA ACUÑA SILVIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "K6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "ID4601",
+      "nombre": "Diseño de comunicación visual VII",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ CASTRO FRANKLIN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[08:30-12:20] MAR[08:30-12:20]",
+          "edificio": "K6",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "ID5602",
+      "nombre": "Teoría del diseño de la información",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ CASTRO FRANKLIN",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "ID1205",
+      "nombre": "Taller de dibujo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO PIZARRO LEONARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[08:30-11:20] JUE[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "ID2107",
+      "nombre": "Diseño I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO PIZARRO LEONARDO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "3"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MONTERO PIZARRO LEONARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "ID2120",
+      "nombre": "Comunicación visual",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO PIZARRO LEONARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "ID3112",
+      "nombre": "Diseño VI",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORALES RODRIGUEZ PAULA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "2"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MORALES RODRIGUEZ PAULA",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "ID3205",
+      "nombre": "Cultura material",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MOREIRA ACUÑA SILVIA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[07:30-10:20]",
+          "edificio": "K6",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "ID3304",
+      "nombre": "Procesos de manufactura III",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ CHACON FERNANDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "ID2401",
+      "nombre": "Ergonomía",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANCHEZ BRENES OLGA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "ID3109",
+      "nombre": "Diseño III",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANCHEZ BRENES OLGA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "ID2204",
+      "nombre": "Herramientas digitales para diseño",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SEGURA SOLIS DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "ID5115",
+      "nombre": "Innovación de productos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SEGURA SOLIS DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-19:50]",
+          "edificio": "K6",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "ID5611",
+      "nombre": "Trabajo final de graduación (comunicación visual)",
+      "creditos": 7,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": null,
+          "modalidad": "Virtual",
+          "horario": "LUN[08:30-10:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "ID1104",
+      "nombre": "Análisis de producto II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": "K6",
+          "aula": "4"
+        },
+        {
+          "grupo": 2,
+          "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": "K6",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "ID2108",
+      "nombre": "Diseño II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "K6",
+          "aula": "5"
+        },
+        {
+          "grupo": 2,
+          "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[08:30-11:20]",
+          "edificio": "K6",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "ID5004",
+      "nombre": "Introducción al diseño para la innovación social",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARELA SOJO XINIA",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "ID5114",
+      "nombre": "Gestión de proyectos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARELA SOJO XINIA",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "ID5516",
+      "nombre": "Teoría de las interfases y la interactividad",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "WALSH ZUÑIGA YOSELYN",
+          "modalidad": "Virtual",
+          "horario": "VIE[18:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

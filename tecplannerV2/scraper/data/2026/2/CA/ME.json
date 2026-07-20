@@ -1,0 +1,619 @@
+{
+  "codigoEscuela": "ME",
+  "nombreEscuela": "ESCUELA DE CIENCIA E ING. DE LOS MATERIALES",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CM3207",
+      "nombre": "Métodos numéricos para ingeniería",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "ARAYA MENESES IVAN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "2"
+        },
+        {
+          "grupo": 8,
+          "profesor": "CALDERON ARCE CINDY",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "I4",
+          "aula": "2"
+        },
+        {
+          "grupo": 1,
+          "profesor": "CHINE POLITO BRUNO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "2"
+        },
+        {
+          "grupo": 7,
+          "profesor": "QUESADA MARTINEZ ADRIAN",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "2"
+        },
+        {
+          "grupo": 4,
+          "profesor": "RODRIGUEZ ROJAS ALFREDO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": "I4",
+          "aula": "2"
+        },
+        {
+          "grupo": 6,
+          "profesor": "RODRIGUEZ ROJAS ALFREDO",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": "I4",
+          "aula": "2"
+        },
+        {
+          "grupo": 3,
+          "profesor": "STRADI GRANADOS BENITO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "2"
+        },
+        {
+          "grupo": 2,
+          "profesor": "VEGA GARITA VICTOR",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "I4",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM3205",
+      "nombre": "Tecnología de maquinado",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MORA FABIAN",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM3601",
+      "nombre": "Mecánica de fluidos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MORA FABIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4307",
+      "nombre": "Conformado de materiales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MORA FABIAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM5302",
+      "nombre": "Equipos auxiliares de planta",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MORA FABIAN",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM2103",
+      "nombre": "Termodinámica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "G18",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM2402",
+      "nombre": "Laboratorio de metalurgia física",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
+          "modalidad": "Regular",
+          "horario": "MAR[16:00-17:50]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "CORRALES BRENES REBECA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ MASIS JEIMY",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": "I1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4108",
+      "nombre": "Transferencia de calor",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-11:20]",
+          "edificio": "D3",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4202",
+      "nombre": "Laboratorio tecnología aleaciones metálicas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 1,
+          "profesor": "DITTEL MEZA FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[08:30-11:20]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "DITTEL MEZA FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "I1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "ME3208",
+      "nombre": "Tecnología de materiales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
+          "modalidad": "Regular",
+          "horario": "VIE[08:30-11:20]",
+          "edificio": "D3",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4309",
+      "nombre": "Corrosión y protección de materiales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES BRENES RONALD",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "I1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4802",
+      "nombre": "Gestión de proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES BRENES RONALD",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM5901",
+      "nombre": "Ensayos no destructivos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVERRI QUIROS OSCAR",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "I1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4101",
+      "nombre": "Modelación y simulación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHINE POLITO BRUNO",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": "I4",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4701",
+      "nombre": "Transferencia de calor y masa",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHINE POLITO BRUNO",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM5241",
+      "nombre": "Tecnología de recubrimientos y capas delgadas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CORRALES BRENES REBECA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": "I1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4801",
+      "nombre": "Caracterización de materiales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CUBERO SESIN JORGE MAURICIO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "I1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM3602",
+      "nombre": "Tecnología de aleaciones metálicas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ CHAVES ROBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "ME3209",
+      "nombre": "Laboratorio de tecnología de materiales",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ CHAVES ROBERTO",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-11:20]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 6,
+          "profesor": "GONZALEZ HERNANDEZ EDUARDO",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-16:50]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 3,
+          "profesor": "GONZALEZ MASIS JEIMY",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 5,
+          "profesor": "GONZALEZ MASIS JEIMY",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 4,
+          "profesor": "RODRIGUEZ QUESADA LARIA FABIOLA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": "I1",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "VEGA GARITA VICTOR",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-09:20]",
+          "edificio": "I1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM5221",
+      "nombre": "Biomateriales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ MASIS JEIMY",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "ME2208",
+      "nombre": "Ciencias de los materiales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "GONZALEZ MASIS JEIMY",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": "D3",
+          "aula": "2"
+        },
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ QUESADA LARIA FABIOLA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": "D3",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4305",
+      "nombre": "Tecnología de polímeros",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUILLEN GIRON TEODOLITO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM3603",
+      "nombre": "Mecánica de materiales avanzada",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "QUESADA MARTINEZ ADRIAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4803",
+      "nombre": "Taller de diseño en ciencia e ingeniería de los materiales",
+      "creditos": 7,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ MENDEZ FRANCISCO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "D10",
+          "aula": "35"
+        }
+      ]
+    },
+    {
+      "codigo": "CM3103",
+      "nombre": "Termodinámica de materiales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ ROJAS ALFREDO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM5104",
+      "nombre": "Diseño de moldes y troqueles",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ ROJAS ALFREDO",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": "I4",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM4702",
+      "nombre": "Materiales cerámicos y compuestos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANCHEZ CORDERO CARLOS ALBERTO",
+          "modalidad": "Regular",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM3501",
+      "nombre": "Materiales poliméricos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "STARBIRD PEREZ RICARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50] MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": "D10",
+          "aula": "35"
+        }
+      ]
+    },
+    {
+      "codigo": "CM2401",
+      "nombre": "Metalurgia física",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS GOMEZ RODRIGO DAVID",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "I4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CM3208",
+      "nombre": "Metrología para ingeniería",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS GOMEZ RODRIGO DAVID",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "I1",
+          "aula": "2"
+        },
+        {
+          "grupo": 2,
+          "profesor": "VARGAS GOMEZ RODRIGO DAVID",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "I1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CM5243",
+      "nombre": "Análisis de fallas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS GOMEZ RODRIGO DAVID",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": "I1",
+          "aula": "2"
+        }
+      ]
+    }
+  ]
+}

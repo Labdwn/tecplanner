@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "FH0204",
+      "nombre": "Hablemos de discapacidad",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "BOGARIN MARIN MILENE",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0151",
+      "nombre": "Brujas, hadas y fantasmas en Shakespeare",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "JIMENEZ RODRIGUEZ ROXANA",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:30-20:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

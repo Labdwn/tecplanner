@@ -1,0 +1,276 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "AE3128",
+      "nombre": "Administración financiera II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ABREGO CAMPOS LEONEL",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE1123",
+      "nombre": "Contabilidad II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "ACEVEDO WHITFORD OSCAR",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 40,
+          "profesor": "BARBOZA DIAZ LINO",
+          "modalidad": "Regular",
+          "horario": "JUE[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2703",
+      "nombre": "Computación para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ARTAVIA DELGADO RANDALL",
+          "modalidad": "Regular",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 41,
+          "profesor": "MENDEZ FLORES MANUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2705",
+      "nombre": "Análisis y gestión de datos empresariales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "ARTAVIA DELGADO RANDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 40,
+          "profesor": "VEGA RAMIREZ GREIVIN",
+          "modalidad": "Regular",
+          "horario": "JUE[17:30-20:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2125",
+      "nombre": "Matemática financiera",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "BARBOZA DIAZ LINO",
+          "modalidad": "Regular",
+          "horario": "VIE[17:30-20:15]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 40,
+          "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3542",
+      "nombre": "Espíritu emprendedor y creación de empresas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "FAITH VARGAS MARGIE",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4208",
+      "nombre": "Desarrollo de emprendedores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "FAITH VARGAS MARGIE",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2219",
+      "nombre": "Comportamiento organizacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "FERNANDEZ AGUILAR JADVY",
+          "modalidad": "Regular",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 41,
+          "profesor": "MAROTO CALVO OSCAR",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE1219",
+      "nombre": "Introducción a la administración de empresas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "GUILLEN MIRANDA ERICK",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 40,
+          "profesor": "MAROTO CALVO OSCAR",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3506",
+      "nombre": "Productividad empresarial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MENDEZ FLORES MANUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4228",
+      "nombre": "Gestión del talento humano II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MONGE DAVANZO YAFANNY",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2311",
+      "nombre": "Macroeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ROJAS ESQUIVEL ARMANDO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3414",
+      "nombre": "Fundamentos de mercadeo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLIS RAMIREZ INGRID",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2505",
+      "nombre": "Estadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "SOLIS SALAZAR MARTIN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 40,
+          "profesor": "TENORIO SANCHEZ ANA PATRICIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:30-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

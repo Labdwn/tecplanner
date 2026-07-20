@@ -1,0 +1,16 @@
+{
+  "name": "tecplanner-scraper",
+  "version": "1.0.0",
+  "description": "Scraper modular que genera los JSON estáticos consumidos por TEC Planner",
+  "type": "module",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node --env-file=.env --use-system-ca scraper.js",
+    "revisar-ventana": "node revisar-ventana.js",
+    "test": "node --test test/scraper.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED"
+}

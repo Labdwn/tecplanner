@@ -1,0 +1,70 @@
+{
+  "codigoEscuela": "FI",
+  "nombreEscuela": "ESCUELA DE FISICA",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "FI1102",
+      "nombre": "Física general II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 35,
+          "profesor": "CORDERO GARCIA IVAN GABRIEL",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FI2103",
+      "nombre": "Física general III",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 35,
+          "profesor": "CORDERO GARCIA IVAN GABRIEL",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[08:00-09:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FI1101",
+      "nombre": "Física general I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 35,
+          "profesor": "LACY MORA GERARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[08:00-09:50] VIE[08:00-09:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FI1201",
+      "nombre": "Laboratorio física general I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 35,
+          "profesor": "LACY MORA GERARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

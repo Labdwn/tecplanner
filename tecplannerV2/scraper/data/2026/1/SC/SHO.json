@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "SHO",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN SEGURIDAD LABORAL E HIGIENE AMBIENTAL",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "SO4604",
+      "nombre": "Seguridad y salud ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MEDINA ESCOBAR MARIA LOURDES",
+          "modalidad": "Virtual",
+          "horario": "LUN[08:50-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

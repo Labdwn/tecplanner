@@ -1,0 +1,175 @@
+{
+  "codigoEscuela": "GPM",
+  "nombreEscuela": "AREA ACADEMICA DE GERENCIA DE PROYECTOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "GP0100",
+      "nombre": "Estrategia y gerencia de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHACON NAVARRO OSCAR",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0206",
+      "nombre": "Habilidades gerenciales para la administración de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUERRERO LUNA ALEJANDRA DE MARIA",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0103",
+      "nombre": "Evaluación financiera de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ CAMACHO ALEXANDER",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0204",
+      "nombre": "Técnicas y herramientas para gerencia de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTENEGRO SOLIS FABIAN",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP2516",
+      "nombre": "Auditoría de proyectos de TI",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NOVO GUTIERREZ LUDBYG JOHANES",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP2523",
+      "nombre": "Herramientas para proyectos de construcción",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ CHACON MARCO",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP2508",
+      "nombre": "Gestión de programas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAZAR ROJAS FIORELLA MARIA",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3907",
+      "nombre": "Seminario de investigación I en el énfasis en proyectos empresariales",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL QUIROS MILTON",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3910",
+      "nombre": "Seminario de investigación I en el énfasis en tecnología de información",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL QUIROS MILTON",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP3913",
+      "nombre": "Seminario de investigación I en el énfasis en construcción",
+      "creditos": 8,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL QUIROS MILTON",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "GP0202",
+      "nombre": "Gerencia de proyectos II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZAMORA RAMIREZ NORMAN",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

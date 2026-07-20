@@ -1,0 +1,565 @@
+{
+  "codigoEscuela": "AIT",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE TECNOLOGIAS DE INFORMACION",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "TI5100",
+      "nombre": "Gestión y toma de decisiones financieras",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALPIZAR CHAVES LAURA",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "TORRES CARBALLO FEDERICO",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI1400",
+      "nombre": "Introducción a la programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "ARTAVIA JIMENEZ MARIA JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "MORALES RODRIGUEZ NESTOR",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SOTO CHAVES LUIS PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOTO CHAVES LUIS PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI1401",
+      "nombre": "Taller de programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "ARTAVIA JIMENEZ MARIA JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "MORALES RODRIGUEZ NESTOR",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[09:30-11:20] MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SOTO CHAVES LUIS PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOTO CHAVES LUIS PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI2201",
+      "nombre": "Programación orientada a objetos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI5501",
+      "nombre": "Diseño de software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI5905",
+      "nombre": "Fundamentos de arquitectura empresarial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "GONZALEZ QUESADA MELVIN",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI8515",
+      "nombre": "Inteligencia Artificial en Sistemas de Información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI1103",
+      "nombre": "Modelos organizacionales y gestión de TI",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DELGADO LEANDRO GONZALO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "DELGADO LEANDRO GONZALO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI3500",
+      "nombre": "Mercadeo en la era digital",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DELGADO LEANDRO GONZALO",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI5901",
+      "nombre": "Espíritu emprendedor y creación de empresas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DELGADO LEANDRO GONZALO",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI2800",
+      "nombre": "Administración de proyectos I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "GAMBOA CUBERO LUIS MAURICIO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORA GONZALEZ SONIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "PICADO VALVERDE LUIS FELIPE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI8902",
+      "nombre": "Adquisición de TI",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ QUESADA MELVIN",
+          "modalidad": "Virtual",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI3103",
+      "nombre": "Costos en ambientes informáticos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LEIVA CHINCHILLA PEDRO IGNACIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "LEIVA CHINCHILLA PEDRO IGNACIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI9004",
+      "nombre": "Administración de servicios de tecnologías de información II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LEIVA CHINCHILLA PEDRO IGNACIO",
+          "modalidad": "Virtual",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI8109",
+      "nombre": "Formulación y evaluación de proyectos de TI",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORA GONZALEZ SONIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI2402",
+      "nombre": "Algoritmos y estructuras de datos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORALES RODRIGUEZ NESTOR",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI3603",
+      "nombre": "Calidad en sistemas de información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORALES RODRIGUEZ NESTOR",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI5903",
+      "nombre": "Planificación estratégica de tecnología de información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PICADO VALVERDE LUIS FELIPE",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI6900",
+      "nombre": "Inteligencia de negocios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANCHEZ SOTO MICHAEL",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI5904",
+      "nombre": "Investigación en sistemas de información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL SANCHEZ YARIMA",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI3501",
+      "nombre": "Fundamentos de sistemas operativos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SEGREDA JOHANNING JUAN ANDRES",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI4701",
+      "nombre": "Seguridad en sistemas de información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SEGREDA JOHANNING JUAN ANDRES",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI7503",
+      "nombre": "Arquitectura de aplicaciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SEGREDA JOHANNING JUAN ANDRES",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI3600",
+      "nombre": "Bases de datos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLIS CESPEDES JACQUELINE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOLIS CESPEDES JACQUELINE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI4200",
+      "nombre": "Economía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TORRES CARBALLO FEDERICO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI1102",
+      "nombre": "Información contable",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "UMAÑA CENTENO GABRIEL",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "UMAÑA CENTENO GABRIEL",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI5902",
+      "nombre": "Analítica empresarial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZUÑIGA SEGURA LORENA",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI7901",
+      "nombre": "Negocios electrónicos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZUÑIGA SEGURA LORENA",
+          "modalidad": "Virtual",
+          "horario": "VIE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ZUÑIGA SEGURA LORENA",
+          "modalidad": "Virtual",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI8513",
+      "nombre": "Blockchain y aplicaciones descentralizadas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZUÑIGA SEGURA LORENA",
+          "modalidad": "Virtual",
+          "horario": "MIE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

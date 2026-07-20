@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "SHO",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN SEGURIDAD LABORAL E HIGIENE AMBIENTAL",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "SO4604",
+      "nombre": "Seguridad y salud ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CARPIO CHAVES MONICA",
+          "modalidad": "Virtual",
+          "horario": "JUE[07:30-10:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

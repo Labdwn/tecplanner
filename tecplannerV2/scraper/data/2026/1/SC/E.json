@@ -1,0 +1,333 @@
+{
+  "codigoEscuela": "E",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN ELECTRONICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "EL3212",
+      "nombre": "Circuitos discretos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CARDINALE VILLALOBOS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[14:20-16:05] MIE[12:30-14:15] MAR[14:20-16:05] MIE[12:30-14:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5856",
+      "nombre": "Taller de circuitos electrónicos para sistemas energéticos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CARDINALE VILLALOBOS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "VIE[14:20-17:55]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL4513",
+      "nombre": "Teoría electromagnética I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CARRERA RETANA LUIS ERNESTO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:45-11:30] JUE[15:15-17:00]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL2110",
+      "nombre": "Laboratorio de mediciones eléctricas",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-09:40]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL2207",
+      "nombre": "Elementos activos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "LUN[09:45-17:55]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL3215",
+      "nombre": "Laboratorio de electrónica analógica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-09:40]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5610",
+      "nombre": "Taller integrador",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5522",
+      "nombre": "Taller de comunicaciones eléctricas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "FERNANDEZ RODRIGUEZ JOSE MIGUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-19:45] JUE[18:00-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL1100",
+      "nombre": "Introducción a la ingeniería",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "VIE[14:20-16:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 51,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "VIE[07:00-08:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL2114",
+      "nombre": "Circuitos eléctricos en corriente alterna",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "JUE[14:20-16:05] VIE[08:50-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL4514",
+      "nombre": "Teoría electromagnética II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "MIE[09:45-11:30] VIE[12:30-14:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5513",
+      "nombre": "Comunicaciones eléctricas I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Regular",
+          "horario": "LUN[09:45-11:30] MAR[14:20-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5521",
+      "nombre": "Comunicaciones eléctricas II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUADAMUZ BRENES SAUL",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[16:10-17:55] JUE[16:10-17:55]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL3307",
+      "nombre": "Diseño lógico",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LEON VEGA LUIS GERARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:00-08:45] JUE[07:00-08:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL3313",
+      "nombre": "Taller de diseño digital",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LEON VEGA LUIS GERARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[16:10-17:55] VIE[16:10-17:55]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL3217",
+      "nombre": "Taller de diseño analógico",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO JAVIER",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL4703",
+      "nombre": "Señales y sistemas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO JAVIER",
+          "modalidad": "Regular",
+          "horario": "JUE[17:05-20:40]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL2111",
+      "nombre": "Laboratorio de circuitos eléctricos",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
+          "modalidad": "Regular",
+          "horario": "MAR[14:20-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL2113",
+      "nombre": "Circuitos eléctricos en corriente continua",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:10-17:55] JUE[16:10-17:55]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL4419",
+      "nombre": "Análisis y control de sistemas lineales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:55-09:40] JUE[12:30-14:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5857",
+      "nombre": "Aprendizaje automático",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS ROJAS MARIAN",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:05-18:50] MIE[18:00-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "codigoEscuela": "AN",
+  "nombreEscuela": "ESCUELA DE AGRONEGOCIOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AN3006",
+      "nombre": "Investigación de operaciones en agronegocios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES MORALES ORLANDO",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AA2302",
+      "nombre": "Contabilidad de costos aplicada",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES NAVARRO DAVID HUMBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "G1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AN3007",
+      "nombre": "Cultivos hortícolas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CALDERON CERDAS RUBEN ALFONSO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-12:20]",
+          "edificio": "H6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AN4007",
+      "nombre": "Cultivos no tradicionales y tecnologías alternativas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CALDERON CERDAS RUBEN ALFONSO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-12:20]",
+          "edificio": "H6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AN4006",
+      "nombre": "Gestión ambiental en agronegocios",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CAMPOS RODRIGUEZ ROOEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "G1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AN2004",
+      "nombre": "Laboratorio de bioquímica agroalimentaria",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVES ABARCA RANDALL",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "CHAVES ABARCA RANDALL",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "AN1004",
+      "nombre": "Gestión en agronegocios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "GAMBOA MURILLO MARIANELA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "1"
+        },
+        {
+          "grupo": 1,
+          "profesor": "MONGE GONZALEZ MANUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "AN4005",
+      "nombre": "Procesado productos pecuarios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GAMBOA MURILLO MARIANELA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-12:20]",
+          "edificio": "G1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AN3004",
+      "nombre": "Fundamentos de agroindustria alimentaria",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GOMEZ CORDOBA CARLOS EDUARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "H6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AN4008",
+      "nombre": "Sistematización de datos en agronegocios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "GOMEZ GUTIERREZ MARCO VINICIO",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": "G1",
+          "aula": "3"
+        },
+        {
+          "grupo": 1,
+          "profesor": "SANABRIA COTO CRISTIAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "G1",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AN2003",
+      "nombre": "Bioquímica agroalimentaria",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUADAMUZ MAYORGA CAROLINA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "AN3005",
+      "nombre": "Finanzas en agronegocios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MASIS JIMENEZ MANUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AN4002",
+      "nombre": "Mercadeo productos agroindustriales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE GONZALEZ MANUEL",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "AN3008",
+      "nombre": "Probabilidad y estadísticas en los agronegocios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "UREÑA JIMENEZ RONALD ANDREY",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "G1",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AA3202",
+      "nombre": "Anatomía y fisiología animal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VAQUERANO PINEDA FELIPE",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "H6",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "VAQUERANO PINEDA FELIPE",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": "H6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AA4205",
+      "nombre": "Producción bovina",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VAQUERANO PINEDA FELIPE",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-18:50]",
+          "edificio": "G1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "AN7001",
+      "nombre": "Gestión de certificaciones en agronegocios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VILLAREAL MARCHENA TANIA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "G1",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AE2125",
+      "nombre": "Matemática financiera",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ACEVEDO WHITFORD OSCAR",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-10:35]",
+          "edificio": "E",
+          "aula": "106"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3128",
+      "nombre": "Administración financiera II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ACEVEDO WHITFORD OSCAR",
+          "modalidad": "Regular",
+          "horario": "VIE[07:55-11:30]",
+          "edificio": "A",
+          "aula": "16"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2311",
+      "nombre": "Macroeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALFARO RAMOS ALFREDO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": "A",
+          "aula": "16"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4228",
+      "nombre": "Gestión del talento humano II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "BARRANTES BARRANTES EILYN",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": "A",
+          "aula": "16"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2506",
+      "nombre": "Estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CORDOBA ARTAVIA OSCAR",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "A",
+          "aula": "16"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4208",
+      "nombre": "Desarrollo de emprendedores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CORDOBA ARTAVIA OSCAR",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30] MAR[07:55-11:30]",
+          "edificio": "A",
+          "aula": "16"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2219",
+      "nombre": "Comportamiento organizacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUERRERO VARGAS LIGIA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": "A",
+          "aula": "11"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2220",
+      "nombre": "Análisis administrativo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUERRERO VARGAS LIGIA",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": "A",
+          "aula": "16"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3414",
+      "nombre": "Fundamentos de mercadeo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ OROZCO ALLAN JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": "A",
+          "aula": "17"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3415",
+      "nombre": "Investigación de mercados",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ OROZCO ALLAN JOSE",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "A",
+          "aula": "17"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2705",
+      "nombre": "Análisis y gestión de datos empresariales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ BARQUERO  RONNY",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": "A",
+          "aula": "17"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3505",
+      "nombre": "Metodología de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ BARQUERO  RONNY",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "A",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "AE1122",
+      "nombre": "Contabilidad I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VILLEGAS ROJAS ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": "A",
+          "aula": "16"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2124",
+      "nombre": "Contabilidad III",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VILLEGAS ROJAS ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": "A",
+          "aula": "17"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3551",
+      "nombre": "Administración de proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VIQUEZ PANIAGUA ANA GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": "A",
+          "aula": "17"
+        }
+      ]
+    }
+  ]
+}

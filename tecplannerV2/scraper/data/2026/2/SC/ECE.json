@@ -1,0 +1,700 @@
+{
+  "codigoEscuela": "ECE",
+  "nombreEscuela": "ESCUELA DE CIENCIAS NATURALES Y EXACTAS",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "FI1101",
+      "nombre": "Física general I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALVARADO ORTEGA ROMMEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-08:45] VIE[07:00-08:45]",
+          "edificio": "A",
+          "aula": "6"
+        },
+        {
+          "grupo": 51,
+          "profesor": "SEQUEIRA CASTRO DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[12:30-14:15] VIE[12:30-14:15]",
+          "edificio": "A",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "FI1102",
+      "nombre": "Física general II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALVARADO ORTEGA ROMMEL",
+          "modalidad": "Regular",
+          "horario": "MAR[09:45-11:30] VIE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "6"
+        },
+        {
+          "grupo": 51,
+          "profesor": "GAMBOA ALFARO MARVIN RICARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[18:00-19:45] JUE[18:00-19:45]",
+          "edificio": "A",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "FI1201",
+      "nombre": "Laboratorio física general I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALVARADO ORTEGA ROMMEL",
+          "modalidad": "Regular",
+          "horario": "MIE[18:00-19:45]",
+          "edificio": "LF",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "SEQUEIRA CASTRO DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-14:15]",
+          "edificio": "LF",
+          "aula": "1"
+        },
+        {
+          "grupo": 52,
+          "profesor": "SEQUEIRA CASTRO DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[14:20-16:05]",
+          "edificio": "LF",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "FI1202",
+      "nombre": "Laboratorio física general II",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALVARADO ORTEGA ROMMEL",
+          "modalidad": "Regular",
+          "horario": "MIE[09:45-11:30]",
+          "edificio": "LF",
+          "aula": "2"
+        },
+        {
+          "grupo": 51,
+          "profesor": "GAMBOA ALFARO MARVIN RICARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[14:20-16:05]",
+          "edificio": "LF",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "NE1001",
+      "nombre": "Fundamentos de química ambiental para turismo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ARIAS ALPIZAR KEVIN RICARDO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[07:00-09:40]",
+          "edificio": "A",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "QU1104",
+      "nombre": "Laboratorio de química básica II",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 54,
+          "profesor": "ARIAS ALPIZAR KEVIN RICARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[14:20-16:05]",
+          "edificio": "LQ",
+          "aula": "2"
+        },
+        {
+          "grupo": 56,
+          "profesor": "CHAVES BARQUERO LUIS GERARDO",
+          "modalidad": "Regular",
+          "horario": "VIE[09:45-11:30]",
+          "edificio": "LQ",
+          "aula": "2"
+        },
+        {
+          "grupo": 50,
+          "profesor": "FERNANDEZ RODRIGUEZ MARCELA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-08:45]",
+          "edificio": "LQ",
+          "aula": "2"
+        },
+        {
+          "grupo": 52,
+          "profesor": "PORRAS CAJINA DANILO ALBERTO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-08:45]",
+          "edificio": "LQ",
+          "aula": "2"
+        },
+        {
+          "grupo": 51,
+          "profesor": "VILLALOBOS MURILLO JOHANA",
+          "modalidad": "Regular",
+          "horario": "MAR[14:20-16:05]",
+          "edificio": "LQ",
+          "aula": "2"
+        },
+        {
+          "grupo": 53,
+          "profesor": "VILLALOBOS MURILLO JOHANA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:45-11:30]",
+          "edificio": "LQ",
+          "aula": "2"
+        },
+        {
+          "grupo": 55,
+          "profesor": "VILLALOBOS MURILLO JOHANA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:00-08:45]",
+          "edificio": "LQ",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "QU1106",
+      "nombre": "Química básica I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ARIAS ALPIZAR KEVIN RICARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:10-17:55] JUE[16:10-17:55]",
+          "edificio": "A",
+          "aula": "4"
+        },
+        {
+          "grupo": 51,
+          "profesor": "ARIAS ALPIZAR KEVIN RICARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[12:30-14:15] JUE[12:30-14:15]",
+          "edificio": "A",
+          "aula": "18"
+        }
+      ]
+    },
+    {
+      "codigo": "MA2404",
+      "nombre": "Probabilidades",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "BALLESTERO ALFARO ESTEBAN",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": "E",
+          "aula": "209"
+        }
+      ]
+    },
+    {
+      "codigo": "MA0101",
+      "nombre": "Matemática general",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 54,
+          "profesor": "CARRERA RETANA LUIS ERNESTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:10-18:50] JUE[16:10-17:55]",
+          "edificio": "A",
+          "aula": "18"
+        },
+        {
+          "grupo": 51,
+          "profesor": "GONZALEZ VARGAS KARINA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:00-08:45] JUE[07:00-09:40]",
+          "edificio": "A",
+          "aula": "3"
+        },
+        {
+          "grupo": 52,
+          "profesor": "GONZALEZ VARGAS KARINA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[08:50-11:30] JUE[09:45-11:30]",
+          "edificio": "E",
+          "aula": "105"
+        },
+        {
+          "grupo": 50,
+          "profesor": "JIMENEZ CESPEDES RODOLFO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[12:30-14:15] MIE[12:30-15:10]",
+          "edificio": "A",
+          "aula": "4"
+        },
+        {
+          "grupo": 53,
+          "profesor": "NAVARRO AGUIRRE JESSICA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[08:50-11:30] VIE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "MA1103",
+      "nombre": "Cálculo y álgebra lineal",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 52,
+          "profesor": "CARRERA RETANA LUIS ERNESTO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "4"
+        },
+        {
+          "grupo": 50,
+          "profesor": "FREER PANIAGUA DYLANA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:55-09:40] JUE[14:20-16:05]",
+          "edificio": "A",
+          "aula": "18"
+        },
+        {
+          "grupo": 51,
+          "profesor": "NAVARRO AGUIRRE JESSICA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:45-11:30] JUE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "19"
+        }
+      ]
+    },
+    {
+      "codigo": "MA2104",
+      "nombre": "Cálculo superior",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CARRERA RETANA LUIS ERNESTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:45-11:30] JUE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "18"
+        }
+      ]
+    },
+    {
+      "codigo": "NE0001",
+      "nombre": "Historia natural de Costa Rica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CARVAJAL ALFARO VANESSA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[12:30-15:10]",
+          "edificio": "A",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "FI2103",
+      "nombre": "Física general III",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CHAVES ALVAREZ MARCELA MARIA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:45-11:30] MIE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "9"
+        },
+        {
+          "grupo": 51,
+          "profesor": "SEQUEIRA CASTRO DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[14:20-16:05] VIE[14:20-16:05]",
+          "edificio": "A",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "QU1107",
+      "nombre": "Química básica II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 52,
+          "profesor": "CHAVES BARQUERO LUIS GERARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[12:30-14:15] JUE[12:30-14:15]",
+          "edificio": "A",
+          "aula": "3"
+        },
+        {
+          "grupo": 50,
+          "profesor": "PORRAS CAJINA DANILO ALBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-19:45] MIE[16:10-17:55]",
+          "edificio": "A",
+          "aula": "3"
+        },
+        {
+          "grupo": 51,
+          "profesor": "PORRAS CAJINA DANILO ALBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:45-11:30] JUE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "QU1102",
+      "nombre": "Laboratorio de química básica I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 51,
+          "profesor": "FERNANDEZ RODRIGUEZ MARCELA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:45-11:30]",
+          "edificio": "LQ",
+          "aula": "1"
+        },
+        {
+          "grupo": 50,
+          "profesor": "VILLALOBOS MURILLO JOHANA",
+          "modalidad": "Regular",
+          "horario": "MIE[16:10-17:55]",
+          "edificio": "LQ",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "MA1102",
+      "nombre": "Cálculo diferencial e integral",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 53,
+          "profesor": "FREER PANIAGUA DYLANA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:45-11:30] JUE[08:50-11:30]",
+          "edificio": "A",
+          "aula": "18"
+        },
+        {
+          "grupo": 51,
+          "profesor": "GUILLEN PEREZ CARLOS ENRIQUE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:00-09:40] VIE[07:00-08:45]",
+          "edificio": "A",
+          "aula": "19"
+        },
+        {
+          "grupo": 52,
+          "profesor": "GUILLEN PEREZ CARLOS ENRIQUE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[12:30-15:10] VIE[12:30-14:15]",
+          "edificio": "A",
+          "aula": "18"
+        },
+        {
+          "grupo": 50,
+          "profesor": "MEJIAS RAMIREZ ELVIS ANDRES",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[14:20-17:00] JUE[14:20-16:05]",
+          "edificio": "A",
+          "aula": "19"
+        },
+        {
+          "grupo": 54,
+          "profesor": "SABORIO CORDERO NATALIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[08:50-11:30] VIE[09:45-11:30]",
+          "edificio": "E",
+          "aula": "209"
+        }
+      ]
+    },
+    {
+      "codigo": "NE1006",
+      "nombre": "Física para Agronomía",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GAMBOA ALFARO MARVIN RICARDO",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-19:45] VIE[09:45-14:15]",
+          "edificio": "A",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "BI1102",
+      "nombre": "Laboratorio de biología general",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GATJENS BONICHE OMAR",
+          "modalidad": "Regular",
+          "horario": "MIE[14:20-16:05]",
+          "edificio": "LB",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "BI2301",
+      "nombre": "Genética",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GATJENS BONICHE OMAR",
+          "modalidad": "Regular",
+          "horario": "JUE[14:20-17:00]",
+          "edificio": "A",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "BI2303",
+      "nombre": "Laboratorio de genética",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GATJENS BONICHE OMAR",
+          "modalidad": "Regular",
+          "horario": "MAR[09:45-11:30]",
+          "edificio": "LB",
+          "aula": "2"
+        },
+        {
+          "grupo": 51,
+          "profesor": "GATJENS BONICHE OMAR",
+          "modalidad": "Regular",
+          "horario": "MAR[14:20-16:05]",
+          "edificio": "LB",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "MA1403",
+      "nombre": "Matemática discreta",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GONZALEZ VARGAS KARINA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[12:30-14:15] JUE[12:30-14:15]",
+          "edificio": "A",
+          "aula": "19"
+        },
+        {
+          "grupo": 51,
+          "profesor": "SABORIO CORDERO NATALIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "MA2105",
+      "nombre": "Ecuaciones diferenciales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUILLEN PEREZ CARLOS ENRIQUE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "19"
+        }
+      ]
+    },
+    {
+      "codigo": "MA1303",
+      "nombre": "Matemática básica para administración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "JIMENEZ CESPEDES RODOLFO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": "A",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "MA1304",
+      "nombre": "Cálculo para administración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "JIMENEZ CESPEDES RODOLFO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": "A",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "BI1101",
+      "nombre": "Biología general",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "JIMENEZ MADRIGAL JOSE PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[08:50-11:30]",
+          "edificio": "A",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "BI2408",
+      "nombre": "Fundamentos de agroecología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MAGLIANESI MARIA ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-11:30] MIE[07:00-11:30]",
+          "edificio": "A",
+          "aula": "5"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MAGLIANESI MARIA ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-17:00] MIE[12:30-17:00]",
+          "edificio": "A",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "MA3405",
+      "nombre": "Estadística",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MEJIAS RAMIREZ ELVIS ANDRES",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:45-11:30] JUE[09:45-11:30]",
+          "edificio": "A",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "NE1004",
+      "nombre": "Estadística inferencial para turismo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MEJIAS RAMIREZ ELVIS ANDRES",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:10-17:55] MIE[16:10-17:55]",
+          "edificio": "E",
+          "aula": "106"
+        }
+      ]
+    },
+    {
+      "codigo": "BI1201",
+      "nombre": "Botánica general",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RAMIREZ PEREZ KARINA",
+          "modalidad": "Regular",
+          "horario": "MAR[08:50-11:30]",
+          "edificio": "A",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "BI1202",
+      "nombre": "Laboratorio botánica general",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RAMIREZ PEREZ KARINA",
+          "modalidad": "Regular",
+          "horario": "JUE[08:50-10:35]",
+          "edificio": "LB",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "RAMIREZ PEREZ KARINA",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-14:15]",
+          "edificio": "LB",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "codigoEscuela": "PI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN PRODUCCION INDUSTRIAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "PI2608",
+      "nombre": "Análisis estadístico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALEGRIA GRANADOS MELISSA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "BRENES MORALES ORLANDO",
+          "modalidad": "Regular",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI2610",
+      "nombre": "Probabilidad y estadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ALEGRIA GRANADOS MELISSA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "DANIELS CHAN ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3512",
+      "nombre": "Dirección de personal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALEGRIA GRANADOS MELISSA",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "VARGAS GOMEZ PABLO JOSE",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4307",
+      "nombre": "Control de calidad",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALEGRIA GRANADOS MELISSA",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ALVARADO PEÑA MARCO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5601",
+      "nombre": "Diagnóstico industrial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ALVARADO PEÑA MARCO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "BLANCO VALVERDE JOHANNA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5707",
+      "nombre": "Ingeniería de la confiabilidad",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVARADO PEÑA MARCO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "LEMAITRE GONZALEZ ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3502",
+      "nombre": "Costos industriales II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVAREZ SOLORZANO DIOGENES",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CORDERO MEZA HAROLD",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3603",
+      "nombre": "Investigación de operaciones I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVAREZ SOLORZANO DIOGENES",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ROBLES OBANDO NATALIA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4505",
+      "nombre": "Análisis económico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ALVAREZ SOLORZANO DIOGENES",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "BRENES NAVARRO BALAM",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3403",
+      "nombre": "Sistema de información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ARIAS RAMIREZ DENNIS",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "CAVERO QUESADA ANDREA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5408",
+      "nombre": "Tópicos avanzados de producción",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS RAMIREZ DENNIS",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4303",
+      "nombre": "Control de producción",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES BONILLA JARY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SANCHEZ BRENES MAGALY",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4309",
+      "nombre": "Planeación y diseño de instalaciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES BONILLA JARY",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "GARCES MONGE LUIS IGNACIO",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3501",
+      "nombre": "Costos Industriales I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "BRENES MORALES ORLANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MADRIZ QUIROS CARMEN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3407",
+      "nombre": "Computación industrial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "BRENES NAVARRO BALAM",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "LEMAITRE GONZALEZ ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "LEMAITRE GONZALEZ ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5516",
+      "nombre": "Ingeniería económica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHACON ROJAS FERNANDO",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI2304",
+      "nombre": "Estudio del trabajo I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CORDERO MEZA HAROLD",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "HASBUM FERNANDEZ  IVANNIA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4802",
+      "nombre": "Administración de proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CORDERO MEZA HAROLD",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "FONSECA RETANA LEONEL",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4001",
+      "nombre": "Dirección de personal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CORDOBA GONZALEZ CARLOS MANUEL",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "GARCIA ROMERO SOFIA",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI2609",
+      "nombre": "Probabilidad y estadística",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "DANIELS CHAN ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "HASBUM FERNANDEZ  IVANNIA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "LOPEZ FALLAS BRYAN",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3308",
+      "nombre": "Estudio del trabajo II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DANIELS CHAN ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "HASBUM FERNANDEZ  IVANNIA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3206",
+      "nombre": "Logística y administración de la cadena de abastecimiento",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "GARCES MONGE LUIS IGNACIO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "HASBUM FERNANDEZ  IVANNIA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5706",
+      "nombre": "Evaluación de proyectos de inversión",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARCES MONGE LUIS IGNACIO",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5402",
+      "nombre": "Automatización de manufactura",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUTIERREZ ESPINOZA KEVIN",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "HERNANDEZ GRANADOS JUAN BAUTISTA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4803",
+      "nombre": "Gestión de la innovación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LAFUENTE CHRYSOOPULOS RAQUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5401",
+      "nombre": "Simulación industrial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MADRIZ QUIROS CARMEN",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SANCHEZ BRENES MAGALY",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5302",
+      "nombre": "Diseño de experimentos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "MENESES GUZMAN MARCELA",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ROBLES OBANDO NATALIA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SANCHEZ BRENES MAGALY",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3612",
+      "nombre": "Probabilidad y estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAS CERDAS LISS",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SOLANO LEANDRO PAULA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5101",
+      "nombre": "Gestión de procesos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SILES SOLANO ANA CATALINA",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3901",
+      "nombre": "Administración de la producción",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLANO LEANDRO PAULA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4306",
+      "nombre": "Metrología y normalización",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "SOLANO LEANDRO PAULA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "TORRES NAVARRO RAFAEL",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

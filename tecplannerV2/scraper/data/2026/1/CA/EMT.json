@@ -1,0 +1,566 @@
+{
+  "codigoEscuela": "EMT",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN MECATRONICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MT5002",
+      "nombre": "Modelos de sistemas para mecatrónica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MENESES IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ARAYA MENESES IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT7004",
+      "nombre": "Neumática y oleohidráulica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MENESES IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ARAYA MENESES IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "ARAYA MENESES IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "ARAYA MENESES IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT6003",
+      "nombre": "Laboratorio de termofluidos",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS CARTIN JUAN PABLO",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MONGE RUIZ OSCAR EDUARDO",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT2002",
+      "nombre": "Laboratorio de circuitos de corriente continua y corriente alterna",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS ESQUIVEL YEINER",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "ASENJO CASTILLO EDUARDO JOSE",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MELENDEZ POLTRONIERI ROGER",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT5003",
+      "nombre": "Electrónica de potencia aplicada",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS ESQUIVEL YEINER",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT8002",
+      "nombre": "Automatización y redes industriales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ASENJO CASTILLO EDUARDO JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "CARRASQUILLA BATISTA ARYS INDIRA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT5004",
+      "nombre": "Laboratorio de electrónica de potencia aplicada",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES TORRES JUAN CARLOS",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT7002",
+      "nombre": "Sensores y actuadores",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES TORRES JUAN CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT8005",
+      "nombre": "Robótica",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES TORRES JUAN CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT4002",
+      "nombre": "Laboratorio electrónica digital",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CASTRO GODINEZ JORGE ALBERTO",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CASTRO GODINEZ JORGE ALBERTO",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT8008",
+      "nombre": "Inteligencia artificial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CRESPO MARINO JUAN LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT9001",
+      "nombre": "Diseño de sistemas mecatrónicos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CRESPO MARINO JUAN LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT9008",
+      "nombre": "Sistemas de visión",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CRESPO MARINO JUAN LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT6002",
+      "nombre": "Termofluidos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DEL VALLE GRANADOS IGNACIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT3002",
+      "nombre": "Laboratorio de electrónica analógica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT8003",
+      "nombre": "Sistemas de manufactura",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT3004",
+      "nombre": "Laboratorio de máquinas eléctricas para mecatrónica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUERRERO  CASTRO OSVALDO",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MATA ORTEGA SEBASTIAN",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MATA ORTEGA SEBASTIAN",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT7006",
+      "nombre": "Diseño máquinas y mecanismos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LOAIZA BALDARES RONALD",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT9009",
+      "nombre": "Mems-nems",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MAYORGA ESPINOZA CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT2001",
+      "nombre": "Circuitos eléctricos en CC y CA",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MEZA OBANDO FELIPE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MORA MELENDEZ JAIME",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT8001",
+      "nombre": "Teoría de comunicación y procesamiento de señales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MEZA OBANDO FELIPE",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[14:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT9002",
+      "nombre": "Mantenimiento de sistemas mecatrónicos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO JIMENEZ JUAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT3001",
+      "nombre": "Electrónica analógica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO RODRIGUEZ JUAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT7001",
+      "nombre": "Análisis y simulación de sistemas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORA MELENDEZ JAIME",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ORTIZ LEON GABRIELA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT7003",
+      "nombre": "Microprocesadores y microcontroladores",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PIEDRA CAMACHO RODOLFO JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT4001",
+      "nombre": "Electrónica digital",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAZAR GARCIA CARLOS ADRIAN",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-18:50] MIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT7005",
+      "nombre": "Formulación de proyectos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAZAR GARCIA CARLOS ADRIAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT3003",
+      "nombre": "Máquinas eléctricas para mecatrónica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VAQUERANO PINEDA NICOLAS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

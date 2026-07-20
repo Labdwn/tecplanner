@@ -1,0 +1,85 @@
+{
+  "codigoEscuela": "IBL",
+  "nombreEscuela": "LICENCIATURA INGENIERIA EN BIOTECNOLOGIA PARA EGRESADOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "BL1127",
+      "nombre": "Modelo de negocios de empresas biotecnológicas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVARADO ULLOA CARLOS",
+          "modalidad": "Virtual",
+          "horario": "VIE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BL1101",
+      "nombre": "Diseño de experimentos para biotecnología",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHICAS ROMERO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "SAB[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BL1102",
+      "nombre": "Gestión de la calidad en procesos biotecnológicos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MENESES MONTERO KARLA",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-20:50] MAR[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BL1124",
+      "nombre": "Control de calidad aplicado a las empresas de manufactura de dispositivos médicos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO CAMPOS VIRGINIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BL1126",
+      "nombre": "Bioinformática aplicada",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TREJOS ESPINOZA RAUL",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

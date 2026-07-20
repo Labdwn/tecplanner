@@ -1,0 +1,591 @@
+{
+  "codigoEscuela": "CO",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN CONSTRUCCION",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CO4107",
+      "nombre": "Programación de proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALAN ZUÑIGA MANUEL ANTONIO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5024",
+      "nombre": "Normativa en la construcción",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALAN ZUÑIGA MANUEL ANTONIO",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4108",
+      "nombre": "Taller I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA OBANDO JOSE ANDRES",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "F1",
+          "aula": "6"
+        },
+        {
+          "grupo": 2,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": "F1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CO2203",
+      "nombre": "Interpretación de planos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA RODRIGUEZ MAURICIO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "F1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3401",
+      "nombre": "Mecánica del solido I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA RODRIGUEZ MAURICIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3103",
+      "nombre": "Costos de construcción I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS PORRAS MARIA FERNANDA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5031",
+      "nombre": "Administración de empresas constructoras",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARTAVIA ALVARADO MIGUEL",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-20:50] MAR[18:00-20:50]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5051",
+      "nombre": "Control de costos de construcción",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARTAVIA ALVARADO MIGUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50] LUN[18:00-20:50]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4308",
+      "nombre": "Mecánica de suelos II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BALTODANO GOULDING RAFAEL",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-12:20]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO2201",
+      "nombre": "Dibujo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CABRERA SANDOVAL MARCO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "F1",
+          "aula": "6"
+        },
+        {
+          "grupo": 2,
+          "profesor": "CABRERA SANDOVAL MARCO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "F1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4406",
+      "nombre": "Estructuras de mampostería",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CARRANZA SOLANO MAURICIO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-10:20]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5013",
+      "nombre": "Análisis estructural",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CARRANZA SOLANO MAURICIO",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5032",
+      "nombre": "Construcción de pavimentos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CASTRO FERNANDEZ PEDRO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "F1",
+          "aula": "4"
+        },
+        {
+          "grupo": 2,
+          "profesor": "FERNANDEZ CERDAS SERGIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3403",
+      "nombre": "Concreto",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CUEVAS KAUFFMANN ROMMEL LEZING",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3304",
+      "nombre": "Laboratorio mecánica de suelos I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ CERDAS SERGIO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": "G5",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "POVEDA MONTOYA WILLIAM ALONSO",
+          "modalidad": "Regular",
+          "horario": "JUE[10:30-12:20]",
+          "edificio": "G5",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CO2202",
+      "nombre": "Topografía",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FUENTES AGUILAR OLMAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-12:20]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4309",
+      "nombre": "Carreteras II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ VEGA HENRY",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "F1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CO2205",
+      "nombre": "Estática",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MATTHEWS GARRO JOSE IGNACIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4307",
+      "nombre": "Carreteras I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MEDINA ANGULO EZEQUIEL ALEJANDRO",
+          "modalidad": "Regular",
+          "horario": "VIE[14:00-16:50]",
+          "edificio": "F1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3503",
+      "nombre": "Laboratorio de hidráulica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MENDEZ MORALES MAIKEL",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": "G5",
+          "aula": "2"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MENDEZ MORALES MAIKEL",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": "G5",
+          "aula": "2"
+        },
+        {
+          "grupo": 3,
+          "profesor": "MENDEZ MORALES MAIKEL",
+          "modalidad": "Laboratorio",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": "G5",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4409",
+      "nombre": "Estructuras de acero",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MIRANDA JENKINS PIO ALBERTO",
+          "modalidad": "Regular",
+          "horario": "VIE[08:30-11:20]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4405",
+      "nombre": "Construcción de estructuras de concreto",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NAVARRO MORA ANGEL",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": "D3",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5023",
+      "nombre": "Estructuras temporales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NAVARRO MORA ANGEL",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5056",
+      "nombre": "Taller de diseño",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ORTIZ QUESADA GEANNINA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-08:20]",
+          "edificio": "F1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3407",
+      "nombre": "Estructuras de concreto",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PERALTA SALAS MIGUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[15:00-17:50]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3404",
+      "nombre": "Laboratorio de concreto",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PEREIRA ALONSO EDUARDO JOSE",
+          "modalidad": "Regular",
+          "horario": "MIE[14:00-15:50]",
+          "edificio": "G5",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "PEREIRA ALONSO EDUARDO JOSE",
+          "modalidad": "Regular",
+          "horario": "JUE[14:00-15:50]",
+          "edificio": "G5",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4106",
+      "nombre": "Taller II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PICADO VALVERDE SOFIA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CO4505",
+      "nombre": "Instalaciones electromecánicas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PIEDRA SEGURA JUAN FRANCISCO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3305",
+      "nombre": "Mecánica de suelos I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "POVEDA MONTOYA WILLIAM ALONSO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "F1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5012",
+      "nombre": "Diseño de procesos constructivos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROJAS CHACON LUIS GUSTAVO",
+          "modalidad": "Virtual",
+          "horario": "SAB[08:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3301",
+      "nombre": "Topografía aplicada",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLANO RIVERA WILLIAM",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-12:20]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3302",
+      "nombre": "Geología aplicada",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TAPIA BALLADARES MARCO",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3405",
+      "nombre": "Mecánica del solido II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TORRES HERNANDEZ LEONARDO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "D3",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "CO3501",
+      "nombre": "Hidráulica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "UMAÑA QUIROS BRAULIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "F1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CO5022",
+      "nombre": "Procesos constructivos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS CORRALES CAMILO JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[08:30-11:20]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7682 @@
+{
+  "AE4128": {
+    "nombre": "Auditoría I",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE2126": {
+    "nombre": "Contabilidad de costos I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE4226": {
+    "nombre": "Estrategia empresarial",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE2506": {
+    "nombre": "Estadística II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE3223": {
+    "nombre": "Gestión del talento humano I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE2308": {
+    "nombre": "Microeconomía",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE3415": {
+    "nombre": "Investigación de mercados",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE2220": {
+    "nombre": "Análisis administrativo",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE4130": {
+    "nombre": "Formulación y evaluación de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE4544": {
+    "nombre": "Analítica de negocio",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE1122": {
+    "nombre": "Contabilidad I",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE3505": {
+    "nombre": "Metodología de la investigación",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE2124": {
+    "nombre": "Contabilidad III",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE3127": {
+    "nombre": "Administración financiera I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE3312": {
+    "nombre": "Negocios internacionales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MR1102": {
+    "nombre": "Inferencia estadística",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MR1202": {
+    "nombre": "Sostenibilidad y desarrollo de sistemas naturales y productivos",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MR2533": {
+    "nombre": "Técnicas de identificación y valoración del daño ambiental",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MR2529": {
+    "nombre": "Aguas subterráneas",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MR1201": {
+    "nombre": "Gerencia de recursos naturales",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MR1103": {
+    "nombre": "Administración y manejo sostenible de recursos naturales",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "GP2527": {
+    "nombre": "BIM y la gestión de proyectos de construcción",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP0102": {
+    "nombre": "Formulación de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP2531": {
+    "nombre": "Estimación en proyectos de desarrollo de software",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP0100": {
+    "nombre": "Estrategia y gerencia de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "GP2502": {
+    "nombre": "Desarrollo de capacidades organizacionales para la administración de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP0201": {
+    "nombre": "Gerencia de proyectos I",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP0205": {
+    "nombre": "Oficina de proyectos y portafolios",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP0203": {
+    "nombre": "Gerencia de proyectos III",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP3906": {
+    "nombre": "Seminario de metodología de investigación en el énfasis en proyectos empresariales",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP3909": {
+    "nombre": "Seminario de metodología de investigación en el énfasis en tecnología de información",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP3912": {
+    "nombre": "Seminario de metodología de investigación en el énfasis en construcción",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP3908": {
+    "nombre": "Seminario de investigación II en el énfasis en proyectos empresariales",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP3911": {
+    "nombre": "Seminario de investigación II en el énfasis en tecnología de información",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "GP3914": {
+    "nombre": "Seminario de investigación II en el énfasis en construcción",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LE1206": {
+    "nombre": "Metodología de la investigación",
+    "creditos": 5,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LE1204": {
+    "nombre": "Psicología educativa en ETFP",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LE1205": {
+    "nombre": "Planificación didáctica y curricular en ETFP",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM2603": {
+    "nombre": "Cálculo y análisis I",
+    "creditos": 5,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM2604": {
+    "nombre": "Geometría I",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM1613": {
+    "nombre": "Tecnologías digitales aplicadas a la matemática educativa III",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM3409": {
+    "nombre": "Práctica docente",
+    "creditos": 6,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EM3048": {
+    "nombre": "Atención a la diversidad en la enseñanza y el aprendizaje de la matemática",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM1606": {
+    "nombre": "Fundamentos de matemática II",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM1607": {
+    "nombre": "Didáctica de la geometría",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM1614": {
+    "nombre": "Estadística inferencial",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM4612": {
+    "nombre": "Métodos numéricos",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM1600": {
+    "nombre": "Tecnologías digitales aplicadas a la matemática educativa I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM2608": {
+    "nombre": "Elementos de análisis de datos y probabilidad",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM2408": {
+    "nombre": "Aprendizaje y didáctica de la matemática",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM3608": {
+    "nombre": "Cálculo y análisis III",
+    "creditos": 5,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM4010": {
+    "nombre": "Programación lineal",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1503": {
+    "nombre": "Composición arquitectónica I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1903": {
+    "nombre": "Sistemas ambientales arquitectónicos I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU2005": {
+    "nombre": "Laboratorio de proyectos VIII, diseño integral",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU4408": {
+    "nombre": "Urbanismo ordenamiento territorial I",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU2006": {
+    "nombre": "Planos y especificaciones técnicas",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1904": {
+    "nombre": "Composición urbana I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1701": {
+    "nombre": "Laboratorio de proyectos IV, espacio arquitectónico",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1501": {
+    "nombre": "Laboratorio de proyectos II, Composición arquitectural",
+    "creditos": 5,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1303": {
+    "nombre": "Historia del arte y la arquitectura I",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1502": {
+    "nombre": "Introducción a la investigación",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU4004": {
+    "nombre": "Investigación dirigida",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU4533": {
+    "nombre": "Práctica de vinculación",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU3106": {
+    "nombre": "Teoría de la arquitectura II",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU4108": {
+    "nombre": "Teoría e historia urbanismo II",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU2103": {
+    "nombre": "Historia de arte y arquitectura de Costa Rica",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU5408": {
+    "nombre": "Proyecto de graduación",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AU4003": {
+    "nombre": "Planificación urbana y territorial aplicadas",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU5002": {
+    "nombre": "Laboratorio de proyectos X: Diseño urbano",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU5001": {
+    "nombre": "Laboratorio de proyectos X: Diseño arquitectónico",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1901": {
+    "nombre": "Laboratorio de proyectos VI, Sostenibilidad",
+    "creditos": 6,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1702": {
+    "nombre": "Sistemas de representación digital I",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1704": {
+    "nombre": "Diseño bioclimático",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1902": {
+    "nombre": "Instalaciones eléctricas",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AU1703": {
+    "nombre": "Sistemas de construcción I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE4208": {
+    "nombre": "Desarrollo de emprendedores",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE2125": {
+    "nombre": "Matemática financiera",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE3128": {
+    "nombre": "Administración financiera II",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE2311": {
+    "nombre": "Macroeconomía",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE4228": {
+    "nombre": "Gestión del talento humano II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE2219": {
+    "nombre": "Comportamiento organizacional",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE3414": {
+    "nombre": "Fundamentos de mercadeo",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE2705": {
+    "nombre": "Análisis y gestión de datos empresariales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE3551": {
+    "nombre": "Administración de proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE4549": {
+    "nombre": "Neuromarketing y neurociencia",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE4541": {
+    "nombre": "Impuestos en Costa Rica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE3552": {
+    "nombre": "Métodos cuantitativos para administración",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE4548": {
+    "nombre": "Creatividad e innovación empresarial",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE5121": {
+    "nombre": "Ingeniería económica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE5111": {
+    "nombre": "Contabilidad y finanzas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE5122": {
+    "nombre": "Ingeniería financiera",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE4312": {
+    "nombre": "Macroeconomía",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AE1205": {
+    "nombre": "Habilidades gerenciales",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI9805": {
+    "nombre": "Auditoría de TI",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI3602": {
+    "nombre": "Producción, logística y calidad",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI9003": {
+    "nombre": "Computación y sociedad",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI2201": {
+    "nombre": "Programación orientada a objetos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI5501": {
+    "nombre": "Diseño de software",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI8515": {
+    "nombre": "Inteligencia Artificial en Sistemas de Información",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI1201": {
+    "nombre": "Comportamiento organizacional y talento humano",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI4101": {
+    "nombre": "Planificación y presupuesto",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI8509": {
+    "nombre": "Habilidades directivas para el administrador de tecnología de la información",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI3801": {
+    "nombre": "Administración de proyectos II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI8902": {
+    "nombre": "Adquisición de TI",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI8905": {
+    "nombre": "Administración de servicios de tecnologías de información I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI8904": {
+    "nombre": "Administración de procesos de negocios",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI3603": {
+    "nombre": "Calidad en sistemas de información",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI4500": {
+    "nombre": "Ingeniería de requerimientos",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI6900": {
+    "nombre": "Inteligencia de negocios",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI5904": {
+    "nombre": "Investigación en sistemas de información",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI2404": {
+    "nombre": "Organización y arquitectura de computadoras",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI3604": {
+    "nombre": "Fundamentos de redes",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI2402": {
+    "nombre": "Algoritmos y estructuras de datos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI3600": {
+    "nombre": "Bases de datos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI1400": {
+    "nombre": "Introducción a la programación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI1401": {
+    "nombre": "Taller de programación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI3601": {
+    "nombre": "Modelo de toma de decisiones",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI4200": {
+    "nombre": "Economía",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI1102": {
+    "nombre": "Información contable",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TI8511": {
+    "nombre": "Fundamentos de transformación digital",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI9905": {
+    "nombre": "Sistemas de información empresarial",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TI4601": {
+    "nombre": "Bases de datos avanzados",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN3006": {
+    "nombre": "Investigación de operaciones en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AA2302": {
+    "nombre": "Contabilidad de costos aplicada",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN3007": {
+    "nombre": "Cultivos hortícolas",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN4007": {
+    "nombre": "Cultivos no tradicionales y tecnologías alternativas",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN4006": {
+    "nombre": "Gestión ambiental en agronegocios",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN2004": {
+    "nombre": "Laboratorio de bioquímica agroalimentaria",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN1004": {
+    "nombre": "Gestión en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN4005": {
+    "nombre": "Procesado productos pecuarios",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN3004": {
+    "nombre": "Fundamentos de agroindustria alimentaria",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN4008": {
+    "nombre": "Sistematización de datos en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN2003": {
+    "nombre": "Bioquímica agroalimentaria",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN3005": {
+    "nombre": "Finanzas en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN4002": {
+    "nombre": "Mercadeo productos agroindustriales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN3008": {
+    "nombre": "Probabilidad y estadísticas en los agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AA3202": {
+    "nombre": "Anatomía y fisiología animal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AA4205": {
+    "nombre": "Producción bovina",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AN7001": {
+    "nombre": "Gestión de certificaciones en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "BI1101": {
+    "nombre": "Biología general",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "BI1102": {
+    "nombre": "Laboratorio de biología general",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM3207": {
+    "nombre": "Métodos numéricos para ingeniería",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM3205": {
+    "nombre": "Tecnología de maquinado",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM3601": {
+    "nombre": "Mecánica de fluidos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4307": {
+    "nombre": "Conformado de materiales",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM5302": {
+    "nombre": "Equipos auxiliares de planta",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM2103": {
+    "nombre": "Termodinámica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM2402": {
+    "nombre": "Laboratorio de metalurgia física",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4108": {
+    "nombre": "Transferencia de calor",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4202": {
+    "nombre": "Laboratorio tecnología aleaciones metálicas",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ME3208": {
+    "nombre": "Tecnología de materiales",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4309": {
+    "nombre": "Corrosión y protección de materiales",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4802": {
+    "nombre": "Gestión de proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM5901": {
+    "nombre": "Ensayos no destructivos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4101": {
+    "nombre": "Modelación y simulación",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4701": {
+    "nombre": "Transferencia de calor y masa",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM5241": {
+    "nombre": "Tecnología de recubrimientos y capas delgadas",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4801": {
+    "nombre": "Caracterización de materiales",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM3602": {
+    "nombre": "Tecnología de aleaciones metálicas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ME3209": {
+    "nombre": "Laboratorio de tecnología de materiales",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM5221": {
+    "nombre": "Biomateriales",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ME2208": {
+    "nombre": "Ciencias de los materiales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4305": {
+    "nombre": "Tecnología de polímeros",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM3603": {
+    "nombre": "Mecánica de materiales avanzada",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4803": {
+    "nombre": "Taller de diseño en ciencia e ingeniería de los materiales",
+    "creditos": 7,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM3103": {
+    "nombre": "Termodinámica de materiales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM5104": {
+    "nombre": "Diseño de moldes y troqueles",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM4702": {
+    "nombre": "Materiales cerámicos y compuestos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM3501": {
+    "nombre": "Materiales poliméricos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM2401": {
+    "nombre": "Metalurgia física",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM3208": {
+    "nombre": "Metrología para ingeniería",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CM5243": {
+    "nombre": "Análisis de fallas",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI0202": {
+    "nombre": "Inglés básico",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1230": {
+    "nombre": "Inglés I",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1231": {
+    "nombre": "Inglés II",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1106": {
+    "nombre": "Comunicación escrita",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1107": {
+    "nombre": "Comunicación oral",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1108": {
+    "nombre": "Destrezas comunicativas del inglés para biotecnología I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "CI2308": {
+    "nombre": "Inglés IV para administración",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI3202": {
+    "nombre": "Inglés para mecatrónica",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1407": {
+    "nombre": "Habilidades de comunicación en Ingeniería",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI3203": {
+    "nombre": "Inglés especializado para ingenierías en computadores",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1305": {
+    "nombre": "Inglés I para administración",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1306": {
+    "nombre": "Inglés II para administración",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI2307": {
+    "nombre": "Inglés III para administración",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI1202": {
+    "nombre": "Inglés para biotecnología I",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "CI1406": {
+    "nombre": "Argumentación e investigación en comunicación académica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "CI3400": {
+    "nombre": "Inglés 1 (ATI)",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CI4401": {
+    "nombre": "Inglés II (ATI)",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "FI1101": {
+    "nombre": "Física general I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "FI1102": {
+    "nombre": "Física general II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "FI1201": {
+    "nombre": "Laboratorio física general I",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "FI1202": {
+    "nombre": "Laboratorio física general II",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "NE1001": {
+    "nombre": "Fundamentos de química ambiental para turismo",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "QU1104": {
+    "nombre": "Laboratorio de química básica II",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU1106": {
+    "nombre": "Química básica I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA2404": {
+    "nombre": "Probabilidades",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA0101": {
+    "nombre": "Matemática general",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA1103": {
+    "nombre": "Cálculo y álgebra lineal",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA2104": {
+    "nombre": "Cálculo superior",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "NE0001": {
+    "nombre": "Historia natural de Costa Rica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FI2103": {
+    "nombre": "Física general III",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU1107": {
+    "nombre": "Química básica II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU1102": {
+    "nombre": "Laboratorio de química básica I",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA1102": {
+    "nombre": "Cálculo diferencial e integral",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "NE1006": {
+    "nombre": "Física para Agronomía",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "BI2301": {
+    "nombre": "Genética",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "BI2303": {
+    "nombre": "Laboratorio de genética",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MA1403": {
+    "nombre": "Matemática discreta",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA2105": {
+    "nombre": "Ecuaciones diferenciales",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA1303": {
+    "nombre": "Matemática básica para administración",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA1304": {
+    "nombre": "Cálculo para administración",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "BI2408": {
+    "nombre": "Fundamentos de agroecología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MA3405": {
+    "nombre": "Estadística",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "NE1004": {
+    "nombre": "Estadística inferencial para turismo",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "BI1201": {
+    "nombre": "Botánica general",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "BI1202": {
+    "nombre": "Laboratorio botánica general",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "CS1308": {
+    "nombre": "Derecho comercial",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS3401": {
+    "nombre": "Seminario de estudios filosóficos históricos",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS3406": {
+    "nombre": "Seminario de ética para administración de empresas",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS4402": {
+    "nombre": "Seminario de estudios costarricenses",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS2404": {
+    "nombre": "Seminario de problemática urbana",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS2101": {
+    "nombre": "Ambiente humano",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS2303": {
+    "nombre": "Relaciones laborales",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS5300": {
+    "nombre": "Desarrollo tecnológico y sostenibilidad",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS1502": {
+    "nombre": "Introducción a la técnica ciencia y tecnología",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS3404": {
+    "nombre": "Seminario de ética para la ingeniería",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS2304": {
+    "nombre": "Derecho laboral",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS3405": {
+    "nombre": "Derecho informático y mercantil",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS3301": {
+    "nombre": "Derecho ambiental y biotecnológico",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CS3305": {
+    "nombre": "Legislación agrícola",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "CS4108": {
+    "nombre": "Derecho ambiental",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SE1102": {
+    "nombre": "Acción social",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1204": {
+    "nombre": "Natación",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1205": {
+    "nombre": "Juegos y deportes en conjunto",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1219": {
+    "nombre": "Baloncesto recreativo",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1105": {
+    "nombre": "Artes musicales",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1104": {
+    "nombre": "Artes visuales",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1107": {
+    "nombre": "Apreciación de cine",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1101": {
+    "nombre": "Artes dramáticas",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1221": {
+    "nombre": "Futbol I",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1201": {
+    "nombre": "Atletismo",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1206": {
+    "nombre": "Acondicionamiento físico",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1209": {
+    "nombre": "Béisbol-softbol",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1222": {
+    "nombre": "Futbol sala",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1103": {
+    "nombre": "Danza",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1106": {
+    "nombre": "Apreciación literaria",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1109": {
+    "nombre": "Dinámica de la cultura",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1218": {
+    "nombre": "Ajedrez",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1223": {
+    "nombre": "Voleibol",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE1220": {
+    "nombre": "Baloncesto",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "FI1503": {
+    "nombre": "Fundamentos de física para arquitectura",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ST2002": {
+    "nombre": "Evolución social de Costa Rica",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MI2202": {
+    "nombre": "Laboratorio de electricidad I",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI2205": {
+    "nombre": "Electricidad I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3209": {
+    "nombre": "Electricidad III",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3111": {
+    "nombre": "Laboratorio de mecánica de fluidos",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI5215": {
+    "nombre": "Análisis de sistemas eléctricos de potencia",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI2101": {
+    "nombre": "Dibujo técnico",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI8304": {
+    "nombre": "Máquinas y equipos",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MI3104": {
+    "nombre": "Laboratorio procesos de manufactura",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3103": {
+    "nombre": "Procesos de manufactura",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3108": {
+    "nombre": "Mecánica de fluidos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3130": {
+    "nombre": "Termodinámica",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3116": {
+    "nombre": "Turbo máquinas",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI4125": {
+    "nombre": "Laboratorio de sistemas de vapor",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI4129": {
+    "nombre": "Sistemas de vapor",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI4210": {
+    "nombre": "Laboratorio de control eléctrico",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI4212": {
+    "nombre": "Instalaciones eléctricas",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI2204": {
+    "nombre": "Laboratorio de electricidad II",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3206": {
+    "nombre": "Laboratorio de máquinas eléctricas",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3210": {
+    "nombre": "Máquinas eléctricas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI2106": {
+    "nombre": "Estática",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3138": {
+    "nombre": "Máquinas y equipos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3124": {
+    "nombre": "Dibujo industrial",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3115": {
+    "nombre": "Resistencia de materiales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI4300": {
+    "nombre": "Administración mantenimiento I",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI6253": {
+    "nombre": "Fundamentos en administración de proyectos en ingeniería",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MI4311": {
+    "nombre": "Modelos cuantitativos para la toma de decisiones",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3119": {
+    "nombre": "Laboratorio de turbomáquinas",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI6259": {
+    "nombre": "Sistemas de refrigeración",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI3117": {
+    "nombre": "Dinámica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI2109": {
+    "nombre": "Estática",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI6258": {
+    "nombre": "Sistema de puesta a tierra",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MI4209": {
+    "nombre": "Control eléctrico",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI4136": {
+    "nombre": "Elementos de máquinas",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI4305": {
+    "nombre": "Administración de mantenimiento II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI6351": {
+    "nombre": "Mantenimiento predictivo",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI5151": {
+    "nombre": "Diseño mecánico",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MI2207": {
+    "nombre": "Electricidad II",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MI4510": {
+    "nombre": "Electrotecnia",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC1802": {
+    "nombre": "Introducción a la programación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC1803": {
+    "nombre": "Taller de programación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC3101": {
+    "nombre": "Arquitectura de computadores",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC6600": {
+    "nombre": "Principios de sistemas operativos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC6400": {
+    "nombre": "Investigación de operaciones",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC5821": {
+    "nombre": "Requerimientos de software",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC4301": {
+    "nombre": "Bases de datos I",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC6200": {
+    "nombre": "Inteligencia artificial",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CA2125": {
+    "nombre": "Elementos de computación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC7900": {
+    "nombre": "Computación y sociedad",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC7602": {
+    "nombre": "Redes",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC1400": {
+    "nombre": "Fundamentos de organización de computadoras",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC4810": {
+    "nombre": "Administración de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC6821": {
+    "nombre": "Diseño de software",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC6831": {
+    "nombre": "Aseguramiento de la calidad del software",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC8071": {
+    "nombre": "Seguridad del software",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CA3125": {
+    "nombre": "Análisis y diseño de algoritmos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC7841": {
+    "nombre": "Proyecto de ingeniería de software",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC8057": {
+    "nombre": "Introducción al desarrollo de paginas web",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC2001": {
+    "nombre": "Estructuras de datos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC3002": {
+    "nombre": "Análisis de algoritmos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC2101": {
+    "nombre": "Programación orientada a objetos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC4302": {
+    "nombre": "Bases de datos II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC4700": {
+    "nombre": "Lenguajes de programación",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC5701": {
+    "nombre": "Compiladores e interpretes",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC8076": {
+    "nombre": "Introducción al análisis de datos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC8063": {
+    "nombre": "Comercio electrónico",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IC8842": {
+    "nombre": "Práctica profesional",
+    "creditos": 12,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC8048": {
+    "nombre": "Simulación de sistemas naturales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IC8059": {
+    "nombre": "Introducción a los gráficos por computador",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IC8058": {
+    "nombre": "Sistemas de información geográfica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC8073": {
+    "nombre": "Introducción a la realidad virtual",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IC8060": {
+    "nombre": "Recuperación de información textual",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IC8052": {
+    "nombre": "Criptografía",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IC8078": {
+    "nombre": "Almacenes de datos y procesamiento OLAP",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1109": {
+    "nombre": "Circuitos analógicos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1103": {
+    "nombre": "Algoritmos y estructuras de datos I",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1106": {
+    "nombre": "Paradigmas de programación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE4302": {
+    "nombre": "Arquitectura de computadores II",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE4303": {
+    "nombre": "Principios de sistemas operativos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1107": {
+    "nombre": "Fundamentos de Arquitectura de Computadores",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1110": {
+    "nombre": "Análisis de señales mixtas",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1112": {
+    "nombre": "Taller de señales mixtas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1113": {
+    "nombre": "Sistemas empotrados",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE4301": {
+    "nombre": "Arquitectura de computadores I",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1105": {
+    "nombre": "Principios de modelado en Ingeniería",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1108": {
+    "nombre": "Compiladores e intérpretes",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1116": {
+    "nombre": "Diseño y calidad en productos tecnológicos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1114": {
+    "nombre": "Proyecto de aplicación de la ingeniería en computadores",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE2103": {
+    "nombre": "Algoritmos y estructuras de datos II",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE3101": {
+    "nombre": "Bases de datos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1101": {
+    "nombre": "Introducción a la programación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1117": {
+    "nombre": "Formulación y Gestión de Proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE5600": {
+    "nombre": "Trabajo final de graduación",
+    "creditos": 10,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE5601": {
+    "nombre": "Trabajo final de graduación",
+    "creditos": 12,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1111": {
+    "nombre": "Análisis numérico para la Ingeniería",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE5301": {
+    "nombre": "Redes de computadores",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1115": {
+    "nombre": "Seguridad de la información",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CE1104": {
+    "nombre": "Fundamentos de sistemas computacionales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4107": {
+    "nombre": "Programación de proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5024": {
+    "nombre": "Normativa en la construcción",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4108": {
+    "nombre": "Taller I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO2203": {
+    "nombre": "Interpretación de planos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3401": {
+    "nombre": "Mecánica del solido I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3103": {
+    "nombre": "Costos de construcción I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5031": {
+    "nombre": "Administración de empresas constructoras",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5051": {
+    "nombre": "Control de costos de construcción",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4308": {
+    "nombre": "Mecánica de suelos II",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO2201": {
+    "nombre": "Dibujo",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4406": {
+    "nombre": "Estructuras de mampostería",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5013": {
+    "nombre": "Análisis estructural",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5032": {
+    "nombre": "Construcción de pavimentos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3403": {
+    "nombre": "Concreto",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3304": {
+    "nombre": "Laboratorio mecánica de suelos I",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO2202": {
+    "nombre": "Topografía",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4309": {
+    "nombre": "Carreteras II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO2205": {
+    "nombre": "Estática",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4307": {
+    "nombre": "Carreteras I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3503": {
+    "nombre": "Laboratorio de hidráulica",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4409": {
+    "nombre": "Estructuras de acero",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4405": {
+    "nombre": "Construcción de estructuras de concreto",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5023": {
+    "nombre": "Estructuras temporales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5056": {
+    "nombre": "Taller de diseño",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3407": {
+    "nombre": "Estructuras de concreto",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3404": {
+    "nombre": "Laboratorio de concreto",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4106": {
+    "nombre": "Taller II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO4505": {
+    "nombre": "Instalaciones electromecánicas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3305": {
+    "nombre": "Mecánica de suelos I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5012": {
+    "nombre": "Diseño de procesos constructivos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3301": {
+    "nombre": "Topografía aplicada",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3302": {
+    "nombre": "Geología aplicada",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3405": {
+    "nombre": "Mecánica del solido II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO3501": {
+    "nombre": "Hidráulica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "CO5022": {
+    "nombre": "Procesos constructivos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL3310": {
+    "nombre": "Diseño de sistemas digitales",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL2114": {
+    "nombre": "Circuitos eléctricos en corriente alterna",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL4513": {
+    "nombre": "Teoría electromagnética I",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL1200": {
+    "nombre": "Introducción a la electrónica",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EL2111": {
+    "nombre": "Laboratorio de circuitos eléctricos",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL2113": {
+    "nombre": "Circuitos eléctricos en corriente continua",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL4607": {
+    "nombre": "Normalización técnica (estándares industriales)",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5617": {
+    "nombre": "Trabajo final de graduación",
+    "creditos": 7,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL2207": {
+    "nombre": "Elementos activos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5408": {
+    "nombre": "Control automático",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5521": {
+    "nombre": "Comunicaciones eléctricas II",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5522": {
+    "nombre": "Taller de comunicaciones eléctricas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL4703": {
+    "nombre": "Señales y sistemas",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5409": {
+    "nombre": "Laboratorio de control automático",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5513": {
+    "nombre": "Comunicaciones eléctricas I",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL2110": {
+    "nombre": "Laboratorio de mediciones eléctricas",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL4314": {
+    "nombre": "Arquitectura de computadoras I",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL3216": {
+    "nombre": "Circuitos integrados analógicos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL4702": {
+    "nombre": "Probabilidad y estadística",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5805": {
+    "nombre": "Procesamiento digital de señales",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EL4201": {
+    "nombre": "Procesamiento electrónico de potencia",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL3215": {
+    "nombre": "Laboratorio de electrónica analógica",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5841": {
+    "nombre": "Taller de sistemas embebidos",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL3307": {
+    "nombre": "Diseño lógico",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5807": {
+    "nombre": "Introducción al diseño de circuitos integrados",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5610": {
+    "nombre": "Taller integrador",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL3313": {
+    "nombre": "Taller de diseño digital",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL4514": {
+    "nombre": "Teoría electromagnética II",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL3217": {
+    "nombre": "Taller de diseño analógico",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5811": {
+    "nombre": "Verificación funcional de circuitos integrados",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL4419": {
+    "nombre": "Análisis y control de sistemas lineales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5609": {
+    "nombre": "Formulación de proyectos",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5854": {
+    "nombre": "Sistemas fotovoltaicos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5855": {
+    "nombre": "Ingeniería de pruebas para circuitos integrados",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL3212": {
+    "nombre": "Circuitos discretos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5842": {
+    "nombre": "Taller de instrumentación",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5856": {
+    "nombre": "Taller de circuitos electrónicos para sistemas energéticos",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "EL5859": {
+    "nombre": "Introducción a la computación heterogénea",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MT5002": {
+    "nombre": "Modelos de sistemas para mecatrónica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT7004": {
+    "nombre": "Neumática y oleohidráulica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT6003": {
+    "nombre": "Laboratorio de termofluidos",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT2002": {
+    "nombre": "Laboratorio de circuitos de corriente continua y corriente alterna",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT5003": {
+    "nombre": "Electrónica de potencia aplicada",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT8002": {
+    "nombre": "Automatización y redes industriales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT3002": {
+    "nombre": "Laboratorio de electrónica analógica",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT8005": {
+    "nombre": "Robótica",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT9005": {
+    "nombre": "Simulación procesos industriales",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MT4002": {
+    "nombre": "Laboratorio electrónica digital",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT8008": {
+    "nombre": "Inteligencia artificial",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT9001": {
+    "nombre": "Diseño de sistemas mecatrónicos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT9008": {
+    "nombre": "Sistemas de visión",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT6002": {
+    "nombre": "Termofluidos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT5004": {
+    "nombre": "Laboratorio de electrónica de potencia aplicada",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT7002": {
+    "nombre": "Sensores y actuadores",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT3003": {
+    "nombre": "Máquinas eléctricas para mecatrónica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT3004": {
+    "nombre": "Laboratorio de máquinas eléctricas para mecatrónica",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT6001": {
+    "nombre": "Probabilidad y procesos estocásticos",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MT2001": {
+    "nombre": "Circuitos eléctricos en CC y CA",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT9002": {
+    "nombre": "Mantenimiento de sistemas mecatrónicos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT3001": {
+    "nombre": "Electrónica analógica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT7006": {
+    "nombre": "Diseño máquinas y mecanismos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT8001": {
+    "nombre": "Teoría de comunicación y procesamiento de señales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT8003": {
+    "nombre": "Sistemas de manufactura",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT7001": {
+    "nombre": "Análisis y simulación de sistemas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT4001": {
+    "nombre": "Electrónica digital",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT7003": {
+    "nombre": "Microprocesadores y microcontroladores",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MT7005": {
+    "nombre": "Formulación de proyectos",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI2608": {
+    "nombre": "Análisis estadístico",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI2610": {
+    "nombre": "Probabilidad y estadística I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3512": {
+    "nombre": "Dirección de personal",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI4307": {
+    "nombre": "Control de calidad",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI5707": {
+    "nombre": "Ingeniería de la confiabilidad",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3502": {
+    "nombre": "Costos industriales II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3603": {
+    "nombre": "Investigación de operaciones I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI4505": {
+    "nombre": "Análisis económico",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3403": {
+    "nombre": "Sistema de información",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI4803": {
+    "nombre": "Gestión de la innovación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI5408": {
+    "nombre": "Tópicos avanzados de producción",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI5601": {
+    "nombre": "Diagnóstico industrial",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI4303": {
+    "nombre": "Control de producción",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI4309": {
+    "nombre": "Planeación y diseño de instalaciones",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3501": {
+    "nombre": "Costos Industriales I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3407": {
+    "nombre": "Computación industrial",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI5516": {
+    "nombre": "Ingeniería económica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3308": {
+    "nombre": "Estudio del trabajo II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI4802": {
+    "nombre": "Administración de proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI4001": {
+    "nombre": "Dirección de personal",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI2304": {
+    "nombre": "Estudio del trabajo I",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3206": {
+    "nombre": "Logística y administración de la cadena de abastecimiento",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI5708": {
+    "nombre": "Gestión por procesos",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "PI5402": {
+    "nombre": "Automatización de manufactura",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI2609": {
+    "nombre": "Probabilidad y estadística",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI5401": {
+    "nombre": "Simulación industrial",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI5302": {
+    "nombre": "Diseño de experimentos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3612": {
+    "nombre": "Probabilidad y estadística II",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI5101": {
+    "nombre": "Gestión de procesos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI4306": {
+    "nombre": "Metrología y normalización",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "PI3306": {
+    "nombre": "Gestión de calidad",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "PI5710": {
+    "nombre": "Diseño de puestos de trabajo y herramientas ergonómicas",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO4508": {
+    "nombre": "Protección del ambiente",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO4706": {
+    "nombre": "Seminario de adaptación al cambio climático",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO2407": {
+    "nombre": "Legislación ocupacional y ambiental",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO3603": {
+    "nombre": "Evaluación y control de ruidos y vibraciones",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO4702": {
+    "nombre": "Seguridad eléctrica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO3606": {
+    "nombre": "Factores psicosociales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO2601": {
+    "nombre": "Fundamentos de seguridad e higiene ocupacional",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SO2404": {
+    "nombre": "Procesos de manufactura",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO4604": {
+    "nombre": "Seguridad y salud ocupacional",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SO5902": {
+    "nombre": "Sistemas integrados de gestión",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO3506": {
+    "nombre": "Metodología investigación",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO4707": {
+    "nombre": "Administración de proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO4803": {
+    "nombre": "Evaluación y control de radiaciones e iluminación",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO4701": {
+    "nombre": "Taller de agentes ambientales químicos",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO2406": {
+    "nombre": "Anatomía y fisiología médica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO2405": {
+    "nombre": "Bioestadística",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SO5904": {
+    "nombre": "Factores humanos y ergonomía ocupacional",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "MA3106": {
+    "nombre": "Métodos numéricos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "MA2117": {
+    "nombre": "Cálculo y geometría analítica",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU1902": {
+    "nombre": "Fundamentos de química",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU2409": {
+    "nombre": "Química orgánica y bioquímica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "QU2407": {
+    "nombre": "Fundamentos de química orgánica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU2604": {
+    "nombre": "Química ambiental y analítica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU2402": {
+    "nombre": "Laboratorio fundamentos química orgánica",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU2403": {
+    "nombre": "Química orgánica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU2605": {
+    "nombre": "Laboratorio de química ambiental y analítica",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "QU2410": {
+    "nombre": "Laboratorio de química orgánica y bioquímica",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "QU2404": {
+    "nombre": "Laboratorio de química orgánica",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID4501": {
+    "nombre": "Diseño de productos VII",
+    "creditos": 5,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID1103": {
+    "nombre": "Métodos de desarrollo de productos",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID3111": {
+    "nombre": "Diseño V",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID1101": {
+    "nombre": "Análisis de producto I",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID2301": {
+    "nombre": "Principios estructurales",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID3113": {
+    "nombre": "Biónica y eco-diseño",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID2302": {
+    "nombre": "Procesos de manufactura I",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID3110": {
+    "nombre": "Diseño IV",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID5511": {
+    "nombre": "Trabajo final de graduación (productos)",
+    "creditos": 7,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ID1206": {
+    "nombre": "Modelado y simulación",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID2207": {
+    "nombre": "Análisis del espacio tridimensional",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID3303": {
+    "nombre": "Procesos de manufactura II",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID5515": {
+    "nombre": "Taller de diseño integrado",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ID1118": {
+    "nombre": "Fundamentos del diseño",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID1119": {
+    "nombre": "Principios del diseño",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID4601": {
+    "nombre": "Diseño de comunicación visual VII",
+    "creditos": 5,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID5602": {
+    "nombre": "Teoría del diseño de la información",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ID1205": {
+    "nombre": "Taller de dibujo",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID2107": {
+    "nombre": "Diseño I",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID2120": {
+    "nombre": "Comunicación visual",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID3112": {
+    "nombre": "Diseño VI",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID3205": {
+    "nombre": "Cultura material",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID3304": {
+    "nombre": "Procesos de manufactura III",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID2401": {
+    "nombre": "Ergonomía",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID3109": {
+    "nombre": "Diseño III",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID2204": {
+    "nombre": "Herramientas digitales para diseño",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID5115": {
+    "nombre": "Innovación de productos",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ID5611": {
+    "nombre": "Trabajo final de graduación (comunicación visual)",
+    "creditos": 7,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ID1104": {
+    "nombre": "Análisis de producto II",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID2108": {
+    "nombre": "Diseño II",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "ID5004": {
+    "nombre": "Introducción al diseño para la innovación social",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ID5114": {
+    "nombre": "Gestión de proyectos",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ID5516": {
+    "nombre": "Teoría de las interfases y la interactividad",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA4313": {
+    "nombre": "Riego a presión",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA2106": {
+    "nombre": "Sistemas de producción agrícola",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA3105": {
+    "nombre": "Relación suelo-agua-planta",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA4315": {
+    "nombre": "Manejo de suelos, aguas y diseño de obras de conservación",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA1203": {
+    "nombre": "Dibujo técnico",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA5402": {
+    "nombre": "Laboratorio de tractores y mecanización",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA2202": {
+    "nombre": "Estática",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA3004": {
+    "nombre": "Trabajo final de graduación",
+    "creditos": 9,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IA3210": {
+    "nombre": "Laboratorio de hidráulica",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA3501": {
+    "nombre": "Electrificación rural",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA3303": {
+    "nombre": "Aplicaciones topográficas",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA3213": {
+    "nombre": "Hidráulica de canales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA4314": {
+    "nombre": "Drenaje sub-superficial",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA3401": {
+    "nombre": "Elementos y mecanismos de máquinas agrícolas",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA4403": {
+    "nombre": "Mecanización agrícola",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA5604": {
+    "nombre": "Sistema de información geográfico",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IA5605": {
+    "nombre": "Tecnologías en ambientes protegidos",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA5601": {
+    "nombre": "Protección ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IA3203": {
+    "nombre": "Hidrología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG3223": {
+    "nombre": "Protección de cultivos II",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG2201": {
+    "nombre": "Fisiología vegetal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG2203": {
+    "nombre": "Edafología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG4703": {
+    "nombre": "Sistemas de producción de cultivos perennes",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG4705": {
+    "nombre": "Sistemas de producción de granos básicos",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG2101": {
+    "nombre": "Anatomía y fisiología animal para agronomía",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG4706": {
+    "nombre": "Sistemas de producción avícola",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG4704": {
+    "nombre": "Sistemas de producción de bovinos de leche",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG4409": {
+    "nombre": "Acromática II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG2702": {
+    "nombre": "Administración agropecuaria II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG3109": {
+    "nombre": "Agrostología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG3403": {
+    "nombre": "Mecanización agrícola",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG2305": {
+    "nombre": "Agroclimatología",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG3107": {
+    "nombre": "Reproducción animal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AG3405": {
+    "nombre": "Agroestadística II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4220": {
+    "nombre": "Restauración de ecosistemas tropicales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO2108": {
+    "nombre": "Laboratorio de suelos forestales",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4107": {
+    "nombre": "Suelos forestales",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4223": {
+    "nombre": "Dendroenergía",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3109": {
+    "nombre": "Manejo de plantaciones forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3132": {
+    "nombre": "Entomología y patología forestales",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3210": {
+    "nombre": "Gestión de administración forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4412": {
+    "nombre": "Mercadeo y comercialización de productos forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO1106": {
+    "nombre": "Climatología forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO2201": {
+    "nombre": "Levantamiento forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3307": {
+    "nombre": "Biología de la conservación",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO5049": {
+    "nombre": "Seminario de graduación",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "FO1107": {
+    "nombre": "Botánica forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO1108": {
+    "nombre": "Laboratorio de botánica forestal",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4224": {
+    "nombre": "Introducción a la fauna silvestre en ecosistemas forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3133": {
+    "nombre": "Laboratorio de entomología y patología forestales",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO2303": {
+    "nombre": "Propiedades de la madera",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4309": {
+    "nombre": "Manufactura de productos forestales II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3123": {
+    "nombre": "Mejora genética forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4104": {
+    "nombre": "Formulación y evaluación de proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4406": {
+    "nombre": "Sistemas de información geográfica II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3118": {
+    "nombre": "Silvicultura bosque natural",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4417": {
+    "nombre": "Ecofisiología forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3113": {
+    "nombre": "Inventarios forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "FO4418": {
+    "nombre": "Cambio climático: acciones y métricas en sistemas terrestres",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO3203": {
+    "nombre": "Aprovechamiento forestal I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FO4225": {
+    "nombre": "Seguimiento y auditoría ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0147": {
+    "nombre": "Sexo y género, en la vida y el amor",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0224": {
+    "nombre": "Análisis critico de la revolución virtual",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0178": {
+    "nombre": "Factores psicosociales de la salud mental",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0246": {
+    "nombre": "La música nos define: visión desde la etnomusicología",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0033": {
+    "nombre": "Cine y literatura",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0035": {
+    "nombre": "Globalización y humanismo",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0025": {
+    "nombre": "Sexualidad pareja y teoría psicosexual",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0053": {
+    "nombre": "Patrimonio e identidad cultural",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0024": {
+    "nombre": "Lo imaginario en el arte los sueños y la locura",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0115": {
+    "nombre": "García Márquez y el realismo mágico",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0016": {
+    "nombre": "El desarrollo de la ciencia en Costa Rica",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0151": {
+    "nombre": "Brujas, hadas y fantasmas en Shakespeare",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "FH0239": {
+    "nombre": "La condición humana en nuestra época: ética y derechos humanos",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0263": {
+    "nombre": "Religión, espiritualidades y ética mundial",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0259": {
+    "nombre": "Pervivencia de modelos femeninos: de la Grecia antigua a la actualidad",
+    "creditos": 0,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "FH0162": {
+    "nombre": "La enseñanza de la lengua inglesa y su paralelismo con desarrollo económico",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TS2202": {
+    "nombre": "Práctica de especialidad",
+    "creditos": 5,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TS2301": {
+    "nombre": "Formulación y evaluación de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "TS1100": {
+    "nombre": "Gestión ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TS1202": {
+    "nombre": "Equidad y participación social",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TS1201": {
+    "nombre": "Turismo y sociedad",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TS2204": {
+    "nombre": "Sociología del turismo",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TR4232": {
+    "nombre": "Innovación de productos turísticos",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TR3235": {
+    "nombre": "Planificación del turismo",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TR4233": {
+    "nombre": "Organización comunal y turismo",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ST1002": {
+    "nombre": "Geografía turística de Costa Rica",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ST3001": {
+    "nombre": "Tendencias turísticas mundiales",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "TR4133": {
+    "nombre": "Introducción a la interpretación ambiental",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "ST1003": {
+    "nombre": "Servicios turísticos rurales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI5106": {
+    "nombre": "Gestión ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI6109": {
+    "nombre": "Cambio climático, adaptación y mitigación",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI6104": {
+    "nombre": "Seguridad y salud ocupacional en Ingeniería Ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI3112": {
+    "nombre": "Diseño y tratamiento de aguas residuales",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI3109": {
+    "nombre": "Laboratorio de tratamiento de agua potable y residual",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI4103": {
+    "nombre": "Laboratorio de ingeniería en emisiones atmosféricas",
+    "creditos": 2,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AI3111": {
+    "nombre": "Administración de proyectos de infraestructura ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI3212": {
+    "nombre": "Termodinámica y cinética ambiental",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI6111": {
+    "nombre": "Ingeniería urbana sostenible",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI6105": {
+    "nombre": "Evaluación de impacto ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AI5107": {
+    "nombre": "Mecánica de suelos para Ingeniería Ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI6116": {
+    "nombre": "Toxicología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI3209": {
+    "nombre": "Hidrología",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AI3104": {
+    "nombre": "Ecosaneamiento ambiental",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AI3110": {
+    "nombre": "Diseño de sistemas de potabilización de agua",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI4102": {
+    "nombre": "Ingeniería en emisiones atmosféricas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AI2101": {
+    "nombre": "Análisis estadístico para Ingeniería Ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AI5104": {
+    "nombre": "Análisis y diseño experimental para Ingeniería Ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AI2401": {
+    "nombre": "Análisis topográfico en Ingeniería Ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AI6108": {
+    "nombre": "Introducción a la ciencia de los polímeros",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI3208": {
+    "nombre": "Hidráulica para ingeniería ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI5105": {
+    "nombre": "Consumo y producción sostenible",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "AI6115": {
+    "nombre": "Energías renovables",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB2203": {
+    "nombre": "Anatomía vegetal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB4202": {
+    "nombre": "Laboratorio de cultivo de tejidos II",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB4811": {
+    "nombre": "Propiedad intelectual, innovación y biotecnología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB2021": {
+    "nombre": "Sistemas bioinformáticos",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB3404": {
+    "nombre": "Aplicación de sistemas de producción agrícola",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB3405": {
+    "nombre": "Laboratorio aplicación de sistemas de producción agrícola",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB4201": {
+    "nombre": "Cultivo de tejidos II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB3210": {
+    "nombre": "Sistemas ecológicos",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB4805": {
+    "nombre": "Fundamentos de anatomía y desarrollo animal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB3601": {
+    "nombre": "Bioquímica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB3603": {
+    "nombre": "Laboratorio de bioquímica",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB2113": {
+    "nombre": "Análisis estadístico para biotecnología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB4815": {
+    "nombre": "Insectos en biotecnología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB3107": {
+    "nombre": "Microbiología industrial",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB2503": {
+    "nombre": "Biotecnología y genética humana",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IB4101": {
+    "nombre": "Biología molecular aplicada",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB4106": {
+    "nombre": "Laboratorio de biología molecular aplicada",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB3302": {
+    "nombre": "Mejoramiento genético",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB4806": {
+    "nombre": "Bacteriología aplicada a la biotecnología",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB4810": {
+    "nombre": "Introducción a la fitoquímica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IB2204": {
+    "nombre": "Laboratorio de anatomía vegetal",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5139": {
+    "nombre": "Auditoría gubernamental",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5040": {
+    "nombre": "Sistemas de información financiera",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA6013": {
+    "nombre": "Trabajo final de graduación énfasis contaduría pública",
+    "creditos": 8,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5301": {
+    "nombre": "Políticas económicas",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "LA5227": {
+    "nombre": "Desarrollo gerencial",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA8008": {
+    "nombre": "Gestión del riesgo",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA7008": {
+    "nombre": "Gestión de proyectos en mercadeo",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5134": {
+    "nombre": "Decisiones de inversión",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5416": {
+    "nombre": "Mercadeo gerencial",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5133": {
+    "nombre": "Banca y desarrollo",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5417": {
+    "nombre": "Mercadeo de exportación",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5125": {
+    "nombre": "Contabilidad IV",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "LA5419": {
+    "nombre": "Estrategia de ventas",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5132": {
+    "nombre": "Modelos de decisiones financieras",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5141": {
+    "nombre": "Auditoría tributaria",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5142": {
+    "nombre": "Auditoría de las tecnologías de la información I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "LA5226": {
+    "nombre": "Planificación desarrollo de recursos humanos",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM5006": {
+    "nombre": "Didáctica de las matemáticas II",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM5008": {
+    "nombre": "Investigación educativa",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM5007": {
+    "nombre": "Taller II: multimedios en matemática",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "EM5005": {
+    "nombre": "Teoría de números",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "BL1201": {
+    "nombre": "Metodologías de investigación",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "BL1124": {
+    "nombre": "Control de calidad aplicado a las empresas de manufactura de dispositivos médicos",
+    "creditos": 4,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "BL1131": {
+    "nombre": "Auditorías a sistemas de calidad",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "BL1133": {
+    "nombre": "Gerencia técnica de la calidad basada en INTE-ISO 17025:2017",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "BL1130": {
+    "nombre": "Introducción a la programación para biotecnología",
+    "creditos": 4,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IF3603": {
+    "nombre": "Óptica",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IF4802": {
+    "nombre": "Laboratorio metrología I",
+    "creditos": 2,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IF3502": {
+    "nombre": "Instrumentación I",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IF3503": {
+    "nombre": "Instrumentación II",
+    "creditos": 1,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IF3602": {
+    "nombre": "Métodos matemáticos de física e ingeniería I",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IF4801": {
+    "nombre": "Mecánica cuántica para ingeniería",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IF4804": {
+    "nombre": "Física computacional II",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IF5901": {
+    "nombre": "Física experimental",
+    "creditos": 3,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "IF3604": {
+    "nombre": "Laboratorio de óptica",
+    "creditos": 1,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IF4803": {
+    "nombre": "Metrología industrial y legal",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "IF3601": {
+    "nombre": "Metodología de la investigación",
+    "creditos": 3,
+    "historial": [
+      "2026-2"
+    ]
+  },
+  "SE1111": {
+    "nombre": "Expresión corporal",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE2110": {
+    "nombre": "Apreciación musical",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "SE2111": {
+    "nombre": "Técnica del canto",
+    "creditos": 0,
+    "historial": [
+      "2026-2",
+      "2026-1"
+    ]
+  },
+  "AE1123": {
+    "nombre": "Contabilidad II",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE1219": {
+    "nombre": "Introducción a la administración de empresas",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE2505": {
+    "nombre": "Estadística I",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE3506": {
+    "nombre": "Productividad empresarial",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE2703": {
+    "nombre": "Computación para administración",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "MR1401": {
+    "nombre": "Administración de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "MR1402": {
+    "nombre": "Innovación en la producción y conservación",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP0206": {
+    "nombre": "Habilidades gerenciales para la administración de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP0103": {
+    "nombre": "Evaluación financiera de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP0204": {
+    "nombre": "Técnicas y herramientas para gerencia de proyectos",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP2516": {
+    "nombre": "Auditoría de proyectos de TI",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP2523": {
+    "nombre": "Herramientas para proyectos de construcción",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP2508": {
+    "nombre": "Gestión de programas",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP3907": {
+    "nombre": "Seminario de investigación I en el énfasis en proyectos empresariales",
+    "creditos": 6,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP3910": {
+    "nombre": "Seminario de investigación I en el énfasis en tecnología de información",
+    "creditos": 6,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP3913": {
+    "nombre": "Seminario de investigación I en el énfasis en construcción",
+    "creditos": 8,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "GP0202": {
+    "nombre": "Gerencia de proyectos II",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LE1109": {
+    "nombre": "Fundamentos de didáctica en ETFP",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LE1108": {
+    "nombre": "Teoría educativa y análisis socio histórico de la ETFP",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LE1303": {
+    "nombre": "Trabajo final de graduación",
+    "creditos": 7,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LE1504": {
+    "nombre": "Innovación y tecnología en ETFP",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LE1301": {
+    "nombre": "Evaluación de los aprendizajes",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LE1107": {
+    "nombre": "Introducción al currículo en ETFP",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM4610": {
+    "nombre": "Ecuaciones diferenciales",
+    "creditos": 5,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM1404": {
+    "nombre": "Teorías psicopedagógicas del aprendizaje",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM2606": {
+    "nombre": "Geometría II",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM4609": {
+    "nombre": "Álgebra",
+    "creditos": 5,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM1401": {
+    "nombre": "Introducción a la pedagogía",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM1605": {
+    "nombre": "Fundamentos de matemática I",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM3011": {
+    "nombre": "Teoría de conjuntos",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM3407": {
+    "nombre": "Psicología del desarrollo",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM1610": {
+    "nombre": "Tecnologías digitales aplicadas a la matemática educativa II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM1609": {
+    "nombre": "Didáctica de la probabilidad y la estadística",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM3408": {
+    "nombre": "Evaluación del aprendizaje",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM2607": {
+    "nombre": "Cálculo y análisis II",
+    "creditos": 5,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM3607": {
+    "nombre": "Álgebra lineal",
+    "creditos": 5,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM1608": {
+    "nombre": "Didáctica del álgebra y funciones",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM1611": {
+    "nombre": "Geometría analítica",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1415": {
+    "nombre": "Fundamentos de Diseño",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU2003": {
+    "nombre": "Sistemas ambientales arquitectónicos II",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU2004": {
+    "nombre": "Metodología de investigación en arquitectura y urbanismo",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU2001": {
+    "nombre": "Laboratorio de proyectos VII, Urbano-arquitectónico",
+    "creditos": 6,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1301": {
+    "nombre": "Introducción a la arquitectura I",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU3002": {
+    "nombre": "Presupuesto y programación de obra",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU2007": {
+    "nombre": "Composición Urbana II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1601": {
+    "nombre": "Laboratorio de proyectos III, Proceso proyectual",
+    "creditos": 6,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1602": {
+    "nombre": "Composición arquitectónica II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1413": {
+    "nombre": "Laboratorio de proyectos I: Fundamentos",
+    "creditos": 5,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1604": {
+    "nombre": "Historia del arte y la arquitectura II",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1804": {
+    "nombre": "Habilitación de sitio y paisajismo",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU2110": {
+    "nombre": "Historia de arte y arquitectura de Costa Rica II",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1417": {
+    "nombre": "Geometría descriptiva",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1803": {
+    "nombre": "Sistemas de construcción II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU2002": {
+    "nombre": "Instalaciones mecánicas",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU4001": {
+    "nombre": "Patrimonio",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU3001": {
+    "nombre": "Laboratorio de proyectos IX, El ámbito social",
+    "creditos": 6,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU5409": {
+    "nombre": "Urbanismo ordenamiento territorial II",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU2104": {
+    "nombre": "Teoría de la arquitectura I",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU3107": {
+    "nombre": "Teoría e historia del urbanismo I",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1801": {
+    "nombre": "Laboratorio de proyectos V, Tecnología constructiva",
+    "creditos": 6,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1802": {
+    "nombre": "Sistemas de representación digital II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1416": {
+    "nombre": "Sistemas de representación manual",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AU1603": {
+    "nombre": "Sistemas estructurales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE3542": {
+    "nombre": "Espíritu emprendedor y creación de empresas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE4209": {
+    "nombre": "Administración de recursos humanos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE4542": {
+    "nombre": "Planeación del mercadeo",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE5113": {
+    "nombre": "Contabilidad financiera",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AE3103": {
+    "nombre": "Contabilidad general",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI5100": {
+    "nombre": "Gestión y toma de decisiones financieras",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI5905": {
+    "nombre": "Fundamentos de arquitectura empresarial",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI1103": {
+    "nombre": "Modelos organizacionales y gestión de TI",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI3500": {
+    "nombre": "Mercadeo en la era digital",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI5901": {
+    "nombre": "Espíritu emprendedor y creación de empresas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI2800": {
+    "nombre": "Administración de proyectos I",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI3103": {
+    "nombre": "Costos en ambientes informáticos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI9004": {
+    "nombre": "Administración de servicios de tecnologías de información II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI8109": {
+    "nombre": "Formulación y evaluación de proyectos de TI",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI5903": {
+    "nombre": "Planificación estratégica de tecnología de información",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI3501": {
+    "nombre": "Fundamentos de sistemas operativos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI4701": {
+    "nombre": "Seguridad en sistemas de información",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI7503": {
+    "nombre": "Arquitectura de aplicaciones",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI5902": {
+    "nombre": "Analítica empresarial",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI7901": {
+    "nombre": "Negocios electrónicos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TI8513": {
+    "nombre": "Blockchain y aplicaciones descentralizadas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN5002": {
+    "nombre": "Gestión de recursos humanos en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN1003": {
+    "nombre": "Introducción a la ingeniería en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN4004": {
+    "nombre": "Cultivos perennes y granos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN2007": {
+    "nombre": "Microeconomía en los agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN4003": {
+    "nombre": "Abastecimiento de los agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN5001": {
+    "nombre": "Seminario de graduación en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN5003": {
+    "nombre": "Formulación y evaluación de proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN4001": {
+    "nombre": "Procesado productos agrícolas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AA3328": {
+    "nombre": "Mercadeo agropecuario",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN3001": {
+    "nombre": "Microbiología agroalimentaria",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN2002": {
+    "nombre": "Agronegocios en el desarrollo rural",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN4009": {
+    "nombre": "Mercadeo internacional",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN3003": {
+    "nombre": "Gestión contable en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN3009": {
+    "nombre": "Diseño experimental en los agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AA3203": {
+    "nombre": "Nutrición y agrostología",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN4010": {
+    "nombre": "Producción porcina y avícola",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AA4113": {
+    "nombre": "Control de calidad de procesos agroindustriales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AN5004": {
+    "nombre": "Estrategia empresarial en agronegocios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BI5406": {
+    "nombre": "Biología general para entornos laborales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BI1107": {
+    "nombre": "Biología para Ingenieria Ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BI1106": {
+    "nombre": "Laboratorio de Biología general para Ingeniería Ambiental",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BI1103": {
+    "nombre": "Biología agrícola",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BI1104": {
+    "nombre": "Laboratorio de biología agrícola",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BI3410": {
+    "nombre": "Ecología y problemática ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "CM1103": {
+    "nombre": "Introducción a la ciencia e ingeniería de los materiales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "CI1405": {
+    "nombre": "Fundamentos de comunicación académica",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "CI1209": {
+    "nombre": "Destrezas comunicativas del inglés para biotecnología II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "CI1203": {
+    "nombre": "Inglés para biotecnología II",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "NE1002": {
+    "nombre": "Fundamentos de ecología",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "NE1003": {
+    "nombre": "Estadística descriptiva para turismo",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "NE1005": {
+    "nombre": "Gestión ambiental agropecuaria",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FI2104": {
+    "nombre": "Física general IV",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FI1105": {
+    "nombre": "Física para biotecnología",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FI1504": {
+    "nombre": "Ciencia de las estructuras: aplicaciones a la arquitectura y diseño",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IS1003": {
+    "nombre": "Sociología Rural",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IS1002": {
+    "nombre": "Inglés técnico para agronomía",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IC8046": {
+    "nombre": "Introducción al reconocimiento de patrones",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IC8056": {
+    "nombre": "Visualización de información",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "CE2201": {
+    "nombre": "Laboratorio de circuitos eléctricos",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "CE3201": {
+    "nombre": "Taller de diseño digital",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "CE5507": {
+    "nombre": "Modelación hardware/software con orientación a objetos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "CE5508": {
+    "nombre": "Soa41d: arquitectura orientada a servicios aplicada a sistemas emergentes",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EL1100": {
+    "nombre": "Introducción a la ingeniería",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EL5857": {
+    "nombre": "Aprendizaje automático",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "MT9009": {
+    "nombre": "Mems-nems",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "PI5508": {
+    "nombre": "Administración de calidad",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "PI5706": {
+    "nombre": "Evaluación de proyectos de inversión",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "PI3901": {
+    "nombre": "Administración de la producción",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "PI4901": {
+    "nombre": "Práctica profesional",
+    "creditos": 8,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "PI4507": {
+    "nombre": "Estrategia operacional",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO3507": {
+    "nombre": "Epidemiologia en salud ocupacional",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO3510": {
+    "nombre": "Agentes ambientales biológicos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO5903": {
+    "nombre": "Gestión ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO1102": {
+    "nombre": "Dibujo e interpretación de planos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO3508": {
+    "nombre": "Seguridad contra incendios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO4802": {
+    "nombre": "Control de agentes ambientales químicos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO1103": {
+    "nombre": "Introducción a la seguridad laboral",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO4402": {
+    "nombre": "Gerencia de riesgos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO5905": {
+    "nombre": "Gestión integral de desastres",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO4705": {
+    "nombre": "Control de los factores psicosociales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO2309": {
+    "nombre": "Seguridad en instalaciones y maquinaria",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO3513": {
+    "nombre": "Seguridad en procesos industriales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO4703": {
+    "nombre": "Evaluación y control de exposición al ambiente térmico",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO5910": {
+    "nombre": "Taller de diseño",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO3503": {
+    "nombre": "Fundamentos de medicina y toxicología laboral",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO3604": {
+    "nombre": "Agentes ambientales químicos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO4801": {
+    "nombre": "Gerencia estratégica",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "SO4804": {
+    "nombre": "Principios de ergonomía ocupacional",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "QU2301": {
+    "nombre": "Química analítica",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "QU2302": {
+    "nombre": "Laboratorio de química analítica",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ID5606": {
+    "nombre": "Seminario de investigación (comunicación visual)",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ID5506": {
+    "nombre": "Seminario de investigación (productos)",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ID5502": {
+    "nombre": "Taller de diseño para la manufactura",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ID5605": {
+    "nombre": "Diseño IX (comunicación visual)",
+    "creditos": 5,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ID5402": {
+    "nombre": "Diseño de experiencias de aprendizaje",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ID4503": {
+    "nombre": "Diseño VIII (proyecto de graduación)",
+    "creditos": 10,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ID5604": {
+    "nombre": "Manufactura de empaque / embalaje",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ID5505": {
+    "nombre": "Diseño IX (productos)",
+    "creditos": 5,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA4010": {
+    "nombre": "Diseño de redes para abastecimiento de agua",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA2107": {
+    "nombre": "Edafología",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA3010": {
+    "nombre": "Suelos y labranza",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA4312": {
+    "nombre": "Drenaje superficial",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA4408": {
+    "nombre": "Taller de diseño",
+    "creditos": 6,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA5403": {
+    "nombre": "Administración de la mecanización agrícola",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA3206": {
+    "nombre": "Resistencia de materiales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA1002": {
+    "nombre": "Fundamentos de ingeniería agrícola",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA3202": {
+    "nombre": "Estadística aplicada",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA3208": {
+    "nombre": "Electricidad",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA3302": {
+    "nombre": "Topografía",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA2204": {
+    "nombre": "Programación aplicada",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA4402": {
+    "nombre": "Motores de combustión interna",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA4407": {
+    "nombre": "Tractores agrícolas",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA4311": {
+    "nombre": "Riego superficial",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA3212": {
+    "nombre": "Mecánica de fluidos aplicada",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA2105": {
+    "nombre": "Laboratorio de edafología",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IA4307": {
+    "nombre": "Diseño estructuras hidráulicas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG1002": {
+    "nombre": "Introducción a plagas agropecuarias",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG1003": {
+    "nombre": "Introducción a la agronomía",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG3219": {
+    "nombre": "Protección de cultivos I",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG4702": {
+    "nombre": "Seminario especializado",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG3222": {
+    "nombre": "Mejoramiento genético agropecuario",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG3004": {
+    "nombre": "Sistemas agronómicos de información geográfica",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG3220": {
+    "nombre": "Manejo de suelos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG3224": {
+    "nombre": "Sistemas agroforestales",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG5700": {
+    "nombre": "Sistemas de producción frutícola",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG3106": {
+    "nombre": "Sanidad animal",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG5701": {
+    "nombre": "Sistemas de producción porcina",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG5222": {
+    "nombre": "Seminario de trabajos finales de graduación",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG3306": {
+    "nombre": "Agromática I",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG2701": {
+    "nombre": "Administración agropecuaria I",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG5221": {
+    "nombre": "Manejo y comercialización de productos agropecuarios",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG2102": {
+    "nombre": "Nutrición animal",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG4700": {
+    "nombre": "Sistema de producción hortícola",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG4701": {
+    "nombre": "Sistemas de producción de bovinos de carne",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG5405": {
+    "nombre": "Preparación y evaluación proyectos agropecuarios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG3221": {
+    "nombre": "Riego y drenaje",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AG2304": {
+    "nombre": "Agroestadística I",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO2109": {
+    "nombre": "Dendrología tropical",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4001": {
+    "nombre": "Bases y principios para la restauración ecológica",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO5121": {
+    "nombre": "Restauración del paisaje: áreas urbanas y ecosistemas agropecuarios",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO1103": {
+    "nombre": "Introducción a la ingeniería forestal",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO2115": {
+    "nombre": "Laboratorio de reproducción de especies forestales",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO2116": {
+    "nombre": "Establecimiento de plantaciones forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO2117": {
+    "nombre": "Reproducción de especies forestales",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO2113": {
+    "nombre": "Análisis estadístico",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4114": {
+    "nombre": "Manejo integrado de plagas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO3120": {
+    "nombre": "Economía forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO5101": {
+    "nombre": "Extensión forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO3401": {
+    "nombre": "Sistemas de información geográfica",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4203": {
+    "nombre": "Hidrología forestal y manejo de cuencas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4204": {
+    "nombre": "Aprovechamiento forestal II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO1104": {
+    "nombre": "Laboratorio introducción a la ingeniería forestal",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO5103": {
+    "nombre": "Gestión de áreas silvestres",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO2202": {
+    "nombre": "Mediciones forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO5106": {
+    "nombre": "Sistemas agroforestales",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO2114": {
+    "nombre": "Ecología forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO5123": {
+    "nombre": "Monitoreo de vida silvestre en ecosistemas forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4003": {
+    "nombre": "Sistemas de gestión ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4102": {
+    "nombre": "Gestión de industrias forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4308": {
+    "nombre": "Manufactura de productos forestales I",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4441": {
+    "nombre": "Valoración y evaluación de plantaciones forestales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4211": {
+    "nombre": "Política y legislación ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4201": {
+    "nombre": "Ordenación forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4431": {
+    "nombre": "Bioestadística con r",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO3130": {
+    "nombre": "Métodos de investigación forestal",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO5218": {
+    "nombre": "Crecimiento y rendimiento",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO4004": {
+    "nombre": "Evaluación de impacto ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FO5120": {
+    "nombre": "Técnicas de identificación y valoración de daño ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0204": {
+    "nombre": "Hablemos de discapacidad",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0087": {
+    "nombre": "Desarrollo del arte en Costa Rica",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0158": {
+    "nombre": "Grafiti: de las calles a la literatura",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0217": {
+    "nombre": "El legado de los sabios: un acercamiento a la filosofía práctica",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0085": {
+    "nombre": "El ser humano y la masculinidad",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0271": {
+    "nombre": "De monstruos y vampiros: el horror gótico en Frankenstein y Drácula en la época victoriana",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0223": {
+    "nombre": "El erotismo en la literatura: un análisis de \"cuentos sucios\" y otros relatos",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0191": {
+    "nombre": "Introducción al pensamiento critico",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0253": {
+    "nombre": "Construcción de la astronomía moderna",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "FH0047": {
+    "nombre": "Educación en nuestros tiempos",
+    "creditos": 0,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TS1200": {
+    "nombre": "Desarrollo humano sostenible",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TS2203": {
+    "nombre": "Identidad y patrimonio cultural de Costa Rica",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TR1132": {
+    "nombre": "Legislación turística de Costa Rica",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ST1001": {
+    "nombre": "Herramientas tecnológicas para el turismo",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TR1131": {
+    "nombre": "Introducción a la gestión del turismo",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TR4131": {
+    "nombre": "Patrimonio turístico rural",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ST2001": {
+    "nombre": "Introducción a la economía del turismo",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "ST2003": {
+    "nombre": "Metodologías de la investigación",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "TR3211": {
+    "nombre": "Gestión ambiental y turismo",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI4304": {
+    "nombre": "Formulación y evaluación de proyectos ambientales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI6101": {
+    "nombre": "Metodología de la investigación ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI4101": {
+    "nombre": "Gestión y diseño en tratamiento de residuos sólidos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI6102": {
+    "nombre": "Huellas y métricas ambientales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI1100": {
+    "nombre": "Introducción a la Ingeniería Ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI3106": {
+    "nombre": "Microbiología ambiental",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI3107": {
+    "nombre": "Operaciones Unitarias",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI3105": {
+    "nombre": "Laboratorio de microbiología ambiental",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI3108": {
+    "nombre": "Dibujo e interpretación de planos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI4104": {
+    "nombre": "Administración de la energía en la industria",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "AI4306": {
+    "nombre": "Recursos energéticos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB4814": {
+    "nombre": "Virología molecular de plantas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB3202": {
+    "nombre": "Cultivos de tejidos I",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB3101": {
+    "nombre": "Seminario taller de formulación, evaluación y gestación de proyectos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB4804": {
+    "nombre": "Bioinformática para biotecnología",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB3203": {
+    "nombre": "Laboratorio de cultivo de tejidos I",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB3802": {
+    "nombre": "Manejo biotecnológico de cultivos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB2304": {
+    "nombre": "Genética",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB4807": {
+    "nombre": "Fundamentos del cultivo de células animales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB4813": {
+    "nombre": "Fundamentos de fisiología humana",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB1601": {
+    "nombre": "Introducción a la biotecnología",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB2205": {
+    "nombre": "Fisiología vegetal",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB2211": {
+    "nombre": "Laboratorio de fisiología vegetal",
+    "creditos": 2,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB4803": {
+    "nombre": "Tratamiento biotecnológico de aguas residuales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB4001": {
+    "nombre": "Trabajo final de graduación",
+    "creditos": 10,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB2302": {
+    "nombre": "Laboratorio de genética",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB2106": {
+    "nombre": "Laboratorio de microbiología aplicada",
+    "creditos": 1,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB2105": {
+    "nombre": "Microbiología aplicada",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB4809": {
+    "nombre": "Procesos biotecnológicos con el empleo de hongos",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB3204": {
+    "nombre": "Ingeniería bioquímica",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IB4505": {
+    "nombre": "Sistemas biotecnológicos de producción",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA6144": {
+    "nombre": "Informes del contador publico",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA6015": {
+    "nombre": "Trabajo final de graduación énfasis administración financiera",
+    "creditos": 8,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA5137": {
+    "nombre": "Presupuesto y control financiero",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA8005": {
+    "nombre": "Valoración de empresas en marcha",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA5418": {
+    "nombre": "Estrategias publicitarias",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA7005": {
+    "nombre": "Comercio y marketing digital",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA5131": {
+    "nombre": "Administración financiera III",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA5228": {
+    "nombre": "Sistemas de compensación",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA5135": {
+    "nombre": "Contabilidad de costos II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA6145": {
+    "nombre": "Consultoría de empresas",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA6148": {
+    "nombre": "Contabilidad V",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA6014": {
+    "nombre": "Trabajo final de graduación énfasis mercadeo",
+    "creditos": 8,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA5413": {
+    "nombre": "Sistemas de información de mercadeo",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA5136": {
+    "nombre": "Auditoría financiera",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "LA6146": {
+    "nombre": "Auditoría de las tecnologías de la información II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM5002": {
+    "nombre": "Didáctica de las matemáticas I",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM5003": {
+    "nombre": "Taller I: algoritmos y programación",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM5004": {
+    "nombre": "Introducción al análisis funcional",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "EM5001": {
+    "nombre": "Historia de las matemáticas",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "MI5152": {
+    "nombre": "Aire acondicionado",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "MI6153": {
+    "nombre": "Ahorro energético",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BL1127": {
+    "nombre": "Modelo de negocios de empresas biotecnológicas",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BL1101": {
+    "nombre": "Diseño de experimentos para biotecnología",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BL1102": {
+    "nombre": "Gestión de la calidad en procesos biotecnológicos",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "BL1126": {
+    "nombre": "Bioinformática aplicada",
+    "creditos": 4,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF5905": {
+    "nombre": "Física de la materia condensada",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF6011": {
+    "nombre": "Exploración y análisis estadístico de datos experimentales",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF4701": {
+    "nombre": "Métodos matemáticos de física e ingeniería II",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF1101": {
+    "nombre": "Introducción a la ingeniería física",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF3501": {
+    "nombre": "Termodinámica I",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF4703": {
+    "nombre": "Análisis de incertidumbres",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF6013": {
+    "nombre": "Modelado predictivo aplicado",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF5902": {
+    "nombre": "Física contemporánea",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF5906": {
+    "nombre": "Energía y sus transformaciones",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF5903": {
+    "nombre": "Metrología científica",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  },
+  "IF4702": {
+    "nombre": "Física computacional I",
+    "creditos": 3,
+    "historial": [
+      "2026-1"
+    ]
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "codigoEscuela": "AU",
+  "nombreEscuela": "ESCUELA ARQUITECTURA Y URBANISMO",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AU1503",
+      "nombre": "Composición arquitectónica I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "AVILA ZAMORA ANDREA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "J01",
+          "aula": "301"
+        },
+        {
+          "grupo": 40,
+          "profesor": "CASTRO CHACON ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": "J01",
+          "aula": "301"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1903",
+      "nombre": "Sistemas ambientales arquitectónicos I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "AVILA ZAMORA ANDREA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "J01",
+          "aula": "501"
+        },
+        {
+          "grupo": 41,
+          "profesor": "AVILA ZAMORA ANDREA",
+          "modalidad": "Regular",
+          "horario": "VIE[08:30-11:20]",
+          "edificio": "J01",
+          "aula": "501"
+        }
+      ]
+    },
+    {
+      "codigo": "AU2005",
+      "nombre": "Laboratorio de proyectos VIII, diseño integral",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "AZOFEIFA ORTIZ CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": "J01",
+          "aula": "502"
+        }
+      ]
+    },
+    {
+      "codigo": "AU4408",
+      "nombre": "Urbanismo ordenamiento territorial I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "BULGARELLI BOLAÑOS JOSE PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:50-18:20]",
+          "edificio": "J01",
+          "aula": "502"
+        }
+      ]
+    },
+    {
+      "codigo": "AU2006",
+      "nombre": "Planos y especificaciones técnicas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CABRERA SANDOVAL MARCO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "J01",
+          "aula": "502"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1904",
+      "nombre": "Composición urbana I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CALDERON ACUÑA ERICK",
+          "modalidad": "Regular",
+          "horario": "JUE[08:30-11:20]",
+          "edificio": "J01",
+          "aula": "402"
+        },
+        {
+          "grupo": 41,
+          "profesor": "CALDERON ACUÑA ERICK",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "J01",
+          "aula": "402"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1701",
+      "nombre": "Laboratorio de proyectos IV, espacio arquitectónico",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CASTRO CHACON ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": "J02",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1501",
+      "nombre": "Laboratorio de proyectos II, Composición arquitectural",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "CHANG ALBIZUREZ DOMINIQUE",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50] JUE[13:00-16:50] MAR[13:00-16:50] JUE[13:00-16:50]",
+          "edificio": "J01",
+          "aula": "301"
+        },
+        {
+          "grupo": 40,
+          "profesor": "HERNANDEZ SALAZAR ILEANA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": "J01",
+          "aula": "301"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1303",
+      "nombre": "Historia del arte y la arquitectura I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "CHAVERRI FLORES LAURA",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "J01",
+          "aula": "203"
+        },
+        {
+          "grupo": 40,
+          "profesor": "MALAVASSI AGUILAR ROSA ELENA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "J01",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1502",
+      "nombre": "Introducción a la investigación",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "GARCIA BALTODANO KENIA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": "J01",
+          "aula": "203"
+        },
+        {
+          "grupo": 41,
+          "profesor": "PORRAS ALFARO DAVID",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": "J01",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AU4004",
+      "nombre": "Investigación dirigida",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "GUEVARA MURILLO MAURICIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[08:30-11:20]",
+          "edificio": "J01",
+          "aula": "204"
+        }
+      ]
+    },
+    {
+      "codigo": "AU4533",
+      "nombre": "Práctica de vinculación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "GUEVARA MURILLO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AU3106",
+      "nombre": "Teoría de la arquitectura II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "JIMENEZ ZUÑIGA LUIS GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "J01",
+          "aula": "204"
+        },
+        {
+          "grupo": 41,
+          "profesor": "JIMENEZ ZUÑIGA LUIS GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-11:20]",
+          "edificio": "J01",
+          "aula": "204"
+        }
+      ]
+    },
+    {
+      "codigo": "AU4108",
+      "nombre": "Teoría e historia urbanismo II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MADRIGAL JIMENEZ VICTOR HUGO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "J06",
+          "aula": "105"
+        },
+        {
+          "grupo": 41,
+          "profesor": "MADRIGAL JIMENEZ VICTOR HUGO",
+          "modalidad": "Regular",
+          "horario": "JUE[08:30-11:20]",
+          "edificio": "J06",
+          "aula": "105"
+        }
+      ]
+    },
+    {
+      "codigo": "AU2103",
+      "nombre": "Historia de arte y arquitectura de Costa Rica",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MALAVASSI AGUILAR ROSA ELENA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": "J01",
+          "aula": "203"
+        },
+        {
+          "grupo": 41,
+          "profesor": "MALAVASSI AGUILAR ROSA ELENA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": "J01",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AU5408",
+      "nombre": "Proyecto de graduación",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MALAVASSI AGUILAR ROSA ELENA",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AU4003",
+      "nombre": "Planificación urbana y territorial aplicadas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MARTINEZ BALDARES TOMAS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "J02",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AU5002",
+      "nombre": "Laboratorio de proyectos X: Diseño urbano",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MARTINEZ BALDARES TOMAS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": "J01",
+          "aula": "204"
+        }
+      ]
+    },
+    {
+      "codigo": "AU5001",
+      "nombre": "Laboratorio de proyectos X: Diseño arquitectónico",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "OROZCO MUÑOZ SEBASTIAN",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": "J01",
+          "aula": "501"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1901",
+      "nombre": "Laboratorio de proyectos VI, Sostenibilidad",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SALAZAR CECILIANO ENMANUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] VIE[07:30-11:20] MAR[07:30-11:20] VIE[07:30-11:20]",
+          "edificio": "J02",
+          "aula": "203"
+        },
+        {
+          "grupo": 41,
+          "profesor": "SALAZAR CECILIANO ENMANUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50] VIE[13:00-16:50] MAR[13:00-16:50] VIE[13:00-16:50]",
+          "edificio": "J02",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1702",
+      "nombre": "Sistemas de representación digital I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLIS GARCIA MARCO",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 41,
+          "profesor": "SOLIS GARCIA MARCO",
+          "modalidad": "Virtual",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1704",
+      "nombre": "Diseño bioclimático",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VALERIO ALFARO DANILO",
+          "modalidad": "Regular",
+          "horario": "MIE[08:30-11:20]",
+          "edificio": "J02",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1902",
+      "nombre": "Instalaciones eléctricas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VALVERDE MADRIZ LUIS",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": "J01",
+          "aula": "301"
+        },
+        {
+          "grupo": 41,
+          "profesor": "VALVERDE MADRIZ LUIS",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": "J01",
+          "aula": "301"
+        }
+      ]
+    },
+    {
+      "codigo": "AU1703",
+      "nombre": "Sistemas de construcción I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "YGLESIAS CUADRA ROBERTO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "J01",
+          "aula": "204"
+        }
+      ]
+    }
+  ]
+}

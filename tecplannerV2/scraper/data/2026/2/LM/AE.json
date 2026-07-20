@@ -1,0 +1,205 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AE2126",
+      "nombre": "Contabilidad de costos I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ALLEN MAITLAND KENDRALL",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": "L",
+          "aula": "12"
+        }
+      ]
+    },
+    {
+      "codigo": "AE1122",
+      "nombre": "Contabilidad I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BINNS HERNANDEZ HENRY ALBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": "L",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3223",
+      "nombre": "Gestión del talento humano I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BROWN RICHARDS ENOS",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": "L",
+          "aula": "12"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4130",
+      "nombre": "Formulación y evaluación de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "DE LA O TORRES MARVIN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": "L",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3127",
+      "nombre": "Administración financiera I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "FLETES GALAN WILBERTH",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[18:00-21:50]",
+          "edificio": "L",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3415",
+      "nombre": "Investigación de mercados",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GARITA ALPIZAR PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": "L",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3505",
+      "nombre": "Metodología de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GARITA ALPIZAR PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[18:00-21:50]",
+          "edificio": "L",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4549",
+      "nombre": "Neuromarketing y neurociencia",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GARITA ALPIZAR PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": "L",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2124",
+      "nombre": "Contabilidad III",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "JOSE ZAMORA JIMENEZ",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": "L",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4128",
+      "nombre": "Auditoría I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "JOSE ZAMORA JIMENEZ",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[18:00-20:50]",
+          "edificio": "L",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2220",
+      "nombre": "Análisis administrativo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "PIEDRA NAVARRO DAYHANA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": "L",
+          "aula": "12"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4226",
+      "nombre": "Estrategia empresarial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "PIEDRA NAVARRO DAYHANA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": "L",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2506",
+      "nombre": "Estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "WYNTA BANTON RANDY YADIR",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": "L",
+          "aula": "7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "codigoEscuela": "GTS",
+  "nombreEscuela": "GESTION DE TURISMO SOSTENIBLE",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "TS2202",
+      "nombre": "Práctica de especialidad",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVAREZ HERNANDEZ MARIAM",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "B2",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "TS2301",
+      "nombre": "Formulación y evaluación de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVAREZ HERNANDEZ MARIAM",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": "B2",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "TS1100",
+      "nombre": "Gestión ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS HIDALGO DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "B2",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "TS1202",
+      "nombre": "Equidad y participación social",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CEDEÑO CAMACHO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "TS1201",
+      "nombre": "Turismo y sociedad",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORA SANCHEZ AMILKAR",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "B2",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "TS2204",
+      "nombre": "Sociología del turismo",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "B2",
+          "aula": "6"
+        }
+      ]
+    }
+  ]
+}

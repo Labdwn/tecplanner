@@ -1,0 +1,85 @@
+{
+  "codigoEscuela": "MIL",
+  "nombreEscuela": "LICENCIATURA EN INGENIERIA EN MANTENIMIENTO INDUSTRIAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MI5152",
+      "nombre": "Aire acondicionado",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DEL VALLE GRANADOS IGNACIO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MI6153",
+      "nombre": "Ahorro energético",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MATA ORTEGA SEBASTIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MI6259",
+      "nombre": "Sistemas de refrigeración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE RUIZ OSCAR EDUARDO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[08:30-11:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MI5215",
+      "nombre": "Análisis de sistemas eléctricos de potencia",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORA JIMENEZ GONZALO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-19:50] JUE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MI6351",
+      "nombre": "Mantenimiento predictivo",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PIEDRA SANTAMARIA CARLOS",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

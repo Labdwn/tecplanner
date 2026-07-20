@@ -1,0 +1,299 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AE3127",
+      "nombre": "Administración financiera I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ABREGO CAMPOS LEONEL",
+          "modalidad": "Regular",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": "J01",
+          "aula": "403"
+        },
+        {
+          "grupo": 41,
+          "profesor": "MORA CRUZ ALEXANDRA",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": "J01",
+          "aula": "403"
+        }
+      ]
+    },
+    {
+      "codigo": "AE1122",
+      "nombre": "Contabilidad I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "ACEVEDO WHITFORD OSCAR",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "J01",
+          "aula": "403"
+        },
+        {
+          "grupo": 40,
+          "profesor": "BARBOZA DIAZ LINO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-21:05]",
+          "edificio": "J01",
+          "aula": "403"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4128",
+      "nombre": "Auditoría I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ARAYA LEANDRO ARNOLDO",
+          "modalidad": "Regular",
+          "horario": "LUN[17:30-20:15]",
+          "edificio": "J06",
+          "aula": "105"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2124",
+      "nombre": "Contabilidad III",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "BARBOZA DIAZ LINO",
+          "modalidad": "Regular",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": "J06",
+          "aula": "102"
+        },
+        {
+          "grupo": 41,
+          "profesor": "CERVANTES MEZA ALBERTO",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50]",
+          "edificio": "J06",
+          "aula": "102"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2126",
+      "nombre": "Contabilidad de costos I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "CERVANTES MEZA ALBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "J06",
+          "aula": "105"
+        },
+        {
+          "grupo": 40,
+          "profesor": "SOLANO MARTINEZ MAURICIO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-21:05]",
+          "edificio": "J06",
+          "aula": "105"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3312",
+      "nombre": "Negocios internacionales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CHAVARRIA HIDALGO CARLOS",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-21:05]",
+          "edificio": "J01",
+          "aula": "202"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4130",
+      "nombre": "Formulación y evaluación de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "DIAZ GUTIERREZ CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-21:05]",
+          "edificio": "J01",
+          "aula": "202"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3505",
+      "nombre": "Metodología de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "FAITH VARGAS MARGIE",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "J01",
+          "aula": "203"
+        },
+        {
+          "grupo": 40,
+          "profesor": "ROJAS SEGURA JAVIER",
+          "modalidad": "Regular",
+          "horario": "JUE[17:30-21:05]",
+          "edificio": "J01",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4208",
+      "nombre": "Desarrollo de emprendedores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "FAITH VARGAS MARGIE",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "J01",
+          "aula": "401"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2220",
+      "nombre": "Análisis administrativo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "FERNANDEZ AGUILAR JADVY",
+          "modalidad": "Regular",
+          "horario": "JUE[17:30-21:05]",
+          "edificio": "J06",
+          "aula": "102"
+        },
+        {
+          "grupo": 41,
+          "profesor": "MAROTO CALVO OSCAR",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "J06",
+          "aula": "104"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4226",
+      "nombre": "Estrategia empresarial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "GUILLEN MIRANDA ERICK",
+          "modalidad": "Regular",
+          "horario": "VIE[17:30-21:05]",
+          "edificio": "J01",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3223",
+      "nombre": "Gestión del talento humano I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "MAROTO CALVO OSCAR",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50]",
+          "edificio": "J06",
+          "aula": "101"
+        },
+        {
+          "grupo": 40,
+          "profesor": "MONGE DAVANZO YAFANNY",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-21:05]",
+          "edificio": "J06",
+          "aula": "201"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2506",
+      "nombre": "Estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "NAVARRO CERDAS GUSTAVO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "J01",
+          "aula": "403"
+        },
+        {
+          "grupo": 40,
+          "profesor": "TENORIO SANCHEZ ANA PATRICIA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-21:05]",
+          "edificio": "J01",
+          "aula": "403"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2308",
+      "nombre": "Microeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ROJAS ESQUIVEL ARMANDO",
+          "modalidad": "Regular",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": "J06",
+          "aula": "104"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3415",
+      "nombre": "Investigación de mercados",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLIS RAMIREZ INGRID",
+          "modalidad": "Regular",
+          "horario": "JUE[17:30-21:05]",
+          "edificio": "J01",
+          "aula": "202"
+        }
+      ]
+    }
+  ]
+}

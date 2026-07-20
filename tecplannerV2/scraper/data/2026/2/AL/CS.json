@@ -1,0 +1,85 @@
+{
+  "codigoEscuela": "CS",
+  "nombreEscuela": "ESCUELA DE CIENCIAS SOCIALES",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CS2303",
+      "nombre": "Relaciones laborales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ACHOY HERNANDEZ ALEJANDRO",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:00-09:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS5300",
+      "nombre": "Desarrollo tecnológico y sostenibilidad",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "PRENDAS SOLANO JORGE",
+          "modalidad": "Virtual",
+          "horario": "JUE[07:00-09:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ROJAS MOLINA BETSY",
+          "modalidad": "Virtual",
+          "horario": "LUN[09:00-11:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

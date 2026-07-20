@@ -1,0 +1,235 @@
+{
+  "codigoEscuela": "AEN",
+  "nombreEscuela": "ADMINISTRACION DE EMPRESAS NOCTURNA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AE4128",
+      "nombre": "Auditoría I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "ARAYA LEANDRO ARNOLDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "D1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2126",
+      "nombre": "Contabilidad de costos I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "CERVANTES MEZA ALBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": "D1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4226",
+      "nombre": "Estrategia empresarial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "CORDERO CASTILLO DAMARIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": "D1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2506",
+      "nombre": "Estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "CORTES MIXTER JULIO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3223",
+      "nombre": "Gestión del talento humano I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "FERNANDEZ AGUILAR JADVY",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": "D3",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2308",
+      "nombre": "Microeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "GONZALEZ ESPINOZA MANUEL",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3415",
+      "nombre": "Investigación de mercados",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "GUZMAN RIVERA DIEGO ANDRES",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2220",
+      "nombre": "Análisis administrativo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "JAUBERT SOLANO WILLIAM",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4130",
+      "nombre": "Formulación y evaluación de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "MARTINEZ GUTIERREZ BERNAL",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": "D3",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4544",
+      "nombre": "Analítica de negocio",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "ORTIZ ACUÑA CINDY",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "AE1122",
+      "nombre": "Contabilidad I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "PEREZ GUTIERREZ ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3505",
+      "nombre": "Metodología de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "ROJAS SEGURA JAVIER",
+          "modalidad": "Regular",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2124",
+      "nombre": "Contabilidad III",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "RUIZ NAVARRO MARLON",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3127",
+      "nombre": "Administración financiera I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "SOJO CASTRO MARJORIE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": "D3",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3312",
+      "nombre": "Negocios internacionales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "FH0239",
+      "nombre": "La condición humana en nuestra época: ética y derechos humanos",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GUILLEN MARTINEZ LUIS DIEGO",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0263",
+      "nombre": "Religión, espiritualidades y ética mundial",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

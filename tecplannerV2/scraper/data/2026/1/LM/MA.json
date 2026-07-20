@@ -1,0 +1,161 @@
+{
+  "codigoEscuela": "MA",
+  "nombreEscuela": "ESCUELA DE MATEMATICA",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MA0101",
+      "nombre": "Matemática general",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 61,
+          "profesor": "LOPEZ MORA VERONICA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 60,
+          "profesor": "SOTO CASCANTE EMANUELLE",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 62,
+          "profesor": "WYNTA BANTON RANDY YADIR",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1303",
+      "nombre": "Matemática básica para administración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "LOPEZ MORA VERONICA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1403",
+      "nombre": "Matemática discreta",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "LOPEZ MORA VERONICA",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA3405",
+      "nombre": "Estadística",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "LOPEZ MORA VERONICA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-19:50] VIE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1103",
+      "nombre": "Cálculo y álgebra lineal",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SOTO CASCANTE EMANUELLE",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2105",
+      "nombre": "Ecuaciones diferenciales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SOTO CASCANTE EMANUELLE",
+          "modalidad": "Regular",
+          "horario": "MAR[16:00-17:50] JUE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2404",
+      "nombre": "Probabilidades",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SOTO CASCANTE EMANUELLE",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-17:50] VIE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1102",
+      "nombre": "Cálculo diferencial e integral",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "WYNTA BANTON RANDY YADIR",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1304",
+      "nombre": "Cálculo para administración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "WYNTA BANTON RANDY YADIR",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

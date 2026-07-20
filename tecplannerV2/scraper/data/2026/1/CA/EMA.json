@@ -1,0 +1,258 @@
+{
+  "codigoEscuela": "EMA",
+  "nombreEscuela": "ENSEÑANZA DE LA MATEMATICA CON ENTORNOS TECNOLOGICOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "EM4610",
+      "nombre": "Ecuaciones diferenciales",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA CHACON REIMAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM1404",
+      "nombre": "Teorías psicopedagógicas del aprendizaje",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALFARO BARQUERO ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM2606",
+      "nombre": "Geometría II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BLANCO BENAMBURG RANDALL",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM4609",
+      "nombre": "Álgebra",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FIGUEROA MATA GEOVANNI",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] MIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM1401",
+      "nombre": "Introducción a la pedagogía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUTIERREZ RUIZ GRETTEL",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MORA CASASOLA MARIA FERNANDA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM1605",
+      "nombre": "Fundamentos de matemática I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE FALLAS JORGE",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] MIE[07:30-09:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM3409",
+      "nombre": "Práctica docente",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE MADRIZ CARLOS",
+          "modalidad": "Tutoría",
+          "horario": "VIE[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM3011",
+      "nombre": "Teoría de conjuntos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NUÑEZ VANEGAS FELIX",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM3407",
+      "nombre": "Psicología del desarrollo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PALMA PICADO KATHERINE",
+          "modalidad": "Tutoría",
+          "horario": "MIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM1610",
+      "nombre": "Tecnologías digitales aplicadas a la matemática educativa II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PARRA SALAZAR EDWARD",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM1609",
+      "nombre": "Didáctica de la probabilidad y la estadística",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ ARCE GREIVIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM3408",
+      "nombre": "Evaluación del aprendizaje",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMOS MARIN SIGURD",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM2607",
+      "nombre": "Cálculo y análisis II",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROSALES ORTEGA JOSE",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-18:50] VIE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM3607",
+      "nombre": "Álgebra lineal",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO QUIROS JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM1608",
+      "nombre": "Didáctica del álgebra y funciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SUAREZ VALDES-AYALA ZULEYKA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM1611",
+      "nombre": "Geometría analítica",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALVERDE SANCHEZ SAMUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

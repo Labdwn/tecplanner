@@ -1,0 +1,64 @@
+{
+  "codigoEscuela": "QU",
+  "nombreEscuela": "ESCUELA DE QUIMICA",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "QU1102",
+      "nombre": "Laboratorio de química básica I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 91,
+          "profesor": "ARAYA CARVAJAL FABIO",
+          "modalidad": "Regular",
+          "horario": "VIE[10:00-11:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 90,
+          "profesor": "SANCHEZ KOPPER ANDRES",
+          "modalidad": "Regular",
+          "horario": "VIE[08:00-09:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 92,
+          "profesor": "SANCHEZ KOPPER ANDRES",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU1106",
+      "nombre": "Química básica I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "ARAYA CARVAJAL FABIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 91,
+          "profesor": "ARAYA CARVAJAL FABIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:00-10:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

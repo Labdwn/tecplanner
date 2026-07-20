@@ -1,0 +1,355 @@
+{
+  "codigoEscuela": "AMB",
+  "nombreEscuela": "INGENIERIA AMBIENTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AI5106",
+      "nombre": "Gestión ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA PIEDRA ANDREA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50] MAR[13:00-16:50]",
+          "edificio": "D3",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6109",
+      "nombre": "Cambio climático, adaptación y mitigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA VARELA KAREN",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6104",
+      "nombre": "Seguridad y salud ocupacional en Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS MONGE ESTEBAN DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3112",
+      "nombre": "Diseño y tratamiento de aguas residuales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BARRIOS HERNANDEZ MARYLUZ",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3109",
+      "nombre": "Laboratorio de tratamiento de agua potable y residual",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CABALLERO CHAVARRIA ANDREY",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50] JUE[13:00-15:50]",
+          "edificio": "G17",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "AI4103",
+      "nombre": "Laboratorio de ingeniería en emisiones atmosféricas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CABALLERO CHAVARRIA ANDREY",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20] MIE[09:30-12:20]",
+          "edificio": "G17",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3111",
+      "nombre": "Administración de proyectos de infraestructura ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CAMPOS NAVARRO JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50] MIE[13:00-15:50]",
+          "edificio": "G17",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3212",
+      "nombre": "Termodinámica y cinética ambiental",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "F5",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6111",
+      "nombre": "Ingeniería urbana sostenible",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ PARRA DAVID",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-18:50]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6105",
+      "nombre": "Evaluación de impacto ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ TORRES HAZEL MARIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI5107",
+      "nombre": "Mecánica de suelos para Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MASIS MELENDEZ FEDERICO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6116",
+      "nombre": "Toxicología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO CAMPOS VIRGINIA",
+          "modalidad": "Virtual",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3209",
+      "nombre": "Hidrología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PICADO VALVERDE SOFIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": "G17",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3104",
+      "nombre": "Ecosaneamiento ambiental",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PINO GOMEZ MACARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-09:20] SAB[07:30-08:20]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3110",
+      "nombre": "Diseño de sistemas de potabilización de agua",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PINO GOMEZ MACARIO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI4102",
+      "nombre": "Ingeniería en emisiones atmosféricas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "QUESADA CARVAJAL LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[07:30-11:20]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI2101",
+      "nombre": "Análisis estadístico para Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "G17",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AI5104",
+      "nombre": "Análisis y diseño experimental para Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "G17",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AI2401",
+      "nombre": "Análisis topográfico en Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO MONTOYA CASIA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "G17",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6108",
+      "nombre": "Introducción a la ciencia de los polímeros",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "STARBIRD PEREZ RICARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3208",
+      "nombre": "Hidráulica para ingeniería ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "UMAÑA QUIROS BRAULIO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": "I6",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AI5105",
+      "nombre": "Consumo y producción sostenible",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALERIO PEREZ LUIS GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "G17",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6115",
+      "nombre": "Energías renovables",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALERIO PEREZ LUIS GUILLERMO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-08:20] JUE[07:30-09:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

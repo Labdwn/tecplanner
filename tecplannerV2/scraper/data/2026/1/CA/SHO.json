@@ -1,0 +1,358 @@
+{
+  "codigoEscuela": "SHO",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN SEGURIDAD LABORAL E HIGIENE AMBIENTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "SO3507",
+      "nombre": "Epidemiologia en salud ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "AGUERO HERNANDEZ ANA LAURA",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO3510",
+      "nombre": "Agentes ambientales biológicos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "AGUERO HERNANDEZ ANA LAURA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO5903",
+      "nombre": "Gestión ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "AGUERO HERNANDEZ ANA LAURA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO2601",
+      "nombre": "Fundamentos de seguridad e higiene ocupacional",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA SOLANO TANNIA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO1102",
+      "nombre": "Dibujo e interpretación de planos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BERMUDEZ CHACON MARVIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "BERMUDEZ CHACON MARVIN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "BERMUDEZ CHACON MARVIN",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO3508",
+      "nombre": "Seguridad contra incendios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CARPIO CHAVES MONICA",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4604",
+      "nombre": "Seguridad y salud ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CARPIO CHAVES MONICA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4802",
+      "nombre": "Control de agentes ambientales químicos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DEL VALLE GRANADOS IGNACIO",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO1103",
+      "nombre": "Introducción a la seguridad laboral",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4402",
+      "nombre": "Gerencia de riesgos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO5905",
+      "nombre": "Gestión integral de desastres",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4705",
+      "nombre": "Control de los factores psicosociales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GODÍNEZ SALAZAR NATALIA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO2309",
+      "nombre": "Seguridad en instalaciones y maquinaria",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "Gutierrez Fuentes Adrián",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO3513",
+      "nombre": "Seguridad en procesos industriales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "Gutierrez Fuentes Adrián",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4703",
+      "nombre": "Evaluación y control de exposición al ambiente térmico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "Gutierrez Fuentes Adrián",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO5910",
+      "nombre": "Taller de diseño",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ GOMEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO3503",
+      "nombre": "Fundamentos de medicina y toxicología laboral",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MENDEZ VILLALOBOS GERALD",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO3604",
+      "nombre": "Agentes ambientales químicos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4801",
+      "nombre": "Gerencia estratégica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SAENZ SANCHEZ MARIELA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4804",
+      "nombre": "Principios de ergonomía ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZAMORA ZAMORA CINDY",
+          "modalidad": "Regular",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

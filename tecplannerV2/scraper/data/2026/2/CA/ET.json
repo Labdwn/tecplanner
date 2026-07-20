@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "ET",
+  "nombreEscuela": "EDUCACION TECNICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "LE1206",
+      "nombre": "Metodología de la investigación",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ ARAYA JESUS",
+          "modalidad": "Virtual",
+          "horario": "SAB[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LE1204",
+      "nombre": "Psicología educativa en ETFP",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LE1205",
+      "nombre": "Planificación didáctica y curricular en ETFP",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO GRANT ANDREA",
+          "modalidad": "Virtual",
+          "horario": "SAB[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

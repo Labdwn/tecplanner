@@ -1,0 +1,303 @@
+{
+  "codigoEscuela": "E",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN ELECTRONICA",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "EL3310",
+      "nombre": "Diseño de sistemas digitales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ALFARO BADILLA JASON KALED",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[07:00-10:50]",
+          "edificio": "UTN",
+          "aula": "619"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2114",
+      "nombre": "Circuitos eléctricos en corriente alterna",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ARAYA RODRIGUEZ LISANDRO",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[08:00-11:50]",
+          "edificio": "UTN",
+          "aula": "602"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4513",
+      "nombre": "Teoría electromagnética I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "CORDERO GARCIA IVAN GABRIEL",
+          "modalidad": "Regular",
+          "horario": "MAR[10:00-11:50] JUE[10:00-11:50]",
+          "edificio": "UTN",
+          "aula": "604"
+        }
+      ]
+    },
+    {
+      "codigo": "EL1200",
+      "nombre": "Introducción a la electrónica",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MORALES HERNANDEZ SERGIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-08:50]",
+          "edificio": "LAT",
+          "aula": "211"
+        },
+        {
+          "grupo": 21,
+          "profesor": "MORALES HERNANDEZ SERGIO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-08:50]",
+          "edificio": "LAT",
+          "aula": "211"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2111",
+      "nombre": "Laboratorio de circuitos eléctricos",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MORALES HERNANDEZ SERGIO",
+          "modalidad": "Regular",
+          "horario": "LUN[09:00-10:50]",
+          "edificio": "LAT",
+          "aula": "211"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2113",
+      "nombre": "Circuitos eléctricos en corriente continua",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MORALES HERNANDEZ SERGIO",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": "UTN",
+          "aula": "602"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4607",
+      "nombre": "Normalización técnica (estándares industriales)",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "PEREIRA ARROYO ROBERTO",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5617",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 7,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "PEREIRA ARROYO ROBERTO",
+          "modalidad": "Virtual",
+          "horario": "MIE[10:00-11:50] VIE[10:00-11:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2207",
+      "nombre": "Elementos activos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "PHILLIPS BRENES HAYDEN ANTHONY",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5408",
+      "nombre": "Control automático",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "PHILLIPS BRENES HAYDEN ANTHONY",
+          "modalidad": "Virtual",
+          "horario": "LUN[08:00-11:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5521",
+      "nombre": "Comunicaciones eléctricas II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RAMIREZ JIMENEZ ARNOLDO ALCIDES",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-19:50] VIE[18:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5522",
+      "nombre": "Taller de comunicaciones eléctricas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RAMIREZ JIMENEZ ARNOLDO ALCIDES",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[08:00-11:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4703",
+      "nombre": "Señales y sistemas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ROSALES ALPIZAR LUIS CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:00-08:50] JUE[07:00-08:50]",
+          "edificio": "UTN",
+          "aula": "620"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5409",
+      "nombre": "Laboratorio de control automático",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ROSALES ALPIZAR LUIS CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "LAT",
+          "aula": "211"
+        }
+      ]
+    },
+    {
+      "codigo": "EL5513",
+      "nombre": "Comunicaciones eléctricas I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ROSALES ALPIZAR LUIS CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:00-08:50] VIE[07:00-08:50]",
+          "edificio": "UTN",
+          "aula": "601"
+        }
+      ]
+    },
+    {
+      "codigo": "EL2110",
+      "nombre": "Laboratorio de mediciones eléctricas",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SANCHEZ HERRERA KERVIN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-08:50]",
+          "edificio": "LAT",
+          "aula": "211"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4314",
+      "nombre": "Arquitectura de computadoras I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SANCHEZ HERRERA KERVIN",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-19:50] VIE[18:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL3216",
+      "nombre": "Circuitos integrados analógicos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SOTO GARITA JUAN PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[08:00-11:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4702",
+      "nombre": "Probabilidad y estadística",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ZAMORA BOLAÑOS JUAN DIEGO",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[15:00-16:50] SAB[10:00-11:50]",
+          "edificio": "UTN",
+          "aula": "619"
+        }
+      ]
+    }
+  ]
+}

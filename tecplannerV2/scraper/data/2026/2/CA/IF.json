@@ -1,0 +1,223 @@
+{
+  "codigoEscuela": "IF",
+  "nombreEscuela": "UNIDAD ACADEMICA DE CARRERA DE LICENCIATURA EN INGENIERIA FISICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "IF3603",
+      "nombre": "Óptica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALFARO ALVARADO JOSE ABRAHAN",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "C1",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "IF4802",
+      "nombre": "Laboratorio metrología I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "ALFARO ALVARADO JOSE ABRAHAN",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MORA VINDAS ALAN GERARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-17:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 1,
+          "profesor": "SANABRIA SANDI RAZIEL FARID",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IF3502",
+      "nombre": "Instrumentación I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "FONT CRUZ EDUARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": "C1",
+          "aula": "2"
+        },
+        {
+          "grupo": 1,
+          "profesor": "MOYA SERRANO ROY DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": "C1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IF3503",
+      "nombre": "Instrumentación II",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FONT CRUZ EDUARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": "C1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IF3602",
+      "nombre": "Métodos matemáticos de física e ingeniería I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LACY MORA GERARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "C1",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "IF4801",
+      "nombre": "Mecánica cuántica para ingeniería",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MAYORGA ESPINOZA CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "C1",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "IF4804",
+      "nombre": "Física computacional II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MAYORGA ESPINOZA CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50] MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "C1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "IF5901",
+      "nombre": "Física experimental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MOYA SERRANO ROY DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20] MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "F5",
+          "aula": "8"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MOYA SERRANO ROY DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50] MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "C1",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "IF3604",
+      "nombre": "Laboratorio de óptica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MURILLO SALAZAR DENNIS",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MURILLO SALAZAR DENNIS",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IF4803",
+      "nombre": "Metrología industrial y legal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANABRIA SANDI RAZIEL FARID",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "C1",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "IF3601",
+      "nombre": "Metodología de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLANO PIEDRA RICARDO ADOLFO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": "C1",
+          "aula": "4"
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOLANO PIEDRA RICARDO ADOLFO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": "C1",
+          "aula": "4"
+        }
+      ]
+    }
+  ]
+}

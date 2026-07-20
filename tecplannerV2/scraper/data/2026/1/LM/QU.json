@@ -1,0 +1,64 @@
+{
+  "codigoEscuela": "QU",
+  "nombreEscuela": "ESCUELA DE QUIMICA",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "QU1102",
+      "nombre": "Laboratorio de química básica I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "OSORNO FALLAS DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 61,
+          "profesor": "OSORNO FALLAS DAVID",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 62,
+          "profesor": "OSORNO FALLAS DAVID",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU1106",
+      "nombre": "Química básica I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "OSORNO FALLAS DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 61,
+          "profesor": "OSORNO FALLAS DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "codigoEscuela": "CA",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTACION",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "IC1802",
+      "nombre": "Introducción a la programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALFARO QUESADA ALEJANDRO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "3"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MORA ROJAS DIEGO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-09:40] JUE[07:55-09:40]",
+          "edificio": "LAB",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "IC1803",
+      "nombre": "Taller de programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALFARO QUESADA ALEJANDRO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": "MVL",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MORA ROJAS DIEGO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:45-11:30] JUE[09:45-11:30]",
+          "edificio": "LAB",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "IC3101",
+      "nombre": "Arquitectura de computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALFARO VELASCO JORGE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": "AUC",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "QUIROS OVIEDO ROCIO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6600",
+      "nombre": "Principios de sistemas operativos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALFARO VELASCO JORGE",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": "AUC",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "ALFARO VELASCO JORGE",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": "AUC",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6400",
+      "nombre": "Investigación de operaciones",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "BALLESTERO ALFARO ESTEBAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": "E",
+          "aula": "210"
+        }
+      ]
+    },
+    {
+      "codigo": "IC5821",
+      "nombre": "Requerimientos de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CAMPOS FUENTES MARVIN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-11:30]",
+          "edificio": "AUC",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC4301",
+      "nombre": "Bases de datos I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CORTES SEAS JONATHAN",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "LAB",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6200",
+      "nombre": "Inteligencia artificial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "JIMENEZ DELGADO EFREN ANTONIO",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "MVL",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "CA2125",
+      "nombre": "Elementos de computación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 51,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MIE[09:45-11:30] VIE[09:45-11:30] MIE[09:45-11:30] VIE[09:45-11:30]",
+          "edificio": "LAB",
+          "aula": "3"
+        },
+        {
+          "grupo": 50,
+          "profesor": "SOLIS PARAJELES JONATHAN",
+          "modalidad": "Regular",
+          "horario": "MAR[17:05-20:40]",
+          "edificio": "LAB",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC7900",
+      "nombre": "Computación y sociedad",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MENDEZ PORRAS ABEL",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": "E",
+          "aula": "210"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MENDEZ PORRAS ABEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": "MVL",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC7602",
+      "nombre": "Redes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MONDRAGON CORRALES GABRIEL",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": "MVL",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC1400",
+      "nombre": "Fundamentos de organización de computadoras",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "QUIROS OVIEDO ROCIO",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": "LAB",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "IC4810",
+      "nombre": "Administración de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ OVARES MARCO",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": "AUC",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6821",
+      "nombre": "Diseño de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ OVARES MARCO",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "AUC",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "SOLIS PARAJELES JONATHAN",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "LAB",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6831",
+      "nombre": "Aseguramiento de la calidad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ OVARES MARCO",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": "MVL",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC8071",
+      "nombre": "Seguridad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS CHAVARRIA ADRIANA",
+          "modalidad": "Virtual",
+          "horario": "LUN[16:10-19:45]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CA3125",
+      "nombre": "Análisis y diseño de algoritmos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS VEGA DIEGO",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": "LAB",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "IC7841",
+      "nombre": "Proyecto de ingeniería de software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS VEGA DIEGO",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": "AUC",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC8057",
+      "nombre": "Introducción al desarrollo de paginas web",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS VEGA DIEGO",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": "MVL",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC2001",
+      "nombre": "Estructuras de datos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VALERIO SOLIS LORENA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "VALERIO SOLIS LORENA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC3002",
+      "nombre": "Análisis de algoritmos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VALERIO SOLIS LORENA",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": "LAB",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC2101",
+      "nombre": "Programación orientada a objetos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VIQUEZ ACUÑA LEONARDO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "2"
+        },
+        {
+          "grupo": 51,
+          "profesor": "VIQUEZ ACUÑA OSCAR MARIO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IC4302",
+      "nombre": "Bases de datos II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VIQUEZ ACUÑA LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "2"
+        },
+        {
+          "grupo": 51,
+          "profesor": "VIQUEZ ACUÑA LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IC4700",
+      "nombre": "Lenguajes de programación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VIQUEZ ACUÑA OSCAR MARIO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": "LAB",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "VIQUEZ ACUÑA OSCAR MARIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": "E",
+          "aula": "210"
+        }
+      ]
+    },
+    {
+      "codigo": "IC5701",
+      "nombre": "Compiladores e interpretes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VIQUEZ ACUÑA OSCAR MARIO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-11:30]",
+          "edificio": "E",
+          "aula": "210"
+        }
+      ]
+    },
+    {
+      "codigo": "IC8076",
+      "nombre": "Introducción al análisis de datos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ZAMORA CARDENAS WILLARD",
+          "modalidad": "Regular",
+          "horario": "JUE[17:05-20:40]",
+          "edificio": "LAB",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

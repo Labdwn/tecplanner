@@ -1,0 +1,393 @@
+{
+  "codigoEscuela": "CA",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTACION",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "IC4301",
+      "nombre": "Bases de datos I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ALVAREZ FIGUEROA ADRIANA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[19:25-21:05] JUE[19:25-21:05]",
+          "edificio": "J01",
+          "aula": "303"
+        }
+      ]
+    },
+    {
+      "codigo": "IC4810",
+      "nombre": "Administración de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ALVAREZ FIGUEROA ADRIANA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": "J06",
+          "aula": "201"
+        }
+      ]
+    },
+    {
+      "codigo": "IC8071",
+      "nombre": "Seguridad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ALVAREZ FIGUEROA ADRIANA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:30-19:10] JUE[17:30-19:10]",
+          "edificio": "J06",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "IC8842",
+      "nombre": "Práctica profesional",
+      "creditos": 12,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ALVAREZ FIGUEROA ADRIANA",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-09:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IC2001",
+      "nombre": "Estructuras de datos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "AVILES CISNEROS MAURICIO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": "J01",
+          "aula": "303"
+        }
+      ]
+    },
+    {
+      "codigo": "IC2101",
+      "nombre": "Programación orientada a objetos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "AVILES CISNEROS MAURICIO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": "J01",
+          "aula": "303"
+        }
+      ]
+    },
+    {
+      "codigo": "IC8048",
+      "nombre": "Simulación de sistemas naturales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "AVILES CISNEROS MAURICIO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": "J01",
+          "aula": "303"
+        }
+      ]
+    },
+    {
+      "codigo": "IC1802",
+      "nombre": "Introducción a la programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CANESSA MONTERO EDUARDO ADOLFO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "J01",
+          "aula": "303"
+        },
+        {
+          "grupo": 41,
+          "profesor": "MORA ROJAS DIEGO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "J01",
+          "aula": "303"
+        }
+      ]
+    },
+    {
+      "codigo": "IC1803",
+      "nombre": "Taller de programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CANESSA MONTERO EDUARDO ADOLFO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "J01",
+          "aula": "303"
+        }
+      ]
+    },
+    {
+      "codigo": "IC3101",
+      "nombre": "Arquitectura de computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CANESSA MONTERO EDUARDO ADOLFO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": "J01",
+          "aula": "303"
+        }
+      ]
+    },
+    {
+      "codigo": "IC7602",
+      "nombre": "Redes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CANESSA MONTERO EDUARDO ADOLFO",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-20:15] JUE[18:20-20:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IC3002",
+      "nombre": "Análisis de algoritmos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CASTRO MORA JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": "J06",
+          "aula": "201"
+        }
+      ]
+    },
+    {
+      "codigo": "IC4700",
+      "nombre": "Lenguajes de programación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CASTRO MORA JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "J06",
+          "aula": "201"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6200",
+      "nombre": "Inteligencia artificial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CASTRO MORA JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "J06",
+          "aula": "201"
+        }
+      ]
+    },
+    {
+      "codigo": "IC4302",
+      "nombre": "Bases de datos II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "HERNANDEZ BONILLA ERICK",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": "J06",
+          "aula": "202"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6831",
+      "nombre": "Aseguramiento de la calidad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "HERNANDEZ BONILLA ERICK",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": "J06",
+          "aula": "201"
+        }
+      ]
+    },
+    {
+      "codigo": "IC5821",
+      "nombre": "Requerimientos de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MONTOYA POITEVIEN LUIS",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-19:10] JUE[17:30-19:10]",
+          "edificio": "J01",
+          "aula": "401"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6600",
+      "nombre": "Principios de sistemas operativos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MORA ZAMORA RODOLFO DE JESUS",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "J06",
+          "aula": "103"
+        }
+      ]
+    },
+    {
+      "codigo": "IC7841",
+      "nombre": "Proyecto de ingeniería de software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MORA ZAMORA RODOLFO DE JESUS",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IC7900",
+      "nombre": "Computación y sociedad",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MORA ZAMORA RODOLFO DE JESUS",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": "J06",
+          "aula": "203"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6821",
+      "nombre": "Diseño de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLANO FERNANDEZ ERICKA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "J06",
+          "aula": "202"
+        }
+      ]
+    },
+    {
+      "codigo": "IC1400",
+      "nombre": "Fundamentos de organización de computadoras",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "TORRES ROJAS FRANCISCO JOSE",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": "J06",
+          "aula": "101"
+        }
+      ]
+    },
+    {
+      "codigo": "IC5701",
+      "nombre": "Compiladores e interpretes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "TORRES ROJAS FRANCISCO JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "J06",
+          "aula": "101"
+        }
+      ]
+    },
+    {
+      "codigo": "IC6400",
+      "nombre": "Investigación de operaciones",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "TORRES ROJAS FRANCISCO JOSE",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": "J06",
+          "aula": "101"
+        }
+      ]
+    },
+    {
+      "codigo": "IC8059",
+      "nombre": "Introducción a los gráficos por computador",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "TORRES ROJAS FRANCISCO JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "J06",
+          "aula": "101"
+        }
+      ]
+    }
+  ]
+}

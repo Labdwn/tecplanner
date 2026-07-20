@@ -1,0 +1,70 @@
+{
+  "codigoEscuela": "CI",
+  "nombreEscuela": "ESCUELA DE CIENCIAS DEL LENGUAJE",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CI1107",
+      "nombre": "Comunicación oral",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 85,
+          "profesor": "GODINEZ ROJAS PAULETTE",
+          "modalidad": "Regular",
+          "horario": "VIE[09:00-11:50]",
+          "edificio": "UTN",
+          "aula": "620"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1407",
+      "nombre": "Habilidades de comunicación en Ingeniería",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 85,
+          "profesor": "GODINEZ ROJAS PAULETTE",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "UTN",
+          "aula": "619"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1230",
+      "nombre": "Inglés I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 85,
+          "profesor": "GUILLEN JIMENEZ LUIS DIEGO",
+          "modalidad": "Regular",
+          "horario": "LUN[09:00-11:50]",
+          "edificio": "UTN",
+          "aula": "601"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 85,
+          "profesor": "RIVERA VEGA KATERINE",
+          "modalidad": "Regular",
+          "horario": "MIE[09:00-11:50]",
+          "edificio": "UTN",
+          "aula": "619"
+        }
+      ]
+    }
+  ]
+}

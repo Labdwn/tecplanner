@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "BI",
+  "nombreEscuela": "ESCUELA DE BIOLOGIA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "BI1101",
+      "nombre": "Biología general",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLERA STELLER PAOLA MARIA",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-11:20]",
+          "edificio": "F4",
+          "aula": "11"
+        }
+      ]
+    },
+    {
+      "codigo": "BI1102",
+      "nombre": "Laboratorio de biología general",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLERA STELLER PAOLA MARIA",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": "B4",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

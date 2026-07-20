@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "PI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN PRODUCCION INDUSTRIAL",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "PI5516",
+      "nombre": "Ingeniería económica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-10:50]",
+          "edificio": "UTN",
+          "aula": "201"
+        }
+      ]
+    },
+    {
+      "codigo": "PI4001",
+      "nombre": "Dirección de personal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "VARGAS GOMEZ PABLO JOSE",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "UTN",
+          "aula": "619"
+        }
+      ]
+    }
+  ]
+}

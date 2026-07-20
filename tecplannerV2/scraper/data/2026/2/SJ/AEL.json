@@ -1,0 +1,250 @@
+{
+  "codigoEscuela": "AEL",
+  "nombreEscuela": "LICENCIATURA EN ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "LA5139",
+      "nombre": "Auditoría gubernamental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ABREGO CAMPOS LEONEL",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5040",
+      "nombre": "Sistemas de información financiera",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ARTAVIA DELGADO RANDALL",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA6013",
+      "nombre": "Trabajo final de graduación énfasis contaduría pública",
+      "creditos": 8,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CERVANTES MEZA ALBERTO",
+          "modalidad": "Virtual",
+          "horario": "VIE[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5301",
+      "nombre": "Políticas económicas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CHAVARRIA HIDALGO CARLOS",
+          "modalidad": "Virtual",
+          "horario": "VIE[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5227",
+      "nombre": "Desarrollo gerencial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CORDOBA GONZALEZ CARLOS MANUEL",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA8008",
+      "nombre": "Gestión del riesgo",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "GONZALEZ LEON JONATHAN",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA7008",
+      "nombre": "Gestión de proyectos en mercadeo",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "GUZMAN RIVERA DIEGO ANDRES",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5134",
+      "nombre": "Decisiones de inversión",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5416",
+      "nombre": "Mercadeo gerencial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "JAUBERT SOLANO WILLIAM",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5133",
+      "nombre": "Banca y desarrollo",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MARTINEZ SOLIS KELLER",
+          "modalidad": "Virtual",
+          "horario": "SAB[08:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5417",
+      "nombre": "Mercadeo de exportación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MONTOYA RODRIGUEZ ILEANA",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5125",
+      "nombre": "Contabilidad IV",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLANO MARTINEZ MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5419",
+      "nombre": "Estrategia de ventas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLIS RAMIREZ INGRID",
+          "modalidad": "Virtual",
+          "horario": "MIE[16:50-19:10]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5132",
+      "nombre": "Modelos de decisiones financieras",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLIS SALAZAR MARTIN",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5141",
+      "nombre": "Auditoría tributaria",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "TREJOS MONGE SONIA",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "LA5142",
+      "nombre": "Auditoría de las tecnologías de la información I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VALERIN CASTRO ALEXANDER",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:20-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

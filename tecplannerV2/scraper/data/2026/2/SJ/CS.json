@@ -1,0 +1,100 @@
+{
+  "codigoEscuela": "CS",
+  "nombreEscuela": "ESCUELA DE CIENCIAS SOCIALES",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CS1308",
+      "nombre": "Derecho comercial",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ACHOY HERNANDEZ ALEJANDRO",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:30-21:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CARVAJAL VILLAPLANA ALVARO",
+          "modalidad": "Virtual",
+          "horario": "JUE[17:30-20:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3406",
+      "nombre": "Seminario de ética para administración de empresas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CEDEÑO CAMACHO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:30-20:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MENESES MARIN GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-20:15]",
+          "edificio": "J06",
+          "aula": "102"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2404",
+      "nombre": "Seminario de problemática urbana",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MOJICA MENDIETA FRANCISCO JAVIER",
+          "modalidad": "Virtual",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ORTIZ ALVAREZ JORGE ISAAC",
+          "modalidad": "Virtual",
+          "horario": "VIE[15:00-17:30]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

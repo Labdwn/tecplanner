@@ -1,0 +1,303 @@
+{
+  "codigoEscuela": "IA",
+  "nombreEscuela": "ESCUELA INGENIERIA AGRICOLA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "IA4313",
+      "nombre": "Riego a presión",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARRIETA QUESADA SERGIO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": "H4",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IA2106",
+      "nombre": "Sistemas de producción agrícola",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA VIDAL ADRIAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-12:20]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IA3105",
+      "nombre": "Relación suelo-agua-planta",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA VIDAL ADRIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "H4",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IA4315",
+      "nombre": "Manejo de suelos, aguas y diseño de obras de conservación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA VIDAL ADRIAN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "H4",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IA1203",
+      "nombre": "Dibujo técnico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARITA CERDAS ADRIAN DAVID",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IA5402",
+      "nombre": "Laboratorio de tractores y mecanización",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARITA CERDAS ADRIAN DAVID",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-10:20]",
+          "edificio": "H4",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IA2202",
+      "nombre": "Estática",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GOMEZ ASTORGA MARIA JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "D3",
+          "aula": "13"
+        }
+      ]
+    },
+    {
+      "codigo": "IA3004",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 9,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GOMEZ ASTORGA MARIA JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20] LUN[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IA3210",
+      "nombre": "Laboratorio de hidráulica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUZMAN ARIAS ISABEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IA3501",
+      "nombre": "Electrificación rural",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERRERA CORTEZ OSCAR",
+          "modalidad": "Regular",
+          "horario": "LUN[19:00-21:50] MIE[19:00-20:50]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IA3303",
+      "nombre": "Aplicaciones topográficas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "JIMENEZ AGUILAR JUAN CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-12:20]",
+          "edificio": "H4",
+          "aula": "1"
+        },
+        {
+          "grupo": 2,
+          "profesor": "JIMENEZ AGUILAR JUAN CARLOS",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-12:20]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IA3213",
+      "nombre": "Hidráulica de canales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE VARGAS KAREN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IA4314",
+      "nombre": "Drenaje sub-superficial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PICADO MORA ERICKA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IA3401",
+      "nombre": "Elementos y mecanismos de máquinas agrícolas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ HERNANDEZ LUIS STEVEN",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IA4403",
+      "nombre": "Mecanización agrícola",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO CALVO KERIN",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IA5604",
+      "nombre": "Sistema de información geográfico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": null,
+          "modalidad": "Semipresencial",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "IA5605",
+      "nombre": "Tecnologías en ambientes protegidos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO MONGE ALLAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "H4",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "IA5601",
+      "nombre": "Protección ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VILLAGRA MENDOZA CAROLINA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "IA3203",
+      "nombre": "Hidrología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "WATSON HERNANDEZ FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "H4",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

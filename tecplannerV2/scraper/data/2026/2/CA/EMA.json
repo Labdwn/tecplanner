@@ -1,0 +1,220 @@
+{
+  "codigoEscuela": "EMA",
+  "nombreEscuela": "ENSEÑANZA DE LA MATEMATICA CON ENTORNOS TECNOLOGICOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "EM2603",
+      "nombre": "Cálculo y análisis I",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVARADO SOLANO ANDY",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "D3",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "EM2604",
+      "nombre": "Geometría I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BLANCO BENAMBURG RANDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "D3",
+          "aula": "15"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1613",
+      "nombre": "Tecnologías digitales aplicadas a la matemática educativa III",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES TORRES JUAN CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50] MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "C1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "EM3409",
+      "nombre": "Práctica docente",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUTIERREZ RUIZ GRETTEL",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-17:50]",
+          "edificio": "C1",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "EM3048",
+      "nombre": "Atención a la diversidad en la enseñanza y el aprendizaje de la matemática",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MARRERO CALVO MARCELA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20] MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": "C1",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1606",
+      "nombre": "Fundamentos de matemática II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE FALLAS JORGE",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": "C1",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1607",
+      "nombre": "Didáctica de la geometría",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE MADRIZ CARLOS",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": "C1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1614",
+      "nombre": "Estadística inferencial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NUÑEZ VANEGAS FELIX",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-17:50] VIE[16:00-17:50]",
+          "edificio": "C1",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "EM4612",
+      "nombre": "Métodos numéricos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PARRA RODRIGUEZ EMMANUELLE",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": "C1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1600",
+      "nombre": "Tecnologías digitales aplicadas a la matemática educativa I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PARRA SALAZAR EDWARD",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": "C1",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "EM2608",
+      "nombre": "Elementos de análisis de datos y probabilidad",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ MONTES GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": "C1",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "EM2408",
+      "nombre": "Aprendizaje y didáctica de la matemática",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMOS MARIN SIGURD",
+          "modalidad": "Regular",
+          "horario": "MAR[16:00-18:50]",
+          "edificio": "D3",
+          "aula": "15"
+        }
+      ]
+    },
+    {
+      "codigo": "EM3608",
+      "nombre": "Cálculo y análisis III",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROSALES ORTEGA JOSE",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-18:50] VIE[16:00-17:50]",
+          "edificio": "D3",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "EM4010",
+      "nombre": "Programación lineal",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VEGA VASQUEZ ARTURO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": "C1",
+          "aula": "7"
+        }
+      ]
+    }
+  ]
+}

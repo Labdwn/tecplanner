@@ -1,0 +1,205 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "AE2125",
+      "nombre": "Matemática financiera",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BINNS HERNANDEZ HENRY ALBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2219",
+      "nombre": "Comportamiento organizacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GARITA ALPIZAR PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3414",
+      "nombre": "Fundamentos de mercadeo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GARITA ALPIZAR PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4228",
+      "nombre": "Gestión del talento humano II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GARITA ALPIZAR PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE1123",
+      "nombre": "Contabilidad II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "JOSE ZAMORA JIMENEZ",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3128",
+      "nombre": "Administración financiera II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "JOSE ZAMORA JIMENEZ",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3506",
+      "nombre": "Productividad empresarial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "MITCHELL RILEY MARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE1219",
+      "nombre": "Introducción a la administración de empresas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "PIEDRA NAVARRO DAYHANA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3542",
+      "nombre": "Espíritu emprendedor y creación de empresas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "PIEDRA NAVARRO DAYHANA",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2703",
+      "nombre": "Computación para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SMITH PAUL DELIA ELVIRA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2705",
+      "nombre": "Análisis y gestión de datos empresariales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SMITH PAUL DELIA ELVIRA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2311",
+      "nombre": "Macroeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2505",
+      "nombre": "Estadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "WYNTA BANTON RANDY YADIR",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

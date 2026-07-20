@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "FH0016",
+      "nombre": "El desarrollo de la ciencia en Costa Rica",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "CARVAJAL ALFARO VANESSA",
+          "modalidad": "Virtual",
+          "horario": "SAB[09:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0151",
+      "nombre": "Brujas, hadas y fantasmas en Shakespeare",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "JIMENEZ RODRIGUEZ ROXANA",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

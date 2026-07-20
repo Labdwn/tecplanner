@@ -1,0 +1,168 @@
+{
+  "codigoEscuela": "CD",
+  "nombreEscuela": "ESCUELA DE CULTURA Y DEPORTE",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "SE1218",
+      "nombre": "Ajedrez",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CORDERO MAROTO NELSON",
+          "modalidad": "Regular",
+          "horario": "MIE[17:30-19:10]",
+          "edificio": "J08",
+          "aula": "103"
+        },
+        {
+          "grupo": 41,
+          "profesor": "CORDERO MAROTO NELSON",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": "J08",
+          "aula": "103"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1101",
+      "nombre": "Artes dramáticas",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "DE SIMONE CASTELLON ALEXANDRA",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:30-19:10]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1102",
+      "nombre": "Acción social",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "HERNANDEZ RAMIREZ MARIELA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": "J08",
+          "aula": "103"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1105",
+      "nombre": "Artes musicales",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MEZA SOLANO VINICIO",
+          "modalidad": "Virtual",
+          "horario": "JUE[17:30-19:10]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1106",
+      "nombre": "Apreciación literaria",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "RAMOS VARGAS ARNOLDO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": "J08",
+          "aula": "103"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1107",
+      "nombre": "Apreciación de cine",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "RAMOS VARGAS ARNOLDO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": "J08",
+          "aula": "103"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1103",
+      "nombre": "Danza",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VALVERDE JARA ANA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:30-19:10]",
+          "edificio": "J01",
+          "aula": "102"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1205",
+      "nombre": "Juegos y deportes en conjunto",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VIQUEZ ZELEDON JESSENIA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": "J10",
+          "aula": "101"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1206",
+      "nombre": "Acondicionamiento físico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VIQUEZ ZELEDON JESSENIA",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": "J10",
+          "aula": "101"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1223",
+      "nombre": "Voleibol",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VIQUEZ ZELEDON JESSENIA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": "J10",
+          "aula": "101"
+        }
+      ]
+    }
+  ]
+}

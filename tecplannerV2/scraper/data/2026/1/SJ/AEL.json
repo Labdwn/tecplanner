@@ -1,0 +1,273 @@
+{
+  "codigoEscuela": "AEL",
+  "nombreEscuela": "LICENCIATURA EN ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "LA6144",
+      "nombre": "Informes del contador publico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ABREGO CAMPOS LEONEL",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA6015",
+      "nombre": "Trabajo final de graduación énfasis administración financiera",
+      "creditos": 8,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ARAYA LEANDRO ARNOLDO",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5137",
+      "nombre": "Presupuesto y control financiero",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CERVANTES MEZA ALBERTO",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5301",
+      "nombre": "Políticas económicas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CHAVARRIA HIDALGO CARLOS",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA8005",
+      "nombre": "Valoración de empresas en marcha",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
+          "modalidad": "Virtual",
+          "horario": "VIE[18:20-21:55]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 41,
+          "profesor": "MARTINEZ SOLIS KELLER",
+          "modalidad": "Virtual",
+          "horario": "SAB[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5418",
+      "nombre": "Estrategias publicitarias",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "JAUBERT SOLANO WILLIAM",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA7005",
+      "nombre": "Comercio y marketing digital",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MONTOYA RODRIGUEZ ILEANA",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5131",
+      "nombre": "Administración financiera III",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MORA CRUZ ALEXANDRA",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5228",
+      "nombre": "Sistemas de compensación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ORTEGA JIMENEZ NELSON",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5125",
+      "nombre": "Contabilidad IV",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "PEREIRA PIEDRA ISABEL CRISTINA",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5135",
+      "nombre": "Contabilidad de costos II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "PRADO ARROYO JOSE",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA6145",
+      "nombre": "Consultoría de empresas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLANO CHINCHILLA MARILYN",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA6148",
+      "nombre": "Contabilidad V",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLANO MARTINEZ MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA6014",
+      "nombre": "Trabajo final de graduación énfasis mercadeo",
+      "creditos": 8,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLIS RAMIREZ INGRID",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5413",
+      "nombre": "Sistemas de información de mercadeo",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "TENORIO SANCHEZ ANA PATRICIA",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5136",
+      "nombre": "Auditoría financiera",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "TREJOS MONGE SONIA",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA6146",
+      "nombre": "Auditoría de las tecnologías de la información II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VALERIN CASTRO ALEXANDER",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

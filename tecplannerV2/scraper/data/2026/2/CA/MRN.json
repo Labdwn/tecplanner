@@ -1,0 +1,100 @@
+{
+  "codigoEscuela": "MRN",
+  "nombreEscuela": "AREA ACADEMICA AGROFORESTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "MR1102",
+      "nombre": "Inferencia estadística",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS AGUILAR  DAGOBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[17:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MR1202",
+      "nombre": "Sostenibilidad y desarrollo de sistemas naturales y productivos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS AGUILAR  DAGOBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[13:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MR2533",
+      "nombre": "Técnicas de identificación y valoración del daño ambiental",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS ZUÑIGA ANA LORENA",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[13:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MR2529",
+      "nombre": "Aguas subterráneas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUEVARA RODRIGUEZ GREGORIO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MR1201",
+      "nombre": "Gerencia de recursos naturales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ MOLINA DANIEL",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MR1103",
+      "nombre": "Administración y manejo sostenible de recursos naturales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TORRES CONTRERAS ANGELICA",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

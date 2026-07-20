@@ -1,0 +1,85 @@
+{
+  "codigoEscuela": "CS",
+  "nombreEscuela": "ESCUELA DE CIENCIAS SOCIALES",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CS1308",
+      "nombre": "Derecho comercial",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ACHOY HERNANDEZ ALEJANDRO",
+          "modalidad": "Regular",
+          "horario": "VIE[18:00-21:50]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2303",
+      "nombre": "Relaciones laborales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ACHOY HERNANDEZ ALEJANDRO",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CEDEÑO CAMACHO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "L",
+          "aula": "11"
+        }
+      ]
+    },
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

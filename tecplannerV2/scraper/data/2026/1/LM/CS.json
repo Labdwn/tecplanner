@@ -1,0 +1,115 @@
+{
+  "codigoEscuela": "CS",
+  "nombreEscuela": "ESCUELA DE CIENCIAS SOCIALES",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "CS2304",
+      "nombre": "Derecho laboral",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ACHOY HERNANDEZ ALEJANDRO",
+          "modalidad": "Regular",
+          "horario": "VIE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CEDEÑO CAMACHO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3404",
+      "nombre": "Seminario de ética para la ingeniería",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 61,
+          "profesor": "CEDEÑO CAMACHO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3406",
+      "nombre": "Seminario de ética para administración de empresas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CEDEÑO CAMACHO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS1502",
+      "nombre": "Introducción a la técnica ciencia y tecnología",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Virtual",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

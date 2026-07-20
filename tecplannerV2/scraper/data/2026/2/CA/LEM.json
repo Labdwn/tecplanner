@@ -1,0 +1,70 @@
+{
+  "codigoEscuela": "LEM",
+  "nombreEscuela": "LICENCIATURA EN ENSEÑANZA DE LA MATEMATICA CON ENTORNOS TECNOLOGICOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "EM5006",
+      "nombre": "Didáctica de las matemáticas II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA CHACON REIMAN",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EM5008",
+      "nombre": "Investigación educativa",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MEZA CASCANTE LUIS GERARDO",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EM5007",
+      "nombre": "Taller II: multimedios en matemática",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE FALLAS JORGE",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "EM5005",
+      "nombre": "Teoría de números",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANABRIA BRENES GEOVANNI",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": "C1",
+          "aula": "6"
+        }
+      ]
+    }
+  ]
+}

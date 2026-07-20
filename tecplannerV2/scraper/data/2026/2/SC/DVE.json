@@ -1,0 +1,228 @@
+{
+  "codigoEscuela": "DVE",
+  "nombreEscuela": "VIDA ESTUDIANTIL Y SERVICIOS ACADEMICOS",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "SE1101",
+      "nombre": "Artes dramáticas",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "HERRERA CORDERO SERGIO",
+          "modalidad": "Regular",
+          "horario": "MIE[14:20-16:05]",
+          "edificio": "T",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1107",
+      "nombre": "Apreciación de cine",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "HERRERA CORDERO SERGIO",
+          "modalidad": "Regular",
+          "horario": "JUE[09:45-11:30]",
+          "edificio": "T",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1201",
+      "nombre": "Atletismo",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LARIOS CRUZ BORIS ALLAN",
+          "modalidad": "Regular",
+          "horario": "MIE[09:45-11:30]",
+          "edificio": "GNS",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1204",
+      "nombre": "Natación",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LARIOS CRUZ BORIS ALLAN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-08:45]",
+          "edificio": "PSC",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "RODRIGUEZ MORERA MARCIA",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-08:45]",
+          "edificio": "PSC",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1221",
+      "nombre": "Futbol I",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LARIOS CRUZ BORIS ALLAN",
+          "modalidad": "Regular",
+          "horario": "MIE[16:10-17:55]",
+          "edificio": "GNS",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1103",
+      "nombre": "Danza",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LEANDRO CHACON MARIA FRANCELA",
+          "modalidad": "Regular",
+          "horario": "LUN[16:10-17:55]",
+          "edificio": "C",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1111",
+      "nombre": "Expresión corporal",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "LEANDRO CHACON MARIA FRANCELA",
+          "modalidad": "Regular",
+          "horario": "MIE[16:10-17:55]",
+          "edificio": "C",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "SE2110",
+      "nombre": "Apreciación musical",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "QUIROS SALAZAR MARIA LORNA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:45-11:30]",
+          "edificio": "C",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE2111",
+      "nombre": "Técnica del canto",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "QUIROS SALAZAR MARIA LORNA",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-14:15]",
+          "edificio": "T",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1206",
+      "nombre": "Acondicionamiento físico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ MORERA MARCIA",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-14:15]",
+          "edificio": "GNS",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1223",
+      "nombre": "Voleibol",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ MORERA MARCIA",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-14:15]",
+          "edificio": "GNS",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1205",
+      "nombre": "Juegos y deportes en conjunto",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-08:45]",
+          "edificio": "GNS",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1220",
+      "nombre": "Baloncesto",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-14:15]",
+          "edificio": "GNS",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1222",
+      "nombre": "Futbol sala",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "LUN[09:45-11:30]",
+          "edificio": "GNS",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

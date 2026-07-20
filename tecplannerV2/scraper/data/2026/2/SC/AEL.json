@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "AEL",
+  "nombreEscuela": "LICENCIATURA EN ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "LA5226",
+      "nombre": "Planificación desarrollo de recursos humanos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "JARA VEGA ANA CATALINA",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:05-21:35] JUE[17:05-21:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

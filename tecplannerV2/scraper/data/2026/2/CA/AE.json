@@ -1,0 +1,502 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AE3128",
+      "nombre": "Administración financiera II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA LEANDRO ARNOLDO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "3"
+        },
+        {
+          "grupo": 2,
+          "profesor": "ARAYA LEANDRO ARNOLDO",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "7"
+        },
+        {
+          "grupo": 3,
+          "profesor": "PEREZ GUTIERREZ ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": "B1",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2124",
+      "nombre": "Contabilidad III",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ARCE GUTIERREZ SUSAN",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "5"
+        },
+        {
+          "grupo": 3,
+          "profesor": "MARTINEZ VILLAVICENCIO JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "8"
+        },
+        {
+          "grupo": 1,
+          "profesor": "NUÑEZ ARGUEDAS EVELYN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4208",
+      "nombre": "Desarrollo de emprendedores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES CERVANTES IVANNIA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": "B1",
+          "aula": "5"
+        },
+        {
+          "grupo": 3,
+          "profesor": "GARITA GRANADOS CARLA",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": "B1",
+          "aula": "5"
+        },
+        {
+          "grupo": 5,
+          "profesor": "GUILLEN MIRANDA ERICK",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "7"
+        },
+        {
+          "grupo": 4,
+          "profesor": "LEANDRO ELIZONDO RONALD",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "8"
+        },
+        {
+          "grupo": 2,
+          "profesor": "PEREZ OROZCO ALLAN JOSE",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2220",
+      "nombre": "Análisis administrativo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "BRENES SANCHEZ RONALD",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "7"
+        },
+        {
+          "grupo": 3,
+          "profesor": "BRENES SANCHEZ RONALD",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "B1",
+          "aula": "2"
+        },
+        {
+          "grupo": 1,
+          "profesor": "POVEDA MORA JHONNY",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3505",
+      "nombre": "Metodología de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES SANCHEZ RONALD",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "D1",
+          "aula": "1"
+        },
+        {
+          "grupo": 4,
+          "profesor": "DE LA O CORDERO DYALA",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "5"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MORA CRUZ ALEXANDRA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "B1",
+          "aula": "3"
+        },
+        {
+          "grupo": 3,
+          "profesor": "MORA ESQUIVEL RONALD",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "AE1122",
+      "nombre": "Contabilidad I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "CERVANTES MEZA ALBERTO",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "2"
+        },
+        {
+          "grupo": 1,
+          "profesor": "DE LA O CORDERO DYALA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "2"
+        },
+        {
+          "grupo": 4,
+          "profesor": "SANCHEZ RAMIREZ VANESSA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2311",
+      "nombre": "Macroeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA HIDALGO CARLOS",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "7"
+        },
+        {
+          "grupo": 2,
+          "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "B1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2506",
+      "nombre": "Estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CORTES MIXTER JULIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "7"
+        },
+        {
+          "grupo": 2,
+          "profesor": "ORTIZ ACUÑA CINDY",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "B1",
+          "aula": "8"
+        },
+        {
+          "grupo": 3,
+          "profesor": "ORTIZ ACUÑA CINDY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3415",
+      "nombre": "Investigación de mercados",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CUBILLO SALAS GUSTAVO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "D3",
+          "aula": "11"
+        },
+        {
+          "grupo": 1,
+          "profesor": "MARTINEZ MORA MARCO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "D1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4541",
+      "nombre": "Impuestos en Costa Rica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DUARTE NUÑEZ KAREN MELISSA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4228",
+      "nombre": "Gestión del talento humano II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERRETO GUTIERREZ EUGENIA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "2"
+        },
+        {
+          "grupo": 2,
+          "profesor": "FERRETO GUTIERREZ EUGENIA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "2"
+        },
+        {
+          "grupo": 3,
+          "profesor": "MAROTO CALVO OSCAR",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "D1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3414",
+      "nombre": "Fundamentos de mercadeo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUZMAN RIVERA DIEGO ANDRES",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3552",
+      "nombre": "Métodos cuantitativos para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LEANDRO ELIZONDO RONALD",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "D1",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4548",
+      "nombre": "Creatividad e innovación empresarial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LEIVA BONILLA JUAN CARLOS",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AE5121",
+      "nombre": "Ingeniería económica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "MARTINEZ GUTIERREZ BERNAL",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-18:50]",
+          "edificio": "B1",
+          "aula": "2"
+        },
+        {
+          "grupo": 1,
+          "profesor": "PRADO ARROYO JOSE",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-10:20]",
+          "edificio": "B1",
+          "aula": "8"
+        },
+        {
+          "grupo": 2,
+          "profesor": "THAMES RAMIREZ KARLA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": "B1",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "AE5111",
+      "nombre": "Contabilidad y finanzas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MASIS ARCE ALEJANDRO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "F1",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "AE5122",
+      "nombre": "Ingeniería financiera",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MASIS ARCE ALEJANDRO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "K2",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "AE2705",
+      "nombre": "Análisis y gestión de datos empresariales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROJAS RODRIGUEZ GIOVANNY",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": "B1",
+          "aula": "10"
+        },
+        {
+          "grupo": 2,
+          "profesor": "VALERIN CASTRO ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "B1",
+          "aula": "10"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4312",
+      "nombre": "Macroeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL VASQUEZ JOSE FULVIO",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-19:50]",
+          "edificio": "F5",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "AE1205",
+      "nombre": "Habilidades gerenciales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALVERDE MASIS EDUARDO",
+          "modalidad": "Regular",
+          "horario": "SAB[13:00-15:50]",
+          "edificio": "B1",
+          "aula": "2"
+        }
+      ]
+    }
+  ]
+}

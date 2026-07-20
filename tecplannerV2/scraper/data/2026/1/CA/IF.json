@@ -1,0 +1,252 @@
+{
+  "codigoEscuela": "IF",
+  "nombreEscuela": "UNIDAD ACADEMICA DE CARRERA DE LICENCIATURA EN INGENIERIA FISICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "IF5905",
+      "nombre": "Física de la materia condensada",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "AMADOR JARA ALVARO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF6011",
+      "nombre": "Exploración y análisis estadístico de datos experimentales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CALDERON JIMENEZ BRYAN",
+          "modalidad": "Virtual",
+          "horario": "VIE[16:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF5901",
+      "nombre": "Física experimental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DITTEL MEZA FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20] MAR[09:30-11:20] JUE[09:30-11:20] MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "DITTEL MEZA FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50] MAR[13:00-14:50] JUE[13:00-14:50] MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF3502",
+      "nombre": "Instrumentación I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "FONT CRUZ EDUARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF3503",
+      "nombre": "Instrumentación II",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "FONT CRUZ EDUARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ROJAS HERNANDEZ JUAN JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ROJAS HERNANDEZ JUAN JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF4701",
+      "nombre": "Métodos matemáticos de física e ingeniería II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LACY MORA GERARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF1101",
+      "nombre": "Introducción a la ingeniería física",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LOBO ZAMORA JUAN CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50] MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "LOBO ZAMORA JUAN CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50] MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF3501",
+      "nombre": "Termodinámica I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO ZELEDON ERNESTO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF4703",
+      "nombre": "Análisis de incertidumbres",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORA VINDAS ALAN GERARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF6013",
+      "nombre": "Modelado predictivo aplicado",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORALES MUÑOZ WALTER",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF5902",
+      "nombre": "Física contemporánea",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ QUESADA LARIA FABIOLA",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50] MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF5906",
+      "nombre": "Energía y sus transformaciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROJAS PEREZ FRANCISCO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50] MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF5903",
+      "nombre": "Metrología científica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANABRIA SANDI RAZIEL FARID",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IF4702",
+      "nombre": "Física computacional I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLANO PIEDRA RICARDO ADOLFO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

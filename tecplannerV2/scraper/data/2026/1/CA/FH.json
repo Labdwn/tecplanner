@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "FH0253",
+      "nombre": "Construcción de la astronomía moderna",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LOBO ZAMORA JUAN CARLOS",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0047",
+      "nombre": "Educación en nuestros tiempos",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIVERA ROJAS FANNI",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

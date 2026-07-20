@@ -1,0 +1,115 @@
+{
+  "codigoEscuela": "CS",
+  "nombreEscuela": "ESCUELA DE CIENCIAS SOCIALES",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "CS2303",
+      "nombre": "Relaciones laborales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ACHOY HERNANDEZ ALEJANDRO",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "CARVAJAL VILLAPLANA ALVARO",
+          "modalidad": "Virtual",
+          "horario": "JUE[08:00-10:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS1502",
+      "nombre": "Introducción a la técnica ciencia y tecnología",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Virtual",
+          "horario": "LUN[09:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Virtual",
+          "horario": "MAR[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS5300",
+      "nombre": "Desarrollo tecnológico y sostenibilidad",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:00-10:50] MIE[07:00-10:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3404",
+      "nombre": "Seminario de ética para la ingeniería",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "VARGAS ELIZONDO CELSO",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

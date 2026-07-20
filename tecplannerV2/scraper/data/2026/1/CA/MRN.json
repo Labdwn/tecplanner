@@ -1,0 +1,70 @@
+{
+  "codigoEscuela": "MRN",
+  "nombreEscuela": "AREA ACADEMICA AGROFORESTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MR1401",
+      "nombre": "Administración de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALAN ZUÑIGA MANUEL ANTONIO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MR1102",
+      "nombre": "Inferencia estadística",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS AGUILAR  DAGOBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MR1402",
+      "nombre": "Innovación en la producción y conservación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIVERA MENDEZ WILLIAM EDUARDO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[07:30-11:20] SAB[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MR1103",
+      "nombre": "Administración y manejo sostenible de recursos naturales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TORRES CONTRERAS ANGELICA",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

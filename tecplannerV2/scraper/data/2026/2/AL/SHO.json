@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "SHO",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN SEGURIDAD LABORAL E HIGIENE AMBIENTAL",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "SO4604",
+      "nombre": "Seguridad y salud ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MEDINA ESCOBAR MARIA LOURDES",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

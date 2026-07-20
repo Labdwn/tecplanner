@@ -1,0 +1,432 @@
+{
+  "codigoEscuela": "CA",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTACION",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "CA3125",
+      "nombre": "Análisis y diseño de algoritmos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ALVAREZ GRIJALBA WALTER",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6821",
+      "nombre": "Diseño de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "ARIAS RODRIGUEZ CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[16:00-17:50] JUE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC1802",
+      "nombre": "Introducción a la programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "BRENES BRENES JOSE ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 21,
+          "profesor": "MORA ROJAS DIEGO",
+          "modalidad": "Regular",
+          "horario": "MAR[08:00-09:50] JUE[08:00-09:50] MAR[08:00-09:50] JUE[08:00-09:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC1803",
+      "nombre": "Taller de programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "BRENES BRENES JOSE ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 21,
+          "profesor": "GODINEZ SOLANO JOSE RODOLFO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-08:50] VIE[07:00-08:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6200",
+      "nombre": "Inteligencia artificial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "CALDERON RAMIREZ SAUL",
+          "modalidad": "Regular",
+          "horario": "MAR[10:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8071",
+      "nombre": "Seguridad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "FERNANDEZ DE CASTRO NATAN",
+          "modalidad": "Regular",
+          "horario": "MIE[14:00-15:50] VIE[14:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC7900",
+      "nombre": "Computación y sociedad",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "GUTIERREZ ALFARO JAIME",
+          "modalidad": "Regular",
+          "horario": "MAR[08:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8058",
+      "nombre": "Sistemas de información geográfica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "GUTIERREZ ALFARO JAIME",
+          "modalidad": "Regular",
+          "horario": "JUE[08:00-11:50] JUE[08:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CA2125",
+      "nombre": "Elementos de computación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "HERNANDEZ SIBAJA BRYAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-10:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 21,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MAR[09:00-10:50] JUE[09:00-10:50] MAR[09:00-10:50] JUE[09:00-10:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC5821",
+      "nombre": "Requerimientos de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "HERNANDEZ SIBAJA BRYAN",
+          "modalidad": "Regular",
+          "horario": "MIE[08:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC7841",
+      "nombre": "Proyecto de ingeniería de software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "LOPEZ VALERIO CYNTHIA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[09:00-12:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6400",
+      "nombre": "Investigación de operaciones",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MENDEZ FLORES MANUEL",
+          "modalidad": "Regular",
+          "horario": "MIE[08:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4302",
+      "nombre": "Bases de datos II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MORA CROSS MARIA AUXILIADORA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:00-10:50] JUE[09:00-10:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC2001",
+      "nombre": "Estructuras de datos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MORA ROJAS RAQUEL FABIANA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC7602",
+      "nombre": "Redes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MORAGA GARCIA KEVIN",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC5701",
+      "nombre": "Compiladores e interpretes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "MUNGUIA MOLINA DIEGO",
+          "modalidad": "Regular",
+          "horario": "MIE[08:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4810",
+      "nombre": "Administración de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "PEREZ GUTIERREZ FABIAN ANTONIO",
+          "modalidad": "Regular",
+          "horario": "MAR[08:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC3002",
+      "nombre": "Análisis de algoritmos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RAMIREZ JIMENEZ EDDY",
+          "modalidad": "Regular",
+          "horario": "MAR[09:00-10:50] JUE[09:00-10:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4301",
+      "nombre": "Bases de datos I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RAMIREZ JIMENEZ EDDY",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4700",
+      "nombre": "Lenguajes de programación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RAMIREZ JIMENEZ EDDY",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-08:50] JUE[07:00-08:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6600",
+      "nombre": "Principios de sistemas operativos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RAMIREZ JIMENEZ EDDY",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC1400",
+      "nombre": "Fundamentos de organización de computadoras",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RAMIREZ SEGURA ROGER EMMANUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 21,
+          "profesor": "SANCHEZ CORRALES JUAN MANUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-08:50] MIE[07:00-08:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC2101",
+      "nombre": "Programación orientada a objetos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RAMIREZ SEGURA ROGER EMMANUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC3101",
+      "nombre": "Arquitectura de computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SANCHEZ HERRERA KERVIN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-08:50] VIE[07:00-08:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8078",
+      "nombre": "Almacenes de datos y procesamiento OLAP",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SHUM CHAN ALBERTO",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6831",
+      "nombre": "Aseguramiento de la calidad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "VIQUEZ VIQUEZ ANDRES",
+          "modalidad": "Regular",
+          "horario": "VIE[08:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

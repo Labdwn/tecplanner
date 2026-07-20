@@ -1,0 +1,319 @@
+{
+  "codigoEscuela": "AMB",
+  "nombreEscuela": "INGENIERIA AMBIENTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "AI4304",
+      "nombre": "Formulación y evaluación de proyectos ambientales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ABARCA GUERRERO LILLIANA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-12:20] MAR[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI6101",
+      "nombre": "Metodología de la investigación ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ABARCA GUERRERO LILLIANA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "HERNANDEZ PARRA DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI4101",
+      "nombre": "Gestión y diseño en tratamiento de residuos sólidos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA PIEDRA ANDREA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI6102",
+      "nombre": "Huellas y métricas ambientales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA PIEDRA ANDREA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[14:00-16:50] MAR[14:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI4103",
+      "nombre": "Laboratorio de ingeniería en emisiones atmosféricas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CABALLERO CHAVARRIA ANDREY",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-17:50] MIE[07:30-09:20] LUN[17:00-17:50] MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CABALLERO CHAVARRIA ANDREY",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-17:50] MIE[09:30-11:20] LUN[17:00-17:50] MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI2401",
+      "nombre": "Análisis topográfico en Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CARVAJAL VANEGAS DORIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI1100",
+      "nombre": "Introducción a la Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ RODRIGUEZ JOSE RICARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-17:50] MAR[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI6105",
+      "nombre": "Evaluación de impacto ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ TORRES HAZEL MARIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI3106",
+      "nombre": "Microbiología ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO CAMPOS VIRGINIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI3209",
+      "nombre": "Hidrología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PICADO VALVERDE SOFIA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI3104",
+      "nombre": "Ecosaneamiento ambiental",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PINO GOMEZ MACARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI3107",
+      "nombre": "Operaciones Unitarias",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PUENTE URBINA ALLEN ARTURO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI4102",
+      "nombre": "Ingeniería en emisiones atmosféricas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "QUESADA CARVAJAL LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI3105",
+      "nombre": "Laboratorio de microbiología ambiental",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "QUESADA GONZALEZ ANDREA",
+          "modalidad": "Regular",
+          "horario": "LUN[10:30-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "QUESADA GONZALEZ ANDREA",
+          "modalidad": "Regular",
+          "horario": "LUN[11:30-12:20] MAR[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI2101",
+      "nombre": "Análisis estadístico para Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI5104",
+      "nombre": "Análisis y diseño experimental para Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI3108",
+      "nombre": "Dibujo e interpretación de planos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "UMAÑA QUIROS BRAULIO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI4104",
+      "nombre": "Administración de la energía en la industria",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALERIO PEREZ LUIS GUILLERMO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AI4306",
+      "nombre": "Recursos energéticos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALERIO PEREZ LUIS GUILLERMO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[19:00-19:50] MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

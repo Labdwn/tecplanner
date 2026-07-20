@@ -1,0 +1,123 @@
+{
+  "codigoEscuela": "CS",
+  "nombreEscuela": "ESCUELA DE CIENCIAS SOCIALES",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "CS3406",
+      "nombre": "Seminario de ética para administración de empresas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "CASASOLA RIVERA WILMER",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:30-20:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS2304",
+      "nombre": "Derecho laboral",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CHACON MATA ALFONSO",
+          "modalidad": "Virtual",
+          "horario": "JUE[17:30-20:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS1502",
+      "nombre": "Introducción a la técnica ciencia y tecnología",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "EDUARTE RODRIGUEZ DAVID",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 41,
+          "profesor": "MENESES MARIN GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MENESES MARIN GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "JUE[17:30-20:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS2404",
+      "nombre": "Seminario de problemática urbana",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MESEN MONTENEGRO VLADIMIR",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-20:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ORTIZ ALVAREZ JORGE ISAAC",
+          "modalidad": "Virtual",
+          "horario": "VIE[15:00-17:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "PRENDAS SOLANO JORGE",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "ME",
+  "nombreEscuela": "ESCUELA DE CIENCIA E ING. DE LOS MATERIALES",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "ME2208",
+      "nombre": "Ciencias de los materiales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "VARGAS GOMEZ RODRIGO DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[08:30-11:20]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    }
+  ]
+}

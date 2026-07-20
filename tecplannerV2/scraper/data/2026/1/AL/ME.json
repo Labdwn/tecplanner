@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "ME",
+  "nombreEscuela": "ESCUELA DE CIENCIA E ING. DE LOS MATERIALES",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "CM3207",
+      "nombre": "Métodos numéricos para ingeniería",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "STRADI GRANADOS BENITO",
+          "modalidad": "Virtual",
+          "horario": "JUE[07:00-10:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "codigoEscuela": "CD",
+  "nombreEscuela": "ESCUELA DE CULTURA Y DEPORTE",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "SE1107",
+      "nombre": "Apreciación de cine",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SERRANO SOLANO ALEX",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": "L",
+          "aula": "2"
+        },
+        {
+          "grupo": 61,
+          "profesor": "SERRANO SOLANO ALEX",
+          "modalidad": "Regular",
+          "horario": "VIE[15:00-16:50]",
+          "edificio": "L",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1220",
+      "nombre": "Baloncesto",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "TRAVIESO RODRIGUEZ ALBERTO",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-16:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 61,
+          "profesor": "TRAVIESO RODRIGUEZ ALBERTO",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-18:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

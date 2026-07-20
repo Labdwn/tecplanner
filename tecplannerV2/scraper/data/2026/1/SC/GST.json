@@ -1,0 +1,115 @@
+{
+  "codigoEscuela": "GST",
+  "nombreEscuela": "GESTIÓN EN SOSTENIBILIDAD TURÍSTICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "TR1132",
+      "nombre": "Legislación turística de Costa Rica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ARIAS SOSA LUIS ALBAN",
+          "modalidad": "Regular",
+          "horario": "JUE[08:50-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "ST1001",
+      "nombre": "Herramientas tecnológicas para el turismo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CALVO QUIROS ANGELINE",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TR1131",
+      "nombre": "Introducción a la gestión del turismo",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CESPEDES OBANDO FRANCISCO",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-15:10]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TR4131",
+      "nombre": "Patrimonio turístico rural",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "FERNANDEZ MORA LADY",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-17:00]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "ST2001",
+      "nombre": "Introducción a la economía del turismo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ MURILLO DANIEL",
+          "modalidad": "Regular",
+          "horario": "JUE[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "ST2003",
+      "nombre": "Metodologías de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ MURILLO DANIEL",
+          "modalidad": "Tutoría",
+          "horario": "LUN[16:10-18:50] MIE[16:10-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TR3211",
+      "nombre": "Gestión ambiental y turismo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ MURILLO DANIEL",
+          "modalidad": "Tutoría",
+          "horario": "MAR[08:50-11:30] MIE[13:25-15:10]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

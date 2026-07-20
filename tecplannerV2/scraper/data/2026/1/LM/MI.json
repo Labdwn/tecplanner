@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "MI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA ELECTROMECANICA",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MI2101",
+      "nombre": "Dibujo técnico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GUZMAN CONEJO JOSHUA",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

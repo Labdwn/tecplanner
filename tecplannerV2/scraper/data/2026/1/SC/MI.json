@@ -1,0 +1,64 @@
+{
+  "codigoEscuela": "MI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA ELECTROMECANICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MI2101",
+      "nombre": "Dibujo técnico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 52,
+          "profesor": "CHAVES ALVAREZ MARCELA MARIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:05-20:40]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 50,
+          "profesor": "GUZMAN CONEJO JOSHUA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 51,
+          "profesor": "UREÑA SANDI NOEL",
+          "modalidad": "Virtual",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 53,
+          "profesor": "UREÑA SANDI NOEL",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MI3138",
+      "nombre": "Máquinas y equipos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUZMAN CONEJO JOSHUA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

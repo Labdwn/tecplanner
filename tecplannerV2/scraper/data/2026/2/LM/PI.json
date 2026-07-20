@@ -1,0 +1,145 @@
+{
+  "codigoEscuela": "PI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN PRODUCCION INDUSTRIAL",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "PI2304",
+      "nombre": "Estudio del trabajo I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CUBILLO MORALES DANIER",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "L",
+          "aula": "11"
+        }
+      ]
+    },
+    {
+      "codigo": "PI4309",
+      "nombre": "Planeación y diseño de instalaciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CUBILLO MORALES DANIER",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "L",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "PI3403",
+      "nombre": "Sistema de información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ESPINOZA RODRIGUEZ FABIANA",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-11:20]",
+          "edificio": "L",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "PI3502",
+      "nombre": "Costos industriales II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ESPINOZA RODRIGUEZ FABIANA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "L",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "PI2610",
+      "nombre": "Probabilidad y estadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "PI3603",
+      "nombre": "Investigación de operaciones I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
+          "modalidad": "Virtual",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "PI3512",
+      "nombre": "Dirección de personal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GARITA ALPIZAR PABLO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "L",
+          "aula": "12"
+        }
+      ]
+    },
+    {
+      "codigo": "PI3501",
+      "nombre": "Costos Industriales I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "MADRIZ QUIROS CARMEN",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "L",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "PI3206",
+      "nombre": "Logística y administración de la cadena de abastecimiento",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "MITCHELL RILEY MARIO",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "L",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

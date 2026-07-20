@@ -1,0 +1,226 @@
+{
+  "codigoEscuela": "BI",
+  "nombreEscuela": "ESCUELA DE BIOLOGIA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "BI5406",
+      "nombre": "Biología general para entornos laborales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "AGUERO HERNANDEZ ANA LAURA",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "PERAZA MORAGA JOHNNY",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "PERAZA MORAGA JOHNNY",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BI1102",
+      "nombre": "Laboratorio de biología general",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "CARVAJAL ALFARO VANESSA",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "CARVAJAL ALFARO VANESSA",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "CASTRO PIEDRA SILVIA",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CASTRO PIEDRA SILVIA",
+          "modalidad": "Laboratorio",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "MURILLO VEGA FRANCINIE",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "VALERIN BERROCAL KARLA",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BI1107",
+      "nombre": "Biología para Ingenieria Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CARVAJAL ALFARO VANESSA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BI1106",
+      "nombre": "Laboratorio de Biología general para Ingeniería Ambiental",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA PIZARRO LAURA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CHAVARRIA PIZARRO LAURA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "WATSON GUIDO WILLIAM",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BI1101",
+      "nombre": "Biología general",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ CARVAJAL ERICK",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "HERNANDEZ CARVAJAL ERICK",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "PERAZA MORAGA JOHNNY",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BI1103",
+      "nombre": "Biología agrícola",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLERA STELLER PAOLA MARIA",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BI1104",
+      "nombre": "Laboratorio de biología agrícola",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLERA STELLER PAOLA MARIA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOLERA STELLER PAOLA MARIA",
+          "modalidad": "Laboratorio",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BI3410",
+      "nombre": "Ecología y problemática ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLERA STELLER PAOLA MARIA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

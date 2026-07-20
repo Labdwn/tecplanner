@@ -1,0 +1,326 @@
+{
+  "codigoEscuela": "IA",
+  "nombreEscuela": "ESCUELA INGENIERIA AGRICOLA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "IA4010",
+      "nombre": "Diseño de redes para abastecimiento de agua",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARRIETA QUESADA SERGIO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA2107",
+      "nombre": "Edafología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA VIDAL ADRIAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA3010",
+      "nombre": "Suelos y labranza",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA VIDAL ADRIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA4312",
+      "nombre": "Drenaje superficial",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA VIDAL ADRIAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA4408",
+      "nombre": "Taller de diseño",
+      "creditos": 6,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARITA CERDAS ADRIAN DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[14:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA5403",
+      "nombre": "Administración de la mecanización agrícola",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARITA CERDAS ADRIAN DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA3004",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 9,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GOMEZ ASTORGA MARIA JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA3206",
+      "nombre": "Resistencia de materiales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GOMEZ ASTORGA MARIA JOSE",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA1002",
+      "nombre": "Fundamentos de ingeniería agrícola",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUZMAN ARIAS ISABEL",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA3202",
+      "nombre": "Estadística aplicada",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUZMAN ARIAS ISABEL",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA3208",
+      "nombre": "Electricidad",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERRERA CORTEZ OSCAR",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[19:00-20:50] MIE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA3302",
+      "nombre": "Topografía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "JIMENEZ AGUILAR JUAN CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "JIMENEZ AGUILAR JUAN CARLOS",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA5604",
+      "nombre": "Sistema de información geográfico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE VARGAS KAREN",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA2204",
+      "nombre": "Programación aplicada",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PICADO MORA ERICKA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA4402",
+      "nombre": "Motores de combustión interna",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ HERNANDEZ LUIS STEVEN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA4407",
+      "nombre": "Tractores agrícolas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO CALVO KERIN",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA4311",
+      "nombre": "Riego superficial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLORZANO QUINTANA MILTON",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA3212",
+      "nombre": "Mecánica de fluidos aplicada",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO MONGE ALLAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA2105",
+      "nombre": "Laboratorio de edafología",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VILLAGRA MENDOZA CAROLINA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "VILLAGRA MENDOZA CAROLINA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IA4307",
+      "nombre": "Diseño estructuras hidráulicas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "WATSON HERNANDEZ FERNANDO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

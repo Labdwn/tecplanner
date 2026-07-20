@@ -1,0 +1,86 @@
+{
+  "codigoEscuela": "CI",
+  "nombreEscuela": "ESCUELA DE CIENCIAS DEL LENGUAJE",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CI1230",
+      "nombre": "Inglés I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BRENES ROJAS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BRENES ROJAS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1305",
+      "nombre": "Inglés I para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BRENES ROJAS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[18:00-21:50] SAB[15:00-16:50]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1107",
+      "nombre": "Comunicación oral",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-17:50]",
+          "edificio": "L",
+          "aula": "14"
+        },
+        {
+          "grupo": 61,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "L",
+          "aula": "12"
+        },
+        {
+          "grupo": 62,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "L",
+          "aula": "14"
+        }
+      ]
+    }
+  ]
+}

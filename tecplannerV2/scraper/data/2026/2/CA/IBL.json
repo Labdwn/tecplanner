@@ -1,0 +1,85 @@
+{
+  "codigoEscuela": "IBL",
+  "nombreEscuela": "LICENCIATURA INGENIERIA EN BIOTECNOLOGIA PARA EGRESADOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "BL1201",
+      "nombre": "Metodologías de investigación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHICAS ROMERO MAURICIO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[08:30-11:20] SAB[08:30-11:20] SAB[08:30-11:20]",
+          "edificio": "F5",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "BL1124",
+      "nombre": "Control de calidad aplicado a las empresas de manufactura de dispositivos médicos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO CAMPOS VIRGINIA",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[18:00-20:50]",
+          "edificio": "F5",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "BL1131",
+      "nombre": "Auditorías a sistemas de calidad",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO CAMPOS VIRGINIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-20:50]",
+          "edificio": "F5",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "BL1133",
+      "nombre": "Gerencia técnica de la calidad basada en INTE-ISO 17025:2017",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONTERO CAMPOS VIRGINIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "F4",
+          "aula": "11"
+        }
+      ]
+    },
+    {
+      "codigo": "BL1130",
+      "nombre": "Introducción a la programación para biotecnología",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TREJOS ESPINOZA RAUL",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

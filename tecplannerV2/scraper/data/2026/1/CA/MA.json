@@ -1,0 +1,942 @@
+{
+  "codigoEscuela": "MA",
+  "nombreEscuela": "ESCUELA DE MATEMATICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MA0101",
+      "nombre": "Matemática general",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 30,
+          "profesor": "ACUÑA CHACON REIMAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-20:50] VIE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 21,
+          "profesor": "ALVARADO SOLANO ANDY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-10:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 28,
+          "profesor": "AZOFEIFA CUBERO ROBERTO",
+          "modalidad": "Grupo RN",
+          "horario": "MIE[16:00-18:50] VIE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 18,
+          "profesor": "CHACON VARGAS ERICK",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 29,
+          "profesor": "CHACON VARGAS ERICK",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-19:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "CORDERO QUIROS MARCIAL",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 12,
+          "profesor": "CORDERO QUIROS MARCIAL",
+          "modalidad": "Grupo RN",
+          "horario": "MAR[15:00-17:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 19,
+          "profesor": "CORDERO QUIROS MARCIAL",
+          "modalidad": "Regular",
+          "horario": "MAR[18:00-20:50] JUE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 22,
+          "profesor": "CORDERO QUIROS MARCIAL",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 26,
+          "profesor": "CORDERO QUIROS MARCIAL",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 24,
+          "profesor": "ESQUIVEL SAMUDIO JEISON",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 25,
+          "profesor": "ESQUIVEL SAMUDIO JEISON",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 13,
+          "profesor": "GUTIERREZ MONTENEGRO MARCO VINICIO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-17:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 27,
+          "profesor": "GUTIERREZ MONTENEGRO MARCO VINICIO",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-17:50] VIE[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 10,
+          "profesor": "JIMENEZ MADRIGAL JORGE",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "JIMENEZ ROMERO ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 9,
+          "profesor": "MONGE MADRIZ CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "MORA CASASOLA MARIA FERNANDA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "MORA PICADO LUIS FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20] JUE[10:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 17,
+          "profesor": "PARRA SALAZAR EDWARD",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-18:50] JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 11,
+          "profesor": "QUESADA VILLALOBOS LOURDES",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 20,
+          "profesor": "QUESADA VILLALOBOS LOURDES",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "RODRIGUEZ CASTRO BRYAN",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20] JUE[10:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 15,
+          "profesor": "RODRIGUEZ CASTRO BRYAN",
+          "modalidad": "Regular",
+          "horario": "MAR[16:00-17:50] JUE[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SANCHEZ FERNANDEZ IVONNE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 14,
+          "profesor": "SANCHEZ FERNANDEZ IVONNE",
+          "modalidad": "Asistida",
+          "horario": "MAR[16:00-17:50] JUE[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 31,
+          "profesor": "SOLANO VARELA DANIEL JESUS",
+          "modalidad": "Regular",
+          "horario": "SAB[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOLIS PALMA ANGIE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "VALVERDE SANCHEZ SAMUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 16,
+          "profesor": "VALVERDE SANCHEZ SAMUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-18:50] JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 23,
+          "profesor": "VEGA VASQUEZ ARTURO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20] VIE[10:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1304",
+      "nombre": "Cálculo para administración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA PRADO LUIS",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SOTO QUIROS JUAN PABLO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2105",
+      "nombre": "Ecuaciones diferenciales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 4,
+          "profesor": "ACUÑA PRADO LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "ACUÑA PRADO LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "BRENES GOMEZ  RANDALL",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "MARIN SANCHEZ MARIO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "NUÑEZ VANEGAS FELIX",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "OVIEDO UGALDE NORBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "RODRIGUEZ BUSTOS KENDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOLIS ARGUEDAS ADRIANA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1103",
+      "nombre": "Cálculo y álgebra lineal",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALPIZAR BRENES GEISEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "ALPIZAR BRENES GEISEL",
+          "modalidad": "Grupo RN",
+          "horario": "MAR[18:00-19:50] JUE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 13,
+          "profesor": "BORBON ALPIZAR ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-17:50] VIE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "BRENES GOMEZ  RANDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[16:00-17:50] JUE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 10,
+          "profesor": "BRENES GOMEZ  RANDALL",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CALDERON SOLANO MANUEL",
+          "modalidad": "Asistida",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 14,
+          "profesor": "CALDERON SOLANO MANUEL",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "CHINCHILLA VALVERDE JORGE LUIS",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "FIGUEROA MATA GEOVANNI",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "FIGUEROA MATA GEOVANNI",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 15,
+          "profesor": "FIGUEROA MATA GEOVANNI",
+          "modalidad": "Regular",
+          "horario": "MAR[18:00-19:50] JUE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "GUTIERREZ MONTENEGRO MARCO VINICIO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 17,
+          "profesor": "JIMENEZ MADRIGAL JORGE",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 12,
+          "profesor": "MARRERO CALVO MARCELA",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 11,
+          "profesor": "MORA CASASOLA MARIA FERNANDA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 16,
+          "profesor": "NUÑEZ VANEGAS FELIX",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-19:50] VIE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 9,
+          "profesor": "RODRIGUEZ GRANADOS NATALIA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2104",
+      "nombre": "Cálculo superior",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ALVARADO SOLANO ANDY",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-19:50] JUE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "ALVARADO SOLANO ANDY",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "BORBON ALPIZAR ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "MONGE FALLAS JORGE",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "VEGA VASQUEZ ARTURO",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "VEGA VASQUEZ ARTURO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2404",
+      "nombre": "Probabilidades",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "ALVARADO SOLANO ANDY",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "RODRIGUEZ CASTRO BRYAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-19:50] JUE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1102",
+      "nombre": "Cálculo diferencial e integral",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 11,
+          "profesor": "AZOFEIFA CUBERO ROBERTO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-10:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "CALDERON SOLANO MANUEL",
+          "modalidad": "Asistida",
+          "horario": "MAR[09:30-12:20] JUE[10:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 13,
+          "profesor": "CALDERON SOLANO MANUEL",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 16,
+          "profesor": "FALLAS MONGE JUAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[16:00-18:50] VIE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "JIMENEZ MADRIGAL JORGE",
+          "modalidad": "Grupo RN",
+          "horario": "MAR[07:30-09:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "JIMENEZ MADRIGAL JORGE",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MASIS FLORES DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 18,
+          "profesor": "MASIS FLORES DAVID",
+          "modalidad": "Regular",
+          "horario": "SAB[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "MONGE FALLAS JORGE",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 19,
+          "profesor": "MONGE FALLAS JORGE",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-19:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "MORA PICADO LUIS FERNANDO",
+          "modalidad": "Grupo RN",
+          "horario": "MAR[16:00-18:50] JUE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 14,
+          "profesor": "MORA PICADO LUIS FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 10,
+          "profesor": "PAEZ PAEZ CRISTIAN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "PARRA SALAZAR EDWARD",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 15,
+          "profesor": "PARRA SALAZAR EDWARD",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-17:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "QUESADA VILLALOBOS LOURDES",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 9,
+          "profesor": "RAMIREZ ARCE GREIVIN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-20:50] JUE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 17,
+          "profesor": "RAMIREZ BOGANTES MELVIN",
+          "modalidad": "Grupo RN",
+          "horario": "MIE[17:00-19:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 12,
+          "profesor": "RODRIGUEZ GRANADOS NATALIA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20] VIE[10:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA3405",
+      "nombre": "Estadística",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "CHACON VARGAS ERICK",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "CHAVES SALAS LEONEL ROLANDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MORA CASASOLA MARIA FERNANDA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1403",
+      "nombre": "Matemática discreta",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA MOLINA JEFFRY",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CHAVARRIA MOLINA JEFFRY",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 10,
+          "profesor": "ESQUIVEL SAMUDIO JEISON",
+          "modalidad": "Regular",
+          "horario": "MIE[18:00-19:50] VIE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "FALLAS MONGE JUAN JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "FALLAS MONGE JUAN JOSE",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "GUTIERREZ RUIZ GRETTEL",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-19:50] JUE[18:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 9,
+          "profesor": "MARIN SANCHEZ MARIO",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-17:50] VIE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "RAMIREZ ARCE GREIVIN",
+          "modalidad": "Regular",
+          "horario": "MAR[16:00-17:50] JUE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "SANABRIA BRENES GEOVANNI",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "SOLIS ARGUEDAS ADRIANA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA3106",
+      "nombre": "Métodos numéricos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA MOLINA JEFFRY",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "PARRA RODRIGUEZ EMMANUELLE",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1303",
+      "nombre": "Matemática básica para administración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHINCHILLA VALVERDE JORGE LUIS",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "CHINCHILLA VALVERDE JORGE LUIS",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "PAEZ PAEZ CRISTIAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "RAMIREZ BOGANTES MELVIN",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "RAMOS MARIN SIGURD",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-11:20] MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2117",
+      "nombre": "Cálculo y geometría analítica",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VEGA VASQUEZ ARTURO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:00-17:50] JUE[16:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

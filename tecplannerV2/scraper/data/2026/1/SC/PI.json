@@ -1,0 +1,327 @@
+{
+  "codigoEscuela": "PI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN PRODUCCION INDUSTRIAL",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "PI4307",
+      "nombre": "Control de calidad",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "(SE IMPARTE EN IDIOMA INGLES)",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05] MAR[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 51,
+          "profesor": "RODRIGUEZ GONZALEZ LUIS ELADIO",
+          "modalidad": "Regular",
+          "horario": "JUE[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5302",
+      "nombre": "Diseño de experimentos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 51,
+          "profesor": "(SE IMPARTE EN IDIOMA INGLES)",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05] JUE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ GONZALEZ LUIS ELADIO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5401",
+      "nombre": "Simulación industrial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 51,
+          "profesor": "BADILLA MURILLO FELIX",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 50,
+          "profesor": "VARGAS VARGAS BERNAL",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5402",
+      "nombre": "Automatización de manufactura",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "BADILLA MURILLO FELIX",
+          "modalidad": "Regular",
+          "horario": "MIE[16:10-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5508",
+      "nombre": "Administración de calidad",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MCLEAN VALERIO KATHLEEN",
+          "modalidad": "Regular",
+          "horario": "LUN[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3407",
+      "nombre": "Computación industrial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MORALES ARIAS JONATHAN",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-15:10]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4303",
+      "nombre": "Control de producción",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MORALES ARIAS JONATHAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4309",
+      "nombre": "Planeación y diseño de instalaciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MORALES ARIAS JONATHAN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3502",
+      "nombre": "Costos industriales II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "OCAMPO CAMPOS LAURA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:05-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3501",
+      "nombre": "Costos Industriales I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ MURILLO ERICK",
+          "modalidad": "Regular",
+          "horario": "VIE[07:55-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4306",
+      "nombre": "Metrología y normalización",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ MURILLO ERICK",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 51,
+          "profesor": "ROJAS RODRIGUEZ DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI2304",
+      "nombre": "Estudio del trabajo I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ GONZALEZ LUIS ELADIO",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3612",
+      "nombre": "Probabilidad y estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ GONZALEZ LUIS ELADIO",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI2610",
+      "nombre": "Probabilidad y estadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS RODRIGUEZ DAVID",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3308",
+      "nombre": "Estudio del trabajo II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS RODRIGUEZ DAVID",
+          "modalidad": "Regular",
+          "horario": "JUE[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3403",
+      "nombre": "Sistema de información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS RODRIGUEZ DAVID",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-15:10]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4001",
+      "nombre": "Dirección de personal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VARGAS VARGAS BERNAL",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4505",
+      "nombre": "Análisis económico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VARGAS VARGAS BERNAL",
+          "modalidad": "Regular",
+          "horario": "VIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5601",
+      "nombre": "Diagnóstico industrial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VARGAS VARGAS BERNAL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

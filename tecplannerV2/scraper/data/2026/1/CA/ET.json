@@ -1,0 +1,100 @@
+{
+  "codigoEscuela": "ET",
+  "nombreEscuela": "EDUCACION TECNICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "LE1109",
+      "nombre": "Fundamentos de didáctica en ETFP",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALFARO AGUIRRE JEISON",
+          "modalidad": "Virtual",
+          "horario": "SAB[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LE1108",
+      "nombre": "Teoría educativa y análisis socio histórico de la ETFP",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DELGADO MONTOYA WILLIAM",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LE1303",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 7,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ ARAYA JESUS",
+          "modalidad": "Virtual",
+          "horario": "SAB[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LE1504",
+      "nombre": "Innovación y tecnología en ETFP",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ORTEGA BRENES JUAN CARLOS",
+          "modalidad": "Virtual",
+          "horario": "SAB[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LE1301",
+      "nombre": "Evaluación de los aprendizajes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO GRANT ANDREA",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LE1107",
+      "nombre": "Introducción al currículo en ETFP",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VILLALOBOS RODRIGUEZ MINOR",
+          "modalidad": "Virtual",
+          "horario": "SAB[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

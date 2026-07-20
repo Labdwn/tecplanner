@@ -1,0 +1,63 @@
+{
+  "codigoEscuela": "CD",
+  "nombreEscuela": "ESCUELA DE CULTURA Y DEPORTE",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "SE1205",
+      "nombre": "Juegos y deportes en conjunto",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "JIMENEZ JIMENEZ DANIEL",
+          "modalidad": "Regular",
+          "horario": "MIE[09:00-10:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1221",
+      "nombre": "Futbol I",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "JIMENEZ JIMENEZ DANIEL",
+          "modalidad": "Regular",
+          "horario": "VIE[09:00-10:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1104",
+      "nombre": "Artes visuales",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SERRANO SOLANO ALEX",
+          "modalidad": "Regular",
+          "horario": "MIE[10:00-11:50]",
+          "edificio": "UTN",
+          "aula": "620"
+        },
+        {
+          "grupo": 21,
+          "profesor": "SERRANO SOLANO ALEX",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": "UTN",
+          "aula": "620"
+        }
+      ]
+    }
+  ]
+}

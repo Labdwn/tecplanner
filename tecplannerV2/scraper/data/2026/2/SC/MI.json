@@ -1,0 +1,48 @@
+{
+  "codigoEscuela": "MI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA ELECTROMECANICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "MI2109",
+      "nombre": "Estática",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CHAVES ALVAREZ MARCELA MARIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[16:10-17:55] MIE[16:10-17:55]",
+          "edificio": "A",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "MI2101",
+      "nombre": "Dibujo técnico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "UREÑA SANDI NOEL",
+          "modalidad": "Virtual",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": "LP",
+          "aula": "1"
+        },
+        {
+          "grupo": 51,
+          "profesor": "UREÑA SANDI NOEL",
+          "modalidad": "Virtual",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": "LP",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

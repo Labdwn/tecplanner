@@ -1,0 +1,901 @@
+{
+  "codigoEscuela": "QU",
+  "nombreEscuela": "ESCUELA DE QUIMICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "QU1102",
+      "nombre": "Laboratorio de química básica I",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ABARCA GUERRERO LILLIANA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 11,
+          "profesor": "ABARCA GUERRERO LILLIANA",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ARAYA CARVAJAL FABIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 9,
+          "profesor": "ARAYA CARVAJAL FABIO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "ARCE ROJAS HEILEN",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "CABALLERO CHAVARRIA ANDREY",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 35,
+          "profesor": "CABALLERO CHAVARRIA ANDREY",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 10,
+          "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 32,
+          "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 71,
+          "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
+          "modalidad": "Regular",
+          "horario": "VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 37,
+          "profesor": "CALVO BRENES GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 24,
+          "profesor": "HERNANDEZ ALPIZAR LAURA",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 27,
+          "profesor": "HERNANDEZ ALPIZAR LAURA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 14,
+          "profesor": "HERRERA NUÑEZ JACQUELINE MARIA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 23,
+          "profesor": "MASIS MELENDEZ FEDERICO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 26,
+          "profesor": "MASIS MELENDEZ FEDERICO",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 30,
+          "profesor": "MATA MATA ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 38,
+          "profesor": "MATA MATA ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "MATA SOLANO ROGELIO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 12,
+          "profesor": "MATA SOLANO ROGELIO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 16,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 19,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 22,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 31,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 34,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 44,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 46,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "QUIROS BUSTOS NOEMI",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 47,
+          "profesor": "QUIROS BUSTOS NOEMI",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 49,
+          "profesor": "QUIROS BUSTOS NOEMI",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "SALAZAR ROJAS TERESA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 17,
+          "profesor": "SALAZAR ROJAS TERESA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 20,
+          "profesor": "SALAZAR ROJAS TERESA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 21,
+          "profesor": "SALAZAR ROJAS TERESA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 33,
+          "profesor": "SANDOVAL MORA JOSE ALBERTO",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 36,
+          "profesor": "SANDOVAL MORA JOSE ALBERTO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 40,
+          "profesor": "SOTO CORDOBA SILVIA",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 48,
+          "profesor": "VALVERDE CERDAS JOHNNY",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 15,
+          "profesor": "VARGAS CAMARENO MARICRUZ",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 18,
+          "profesor": "VARGAS CAMARENO MARICRUZ",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 29,
+          "profesor": "VARGAS CAMARENO MARICRUZ",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 43,
+          "profesor": "VARGAS CAMARENO MARICRUZ",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 45,
+          "profesor": "VARGAS CAMARENO MARICRUZ",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 25,
+          "profesor": "VILLALTA ROMERO FABIAN",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 42,
+          "profesor": "VILLALTA ROMERO FABIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU1104",
+      "nombre": "Laboratorio de química básica II",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 10,
+          "profesor": "ARAYA MARCHENA MARIO",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "FLORES CANTILLO ADRIAN",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 9,
+          "profesor": "FLORES CANTILLO ADRIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 13,
+          "profesor": "FLORES CANTILLO ADRIAN",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "MATA SOLANO ROGELIO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "MATA SOLANO ROGELIO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "MATA SOLANO ROGELIO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 11,
+          "profesor": "MORA MOLINA JESUS",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 12,
+          "profesor": "ROBLES CHAVEZ DIANA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU1902",
+      "nombre": "Fundamentos de química",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MARCHENA MARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:00-17:50] JUE[16:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2404",
+      "nombre": "Laboratorio de química orgánica",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "ARAYA MARCHENA MARIO",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SANDOVAL MORA JOSE ALBERTO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "VALVERDE CERDAS JOHNNY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "VALVERDE CERDAS JOHNNY",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "VALVERDE CERDAS JOHNNY",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU1106",
+      "nombre": "Química básica I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 17,
+          "profesor": "ARCE ROJAS HEILEN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 18,
+          "profesor": "ARCE ROJAS HEILEN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 12,
+          "profesor": "COY HERRERA RICARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "PORRAS ACOSTA MARIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "PORRAS ACOSTA MARIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 20,
+          "profesor": "PORRAS ACOSTA MARIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 11,
+          "profesor": "QUIROS BUSTOS NOEMI",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "ROBLES CHAVEZ DIANA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 13,
+          "profesor": "SOTO CORDOBA SILVIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 16,
+          "profesor": "SOTO CORDOBA SILVIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 8,
+          "profesor": "ULATE MOLINA RICARDO ENRIQUE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 10,
+          "profesor": "ULATE MOLINA RICARDO ENRIQUE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "VARGAS CAMARENO MARICRUZ",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "VARGAS CAMARENO MARICRUZ",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 9,
+          "profesor": "VARGAS CAMARENO MARICRUZ",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 19,
+          "profesor": "VILLALTA ROMERO FABIAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2301",
+      "nombre": "Química analítica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2407",
+      "nombre": "Fundamentos de química orgánica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2604",
+      "nombre": "Química ambiental y analítica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FLORES CANTILLO ADRIAN",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20] MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU1107",
+      "nombre": "Química básica II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "LEDEZMA ESPINOZA AURA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 7,
+          "profesor": "LEDEZMA ESPINOZA AURA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "SANDOVAL MORA JOSE ALBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SOTO CORDOBA SILVIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "STARBIRD PEREZ RICARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "STARBIRD PEREZ RICARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ULATE MOLINA RICARDO ENRIQUE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2402",
+      "nombre": "Laboratorio fundamentos química orgánica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "MATA SOLANO ROGELIO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL MORA JOSE ALBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "SANDOVAL MORA JOSE ALBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2302",
+      "nombre": "Laboratorio de química analítica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PUENTE URBINA ALLEN ARTURO",
+          "modalidad": "Regular",
+          "horario": "VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2403",
+      "nombre": "Química orgánica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PUENTE URBINA ALLEN ARTURO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOTO CORDOBA SILVIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2605",
+      "nombre": "Laboratorio de química ambiental y analítica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROBLES CHAVEZ DIANA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "codigoEscuela": "LEM",
+  "nombreEscuela": "LICENCIATURA EN ENSEÑANZA DE LA MATEMATICA CON ENTORNOS TECNOLOGICOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "EM5002",
+      "nombre": "Didáctica de las matemáticas I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "AGUERO CALVO EVELYN",
+          "modalidad": "Virtual",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM5003",
+      "nombre": "Taller I: algoritmos y programación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MARRERO CALVO MARCELA",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM5004",
+      "nombre": "Introducción al análisis funcional",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MASIS FLORES DAVID",
+          "modalidad": "Virtual",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EM5001",
+      "nombre": "Historia de las matemáticas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MEZA CASCANTE LUIS GERARDO",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

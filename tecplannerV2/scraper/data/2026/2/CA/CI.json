@@ -1,0 +1,825 @@
+{
+  "codigoEscuela": "CI",
+  "nombreEscuela": "ESCUELA DE CIENCIAS DEL LENGUAJE",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CI0202",
+      "nombre": "Inglés básico",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 7,
+          "profesor": "ALBERTAZZI OSORIO SONIA",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 10,
+          "profesor": "ALBERTAZZI OSORIO SONIA",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 5,
+          "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-17:50]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 1,
+          "profesor": "KENNEDY RUSSELL ANA",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 9,
+          "profesor": "KENNEDY RUSSELL ANA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 4,
+          "profesor": "MURILLO ESCALANTE ROCIO",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 2,
+          "profesor": "RIVERA VEGA KATERINE",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 3,
+          "profesor": "VALLECILLO ALFARO JOHANNY",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "3"
+        },
+        {
+          "grupo": 8,
+          "profesor": "VALLECILLO ALFARO JOHANNY",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 6,
+          "profesor": "VINDAS FERNANDEZ NURIA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1230",
+      "nombre": "Inglés I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ALBERTAZZI OSORIO SONIA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 9,
+          "profesor": "ALBERTAZZI OSORIO SONIA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 1,
+          "profesor": "BRENES ROJAS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 8,
+          "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
+          "modalidad": "Regular",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 10,
+          "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 6,
+          "profesor": "GUILLEN JIMENEZ LUIS DIEGO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-17:50]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 3,
+          "profesor": "HERRERA JIMENEZ INGRID",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 4,
+          "profesor": "MOLINA VILLALOBOS TANIA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 7,
+          "profesor": "RAMIREZ CASTRO MONSERRAT",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "6"
+        },
+        {
+          "grupo": 5,
+          "profesor": "SOLANO SOLANO JOSE EDUARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 11,
+          "profesor": "SOLANO SOLANO JOSE EDUARDO",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 4,
+          "profesor": "ALBERTAZZI OSORIO SONIA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 11,
+          "profesor": "FUENTES MORA ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 5,
+          "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
+          "modalidad": "Regular",
+          "horario": "MAR[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 2,
+          "profesor": "HERRERA JIMENEZ INGRID",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 3,
+          "profesor": "KENNEDY RUSSELL ANA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 1,
+          "profesor": "SOLANO OBANDO MABEL",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 6,
+          "profesor": "SOLANO OBANDO MABEL",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 7,
+          "profesor": "SOLANO OBANDO MABEL",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 10,
+          "profesor": "SOLANO OBANDO MABEL",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-18:50]",
+          "edificio": "F9",
+          "aula": "7"
+        },
+        {
+          "grupo": 8,
+          "profesor": "VALLECILLO ALFARO JOHANNY",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 9,
+          "profesor": "VALLECILLO ALFARO JOHANNY",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1106",
+      "nombre": "Comunicación escrita",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 4,
+          "profesor": "AMADOR SOLANO GABRIELA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "F5",
+          "aula": "3"
+        },
+        {
+          "grupo": 3,
+          "profesor": "RIOS SANCHEZ ARMANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "F5",
+          "aula": "3"
+        },
+        {
+          "grupo": 2,
+          "profesor": "ROMERO ALVAREZ ERICKA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F5",
+          "aula": "3"
+        },
+        {
+          "grupo": 1,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "F5",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1107",
+      "nombre": "Comunicación oral",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 7,
+          "profesor": "AMADOR SOLANO GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 28,
+          "profesor": "AMADOR SOLANO GABRIELA",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 1,
+          "profesor": "CASTILLO RODRIGUEZ LARISSA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 3,
+          "profesor": "CASTILLO RODRIGUEZ LARISSA",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 5,
+          "profesor": "CASTILLO RODRIGUEZ LARISSA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 8,
+          "profesor": "CASTILLO RODRIGUEZ LARISSA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 10,
+          "profesor": "CASTILLO RODRIGUEZ LARISSA",
+          "modalidad": "Regular",
+          "horario": "MAR[16:00-18:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 12,
+          "profesor": "CASTILLO RODRIGUEZ LARISSA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 6,
+          "profesor": "MORALES GARAY SARAY",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "F5",
+          "aula": "4"
+        },
+        {
+          "grupo": 19,
+          "profesor": "MORALES GARAY SARAY",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 27,
+          "profesor": "MORALES GARAY SARAY",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 2,
+          "profesor": "PEREZ ROJAS NELSON",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 21,
+          "profesor": "PEREZ ROJAS NELSON",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "F5",
+          "aula": "4"
+        },
+        {
+          "grupo": 13,
+          "profesor": "RIOS SANCHEZ ARMANDO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 15,
+          "profesor": "RODRIGUEZ HERRA NATALIA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 17,
+          "profesor": "RODRIGUEZ HERRA NATALIA",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-19:50]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 20,
+          "profesor": "ROMERO ALVAREZ ERICKA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 23,
+          "profesor": "ROMERO ALVAREZ ERICKA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 33,
+          "profesor": "ROMERO ALVAREZ ERICKA",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "F5",
+          "aula": "4"
+        },
+        {
+          "grupo": 9,
+          "profesor": "SHILTAGH PRADA DIMITRI",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 11,
+          "profesor": "SHILTAGH PRADA DIMITRI",
+          "modalidad": "Regular",
+          "horario": "MAR[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 14,
+          "profesor": "SHILTAGH PRADA DIMITRI",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 18,
+          "profesor": "SHILTAGH PRADA DIMITRI",
+          "modalidad": "Regular",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "F5",
+          "aula": "3"
+        },
+        {
+          "grupo": 22,
+          "profesor": "SHILTAGH PRADA DIMITRI",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 29,
+          "profesor": "SHILTAGH PRADA DIMITRI",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 4,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 16,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-18:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 25,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 26,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "F5",
+          "aula": "3"
+        },
+        {
+          "grupo": 30,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "VIE[17:00-19:50]",
+          "edificio": "F9",
+          "aula": "4"
+        },
+        {
+          "grupo": 31,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "VIE[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "5"
+        },
+        {
+          "grupo": 32,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "VIE[16:00-18:50]",
+          "edificio": "F5",
+          "aula": "3"
+        },
+        {
+          "grupo": 24,
+          "profesor": "SOLANO MORAGA SIGRID",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-17:50]",
+          "edificio": "F5",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1108",
+      "nombre": "Destrezas comunicativas del inglés para biotecnología I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BLACKWOOD BARRETT AISHA JOHANNA",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CI2308",
+      "nombre": "Inglés IV para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FUENTES MORA ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20] SAB[15:00-16:50]",
+          "edificio": "F9",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CI3202",
+      "nombre": "Inglés para mecatrónica",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FUENTES MORA ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "F9",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1407",
+      "nombre": "Habilidades de comunicación en Ingeniería",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GODINEZ ROJAS PAULETTE",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "F5",
+          "aula": "3"
+        },
+        {
+          "grupo": 3,
+          "profesor": "MORALES GARAY SARAY",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F5",
+          "aula": "4"
+        },
+        {
+          "grupo": 2,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "F5",
+          "aula": "4"
+        },
+        {
+          "grupo": 4,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": "F5",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "CI3203",
+      "nombre": "Inglés especializado para ingenierías en computadores",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "JIMENEZ RODRIGUEZ ROXANA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F9",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1305",
+      "nombre": "Inglés I para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "KENNEDY RUSSELL ANA",
+          "modalidad": "Regular",
+          "horario": "MAR[18:00-21:50] SAB[13:00-14:50]",
+          "edificio": "F9",
+          "aula": "9"
+        },
+        {
+          "grupo": 2,
+          "profesor": "KENNEDY RUSSELL ANA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50] SAB[15:00-16:50]",
+          "edificio": "F9",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1306",
+      "nombre": "Inglés II para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MOLINA VILLALOBOS TANIA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50] SAB[15:00-16:50]",
+          "edificio": "F9",
+          "aula": "8"
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOLANO SOLANO JOSE EDUARDO",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20] SAB[15:00-16:50]",
+          "edificio": "F9",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "CI2307",
+      "nombre": "Inglés III para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MURILLO ESCALANTE ROCIO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50] SAB[15:00-16:50]",
+          "edificio": "F9",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1202",
+      "nombre": "Inglés para biotecnología I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIVERA VEGA KATERINE",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "F9",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1406",
+      "nombre": "Argumentación e investigación en comunicación académica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": "F5",
+          "aula": "3"
+        }
+      ]
+    },
+    {
+      "codigo": "CI3400",
+      "nombre": "Inglés 1 (ATI)",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VINDAS FERNANDEZ NURIA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "9"
+        },
+        {
+          "grupo": 2,
+          "profesor": "VINDAS FERNANDEZ NURIA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "F5",
+          "aula": "4"
+        }
+      ]
+    },
+    {
+      "codigo": "CI4401",
+      "nombre": "Inglés II (ATI)",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VINDAS FERNANDEZ NURIA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "F9",
+          "aula": "9"
+        }
+      ]
+    }
+  ]
+}

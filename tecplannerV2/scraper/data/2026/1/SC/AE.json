@@ -1,0 +1,340 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "AE1123",
+      "nombre": "Contabilidad II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ACEVEDO WHITFORD OSCAR",
+          "modalidad": "Regular",
+          "horario": "VIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3127",
+      "nombre": "Administración financiera I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ACEVEDO WHITFORD OSCAR",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE5111",
+      "nombre": "Contabilidad y finanzas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ACEVEDO WHITFORD OSCAR",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2308",
+      "nombre": "Microeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALFARO RAMOS ALFREDO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3312",
+      "nombre": "Negocios internacionales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALFARO RAMOS ALFREDO",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4208",
+      "nombre": "Desarrollo de emprendedores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALFARO RAMOS ALFREDO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2219",
+      "nombre": "Comportamiento organizacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALPIZAR ALPIZAR MARIA ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3223",
+      "nombre": "Gestión del talento humano I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "BARRANTES BARRANTES EILYN",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2505",
+      "nombre": "Estadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CORDOBA ARTAVIA OSCAR",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3506",
+      "nombre": "Productividad empresarial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CORDOBA ARTAVIA OSCAR",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE1219",
+      "nombre": "Introducción a la administración de empresas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUERRERO VARGAS LIGIA",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3542",
+      "nombre": "Espíritu emprendedor y creación de empresas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUERRERO VARGAS LIGIA",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4209",
+      "nombre": "Administración de recursos humanos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUERRERO VARGAS LIGIA",
+          "modalidad": "Regular",
+          "horario": "JUE[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2125",
+      "nombre": "Matemática financiera",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ OROZCO ALLAN JOSE",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3414",
+      "nombre": "Fundamentos de mercadeo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ OROZCO ALLAN JOSE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3415",
+      "nombre": "Investigación de mercados",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ OROZCO ALLAN JOSE",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2703",
+      "nombre": "Computación para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ BARQUERO  RONNY",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4226",
+      "nombre": "Estrategia empresarial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ BARQUERO  RONNY",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2126",
+      "nombre": "Contabilidad de costos I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VILLEGAS ROJAS ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4128",
+      "nombre": "Auditoría I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VILLEGAS ROJAS ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-15:10]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4130",
+      "nombre": "Formulación y evaluación de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VIQUEZ PANIAGUA ANA GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4549",
+      "nombre": "Neuromarketing y neurociencia",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VIQUEZ PANIAGUA ANA GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

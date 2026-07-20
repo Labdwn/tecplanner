@@ -1,0 +1,723 @@
+{
+  "codigoEscuela": "CS",
+  "nombreEscuela": "ESCUELA DE CIENCIAS SOCIALES",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CS3406",
+      "nombre": "Seminario de ética para administración de empresas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVAREZ HERNANDEZ MARIAM",
+          "modalidad": "Virtual",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 4,
+          "profesor": "ARIAS HIDALGO DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "D10",
+          "aula": "35"
+        },
+        {
+          "grupo": 8,
+          "profesor": "CARMONA PINEDA MAIRIM",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 16,
+          "profesor": "CARMONA PINEDA MAIRIM",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 3,
+          "profesor": "EDUARTE RODRIGUEZ DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-17:50]",
+          "edificio": "D10",
+          "aula": "35"
+        },
+        {
+          "grupo": 6,
+          "profesor": "EDUARTE RODRIGUEZ DAVID",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-17:50]",
+          "edificio": "F5",
+          "aula": "7"
+        },
+        {
+          "grupo": 12,
+          "profesor": "EDUARTE RODRIGUEZ DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-17:50]",
+          "edificio": "D10",
+          "aula": "37"
+        },
+        {
+          "grupo": 9,
+          "profesor": "FRANCESCHI SOJO KATTIA",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 11,
+          "profesor": "FRANCESCHI SOJO KATTIA",
+          "modalidad": "Virtual",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 14,
+          "profesor": "FRANCESCHI SOJO KATTIA",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 15,
+          "profesor": "MENESES MARIN GUILLERMO",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 19,
+          "profesor": "MENESES MARIN GUILLERMO",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-17:50]",
+          "edificio": "D10",
+          "aula": "37"
+        },
+        {
+          "grupo": 7,
+          "profesor": "MESEN MONTENEGRO VLADIMIR",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 13,
+          "profesor": "MESEN MONTENEGRO VLADIMIR",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 2,
+          "profesor": "MOJICA MENDIETA FRANCISCO JAVIER",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "D10",
+          "aula": "35"
+        },
+        {
+          "grupo": 10,
+          "profesor": "MOJICA MENDIETA FRANCISCO JAVIER",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORA SANCHEZ AMILKAR",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-17:50]",
+          "edificio": "F5",
+          "aula": "8"
+        },
+        {
+          "grupo": 17,
+          "profesor": "MORA SANCHEZ AMILKAR",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 20,
+          "profesor": "MORA SANCHEZ AMILKAR",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-17:50]",
+          "edificio": "D10",
+          "aula": "37"
+        },
+        {
+          "grupo": 5,
+          "profesor": "ROJAS MOLINA BETSY",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 18,
+          "profesor": "ROJAS MOLINA BETSY",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "D10",
+          "aula": "37"
+        }
+      ]
+    },
+    {
+      "codigo": "CS1502",
+      "nombre": "Introducción a la técnica ciencia y tecnología",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "BOJORGE MURILLO ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": "D3",
+          "aula": "5"
+        },
+        {
+          "grupo": 3,
+          "profesor": "BOJORGE MURILLO ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-18:50]",
+          "edificio": "D3",
+          "aula": "13"
+        },
+        {
+          "grupo": 4,
+          "profesor": "BOJORGE MURILLO ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": "G18",
+          "aula": "3"
+        },
+        {
+          "grupo": 5,
+          "profesor": "GARRO REYES MAURICIO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]",
+          "edificio": "G18",
+          "aula": "3"
+        },
+        {
+          "grupo": 1,
+          "profesor": "ORTIZ ACUÑA LEONARDO",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": "D3",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3404",
+      "nombre": "Seminario de ética para la ingeniería",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "BOJORGE MURILLO ALEXANDER",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 3,
+          "profesor": "CASASOLA RIVERA WILMER",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[18:00-20:50]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 7,
+          "profesor": "CASASOLA RIVERA WILMER",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 8,
+          "profesor": "CASASOLA RIVERA WILMER",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "F5",
+          "aula": "8"
+        },
+        {
+          "grupo": 6,
+          "profesor": "CEDEÑO CAMACHO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 4,
+          "profesor": "GARRO REYES MAURICIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 10,
+          "profesor": "GARRO REYES MAURICIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 11,
+          "profesor": "GARRO REYES MAURICIO",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 5,
+          "profesor": "PRENDAS SOLANO JORGE",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 9,
+          "profesor": "PRENDAS SOLANO JORGE",
+          "modalidad": "Virtual",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 1,
+          "profesor": "VARGAS ELIZONDO CELSO",
+          "modalidad": "Virtual",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS1308",
+      "nombre": "Derecho comercial",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 4,
+          "profesor": "CALDERON FERREY MARTHA",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 1,
+          "profesor": "PETGRAVE BROWN LYANNETTE",
+          "modalidad": "Virtual",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 2,
+          "profesor": "PETGRAVE BROWN LYANNETTE",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 3,
+          "profesor": "PETGRAVE BROWN LYANNETTE",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2303",
+      "nombre": "Relaciones laborales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CALDERON FERREY MARTHA",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 6,
+          "profesor": "CALDERON FERREY MARTHA",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 7,
+          "profesor": "CALDERON FERREY MARTHA",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 5,
+          "profesor": "CHACON MATA ALFONSO",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-17:50]",
+          "edificio": "F4",
+          "aula": "10"
+        },
+        {
+          "grupo": 1,
+          "profesor": "HASBUN DEL VALLE DANIEL",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 3,
+          "profesor": "HASBUN DEL VALLE DANIEL",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 4,
+          "profesor": "HASBUN DEL VALLE DANIEL",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2304",
+      "nombre": "Derecho laboral",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "CHACON MATA ALFONSO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "F4",
+          "aula": "10"
+        },
+        {
+          "grupo": 1,
+          "profesor": "HASBUN DEL VALLE DANIEL",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 2,
+          "profesor": "PELAEZ GIL MARA CAROLINA",
+          "modalidad": "Virtual",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FALLAS VARGAS FABRICIO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "F5",
+          "aula": "7"
+        },
+        {
+          "grupo": 2,
+          "profesor": "FALLAS VARGAS FABRICIO",
+          "modalidad": "Virtual",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 3,
+          "profesor": "LEON RODRIGUEZ MARIA ELENA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 5,
+          "profesor": "LEON RODRIGUEZ MARIA ELENA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 10,
+          "profesor": "LEON RODRIGUEZ MARIA ELENA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "B2",
+          "aula": "3"
+        },
+        {
+          "grupo": 4,
+          "profesor": "ORTIZ ACUÑA LEONARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "F5",
+          "aula": "7"
+        },
+        {
+          "grupo": 8,
+          "profesor": "ORTIZ ACUÑA LEONARDO",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 9,
+          "profesor": "ORTIZ ACUÑA LEONARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-17:50]",
+          "edificio": "F5",
+          "aula": "8"
+        },
+        {
+          "grupo": 6,
+          "profesor": "PRENDAS SOLANO JORGE",
+          "modalidad": "Virtual",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 7,
+          "profesor": "VARGAS ELIZONDO CELSO",
+          "modalidad": "Virtual",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 11,
+          "profesor": "VARGAS ELIZONDO CELSO",
+          "modalidad": "Virtual",
+          "horario": "LUN[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3405",
+      "nombre": "Derecho informático y mercantil",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HASBUN DEL VALLE DANIEL",
+          "modalidad": "Virtual",
+          "horario": "SAB[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2404",
+      "nombre": "Seminario de problemática urbana",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MESEN MONTENEGRO VLADIMIR",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-09:20]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Virtual",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 1,
+          "profesor": "ORTIZ ALVAREZ JORGE ISAAC",
+          "modalidad": "Virtual",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 3,
+          "profesor": "ORTIZ ALVAREZ JORGE ISAAC",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 4,
+          "profesor": "ORTIZ ALVAREZ JORGE ISAAC",
+          "modalidad": "Virtual",
+          "horario": "MIE[15:00-17:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 2,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": "F4",
+          "aula": "10"
+        },
+        {
+          "grupo": 6,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "F4",
+          "aula": "10"
+        },
+        {
+          "grupo": 7,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 8,
+          "profesor": "ROJAS MOLINA BETSY",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-20:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS5300",
+      "nombre": "Desarrollo tecnológico y sostenibilidad",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MURILLO SOLIS  JAVIER",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[13:00-16:50] VIE[13:00-16:50]",
+          "edificio": "D3",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3301",
+      "nombre": "Derecho ambiental y biotecnológico",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PELAEZ GIL MARA CAROLINA",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3305",
+      "nombre": "Legislación agrícola",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PELAEZ GIL MARA CAROLINA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "F5",
+          "aula": "7"
+        }
+      ]
+    },
+    {
+      "codigo": "CS4108",
+      "nombre": "Derecho ambiental",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PELAEZ GIL MARA CAROLINA",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-19:50]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    }
+  ]
+}

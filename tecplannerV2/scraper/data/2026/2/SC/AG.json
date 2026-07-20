@@ -1,0 +1,315 @@
+{
+  "codigoEscuela": "AG",
+  "nombreEscuela": "ESCUELA INGENIERIA EN AGRONOMIA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "AG3223",
+      "nombre": "Protección de cultivos II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-11:30] MAR[07:00-11:30] MAR[07:00-11:30]",
+          "edificio": "A",
+          "aula": "15"
+        },
+        {
+          "grupo": 51,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-14:15] MAR[07:00-14:15] MAR[07:00-14:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG2201",
+      "nombre": "Fisiología vegetal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ECHEVERRIA BEIRUTE FABIAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-11:30] LUN[07:00-11:30]",
+          "edificio": "A",
+          "aula": "15"
+        },
+        {
+          "grupo": 51,
+          "profesor": "ECHEVERRIA BEIRUTE FABIAN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-14:15] LUN[07:00-14:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG2203",
+      "nombre": "Edafología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ESQUIVEL SEGURA EDWIN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-11:30]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 51,
+          "profesor": "ESQUIVEL SEGURA EDWIN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-14:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG4703",
+      "nombre": "Sistemas de producción de cultivos perennes",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ESQUIVEL SEGURA EDWIN",
+          "modalidad": "Regular",
+          "horario": "SAB[07:00-11:30] SAB[07:00-11:30]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 51,
+          "profesor": "ESQUIVEL SEGURA EDWIN",
+          "modalidad": "Regular",
+          "horario": "SAB[07:00-14:15] SAB[07:00-14:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG4705",
+      "nombre": "Sistemas de producción de granos básicos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "FALLAS ALVAREZ ERICK",
+          "modalidad": "Regular",
+          "horario": "LUN[14:20-17:00] MAR[13:25-15:10] LUN[14:20-17:00] MAR[13:25-15:10]",
+          "edificio": "A",
+          "aula": "15"
+        },
+        {
+          "grupo": 51,
+          "profesor": "FALLAS ALVAREZ ERICK",
+          "modalidad": "Regular",
+          "horario": "LUN[14:20-17:00] MAR[15:15-17:00] LUN[14:20-17:00] MAR[15:15-17:00]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG2101",
+      "nombre": "Anatomía y fisiología animal para agronomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GALINDO BADILLA JAIME",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-18:50] MIE[07:00-08:45] MAR[16:10-18:50] MIE[07:00-08:45]",
+          "edificio": "A",
+          "aula": "15"
+        },
+        {
+          "grupo": 51,
+          "profesor": "GALINDO BADILLA JAIME",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-18:50] MIE[09:45-11:30] MAR[16:10-18:50] MIE[09:45-11:30]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG4706",
+      "nombre": "Sistemas de producción avícola",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MADRIGAL VALVERDE MONICA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-11:30]",
+          "edificio": "A",
+          "aula": "3"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MADRIGAL VALVERDE MONICA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-14:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG4704",
+      "nombre": "Sistemas de producción de bovinos de leche",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MOLINA MONTERO RAFAEL",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-11:30]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MOLINA MONTERO RAFAEL",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-14:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG4409",
+      "nombre": "Acromática II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MORALES ARIAS JONATHAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-11:30]",
+          "edificio": "LAG",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AG2702",
+      "nombre": "Administración agropecuaria II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "OBANDO ULLOA JAVIER",
+          "modalidad": "Regular",
+          "horario": "LUN[14:20-18:50]",
+          "edificio": "A",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3109",
+      "nombre": "Agrostología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "OROZCO CORRALES CARLOS",
+          "modalidad": "Regular",
+          "horario": "LUN[08:50-14:15]",
+          "edificio": "A",
+          "aula": "4"
+        },
+        {
+          "grupo": 51,
+          "profesor": "OROZCO CORRALES CARLOS",
+          "modalidad": "Regular",
+          "horario": "LUN[08:50-16:05]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3403",
+      "nombre": "Mecanización agrícola",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "SALAZAR MORERA RODOLFO",
+          "modalidad": "Regular",
+          "horario": "SAB[07:00-11:30]",
+          "edificio": "A",
+          "aula": "15"
+        }
+      ]
+    },
+    {
+      "codigo": "AG2305",
+      "nombre": "Agroclimatología",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "SAB[07:55-10:35]",
+          "edificio": "LAG",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3107",
+      "nombre": "Reproducción animal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VALVERDE ABARCA ANTHONNY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-11:30]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 51,
+          "profesor": "VALVERDE ABARCA ANTHONNY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-14:15]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3405",
+      "nombre": "Agroestadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VEGA ALFARO ANDREY",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-11:30]",
+          "edificio": "A",
+          "aula": "17"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "codigoEscuela": "PI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN PRODUCCION INDUSTRIAL",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "PI3308",
+      "nombre": "Estudio del trabajo II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CUBILLO MORALES DANIER",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4303",
+      "nombre": "Control de producción",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CUBILLO MORALES DANIER",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4306",
+      "nombre": "Metrología y normalización",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CUBILLO MORALES DANIER",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4901",
+      "nombre": "Práctica profesional",
+      "creditos": 8,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CUBILLO MORALES DANIER",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3407",
+      "nombre": "Computación industrial",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ESPINOZA RODRIGUEZ FABIANA",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3612",
+      "nombre": "Probabilidad y estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
+          "modalidad": "Virtual",
+          "horario": "JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4507",
+      "nombre": "Estrategia operacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4505",
+      "nombre": "Análisis económico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "GARITA ALPIZAR PABLO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4307",
+      "nombre": "Control de calidad",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "MADRIZ QUIROS CARMEN",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3502",
+      "nombre": "Costos industriales II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "MITCHELL RILEY MARIO",
+          "modalidad": "Regular",
+          "horario": "VIE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "codigoEscuela": "CES",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTADORES",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "CE1101",
+      "nombre": "Introducción a la programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "ARAYA MARTINEZ LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "GAMBOA RAMIREZ SANTIAGO",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "RAMIREZ TREJOS ELLIOTH",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SCHMIDT PERALTA JEFF",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SCHMIDT PERALTA JEFF",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1104",
+      "nombre": "Fundamentos de sistemas computacionales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ARAYA MARTINEZ LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "BARBOZA ARTAVIA LUIS",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "CALDERON PRADO KIMBERLY",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "GAMBOA RAMIREZ SANTIAGO",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "VILLEGAS LEMUS MILTON",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1109",
+      "nombre": "Circuitos analógicos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA RODRIGUEZ LISANDRO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE2201",
+      "nombre": "Laboratorio de circuitos eléctricos",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA RODRIGUEZ LISANDRO",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "BARBOZA ARTAVIA LUIS",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1106",
+      "nombre": "Paradigmas de programación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "BARBOZA ARTAVIA LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "RIVERA MENESES MARCO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE3201",
+      "nombre": "Taller de diseño digital",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BARBOZA ARTAVIA LUIS",
+          "modalidad": "Tutoría",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "GONZALEZ GOMEZ JEFERSON",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE5507",
+      "nombre": "Modelación hardware/software con orientación a objetos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "BARBOZA ARTAVIA LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ VASQUEZ MARCO",
+          "modalidad": "Semipresencial",
+          "horario": "SAB[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE5508",
+      "nombre": "Soa41d: arquitectura orientada a servicios aplicada a sistemas emergentes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BOLAÑOS MURILLO ALEJANDRA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[19:00-20:50] VIE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1107",
+      "nombre": "Fundamentos de Arquitectura de Computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA ZAMORA LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1110",
+      "nombre": "Análisis de señales mixtas",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA ZAMORA LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1112",
+      "nombre": "Taller de señales mixtas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA ZAMORA LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE4302",
+      "nombre": "Arquitectura de computadores II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA ZAMORA LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "GARCIA FERNANDEZ RONALD",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1113",
+      "nombre": "Sistemas empotrados",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ GOMEZ JEFERSON",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE4301",
+      "nombre": "Arquitectura de computadores I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ GOMEZ JEFERSON",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE2103",
+      "nombre": "Algoritmos y estructuras de datos II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "HERNANDEZ VASQUEZ MARCO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ HERRERA JOSE ISAAC",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[19:00-20:50] VIE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1108",
+      "nombre": "Compiladores e intérpretes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LEITON JIMENEZ JASON",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE4303",
+      "nombre": "Principios de sistemas operativos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LEITON JIMENEZ JASON",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1116",
+      "nombre": "Diseño y calidad en productos tecnológicos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MADRIZ HUERTAS DANIEL",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1105",
+      "nombre": "Principios de modelado en Ingeniería",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "MORA ROJAS DIEGO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1114",
+      "nombre": "Proyecto de aplicación de la ingeniería en computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NOGUERA MENA LUIS DIEGO",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE3101",
+      "nombre": "Bases de datos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIVERA MENESES MARCO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1117",
+      "nombre": "Formulación y Gestión de Proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLANO CORDERO JENNIER",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE5600",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 10,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLANO CORDERO JENNIER",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE5601",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 12,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOLANO CORDERO JENNIER",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1111",
+      "nombre": "Análisis numérico para la Ingeniería",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO QUIROS JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE5301",
+      "nombre": "Redes de computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TACSAN CHAVES RODOLFO",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1103",
+      "nombre": "Algoritmos y estructuras de datos I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS RIVERA ANDRES",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE1115",
+      "nombre": "Seguridad de la información",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS RIVERA ANDRES",
+          "modalidad": "Virtual",
+          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

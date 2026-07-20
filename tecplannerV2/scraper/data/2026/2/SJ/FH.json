@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "FH0259",
+      "nombre": "Pervivencia de modelos femeninos: de la Grecia antigua a la actualidad",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "RIOS SANCHEZ ARMANDO",
+          "modalidad": "Virtual",
+          "horario": "SAB[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0162",
+      "nombre": "La enseñanza de la lengua inglesa y su paralelismo con desarrollo económico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLANO SOLANO JOSE EDUARDO",
+          "modalidad": "Virtual",
+          "horario": "JUE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

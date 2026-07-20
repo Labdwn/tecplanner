@@ -1,0 +1,33 @@
+{
+  "codigoEscuela": "MI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA ELECTROMECANICA",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MI2101",
+      "nombre": "Dibujo técnico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "OTAROLA ZUÑIGA CARLOS",
+          "modalidad": "Regular",
+          "horario": "MIE[08:00-11:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 21,
+          "profesor": "OTAROLA ZUÑIGA CARLOS",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,501 @@
+{
+  "codigoEscuela": "EIC",
+  "nombreEscuela": "ESCUELA DE IDIOMAS Y CIENCIAS SOCIALES",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "CS1308",
+      "nombre": "Derecho comercial",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ARIAS SOSA LUIS ALBAN",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]",
+          "edificio": "A",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2303",
+      "nombre": "Relaciones laborales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ARIAS SOSA LUIS ALBAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-09:40]",
+          "edificio": "A",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2304",
+      "nombre": "Derecho laboral",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ARIAS SOSA LUIS ALBAN",
+          "modalidad": "Regular",
+          "horario": "MAR[08:50-11:30]",
+          "edificio": "E",
+          "aula": "106"
+        }
+      ]
+    },
+    {
+      "codigo": "CS5300",
+      "nombre": "Desarrollo tecnológico y sostenibilidad",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ARIAS SOSA LUIS ALBAN",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05] JUE[12:30-16:05]",
+          "edificio": "A",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1407",
+      "nombre": "Habilidades de comunicación en Ingeniería",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CAMACHO ARIAS ARIADNE",
+          "modalidad": "Virtual",
+          "horario": "MIE[12:30-15:10]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 51,
+          "profesor": "CAMACHO ARIAS ARIADNE",
+          "modalidad": "Virtual",
+          "horario": "MAR[12:30-15:10]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CS1502",
+      "nombre": "Introducción a la técnica ciencia y tecnología",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CAMPOS CHAVARRIA BENJAMIN",
+          "modalidad": "Regular",
+          "horario": "LUN[17:05-18:50]",
+          "edificio": "A",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CAMPOS CHAVARRIA BENJAMIN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:25-16:05]",
+          "edificio": "A",
+          "aula": "2"
+        },
+        {
+          "grupo": 51,
+          "profesor": "JAEN ESPAÑA ADRIAN",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[16:10-18:50]",
+          "edificio": "A",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 52,
+          "profesor": "CAMPOS CHAVARRIA BENJAMIN",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:25-16:05]",
+          "edificio": "ND",
+          "aula": "0"
+        },
+        {
+          "grupo": 50,
+          "profesor": "JAEN ESPAÑA ADRIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[08:50-11:30]",
+          "edificio": "A",
+          "aula": "9"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MORA BENAVIDES BERENICE",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:05-19:45]",
+          "edificio": "ND",
+          "aula": "0"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1106",
+      "nombre": "Comunicación escrita",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CORELLA ESQUIVEL KARINA",
+          "modalidad": "Regular",
+          "horario": "LUN[17:05-19:45]",
+          "edificio": "E",
+          "aula": "208"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1107",
+      "nombre": "Comunicación oral",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CORELLA ESQUIVEL KARINA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-10:35]",
+          "edificio": "E",
+          "aula": "208"
+        },
+        {
+          "grupo": 51,
+          "profesor": "CORELLA ESQUIVEL KARINA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-10:35]",
+          "edificio": "E",
+          "aula": "208"
+        },
+        {
+          "grupo": 54,
+          "profesor": "ROJAS MARIN ANGIE",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-10:35]",
+          "edificio": "E",
+          "aula": "208"
+        },
+        {
+          "grupo": 56,
+          "profesor": "ROJAS MARIN ANGIE",
+          "modalidad": "Regular",
+          "horario": "MIE[13:25-16:05]",
+          "edificio": "E",
+          "aula": "208"
+        },
+        {
+          "grupo": 57,
+          "profesor": "ROJAS MARIN ANGIE",
+          "modalidad": "Regular",
+          "horario": "MAR[17:05-19:45]",
+          "edificio": "E",
+          "aula": "208"
+        },
+        {
+          "grupo": 58,
+          "profesor": "ROJAS MARIN ANGIE",
+          "modalidad": "Regular",
+          "horario": "MAR[13:25-16:05]",
+          "edificio": "E",
+          "aula": "208"
+        },
+        {
+          "grupo": 52,
+          "profesor": "SALAS ACUÑA ERICK",
+          "modalidad": "Regular",
+          "horario": "JUE[08:50-11:30]",
+          "edificio": "E",
+          "aula": "208"
+        },
+        {
+          "grupo": 53,
+          "profesor": "SALAS ACUÑA ERICK",
+          "modalidad": "Regular",
+          "horario": "JUE[13:25-16:05]",
+          "edificio": "E",
+          "aula": "208"
+        },
+        {
+          "grupo": 55,
+          "profesor": "SALAS ACUÑA ERICK",
+          "modalidad": "Regular",
+          "horario": "VIE[08:50-11:30]",
+          "edificio": "E",
+          "aula": "208"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1230",
+      "nombre": "Inglés I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 52,
+          "profesor": "FLORES CALDERON ARDUI",
+          "modalidad": "Regular",
+          "horario": "MAR[08:50-11:30]",
+          "edificio": "A",
+          "aula": "5"
+        },
+        {
+          "grupo": 53,
+          "profesor": "FLORES CALDERON ARDUI",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-18:50]",
+          "edificio": "A",
+          "aula": "6"
+        },
+        {
+          "grupo": 54,
+          "profesor": "HERNANDEZ ROMERO MIGUEL ANGEL",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[08:50-11:30]",
+          "edificio": "A",
+          "aula": "8"
+        },
+        {
+          "grupo": 51,
+          "profesor": "PEREZ PEREZ MARLON",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-15:10]",
+          "edificio": "A",
+          "aula": "8"
+        },
+        {
+          "grupo": 50,
+          "profesor": "VILLEGAS SALAS SONIA",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-15:10]",
+          "edificio": "A",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "CI2308",
+      "nombre": "Inglés IV para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "FLORES CALDERON ARDUI",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-21:35]",
+          "edificio": "A",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GONZALEZ ZUÑIGA RODOLFO",
+          "modalidad": "Regular",
+          "horario": "MIE[08:50-11:30] MIE[08:50-11:30]",
+          "edificio": "A",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3404",
+      "nombre": "Seminario de ética para la ingeniería",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GONZALEZ ZUÑIGA RODOLFO",
+          "modalidad": "Regular",
+          "horario": "LUN[08:50-11:30]",
+          "edificio": "A",
+          "aula": "18"
+        }
+      ]
+    },
+    {
+      "codigo": "CS3406",
+      "nombre": "Seminario de ética para administración de empresas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GONZALEZ ZUÑIGA RODOLFO",
+          "modalidad": "Regular",
+          "horario": "MAR[08:50-11:30]",
+          "edificio": "A",
+          "aula": "11"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 51,
+          "profesor": "HERNANDEZ ROMERO MIGUEL ANGEL",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-15:10]",
+          "edificio": "A",
+          "aula": "6"
+        },
+        {
+          "grupo": 53,
+          "profesor": "HERNÁNDEZ SALAZAR GABRIELA",
+          "modalidad": "Regular",
+          "horario": "VIE[08:50-11:30]",
+          "edificio": "A",
+          "aula": "8"
+        },
+        {
+          "grupo": 52,
+          "profesor": "RAMIREZ LOPEZ MICHELLE",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-15:10]",
+          "edificio": "A",
+          "aula": "9"
+        },
+        {
+          "grupo": 50,
+          "profesor": "VILLEGAS SALAS SONIA",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-15:10]",
+          "edificio": "A",
+          "aula": "6"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1306",
+      "nombre": "Inglés II para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "HERNANDEZ ROMERO MIGUEL ANGEL",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-21:35]",
+          "edificio": "A",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "CI0202",
+      "nombre": "Inglés básico",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 52,
+          "profesor": "HERNÁNDEZ SALAZAR GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-15:10]",
+          "edificio": "A",
+          "aula": "8"
+        },
+        {
+          "grupo": 51,
+          "profesor": "PEREZ PEREZ MARLON",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-18:50]",
+          "edificio": "A",
+          "aula": "8"
+        },
+        {
+          "grupo": 50,
+          "profesor": "VILLEGAS SALAS SONIA",
+          "modalidad": "Regular",
+          "horario": "MAR[08:50-11:30]",
+          "edificio": "A",
+          "aula": "8"
+        }
+      ]
+    },
+    {
+      "codigo": "CI2307",
+      "nombre": "Inglés III para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "HERNÁNDEZ SALAZAR GABRIELA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-21:35]",
+          "edificio": "A",
+          "aula": "9"
+        }
+      ]
+    },
+    {
+      "codigo": "ST2002",
+      "nombre": "Evolución social de Costa Rica",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "JAEN ESPAÑA ADRIAN",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:40]",
+          "edificio": "A",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "CI1305",
+      "nombre": "Inglés I para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ PEREZ MARLON",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-21:35]",
+          "edificio": "A",
+          "aula": "5"
+        },
+        {
+          "grupo": 51,
+          "profesor": "RAMIREZ LOPEZ MICHELLE",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-21:35]",
+          "edificio": "A",
+          "aula": "6"
+        }
+      ]
+    }
+  ]
+}

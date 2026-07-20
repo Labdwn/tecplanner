@@ -1,0 +1,109 @@
+{
+  "codigoEscuela": "CI",
+  "nombreEscuela": "ESCUELA DE CIENCIAS DEL LENGUAJE",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "CI1106",
+      "nombre": "Comunicación escrita",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 62,
+          "profesor": "ARCE FUENTES JOSE DANIEL",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 63,
+          "profesor": "ARCE FUENTES JOSE DANIEL",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 60,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 61,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI0202",
+      "nombre": "Inglés básico",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BRENES ROJAS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1230",
+      "nombre": "Inglés I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BRENES ROJAS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BRENES ROJAS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1306",
+      "nombre": "Inglés II para administración",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "BRENES ROJAS LEONARDO",
+          "modalidad": "Regular",
+          "horario": "MIE[18:00-21:50] SAB[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

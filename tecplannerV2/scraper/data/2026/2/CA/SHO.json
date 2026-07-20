@@ -1,0 +1,313 @@
+{
+  "codigoEscuela": "SHO",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN SEGURIDAD LABORAL E HIGIENE AMBIENTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "2",
+  "cursos": [
+    {
+      "codigo": "SO4508",
+      "nombre": "Protección del ambiente",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "AGUERO HERNANDEZ ANA LAURA",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": "K2",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "SO4706",
+      "nombre": "Seminario de adaptación al cambio climático",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "AGUERO HERNANDEZ ANA LAURA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SO2407",
+      "nombre": "Legislación ocupacional y ambiental",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALCAZAR VILLALOBOS JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SO3603",
+      "nombre": "Evaluación y control de ruidos y vibraciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA SOLANO TANNIA",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SO4702",
+      "nombre": "Seguridad eléctrica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BERMUDEZ CHACON MARVIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": "K2",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "SO3606",
+      "nombre": "Factores psicosociales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BLANCO LEITON HAROL",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SO2601",
+      "nombre": "Fundamentos de seguridad e higiene ocupacional",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CARPIO CHAVES MONICA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": "K2",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "SO2404",
+      "nombre": "Procesos de manufactura",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SO4604",
+      "nombre": "Seguridad y salud ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "D3",
+          "aula": "4"
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": "K2",
+          "aula": "5"
+        },
+        {
+          "grupo": 3,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": "K2",
+          "aula": "1"
+        },
+        {
+          "grupo": 4,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": "K2",
+          "aula": "5"
+        },
+        {
+          "grupo": 5,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": "K2",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "SO5902",
+      "nombre": "Sistemas integrados de gestión",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": "K2",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "SO3506",
+      "nombre": "Metodología investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "Gutierrez Fuentes Adrián",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SO4707",
+      "nombre": "Administración de proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "Gutierrez Fuentes Adrián",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": "K2",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "SO4803",
+      "nombre": "Evaluación y control de radiaciones e iluminación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "Gutierrez Fuentes Adrián",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SO4701",
+      "nombre": "Taller de agentes ambientales químicos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "MEDINA ESCOBAR MARIA LOURDES",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": "K2",
+          "aula": "2"
+        },
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]",
+          "edificio": "K2",
+          "aula": "2"
+        },
+        {
+          "grupo": 2,
+          "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50]",
+          "edificio": "K2",
+          "aula": "2"
+        }
+      ]
+    },
+    {
+      "codigo": "SO2406",
+      "nombre": "Anatomía y fisiología médica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MENDEZ VILLALOBOS GERALD",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    },
+    {
+      "codigo": "SO2405",
+      "nombre": "Bioestadística",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": "K2",
+          "aula": "5"
+        }
+      ]
+    },
+    {
+      "codigo": "SO5904",
+      "nombre": "Factores humanos y ergonomía ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZAMORA ZAMORA CINDY",
+          "modalidad": "Regular",
+          "horario": "VIE[17:00-20:50]",
+          "edificio": "K2",
+          "aula": "1"
+        }
+      ]
+    }
+  ]
+}

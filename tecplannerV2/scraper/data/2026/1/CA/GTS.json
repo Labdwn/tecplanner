@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "GTS",
+  "nombreEscuela": "GESTION DE TURISMO SOSTENIBLE",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "TS2301",
+      "nombre": "Formulación y evaluación de proyectos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CEDEÑO CAMACHO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TS1200",
+      "nombre": "Desarrollo humano sostenible",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALERIN ROJAS SOFIA",
+          "modalidad": "Virtual",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TS2203",
+      "nombre": "Identidad y patrimonio cultural de Costa Rica",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALERIN ROJAS SOFIA",
+          "modalidad": "Virtual",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}
