@@ -2923,24 +2923,36 @@ function getRecommendations() {
 }
 
 function renderIndexView() {
+    const heroStats = document.getElementById('homeHeroStats');
+    if (heroStats) {
+        const hasMajor = !!currentMajor;
+        const totalCreds = hasMajor ? coursesDB.filter(c => !c.isRetry).reduce((s,c)=>s+c.cred,0) : 0;
+        const approvedCreds = hasMajor ? coursesDB.filter(c => c.status === 'aprobado').reduce((s,c)=>s+c.cred,0) : 0;
+        const pct = totalCreds > 0 ? Math.round((approvedCreds/totalCreds)*100) : 0;
+        const majorName = hasMajor ? (careers_information[currentMajor]?.name || currentMajor) : 'Sin carrera';
+
+        heroStats.innerHTML = `
+            <div class="hhs-item"><div class="hhs-num">${majorName}</div><div class="hhs-label">Carrera activa</div></div>
+            <div class="hhs-item"><div class="hhs-num">${approvedCreds}/${totalCreds}</div><div class="hhs-label">Créditos</div></div>
+            <div class="hhs-item"><div class="hhs-num">${pct}%</div><div class="hhs-label">Progreso</div></div>`;
+    }
+
     const newsList = document.getElementById('indexNewsList');
     newsList.innerHTML = NEWS_ITEMS.slice().reverse().map(n => `
-        <div style="background:#18181b; border:1px solid #333; border-radius:8px; padding:14px 16px;">
-            <div style="font-weight:700; color:#fff; font-size:0.95rem;">${n.title}</div>
-            <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">${n.text}</div>
-            <div style="color:#555; font-size:0.7rem; margin-top:6px;">${n.date}</div>
-        </div>`).join('') || `<div style="color:#555; font-size:0.85rem;">Sin novedades por ahora.</div>`;
+        <div class="home-news-item">
+            <div class="hni-title">${n.title}</div>
+            <div class="hni-text">${n.text}</div>
+            <div class="hni-date">${n.date}</div>
+        </div>`).join('') || `<div class="home-empty">Sin novedades por ahora.</div>`;
 
     const recos = getRecommendations();
     const recosList = document.getElementById('indexRecosList');
     recosList.innerHTML = recos.map((r, i) => `
-        <div onclick="getRecommendations()[${i}].action()" style="cursor:pointer; background:#18181b; border:1px solid #333;
-             border-left:4px solid #10b981; border-radius:8px; padding:14px 16px;">
-            <div style="font-weight:700; color:#fff; font-size:0.95rem;">${r.title}</div>
-            <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">${r.text}</div>
-        </div>`).join('') || `<div style="color:#555; font-size:0.85rem;">Estás al día.</div>`;
+        <div class="home-reco-item" onclick="getRecommendations()[${i}].action()">
+            <div class="hri-title">${r.title}</div>
+            <div class="hri-text">${r.text}</div>
+        </div>`).join('') || `<div class="home-empty">Estás al día.</div>`;
 
-    // marcar novedades como vistas
     const latest = NEWS_ITEMS.length ? NEWS_ITEMS[NEWS_ITEMS.length - 1].id : null;
     if (latest) localStorage.setItem('TecPlanner_LastSeenNews', latest);
     updateNotifDot();
@@ -2955,13 +2967,11 @@ function updateNotifDot() {
 }
 
 function toggleModeMenu() {
-    const menu = document.getElementById('modeMenu');
-    menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    document.getElementById('modeSwitcher').classList.toggle('open');
 }
 document.addEventListener('click', (e) => {
-    if (!document.getElementById('modeSwitcher').contains(e.target)) {
-        document.getElementById('modeMenu').style.display = 'none';
-    }
+    const sw = document.getElementById('modeSwitcher');
+    if (sw && !sw.contains(e.target)) sw.classList.remove('open');
 });
 
 function switchAppMode(mode) {
@@ -2991,6 +3001,9 @@ function switchAppMode(mode) {
             gameArea.style.display = 'block';
             listView.style.display = 'none';
         }
+
+        setTimeout(drawConnections, 50);
+        setTimeout(drawConnections, 300);
     }
 
     if (mode === 'index') renderIndexView();

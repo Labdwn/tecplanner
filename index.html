@@ -930,47 +930,67 @@
     </div>
 </div>
 
-<div id="modeSwitcher" style="position:fixed; bottom:90px; right:20px; z-index:3500;">
-    <button id="modeSwitcherBtn" onclick="toggleModeMenu()"
-        style="position:relative; width:56px; height:56px; border-radius:50%; background:var(--accent); border:none;
-               color:#fff; font-size:1.4rem; cursor:pointer; box-shadow:0 4px 20px rgba(130,87,230,0.5);">
-        🧭
-        <span id="modeNotifDot" style="display:none; position:absolute; top:2px; right:2px; width:14px; height:14px;
-              background:#ef4444; border-radius:50%; border:2px solid #18181b;"></span>
-    </button>
-    <div id="modeMenu" style="display:none; position:absolute; bottom:66px; right:0; background:#18181b;
-         border:1px solid #333; border-radius:10px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.6); min-width:180px;">
-        <button onclick="switchAppMode('index')" class="mode-menu-item">🏠 Home</button>
-        <button onclick="switchAppMode('arbol')" class="mode-menu-item">🌳 Planes de Estudio</button>
-        <button onclick="switchAppMode('horarios')" class="mode-menu-item">📅 Generar Horario</button>
+<div id="modeSwitcher" class="mode-switcher">
+    <div id="modeMenu" class="mode-menu">
+        <button onclick="switchAppMode('index')" class="mode-menu-item">
+            <span class="mmi-icon">🏠</span><span class="mmi-label">Home</span>
+        </button>
+        <button onclick="switchAppMode('arbol')" class="mode-menu-item">
+            <span class="mmi-icon">🌳</span><span class="mmi-label">Planes de Estudio</span>
+        </button>
+        <button onclick="switchAppMode('horarios')" class="mode-menu-item">
+            <span class="mmi-icon">📅</span><span class="mmi-label">Generar Horario</span>
+        </button>
     </div>
+    <button id="modeSwitcherBtn" class="mode-switcher-btn" onclick="toggleModeMenu()" aria-label="Navegación">
+        <svg class="msb-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+        </svg>
+        <span id="modeNotifDot" class="msb-dot"></span>
+    </button>
 </div>
 
 <div id="indexView" style="display:none;">
-    <div style="max-width:900px; margin:0 auto; padding:40px 20px;">
-        <h1 style="color:#fff; font-size:2rem; margin-bottom:6px;">TecPlanner</h1>
-        <p style="color:var(--text-dim); margin-bottom:30px;">Tu centro de planificación académica TEC</p>
+    <div class="home-hero">
+        <div class="home-hero-bg"></div>
+        <div class="home-hero-content">
+            <div class="home-hero-tag">SISTEMA TEC // PLANIFICACIÓN ACADÉMICA</div>
+            <h1 class="home-hero-title">Tec<span>Planner</span></h1>
+            <p class="home-hero-sub">Tu centro de comando para dominar la carrera: cursos, notas, horarios y graduación en un solo lugar.</p>
+            <div class="home-hero-stats" id="homeHeroStats"></div>
+        </div>
+    </div>
 
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:40px;">
-            <div onclick="switchAppMode('arbol')" style="cursor:pointer; background:#18181b; border:1px solid #333;
-                 border-left:4px solid var(--accent); border-radius:10px; padding:24px;">
-                <div style="font-size:2rem; margin-bottom:8px;">🌳</div>
-                <div style="font-weight:700; color:#fff; font-size:1.1rem;">Planes de Estudio</div>
-                <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">Mapea tu carrera, notas y progreso</div>
+    <div class="home-container">
+        <div class="home-features">
+            <div class="home-feature-card home-feature-arbol" onclick="switchAppMode('arbol')">
+                <div class="hfc-icon">🌳</div>
+                <div class="hfc-body">
+                    <div class="hfc-title">Planes de Estudio</div>
+                    <div class="hfc-desc">Mapeá tu carrera completa, marcá tu progreso, calculá tu promedio ponderado y visualizá requisitos.</div>
+                    <div class="hfc-cta">Entrar al árbol →</div>
+                </div>
             </div>
-            <div onclick="switchAppMode('horarios')" style="cursor:pointer; background:#18181b; border:1px solid #333;
-                 border-left:4px solid #a855f7; border-radius:10px; padding:24px;">
-                <div style="font-size:2rem; margin-bottom:8px;">📅</div>
-                <div style="font-weight:700; color:#fff; font-size:1.1rem;">Generar Horario</div>
-                <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">Arma tu horario con datos reales del TEC</div>
+            <div class="home-feature-card home-feature-horario" onclick="switchAppMode('horarios')">
+                <div class="hfc-icon">📅</div>
+                <div class="hfc-body">
+                    <div class="hfc-title">Generar Horario</div>
+                    <div class="hfc-desc">Armá tu horario semanal con datos reales del TEC y detección automática de choques.</div>
+                    <div class="hfc-cta">Armar horario →</div>
+                </div>
             </div>
         </div>
 
-        <h2 style="color:#fff; font-size:1.2rem; margin-bottom:12px;">📰 Novedades</h2>
-        <div id="indexNewsList" style="display:flex; flex-direction:column; gap:10px; margin-bottom:40px;"></div>
+        <div class="home-section">
+            <div class="home-section-title">📰 Novedades</div>
+            <div id="indexNewsList" class="home-news-list"></div>
+        </div>
 
-        <h2 style="color:#fff; font-size:1.2rem; margin-bottom:12px;">✨ Recomendado para vos</h2>
-        <div id="indexRecosList" style="display:flex; flex-direction:column; gap:10px;"></div>
+        <div class="home-section">
+            <div class="home-section-title">✨ Recomendado para vos</div>
+            <div id="indexRecosList" class="home-recos-list"></div>
+        </div>
     </div>
 </div>
 
