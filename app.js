@@ -101,9 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function bootSystem() {
     currentMajor = localStorage.getItem('TecPlanner_ActiveMajor');
 
-    if (!currentMajor) {
-        document.getElementById('majorSelectionOverlay').style.display = 'flex';
-    } else {
+    if (currentMajor) {
         const title = MAJOR_TITLES[currentMajor] || currentMajor.toUpperCase();
         loadMajor(currentMajor, title);
     }
@@ -116,6 +114,7 @@ function selectMajor(majorKey, titleText) {
     document.getElementById('majorSelectionOverlay').style.display = 'none';
     localStorage.setItem('TecPlanner_ActiveMajor', majorKey);
     loadMajor(majorKey, titleText);
+    switchAppMode('arbol');
 
     if (!localStorage.getItem('TecPlanner_TutorialSeen')) {
         startTour();
@@ -142,13 +141,19 @@ function resetMajor() {
 }
 
 // Inicializa listeners y render tras cargar una carrera
+function debounce(fn, wait) {
+    let t;
+    return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), wait); };
+}
+const drawConnectionsDebounced = debounce(drawConnections, 80);
+
 function init() {
     loadFromLocal();
     renderGrid();
     renderButtons();
     setTimeout(drawConnections, 100);
-    window.addEventListener('resize', drawConnections);
-    document.querySelector('.game-area').addEventListener('scroll', drawConnections);
+    window.addEventListener('resize', drawConnectionsDebounced);
+    document.querySelector('.game-area').addEventListener('scroll', drawConnectionsDebounced, { passive: true });
     updateStats(activeFilterSemester);
     checkBackupReminder();
 }
@@ -2993,6 +2998,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function switchAppMode(mode) {
     document.getElementById('modeSwitcher')?.classList.remove('open');
+
+    if (mode === 'arbol' && !currentMajor) {
+        document.getElementById('majorSelectionOverlay').style.display = 'flex';
+        mode = 'index';
+    }
+
     localStorage.setItem('TecPlanner_LastMode', mode);
 
     const sections = {
@@ -3030,15 +3041,7 @@ function switchAppMode(mode) {
 // Al cargar: restaurar el modo donde el usuario se quedó (default: index)
 document.addEventListener('DOMContentLoaded', () => {
     updateNotifDot();
-
-    const hasMajor = localStorage.getItem('TecPlanner_ActiveMajor');
-    if (!hasMajor) {
-        // Sin carrera aún: dejar que bootSystem() muestre el selector (como siempre)
-        bootSystem();
-        return;
-    }
-
-    bootSystem(); // carga coursesDB en memoria aunque el usuario no esté en 'arbol'
+    bootSystem();
     const lastMode = localStorage.getItem('TecPlanner_LastMode') || 'index';
     switchAppMode(lastMode);
 });

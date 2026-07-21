@@ -205,10 +205,13 @@ function renderHorariosLayout() {
                 <div class="hor-sidebar">
                     <div class="hor-sidebar-actions">
                         <button class="hor-btn-ghost" id="horBtnUndo" style="display:none;" onclick="undoRemoveHorCurso()">↩ Deshacer</button>
-                        <button class="btn-export" onclick="exportHorarioImagen()">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                            EXPORTAR
-                        </button>
+                        <button class="btn-export" onclick="exportHorarioComoImagen()">🖼️ PNG</button>
+                        <button class="btn-export" onclick="exportHorarioComoPDF()">📄 PDF</button>
+                        <button class="btn-export" onclick="exportHorarioJSON()">💾 GUARDAR</button>
+                        <label class="btn-export" style="cursor:pointer;">
+                            📂 CARGAR
+                            <input type="file" accept=".json" style="display:none;" onchange="importHorarioJSON(event)">
+                        </label>
                         <button class="btn-action" id="horBtnLimpiar" style="border-color:#ef4444; color:#ef4444;" onclick="confirmClearHorario()">
                             🗑️ LIMPIAR
                         </button>
@@ -929,4 +932,80 @@ function abreviarProfesor(nombre) {
     const primerApellido = palabras[0];
     const primerNombre = palabras.length >= 3 ? palabras[2] : palabras[1];
     return `${primerApellido} ${primerNombre}`;
+}
+
+// =============================================================================
+// 13. GUARDAR / CARGAR HORARIO EN JSON
+// =============================================================================
+
+function exportHorarioJSON() {
+    if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
+    const payload = {
+        version: 1,
+        seleccion: horariosSeleccion,
+        cursos: horariosCursosElegidos,
+        gridConfig: horGridConfig
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'TecPlanner_Horario.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+function importHorarioJSON(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        try {
+            const data = JSON.parse(e.target.result);
+            if (!Array.isArray(data.cursos)) throw new Error('formato inválido');
+            horariosCursosElegidos = data.cursos;
+            if (data.gridConfig) horGridConfig = data.gridConfig;
+            saveHorSeleccion();
+            saveHorGridConfig();
+            renderHorariosCursos();
+            renderHorarioGrid();
+            updateHorStats();
+            alert('Horario cargado con éxito.');
+        } catch (err) {
+            alert('ERROR: El archivo no tiene el formato correcto.');
+        }
+    };
+    reader.readAsText(file);
+    event.target.value = '';
+}
+
+// =============================================================================
+// 14. EXPORTAR EXACTO (PNG / PDF) — captura literal de la grilla visible
+// =============================================================================
+
+async function exportHorarioComoImagen() {
+    if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
+    const grid = document.getElementById('horGrid');
+    const canvas = await html2canvas(grid, { backgroundColor: '#09090b', scale: 2 });
+    const a = document.createElement('a');
+    a.download = 'TecPlanner_Horario.png';
+    a.href = canvas.toDataURL('image/png');
+    a.click();
+}
+
+async function exportHorarioComoPDF() {
+    if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
+    const grid = document.getElementById('horGrid');
+    const canvas = await html2canvas(grid, { backgroundColor: '#09090b', scale: 2 });
+    const imgData = canvas.toDataURL('image/png');
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF({
+        orientation: canvas.width > canvas.height ? 'landscape' : 'portrait',
+        unit: 'px',
+        format: [canvas.width, canvas.height]
+    });
+    pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+    pdf.save('TecPlanner_Horario.pdf');
 }
