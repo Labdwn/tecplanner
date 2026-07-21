@@ -2974,8 +2974,25 @@ document.addEventListener('click', (e) => {
     if (sw && !sw.contains(e.target)) sw.classList.remove('open');
 });
 
+// El hover CSS puro se rompe al cruzar el hueco entre la bola y los ítems
+// del abanico (esa zona no tiene ningún elemento debajo). Por eso se maneja
+// la apertura con JS y un pequeño margen de tiempo al salir.
+let modeMenuCloseTimer = null;
+document.addEventListener('DOMContentLoaded', () => {
+    const sw = document.getElementById('modeSwitcher');
+    if (!sw) return;
+    sw.addEventListener('mouseenter', () => {
+        clearTimeout(modeMenuCloseTimer);
+        sw.classList.add('open');
+    });
+    sw.addEventListener('mouseleave', () => {
+        clearTimeout(modeMenuCloseTimer);
+        modeMenuCloseTimer = setTimeout(() => sw.classList.remove('open'), 350);
+    });
+});
+
 function switchAppMode(mode) {
-    document.getElementById('modeMenu').style.display = 'none';
+    document.getElementById('modeSwitcher')?.classList.remove('open');
     localStorage.setItem('TecPlanner_LastMode', mode);
 
     const sections = {
