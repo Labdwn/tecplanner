@@ -2927,21 +2927,108 @@ function getRecommendations() {
     return recos;
 }
 
-function renderIndexView() {
-    const heroStats = document.getElementById('homeHeroStats');
-    if (heroStats) {
-        const hasMajor = !!currentMajor;
-        const totalCreds = hasMajor ? coursesDB.filter(c => !c.isRetry).reduce((s,c)=>s+c.cred,0) : 0;
-        const approvedCreds = hasMajor ? coursesDB.filter(c => c.status === 'aprobado').reduce((s,c)=>s+c.cred,0) : 0;
-        const pct = totalCreds > 0 ? Math.round((approvedCreds/totalCreds)*100) : 0;
-        const majorName = hasMajor ? (careers_information[currentMajor]?.name || currentMajor) : 'Sin carrera';
+function computeHomeStats() {
+    const hasMajor = !!currentMajor;
+    const totalCreds = hasMajor ? coursesDB.filter(c => !c.isRetry).reduce((s,c)=>s+c.cred,0) : 0;
+    const approvedCreds = hasMajor ? coursesDB.filter(c => c.status === 'aprobado').reduce((s,c)=>s+c.cred,0) : 0;
+    const pct = totalCreds > 0 ? Math.round((approvedCreds/totalCreds)*100) : 0;
+    const cursando = hasMajor ? coursesDB.filter(c => c.status === 'cursando').length : 0;
 
-        heroStats.innerHTML = `
-            <div class="hhs-item"><div class="hhs-num">${majorName}</div><div class="hhs-label">Carrera activa</div></div>
-            <div class="hhs-item"><div class="hhs-num">${approvedCreds}/${totalCreds}</div><div class="hhs-label">Créditos</div></div>
-            <div class="hhs-item"><div class="hhs-num">${pct}%</div><div class="hhs-label">Progreso</div></div>`;
+    let ponderado = 0, credsConNota = 0, sumaNotas = 0;
+    if (hasMajor) {
+        coursesDB.forEach(c => {
+            if (c.status === 'aprobado' && c.grade && !isNaN(c.grade) && c.grade.toString().trim() !== '') {
+                const g = parseFloat(c.grade);
+                credsConNota += c.cred;
+                sumaNotas += g * c.cred;
+            }
+        });
+        ponderado = credsConNota > 0 ? (sumaNotas / credsConNota) : 0;
     }
 
+    return { hasMajor, totalCreds, approvedCreds, pct, cursando, ponderado };
+}
+
+function renderIndexView() {
+    const stats = computeHomeStats();
+    const majorName = stats.hasMajor ? (careers_information[currentMajor]?.name || currentMajor) : 'Sin carrera';
+
+    // Panel hero: anillo + stats
+    const panel = document.getElementById('homeHeroPanel');
+    if (panel) {
+        panel.innerHTML = `
+            <div class="hhp-ring-wrap">
+                <div class="hhp-ring" style="--pct:${stats.pct};">
+                    <div class="hhp-ring-text">
+                        <div class="hhp-ring-pct">${stats.pct}%</div>
+                        <div class="hhp-ring-label">Progreso</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hhp-stats">
+                <div class="hhp-stat">
+                    <div class="hhp-stat-num">${majorName}</div>
+                    <div class="hhp-stat-label">Carrera activa</div>
+                </div>
+                <div class="hhp-stat">
+                    <div class="hhp-stat-num accent-green">${stats.approvedCreds}<small>/${stats.totalCreds}</small></div>
+                    <div class="hhp-stat-label">Créditos aprobados</div>
+                </div>
+                <div class="hhp-stat">
+                    <div class="hhp-stat-num accent-cyan">${stats.cursando}</div>
+                    <div class="hhp-stat-label">Cursando ahora</div>
+                </div>
+                <div class="hhp-stat">
+                    <div class="hhp-stat-num accent-amber">${stats.hasMajor && stats.ponderado > 0 ? stats.ponderado.toFixed(1) : '—'}</div>
+                    <div class="hhp-stat-label">Promedio ponderado</div>
+                </div>
+            </div>`;
+    }
+
+    // Barra de accesos rápidos
+    const quickbar = document.getElementById('homeQuickbar');
+    if (quickbar) {
+        const acciones = stats.hasMajor ? [
+            { icon: '🎓', label: 'Simular', fn: "switchAppMode('arbol'); setTimeout(openGraduationSimulator, 200);" },
+            { icon: '📊', label: 'Ponderado', fn: "switchAppMode('arbol'); setTimeout(()=>{ if(!document.getElementById('characterSheet').classList.contains('open')) toggleCharacterSheet(); setTimeout(openPondModal,150); }, 200);" },
+            { icon: '📝', label: 'Notas', fn: "switchAppMode('arbol'); setTimeout(openBulkGrades, 200);" },
+            { icon: '📅', label: 'Horario', fn: "switchAppMode('horarios');" },
+            { icon: '💾', label: 'Respaldo', fn: "switchAppMode('arbol'); setTimeout(exportJSON, 200);" },
+        ] : [
+            { icon: '🎓', label: 'Elegir carrera', fn: "switchAppMode('arbol');" },
+        ];
+        quickbar.innerHTML = acciones.map(a => `
+            <button class="hqb-btn" onclick="${a.fn}">
+                <span class="hqb-icon">${a.icon}</span>
+                <span class="hqb-label">${a.label}</span>
+            </button>`).join('');
+    }
+
+    // Feature cards
+    const features = document.getElementById('homeFeatures');
+    if (features) {
+        features.innerHTML = `
+            <div class="home-feature-card home-feature-arbol" onclick="switchAppMode('arbol')">
+                <div class="hfc-icon">🌳</div>
+                <div class="hfc-title">Planes de Estudio</div>
+                <div class="hfc-desc">Mapeá tu carrera completa, marcá tu progreso y visualizá requisitos.</div>
+                <div class="hfc-cta">Entrar al árbol →</div>
+            </div>
+            <div class="home-feature-card home-feature-horario" onclick="switchAppMode('horarios')">
+                <div class="hfc-icon">📅</div>
+                <div class="hfc-title">Generar Horario</div>
+                <div class="hfc-desc">Armá tu horario semanal con datos reales del TEC y detección de choques.</div>
+                <div class="hfc-cta">Armar horario →</div>
+            </div>
+            <div class="home-feature-card home-feature-perfil" onclick="switchAppMode('arbol'); setTimeout(()=>{ if(!document.getElementById('characterSheet').classList.contains('open')) toggleCharacterSheet(); }, 200);">
+                <div class="hfc-icon">📊</div>
+                <div class="hfc-title">Perfil Académico</div>
+                <div class="hfc-desc">Tu promedio ponderado, progreso e historial de cursos, todo en un panel.</div>
+                <div class="hfc-cta">Ver perfil →</div>
+            </div>`;
+    }
+
+    // Novedades
     const newsList = document.getElementById('indexNewsList');
     newsList.innerHTML = NEWS_ITEMS.slice().reverse().map(n => `
         <div class="home-news-item">
@@ -2950,12 +3037,16 @@ function renderIndexView() {
             <div class="hni-date">${n.date}</div>
         </div>`).join('') || `<div class="home-empty">Sin novedades por ahora.</div>`;
 
+    // Recomendaciones
     const recos = getRecommendations();
     const recosList = document.getElementById('indexRecosList');
     recosList.innerHTML = recos.map((r, i) => `
         <div class="home-reco-item" onclick="getRecommendations()[${i}].action()">
-            <div class="hri-title">${r.title}</div>
-            <div class="hri-text">${r.text}</div>
+            <span class="hri-icon">${r.title.split(' ')[0]}</span>
+            <div>
+                <div class="hri-title">${r.title.replace(/^\S+\s/, '')}</div>
+                <div class="hri-text">${r.text}</div>
+            </div>
         </div>`).join('') || `<div class="home-empty">Estás al día.</div>`;
 
     const latest = NEWS_ITEMS.length ? NEWS_ITEMS[NEWS_ITEMS.length - 1].id : null;

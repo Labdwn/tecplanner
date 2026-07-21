@@ -958,42 +958,29 @@
 <div id="indexView" style="display:none;">
     <div class="home-hero">
         <div class="home-hero-bg"></div>
+        <div class="home-hero-grid"></div>
         <div class="home-hero-content">
-            <div class="home-hero-tag">SISTEMA TEC // PLANIFICACIÓN ACADÉMICA</div>
+            <div class="home-hero-tag"><span class="hht-dot"></span>SISTEMA TEC // PLANIFICACIÓN ACADÉMICA</div>
             <h1 class="home-hero-title">Tec<span>Planner</span></h1>
             <p class="home-hero-sub">Tu centro de comando para dominar la carrera: cursos, notas, horarios y graduación en un solo lugar.</p>
-            <div class="home-hero-stats" id="homeHeroStats"></div>
+            <div class="home-hero-panel" id="homeHeroPanel"></div>
         </div>
     </div>
 
     <div class="home-container">
-        <div class="home-features">
-            <div class="home-feature-card home-feature-arbol" onclick="switchAppMode('arbol')">
-                <div class="hfc-icon">🌳</div>
-                <div class="hfc-body">
-                    <div class="hfc-title">Planes de Estudio</div>
-                    <div class="hfc-desc">Mapeá tu carrera completa, marcá tu progreso, calculá tu promedio ponderado y visualizá requisitos.</div>
-                    <div class="hfc-cta">Entrar al árbol →</div>
-                </div>
-            </div>
-            <div class="home-feature-card home-feature-horario" onclick="switchAppMode('horarios')">
-                <div class="hfc-icon">📅</div>
-                <div class="hfc-body">
-                    <div class="hfc-title">Generar Horario</div>
-                    <div class="hfc-desc">Armá tu horario semanal con datos reales del TEC y detección automática de choques.</div>
-                    <div class="hfc-cta">Armar horario →</div>
-                </div>
-            </div>
-        </div>
+        <div class="home-quickbar" id="homeQuickbar"></div>
 
-        <div class="home-section">
-            <div class="home-section-title">📰 Novedades</div>
-            <div id="indexNewsList" class="home-news-list"></div>
-        </div>
+        <div class="home-features" id="homeFeatures"></div>
 
-        <div class="home-section">
-            <div class="home-section-title">✨ Recomendado para vos</div>
-            <div id="indexRecosList" class="home-recos-list"></div>
+        <div class="home-grid-2">
+            <div class="home-section">
+                <div class="home-section-title">📰 Novedades</div>
+                <div id="indexNewsList" class="home-news-timeline"></div>
+            </div>
+            <div class="home-section">
+                <div class="home-section-title">✨ Recomendado para vos</div>
+                <div id="indexRecosList" class="home-recos-list"></div>
+            </div>
         </div>
     </div>
 </div>
