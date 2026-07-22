@@ -2166,6 +2166,7 @@ path {
     letter-spacing: 1px; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 3;
     text-shadow: 0 0 8px rgba(130,87,230,0.4);
 }
+.hor-export-static { position: static !important; }
 .hor-time-label {
     background: #121214; color: #777; font-size: 0.56rem; font-weight: 600; display: flex;
     align-items: flex-start; justify-content: center; padding-top: 2px;
@@ -2476,7 +2477,19 @@ path {
 .hqb-icon { font-size: 1.5rem; }
 .hqb-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
 
-.home-features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 44px; }
+
+.home-features { grid-template-columns: repeat(2, 1fr); gap: 24px; }
+
+.home-feature-big { padding: 42px 34px; gap: 18px; border-width: 2px; }
+.home-feature-big .hfc-icon {
+    font-size: 3rem; width: 78px; height: 78px; border-radius: 16px;
+}
+.home-feature-big .hfc-title { font-size: 1.5rem; }
+.home-feature-big .hfc-desc { font-size: 0.95rem; line-height: 1.6; }
+.home-feature-big .hfc-cta {
+    font-size: 1rem; font-weight: 800; margin-top: 8px;
+    display: inline-flex; align-items: center; gap: 6px;
+}
 .home-feature-card {
     position: relative; cursor: pointer;
     background: linear-gradient(160deg, #18181b, #121214);

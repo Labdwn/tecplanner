@@ -2985,46 +2985,25 @@ function renderIndexView() {
             </div>`;
     }
 
-    // Barra de accesos rápidos
+    // Barra de accesos rápidos: eliminada — solo quedan las 2 tarjetas grandes de abajo
     const quickbar = document.getElementById('homeQuickbar');
-    if (quickbar) {
-        const acciones = stats.hasMajor ? [
-            { icon: '🎓', label: 'Simular', fn: "switchAppMode('arbol'); setTimeout(openGraduationSimulator, 200);" },
-            { icon: '📊', label: 'Ponderado', fn: "switchAppMode('arbol'); setTimeout(()=>{ if(!document.getElementById('characterSheet').classList.contains('open')) toggleCharacterSheet(); setTimeout(openPondModal,150); }, 200);" },
-            { icon: '📝', label: 'Notas', fn: "switchAppMode('arbol'); setTimeout(openBulkGrades, 200);" },
-            { icon: '📅', label: 'Horario', fn: "switchAppMode('horarios');" },
-            { icon: '💾', label: 'Respaldo', fn: "switchAppMode('arbol'); setTimeout(exportJSON, 200);" },
-        ] : [
-            { icon: '🎓', label: 'Elegir carrera', fn: "switchAppMode('arbol');" },
-        ];
-        quickbar.innerHTML = acciones.map(a => `
-            <button class="hqb-btn" onclick="${a.fn}">
-                <span class="hqb-icon">${a.icon}</span>
-                <span class="hqb-label">${a.label}</span>
-            </button>`).join('');
-    }
+    if (quickbar) { quickbar.style.display = 'none'; quickbar.innerHTML = ''; }
 
-    // Feature cards
+    // Feature cards (solo lo esencial, bien notorio)
     const features = document.getElementById('homeFeatures');
     if (features) {
         features.innerHTML = `
-            <div class="home-feature-card home-feature-arbol" onclick="switchAppMode('arbol')">
+            <div class="home-feature-card home-feature-arbol home-feature-big" onclick="switchAppMode('arbol')">
                 <div class="hfc-icon">🌳</div>
                 <div class="hfc-title">Planes de Estudio</div>
-                <div class="hfc-desc">Mapeá tu carrera completa, marcá tu progreso y visualizá requisitos.</div>
+                <div class="hfc-desc">Mapeá tu carrera completa: progreso, notas, requisitos y promedio.</div>
                 <div class="hfc-cta">Entrar al árbol →</div>
             </div>
-            <div class="home-feature-card home-feature-horario" onclick="switchAppMode('horarios')">
+            <div class="home-feature-card home-feature-horario home-feature-big" onclick="switchAppMode('horarios')">
                 <div class="hfc-icon">📅</div>
                 <div class="hfc-title">Generar Horario</div>
                 <div class="hfc-desc">Armá tu horario semanal con datos reales del TEC y detección de choques.</div>
                 <div class="hfc-cta">Armar horario →</div>
-            </div>
-            <div class="home-feature-card home-feature-perfil" onclick="switchAppMode('arbol'); setTimeout(()=>{ if(!document.getElementById('characterSheet').classList.contains('open')) toggleCharacterSheet(); }, 200);">
-                <div class="hfc-icon">📊</div>
-                <div class="hfc-title">Perfil Académico</div>
-                <div class="hfc-desc">Tu promedio ponderado, progreso e historial de cursos, todo en un panel.</div>
-                <div class="hfc-cta">Ver perfil →</div>
             </div>`;
     }
 

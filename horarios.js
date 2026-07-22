@@ -985,27 +985,69 @@ function importHorarioJSON(event) {
 // 14. EXPORTAR EXACTO (PNG / PDF) — captura literal de la grilla visible
 // =============================================================================
 
+// html2canvas no maneja bien "position: sticky" (lo pinta mal ubicado).
+// Antes de capturar lo neutralizamos temporalmente, y lo restauramos después.
+async function prepararGridParaExport() {
+    const grid = document.getElementById('horGrid');
+    if (!grid) return null;
+    grid.querySelectorAll('.hor-cell-header').forEach(el => el.classList.add('hor-export-static'));
+    if (document.fonts && document.fonts.ready) {
+        try { await document.fonts.ready; } catch (e) { /* noop */ }
+    }
+    return grid;
+}
+
+function limpiarGridExport() {
+    document.querySelectorAll('.hor-cell-header.hor-export-static').forEach(el => el.classList.remove('hor-export-static'));
+}
+
+async function capturarGridComoCanvas() {
+    const grid = await prepararGridParaExport();
+    if (!grid) return null;
+    try {
+        return await html2canvas(grid, {
+            backgroundColor: '#09090b',
+            scale: Math.min(2, window.devicePixelRatio || 2),
+            useCORS: true,
+            allowTaint: true,
+            logging: false,
+        });
+    } finally {
+        limpiarGridExport();
+    }
+}
+
 async function exportHorarioComoImagen() {
     if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
-    const grid = document.getElementById('horGrid');
-    const canvas = await html2canvas(grid, { backgroundColor: '#09090b', scale: 2 });
-    const a = document.createElement('a');
-    a.download = 'TecPlanner_Horario.png';
-    a.href = canvas.toDataURL('image/png');
-    a.click();
+    try {
+        const canvas = await capturarGridComoCanvas();
+        if (!canvas) return;
+        const a = document.createElement('a');
+        a.download = 'TecPlanner_Horario.png';
+        a.href = canvas.toDataURL('image/png');
+        a.click();
+    } catch (e) {
+        console.error('Error exportando PNG:', e);
+        alert('No se pudo generar la imagen. Intentá de nuevo.');
+    }
 }
 
 async function exportHorarioComoPDF() {
     if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
-    const grid = document.getElementById('horGrid');
-    const canvas = await html2canvas(grid, { backgroundColor: '#09090b', scale: 2 });
-    const imgData = canvas.toDataURL('image/png');
-    const { jsPDF } = window.jspdf;
-    const pdf = new jsPDF({
-        orientation: canvas.width > canvas.height ? 'landscape' : 'portrait',
-        unit: 'px',
-        format: [canvas.width, canvas.height]
-    });
-    pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
-    pdf.save('TecPlanner_Horario.pdf');
+    try {
+        const canvas = await capturarGridComoCanvas();
+        if (!canvas) return;
+        const imgData = canvas.toDataURL('image/png');
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF({
+            orientation: canvas.width > canvas.height ? 'landscape' : 'portrait',
+            unit: 'px',
+            format: [canvas.width, canvas.height]
+        });
+        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+        pdf.save('TecPlanner_Horario.pdf');
+    } catch (e) {
+        console.error('Error exportando PDF:', e);
+        alert('No se pudo generar el PDF. Intentá de nuevo.');
+    }
 }
