@@ -2548,3 +2548,22 @@ path {
     .home-hero-title { font-size: 2.2rem; }
     .home-hero-panel { flex-direction: column; padding: 20px; }
 }
+
+.hor-choque-badge {
+    position: relative;
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px; border-radius: 50%; flex-shrink: 0;
+    background: rgba(239,68,68,0.18); border: 1px solid #ef4444; color: #ef4444;
+    font-size: 0.72rem; cursor: default;
+}
+.hor-choque-badge::after {
+    content: attr(data-tooltip);
+    position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+    background: #18181b; border: 1px solid #ef4444; color: #f87171;
+    font-size: 0.7rem; font-weight: 600; padding: 6px 10px; border-radius: 6px;
+    white-space: normal; width: max-content; max-width: 220px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.6);
+    opacity: 0; pointer-events: none; transition: opacity 0.15s ease;
+    z-index: 30;
+}
+.hor-choque-badge:hover::after { opacity: 1; }

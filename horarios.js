@@ -26,6 +26,9 @@ const HOR_PALETTE = ['#8257e6','#06b6d4','#10b981','#f59e0b','#ef4444','#a855f7'
 const DIAS_ORDEN = ['LUN','MAR','MIE','JUE','VIE','SAB'];
 const DIA_LABEL = { LUN:'Lunes', MAR:'Martes', MIE:'Miércoles', JUE:'Jueves', VIE:'Viernes', SAB:'Sábado' };
 const DIA_JS_MAP = { 1:'LUN', 2:'MAR', 3:'MIE', 4:'JUE', 5:'VIE', 6:'SAB' }; // Date.getDay()
+const ICON_USERS = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>';
+const ICON_PROF = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>';
+const ICON_LOC = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>';
 
 let horGridConfig = { dias: ['LUN','MAR','MIE','JUE','VIE','SAB'], horaIni: 7, horaFin: 21 };
 let horariosIndice = null;
@@ -41,6 +44,7 @@ let horUndoTimer = null;
 let horFiltros = { favoritos: false, sinChoques: false };
 let horFiltroDias = new Set();       // días activos en los chips de filtro (distinto de horGridConfig.dias)
 let horCursosColapsados = new Set(); // códigos de curso plegados
+
 
 function nombreSede(codigo) { return SEDE_NOMBRES[codigo] || codigo; }
 function nombrePeriodo(p) {
@@ -507,6 +511,7 @@ function renderHorariosCursos() {
                          onmouseleave="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)">
                         <div class="hor-grupo-top">
                             <span class="hor-grupo-badge">Grupo ${g.grupo}</span>
+                            ${choca ? `<span class="hor-choque-badge" data-tooltip="Choca con: ${contrasTxt}">⚠️</span>` : ''}
                             <button class="hor-fav-btn ${favorito ? 'is-fav' : ''}"
                                 onclick='toggleHorFavorito(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)})'
                                 title="${favorito ? 'Quitar de favoritos' : 'Marcar como favorito'}">${favorito ? '★' : '☆'}</button>
@@ -515,8 +520,7 @@ function renderHorariosCursos() {
                         <div class="hor-grupo-line">👤 ${g.profesor || 'Sin profesor'}</div>
                         <div class="hor-grupo-line">🕐 ${g.horario || 'Sin horario definido'}</div>
                         ${g.aula ? `<div class="hor-grupo-line">📍 ${g.edificio ? `${g.edificio}-${g.aula}` : g.aula}</div>` : ''}
-                        ${choca ? `<div class="hor-grupo-choque" title="Choca con: ${contrasTxt}">⚠️ Choca con ${contrasTxt}</div>` : ''}
-                        <button class="hor-btn-select ${elegido ? 'is-selected' : ''}"
+                         <button class="hor-btn-select ${elegido ? 'is-selected' : ''}"
                             onclick='toggleHorCurso(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)})'
                             ${otroElegido ? 'disabled' : ''}>
                             ${elegido ? '✓ Seleccionado' : otroElegido ? '🔒 Otro grupo elegido' : (choca ? '⚠️ Agregar de todos modos' : 'Seleccionar')}
@@ -719,9 +723,6 @@ function renderHorarioGrid() {
         const claseExtra = esPreview ? 'hor-block-preview' : (isChoque ? 'is-choque' : '');
         const color = esPreview ? '#ffffff' : (isChoque ? '#ef4444' : b.ref.color);
         const span = endRow - startRow;
-        const ICON_USERS = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>';
-        const ICON_PROF = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>';
-        const ICON_LOC = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>';
         const extra = !esPreview && span >= 2
             ? `<div class="hor-block-extra">
                  <div class="hor-block-extra-line">${ICON_USERS}${b.ref.grupo.grupo}${b.ref.grupo.aula ? ` · ${ICON_LOC}${b.ref.grupo.edificio ? `${b.ref.grupo.edificio}-${b.ref.grupo.aula}` : b.ref.grupo.aula}` : ''}</div>
@@ -1036,15 +1037,22 @@ function buildExportGridElement() {
             if (bFinH <= minH || bIniH >= maxH) return;
             const startRow = 2 + Math.round((Math.max(bIniH, minH) - minH) * 2);
             const endRow = 2 + Math.round((Math.min(bFinH, maxH) - minH) * 2);
+            const span = endRow - startRow;
             const aulaTxt = s.grupo.aula ? (s.grupo.edificio ? `${s.grupo.edificio}-${s.grupo.aula}` : s.grupo.aula) : '';
+            const profLine = s.grupo.profesor
+                ? `<div style="display:flex; align-items:center; gap:3px; opacity:0.92; font-size:8.5px; margin-top:2px; font-weight:600;">${ICON_PROF}<span>${abreviarProfesor(s.grupo.profesor)}</span></div>`
+                : '';
             html += `
                 <div style="grid-column:${col + 2}; grid-row:${startRow} / ${endRow};
                     background-color:${s.color}; border-radius:4px; border-left:3px solid rgba(0,0,0,0.35);
                     color:#fff; font-size:10px; padding:4px 6px; margin:1px; overflow:hidden;
                     box-sizing:border-box; display:flex; flex-direction:column;">
                     <div style="font-weight:bold; font-size:10.5px; line-height:1.2;">${s.curso.nombre}</div>
-                    <div style="opacity:0.9; font-size:9px; margin-top:2px;">${b.inicio}&#8211;${b.fin}</div>
-                    <div style="opacity:0.85; font-size:8.5px; margin-top:1px;">Gr.${s.grupo.grupo}${aulaTxt ? ' · ' + aulaTxt : ''}</div>
+                    <div style="opacity:0.9; font-size:9px; margin-top:2px; background:rgba(0,0,0,0.18);
+                        border-radius:2px; padding:1px 3px; display:inline-block; align-self:flex-start;">${b.inicio}&#8211;${b.fin}</div>
+                    ${span >= 2 ? `
+                    <div style="display:flex; align-items:center; gap:3px; opacity:0.9; font-size:8.5px; margin-top:2px;">${ICON_USERS}<span>Gr.${s.grupo.grupo}${aulaTxt ? ' · ' + aulaTxt : ''}</span></div>
+                    ${profLine}` : ''}
                 </div>`;
         });
     });
