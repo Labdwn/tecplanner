@@ -3040,7 +3040,7 @@ function renderIndexView() {
                     <div class="hhp-stat-label">Créditos aprobados</div>
                 </div>
                 <div class="hhp-stat">
-                    <div class="hhp-stat-num accent-cyan">${stats.cursando}</div>
+                    <div class="hhp-stat-num accent-cyan">${stats.cursando} Cursos</div>
                     <div class="hhp-stat-label">Cursando ahora</div>
                 </div>
                 <div class="hhp-stat">
