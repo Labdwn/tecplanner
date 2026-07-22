@@ -2208,9 +2208,9 @@ function analizarAperturaCurso(courseId) {
     });
 
     let semestreMsg = null;
-    if (sem1 && sem2) semestreMsg = 'Este curso normalmente abre **todos** los semestres.';
-    else if (sem1)     semestreMsg = 'Este curso normalmente abre el **primer semestre** del año.';
-    else if (sem2)     semestreMsg = 'Este curso normalmente abre el **segundo semestre** del año.';
+    if (sem1 && sem2) semestreMsg = 'Este curso normalmente abre <strong>todos</strong> los semestres.';
+    else if (sem1)     semestreMsg = 'Este curso normalmente abre el <strong>primer semestre</strong> del año.';
+    else if (sem2)     semestreMsg = 'Este curso normalmente abre el <strong>segundo semestre</strong> del año.';
 
     if (!semestreMsg && !verano) return null;
     return { semestreMsg, verano };
@@ -2233,7 +2233,7 @@ function renderAperturaInfo(courseId) {
     cont.style.display = 'flex';
     cont.innerHTML = `
         ${info.semestreMsg ? `<div class="apertura-line">📅 ${info.semestreMsg}</div>` : ''}
-        ${info.verano ? `<div class="apertura-line apertura-verano">☀️ Este curso se impartió en **verano**.</div>` : ''}
+        ${info.verano ? `<div class="apertura-line apertura-verano">☀️ Este curso se impartió en <strong>verano</strong>.</div>` : ''}
     `;
 }
 
