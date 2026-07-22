@@ -189,9 +189,7 @@ function applySavedCourses(parsedData) {
             originalCourse.status    = savedCourse.status;
             originalCourse.grade     = savedCourse.grade;
             originalCourse.prof      = savedCourse.prof;
-            originalCourse.grupo     = savedCourse.grupo     || '';
             originalCourse.modalidad = savedCourse.modalidad || '';
-            originalCourse.horario   = savedCourse.horario   || null;
         }
     });
 }
@@ -900,19 +898,8 @@ function openModal(c) {
     document.getElementById('inpUserSem').value      = c.userSem || '';
     document.getElementById('inpProf').value         = c.prof    || '';
     document.getElementById('inpGrade').value        = (c.grade !== null && c.grade !== undefined) ? c.grade : '';
-    document.getElementById('inpGrupo').value        = c.grupo   || '';
     document.getElementById('inpModalidad').value    = c.modalidad || '';
     setStatus(c.status || 'pendiente');
-
-    // Renderizar bloques de horario
-    const container = document.getElementById('horarioBlocks');
-    container.innerHTML = '';
-    const slots = c.horario && Array.isArray(c.horario) ? c.horario : [];
-    if (slots.length === 0) {
-        addHorarioBlock();
-    } else {
-        slots.forEach(s => addHorarioBlock(s));
-    }
 
     modal.style.display = 'flex';
 }
@@ -944,7 +931,7 @@ function addCourseRetry(course) {
         id: nextRetryId(course.id),
         reqs: [], coreqs: [],
         status: 'pendiente', userSem: null, grade: null,
-        prof: '', grupo: '', modalidad: '', horario: null,
+        prof: '', modalidad: '',
         isRetry: true, originalId: course.id
     };
     coursesDB.push(retry);
@@ -1004,7 +991,6 @@ function saveCourseData() {
         currentCourse.userSem    = val !== '' ? parseFloat(val) : null;
         currentCourse.status     = document.getElementById('inpStatus').value;
         currentCourse.prof       = document.getElementById('inpProf').value.trim();
-        currentCourse.grupo      = document.getElementById('inpGrupo').value.trim();
         currentCourse.modalidad  = document.getElementById('inpModalidad').value;
         const gradeVal            = document.getElementById('inpGrade').value.trim();
         currentCourse.grade      = gradeVal === '' ? null : gradeVal;
@@ -1015,18 +1001,6 @@ function saveCourseData() {
         if (!currentCourse.isRetry && currentCourse.status === 'reprobado') {
             askAddRetry(currentCourse);
         }
-
-        const horarioSlots = [];
-        document.querySelectorAll('.horario-block').forEach(row => {
-            const days  = [...row.querySelectorAll('.day-btn.active')].map(b => b.dataset.day);
-            const start = row.querySelector('.inp-start').value.trim();
-            const end   = row.querySelector('.inp-end').value.trim();
-            const aula  = row.querySelector('.inp-aula').value.trim();
-            if (days.length > 0 && start && end) {
-                horarioSlots.push({ days, start, end, aula });
-            }
-        });
-        currentCourse.horario = horarioSlots.length > 0 ? horarioSlots : null;
 
         saveToLocal();
         renderGrid();
@@ -2200,300 +2174,7 @@ async function notifyOpen() {
     }).catch(() => {});
 }
 
-// =============================================================================
-// 18. GENERADOR DE HORARIO PDF
-// =============================================================================
 
-// Genera opciones de tiempo cada 10 minutos entre 07:00 y 22:00
-function buildTimeOptions(selectedVal) {
-    let opts = '';
-    for (let h = 7; h <= 22; h++) {
-        for (let m = 0; m < 60; m += 10) {
-            if (h === 22 && m > 0) break;
-            const hh  = String(h).padStart(2, '0');
-            const mm  = String(m).padStart(2, '0');
-            const val = `${hh}:${mm}`;
-            const sel = val === selectedVal ? 'selected' : '';
-            opts += `<option value="${val}" ${sel}>${val}</option>`;
-        }
-    }
-    return opts;
-}
-
-function addHorarioBlock(slot) {
-    const container = document.getElementById('horarioBlocks');
-    const DAYS = ['L','K','M','J','V'];
-    const DAY_LABELS = { L:'Lun', K:'Mar', M:'Mié', J:'Jue', V:'Vie' };
-
-    const activeDays = slot?.days || [];
-    const daysHtml = DAYS.map(d => {
-        const isActive = activeDays.includes(d);
-        const style = isActive
-            ? 'background:var(--accent);color:#fff;border:1px solid var(--accent);'
-            : 'background:transparent;color:var(--text-dim);border:1px solid #444;';
-        return `<button type="button" class="day-btn ${isActive ? 'active' : ''}" data-day="${d}"
-            onclick="toggleDayBtn(this)"
-            style="padding:5px 9px;border-radius:4px;cursor:pointer;font-family:'Rajdhani',sans-serif;
-                   font-weight:700;font-size:0.8rem;transition:all 0.15s;${style}"
-         >${DAY_LABELS[d]}</button>`;
-    }).join('');
-
-    const div = document.createElement('div');
-    div.className = 'horario-block';
-    div.style.cssText = 'background:#09090b;border:1px solid #333;border-radius:6px;padding:10px;display:flex;flex-direction:column;gap:8px;';
-    div.innerHTML = `
-        <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
-            ${daysHtml}
-            <button type="button" onclick="this.closest('.horario-block').remove()"
-                style="margin-left:auto;background:transparent;border:1px solid #ef4444;color:#ef4444;
-                       padding:4px 8px;border-radius:4px;cursor:pointer;font-size:0.75rem;font-family:'Rajdhani',sans-serif;font-weight:700;">
-                ✕
-            </button>
-        </div>
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
-            <div>
-                <div style="font-size:0.7rem;color:#555;text-transform:uppercase;margin-bottom:4px;">Inicio</div>
-                <select class="inp-start rpg-input" style="padding:8px;font-size:0.9rem;cursor:pointer;appearance:auto;">
-                    ${buildTimeOptions(slot?.start || '07:00')}
-                </select>
-            </div>
-            <div>
-                <div style="font-size:0.7rem;color:#555;text-transform:uppercase;margin-bottom:4px;">Fin</div>
-                <select class="inp-end rpg-input" style="padding:8px;font-size:0.9rem;cursor:pointer;appearance:auto;">
-                    ${buildTimeOptions(slot?.end || '09:00')}
-                </select>
-            </div>
-            <div>
-                <div style="font-size:0.7rem;color:#555;text-transform:uppercase;margin-bottom:4px;">Aula</div>
-                <input type="text" class="inp-aula rpg-input" placeholder="B3-010"
-                    style="padding:8px;font-size:0.9rem;" value="${slot?.aula || ''}">
-            </div>
-        </div>`;
-
-    container.appendChild(div);
-}
-
-function toggleDayBtn(btn) {
-    const isActive = btn.classList.toggle('active');
-    btn.style.background  = isActive ? 'var(--accent)' : 'transparent';
-    btn.style.color       = isActive ? '#fff' : 'var(--text-dim)';
-    btn.style.borderColor = isActive ? 'var(--accent)' : '#444';
-}
-
-function openScheduleModal() {
-    const sems = [...new Set(coursesDB.map(c => parseFloat(c.userSem)).filter(n => !isNaN(n) && n > 0))].sort((a,b)=>a-b);
-    if (sems.length === 0) { alert('No hay semestres planificados aún.'); return; }
-
-    const modal = document.createElement('div');
-    modal.className = 'modal-overlay';
-    modal.style.cssText = 'display:flex;z-index:5000;';
-    modal.onclick = e => { if (e.target === modal) modal.remove(); };
-
-    const items = sems.map(s => {
-        const isSummer = s % 1 !== 0;
-        const label    = isSummer ? `☀️ Verano ${Math.floor(s)}` : `📖 Semestre ${s}`;
-        return `<div onclick="generateScheduleFile(${s});this.closest('.modal-overlay').remove();"
-                     style="padding:14px 18px;cursor:pointer;border-bottom:1px solid #222;
-                            display:flex;justify-content:space-between;align-items:center;transition:background 0.15s;"
-                     onmouseover="this.style.background='rgba(168,85,247,0.1)'"
-                     onmouseout="this.style.background=''">
-                    <span style="color:#fff;font-weight:700;">${label}</span>
-                    <span style="color:#a855f7;font-size:0.8rem;">Descargar HTML →</span>
-                </div>`;
-    }).join('');
-
-    modal.innerHTML = `
-        <div class="modal-content" style="width:400px;">
-            <div class="modal-header">
-                <div class="modal-title-code" style="color:#a855f7;">📅 GENERAR HORARIO</div>
-                <div class="modal-title-name">Selecciona un semestre</div>
-            </div>
-            <div style="background:#09090b;border-radius:0 0 12px 12px;overflow:hidden;">${items}</div>
-        </div>`;
-    document.body.appendChild(modal);
-}
-
-function generateScheduleFile(sem) {
-    const allCourses = coursesDB.filter(c => parseFloat(c.userSem) === sem);
-    const isSummer   = sem % 1 !== 0;
-    const semLabel   = isSummer ? `Verano ${Math.floor(sem)}` : `Semestre ${sem}`;
-    const majorName  = careers_information[currentMajor]?.name || currentMajor;
-
-    const PALETTE = [
-        '#5e4b8b','#2e7d52','#1a5c78','#7a3b1e','#3b5998',
-        '#8b4513','#006064','#4a148c','#1b5e20','#bf360c',
-        '#37474f','#6a1b9a','#00695c','#e65100','#283593'
-    ];
-    const DAY_COL = { L:2, K:3, M:4, J:5, V:6 };
-
-    // Detectar rango de horas real para no mostrar horas vacías
-    let minH = 22, maxH = 7;
-    allCourses.forEach(c => {
-        if (!c.horario || !Array.isArray(c.horario)) return;
-        c.horario.forEach(slot => {
-            const sh = parseInt(slot.start.split(':')[0]);
-            const eh = parseInt(slot.end.split(':')[0]);
-            if (sh < minH) minH = sh;
-            if (eh > maxH) maxH = eh;
-        });
-    });
-    // fallback si no hay cursos con horario
-    if (minH > maxH) { minH = 7; maxH = 21; }
-    // padding de media hora arriba y abajo
-    minH = Math.max(7, minH - 1);
-    maxH = Math.min(22, maxH + 1);
-
-    const STEP_MIN   = 10;
-    const STEPS_PER_H = 60 / STEP_MIN;
-    const TOTAL_STEPS = (maxH - minH) * STEPS_PER_H;
-
-    function timeToRow(timeStr) {
-        const [h, m] = timeStr.split(':').map(Number);
-        return 2 + (h - minH) * STEPS_PER_H + Math.round(m / STEP_MIN);
-    }
-
-    // Bloques de cursos
-    const blockHtml = [];
-    allCourses.forEach((c, idx) => {
-        if (!c.horario || !Array.isArray(c.horario)) return;
-        const color = PALETTE[idx % PALETTE.length];
-        const extra = [c.prof, c.grupo ? `Gr:${c.grupo}` : '', c.modalidad].filter(Boolean).join(' · ');
-        c.horario.forEach(slot => {
-            slot.days.forEach(day => {
-                const col = DAY_COL[day];
-                if (!col) return;
-                const startRow = timeToRow(slot.start);
-                const endRow   = timeToRow(slot.end);
-                const span     = Math.max(endRow - startRow, 1);
-                blockHtml.push(
-                    `<div class="class-block" style="grid-column:${col};grid-row:${startRow}/span ${span};background-color:${color} !important;">` +
-                    `<div class="subject">${c.name}</div>` +
-                    `<div class="time-range">${slot.start}&#8211;${slot.end}</div>` +
-                    `<div class="details">${extra}</div>` +
-                    `<span class="room">${slot.aula || ''}</span>` +
-                    `</div>`
-                );
-            });
-        });
-    });
-
-    // Etiquetas de hora (cada 6 pasos = 1 hora)
-    const timeLabels = [];
-    for (let h = minH; h < maxH; h++) {
-        const row = 2 + (h - minH) * STEPS_PER_H;
-        timeLabels.push(
-            `<div class="time-slot" style="grid-column:1;grid-row:${row}/span ${STEPS_PER_H};">${String(h).padStart(2,'0')}:00</div>`
-        );
-    }
-
-    // Celdas de fondo
-    const gridCells = [];
-    for (let r = 0; r < TOTAL_STEPS; r++) {
-        for (let col = 2; col <= 6; col++) {
-            gridCells.push(`<div class="cell" style="grid-column:${col};grid-row:${2+r};"></div>`);
-        }
-    }
-
-    const noHorario = allCourses.filter(c => !c.horario || !Array.isArray(c.horario) || c.horario.length === 0);
-    const warningHtml = noHorario.length
-        ? `<div style="margin-top:10px;padding:10px;background:#fff3cd;border-left:4px solid #f59e0b;border-radius:4px;font-size:0.8rem;color:#856404;">` +
-          `<strong>Sin horario:</strong> ${noHorario.map(c=>`${c.id} (${c.name})`).join(', ')}` +
-          `</div>`
-        : '';
-
-    const html =
-`<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>Horario ${semLabel}</title>
-<style>
-*{box-sizing:border-box;margin:0;padding:0;}
-html,body{width:100%;height:100%;}
-body{font-family:Arial,sans-serif;background:#fff;padding:12px;}
-h1{text-align:center;color:#2c3e50;font-size:1.1rem;margin-bottom:10px;}
-.print-btn{display:block;margin:0 auto 10px;background:#8257e6;color:#fff;border:none;padding:8px 20px;border-radius:6px;font-size:0.9rem;cursor:pointer;}
-.schedule-container{
-  width:100%;
-  display:grid;
-  grid-template-columns:44px repeat(5,1fr);
-  grid-template-rows:30px repeat(${TOTAL_STEPS},1fr);
-  gap:1px;
-  background:#ccc;
-  border:1px solid #ccc;
-}
-.header{
-  background:#2c3e50 !important;
-  color:#fff !important;
-  font-weight:700;display:flex;align-items:center;justify-content:center;
-  text-transform:uppercase;font-size:0.7rem;letter-spacing:0.5px;
-  -webkit-print-color-adjust:exact;print-color-adjust:exact;
-}
-.time-slot{
-  background:#f5f5f5 !important;color:#444;font-size:0.6rem;
-  display:flex;align-items:flex-start;justify-content:center;
-  padding-top:3px;font-weight:bold;grid-column:1;
-  -webkit-print-color-adjust:exact;print-color-adjust:exact;
-}
-.cell{background:#fff !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
-.class-block{
-  color:#fff !important;
-  font-size:0.65rem;border-radius:3px;
-  display:flex;flex-direction:column;overflow:hidden;
-  margin:1px;border-left:4px solid rgba(0,0,0,0.25);line-height:1.2;
-  padding:3px 5px;
-  -webkit-print-color-adjust:exact !important;
-  print-color-adjust:exact !important;
-}
-.subject{font-weight:700;font-size:0.7rem;margin-bottom:1px;}
-.time-range{font-size:0.58rem;background:rgba(0,0,0,0.18);border-radius:2px;padding:1px 3px;display:inline-block;align-self:flex-start;margin-bottom:1px;}
-.details{font-size:0.58rem;opacity:0.92;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-.room{font-weight:700;margin-top:auto;display:block;text-align:right;font-size:0.56rem;}
-@page{size:landscape;margin:8mm;}
-@media print{
-  body{padding:0;background:#fff;}
-  .print-btn{display:none!important;}
-  html,body{height:100%;}
-  .schedule-container{
-    height:calc(100vh - 40px);
-    page-break-inside:avoid;
-    break-inside:avoid;
-  }
-  .class-block{
-    -webkit-print-color-adjust:exact !important;
-    print-color-adjust:exact !important;
-  }
-  .header{
-    -webkit-print-color-adjust:exact !important;
-    print-color-adjust:exact !important;
-  }
-}
-</style>
-</head>
-<body>
-<h1>Horario &middot; ${semLabel} &middot; ${majorName}</h1>
-<button class="print-btn" onclick="window.print()">&#128438; Imprimir / Guardar PDF</button>
-<div class="schedule-container">
-  <div class="header" style="grid-column:1;">Hora</div>
-  <div class="header">Lunes</div>
-  <div class="header">Martes</div>
-  <div class="header">Miercoles</div>
-  <div class="header">Jueves</div>
-  <div class="header">Viernes</div>
-  ${timeLabels.join('')}
-  ${gridCells.join('')}
-  ${blockHtml.join('')}
-</div>
-${warningHtml}
-</body>
-</html>`;
-
-    const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
-    const url  = URL.createObjectURL(blob);
-    window.open(url, '_blank');
-    // No revocamos el URL inmediatamente para que la pestaña pueda cargarlo
-    setTimeout(() => URL.revokeObjectURL(url), 60000);
-}
 // =============================================================================
 // 18b. HISTORIAL DE APERTURA DE CURSOS (frecuencia por semestre / verano)
 // =============================================================================
@@ -2527,9 +2208,9 @@ function analizarAperturaCurso(courseId) {
     });
 
     let semestreMsg = null;
-    if (sem1 && sem2) semestreMsg = 'Este curso normalmente abre todos los semestres.';
-    else if (sem1)     semestreMsg = 'Este curso normalmente abre el primer semestre del año.';
-    else if (sem2)     semestreMsg = 'Este curso normalmente abre el segundo semestre del año.';
+    if (sem1 && sem2) semestreMsg = 'Este curso normalmente abre **todos** los semestres.';
+    else if (sem1)     semestreMsg = 'Este curso normalmente abre el **primer semestre** del año.';
+    else if (sem2)     semestreMsg = 'Este curso normalmente abre el **segundo semestre** del año.';
 
     if (!semestreMsg && !verano) return null;
     return { semestreMsg, verano };
@@ -2552,7 +2233,7 @@ function renderAperturaInfo(courseId) {
     cont.style.display = 'flex';
     cont.innerHTML = `
         ${info.semestreMsg ? `<div class="apertura-line">📅 ${info.semestreMsg}</div>` : ''}
-        ${info.verano ? `<div class="apertura-line apertura-verano">☀️ Este curso se impartió en verano.</div>` : ''}
+        ${info.verano ? `<div class="apertura-line apertura-verano">☀️ Este curso se impartió en **verano**.</div>` : ''}
     `;
 }
 
@@ -2683,16 +2364,6 @@ const TOUR_STEPS = [
         onExit:  () => { if (viewMode === 'list') toggleViewMode(); }
     },
 
-    // --- HORARIO ---
-    { target: () => document.getElementById('btnHorario'), title: '📅 Generar horario', text: 'Este botón arma un horario semanal con los bloques que le pusiste a tus cursos.', placement: 'bottom' },
-    {
-        target: () => tourDynamicModal ? tourDynamicModal.querySelector('.modal-content') : null,
-        title: '📅 Así se ve',
-        text: 'Elegís un semestre y se genera un horario listo para imprimir.',
-        placement: 'right',
-        onEnter: () => { if (coursesDB.some(c => !isNaN(parseFloat(c.userSem)) && parseFloat(c.userSem) > 0)) { openScheduleModal(); tourDynamicModal = document.body.lastElementChild; } },
-        onExit:  () => { tourDynamicModal?.remove(); tourDynamicModal = null; }
-    },
 
     // --- EXCEL / GUARDAR (solo señalar, no auto-descargar) ---
     {

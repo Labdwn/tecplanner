@@ -136,10 +136,6 @@
                     📋 LISTA
                 </button>
 
-                <button class="btn-action" id="btnHorario" onclick="openScheduleModal()" style="border-color: #a855f7; color: #a855f7;">
-                    📅 HORARIO
-                </button>
-
                 <button class="btn-export" id="btnExcel" onclick="exportToExcel()">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                     EXCEL
@@ -297,36 +293,18 @@
                         <input type="number" id="inpGrade" class="rpg-input" placeholder="0-100" min="0" max="100" step="0.01">
                     </div>
                 </div>
-                <div style="display:grid; grid-template-columns:1fr 1fr; gap:15px;">
-                    <div class="input-group">
-                        <label class="input-label">Grupo</label>
-                        <input type="text" id="inpGrupo" class="rpg-input" placeholder="Ej: 3">
-                    </div>
-                    <div class="input-group">
-                        <label class="input-label">Modalidad</label>
-                        <select id="inpModalidad" class="rpg-input" style="cursor:pointer; appearance:auto;">
-                            <option value="">— sin especificar —</option>
-                            <option value="Regular">Regular</option>
-                            <option value="Semipresencial">Semipresencial</option>
-                            <option value="Virtual">Virtual</option>
-                        </select>
-                    </div>
+               <div class="input-group">
+                    <label class="input-label">Modalidad</label>
+                    <select id="inpModalidad" class="rpg-input" style="cursor:pointer; appearance:auto;">
+                        <option value="">— sin especificar —</option>
+                        <option value="Regular">Regular</option>
+                        <option value="Semipresencial">Semipresencial</option>
+                        <option value="Virtual">Virtual</option>
+                    </select>
                 </div>
                 <div class="input-group">
                     <label class="input-label">Profesor</label>
                     <input type="text" id="inpProf" class="rpg-input" placeholder="Nombre del profesor">
-                </div>
-
-                <!-- BLOQUES DE HORARIO -->
-                <div class="input-group">
-                    <label class="input-label" style="display:flex; justify-content:space-between; align-items:center;">
-                        Horario y Aulas
-                        <button type="button" onclick="addHorarioBlock()"
-                            style="background:rgba(130,87,230,0.15); border:1px solid var(--accent); color:var(--accent);
-                                padding:3px 10px; border-radius:4px; cursor:pointer; font-family:'Rajdhani',sans-serif;
-                                font-weight:700; font-size:0.8rem;">+ Añadir bloque</button>
-                    </label>
-                    <div id="horarioBlocks" style="display:flex; flex-direction:column; gap:8px;"></div>
                 </div>
             </div>
             <div class="modal-footer">
