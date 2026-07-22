@@ -3169,7 +3169,10 @@ function switchAppMode(mode) {
         setTimeout(drawConnections, 300);
     }
 
-    if (mode === 'index') renderIndexView();
+    if (mode === 'index') {
+        renderIndexView();
+        setTimeout(showModeSwitcherHint, 900);
+    }
     if (mode === 'horarios' && typeof initHorarios === 'function') initHorarios();
 }
 
@@ -3180,3 +3183,99 @@ document.addEventListener('DOMContentLoaded', () => {
     const lastMode = localStorage.getItem('TecPlanner_LastMode') || 'index';
     switchAppMode(lastMode);
 });
+
+// =============================================================================
+// 20b. HINT DEL MODE SWITCHER (primera visita a Home)
+// =============================================================================
+
+function showModeSwitcherHint() {
+    if (localStorage.getItem('TecPlanner_ModeHintSeen')) return;
+    if (document.getElementById('modeHintOverlay')) return;
+
+    const target = document.getElementById('modeSwitcherBtn');
+    const switcher = document.getElementById('modeSwitcher');
+    if (!target) return;
+
+    const wrap = document.createElement('div');
+    wrap.id = 'modeHintOverlay';
+    wrap.innerHTML = `
+        <div class="tour-frame" id="mhFrameTop"></div>
+        <div class="tour-frame" id="mhFrameBottom"></div>
+        <div class="tour-frame" id="mhFrameLeft"></div>
+        <div class="tour-frame" id="mhFrameRight"></div>
+        <div class="tour-spot" id="mhSpot" style="border-radius:50%;"></div>
+        <div class="tour-tooltip" id="mhTooltip" style="width:300px;">
+            <div class="tour-tt-title">🧭 Así cambiás de sección</div>
+            <div class="tour-tt-text">
+                Esta bola flotante es tu menú principal. Pasá el mouse sobre ella
+                (o tocala en el celular) y elegí entre <strong>Home</strong>,
+                <strong>Planes de Estudio</strong> y <strong>Generar Horario</strong>.
+            </div>
+            <div class="tour-tt-footer">
+                <div class="tour-tt-btns" style="justify-content:flex-end;">
+                    <button class="tour-btn tour-btn-next" onclick="dismissModeHint()">¡Entendido! ✓</button>
+                </div>
+            </div>
+        </div>`;
+    document.body.appendChild(wrap);
+
+    switcher?.classList.add('open'); // muestra el abanico de opciones de fondo
+    positionModeHint(target);
+    window.addEventListener('resize', repositionModeHintIfOpen);
+    document.addEventListener('keydown', modeHintKeyHandler);
+
+    // clic afuera del spot también cierra el hint
+    ['mhFrameTop', 'mhFrameBottom', 'mhFrameLeft', 'mhFrameRight'].forEach(id => {
+        document.getElementById(id)?.addEventListener('click', dismissModeHint);
+    });
+}
+
+function positionModeHint(el) {
+    const spot     = document.getElementById('mhSpot');
+    const tooltip  = document.getElementById('mhTooltip');
+    const top      = document.getElementById('mhFrameTop');
+    const bottom   = document.getElementById('mhFrameBottom');
+    const left     = document.getElementById('mhFrameLeft');
+    const right    = document.getElementById('mhFrameRight');
+    if (!spot || !tooltip) return;
+
+    const r   = el.getBoundingClientRect();
+    const pad = 10;
+
+    spot.style.top    = `${r.top - pad}px`;
+    spot.style.left   = `${r.left - pad}px`;
+    spot.style.width  = `${r.width + pad * 2}px`;
+    spot.style.height = `${r.height + pad * 2}px`;
+
+    top.style.cssText    = `top:0; left:0; width:100%; height:${r.top - pad}px;`;
+    bottom.style.cssText = `top:${r.bottom + pad}px; left:0; width:100%; height:calc(100% - ${r.bottom + pad}px);`;
+    left.style.cssText   = `top:${r.top - pad}px; left:0; width:${r.left - pad}px; height:${r.height + pad * 2}px;`;
+    right.style.cssText  = `top:${r.top - pad}px; left:${r.right + pad}px; width:calc(100% - ${r.right + pad}px); height:${r.height + pad * 2}px;`;
+
+    const ttRect = tooltip.getBoundingClientRect();
+    let ttTop  = r.top - ttRect.height - 20;
+    let ttLeft = r.right - ttRect.width;
+    if (ttTop < 10) ttTop = r.bottom + 20;
+    ttLeft = Math.min(Math.max(ttLeft, 10), window.innerWidth - ttRect.width - 10);
+    ttTop  = Math.min(Math.max(ttTop, 10), window.innerHeight - ttRect.height - 10);
+
+    tooltip.style.top  = `${ttTop}px`;
+    tooltip.style.left = `${ttLeft}px`;
+}
+
+function repositionModeHintIfOpen() {
+    const el = document.getElementById('modeSwitcherBtn');
+    if (document.getElementById('modeHintOverlay') && el) positionModeHint(el);
+}
+
+function modeHintKeyHandler(e) {
+    if (e.key === 'Escape') dismissModeHint();
+}
+
+function dismissModeHint() {
+    document.getElementById('modeHintOverlay')?.remove();
+    document.getElementById('modeSwitcher')?.classList.remove('open');
+    localStorage.setItem('TecPlanner_ModeHintSeen', 'true');
+    window.removeEventListener('resize', repositionModeHintIfOpen);
+    document.removeEventListener('keydown', modeHintKeyHandler);
+}
