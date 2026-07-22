@@ -151,6 +151,7 @@ function init() {
     loadFromLocal();
     renderGrid();
     renderButtons();
+    loadCourseHistory();
     setTimeout(drawConnections, 100);
     window.addEventListener('resize', drawConnectionsDebounced);
     document.querySelector('.game-area').addEventListener('scroll', drawConnectionsDebounced, { passive: true });
@@ -892,6 +893,7 @@ function searchCourse(query) {
 // Abre el modal de edición de un curso
 function openModal(c) {
     currentCourse = c;
+    renderAperturaInfo(c.id);
     const modal   = document.getElementById('courseModal');
     document.getElementById('modalCode').innerText   = `${c.id} • ${c.cred} Créditos`;
     document.getElementById('modalName').innerText   = c.name;
@@ -2492,6 +2494,67 @@ ${warningHtml}
     // No revocamos el URL inmediatamente para que la pestaña pueda cargarlo
     setTimeout(() => URL.revokeObjectURL(url), 60000);
 }
+// =============================================================================
+// 18b. HISTORIAL DE APERTURA DE CURSOS (frecuencia por semestre / verano)
+// =============================================================================
+
+let courseHistoryData = null;
+let courseHistoryPromise = null;
+
+// Carga (una sola vez) el output/history.json generado por el scraper
+function loadCourseHistory() {
+    if (courseHistoryPromise) return courseHistoryPromise;
+    courseHistoryPromise = fetch('scraper/output/history.json')
+        .then(res => res.ok ? res.json() : {})
+        .then(data => { courseHistoryData = data; return data; })
+        .catch(() => { courseHistoryData = {}; return {}; });
+    return courseHistoryPromise;
+}
+
+// Analiza el arreglo historial (ej: ["2025-1","2025-1V","2026-2"]) y resume
+// en qué semestres suele abrirse el curso y si tuvo oferta de verano.
+function analizarAperturaCurso(courseId) {
+    const entry = courseHistoryData && courseHistoryData[courseId];
+    if (!entry || !Array.isArray(entry.historial) || entry.historial.length === 0) return null;
+
+    let sem1 = false, sem2 = false, verano = false;
+    entry.historial.forEach(etiqueta => {
+        const periodo = etiqueta.split('-')[1]; // "1", "2", "1V", "2V"...
+        if (!periodo) return;
+        if (periodo.endsWith('V')) verano = true;
+        else if (periodo === '1') sem1 = true;
+        else if (periodo === '2') sem2 = true;
+    });
+
+    let semestreMsg = null;
+    if (sem1 && sem2) semestreMsg = 'Este curso normalmente abre todos los semestres.';
+    else if (sem1)     semestreMsg = 'Este curso normalmente abre el primer semestre del año.';
+    else if (sem2)     semestreMsg = 'Este curso normalmente abre el segundo semestre del año.';
+
+    if (!semestreMsg && !verano) return null;
+    return { semestreMsg, verano };
+}
+
+// Pinta el aviso minimalista arriba del modal de curso
+function renderAperturaInfo(courseId) {
+    const cont = document.getElementById('modalAperturaInfo');
+    if (!cont) return;
+
+    if (!courseHistoryData) {
+        cont.style.display = 'none';
+        loadCourseHistory().then(() => renderAperturaInfo(courseId));
+        return;
+    }
+
+    const info = analizarAperturaCurso(courseId);
+    if (!info) { cont.style.display = 'none'; cont.innerHTML = ''; return; }
+
+    cont.style.display = 'flex';
+    cont.innerHTML = `
+        ${info.semestreMsg ? `<div class="apertura-line">📅 ${info.semestreMsg}</div>` : ''}
+        ${info.verano ? `<div class="apertura-line apertura-verano">☀️ Este curso se impartió en verano.</div>` : ''}
+    `;
+}
 
 // =============================================================================
 // 19. TOUR GUIADO INTERACTIVO (con acciones reales en cada paso)
@@ -2905,6 +2968,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
+
 
 // =============================================================================
 // 20. HOME / INDEX + MODO ACTIVO PERSISTENTE

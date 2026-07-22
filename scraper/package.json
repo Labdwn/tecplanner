@@ -7,6 +7,7 @@
   "scripts": {
     "scrape": "node --env-file=.env --use-system-ca scraper.js",
     "revisar-ventana": "node revisar-ventana.js",
+    "historial-multianual": "node --env-file=.env --use-system-ca build-history-multianual.js",
     "test": "node --test test/scraper.test.js"
   },
   "engines": {
@@ -14,3 +15,4 @@
   },
   "license": "UNLICENSED"
 }
+

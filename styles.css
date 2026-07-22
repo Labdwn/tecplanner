@@ -2567,3 +2567,17 @@ path {
     z-index: 30;
 }
 .hor-choque-badge:hover::after { opacity: 1; }
+
+/* === Aviso de apertura histórica del curso (modal) === */
+.modal-apertura-info {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 30px;
+    background: rgba(130, 87, 230, 0.06);
+    border-bottom: 1px solid #27272a;
+    font-size: 0.82rem;
+    color: var(--text-dim);
+}
+.apertura-line { display: flex; align-items: center; gap: 6px; }
+.apertura-verano { color: var(--timing-verano); }

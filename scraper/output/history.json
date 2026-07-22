@@ -4,7 +4,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "AE2126": {
@@ -12,7 +15,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE4226": {
@@ -20,14 +25,18 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE2506": {
     "nombre": "Estadística II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "AE3223": {
@@ -35,7 +44,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE2308": {
@@ -43,7 +54,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE3415": {
@@ -51,14 +64,17 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE2220": {
     "nombre": "Análisis administrativo",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AE4130": {
@@ -66,7 +82,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE4544": {
@@ -74,28 +92,34 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AE1122": {
     "nombre": "Contabilidad I",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "AE3505": {
     "nombre": "Metodología de la investigación",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AE2124": {
     "nombre": "Contabilidad III",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "AE3127": {
@@ -103,7 +127,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE3312": {
@@ -111,7 +137,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MR1102": {
@@ -119,7 +147,8 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "MR1202": {
@@ -155,28 +184,32 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "GP2527": {
     "nombre": "BIM y la gestión de proyectos de construcción",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "GP0102": {
     "nombre": "Formulación de proyectos",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "GP2531": {
     "nombre": "Estimación en proyectos de desarrollo de software",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "GP0100": {
@@ -184,7 +217,8 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "GP2502": {
@@ -198,49 +232,59 @@
     "nombre": "Gerencia de proyectos I",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "GP0205": {
     "nombre": "Oficina de proyectos y portafolios",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "GP0203": {
     "nombre": "Gerencia de proyectos III",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "GP3906": {
     "nombre": "Seminario de metodología de investigación en el énfasis en proyectos empresariales",
     "creditos": 6,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "GP3909": {
     "nombre": "Seminario de metodología de investigación en el énfasis en tecnología de información",
     "creditos": 6,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "GP3912": {
     "nombre": "Seminario de metodología de investigación en el énfasis en construcción",
     "creditos": 6,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "GP3908": {
     "nombre": "Seminario de investigación II en el énfasis en proyectos empresariales",
     "creditos": 6,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "GP3911": {
@@ -254,49 +298,56 @@
     "nombre": "Seminario de investigación II en el énfasis en construcción",
     "creditos": 6,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "LE1206": {
     "nombre": "Metodología de la investigación",
     "creditos": 5,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "LE1204": {
     "nombre": "Psicología educativa en ETFP",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "LE1205": {
     "nombre": "Planificación didáctica y curricular en ETFP",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "EM2603": {
     "nombre": "Cálculo y análisis I",
     "creditos": 5,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM2604": {
     "nombre": "Geometría I",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM1613": {
     "nombre": "Tecnologías digitales aplicadas a la matemática educativa III",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM3409": {
@@ -304,147 +355,169 @@
     "creditos": 6,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EM3048": {
     "nombre": "Atención a la diversidad en la enseñanza y el aprendizaje de la matemática",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM1606": {
     "nombre": "Fundamentos de matemática II",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM1607": {
     "nombre": "Didáctica de la geometría",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM1614": {
     "nombre": "Estadística inferencial",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM4612": {
     "nombre": "Métodos numéricos",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM1600": {
     "nombre": "Tecnologías digitales aplicadas a la matemática educativa I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM2608": {
     "nombre": "Elementos de análisis de datos y probabilidad",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM2408": {
     "nombre": "Aprendizaje y didáctica de la matemática",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM3608": {
     "nombre": "Cálculo y análisis III",
     "creditos": 5,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM4010": {
     "nombre": "Programación lineal",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1503": {
     "nombre": "Composición arquitectónica I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1903": {
     "nombre": "Sistemas ambientales arquitectónicos I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU2005": {
     "nombre": "Laboratorio de proyectos VIII, diseño integral",
     "creditos": 6,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU4408": {
     "nombre": "Urbanismo ordenamiento territorial I",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU2006": {
     "nombre": "Planos y especificaciones técnicas",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1904": {
     "nombre": "Composición urbana I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1701": {
     "nombre": "Laboratorio de proyectos IV, espacio arquitectónico",
     "creditos": 6,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1501": {
     "nombre": "Laboratorio de proyectos II, Composición arquitectural",
     "creditos": 5,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1303": {
     "nombre": "Historia del arte y la arquitectura I",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1502": {
     "nombre": "Introducción a la investigación",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU4004": {
@@ -458,28 +531,32 @@
     "nombre": "Práctica de vinculación",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU3106": {
     "nombre": "Teoría de la arquitectura II",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU4108": {
     "nombre": "Teoría e historia urbanismo II",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU2103": {
     "nombre": "Historia de arte y arquitectura de Costa Rica",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU5408": {
@@ -487,7 +564,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AU4003": {
@@ -515,35 +594,42 @@
     "nombre": "Laboratorio de proyectos VI, Sostenibilidad",
     "creditos": 6,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1702": {
     "nombre": "Sistemas de representación digital I",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1704": {
     "nombre": "Diseño bioclimático",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AU1902": {
     "nombre": "Instalaciones eléctricas",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AU1703": {
     "nombre": "Sistemas de construcción I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE4208": {
@@ -551,7 +637,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "AE2125": {
@@ -559,7 +648,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE3128": {
@@ -567,7 +658,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE2311": {
@@ -575,7 +668,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "AE4228": {
@@ -583,7 +679,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE2219": {
@@ -591,7 +689,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE3414": {
@@ -599,7 +699,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE2705": {
@@ -607,7 +709,8 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "AE3551": {
@@ -615,7 +718,8 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "AE4549": {
@@ -637,14 +741,16 @@
     "nombre": "Métodos cuantitativos para administración",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AE4548": {
     "nombre": "Creatividad e innovación empresarial",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "AE5121": {
@@ -652,7 +758,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "AE5111": {
@@ -660,49 +769,58 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE5122": {
     "nombre": "Ingeniería financiera",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AE4312": {
     "nombre": "Macroeconomía",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AE1205": {
     "nombre": "Habilidades gerenciales",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI9805": {
     "nombre": "Auditoría de TI",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI3602": {
     "nombre": "Producción, logística y calidad",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "TI9003": {
     "nombre": "Computación y sociedad",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI2201": {
@@ -710,7 +828,8 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "TI5501": {
@@ -718,7 +837,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "TI8515": {
@@ -733,28 +854,32 @@
     "nombre": "Comportamiento organizacional y talento humano",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI4101": {
     "nombre": "Planificación y presupuesto",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI8509": {
     "nombre": "Habilidades directivas para el administrador de tecnología de la información",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI3801": {
     "nombre": "Administración de proyectos II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI8902": {
@@ -762,21 +887,24 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "TI8905": {
     "nombre": "Administración de servicios de tecnologías de información I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI8904": {
     "nombre": "Administración de procesos de negocios",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI3603": {
@@ -784,14 +912,17 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "TI4500": {
     "nombre": "Ingeniería de requerimientos",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "TI6900": {
@@ -799,7 +930,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "TI5904": {
@@ -807,21 +940,25 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "TI2404": {
     "nombre": "Organización y arquitectura de computadoras",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI3604": {
     "nombre": "Fundamentos de redes",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI2402": {
@@ -829,7 +966,8 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "TI3600": {
@@ -837,7 +975,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "TI1400": {
@@ -845,7 +986,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "TI1401": {
@@ -853,14 +996,17 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "TI3601": {
     "nombre": "Modelo de toma de decisiones",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TI4200": {
@@ -868,7 +1014,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "TI1102": {
@@ -876,147 +1024,172 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "TI8511": {
     "nombre": "Fundamentos de transformación digital",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "TI9905": {
     "nombre": "Sistemas de información empresarial",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "TI4601": {
     "nombre": "Bases de datos avanzados",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN3006": {
     "nombre": "Investigación de operaciones en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AA2302": {
     "nombre": "Contabilidad de costos aplicada",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN3007": {
     "nombre": "Cultivos hortícolas",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN4007": {
     "nombre": "Cultivos no tradicionales y tecnologías alternativas",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN4006": {
     "nombre": "Gestión ambiental en agronegocios",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN2004": {
     "nombre": "Laboratorio de bioquímica agroalimentaria",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN1004": {
     "nombre": "Gestión en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN4005": {
     "nombre": "Procesado productos pecuarios",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN3004": {
     "nombre": "Fundamentos de agroindustria alimentaria",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN4008": {
     "nombre": "Sistematización de datos en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN2003": {
     "nombre": "Bioquímica agroalimentaria",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN3005": {
     "nombre": "Finanzas en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN4002": {
     "nombre": "Mercadeo productos agroindustriales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN3008": {
     "nombre": "Probabilidad y estadísticas en los agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AA3202": {
     "nombre": "Anatomía y fisiología animal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AA4205": {
     "nombre": "Producción bovina",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AN7001": {
     "nombre": "Gestión de certificaciones en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "BI1101": {
@@ -1024,7 +1197,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "BI1102": {
@@ -1032,7 +1207,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM3207": {
@@ -1040,7 +1217,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CM3205": {
@@ -1048,7 +1228,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM3601": {
@@ -1056,7 +1238,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4307": {
@@ -1064,7 +1248,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM5302": {
@@ -1072,7 +1258,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM2103": {
@@ -1080,7 +1268,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM2402": {
@@ -1088,7 +1278,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4108": {
@@ -1096,7 +1288,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4202": {
@@ -1104,7 +1298,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ME3208": {
@@ -1112,7 +1308,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CM4309": {
@@ -1120,7 +1319,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4802": {
@@ -1128,7 +1329,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM5901": {
@@ -1136,7 +1339,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4101": {
@@ -1144,7 +1349,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4701": {
@@ -1152,7 +1359,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM5241": {
@@ -1160,7 +1369,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4801": {
@@ -1168,7 +1379,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM3602": {
@@ -1176,7 +1389,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ME3209": {
@@ -1184,7 +1399,10 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CM5221": {
@@ -1192,7 +1410,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ME2208": {
@@ -1200,7 +1420,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4305": {
@@ -1208,7 +1430,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM3603": {
@@ -1216,7 +1440,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4803": {
@@ -1224,7 +1450,9 @@
     "creditos": 7,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM3103": {
@@ -1232,7 +1460,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM5104": {
@@ -1240,7 +1470,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM4702": {
@@ -1248,7 +1480,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM3501": {
@@ -1256,7 +1490,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM2401": {
@@ -1264,7 +1500,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM3208": {
@@ -1272,7 +1510,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CM5243": {
@@ -1280,7 +1520,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CI0202": {
@@ -1288,7 +1530,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CI1230": {
@@ -1296,7 +1541,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CI1231": {
@@ -1304,7 +1552,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CI1106": {
@@ -1312,7 +1563,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CI1107": {
@@ -1320,14 +1574,18 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CI1108": {
     "nombre": "Destrezas comunicativas del inglés para biotecnología I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "CI2308": {
@@ -1335,7 +1593,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CI3202": {
@@ -1343,7 +1603,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CI1407": {
@@ -1359,7 +1621,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CI1305": {
@@ -1367,7 +1631,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CI1306": {
@@ -1375,7 +1641,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CI2307": {
@@ -1383,14 +1651,17 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CI1202": {
     "nombre": "Inglés para biotecnología I",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "CI1406": {
@@ -1405,7 +1676,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CI4401": {
@@ -1413,7 +1686,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "FI1101": {
@@ -1421,7 +1697,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "FI1102": {
@@ -1429,7 +1708,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "FI1201": {
@@ -1437,7 +1719,10 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "FI1202": {
@@ -1445,14 +1730,18 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "NE1001": {
     "nombre": "Fundamentos de química ambiental para turismo",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "QU1104": {
@@ -1460,7 +1749,10 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "QU1106": {
@@ -1468,7 +1760,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MA2404": {
@@ -1476,7 +1771,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MA0101": {
@@ -1484,7 +1782,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MA1103": {
@@ -1492,7 +1793,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MA2104": {
@@ -1500,14 +1804,18 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "NE0001": {
     "nombre": "Historia natural de Costa Rica",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FI2103": {
@@ -1515,7 +1823,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "QU1107": {
@@ -1523,7 +1834,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "QU1102": {
@@ -1531,7 +1845,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MA1102": {
@@ -1539,7 +1855,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "NE1006": {
@@ -1547,21 +1866,25 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "BI2301": {
     "nombre": "Genética",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "BI2303": {
     "nombre": "Laboratorio de genética",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "MA1403": {
@@ -1569,7 +1892,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MA2105": {
@@ -1577,7 +1903,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MA1303": {
@@ -1585,7 +1914,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MA1304": {
@@ -1593,14 +1925,18 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "BI2408": {
     "nombre": "Fundamentos de agroecología",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "MA3405": {
@@ -1608,28 +1944,34 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "NE1004": {
     "nombre": "Estadística inferencial para turismo",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "BI1201": {
     "nombre": "Botánica general",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "BI1202": {
     "nombre": "Laboratorio botánica general",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "CS1308": {
@@ -1637,7 +1979,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CS3401": {
@@ -1645,7 +1989,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CS3406": {
@@ -1653,7 +2000,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CS4402": {
@@ -1661,7 +2011,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CS2404": {
@@ -1669,7 +2022,10 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CS2101": {
@@ -1677,7 +2033,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CS2303": {
@@ -1685,7 +2044,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CS5300": {
@@ -1693,7 +2054,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CS1502": {
@@ -1701,7 +2064,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CS3404": {
@@ -1709,7 +2074,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CS2304": {
@@ -1717,7 +2085,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CS3405": {
@@ -1725,7 +2095,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CS3301": {
@@ -1733,21 +2105,24 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "CS3305": {
     "nombre": "Legislación agrícola",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "CS4108": {
     "nombre": "Derecho ambiental",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SE1102": {
@@ -1755,7 +2130,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1204": {
@@ -1763,7 +2140,10 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "SE1205": {
@@ -1771,7 +2151,10 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "SE1219": {
@@ -1779,7 +2162,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1105": {
@@ -1787,7 +2172,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1104": {
@@ -1795,7 +2182,10 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "SE1107": {
@@ -1803,7 +2193,10 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "SE1101": {
@@ -1811,7 +2204,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1221": {
@@ -1819,7 +2214,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1201": {
@@ -1827,7 +2224,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1206": {
@@ -1835,7 +2234,10 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "SE1209": {
@@ -1843,7 +2245,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1222": {
@@ -1851,7 +2255,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1103": {
@@ -1859,7 +2265,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1106": {
@@ -1867,7 +2275,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1109": {
@@ -1883,7 +2293,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1223": {
@@ -1891,7 +2303,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1220": {
@@ -1899,21 +2313,26 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "FI1503": {
     "nombre": "Fundamentos de física para arquitectura",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "ST2002": {
     "nombre": "Evolución social de Costa Rica",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "MI2202": {
@@ -1921,7 +2340,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI2205": {
@@ -1929,7 +2350,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3209": {
@@ -1937,7 +2360,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3111": {
@@ -1945,7 +2370,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI5215": {
@@ -1953,7 +2380,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI2101": {
@@ -1961,14 +2390,18 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MI8304": {
     "nombre": "Máquinas y equipos",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "MI3104": {
@@ -1976,7 +2409,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3103": {
@@ -1984,7 +2419,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3108": {
@@ -1992,7 +2429,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3130": {
@@ -2000,7 +2439,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3116": {
@@ -2008,7 +2449,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI4125": {
@@ -2016,7 +2459,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI4129": {
@@ -2024,7 +2469,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI4210": {
@@ -2032,7 +2479,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI4212": {
@@ -2040,7 +2489,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI2204": {
@@ -2048,7 +2499,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3206": {
@@ -2056,7 +2509,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3210": {
@@ -2064,7 +2519,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI2106": {
@@ -2072,7 +2529,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MI3138": {
@@ -2080,7 +2540,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3124": {
@@ -2088,7 +2550,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MI3115": {
@@ -2096,7 +2561,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MI4300": {
@@ -2104,14 +2572,17 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI6253": {
     "nombre": "Fundamentos en administración de proyectos en ingeniería",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "MI4311": {
@@ -2119,7 +2590,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI3119": {
@@ -2127,7 +2600,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI6259": {
@@ -2143,7 +2618,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI2109": {
@@ -2151,7 +2628,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI6258": {
@@ -2166,7 +2645,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI4136": {
@@ -2174,7 +2655,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI4305": {
@@ -2182,7 +2665,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI6351": {
@@ -2190,7 +2675,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI5151": {
@@ -2205,7 +2692,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MI4510": {
@@ -2213,7 +2702,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC1802": {
@@ -2221,7 +2712,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC1803": {
@@ -2229,7 +2722,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC3101": {
@@ -2237,7 +2732,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC6600": {
@@ -2245,7 +2742,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC6400": {
@@ -2253,7 +2752,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC5821": {
@@ -2261,7 +2763,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC4301": {
@@ -2269,7 +2774,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC6200": {
@@ -2277,7 +2785,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CA2125": {
@@ -2285,7 +2795,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC7900": {
@@ -2293,7 +2806,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC7602": {
@@ -2301,7 +2817,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC1400": {
@@ -2309,7 +2828,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC4810": {
@@ -2317,7 +2839,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC6821": {
@@ -2325,7 +2849,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC6831": {
@@ -2333,7 +2860,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC8071": {
@@ -2341,7 +2871,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CA3125": {
@@ -2349,7 +2882,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC7841": {
@@ -2357,7 +2893,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC8057": {
@@ -2365,7 +2904,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC2001": {
@@ -2373,7 +2914,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC3002": {
@@ -2381,7 +2924,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC2101": {
@@ -2389,7 +2935,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC4302": {
@@ -2397,7 +2945,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC4700": {
@@ -2405,7 +2955,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC5701": {
@@ -2413,7 +2966,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IC8076": {
@@ -2421,7 +2977,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC8063": {
@@ -2436,7 +2994,9 @@
     "creditos": 12,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC8048": {
@@ -2458,14 +3018,17 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "IC8073": {
     "nombre": "Introducción a la realidad virtual",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IC8060": {
@@ -2480,7 +3043,8 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "IC8078": {
@@ -2496,7 +3060,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1103": {
@@ -2504,7 +3070,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CE1106": {
@@ -2512,7 +3081,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE4302": {
@@ -2520,7 +3091,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE4303": {
@@ -2528,7 +3101,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1107": {
@@ -2536,7 +3111,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1110": {
@@ -2544,7 +3121,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1112": {
@@ -2552,7 +3131,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CE1113": {
@@ -2560,7 +3142,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE4301": {
@@ -2568,7 +3152,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1105": {
@@ -2576,7 +3162,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CE1108": {
@@ -2584,7 +3173,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1116": {
@@ -2592,7 +3183,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1114": {
@@ -2600,7 +3193,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE2103": {
@@ -2608,7 +3203,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE3101": {
@@ -2616,7 +3213,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CE1101": {
@@ -2624,7 +3224,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1117": {
@@ -2632,7 +3234,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE5600": {
@@ -2640,7 +3244,9 @@
     "creditos": 10,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE5601": {
@@ -2648,7 +3254,8 @@
     "creditos": 12,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "CE1111": {
@@ -2656,7 +3263,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE5301": {
@@ -2664,7 +3273,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1115": {
@@ -2672,7 +3283,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE1104": {
@@ -2680,7 +3293,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO4107": {
@@ -2688,7 +3303,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5024": {
@@ -2696,7 +3313,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CO4108": {
@@ -2704,7 +3324,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO2203": {
@@ -2712,7 +3334,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3401": {
@@ -2720,7 +3344,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3103": {
@@ -2728,7 +3354,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5031": {
@@ -2736,7 +3364,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5051": {
@@ -2744,7 +3374,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO4308": {
@@ -2752,7 +3384,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO2201": {
@@ -2760,7 +3394,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO4406": {
@@ -2768,7 +3404,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5013": {
@@ -2776,7 +3414,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5032": {
@@ -2784,7 +3424,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3403": {
@@ -2792,7 +3434,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3304": {
@@ -2800,7 +3444,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO2202": {
@@ -2808,7 +3454,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO4309": {
@@ -2816,7 +3464,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO2205": {
@@ -2824,7 +3474,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CO4307": {
@@ -2832,7 +3485,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3503": {
@@ -2840,7 +3495,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO4409": {
@@ -2848,7 +3505,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO4405": {
@@ -2856,7 +3515,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5023": {
@@ -2864,7 +3525,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5056": {
@@ -2872,7 +3535,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3407": {
@@ -2880,7 +3545,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3404": {
@@ -2888,7 +3555,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO4106": {
@@ -2896,7 +3565,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO4505": {
@@ -2904,7 +3575,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3305": {
@@ -2912,7 +3585,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5012": {
@@ -2920,7 +3595,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "CO3301": {
@@ -2928,7 +3606,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3302": {
@@ -2936,7 +3616,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3405": {
@@ -2944,7 +3626,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO3501": {
@@ -2952,7 +3636,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CO5022": {
@@ -2960,7 +3646,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL3310": {
@@ -2968,7 +3656,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL2114": {
@@ -2976,7 +3666,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "EL4513": {
@@ -2984,14 +3677,17 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL1200": {
     "nombre": "Introducción a la electrónica",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EL2111": {
@@ -2999,7 +3695,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL2113": {
@@ -3007,7 +3705,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "EL4607": {
@@ -3015,7 +3716,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5617": {
@@ -3023,7 +3726,9 @@
     "creditos": 7,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL2207": {
@@ -3031,7 +3736,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5408": {
@@ -3039,7 +3746,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5521": {
@@ -3047,7 +3756,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5522": {
@@ -3055,7 +3766,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL4703": {
@@ -3063,7 +3776,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "EL5409": {
@@ -3071,7 +3787,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5513": {
@@ -3079,7 +3797,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "EL2110": {
@@ -3087,7 +3808,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL4314": {
@@ -3095,7 +3818,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL3216": {
@@ -3103,7 +3828,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "EL4702": {
@@ -3111,14 +3839,17 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5805": {
     "nombre": "Procesamiento digital de señales",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EL4201": {
@@ -3126,7 +3857,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL3215": {
@@ -3134,7 +3867,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5841": {
@@ -3142,7 +3877,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL3307": {
@@ -3150,7 +3887,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5807": {
@@ -3158,7 +3897,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5610": {
@@ -3166,7 +3907,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL3313": {
@@ -3174,7 +3917,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL4514": {
@@ -3182,7 +3927,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL3217": {
@@ -3190,7 +3937,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "EL5811": {
@@ -3198,7 +3948,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL4419": {
@@ -3206,7 +3958,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5609": {
@@ -3214,7 +3968,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5854": {
@@ -3222,7 +3978,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5855": {
@@ -3230,7 +3988,8 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "EL3212": {
@@ -3238,7 +3997,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5842": {
@@ -3246,7 +4007,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EL5856": {
@@ -3254,7 +4017,8 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EL5859": {
@@ -3269,7 +4033,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT7004": {
@@ -3277,7 +4043,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT6003": {
@@ -3285,7 +4053,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "MT2002": {
@@ -3293,7 +4063,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT5003": {
@@ -3301,7 +4073,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT8002": {
@@ -3309,7 +4083,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT3002": {
@@ -3317,7 +4093,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT8005": {
@@ -3325,14 +4103,17 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT9005": {
     "nombre": "Simulación procesos industriales",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "MT4002": {
@@ -3340,7 +4121,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT8008": {
@@ -3348,7 +4131,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT9001": {
@@ -3356,7 +4141,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT9008": {
@@ -3364,7 +4151,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT6002": {
@@ -3372,7 +4161,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "MT5004": {
@@ -3380,7 +4171,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT7002": {
@@ -3388,7 +4181,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT3003": {
@@ -3396,7 +4191,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT3004": {
@@ -3404,14 +4201,19 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT6001": {
     "nombre": "Probabilidad y procesos estocásticos",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MT2001": {
@@ -3419,7 +4221,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT9002": {
@@ -3427,7 +4231,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MT3001": {
@@ -3435,7 +4242,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT7006": {
@@ -3443,7 +4252,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT8001": {
@@ -3451,7 +4262,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT8003": {
@@ -3459,7 +4272,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT7001": {
@@ -3467,7 +4282,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT4001": {
@@ -3475,7 +4292,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "MT7003": {
@@ -3483,7 +4302,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MT7005": {
@@ -3491,7 +4313,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI2608": {
@@ -3499,7 +4323,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI2610": {
@@ -3507,7 +4333,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "PI3512": {
@@ -3515,7 +4344,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI4307": {
@@ -3523,7 +4354,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI5707": {
@@ -3531,7 +4364,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3502": {
@@ -3539,7 +4374,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3603": {
@@ -3547,7 +4384,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI4505": {
@@ -3555,7 +4394,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3403": {
@@ -3563,7 +4404,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI4803": {
@@ -3571,7 +4414,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "PI5408": {
@@ -3587,7 +4433,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI4303": {
@@ -3595,7 +4443,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI4309": {
@@ -3603,7 +4453,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3501": {
@@ -3611,7 +4463,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3407": {
@@ -3619,7 +4473,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI5516": {
@@ -3627,7 +4483,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3308": {
@@ -3635,7 +4493,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI4802": {
@@ -3643,7 +4503,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI4001": {
@@ -3651,7 +4513,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "PI2304": {
@@ -3659,7 +4524,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3206": {
@@ -3667,14 +4534,19 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "PI5708": {
     "nombre": "Gestión por procesos",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "PI5402": {
@@ -3682,7 +4554,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI2609": {
@@ -3690,7 +4564,10 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "PI5401": {
@@ -3698,7 +4575,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI5302": {
@@ -3706,7 +4585,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3612": {
@@ -3714,7 +4595,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "PI5101": {
@@ -3722,7 +4606,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "PI4306": {
@@ -3730,14 +4617,17 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI3306": {
     "nombre": "Gestión de calidad",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "PI5710": {
@@ -3751,42 +4641,48 @@
     "nombre": "Protección del ambiente",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO4706": {
     "nombre": "Seminario de adaptación al cambio climático",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO2407": {
     "nombre": "Legislación ocupacional y ambiental",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO3603": {
     "nombre": "Evaluación y control de ruidos y vibraciones",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO4702": {
     "nombre": "Seguridad eléctrica",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO3606": {
     "nombre": "Factores psicosociales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO2601": {
@@ -3794,14 +4690,17 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SO2404": {
     "nombre": "Procesos de manufactura",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO4604": {
@@ -3809,7 +4708,10 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "SO5902": {
@@ -3823,49 +4725,56 @@
     "nombre": "Metodología investigación",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO4707": {
     "nombre": "Administración de proyectos",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO4803": {
     "nombre": "Evaluación y control de radiaciones e iluminación",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO4701": {
     "nombre": "Taller de agentes ambientales químicos",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO2406": {
     "nombre": "Anatomía y fisiología médica",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO2405": {
     "nombre": "Bioestadística",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "SO5904": {
     "nombre": "Factores humanos y ergonomía ocupacional",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "MA3106": {
@@ -3873,7 +4782,10 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "MA2117": {
@@ -3881,7 +4793,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU1902": {
@@ -3889,14 +4803,18 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU2409": {
     "nombre": "Química orgánica y bioquímica",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU2407": {
@@ -3904,7 +4822,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU2604": {
@@ -3912,7 +4832,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU2402": {
@@ -3920,7 +4842,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU2403": {
@@ -3928,7 +4852,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU2605": {
@@ -3936,14 +4862,18 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU2410": {
     "nombre": "Laboratorio de química orgánica y bioquímica",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "QU2404": {
@@ -3951,7 +4881,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID4501": {
@@ -3959,7 +4891,9 @@
     "creditos": 5,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID1103": {
@@ -3967,7 +4901,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID3111": {
@@ -3975,7 +4911,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID1101": {
@@ -3983,7 +4921,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID2301": {
@@ -3991,7 +4931,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID3113": {
@@ -3999,7 +4941,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID2302": {
@@ -4007,7 +4951,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID3110": {
@@ -4015,14 +4961,17 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID5511": {
     "nombre": "Trabajo final de graduación (productos)",
     "creditos": 7,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "ID1206": {
@@ -4030,7 +4979,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID2207": {
@@ -4038,7 +4989,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID3303": {
@@ -4046,14 +4999,17 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID5515": {
     "nombre": "Taller de diseño integrado",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "ID1118": {
@@ -4061,7 +5017,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID1119": {
@@ -4069,7 +5027,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID4601": {
@@ -4077,14 +5037,17 @@
     "creditos": 5,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID5602": {
     "nombre": "Teoría del diseño de la información",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "ID1205": {
@@ -4092,7 +5055,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID2107": {
@@ -4100,7 +5065,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID2120": {
@@ -4108,7 +5075,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID3112": {
@@ -4116,7 +5085,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID3205": {
@@ -4124,7 +5095,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID3304": {
@@ -4132,7 +5105,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID2401": {
@@ -4140,7 +5115,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID3109": {
@@ -4148,7 +5125,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID2204": {
@@ -4156,21 +5135,25 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID5115": {
     "nombre": "Innovación de productos",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "ID5611": {
     "nombre": "Trabajo final de graduación (comunicación visual)",
     "creditos": 7,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "ID1104": {
@@ -4178,7 +5161,9 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID2108": {
@@ -4186,7 +5171,9 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID5004": {
@@ -4200,63 +5187,72 @@
     "nombre": "Gestión de proyectos",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "ID5516": {
     "nombre": "Teoría de las interfases y la interactividad",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA4313": {
     "nombre": "Riego a presión",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA2106": {
     "nombre": "Sistemas de producción agrícola",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA3105": {
     "nombre": "Relación suelo-agua-planta",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA4315": {
     "nombre": "Manejo de suelos, aguas y diseño de obras de conservación",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA1203": {
     "nombre": "Dibujo técnico",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA5402": {
     "nombre": "Laboratorio de tractores y mecanización",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA2202": {
     "nombre": "Estática",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA3004": {
@@ -4264,56 +5260,65 @@
     "creditos": 9,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IA3210": {
     "nombre": "Laboratorio de hidráulica",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA3501": {
     "nombre": "Electrificación rural",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA3303": {
     "nombre": "Aplicaciones topográficas",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA3213": {
     "nombre": "Hidráulica de canales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA4314": {
     "nombre": "Drenaje sub-superficial",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA3401": {
     "nombre": "Elementos y mecanismos de máquinas agrícolas",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA4403": {
     "nombre": "Mecanización agrícola",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA5604": {
@@ -4321,210 +5326,241 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA5605": {
     "nombre": "Tecnologías en ambientes protegidos",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA5601": {
     "nombre": "Protección ambiental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IA3203": {
     "nombre": "Hidrología",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG3223": {
     "nombre": "Protección de cultivos II",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG2201": {
     "nombre": "Fisiología vegetal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG2203": {
     "nombre": "Edafología",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG4703": {
     "nombre": "Sistemas de producción de cultivos perennes",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AG4705": {
     "nombre": "Sistemas de producción de granos básicos",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG2101": {
     "nombre": "Anatomía y fisiología animal para agronomía",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG4706": {
     "nombre": "Sistemas de producción avícola",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG4704": {
     "nombre": "Sistemas de producción de bovinos de leche",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG4409": {
     "nombre": "Acromática II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG2702": {
     "nombre": "Administración agropecuaria II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG3109": {
     "nombre": "Agrostología",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG3403": {
     "nombre": "Mecanización agrícola",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG2305": {
     "nombre": "Agroclimatología",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG3107": {
     "nombre": "Reproducción animal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AG3405": {
     "nombre": "Agroestadística II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4220": {
     "nombre": "Restauración de ecosistemas tropicales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO2108": {
     "nombre": "Laboratorio de suelos forestales",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4107": {
     "nombre": "Suelos forestales",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4223": {
     "nombre": "Dendroenergía",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO3109": {
     "nombre": "Manejo de plantaciones forestales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO3132": {
     "nombre": "Entomología y patología forestales",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO3210": {
     "nombre": "Gestión de administración forestal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4412": {
     "nombre": "Mercadeo y comercialización de productos forestales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO1106": {
     "nombre": "Climatología forestal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO2201": {
     "nombre": "Levantamiento forestal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO3307": {
     "nombre": "Biología de la conservación",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO5049": {
@@ -4532,84 +5568,98 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "FO1107": {
     "nombre": "Botánica forestal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO1108": {
     "nombre": "Laboratorio de botánica forestal",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4224": {
     "nombre": "Introducción a la fauna silvestre en ecosistemas forestales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO3133": {
     "nombre": "Laboratorio de entomología y patología forestales",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO2303": {
     "nombre": "Propiedades de la madera",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4309": {
     "nombre": "Manufactura de productos forestales II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO3123": {
     "nombre": "Mejora genética forestal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4104": {
     "nombre": "Formulación y evaluación de proyectos",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4406": {
     "nombre": "Sistemas de información geográfica II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO3118": {
     "nombre": "Silvicultura bosque natural",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4417": {
     "nombre": "Ecofisiología forestal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "FO3113": {
@@ -4617,35 +5667,40 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "FO4418": {
     "nombre": "Cambio climático: acciones y métricas en sistemas terrestres",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO3203": {
     "nombre": "Aprovechamiento forestal I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FO4225": {
     "nombre": "Seguimiento y auditoría ambiental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FH0147": {
     "nombre": "Sexo y género, en la vida y el amor",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "FH0224": {
@@ -4659,21 +5714,26 @@
     "nombre": "Factores psicosociales de la salud mental",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "FH0246": {
     "nombre": "La música nos define: visión desde la etnomusicología",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "FH0033": {
     "nombre": "Cine y literatura",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1V"
     ]
   },
   "FH0035": {
@@ -4687,7 +5747,10 @@
     "nombre": "Sexualidad pareja y teoría psicosexual",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "FH0053": {
@@ -4701,21 +5764,24 @@
     "nombre": "Lo imaginario en el arte los sueños y la locura",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "FH0115": {
     "nombre": "García Márquez y el realismo mágico",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "FH0016": {
     "nombre": "El desarrollo de la ciencia en Costa Rica",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1V"
     ]
   },
   "FH0151": {
@@ -4730,7 +5796,8 @@
     "nombre": "La condición humana en nuestra época: ética y derechos humanos",
     "creditos": 0,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "FH0263": {
@@ -4759,7 +5826,8 @@
     "nombre": "Práctica de especialidad",
     "creditos": 5,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TS2301": {
@@ -4767,14 +5835,16 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TS1100": {
     "nombre": "Gestión ambiental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TS1202": {
@@ -4788,7 +5858,8 @@
     "nombre": "Turismo y sociedad",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "TS2204": {
@@ -4823,7 +5894,8 @@
     "nombre": "Geografía turística de Costa Rica",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "ST3001": {
@@ -4837,49 +5909,56 @@
     "nombre": "Introducción a la interpretación ambiental",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "ST1003": {
     "nombre": "Servicios turísticos rurales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI5106": {
     "nombre": "Gestión ambiental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI6109": {
     "nombre": "Cambio climático, adaptación y mitigación",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-1"
     ]
   },
   "AI6104": {
     "nombre": "Seguridad y salud ocupacional en Ingeniería Ambiental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI3112": {
     "nombre": "Diseño y tratamiento de aguas residuales",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI3109": {
     "nombre": "Laboratorio de tratamiento de agua potable y residual",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI4103": {
@@ -4887,28 +5966,34 @@
     "creditos": 2,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AI3111": {
     "nombre": "Administración de proyectos de infraestructura ambiental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI3212": {
     "nombre": "Termodinámica y cinética ambiental",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AI6111": {
     "nombre": "Ingeniería urbana sostenible",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI6105": {
@@ -4923,14 +6008,16 @@
     "nombre": "Mecánica de suelos para Ingeniería Ambiental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI6116": {
     "nombre": "Toxicología",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI3209": {
@@ -4938,7 +6025,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AI3104": {
@@ -4946,14 +6035,17 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AI3110": {
     "nombre": "Diseño de sistemas de potabilización de agua",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI4102": {
@@ -4961,7 +6053,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AI2101": {
@@ -4969,7 +6063,9 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AI5104": {
@@ -4977,7 +6073,8 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "AI2401": {
@@ -4985,7 +6082,8 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "AI6108": {
@@ -4999,14 +6097,17 @@
     "nombre": "Hidráulica para ingeniería ambiental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AI5105": {
     "nombre": "Consumo y producción sostenible",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "AI6115": {
@@ -5020,14 +6121,16 @@
     "nombre": "Anatomía vegetal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB4202": {
     "nombre": "Laboratorio de cultivo de tejidos II",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB4811": {
@@ -5041,63 +6144,72 @@
     "nombre": "Sistemas bioinformáticos",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB3404": {
     "nombre": "Aplicación de sistemas de producción agrícola",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB3405": {
     "nombre": "Laboratorio aplicación de sistemas de producción agrícola",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB4201": {
     "nombre": "Cultivo de tejidos II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB3210": {
     "nombre": "Sistemas ecológicos",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB4805": {
     "nombre": "Fundamentos de anatomía y desarrollo animal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB3601": {
     "nombre": "Bioquímica",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB3603": {
     "nombre": "Laboratorio de bioquímica",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB2113": {
     "nombre": "Análisis estadístico para biotecnología",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB4815": {
@@ -5111,7 +6223,8 @@
     "nombre": "Microbiología industrial",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB2503": {
@@ -5119,70 +6232,81 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IB4101": {
     "nombre": "Biología molecular aplicada",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB4106": {
     "nombre": "Laboratorio de biología molecular aplicada",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB3302": {
     "nombre": "Mejoramiento genético",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB4806": {
     "nombre": "Bacteriología aplicada a la biotecnología",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB4810": {
     "nombre": "Introducción a la fitoquímica",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IB2204": {
     "nombre": "Laboratorio de anatomía vegetal",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5139": {
     "nombre": "Auditoría gubernamental",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5040": {
     "nombre": "Sistemas de información financiera",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA6013": {
     "nombre": "Trabajo final de graduación énfasis contaduría pública",
     "creditos": 8,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5301": {
@@ -5190,56 +6314,65 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "LA5227": {
     "nombre": "Desarrollo gerencial",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA8008": {
     "nombre": "Gestión del riesgo",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA7008": {
     "nombre": "Gestión de proyectos en mercadeo",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5134": {
     "nombre": "Decisiones de inversión",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5416": {
     "nombre": "Mercadeo gerencial",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5133": {
     "nombre": "Banca y desarrollo",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5417": {
     "nombre": "Mercadeo de exportación",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5125": {
@@ -5247,35 +6380,41 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "LA5419": {
     "nombre": "Estrategia de ventas",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5132": {
     "nombre": "Modelos de decisiones financieras",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5141": {
     "nombre": "Auditoría tributaria",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5142": {
     "nombre": "Auditoría de las tecnologías de la información I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "LA5226": {
@@ -5289,35 +6428,40 @@
     "nombre": "Didáctica de las matemáticas II",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM5008": {
     "nombre": "Investigación educativa",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM5007": {
     "nombre": "Taller II: multimedios en matemática",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "EM5005": {
     "nombre": "Teoría de números",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "BL1201": {
     "nombre": "Metodologías de investigación",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "BL1124": {
@@ -5325,14 +6469,16 @@
     "creditos": 4,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BL1131": {
     "nombre": "Auditorías a sistemas de calidad",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "BL1133": {
@@ -5346,21 +6492,24 @@
     "nombre": "Introducción a la programación para biotecnología",
     "creditos": 4,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IF3603": {
     "nombre": "Óptica",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IF4802": {
     "nombre": "Laboratorio metrología I",
     "creditos": 2,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IF3502": {
@@ -5368,7 +6517,9 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IF3503": {
@@ -5376,28 +6527,32 @@
     "creditos": 1,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF3602": {
     "nombre": "Métodos matemáticos de física e ingeniería I",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IF4801": {
     "nombre": "Mecánica cuántica para ingeniería",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IF4804": {
     "nombre": "Física computacional II",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IF5901": {
@@ -5405,28 +6560,34 @@
     "creditos": 3,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IF3604": {
     "nombre": "Laboratorio de óptica",
     "creditos": 1,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IF4803": {
     "nombre": "Metrología industrial y legal",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2"
     ]
   },
   "IF3601": {
     "nombre": "Metodología de la investigación",
     "creditos": 3,
     "historial": [
-      "2026-2"
+      "2026-2",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE1111": {
@@ -5434,7 +6595,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE2110": {
@@ -5442,7 +6605,9 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "SE2111": {
@@ -5450,42 +6615,51 @@
     "creditos": 0,
     "historial": [
       "2026-2",
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE1123": {
     "nombre": "Contabilidad II",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "AE1219": {
     "nombre": "Introducción a la administración de empresas",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AE2505": {
     "nombre": "Estadística I",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AE3506": {
     "nombre": "Productividad empresarial",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AE2703": {
     "nombre": "Computación para administración",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "MR1401": {
@@ -5506,21 +6680,25 @@
     "nombre": "Habilidades gerenciales para la administración de proyectos",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "GP0103": {
     "nombre": "Evaluación financiera de proyectos",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "GP0204": {
     "nombre": "Técnicas y herramientas para gerencia de proyectos",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "GP2516": {
@@ -5541,217 +6719,250 @@
     "nombre": "Gestión de programas",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "GP3907": {
     "nombre": "Seminario de investigación I en el énfasis en proyectos empresariales",
     "creditos": 6,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "GP3910": {
     "nombre": "Seminario de investigación I en el énfasis en tecnología de información",
     "creditos": 6,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "GP3913": {
     "nombre": "Seminario de investigación I en el énfasis en construcción",
     "creditos": 8,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "GP0202": {
     "nombre": "Gerencia de proyectos II",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "LE1109": {
     "nombre": "Fundamentos de didáctica en ETFP",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "LE1108": {
     "nombre": "Teoría educativa y análisis socio histórico de la ETFP",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "LE1303": {
     "nombre": "Trabajo final de graduación",
     "creditos": 7,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "LE1504": {
     "nombre": "Innovación y tecnología en ETFP",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "LE1301": {
     "nombre": "Evaluación de los aprendizajes",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "LE1107": {
     "nombre": "Introducción al currículo en ETFP",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "EM4610": {
     "nombre": "Ecuaciones diferenciales",
     "creditos": 5,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM1404": {
     "nombre": "Teorías psicopedagógicas del aprendizaje",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM2606": {
     "nombre": "Geometría II",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM4609": {
     "nombre": "Álgebra",
     "creditos": 5,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM1401": {
     "nombre": "Introducción a la pedagogía",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM1605": {
     "nombre": "Fundamentos de matemática I",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM3011": {
     "nombre": "Teoría de conjuntos",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM3407": {
     "nombre": "Psicología del desarrollo",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM1610": {
     "nombre": "Tecnologías digitales aplicadas a la matemática educativa II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM1609": {
     "nombre": "Didáctica de la probabilidad y la estadística",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM3408": {
     "nombre": "Evaluación del aprendizaje",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM2607": {
     "nombre": "Cálculo y análisis II",
     "creditos": 5,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "EM3607": {
     "nombre": "Álgebra lineal",
     "creditos": 5,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM1608": {
     "nombre": "Didáctica del álgebra y funciones",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM1611": {
     "nombre": "Geometría analítica",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1415": {
     "nombre": "Fundamentos de Diseño",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU2003": {
     "nombre": "Sistemas ambientales arquitectónicos II",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU2004": {
     "nombre": "Metodología de investigación en arquitectura y urbanismo",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU2001": {
     "nombre": "Laboratorio de proyectos VII, Urbano-arquitectónico",
     "creditos": 6,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1301": {
     "nombre": "Introducción a la arquitectura I",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU3002": {
@@ -5765,70 +6976,81 @@
     "nombre": "Composición Urbana II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1601": {
     "nombre": "Laboratorio de proyectos III, Proceso proyectual",
     "creditos": 6,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1602": {
     "nombre": "Composición arquitectónica II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1413": {
     "nombre": "Laboratorio de proyectos I: Fundamentos",
     "creditos": 5,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1604": {
     "nombre": "Historia del arte y la arquitectura II",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1804": {
     "nombre": "Habilitación de sitio y paisajismo",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU2110": {
     "nombre": "Historia de arte y arquitectura de Costa Rica II",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1417": {
     "nombre": "Geometría descriptiva",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1803": {
     "nombre": "Sistemas de construcción II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AU2002": {
     "nombre": "Instalaciones mecánicas",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU4001": {
@@ -5849,56 +7071,66 @@
     "nombre": "Urbanismo ordenamiento territorial II",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "AU2104": {
     "nombre": "Teoría de la arquitectura I",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU3107": {
     "nombre": "Teoría e historia del urbanismo I",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1801": {
     "nombre": "Laboratorio de proyectos V, Tecnología constructiva",
     "creditos": 6,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1802": {
     "nombre": "Sistemas de representación digital II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1416": {
     "nombre": "Sistemas de representación manual",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AU1603": {
     "nombre": "Sistemas estructurales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AE3542": {
     "nombre": "Espíritu emprendedor y creación de empresas",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AE4209": {
@@ -5912,126 +7144,149 @@
     "nombre": "Planeación del mercadeo",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AE5113": {
     "nombre": "Contabilidad financiera",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AE3103": {
     "nombre": "Contabilidad general",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI5100": {
     "nombre": "Gestión y toma de decisiones financieras",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI5905": {
     "nombre": "Fundamentos de arquitectura empresarial",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI1103": {
     "nombre": "Modelos organizacionales y gestión de TI",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI3500": {
     "nombre": "Mercadeo en la era digital",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI5901": {
     "nombre": "Espíritu emprendedor y creación de empresas",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "TI2800": {
     "nombre": "Administración de proyectos I",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI3103": {
     "nombre": "Costos en ambientes informáticos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI9004": {
     "nombre": "Administración de servicios de tecnologías de información II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "TI8109": {
     "nombre": "Formulación y evaluación de proyectos de TI",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "TI5903": {
     "nombre": "Planificación estratégica de tecnología de información",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI3501": {
     "nombre": "Fundamentos de sistemas operativos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI4701": {
     "nombre": "Seguridad en sistemas de información",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI7503": {
     "nombre": "Arquitectura de aplicaciones",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "TI5902": {
     "nombre": "Analítica empresarial",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "TI7901": {
     "nombre": "Negocios electrónicos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TI8513": {
@@ -6045,175 +7300,201 @@
     "nombre": "Gestión de recursos humanos en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN1003": {
     "nombre": "Introducción a la ingeniería en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN4004": {
     "nombre": "Cultivos perennes y granos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN2007": {
     "nombre": "Microeconomía en los agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN4003": {
     "nombre": "Abastecimiento de los agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN5001": {
     "nombre": "Seminario de graduación en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AN5003": {
     "nombre": "Formulación y evaluación de proyectos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN4001": {
     "nombre": "Procesado productos agrícolas",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AA3328": {
     "nombre": "Mercadeo agropecuario",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN3001": {
     "nombre": "Microbiología agroalimentaria",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN2002": {
     "nombre": "Agronegocios en el desarrollo rural",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN4009": {
     "nombre": "Mercadeo internacional",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN3003": {
     "nombre": "Gestión contable en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN3009": {
     "nombre": "Diseño experimental en los agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AA3203": {
     "nombre": "Nutrición y agrostología",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN4010": {
     "nombre": "Producción porcina y avícola",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AA4113": {
     "nombre": "Control de calidad de procesos agroindustriales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AN5004": {
     "nombre": "Estrategia empresarial en agronegocios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BI5406": {
     "nombre": "Biología general para entornos laborales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BI1107": {
     "nombre": "Biología para Ingenieria Ambiental",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BI1106": {
     "nombre": "Laboratorio de Biología general para Ingeniería Ambiental",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BI1103": {
     "nombre": "Biología agrícola",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BI1104": {
     "nombre": "Laboratorio de biología agrícola",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BI3410": {
     "nombre": "Ecología y problemática ambiental",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "CM1103": {
     "nombre": "Introducción a la ciencia e ingeniería de los materiales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "CI1405": {
@@ -6227,21 +7508,24 @@
     "nombre": "Destrezas comunicativas del inglés para biotecnología II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "CI1203": {
     "nombre": "Inglés para biotecnología II",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "NE1002": {
     "nombre": "Fundamentos de ecología",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "NE1003": {
@@ -6255,21 +7539,24 @@
     "nombre": "Gestión ambiental agropecuaria",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FI2104": {
     "nombre": "Física general IV",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FI1105": {
     "nombre": "Física para biotecnología",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FI1504": {
@@ -6283,14 +7570,18 @@
     "nombre": "Sociología Rural",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "IS1002": {
     "nombre": "Inglés técnico para agronomía",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1V"
     ]
   },
   "IC8046": {
@@ -6304,28 +7595,34 @@
     "nombre": "Visualización de información",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "CE2201": {
     "nombre": "Laboratorio de circuitos eléctricos",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE3201": {
     "nombre": "Taller de diseño digital",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "CE5507": {
     "nombre": "Modelación hardware/software con orientación a objetos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "CE5508": {
@@ -6339,14 +7636,16 @@
     "nombre": "Introducción a la ingeniería",
     "creditos": 0,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EL5857": {
     "nombre": "Aprendizaje automático",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "MT9009": {
@@ -6360,161 +7659,185 @@
     "nombre": "Administración de calidad",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "PI5706": {
     "nombre": "Evaluación de proyectos de inversión",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "PI3901": {
     "nombre": "Administración de la producción",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "PI4901": {
     "nombre": "Práctica profesional",
     "creditos": 8,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "PI4507": {
     "nombre": "Estrategia operacional",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO3507": {
     "nombre": "Epidemiologia en salud ocupacional",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO3510": {
     "nombre": "Agentes ambientales biológicos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO5903": {
     "nombre": "Gestión ambiental",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO1102": {
     "nombre": "Dibujo e interpretación de planos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO3508": {
     "nombre": "Seguridad contra incendios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO4802": {
     "nombre": "Control de agentes ambientales químicos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO1103": {
     "nombre": "Introducción a la seguridad laboral",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO4402": {
     "nombre": "Gerencia de riesgos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO5905": {
     "nombre": "Gestión integral de desastres",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO4705": {
     "nombre": "Control de los factores psicosociales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO2309": {
     "nombre": "Seguridad en instalaciones y maquinaria",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO3513": {
     "nombre": "Seguridad en procesos industriales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO4703": {
     "nombre": "Evaluación y control de exposición al ambiente térmico",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO5910": {
     "nombre": "Taller de diseño",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO3503": {
     "nombre": "Fundamentos de medicina y toxicología laboral",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO3604": {
     "nombre": "Agentes ambientales químicos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO4801": {
     "nombre": "Gerencia estratégica",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "SO4804": {
     "nombre": "Principios de ergonomía ocupacional",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "QU2301": {
@@ -6535,217 +7858,250 @@
     "nombre": "Seminario de investigación (comunicación visual)",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "ID5506": {
     "nombre": "Seminario de investigación (productos)",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "ID5502": {
     "nombre": "Taller de diseño para la manufactura",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "ID5605": {
     "nombre": "Diseño IX (comunicación visual)",
     "creditos": 5,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "ID5402": {
     "nombre": "Diseño de experiencias de aprendizaje",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "ID4503": {
     "nombre": "Diseño VIII (proyecto de graduación)",
     "creditos": 10,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "ID5604": {
     "nombre": "Manufactura de empaque / embalaje",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "ID5505": {
     "nombre": "Diseño IX (productos)",
     "creditos": 5,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA4010": {
     "nombre": "Diseño de redes para abastecimiento de agua",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA2107": {
     "nombre": "Edafología",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA3010": {
     "nombre": "Suelos y labranza",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA4312": {
     "nombre": "Drenaje superficial",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA4408": {
     "nombre": "Taller de diseño",
     "creditos": 6,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IA5403": {
     "nombre": "Administración de la mecanización agrícola",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA3206": {
     "nombre": "Resistencia de materiales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA1002": {
     "nombre": "Fundamentos de ingeniería agrícola",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA3202": {
     "nombre": "Estadística aplicada",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA3208": {
     "nombre": "Electricidad",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA3302": {
     "nombre": "Topografía",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA2204": {
     "nombre": "Programación aplicada",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA4402": {
     "nombre": "Motores de combustión interna",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA4407": {
     "nombre": "Tractores agrícolas",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA4311": {
     "nombre": "Riego superficial",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA3212": {
     "nombre": "Mecánica de fluidos aplicada",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA2105": {
     "nombre": "Laboratorio de edafología",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IA4307": {
     "nombre": "Diseño estructuras hidráulicas",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG1002": {
     "nombre": "Introducción a plagas agropecuarias",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG1003": {
     "nombre": "Introducción a la agronomía",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG3219": {
     "nombre": "Protección de cultivos I",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG4702": {
     "nombre": "Seminario especializado",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG3222": {
     "nombre": "Mejoramiento genético agropecuario",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG3004": {
@@ -6759,7 +8115,8 @@
     "nombre": "Manejo de suelos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG3224": {
@@ -6773,224 +8130,259 @@
     "nombre": "Sistemas de producción frutícola",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG3106": {
     "nombre": "Sanidad animal",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG5701": {
     "nombre": "Sistemas de producción porcina",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG5222": {
     "nombre": "Seminario de trabajos finales de graduación",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AG3306": {
     "nombre": "Agromática I",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG2701": {
     "nombre": "Administración agropecuaria I",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG5221": {
     "nombre": "Manejo y comercialización de productos agropecuarios",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AG2102": {
     "nombre": "Nutrición animal",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG4700": {
     "nombre": "Sistema de producción hortícola",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG4701": {
     "nombre": "Sistemas de producción de bovinos de carne",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG5405": {
     "nombre": "Preparación y evaluación proyectos agropecuarios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AG3221": {
     "nombre": "Riego y drenaje",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AG2304": {
     "nombre": "Agroestadística I",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO2109": {
     "nombre": "Dendrología tropical",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4001": {
     "nombre": "Bases y principios para la restauración ecológica",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO5121": {
     "nombre": "Restauración del paisaje: áreas urbanas y ecosistemas agropecuarios",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO1103": {
     "nombre": "Introducción a la ingeniería forestal",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO2115": {
     "nombre": "Laboratorio de reproducción de especies forestales",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO2116": {
     "nombre": "Establecimiento de plantaciones forestales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "FO2117": {
     "nombre": "Reproducción de especies forestales",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO2113": {
     "nombre": "Análisis estadístico",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4114": {
     "nombre": "Manejo integrado de plagas",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO3120": {
     "nombre": "Economía forestal",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO5101": {
     "nombre": "Extensión forestal",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO3401": {
     "nombre": "Sistemas de información geográfica",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4203": {
     "nombre": "Hidrología forestal y manejo de cuencas",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4204": {
     "nombre": "Aprovechamiento forestal II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO1104": {
     "nombre": "Laboratorio introducción a la ingeniería forestal",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO5103": {
     "nombre": "Gestión de áreas silvestres",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO2202": {
     "nombre": "Mediciones forestales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO5106": {
     "nombre": "Sistemas agroforestales",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO2114": {
     "nombre": "Ecología forestal",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO5123": {
@@ -7004,21 +8396,24 @@
     "nombre": "Sistemas de gestión ambiental",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4102": {
     "nombre": "Gestión de industrias forestales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4308": {
     "nombre": "Manufactura de productos forestales I",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4441": {
@@ -7032,14 +8427,16 @@
     "nombre": "Política y legislación ambiental",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4201": {
     "nombre": "Ordenación forestal",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4431": {
@@ -7053,14 +8450,16 @@
     "nombre": "Métodos de investigación forestal",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO5218": {
     "nombre": "Crecimiento y rendimiento",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FO4004": {
@@ -7074,14 +8473,18 @@
     "nombre": "Técnicas de identificación y valoración de daño ambiental",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "FH0204": {
     "nombre": "Hablemos de discapacidad",
     "creditos": 0,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "FH0087": {
@@ -7109,14 +8512,16 @@
     "nombre": "El ser humano y la masculinidad",
     "creditos": 0,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1V"
     ]
   },
   "FH0271": {
     "nombre": "De monstruos y vampiros: el horror gótico en Frankenstein y Drácula en la época victoriana",
     "creditos": 0,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1V"
     ]
   },
   "FH0223": {
@@ -7130,7 +8535,9 @@
     "nombre": "Introducción al pensamiento critico",
     "creditos": 0,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1",
+      "2025-1V"
     ]
   },
   "FH0253": {
@@ -7144,21 +8551,24 @@
     "nombre": "Educación en nuestros tiempos",
     "creditos": 0,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1V"
     ]
   },
   "TS1200": {
     "nombre": "Desarrollo humano sostenible",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TS2203": {
     "nombre": "Identidad y patrimonio cultural de Costa Rica",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TR1132": {
@@ -7172,28 +8582,32 @@
     "nombre": "Herramientas tecnológicas para el turismo",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TR1131": {
     "nombre": "Introducción a la gestión del turismo",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "TR4131": {
     "nombre": "Patrimonio turístico rural",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "ST2001": {
     "nombre": "Introducción a la economía del turismo",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "ST2003": {
@@ -7214,7 +8628,8 @@
     "nombre": "Formulación y evaluación de proyectos ambientales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AI6101": {
@@ -7228,7 +8643,8 @@
     "nombre": "Gestión y diseño en tratamiento de residuos sólidos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AI6102": {
@@ -7242,140 +8658,161 @@
     "nombre": "Introducción a la Ingeniería Ambiental",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AI3106": {
     "nombre": "Microbiología ambiental",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AI3107": {
     "nombre": "Operaciones Unitarias",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "AI3105": {
     "nombre": "Laboratorio de microbiología ambiental",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AI3108": {
     "nombre": "Dibujo e interpretación de planos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AI4104": {
     "nombre": "Administración de la energía en la industria",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "AI4306": {
     "nombre": "Recursos energéticos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB4814": {
     "nombre": "Virología molecular de plantas",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2"
     ]
   },
   "IB3202": {
     "nombre": "Cultivos de tejidos I",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB3101": {
     "nombre": "Seminario taller de formulación, evaluación y gestación de proyectos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB4804": {
     "nombre": "Bioinformática para biotecnología",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB3203": {
     "nombre": "Laboratorio de cultivo de tejidos I",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB3802": {
     "nombre": "Manejo biotecnológico de cultivos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB2304": {
     "nombre": "Genética",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB4807": {
     "nombre": "Fundamentos del cultivo de células animales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB4813": {
     "nombre": "Fundamentos de fisiología humana",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB1601": {
     "nombre": "Introducción a la biotecnología",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB2205": {
     "nombre": "Fisiología vegetal",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB2211": {
     "nombre": "Laboratorio de fisiología vegetal",
     "creditos": 2,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB4803": {
     "nombre": "Tratamiento biotecnológico de aguas residuales",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB4001": {
@@ -7389,63 +8826,72 @@
     "nombre": "Laboratorio de genética",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB2106": {
     "nombre": "Laboratorio de microbiología aplicada",
     "creditos": 1,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB2105": {
     "nombre": "Microbiología aplicada",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB4809": {
     "nombre": "Procesos biotecnológicos con el empleo de hongos",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB3204": {
     "nombre": "Ingeniería bioquímica",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IB4505": {
     "nombre": "Sistemas biotecnológicos de producción",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA6144": {
     "nombre": "Informes del contador publico",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA6015": {
     "nombre": "Trabajo final de graduación énfasis administración financiera",
     "creditos": 8,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA5137": {
     "nombre": "Presupuesto y control financiero",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA8005": {
@@ -7459,42 +8905,48 @@
     "nombre": "Estrategias publicitarias",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA7005": {
     "nombre": "Comercio y marketing digital",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA5131": {
     "nombre": "Administración financiera III",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA5228": {
     "nombre": "Sistemas de compensación",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA5135": {
     "nombre": "Contabilidad de costos II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA6145": {
     "nombre": "Consultoría de empresas",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA6148": {
@@ -7508,70 +8960,80 @@
     "nombre": "Trabajo final de graduación énfasis mercadeo",
     "creditos": 8,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA5413": {
     "nombre": "Sistemas de información de mercadeo",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA5136": {
     "nombre": "Auditoría financiera",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "LA6146": {
     "nombre": "Auditoría de las tecnologías de la información II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM5002": {
     "nombre": "Didáctica de las matemáticas I",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM5003": {
     "nombre": "Taller I: algoritmos y programación",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM5004": {
     "nombre": "Introducción al análisis funcional",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "EM5001": {
     "nombre": "Historia de las matemáticas",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "MI5152": {
     "nombre": "Aire acondicionado",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "MI6153": {
     "nombre": "Ahorro energético",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BL1127": {
@@ -7585,28 +9047,32 @@
     "nombre": "Diseño de experimentos para biotecnología",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BL1102": {
     "nombre": "Gestión de la calidad en procesos biotecnológicos",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "BL1126": {
     "nombre": "Bioinformática aplicada",
     "creditos": 4,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF5905": {
     "nombre": "Física de la materia condensada",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF6011": {
@@ -7620,28 +9086,32 @@
     "nombre": "Métodos matemáticos de física e ingeniería II",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF1101": {
     "nombre": "Introducción a la ingeniería física",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF3501": {
     "nombre": "Termodinámica I",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF4703": {
     "nombre": "Análisis de incertidumbres",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF6013": {
@@ -7655,28 +9125,800 @@
     "nombre": "Física contemporánea",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-2",
+      "2025-1"
     ]
   },
   "IF5906": {
     "nombre": "Energía y sus transformaciones",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF5903": {
     "nombre": "Metrología científica",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
     ]
   },
   "IF4702": {
     "nombre": "Física computacional I",
     "creditos": 3,
     "historial": [
-      "2026-1"
+      "2026-1",
+      "2025-1"
+    ]
+  },
+  "MR2701": {
+    "nombre": "Proyecto de graduación I",
+    "creditos": 6,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "MR2516": {
+    "nombre": "Ingeniería genética y bioseguridad",
+    "creditos": 4,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "AU5419": {
+    "nombre": "Laboratorio de arquitectura IX",
+    "creditos": 7,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "AU5310": {
+    "nombre": "Urbanismo ordenamiento territorial III",
+    "creditos": 3,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "AU5420": {
+    "nombre": "Laboratorio de arquitectura X",
+    "creditos": 8,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "AU5443": {
+    "nombre": "Optativa III",
+    "creditos": 2,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "BI2103": {
+    "nombre": "Sistemas ecológicos",
+    "creditos": 3,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "CI2202": {
+    "nombre": "Inglés para turismo sostenible",
+    "creditos": 2,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "CI1403": {
+    "nombre": "Comunicación técnica",
+    "creditos": 2,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "CI1402": {
+    "nombre": "Comunicación educativa II",
+    "creditos": 3,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "IC8068": {
+    "nombre": "Diseño de juegos",
+    "creditos": 3,
+    "historial": [
+      "2025-2",
+      "2025-1",
+      "2025-1V"
+    ]
+  },
+  "IC8050": {
+    "nombre": "Introducción a la biología molecular computacional",
+    "creditos": 3,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "CE5506": {
+    "nombre": "Introducción al reconocimiento de patrones",
+    "creditos": 4,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "CO5057": {
+    "nombre": "Proyecto de graduación",
+    "creditos": 4,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "PI4706": {
+    "nombre": "Investigación de operaciones II",
+    "creditos": 3,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "PI5712": {
+    "nombre": "Producción industrial más limpia",
+    "creditos": 4,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "SO5906": {
+    "nombre": "Electiva",
+    "creditos": 3,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "ID5002": {
+    "nombre": "Introducción al diseño de servicios",
+    "creditos": 3,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "IA3003": {
+    "nombre": "Trabajo final de graduación",
+    "creditos": 7,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "AG3012": {
+    "nombre": "Introducción a la nematología",
+    "creditos": 2,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "AG3010": {
+    "nombre": "Cultivos protegidos",
+    "creditos": 2,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FO3126": {
+    "nombre": "Dendrología tropical II",
+    "creditos": 3,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FO4439": {
+    "nombre": "Dentrología tropical II para la conservación y restauración",
+    "creditos": 3,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FO4436": {
+    "nombre": "Sistemas de información geográfica II para la conservación y restauración",
+    "creditos": 3,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0182": {
+    "nombre": "Lenguaje audiovisual: producción y realización",
+    "creditos": 0,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "FH0068": {
+    "nombre": "Género y juventud como construcciones culturales",
+    "creditos": 0,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0257": {
+    "nombre": "Adecuado manejo del conflicto humano",
+    "creditos": 0,
+    "historial": [
+      "2025-2",
+      "2025-1V"
+    ]
+  },
+  "FH0250": {
+    "nombre": "Introducción a la filosofía a través del cine",
+    "creditos": 0,
+    "historial": [
+      "2025-2",
+      "2025-1V"
+    ]
+  },
+  "FH0175": {
+    "nombre": "Aprendizaje y cognición",
+    "creditos": 0,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0015": {
+    "nombre": "Latinoamérica y su dependencia política y económica",
+    "creditos": 0,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "FH0187": {
+    "nombre": "Derechos fundamentales y sociedad de la información",
+    "creditos": 0,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "FH0190": {
+    "nombre": "Internet, ventana de postmodernidad",
+    "creditos": 0,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0264": {
+    "nombre": "Posverdad, redes sociales y noticias falsas",
+    "creditos": 0,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0219": {
+    "nombre": "Movimientos estudiantiles universitarios",
+    "creditos": 0,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0118": {
+    "nombre": "Aspectos básicos sobre la ley contra la violencia domestica",
+    "creditos": 0,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0002": {
+    "nombre": "Auto estima y proyecto de vida",
+    "creditos": 0,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "FH0249": {
+    "nombre": "Formas actuales de violencia en las relaciones de noviazgo",
+    "creditos": 0,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0221": {
+    "nombre": "Filosofía y los feminismos desde la cotidianidad",
+    "creditos": 0,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "FH0051": {
+    "nombre": "La bomba atómica en Hiroshima y Nagasaki y los esfuerzos de desarme",
+    "creditos": 0,
+    "historial": [
+      "2025-2",
+      "2025-1"
+    ]
+  },
+  "TS1300": {
+    "nombre": "Planificación del turismo",
+    "creditos": 2,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "MI6254": {
+    "nombre": "Sistemas de protección contra incendios a base de agua",
+    "creditos": 4,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "MI5135": {
+    "nombre": "Ventilación industrial",
+    "creditos": 4,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "MI6256": {
+    "nombre": "Redes inteligentes de distribución",
+    "creditos": 4,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "BL1132": {
+    "nombre": "Biotecnología ambiental para el desarrollo",
+    "creditos": 4,
+    "historial": [
+      "2025-2"
+    ]
+  },
+  "AE2704": {
+    "nombre": "Sistemas de información para administración",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "MR2519": {
+    "nombre": "Manejo y conservación de suelos",
+    "creditos": 4,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "MR2534": {
+    "nombre": "Medición y compensación de la huella de carbono",
+    "creditos": 4,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "GP2526": {
+    "nombre": "Estrategias de gestión para proyectos de construcción sostenibles",
+    "creditos": 4,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "GP2515": {
+    "nombre": "Gestión de proyectos y modelos agiles en desarrollo de software",
+    "creditos": 4,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AU5442": {
+    "nombre": "Optativa II",
+    "creditos": 2,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AU5423": {
+    "nombre": "Sitios y monumentos del patrimonio histórico, cultural y social II",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AU5103": {
+    "nombre": "Estudio e investigación en arquitectura y urbanismo III",
+    "creditos": 2,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AE4603": {
+    "nombre": "Trabajo final de graduación",
+    "creditos": 10,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AE4543": {
+    "nombre": "Neuromarketing como estrategia empresarial",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "TI8512": {
+    "nombre": "Desarrollo ágil de aplicaciones web",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "TI8508": {
+    "nombre": "Diseño de dashboards de control para análisis de información",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "CI1401": {
+    "nombre": "Comunicación educativa I",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "CI5108": {
+    "nombre": "Seminario de investigación",
+    "creditos": 2,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "IC8066": {
+    "nombre": "Desarrollo de aplicaciones para dispositivos móviles",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "PI5709": {
+    "nombre": "Logística de almacenes",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "MA4210": {
+    "nombre": "Probabilidad y estadística",
+    "creditos": 4,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AG3011": {
+    "nombre": "Gestión de calidad agroalimentaria",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AG5415": {
+    "nombre": "Fundamentos de procesamiento de productos agrícolas",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FO4435": {
+    "nombre": "Regeneración de bosque natural para la consservación y restauración",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FO4422": {
+    "nombre": "Modelación hidrológica en cuencas hidrográficas",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FO4124": {
+    "nombre": "Productos no maderables del bosque",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FO5122": {
+    "nombre": "Fauna silvestre II",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FO4413": {
+    "nombre": "Evaluación de plantaciones forestales",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FO4002": {
+    "nombre": "Evaluación de impacto ambiental I",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FH0005": {
+    "nombre": "La tragedia shakespeariana",
+    "creditos": 0,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FH0268": {
+    "nombre": "La dimensión humana de la investigación cualitativa",
+    "creditos": 0,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FH0039": {
+    "nombre": "Ética atemporal: enseñanzas del pasado para vivir nuestro futuro",
+    "creditos": 0,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FH0272": {
+    "nombre": "Manifestaciones del racismo en Costa Rica",
+    "creditos": 0,
+    "historial": [
+      "2025-1",
+      "2025-1V"
+    ]
+  },
+  "FH0167": {
+    "nombre": "Análisis del infalible Sherlock Holmes",
+    "creditos": 0,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FH0146": {
+    "nombre": "De Freud al fenómeno bio-psico-social de la sexualidad",
+    "creditos": 0,
+    "historial": [
+      "2025-1",
+      "2025-1V"
+    ]
+  },
+  "FH0212": {
+    "nombre": "Hacia una lectura crítica de los medios: ¿Cómo aprender a enfrentarse mejor a lo que nos dicen los medios?",
+    "creditos": 0,
+    "historial": [
+      "2025-1",
+      "2025-1V"
+    ]
+  },
+  "FH0227": {
+    "nombre": "Estado o mercado: el origen de la discusión ideológica",
+    "creditos": 0,
+    "historial": [
+      "2025-1",
+      "2025-1V"
+    ]
+  },
+  "FH0011": {
+    "nombre": "La revolución científica del siglo XVI y XVII",
+    "creditos": 0,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "FH0228": {
+    "nombre": "América del sur en la narrativa corta contemporánea",
+    "creditos": 0,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AI5904": {
+    "nombre": "Seminario de investigación",
+    "creditos": 4,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AI5304": {
+    "nombre": "Metodología de evaluación de impacto ambiental",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AI4305": {
+    "nombre": "Análisis y diseño experimental para ingeniería ambiental",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "AI5103": {
+    "nombre": "Diseño en instalaciones hidráulicas y sanitarias para edificaciones y urbanizaciones",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "IB4816": {
+    "nombre": "Control y aseguramiento de calidad para la industria",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "LA6147": {
+    "nombre": "Ejercicio de la profesión contable",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "LA8006": {
+    "nombre": "Principios de inversión",
+    "creditos": 4,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "MI6252": {
+    "nombre": "Neumática",
+    "creditos": 4,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "IF6012": {
+    "nombre": "Dinámica de espines y Resonancia Magnética Nuclear",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "IF6008": {
+    "nombre": "Tópicos de astronomía y astrofísica",
+    "creditos": 3,
+    "historial": [
+      "2025-1"
+    ]
+  },
+  "IC8061": {
+    "nombre": "Simulación",
+    "creditos": 3,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "PI1402": {
+    "nombre": "Logística y administración de la cadena de abastecimiento",
+    "creditos": 3,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "PI5713": {
+    "nombre": "Simulación industrial II",
+    "creditos": 3,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0103": {
+    "nombre": "El nuevo aprendizaje - enfoque de la programación neurolingüística",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0185": {
+    "nombre": "La cultura de la alteridad: como respuesta, realidad actual Costa Rica",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0156": {
+    "nombre": "Recrecían, ocio, esparcimiento",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0251": {
+    "nombre": "El universo de Star Wars: entre la ciencia ficción, la política y la mitología",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0262": {
+    "nombre": "Vulnerabilidad: personas mayores, envejecimiento y final de la vida",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0231": {
+    "nombre": "Tres naturalistas \"costarricenses\" Alfaro, Torres, Skutch",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0135": {
+    "nombre": "Mente y cerebro",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0129": {
+    "nombre": "Historia del arte universal",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0211": {
+    "nombre": "El cuento policial",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0154": {
+    "nombre": "Los mitos y búsqueda del héroe",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0061": {
+    "nombre": "Identidad y cultura costarricense",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0198": {
+    "nombre": "Fundamentos de desarrollo sostenible",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0124": {
+    "nombre": "Literatura contemporánea de américa latina",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0088": {
+    "nombre": "Jorge Luis Borges: la vida como literatura",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
+    ]
+  },
+  "FH0086": {
+    "nombre": "Patrimonio identidad y desarrollo",
+    "creditos": 0,
+    "historial": [
+      "2025-1V"
     ]
   }
 }
