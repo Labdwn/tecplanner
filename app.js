@@ -2648,6 +2648,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Editar esta lista para publicar novedades. `id` debe ser único y estable.
 const NEWS_ITEMS = [
+    { id: 'horarios-launch', date: '2026-07-22', title: '📅 Nuevo: Cursos con más Datos',
+      text: 'Ahora se puede visualizar en qué semestre se imparte x curso en su tarjeta respectiva en Planes de Estudio.' },
     { id: 'horarios-launch', date: '2026-07-11', title: '📅 Nuevo: Generador de Horarios',
       text: 'Ahora podés armar tu horario semanal con datos reales del TEC y detección de choques en vivo.' },
 ];
