@@ -982,38 +982,95 @@ function importHorarioJSON(event) {
 }
 
 // =============================================================================
-// 14. EXPORTAR EXACTO (PNG / PDF) — captura literal de la grilla visible
+// 14. EXPORTAR EXACTO (PNG / PDF)
 // =============================================================================
+// html2canvas no soporta bien CSS moderno (color-mix, backdrop-filter, inputs
+// type=color, position:sticky). Por eso NO capturamos el DOM visible: armamos
+// una versión "limpia" de la grilla fuera de pantalla, la capturamos, y la
+// borramos. Esto es mucho más confiable.
 
-// html2canvas no maneja bien "position: sticky" (lo pinta mal ubicado).
-// Antes de capturar lo neutralizamos temporalmente, y lo restauramos después.
-async function prepararGridParaExport() {
-    const grid = document.getElementById('horGrid');
-    if (!grid) return null;
-    grid.querySelectorAll('.hor-cell-header').forEach(el => el.classList.add('hor-export-static'));
-    if (document.fonts && document.fonts.ready) {
-        try { await document.fonts.ready; } catch (e) { /* noop */ }
+function buildExportGridElement() {
+    const dias = horGridConfig.dias;
+    const minH = horGridConfig.horaIni;
+    const maxH = horGridConfig.horaFin;
+    const totalHoras = maxH - minH;
+    const rowH = 28; // px por cada media hora
+
+    const wrap = document.createElement('div');
+    wrap.style.cssText = `
+        position:fixed; left:-99999px; top:0; z-index:-1;
+        width:${70 + dias.length * 150}px;
+        background:#09090b; padding:16px; box-sizing:border-box;
+        font-family:Arial,Helvetica,sans-serif;
+        border:1px solid #333; border-radius:10px;
+    `;
+
+    let html = `<div style="display:grid;
+        grid-template-columns:50px repeat(${dias.length}, 1fr);
+        grid-template-rows:32px repeat(${totalHoras * 2}, ${rowH}px);
+        gap:2px; background:#222;">`;
+
+    html += `<div style="grid-column:1; grid-row:1; background:#18181b;"></div>`;
+    dias.forEach((d, i) => {
+        html += `<div style="grid-column:${i + 2}; grid-row:1; background:#18181b; color:#8257e6;
+            font-weight:bold; font-size:12px; display:flex; align-items:center; justify-content:center;
+            text-transform:uppercase; letter-spacing:0.5px;">${DIA_LABEL[d].slice(0, 3)}</div>`;
+    });
+
+    for (let h = minH; h < maxH; h++) {
+        const row = 2 + (h - minH) * 2;
+        html += `<div style="grid-column:1; grid-row:${row} / span 2; background:#121214; color:#888;
+            font-size:10px; display:flex; align-items:flex-start; justify-content:center; padding-top:2px;">
+            ${String(h).padStart(2, '0')}:00</div>`;
+        dias.forEach((d, i) => {
+            html += `<div style="grid-column:${i + 2}; grid-row:${row} / span 2; background:#0d0d0f;"></div>`;
+        });
     }
-    return grid;
-}
 
-function limpiarGridExport() {
-    document.querySelectorAll('.hor-cell-header.hor-export-static').forEach(el => el.classList.remove('hor-export-static'));
+    horariosCursosElegidos.forEach(s => {
+        parseHorario(s.grupo.horario).forEach(b => {
+            const col = dias.indexOf(b.dia);
+            if (col === -1) return;
+            const bIniH = horasAMin(b.inicio) / 60;
+            const bFinH = horasAMin(b.fin) / 60;
+            if (bFinH <= minH || bIniH >= maxH) return;
+            const startRow = 2 + Math.round((Math.max(bIniH, minH) - minH) * 2);
+            const endRow = 2 + Math.round((Math.min(bFinH, maxH) - minH) * 2);
+            const aulaTxt = s.grupo.aula ? (s.grupo.edificio ? `${s.grupo.edificio}-${s.grupo.aula}` : s.grupo.aula) : '';
+            html += `
+                <div style="grid-column:${col + 2}; grid-row:${startRow} / ${endRow};
+                    background-color:${s.color}; border-radius:4px; border-left:3px solid rgba(0,0,0,0.35);
+                    color:#fff; font-size:10px; padding:4px 6px; margin:1px; overflow:hidden;
+                    box-sizing:border-box; display:flex; flex-direction:column;">
+                    <div style="font-weight:bold; font-size:10.5px; line-height:1.2;">${s.curso.nombre}</div>
+                    <div style="opacity:0.9; font-size:9px; margin-top:2px;">${b.inicio}&#8211;${b.fin}</div>
+                    <div style="opacity:0.85; font-size:8.5px; margin-top:1px;">Gr.${s.grupo.grupo}${aulaTxt ? ' · ' + aulaTxt : ''}</div>
+                </div>`;
+        });
+    });
+
+    html += `</div>`;
+    wrap.innerHTML = html;
+    document.body.appendChild(wrap);
+    return wrap;
 }
 
 async function capturarGridComoCanvas() {
-    const grid = await prepararGridParaExport();
-    if (!grid) return null;
+    if (typeof html2canvas !== 'function') {
+        alert('La librería de exportación aún no cargó. Esperá unos segundos e intentá de nuevo.');
+        return null;
+    }
+    const el = buildExportGridElement();
     try {
-        return await html2canvas(grid, {
+        await new Promise(r => setTimeout(r, 60)); // dejar que el navegador aplique el layout
+        return await html2canvas(el, {
             backgroundColor: '#09090b',
-            scale: Math.min(2, window.devicePixelRatio || 2),
+            scale: 2,
             useCORS: true,
-            allowTaint: true,
             logging: false,
         });
     } finally {
-        limpiarGridExport();
+        el.remove();
     }
 }
 
@@ -1028,12 +1085,16 @@ async function exportHorarioComoImagen() {
         a.click();
     } catch (e) {
         console.error('Error exportando PNG:', e);
-        alert('No se pudo generar la imagen. Intentá de nuevo.');
+        alert('No se pudo generar la imagen. Probá de nuevo.');
     }
 }
 
 async function exportHorarioComoPDF() {
     if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
+    if (typeof window.jspdf === 'undefined') {
+        alert('La librería de PDF aún no cargó. Esperá unos segundos e intentá de nuevo.');
+        return;
+    }
     try {
         const canvas = await capturarGridComoCanvas();
         if (!canvas) return;
@@ -1048,6 +1109,6 @@ async function exportHorarioComoPDF() {
         pdf.save('TecPlanner_Horario.pdf');
     } catch (e) {
         console.error('Error exportando PDF:', e);
-        alert('No se pudo generar el PDF. Intentá de nuevo.');
+        alert('No se pudo generar el PDF. Probá de nuevo.');
     }
 }
