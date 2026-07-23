@@ -1251,7 +1251,7 @@ async function abrirPanelProfesor(nombre, url, cursoCodigo, cursoNombre) {
             </div>
             <div class="modal-footer" style="flex-direction:column; gap:10px;">
                 <a href="${url}" target="_blank" rel="noopener" class="btn-modal btn-confirm"
-                   style="text-decoration:none; text-align:center; display:block;">Ver perfil completo en MisProfesores →</a>
+                   style="text-decoration:none; text-align:center; display:block;">Ver perfil completo en MisProfesTEC →</a>
                 <div style="display:flex; gap:10px; width:100%;">
                     <button class="btn-modal btn-cancel" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
                     <button class="btn-modal btn-cancel" onclick='abrirComparadorProfesores(${JSON.stringify(nombre)}, ${JSON.stringify(cursoCodigo)}, ${JSON.stringify(cursoNombre)})'>⚖️ Comparar</button>

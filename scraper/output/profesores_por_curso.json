@@ -1,0 +1,5060 @@
+{
+  "AA2302": {
+    "nombre": "Contabilidad de costos aplicada",
+    "profesores": [
+      "BRENES NAVARRO DAVID HUMBERTO"
+    ]
+  },
+  "AA3202": {
+    "nombre": "Anatomía y fisiología animal",
+    "profesores": [
+      "VAQUERANO PINEDA FELIPE"
+    ]
+  },
+  "AA4205": {
+    "nombre": "Producción bovina",
+    "profesores": [
+      "VAQUERANO PINEDA FELIPE"
+    ]
+  },
+  "AE1122": {
+    "nombre": "Contabilidad I",
+    "profesores": [
+      "ACEVEDO WHITFORD OSCAR",
+      "BARBOZA DIAZ LINO",
+      "BINNS HERNANDEZ HENRY ALBERTO",
+      "CERVANTES MEZA ALBERTO",
+      "DE LA O CORDERO DYALA",
+      "PEREZ GUTIERREZ ALEXANDER",
+      "SANCHEZ RAMIREZ VANESSA",
+      "VILLEGAS ROJAS ALEXANDER"
+    ]
+  },
+  "AE1205": {
+    "nombre": "Habilidades gerenciales",
+    "profesores": [
+      "VALVERDE MASIS EDUARDO"
+    ]
+  },
+  "AE2124": {
+    "nombre": "Contabilidad III",
+    "profesores": [
+      "ARCE GUTIERREZ SUSAN",
+      "BARBOZA DIAZ LINO",
+      "CERVANTES MEZA ALBERTO",
+      "JOSE ZAMORA JIMENEZ",
+      "MARTINEZ VILLAVICENCIO JOSE",
+      "NUÑEZ ARGUEDAS EVELYN",
+      "RUIZ NAVARRO MARLON",
+      "VILLEGAS ROJAS ALEXANDER"
+    ]
+  },
+  "AE2125": {
+    "nombre": "Matemática financiera",
+    "profesores": [
+      "ACEVEDO WHITFORD OSCAR"
+    ]
+  },
+  "AE2126": {
+    "nombre": "Contabilidad de costos I",
+    "profesores": [
+      "ALLEN MAITLAND KENDRALL",
+      "CERVANTES MEZA ALBERTO",
+      "SOLANO MARTINEZ MAURICIO"
+    ]
+  },
+  "AE2219": {
+    "nombre": "Comportamiento organizacional",
+    "profesores": [
+      "GUERRERO VARGAS LIGIA"
+    ]
+  },
+  "AE2220": {
+    "nombre": "Análisis administrativo",
+    "profesores": [
+      "BRENES SANCHEZ RONALD",
+      "FERNANDEZ AGUILAR JADVY",
+      "GUERRERO VARGAS LIGIA",
+      "JAUBERT SOLANO WILLIAM",
+      "MAROTO CALVO OSCAR",
+      "PIEDRA NAVARRO DAYHANA",
+      "POVEDA MORA JHONNY"
+    ]
+  },
+  "AE2308": {
+    "nombre": "Microeconomía",
+    "profesores": [
+      "GONZALEZ ESPINOZA MANUEL",
+      "ROJAS ESQUIVEL ARMANDO"
+    ]
+  },
+  "AE2311": {
+    "nombre": "Macroeconomía",
+    "profesores": [
+      "ALFARO RAMOS ALFREDO",
+      "CHAVARRIA HIDALGO CARLOS",
+      "TIFFER SOTOMAYOR HAYDEE CELINA"
+    ]
+  },
+  "AE2506": {
+    "nombre": "Estadística II",
+    "profesores": [
+      "CORDOBA ARTAVIA OSCAR",
+      "CORTES MIXTER JULIO",
+      "NAVARRO CERDAS GUSTAVO",
+      "ORTIZ ACUÑA CINDY",
+      "TENORIO SANCHEZ ANA PATRICIA",
+      "WYNTA BANTON RANDY YADIR"
+    ]
+  },
+  "AE2705": {
+    "nombre": "Análisis y gestión de datos empresariales",
+    "profesores": [
+      "RODRIGUEZ BARQUERO  RONNY",
+      "ROJAS RODRIGUEZ GIOVANNY",
+      "VALERIN CASTRO ALEXANDER"
+    ]
+  },
+  "AE3127": {
+    "nombre": "Administración financiera I",
+    "profesores": [
+      "ABREGO CAMPOS LEONEL",
+      "FLETES GALAN WILBERTH",
+      "MORA CRUZ ALEXANDRA",
+      "SOJO CASTRO MARJORIE"
+    ]
+  },
+  "AE3128": {
+    "nombre": "Administración financiera II",
+    "profesores": [
+      "ACEVEDO WHITFORD OSCAR",
+      "ARAYA LEANDRO ARNOLDO",
+      "PEREZ GUTIERREZ ALEXANDER"
+    ]
+  },
+  "AE3223": {
+    "nombre": "Gestión del talento humano I",
+    "profesores": [
+      "BROWN RICHARDS ENOS",
+      "FERNANDEZ AGUILAR JADVY",
+      "MAROTO CALVO OSCAR",
+      "MONGE DAVANZO YAFANNY"
+    ]
+  },
+  "AE3312": {
+    "nombre": "Negocios internacionales",
+    "profesores": [
+      "CHAVARRIA HIDALGO CARLOS",
+      "TIFFER SOTOMAYOR HAYDEE CELINA"
+    ]
+  },
+  "AE3414": {
+    "nombre": "Fundamentos de mercadeo",
+    "profesores": [
+      "GUZMAN RIVERA DIEGO ANDRES",
+      "PEREZ OROZCO ALLAN JOSE"
+    ]
+  },
+  "AE3415": {
+    "nombre": "Investigación de mercados",
+    "profesores": [
+      "CUBILLO SALAS GUSTAVO",
+      "GARITA ALPIZAR PABLO",
+      "GUZMAN RIVERA DIEGO ANDRES",
+      "MARTINEZ MORA MARCO",
+      "PEREZ OROZCO ALLAN JOSE",
+      "SOLIS RAMIREZ INGRID"
+    ]
+  },
+  "AE3505": {
+    "nombre": "Metodología de la investigación",
+    "profesores": [
+      "BRENES SANCHEZ RONALD",
+      "DE LA O CORDERO DYALA",
+      "FAITH VARGAS MARGIE",
+      "GARITA ALPIZAR PABLO",
+      "MORA CRUZ ALEXANDRA",
+      "MORA ESQUIVEL RONALD",
+      "RODRIGUEZ BARQUERO  RONNY",
+      "ROJAS SEGURA JAVIER"
+    ]
+  },
+  "AE3551": {
+    "nombre": "Administración de proyectos",
+    "profesores": [
+      "VIQUEZ PANIAGUA ANA GABRIELA"
+    ]
+  },
+  "AE3552": {
+    "nombre": "Métodos cuantitativos para administración",
+    "profesores": [
+      "LEANDRO ELIZONDO RONALD"
+    ]
+  },
+  "AE4128": {
+    "nombre": "Auditoría I",
+    "profesores": [
+      "ARAYA LEANDRO ARNOLDO",
+      "JOSE ZAMORA JIMENEZ"
+    ]
+  },
+  "AE4130": {
+    "nombre": "Formulación y evaluación de proyectos",
+    "profesores": [
+      "DE LA O TORRES MARVIN",
+      "DIAZ GUTIERREZ CARLOS",
+      "MARTINEZ GUTIERREZ BERNAL"
+    ]
+  },
+  "AE4208": {
+    "nombre": "Desarrollo de emprendedores",
+    "profesores": [
+      "BRENES CERVANTES IVANNIA",
+      "CORDOBA ARTAVIA OSCAR",
+      "FAITH VARGAS MARGIE",
+      "GARITA GRANADOS CARLA",
+      "GUILLEN MIRANDA ERICK",
+      "LEANDRO ELIZONDO RONALD",
+      "PEREZ OROZCO ALLAN JOSE"
+    ]
+  },
+  "AE4226": {
+    "nombre": "Estrategia empresarial",
+    "profesores": [
+      "CORDERO CASTILLO DAMARIS",
+      "GUILLEN MIRANDA ERICK",
+      "PIEDRA NAVARRO DAYHANA"
+    ]
+  },
+  "AE4228": {
+    "nombre": "Gestión del talento humano II",
+    "profesores": [
+      "BARRANTES BARRANTES EILYN",
+      "FERRETO GUTIERREZ EUGENIA",
+      "MAROTO CALVO OSCAR"
+    ]
+  },
+  "AE4312": {
+    "nombre": "Macroeconomía",
+    "profesores": [
+      "SANDOVAL VASQUEZ JOSE FULVIO"
+    ]
+  },
+  "AE4541": {
+    "nombre": "Impuestos en Costa Rica",
+    "profesores": [
+      "DUARTE NUÑEZ KAREN MELISSA"
+    ]
+  },
+  "AE4544": {
+    "nombre": "Analítica de negocio",
+    "profesores": [
+      "ORTIZ ACUÑA CINDY"
+    ]
+  },
+  "AE4548": {
+    "nombre": "Creatividad e innovación empresarial",
+    "profesores": [
+      "LEIVA BONILLA JUAN CARLOS"
+    ]
+  },
+  "AE4549": {
+    "nombre": "Neuromarketing y neurociencia",
+    "profesores": [
+      "GARITA ALPIZAR PABLO"
+    ]
+  },
+  "AE5111": {
+    "nombre": "Contabilidad y finanzas",
+    "profesores": [
+      "MASIS ARCE ALEJANDRO"
+    ]
+  },
+  "AE5121": {
+    "nombre": "Ingeniería económica",
+    "profesores": [
+      "MARTINEZ GUTIERREZ BERNAL",
+      "PRADO ARROYO JOSE",
+      "THAMES RAMIREZ KARLA"
+    ]
+  },
+  "AE5122": {
+    "nombre": "Ingeniería financiera",
+    "profesores": [
+      "MASIS ARCE ALEJANDRO"
+    ]
+  },
+  "AG2101": {
+    "nombre": "Anatomía y fisiología animal para agronomía",
+    "profesores": [
+      "GALINDO BADILLA JAIME"
+    ]
+  },
+  "AG2201": {
+    "nombre": "Fisiología vegetal",
+    "profesores": [
+      "ECHEVERRIA BEIRUTE FABIAN"
+    ]
+  },
+  "AG2203": {
+    "nombre": "Edafología",
+    "profesores": [
+      "ESQUIVEL SEGURA EDWIN"
+    ]
+  },
+  "AG2305": {
+    "nombre": "Agroclimatología",
+    "profesores": []
+  },
+  "AG2702": {
+    "nombre": "Administración agropecuaria II",
+    "profesores": [
+      "OBANDO ULLOA JAVIER"
+    ]
+  },
+  "AG3107": {
+    "nombre": "Reproducción animal",
+    "profesores": [
+      "VALVERDE ABARCA ANTHONNY"
+    ]
+  },
+  "AG3109": {
+    "nombre": "Agrostología",
+    "profesores": [
+      "OROZCO CORRALES CARLOS"
+    ]
+  },
+  "AG3223": {
+    "nombre": "Protección de cultivos II",
+    "profesores": [
+      "DURAN MORA JOAQUIN"
+    ]
+  },
+  "AG3403": {
+    "nombre": "Mecanización agrícola",
+    "profesores": [
+      "SALAZAR MORERA RODOLFO"
+    ]
+  },
+  "AG3405": {
+    "nombre": "Agroestadística II",
+    "profesores": [
+      "VEGA ALFARO ANDREY"
+    ]
+  },
+  "AG4409": {
+    "nombre": "Acromática II",
+    "profesores": [
+      "MORALES ARIAS JONATHAN"
+    ]
+  },
+  "AG4703": {
+    "nombre": "Sistemas de producción de cultivos perennes",
+    "profesores": [
+      "ESQUIVEL SEGURA EDWIN"
+    ]
+  },
+  "AG4704": {
+    "nombre": "Sistemas de producción de bovinos de leche",
+    "profesores": [
+      "MOLINA MONTERO RAFAEL"
+    ]
+  },
+  "AG4705": {
+    "nombre": "Sistemas de producción de granos básicos",
+    "profesores": [
+      "FALLAS ALVAREZ ERICK"
+    ]
+  },
+  "AG4706": {
+    "nombre": "Sistemas de producción avícola",
+    "profesores": [
+      "MADRIGAL VALVERDE MONICA"
+    ]
+  },
+  "AI2101": {
+    "nombre": "Análisis estadístico para Ingeniería Ambiental",
+    "profesores": [
+      "ROMERO BLANCO ERIC"
+    ]
+  },
+  "AI2401": {
+    "nombre": "Análisis topográfico en Ingeniería Ambiental",
+    "profesores": [
+      "SOTO MONTOYA CASIA"
+    ]
+  },
+  "AI3104": {
+    "nombre": "Ecosaneamiento ambiental",
+    "profesores": [
+      "PINO GOMEZ MACARIO"
+    ]
+  },
+  "AI3109": {
+    "nombre": "Laboratorio de tratamiento de agua potable y residual",
+    "profesores": [
+      "CABALLERO CHAVARRIA ANDREY"
+    ]
+  },
+  "AI3110": {
+    "nombre": "Diseño de sistemas de potabilización de agua",
+    "profesores": [
+      "PINO GOMEZ MACARIO"
+    ]
+  },
+  "AI3111": {
+    "nombre": "Administración de proyectos de infraestructura ambiental",
+    "profesores": [
+      "CAMPOS NAVARRO JUAN PABLO"
+    ]
+  },
+  "AI3112": {
+    "nombre": "Diseño y tratamiento de aguas residuales",
+    "profesores": [
+      "BARRIOS HERNANDEZ MARYLUZ"
+    ]
+  },
+  "AI3208": {
+    "nombre": "Hidráulica para ingeniería ambiental",
+    "profesores": [
+      "UMAÑA QUIROS BRAULIO"
+    ]
+  },
+  "AI3209": {
+    "nombre": "Hidrología",
+    "profesores": [
+      "PICADO VALVERDE SOFIA"
+    ]
+  },
+  "AI3212": {
+    "nombre": "Termodinámica y cinética ambiental",
+    "profesores": [
+      "CESPEDES CAMACHO ISAAC FABIAN"
+    ]
+  },
+  "AI4102": {
+    "nombre": "Ingeniería en emisiones atmosféricas",
+    "profesores": [
+      "QUESADA CARVAJAL LAURA"
+    ]
+  },
+  "AI4103": {
+    "nombre": "Laboratorio de ingeniería en emisiones atmosféricas",
+    "profesores": [
+      "CABALLERO CHAVARRIA ANDREY"
+    ]
+  },
+  "AI5104": {
+    "nombre": "Análisis y diseño experimental para Ingeniería Ambiental",
+    "profesores": [
+      "ROMERO BLANCO ERIC"
+    ]
+  },
+  "AI5105": {
+    "nombre": "Consumo y producción sostenible",
+    "profesores": [
+      "VALERIO PEREZ LUIS GUILLERMO"
+    ]
+  },
+  "AI5106": {
+    "nombre": "Gestión ambiental",
+    "profesores": [
+      "ACUÑA PIEDRA ANDREA"
+    ]
+  },
+  "AI5107": {
+    "nombre": "Mecánica de suelos para Ingeniería Ambiental",
+    "profesores": [
+      "MASIS MELENDEZ FEDERICO"
+    ]
+  },
+  "AI6104": {
+    "nombre": "Seguridad y salud ocupacional en Ingeniería Ambiental",
+    "profesores": [
+      "ARIAS MONGE ESTEBAN DAVID"
+    ]
+  },
+  "AI6105": {
+    "nombre": "Evaluación de impacto ambiental",
+    "profesores": [
+      "HERNANDEZ TORRES HAZEL MARIA"
+    ]
+  },
+  "AI6108": {
+    "nombre": "Introducción a la ciencia de los polímeros",
+    "profesores": [
+      "STARBIRD PEREZ RICARDO"
+    ]
+  },
+  "AI6109": {
+    "nombre": "Cambio climático, adaptación y mitigación",
+    "profesores": [
+      "ARAYA VARELA KAREN"
+    ]
+  },
+  "AI6111": {
+    "nombre": "Ingeniería urbana sostenible",
+    "profesores": [
+      "HERNANDEZ PARRA DAVID"
+    ]
+  },
+  "AI6115": {
+    "nombre": "Energías renovables",
+    "profesores": [
+      "VALERIO PEREZ LUIS GUILLERMO"
+    ]
+  },
+  "AI6116": {
+    "nombre": "Toxicología",
+    "profesores": [
+      "MONTERO CAMPOS VIRGINIA"
+    ]
+  },
+  "AN1004": {
+    "nombre": "Gestión en agronegocios",
+    "profesores": [
+      "GAMBOA MURILLO MARIANELA",
+      "MONGE GONZALEZ MANUEL"
+    ]
+  },
+  "AN2003": {
+    "nombre": "Bioquímica agroalimentaria",
+    "profesores": [
+      "GUADAMUZ MAYORGA CAROLINA"
+    ]
+  },
+  "AN2004": {
+    "nombre": "Laboratorio de bioquímica agroalimentaria",
+    "profesores": [
+      "CHAVES ABARCA RANDALL"
+    ]
+  },
+  "AN3004": {
+    "nombre": "Fundamentos de agroindustria alimentaria",
+    "profesores": [
+      "GOMEZ CORDOBA CARLOS EDUARDO"
+    ]
+  },
+  "AN3005": {
+    "nombre": "Finanzas en agronegocios",
+    "profesores": [
+      "MASIS JIMENEZ MANUEL"
+    ]
+  },
+  "AN3006": {
+    "nombre": "Investigación de operaciones en agronegocios",
+    "profesores": [
+      "BRENES MORALES ORLANDO"
+    ]
+  },
+  "AN3007": {
+    "nombre": "Cultivos hortícolas",
+    "profesores": [
+      "CALDERON CERDAS RUBEN ALFONSO"
+    ]
+  },
+  "AN3008": {
+    "nombre": "Probabilidad y estadísticas en los agronegocios",
+    "profesores": [
+      "UREÑA JIMENEZ RONALD ANDREY"
+    ]
+  },
+  "AN4002": {
+    "nombre": "Mercadeo productos agroindustriales",
+    "profesores": [
+      "MONGE GONZALEZ MANUEL"
+    ]
+  },
+  "AN4005": {
+    "nombre": "Procesado productos pecuarios",
+    "profesores": [
+      "GAMBOA MURILLO MARIANELA"
+    ]
+  },
+  "AN4006": {
+    "nombre": "Gestión ambiental en agronegocios",
+    "profesores": [
+      "CAMPOS RODRIGUEZ ROOEL"
+    ]
+  },
+  "AN4007": {
+    "nombre": "Cultivos no tradicionales y tecnologías alternativas",
+    "profesores": [
+      "CALDERON CERDAS RUBEN ALFONSO"
+    ]
+  },
+  "AN4008": {
+    "nombre": "Sistematización de datos en agronegocios",
+    "profesores": [
+      "GOMEZ GUTIERREZ MARCO VINICIO",
+      "SANABRIA COTO CRISTIAN"
+    ]
+  },
+  "AN7001": {
+    "nombre": "Gestión de certificaciones en agronegocios",
+    "profesores": [
+      "VILLAREAL MARCHENA TANIA"
+    ]
+  },
+  "AU1303": {
+    "nombre": "Historia del arte y la arquitectura I",
+    "profesores": [
+      "CHAVERRI FLORES LAURA",
+      "MALAVASSI AGUILAR ROSA ELENA"
+    ]
+  },
+  "AU1501": {
+    "nombre": "Laboratorio de proyectos II, Composición arquitectural",
+    "profesores": [
+      "CHANG ALBIZUREZ DOMINIQUE",
+      "HERNANDEZ SALAZAR ILEANA"
+    ]
+  },
+  "AU1502": {
+    "nombre": "Introducción a la investigación",
+    "profesores": [
+      "GARCIA BALTODANO KENIA",
+      "PORRAS ALFARO DAVID"
+    ]
+  },
+  "AU1503": {
+    "nombre": "Composición arquitectónica I",
+    "profesores": [
+      "AVILA ZAMORA ANDREA",
+      "CASTRO CHACON ESTEBAN"
+    ]
+  },
+  "AU1701": {
+    "nombre": "Laboratorio de proyectos IV, espacio arquitectónico",
+    "profesores": [
+      "CASTRO CHACON ESTEBAN"
+    ]
+  },
+  "AU1702": {
+    "nombre": "Sistemas de representación digital I",
+    "profesores": [
+      "SOLIS GARCIA MARCO"
+    ]
+  },
+  "AU1703": {
+    "nombre": "Sistemas de construcción I",
+    "profesores": [
+      "YGLESIAS CUADRA ROBERTO"
+    ]
+  },
+  "AU1704": {
+    "nombre": "Diseño bioclimático",
+    "profesores": [
+      "VALERIO ALFARO DANILO"
+    ]
+  },
+  "AU1901": {
+    "nombre": "Laboratorio de proyectos VI, Sostenibilidad",
+    "profesores": [
+      "SALAZAR CECILIANO ENMANUEL"
+    ]
+  },
+  "AU1902": {
+    "nombre": "Instalaciones eléctricas",
+    "profesores": [
+      "VALVERDE MADRIZ LUIS"
+    ]
+  },
+  "AU1903": {
+    "nombre": "Sistemas ambientales arquitectónicos I",
+    "profesores": [
+      "AVILA ZAMORA ANDREA"
+    ]
+  },
+  "AU1904": {
+    "nombre": "Composición urbana I",
+    "profesores": [
+      "CALDERON ACUÑA ERICK"
+    ]
+  },
+  "AU2005": {
+    "nombre": "Laboratorio de proyectos VIII, diseño integral",
+    "profesores": [
+      "AZOFEIFA ORTIZ CARLOS"
+    ]
+  },
+  "AU2006": {
+    "nombre": "Planos y especificaciones técnicas",
+    "profesores": [
+      "CABRERA SANDOVAL MARCO"
+    ]
+  },
+  "AU2103": {
+    "nombre": "Historia de arte y arquitectura de Costa Rica",
+    "profesores": [
+      "MALAVASSI AGUILAR ROSA ELENA"
+    ]
+  },
+  "AU3106": {
+    "nombre": "Teoría de la arquitectura II",
+    "profesores": [
+      "JIMENEZ ZUÑIGA LUIS GUILLERMO"
+    ]
+  },
+  "AU4003": {
+    "nombre": "Planificación urbana y territorial aplicadas",
+    "profesores": [
+      "MARTINEZ BALDARES TOMAS"
+    ]
+  },
+  "AU4004": {
+    "nombre": "Investigación dirigida",
+    "profesores": [
+      "GUEVARA MURILLO MAURICIO"
+    ]
+  },
+  "AU4108": {
+    "nombre": "Teoría e historia urbanismo II",
+    "profesores": [
+      "MADRIGAL JIMENEZ VICTOR HUGO"
+    ]
+  },
+  "AU4408": {
+    "nombre": "Urbanismo ordenamiento territorial I",
+    "profesores": [
+      "BULGARELLI BOLAÑOS JOSE PABLO"
+    ]
+  },
+  "AU4533": {
+    "nombre": "Práctica de vinculación",
+    "profesores": [
+      "GUEVARA MURILLO MAURICIO"
+    ]
+  },
+  "AU5001": {
+    "nombre": "Laboratorio de proyectos X: Diseño arquitectónico",
+    "profesores": [
+      "OROZCO MUÑOZ SEBASTIAN"
+    ]
+  },
+  "AU5002": {
+    "nombre": "Laboratorio de proyectos X: Diseño urbano",
+    "profesores": [
+      "MARTINEZ BALDARES TOMAS"
+    ]
+  },
+  "AU5408": {
+    "nombre": "Proyecto de graduación",
+    "profesores": [
+      "MALAVASSI AGUILAR ROSA ELENA"
+    ]
+  },
+  "BI1101": {
+    "nombre": "Biología general",
+    "profesores": [
+      "JIMENEZ MADRIGAL JOSE PABLO",
+      "SOLERA STELLER PAOLA MARIA"
+    ]
+  },
+  "BI1102": {
+    "nombre": "Laboratorio de biología general",
+    "profesores": [
+      "GATJENS BONICHE OMAR",
+      "SOLERA STELLER PAOLA MARIA"
+    ]
+  },
+  "BI1201": {
+    "nombre": "Botánica general",
+    "profesores": [
+      "RAMIREZ PEREZ KARINA"
+    ]
+  },
+  "BI1202": {
+    "nombre": "Laboratorio botánica general",
+    "profesores": [
+      "RAMIREZ PEREZ KARINA"
+    ]
+  },
+  "BI2301": {
+    "nombre": "Genética",
+    "profesores": [
+      "GATJENS BONICHE OMAR"
+    ]
+  },
+  "BI2303": {
+    "nombre": "Laboratorio de genética",
+    "profesores": [
+      "GATJENS BONICHE OMAR"
+    ]
+  },
+  "BI2408": {
+    "nombre": "Fundamentos de agroecología",
+    "profesores": [
+      "MAGLIANESI MARIA ALEJANDRA"
+    ]
+  },
+  "BL1124": {
+    "nombre": "Control de calidad aplicado a las empresas de manufactura de dispositivos médicos",
+    "profesores": [
+      "MONTERO CAMPOS VIRGINIA"
+    ]
+  },
+  "BL1130": {
+    "nombre": "Introducción a la programación para biotecnología",
+    "profesores": [
+      "TREJOS ESPINOZA RAUL"
+    ]
+  },
+  "BL1131": {
+    "nombre": "Auditorías a sistemas de calidad",
+    "profesores": [
+      "MONTERO CAMPOS VIRGINIA"
+    ]
+  },
+  "BL1133": {
+    "nombre": "Gerencia técnica de la calidad basada en INTE-ISO 17025:2017",
+    "profesores": [
+      "MONTERO CAMPOS VIRGINIA"
+    ]
+  },
+  "BL1201": {
+    "nombre": "Metodologías de investigación",
+    "profesores": [
+      "CHICAS ROMERO MAURICIO"
+    ]
+  },
+  "CA2125": {
+    "nombre": "Elementos de computación",
+    "profesores": [
+      "BOGARIN NAVARRO RODRIGO",
+      "CAMPOS FERNANDEZ IVAN",
+      "CASTRO ROLDAN MARVIN",
+      "CERDAS QUESADA IVANNIA",
+      "COTO SARMIENTO LAURA",
+      "HERNANDEZ SIBAJA BRYAN",
+      "MATA RODRIGUEZ WILLIAM",
+      "NAVAS SU JOSE DOLORES",
+      "QUIROS RAMIREZ FRANCO",
+      "SOLIS PARAJELES JONATHAN",
+      "VILLALOBOS ARIAS LUIS ROBERTO"
+    ]
+  },
+  "CA3125": {
+    "nombre": "Análisis y diseño de algoritmos",
+    "profesores": [
+      "ALVAREZ GRIJALBA WALTER",
+      "ARCE OROZCO ARMANDO",
+      "BOGARIN NAVARRO RODRIGO",
+      "GARRO ABARCA VICTOR",
+      "HERNANDEZ SIBAJA BRYAN",
+      "ROJAS VEGA DIEGO"
+    ]
+  },
+  "CE1101": {
+    "nombre": "Introducción a la programación",
+    "profesores": [
+      "SCHMIDT PERALTA JEFF"
+    ]
+  },
+  "CE1103": {
+    "nombre": "Algoritmos y estructuras de datos I",
+    "profesores": [
+      "BARBOZA ARTAVIA LUIS",
+      "GAMBOA RAMIREZ SANTIAGO"
+    ]
+  },
+  "CE1104": {
+    "nombre": "Fundamentos de sistemas computacionales",
+    "profesores": [
+      "VILLEGAS LEMUS MILTON"
+    ]
+  },
+  "CE1105": {
+    "nombre": "Principios de modelado en Ingeniería",
+    "profesores": [
+      "HERNANDEZ VASQUEZ MARCO",
+      "MORA ROJAS DIEGO",
+      "RIVERA MENESES MARCO"
+    ]
+  },
+  "CE1106": {
+    "nombre": "Paradigmas de programación",
+    "profesores": [
+      "BARBOZA ARTAVIA LUIS",
+      "GAMBOA RAMIREZ SANTIAGO"
+    ]
+  },
+  "CE1107": {
+    "nombre": "Fundamentos de Arquitectura de Computadores",
+    "profesores": [
+      "CHAVARRIA ZAMORA LUIS"
+    ]
+  },
+  "CE1108": {
+    "nombre": "Compiladores e intérpretes",
+    "profesores": [
+      "LEITON JIMENEZ JASON"
+    ]
+  },
+  "CE1109": {
+    "nombre": "Circuitos analógicos",
+    "profesores": [
+      "ARAYA RODRIGUEZ LISANDRO"
+    ]
+  },
+  "CE1110": {
+    "nombre": "Análisis de señales mixtas",
+    "profesores": [
+      "CHAVARRIA ZAMORA LUIS"
+    ]
+  },
+  "CE1111": {
+    "nombre": "Análisis numérico para la Ingeniería",
+    "profesores": [
+      "SOTO QUIROS JUAN PABLO"
+    ]
+  },
+  "CE1112": {
+    "nombre": "Taller de señales mixtas",
+    "profesores": [
+      "CHAVARRIA ZAMORA LUIS"
+    ]
+  },
+  "CE1113": {
+    "nombre": "Sistemas empotrados",
+    "profesores": [
+      "GONZALEZ GOMEZ JEFERSON"
+    ]
+  },
+  "CE1114": {
+    "nombre": "Proyecto de aplicación de la ingeniería en computadores",
+    "profesores": [
+      "NOGUERA MENA LUIS DIEGO"
+    ]
+  },
+  "CE1115": {
+    "nombre": "Seguridad de la información",
+    "profesores": [
+      "VARGAS RIVERA ANDRES"
+    ]
+  },
+  "CE1116": {
+    "nombre": "Diseño y calidad en productos tecnológicos",
+    "profesores": [
+      "MADRIZ HUERTAS DANIEL"
+    ]
+  },
+  "CE1117": {
+    "nombre": "Formulación y Gestión de Proyectos",
+    "profesores": [
+      "SOLANO CORDERO JENNIER"
+    ]
+  },
+  "CE2103": {
+    "nombre": "Algoritmos y estructuras de datos II",
+    "profesores": [
+      "RAMIREZ HERRERA JOSE ISAAC"
+    ]
+  },
+  "CE3101": {
+    "nombre": "Bases de datos",
+    "profesores": [
+      "RIVERA MENESES MARCO"
+    ]
+  },
+  "CE4301": {
+    "nombre": "Arquitectura de computadores I",
+    "profesores": [
+      "GONZALEZ GOMEZ JEFERSON"
+    ]
+  },
+  "CE4302": {
+    "nombre": "Arquitectura de computadores II",
+    "profesores": [
+      "BARBOZA ARTAVIA LUIS",
+      "CHAVARRIA ZAMORA LUIS"
+    ]
+  },
+  "CE4303": {
+    "nombre": "Principios de sistemas operativos",
+    "profesores": [
+      "BARBOZA ARTAVIA LUIS"
+    ]
+  },
+  "CE5301": {
+    "nombre": "Redes de computadores",
+    "profesores": [
+      "TACSAN CHAVES RODOLFO"
+    ]
+  },
+  "CE5600": {
+    "nombre": "Trabajo final de graduación",
+    "profesores": [
+      "SOLANO CORDERO JENNIER"
+    ]
+  },
+  "CE5601": {
+    "nombre": "Trabajo final de graduación",
+    "profesores": [
+      "SOLANO CORDERO JENNIER"
+    ]
+  },
+  "CI0202": {
+    "nombre": "Inglés básico",
+    "profesores": [
+      "ALBERTAZZI OSORIO SONIA",
+      "GOMEZ MONTOYA CARLOS ANDRES",
+      "HERNÁNDEZ SALAZAR GABRIELA",
+      "KENNEDY RUSSELL ANA",
+      "MURILLO ESCALANTE ROCIO",
+      "PEREZ PEREZ MARLON",
+      "RIVERA VEGA KATERINE",
+      "VALLECILLO ALFARO JOHANNY",
+      "VILLEGAS SALAS SONIA",
+      "VINDAS FERNANDEZ NURIA"
+    ]
+  },
+  "CI1106": {
+    "nombre": "Comunicación escrita",
+    "profesores": [
+      "AMADOR SOLANO GABRIELA",
+      "CORELLA ESQUIVEL KARINA",
+      "QUIROS LEIVA RANDALL",
+      "RIOS SANCHEZ ARMANDO",
+      "ROMERO ALVAREZ ERICKA"
+    ]
+  },
+  "CI1107": {
+    "nombre": "Comunicación oral",
+    "profesores": [
+      "AMADOR SOLANO GABRIELA",
+      "CASTILLO RODRIGUEZ LARISSA",
+      "CORELLA ESQUIVEL KARINA",
+      "GODINEZ ROJAS PAULETTE",
+      "MORALES GARAY SARAY",
+      "PEREZ ROJAS NELSON",
+      "QUIROS LEIVA RANDALL",
+      "RIOS SANCHEZ ARMANDO",
+      "RODRIGUEZ HERRA NATALIA",
+      "ROJAS MARIN ANGIE",
+      "ROMERO ALVAREZ ERICKA",
+      "SALAS ACUÑA ERICK",
+      "SHILTAGH PRADA DIMITRI",
+      "SOLANO MORAGA SIGRID",
+      "ZUÑIGA RIVERA MONICA"
+    ]
+  },
+  "CI1108": {
+    "nombre": "Destrezas comunicativas del inglés para biotecnología I",
+    "profesores": [
+      "BLACKWOOD BARRETT AISHA JOHANNA"
+    ]
+  },
+  "CI1202": {
+    "nombre": "Inglés para biotecnología I",
+    "profesores": [
+      "RIVERA VEGA KATERINE"
+    ]
+  },
+  "CI1230": {
+    "nombre": "Inglés I",
+    "profesores": [
+      "ALBERTAZZI OSORIO SONIA",
+      "BRENES ROJAS LEONARDO",
+      "FLORES CALDERON ARDUI",
+      "GOMEZ MONTOYA CARLOS ANDRES",
+      "GUILLEN JIMENEZ LUIS DIEGO",
+      "HERNANDEZ ROMERO MIGUEL ANGEL",
+      "HERRERA JIMENEZ INGRID",
+      "MOLINA VILLALOBOS TANIA",
+      "PEREZ PEREZ MARLON",
+      "RAMIREZ CASTRO MONSERRAT",
+      "SOLANO SOLANO JOSE EDUARDO",
+      "VILLEGAS SALAS SONIA"
+    ]
+  },
+  "CI1231": {
+    "nombre": "Inglés II",
+    "profesores": [
+      "ALBERTAZZI OSORIO SONIA",
+      "BRENES ROJAS LEONARDO",
+      "FUENTES MORA ESTEBAN",
+      "GOMEZ MONTOYA CARLOS ANDRES",
+      "HERNANDEZ ROMERO MIGUEL ANGEL",
+      "HERNÁNDEZ SALAZAR GABRIELA",
+      "HERRERA JIMENEZ INGRID",
+      "KENNEDY RUSSELL ANA",
+      "MURILLO ESCALANTE ROCIO",
+      "RAMIREZ LOPEZ MICHELLE",
+      "RIVERA VEGA KATERINE",
+      "SOLANO OBANDO MABEL",
+      "VALLECILLO ALFARO JOHANNY",
+      "VILLEGAS SALAS SONIA"
+    ]
+  },
+  "CI1305": {
+    "nombre": "Inglés I para administración",
+    "profesores": [
+      "BRENES ROJAS LEONARDO",
+      "KENNEDY RUSSELL ANA",
+      "PEREZ PEREZ MARLON",
+      "RAMIREZ CASTRO MONSERRAT",
+      "RAMIREZ LOPEZ MICHELLE"
+    ]
+  },
+  "CI1306": {
+    "nombre": "Inglés II para administración",
+    "profesores": [
+      "HERNANDEZ ROMERO MIGUEL ANGEL",
+      "MOLINA VILLALOBOS TANIA",
+      "SOLANO SOLANO JOSE EDUARDO"
+    ]
+  },
+  "CI1406": {
+    "nombre": "Argumentación e investigación en comunicación académica",
+    "profesores": []
+  },
+  "CI1407": {
+    "nombre": "Habilidades de comunicación en Ingeniería",
+    "profesores": [
+      "CAMACHO ARIAS ARIADNE",
+      "GODINEZ ROJAS PAULETTE",
+      "MORALES GARAY SARAY"
+    ]
+  },
+  "CI2307": {
+    "nombre": "Inglés III para administración",
+    "profesores": [
+      "HERNÁNDEZ SALAZAR GABRIELA",
+      "MURILLO ESCALANTE ROCIO"
+    ]
+  },
+  "CI2308": {
+    "nombre": "Inglés IV para administración",
+    "profesores": [
+      "FLORES CALDERON ARDUI",
+      "FUENTES MORA ESTEBAN"
+    ]
+  },
+  "CI3202": {
+    "nombre": "Inglés para mecatrónica",
+    "profesores": [
+      "FUENTES MORA ESTEBAN"
+    ]
+  },
+  "CI3203": {
+    "nombre": "Inglés especializado para ingenierías en computadores",
+    "profesores": [
+      "JIMENEZ RODRIGUEZ ROXANA"
+    ]
+  },
+  "CI3400": {
+    "nombre": "Inglés 1 (ATI)",
+    "profesores": [
+      "VINDAS FERNANDEZ NURIA"
+    ]
+  },
+  "CI4401": {
+    "nombre": "Inglés II (ATI)",
+    "profesores": [
+      "VINDAS FERNANDEZ NURIA"
+    ]
+  },
+  "CM2103": {
+    "nombre": "Termodinámica",
+    "profesores": [
+      "BENAVIDES RAMIREZ WILLIAM JESUS"
+    ]
+  },
+  "CM2401": {
+    "nombre": "Metalurgia física",
+    "profesores": [
+      "VARGAS GOMEZ RODRIGO DAVID"
+    ]
+  },
+  "CM2402": {
+    "nombre": "Laboratorio de metalurgia física",
+    "profesores": [
+      "BENAVIDES RAMIREZ WILLIAM JESUS",
+      "CORRALES BRENES REBECA",
+      "GONZALEZ MASIS JEIMY"
+    ]
+  },
+  "CM3103": {
+    "nombre": "Termodinámica de materiales",
+    "profesores": [
+      "RODRIGUEZ ROJAS ALFREDO"
+    ]
+  },
+  "CM3205": {
+    "nombre": "Tecnología de maquinado",
+    "profesores": [
+      "ARAYA MORA FABIAN"
+    ]
+  },
+  "CM3207": {
+    "nombre": "Métodos numéricos para ingeniería",
+    "profesores": [
+      "ARAYA MENESES IVAN",
+      "CALDERON ARCE CINDY",
+      "CHINE POLITO BRUNO",
+      "GUILLEN PEREZ CARLOS ENRIQUE",
+      "QUESADA MARTINEZ ADRIAN",
+      "RODRIGUEZ ROJAS ALFREDO",
+      "STRADI GRANADOS BENITO",
+      "VEGA GARITA VICTOR"
+    ]
+  },
+  "CM3208": {
+    "nombre": "Metrología para ingeniería",
+    "profesores": [
+      "VARGAS GOMEZ RODRIGO DAVID"
+    ]
+  },
+  "CM3501": {
+    "nombre": "Materiales poliméricos",
+    "profesores": [
+      "STARBIRD PEREZ RICARDO"
+    ]
+  },
+  "CM3601": {
+    "nombre": "Mecánica de fluidos",
+    "profesores": [
+      "ARAYA MORA FABIAN"
+    ]
+  },
+  "CM3602": {
+    "nombre": "Tecnología de aleaciones metálicas",
+    "profesores": [
+      "FERNANDEZ CHAVES ROBERTO"
+    ]
+  },
+  "CM3603": {
+    "nombre": "Mecánica de materiales avanzada",
+    "profesores": [
+      "QUESADA MARTINEZ ADRIAN"
+    ]
+  },
+  "CM4101": {
+    "nombre": "Modelación y simulación",
+    "profesores": [
+      "CHINE POLITO BRUNO"
+    ]
+  },
+  "CM4108": {
+    "nombre": "Transferencia de calor",
+    "profesores": [
+      "BENAVIDES RAMIREZ WILLIAM JESUS"
+    ]
+  },
+  "CM4202": {
+    "nombre": "Laboratorio tecnología aleaciones metálicas",
+    "profesores": [
+      "BENAVIDES RAMIREZ WILLIAM JESUS",
+      "DITTEL MEZA FERNANDO"
+    ]
+  },
+  "CM4305": {
+    "nombre": "Tecnología de polímeros",
+    "profesores": [
+      "GUILLEN GIRON TEODOLITO"
+    ]
+  },
+  "CM4307": {
+    "nombre": "Conformado de materiales",
+    "profesores": [
+      "ARAYA MORA FABIAN"
+    ]
+  },
+  "CM4309": {
+    "nombre": "Corrosión y protección de materiales",
+    "profesores": [
+      "BRENES BRENES RONALD"
+    ]
+  },
+  "CM4701": {
+    "nombre": "Transferencia de calor y masa",
+    "profesores": [
+      "CHINE POLITO BRUNO"
+    ]
+  },
+  "CM4702": {
+    "nombre": "Materiales cerámicos y compuestos",
+    "profesores": [
+      "SANCHEZ CORDERO CARLOS ALBERTO"
+    ]
+  },
+  "CM4801": {
+    "nombre": "Caracterización de materiales",
+    "profesores": [
+      "CUBERO SESIN JORGE MAURICIO"
+    ]
+  },
+  "CM4802": {
+    "nombre": "Gestión de proyectos",
+    "profesores": [
+      "BRENES BRENES RONALD"
+    ]
+  },
+  "CM4803": {
+    "nombre": "Taller de diseño en ciencia e ingeniería de los materiales",
+    "profesores": [
+      "RODRIGUEZ MENDEZ FRANCISCO"
+    ]
+  },
+  "CM5104": {
+    "nombre": "Diseño de moldes y troqueles",
+    "profesores": [
+      "RODRIGUEZ ROJAS ALFREDO"
+    ]
+  },
+  "CM5221": {
+    "nombre": "Biomateriales",
+    "profesores": [
+      "GONZALEZ MASIS JEIMY"
+    ]
+  },
+  "CM5241": {
+    "nombre": "Tecnología de recubrimientos y capas delgadas",
+    "profesores": [
+      "CORRALES BRENES REBECA"
+    ]
+  },
+  "CM5243": {
+    "nombre": "Análisis de fallas",
+    "profesores": [
+      "VARGAS GOMEZ RODRIGO DAVID"
+    ]
+  },
+  "CM5302": {
+    "nombre": "Equipos auxiliares de planta",
+    "profesores": [
+      "ARAYA MORA FABIAN"
+    ]
+  },
+  "CM5901": {
+    "nombre": "Ensayos no destructivos",
+    "profesores": [
+      "CHAVERRI QUIROS OSCAR"
+    ]
+  },
+  "CO2201": {
+    "nombre": "Dibujo",
+    "profesores": [
+      "CABRERA SANDOVAL MARCO"
+    ]
+  },
+  "CO2202": {
+    "nombre": "Topografía",
+    "profesores": [
+      "FUENTES AGUILAR OLMAN"
+    ]
+  },
+  "CO2203": {
+    "nombre": "Interpretación de planos",
+    "profesores": [
+      "ARAYA RODRIGUEZ MAURICIO"
+    ]
+  },
+  "CO2205": {
+    "nombre": "Estática",
+    "profesores": [
+      "MATTHEWS GARRO JOSE IGNACIO"
+    ]
+  },
+  "CO3103": {
+    "nombre": "Costos de construcción I",
+    "profesores": [
+      "ARIAS PORRAS MARIA FERNANDA"
+    ]
+  },
+  "CO3301": {
+    "nombre": "Topografía aplicada",
+    "profesores": [
+      "SOLANO RIVERA WILLIAM"
+    ]
+  },
+  "CO3302": {
+    "nombre": "Geología aplicada",
+    "profesores": [
+      "TAPIA BALLADARES MARCO"
+    ]
+  },
+  "CO3304": {
+    "nombre": "Laboratorio mecánica de suelos I",
+    "profesores": [
+      "FERNANDEZ CERDAS SERGIO",
+      "POVEDA MONTOYA WILLIAM ALONSO"
+    ]
+  },
+  "CO3305": {
+    "nombre": "Mecánica de suelos I",
+    "profesores": [
+      "POVEDA MONTOYA WILLIAM ALONSO"
+    ]
+  },
+  "CO3401": {
+    "nombre": "Mecánica del solido I",
+    "profesores": [
+      "ARAYA RODRIGUEZ MAURICIO"
+    ]
+  },
+  "CO3403": {
+    "nombre": "Concreto",
+    "profesores": [
+      "CUEVAS KAUFFMANN ROMMEL LEZING"
+    ]
+  },
+  "CO3404": {
+    "nombre": "Laboratorio de concreto",
+    "profesores": [
+      "PEREIRA ALONSO EDUARDO JOSE"
+    ]
+  },
+  "CO3405": {
+    "nombre": "Mecánica del solido II",
+    "profesores": [
+      "TORRES HERNANDEZ LEONARDO"
+    ]
+  },
+  "CO3407": {
+    "nombre": "Estructuras de concreto",
+    "profesores": [
+      "PERALTA SALAS MIGUEL"
+    ]
+  },
+  "CO3501": {
+    "nombre": "Hidráulica",
+    "profesores": [
+      "UMAÑA QUIROS BRAULIO"
+    ]
+  },
+  "CO3503": {
+    "nombre": "Laboratorio de hidráulica",
+    "profesores": [
+      "MENDEZ MORALES MAIKEL"
+    ]
+  },
+  "CO4106": {
+    "nombre": "Taller II",
+    "profesores": [
+      "PICADO VALVERDE SOFIA"
+    ]
+  },
+  "CO4107": {
+    "nombre": "Programación de proyectos",
+    "profesores": [
+      "ALAN ZUÑIGA MANUEL ANTONIO"
+    ]
+  },
+  "CO4108": {
+    "nombre": "Taller I",
+    "profesores": [
+      "ARAYA OBANDO JOSE ANDRES",
+      "ROMERO BLANCO ERIC"
+    ]
+  },
+  "CO4307": {
+    "nombre": "Carreteras I",
+    "profesores": [
+      "MEDINA ANGULO EZEQUIEL ALEJANDRO"
+    ]
+  },
+  "CO4308": {
+    "nombre": "Mecánica de suelos II",
+    "profesores": [
+      "BALTODANO GOULDING RAFAEL"
+    ]
+  },
+  "CO4309": {
+    "nombre": "Carreteras II",
+    "profesores": [
+      "HERNANDEZ VEGA HENRY"
+    ]
+  },
+  "CO4405": {
+    "nombre": "Construcción de estructuras de concreto",
+    "profesores": [
+      "NAVARRO MORA ANGEL"
+    ]
+  },
+  "CO4406": {
+    "nombre": "Estructuras de mampostería",
+    "profesores": [
+      "CARRANZA SOLANO MAURICIO"
+    ]
+  },
+  "CO4409": {
+    "nombre": "Estructuras de acero",
+    "profesores": [
+      "MIRANDA JENKINS PIO ALBERTO"
+    ]
+  },
+  "CO4505": {
+    "nombre": "Instalaciones electromecánicas",
+    "profesores": [
+      "PIEDRA SEGURA JUAN FRANCISCO"
+    ]
+  },
+  "CO5012": {
+    "nombre": "Diseño de procesos constructivos",
+    "profesores": [
+      "ROJAS CHACON LUIS GUSTAVO"
+    ]
+  },
+  "CO5013": {
+    "nombre": "Análisis estructural",
+    "profesores": [
+      "CARRANZA SOLANO MAURICIO"
+    ]
+  },
+  "CO5022": {
+    "nombre": "Procesos constructivos",
+    "profesores": [
+      "VARGAS CORRALES CAMILO JOSE"
+    ]
+  },
+  "CO5023": {
+    "nombre": "Estructuras temporales",
+    "profesores": [
+      "NAVARRO MORA ANGEL"
+    ]
+  },
+  "CO5024": {
+    "nombre": "Normativa en la construcción",
+    "profesores": [
+      "ALAN ZUÑIGA MANUEL ANTONIO"
+    ]
+  },
+  "CO5031": {
+    "nombre": "Administración de empresas constructoras",
+    "profesores": [
+      "ARTAVIA ALVARADO MIGUEL"
+    ]
+  },
+  "CO5032": {
+    "nombre": "Construcción de pavimentos",
+    "profesores": [
+      "CASTRO FERNANDEZ PEDRO",
+      "FERNANDEZ CERDAS SERGIO"
+    ]
+  },
+  "CO5051": {
+    "nombre": "Control de costos de construcción",
+    "profesores": [
+      "ARTAVIA ALVARADO MIGUEL"
+    ]
+  },
+  "CO5056": {
+    "nombre": "Taller de diseño",
+    "profesores": [
+      "ORTIZ QUESADA GEANNINA"
+    ]
+  },
+  "CS1308": {
+    "nombre": "Derecho comercial",
+    "profesores": [
+      "ACHOY HERNANDEZ ALEJANDRO",
+      "ARIAS SOSA LUIS ALBAN",
+      "CALDERON FERREY MARTHA",
+      "PETGRAVE BROWN LYANNETTE"
+    ]
+  },
+  "CS1502": {
+    "nombre": "Introducción a la técnica ciencia y tecnología",
+    "profesores": [
+      "BOJORGE MURILLO ALEXANDER",
+      "CAMPOS CHAVARRIA BENJAMIN",
+      "GARRO REYES MAURICIO",
+      "ORTIZ ACUÑA LEONARDO"
+    ]
+  },
+  "CS2101": {
+    "nombre": "Ambiente humano",
+    "profesores": [
+      "CAMPOS CHAVARRIA BENJAMIN",
+      "JAEN ESPAÑA ADRIAN",
+      "MURILLO SOLIS  JAVIER",
+      "ORTIZ ALVAREZ JORGE ISAAC",
+      "RODRIGUEZ MORALES OSCAR",
+      "ROJAS MOLINA BETSY"
+    ]
+  },
+  "CS2303": {
+    "nombre": "Relaciones laborales",
+    "profesores": [
+      "ACHOY HERNANDEZ ALEJANDRO",
+      "ARIAS SOSA LUIS ALBAN",
+      "CALDERON FERREY MARTHA",
+      "CHACON MATA ALFONSO",
+      "HASBUN DEL VALLE DANIEL"
+    ]
+  },
+  "CS2304": {
+    "nombre": "Derecho laboral",
+    "profesores": [
+      "ARIAS SOSA LUIS ALBAN",
+      "CHACON MATA ALFONSO",
+      "HASBUN DEL VALLE DANIEL",
+      "PELAEZ GIL MARA CAROLINA"
+    ]
+  },
+  "CS2404": {
+    "nombre": "Seminario de problemática urbana",
+    "profesores": [
+      "MESEN MONTENEGRO VLADIMIR",
+      "MOJICA MENDIETA FRANCISCO JAVIER"
+    ]
+  },
+  "CS3301": {
+    "nombre": "Derecho ambiental y biotecnológico",
+    "profesores": [
+      "PELAEZ GIL MARA CAROLINA"
+    ]
+  },
+  "CS3305": {
+    "nombre": "Legislación agrícola",
+    "profesores": [
+      "PELAEZ GIL MARA CAROLINA"
+    ]
+  },
+  "CS3401": {
+    "nombre": "Seminario de estudios filosóficos históricos",
+    "profesores": [
+      "CARVAJAL VILLAPLANA ALVARO",
+      "CEDEÑO CAMACHO MAURICIO",
+      "FALLAS VARGAS FABRICIO",
+      "GONZALEZ ZUÑIGA RODOLFO",
+      "LEON RODRIGUEZ MARIA ELENA",
+      "ORTIZ ACUÑA LEONARDO",
+      "PRENDAS SOLANO JORGE",
+      "VARGAS ELIZONDO CELSO"
+    ]
+  },
+  "CS3404": {
+    "nombre": "Seminario de ética para la ingeniería",
+    "profesores": [
+      "BOJORGE MURILLO ALEXANDER",
+      "CASASOLA RIVERA WILMER",
+      "CEDEÑO CAMACHO MAURICIO",
+      "GARRO REYES MAURICIO",
+      "GONZALEZ ZUÑIGA RODOLFO",
+      "PRENDAS SOLANO JORGE",
+      "VARGAS ELIZONDO CELSO"
+    ]
+  },
+  "CS3405": {
+    "nombre": "Derecho informático y mercantil",
+    "profesores": [
+      "HASBUN DEL VALLE DANIEL"
+    ]
+  },
+  "CS3406": {
+    "nombre": "Seminario de ética para administración de empresas",
+    "profesores": [
+      "ALVAREZ HERNANDEZ MARIAM",
+      "CEDEÑO CAMACHO MAURICIO",
+      "GONZALEZ ZUÑIGA RODOLFO"
+    ]
+  },
+  "CS4108": {
+    "nombre": "Derecho ambiental",
+    "profesores": [
+      "PELAEZ GIL MARA CAROLINA"
+    ]
+  },
+  "CS4402": {
+    "nombre": "Seminario de estudios costarricenses",
+    "profesores": [
+      "ARIAS HIDALGO DAVID",
+      "CAMPOS CHAVARRIA BENJAMIN",
+      "CARMONA PINEDA MAIRIM",
+      "EDUARTE RODRIGUEZ DAVID",
+      "FRANCESCHI SOJO KATTIA",
+      "JAEN ESPAÑA ADRIAN",
+      "MENESES MARIN GUILLERMO",
+      "MESEN MONTENEGRO VLADIMIR",
+      "MOJICA MENDIETA FRANCISCO JAVIER",
+      "MORA BENAVIDES BERENICE",
+      "MORA SANCHEZ AMILKAR",
+      "MURILLO SOLIS  JAVIER",
+      "RODRIGUEZ MORALES OSCAR",
+      "ROJAS MOLINA BETSY"
+    ]
+  },
+  "CS5300": {
+    "nombre": "Desarrollo tecnológico y sostenibilidad",
+    "profesores": [
+      "ARIAS SOSA LUIS ALBAN",
+      "MURILLO SOLIS  JAVIER"
+    ]
+  },
+  "EL1200": {
+    "nombre": "Introducción a la electrónica",
+    "profesores": [
+      "ARRIOLA VALVERDE SERGIO",
+      "CASTRO BADILLA GUILLERMO",
+      "CONTRERAS SANCHEZ CARLOS",
+      "GUADAMUZ BRENES SAUL",
+      "MARIN MORENO WILLIAM",
+      "MOLINA ROBLES ROBERTO CARLOS",
+      "MORALES HERNANDEZ SERGIO",
+      "PEREZ RODRIGUEZ JAVIER"
+    ]
+  },
+  "EL2110": {
+    "nombre": "Laboratorio de mediciones eléctricas",
+    "profesores": [
+      "MARIN MORENO WILLIAM",
+      "PEREZ RODRIGUEZ JAVIER",
+      "RODRIGUEZ VARGAS PABLO CESAR",
+      "SANCHEZ HERRERA KERVIN",
+      "SEGURA QUIROS CARLOS"
+    ]
+  },
+  "EL2111": {
+    "nombre": "Laboratorio de circuitos eléctricos",
+    "profesores": [
+      "CASTRO BADILLA GUILLERMO",
+      "MARIN MORENO WILLIAM",
+      "MORALES HERNANDEZ SERGIO",
+      "PEREZ RODRIGUEZ JAVIER"
+    ]
+  },
+  "EL2113": {
+    "nombre": "Circuitos eléctricos en corriente continua",
+    "profesores": [
+      "HERNANDEZ RIVERA MIGUEL",
+      "MORALES HERNANDEZ SERGIO",
+      "PEREZ RODRIGUEZ JAVIER",
+      "PICADO GARCIA FABIAN ALBERTO",
+      "RODRIGUEZ VARGAS PABLO CESAR",
+      "VEGA CASTILLO PAOLA"
+    ]
+  },
+  "EL2114": {
+    "nombre": "Circuitos eléctricos en corriente alterna",
+    "profesores": [
+      "ARAYA RODRIGUEZ LISANDRO",
+      "CHINCHILLA VARGAS ERICK GUSTAVO",
+      "GUADAMUZ BRENES SAUL",
+      "HERRERO CHAVARRIA FELIPE",
+      "QUIROS SOLANO WILLIAM",
+      "VALVERDE GARDELA HERBERTH"
+    ]
+  },
+  "EL2207": {
+    "nombre": "Elementos activos",
+    "profesores": [
+      "CASTRO BADILLA GUILLERMO",
+      "MONTERO RODRIGUEZ JUAN JOSE",
+      "PHILLIPS BRENES HAYDEN ANTHONY",
+      "PINNOCK CHACON MAC",
+      "SEGURA QUIROS CARLOS",
+      "VEGA CASTILLO PAOLA"
+    ]
+  },
+  "EL3212": {
+    "nombre": "Circuitos discretos",
+    "profesores": [
+      "MONTERO RODRIGUEZ JUAN JOSE",
+      "PINNOCK CHACON MAC"
+    ]
+  },
+  "EL3215": {
+    "nombre": "Laboratorio de electrónica analógica",
+    "profesores": [
+      "BARBOZA RETANA JOSE MIGUEL"
+    ]
+  },
+  "EL3216": {
+    "nombre": "Circuitos integrados analógicos",
+    "profesores": [
+      "NAVARRO HENRIQUEZ FRANCISCO",
+      "RIVERA ALVARADO JAVIER",
+      "SOTO GARITA JUAN PABLO"
+    ]
+  },
+  "EL3217": {
+    "nombre": "Taller de diseño analógico",
+    "profesores": [
+      "FONSECA CRUZ JOSE",
+      "NAVARRO HENRIQUEZ FRANCISCO"
+    ]
+  },
+  "EL3307": {
+    "nombre": "Diseño lógico",
+    "profesores": [
+      "CHACON RODRIGUEZ ALFONSO",
+      "LEON VEGA LUIS GERARDO",
+      "RETANA CORRALES LUIS FELIPE"
+    ]
+  },
+  "EL3310": {
+    "nombre": "Diseño de sistemas digitales",
+    "profesores": [
+      "ALFARO BADILLA JASON KALED",
+      "GONZALEZ VEGA MICHAEL ALBERTO",
+      "MOLINA ROBLES ROBERTO CARLOS",
+      "RIVERA ALVARADO ERNESTO"
+    ]
+  },
+  "EL3313": {
+    "nombre": "Taller de diseño digital",
+    "profesores": [
+      "COTO CALDERON ROLEN JESUS",
+      "GONZALEZ GOMEZ JEFERSON"
+    ]
+  },
+  "EL4201": {
+    "nombre": "Procesamiento electrónico de potencia",
+    "profesores": [
+      "ARIAS ESQUIVEL YEINER"
+    ]
+  },
+  "EL4314": {
+    "nombre": "Arquitectura de computadoras I",
+    "profesores": [
+      "GARCIA RAMIREZ RONNY",
+      "RIVERA ALVARADO ERNESTO",
+      "SANCHEZ HERRERA KERVIN"
+    ]
+  },
+  "EL4419": {
+    "nombre": "Análisis y control de sistemas lineales",
+    "profesores": [
+      "GUERRERO FERNANDEZ JUAN LUIS"
+    ]
+  },
+  "EL4513": {
+    "nombre": "Teoría electromagnética I",
+    "profesores": [
+      "CARRERA RETANA LUIS ERNESTO",
+      "CORDERO GARCIA IVAN GABRIEL",
+      "QUIROS SOLANO WILLIAM",
+      "SANCHEZ MASIS ALLAN ROBERTO"
+    ]
+  },
+  "EL4514": {
+    "nombre": "Teoría electromagnética II",
+    "profesores": [
+      "COTO CORTES ANIBAL",
+      "GUADAMUZ BRENES SAUL",
+      "QUIROS SOLANO WILLIAM"
+    ]
+  },
+  "EL4607": {
+    "nombre": "Normalización técnica (estándares industriales)",
+    "profesores": [
+      "CHAVES NOGUERA JUAN SCOTT",
+      "PEREIRA ARROYO ROBERTO"
+    ]
+  },
+  "EL4702": {
+    "nombre": "Probabilidad y estadística",
+    "profesores": [
+      "MADRIGAL SANCHEZ JOHANNA",
+      "ROJAS RODRIGUEZ DAVID",
+      "ZAMORA BOLAÑOS JUAN DIEGO"
+    ]
+  },
+  "EL4703": {
+    "nombre": "Señales y sistemas",
+    "profesores": [
+      "ALVARADO MOYA JOSE PABLO",
+      "BARBOZA RETANA JOSE MIGUEL",
+      "RIVERA ALVARADO JAVIER",
+      "ROSALES ALPIZAR LUIS CARLOS"
+    ]
+  },
+  "EL5408": {
+    "nombre": "Control automático",
+    "profesores": [
+      "CHAVES JIMENEZ ADOLFO",
+      "PHILLIPS BRENES HAYDEN ANTHONY"
+    ]
+  },
+  "EL5409": {
+    "nombre": "Laboratorio de control automático",
+    "profesores": [
+      "CHAVES JIMENEZ ADOLFO",
+      "GUERRERO FERNANDEZ JUAN LUIS",
+      "INTERIANO SALGUERO EDUARDO",
+      "RODRIGUEZ VARGAS PABLO CESAR",
+      "ROSALES ALPIZAR LUIS CARLOS"
+    ]
+  },
+  "EL5513": {
+    "nombre": "Comunicaciones eléctricas I",
+    "profesores": [
+      "GUADAMUZ BRENES SAUL",
+      "ROSALES ALPIZAR LUIS CARLOS",
+      "SANDOVAL CASCANTE LEONARDO"
+    ]
+  },
+  "EL5521": {
+    "nombre": "Comunicaciones eléctricas II",
+    "profesores": [
+      "GUADAMUZ BRENES SAUL",
+      "MENDOZA PONCE PABLO DANIEL",
+      "RAMIREZ JIMENEZ ARNOLDO ALCIDES"
+    ]
+  },
+  "EL5522": {
+    "nombre": "Taller de comunicaciones eléctricas",
+    "profesores": [
+      "NAVARRO HENRIQUEZ FRANCISCO",
+      "RAMIREZ JIMENEZ ARNOLDO ALCIDES",
+      "RIVERA ALVARADO ERNESTO",
+      "SANDOVAL CASCANTE LEONARDO"
+    ]
+  },
+  "EL5609": {
+    "nombre": "Formulación de proyectos",
+    "profesores": [
+      "FERNANDEZ RODRIGUEZ JOSE MIGUEL",
+      "HERNANDEZ RIVERA MIGUEL"
+    ]
+  },
+  "EL5610": {
+    "nombre": "Taller integrador",
+    "profesores": [
+      "CASTRO BADILLA GUILLERMO",
+      "CHAVES NOGUERA JUAN SCOTT",
+      "RIMOLO DONADIO RENATO"
+    ]
+  },
+  "EL5617": {
+    "nombre": "Trabajo final de graduación",
+    "profesores": [
+      "PEREIRA ARROYO ROBERTO"
+    ]
+  },
+  "EL5805": {
+    "nombre": "Procesamiento digital de señales",
+    "profesores": [
+      "ALVARADO MOYA JOSE PABLO"
+    ]
+  },
+  "EL5807": {
+    "nombre": "Introducción al diseño de circuitos integrados",
+    "profesores": [
+      "CHACON RODRIGUEZ ALFONSO"
+    ]
+  },
+  "EL5811": {
+    "nombre": "Verificación funcional de circuitos integrados",
+    "profesores": [
+      "GARCIA RAMIREZ RONNY"
+    ]
+  },
+  "EL5841": {
+    "nombre": "Taller de sistemas embebidos",
+    "profesores": [
+      "CARVAJAL GODINEZ JOHAN"
+    ]
+  },
+  "EL5842": {
+    "nombre": "Taller de instrumentación",
+    "profesores": [
+      "NAVARRO HENRIQUEZ FRANCISCO"
+    ]
+  },
+  "EL5854": {
+    "nombre": "Sistemas fotovoltaicos",
+    "profesores": [
+      "MEZA BENAVIDES CARLOS"
+    ]
+  },
+  "EL5855": {
+    "nombre": "Ingeniería de pruebas para circuitos integrados",
+    "profesores": [
+      "MOLINA ROBLES ROBERTO CARLOS"
+    ]
+  },
+  "EL5856": {
+    "nombre": "Taller de circuitos electrónicos para sistemas energéticos",
+    "profesores": [
+      "CARDINALE VILLALOBOS LEONARDO"
+    ]
+  },
+  "EL5859": {
+    "nombre": "Introducción a la computación heterogénea",
+    "profesores": [
+      "LEON VEGA LUIS GERARDO"
+    ]
+  },
+  "EM1600": {
+    "nombre": "Tecnologías digitales aplicadas a la matemática educativa I",
+    "profesores": [
+      "PARRA SALAZAR EDWARD"
+    ]
+  },
+  "EM1606": {
+    "nombre": "Fundamentos de matemática II",
+    "profesores": [
+      "MONGE FALLAS JORGE"
+    ]
+  },
+  "EM1607": {
+    "nombre": "Didáctica de la geometría",
+    "profesores": [
+      "MONGE MADRIZ CARLOS"
+    ]
+  },
+  "EM1613": {
+    "nombre": "Tecnologías digitales aplicadas a la matemática educativa III",
+    "profesores": [
+      "BRENES TORRES JUAN CARLOS"
+    ]
+  },
+  "EM1614": {
+    "nombre": "Estadística inferencial",
+    "profesores": [
+      "NUÑEZ VANEGAS FELIX"
+    ]
+  },
+  "EM2408": {
+    "nombre": "Aprendizaje y didáctica de la matemática",
+    "profesores": [
+      "RAMOS MARIN SIGURD"
+    ]
+  },
+  "EM2603": {
+    "nombre": "Cálculo y análisis I",
+    "profesores": [
+      "ALVARADO SOLANO ANDY"
+    ]
+  },
+  "EM2604": {
+    "nombre": "Geometría I",
+    "profesores": [
+      "BLANCO BENAMBURG RANDALL"
+    ]
+  },
+  "EM2608": {
+    "nombre": "Elementos de análisis de datos y probabilidad",
+    "profesores": [
+      "RAMIREZ MONTES GUILLERMO"
+    ]
+  },
+  "EM3048": {
+    "nombre": "Atención a la diversidad en la enseñanza y el aprendizaje de la matemática",
+    "profesores": [
+      "MARRERO CALVO MARCELA"
+    ]
+  },
+  "EM3409": {
+    "nombre": "Práctica docente",
+    "profesores": [
+      "GUTIERREZ RUIZ GRETTEL"
+    ]
+  },
+  "EM3608": {
+    "nombre": "Cálculo y análisis III",
+    "profesores": [
+      "ROSALES ORTEGA JOSE"
+    ]
+  },
+  "EM4010": {
+    "nombre": "Programación lineal",
+    "profesores": [
+      "VEGA VASQUEZ ARTURO"
+    ]
+  },
+  "EM4612": {
+    "nombre": "Métodos numéricos",
+    "profesores": [
+      "PARRA RODRIGUEZ EMMANUELLE"
+    ]
+  },
+  "EM5005": {
+    "nombre": "Teoría de números",
+    "profesores": [
+      "SANABRIA BRENES GEOVANNI"
+    ]
+  },
+  "EM5006": {
+    "nombre": "Didáctica de las matemáticas II",
+    "profesores": [
+      "ACUÑA CHACON REIMAN"
+    ]
+  },
+  "EM5007": {
+    "nombre": "Taller II: multimedios en matemática",
+    "profesores": [
+      "MONGE FALLAS JORGE"
+    ]
+  },
+  "EM5008": {
+    "nombre": "Investigación educativa",
+    "profesores": [
+      "MEZA CASCANTE LUIS GERARDO"
+    ]
+  },
+  "FH0016": {
+    "nombre": "El desarrollo de la ciencia en Costa Rica",
+    "profesores": [
+      "CARVAJAL ALFARO VANESSA"
+    ]
+  },
+  "FH0024": {
+    "nombre": "Lo imaginario en el arte los sueños y la locura",
+    "profesores": [
+      "GARCIA ZAMORA ANTONIO"
+    ]
+  },
+  "FH0025": {
+    "nombre": "Sexualidad pareja y teoría psicosexual",
+    "profesores": [
+      "VEGA ROJAS LUIS MAURICIO"
+    ]
+  },
+  "FH0033": {
+    "nombre": "Cine y literatura",
+    "profesores": [
+      "PEREZ ROJAS NELSON"
+    ]
+  },
+  "FH0035": {
+    "nombre": "Globalización y humanismo",
+    "profesores": [
+      "RODRIGUEZ MORALES OSCAR"
+    ]
+  },
+  "FH0053": {
+    "nombre": "Patrimonio e identidad cultural",
+    "profesores": [
+      "BONILLA SOTO LUIS CARLOS"
+    ]
+  },
+  "FH0115": {
+    "nombre": "García Márquez y el realismo mágico",
+    "profesores": [
+      "ROJAS BRENES SILVIA ELENA"
+    ]
+  },
+  "FH0147": {
+    "nombre": "Sexo y género, en la vida y el amor",
+    "profesores": [
+      "ARTAVIA GRANADOS XINIA"
+    ]
+  },
+  "FH0151": {
+    "nombre": "Brujas, hadas y fantasmas en Shakespeare",
+    "profesores": [
+      "JIMENEZ RODRIGUEZ ROXANA"
+    ]
+  },
+  "FH0162": {
+    "nombre": "La enseñanza de la lengua inglesa y su paralelismo con desarrollo económico",
+    "profesores": [
+      "SOLANO SOLANO JOSE EDUARDO"
+    ]
+  },
+  "FH0178": {
+    "nombre": "Factores psicosociales de la salud mental",
+    "profesores": [
+      "MATARRITA MC CALLA KIMBERLY"
+    ]
+  },
+  "FH0224": {
+    "nombre": "Análisis critico de la revolución virtual",
+    "profesores": [
+      "CAMPOS CHAVARRIA BENJAMIN"
+    ]
+  },
+  "FH0239": {
+    "nombre": "La condición humana en nuestra época: ética y derechos humanos",
+    "profesores": [
+      "GUILLEN MARTINEZ LUIS DIEGO"
+    ]
+  },
+  "FH0246": {
+    "nombre": "La música nos define: visión desde la etnomusicología",
+    "profesores": [
+      "MONGE PEREZ LUIS DIEGO"
+    ]
+  },
+  "FH0259": {
+    "nombre": "Pervivencia de modelos femeninos: de la Grecia antigua a la actualidad",
+    "profesores": [
+      "RIOS SANCHEZ ARMANDO"
+    ]
+  },
+  "FH0263": {
+    "nombre": "Religión, espiritualidades y ética mundial",
+    "profesores": [
+      "ZUÑIGA RIVERA MONICA"
+    ]
+  },
+  "FI1101": {
+    "nombre": "Física general I",
+    "profesores": [
+      "ALVARADO ORTEGA ROMMEL",
+      "CAMBRONERO CORDERO MICHAEL",
+      "CASTILLO FALLAS JOSE CARLOS",
+      "CORDERO GARCIA IVAN GABRIEL",
+      "CORRALES QUESADA ESTEBAN",
+      "ELIZONDO ZUÑIGA JENNIFER",
+      "MOYA SERRANO ROY DAVID",
+      "MURILLO SALAZAR DENNIS",
+      "MURILLO ZUMBADO GUSTAVO",
+      "PINEDA LIZANO JUAN JOSE",
+      "ROJAS PEREZ FRANCISCO",
+      "SEGURA ZARATE ANA YANCY",
+      "SEQUEIRA CASTRO DAVID"
+    ]
+  },
+  "FI1102": {
+    "nombre": "Física general II",
+    "profesores": [
+      "ALVARADO ORTEGA ROMMEL",
+      "AMADOR JARA ALVARO",
+      "CORRALES QUESADA ESTEBAN",
+      "GAMBOA ALFARO MARVIN RICARDO",
+      "LOBO ZAMORA JUAN CARLOS",
+      "MURILLO ZUMBADO GUSTAVO",
+      "OREAMUNO MADRIZ RAFAEL",
+      "PEREZ HIDALGO JOSE ESTEBAN",
+      "PINEDA LIZANO JUAN JOSE",
+      "VARGAS BLANCO IVAN"
+    ]
+  },
+  "FI1201": {
+    "nombre": "Laboratorio física general I",
+    "profesores": [
+      "ALFARO ALVARADO JOSE ABRAHAN",
+      "ALVARADO ORTEGA ROMMEL",
+      "CAMBRONERO CORDERO MICHAEL",
+      "CAMPOS RODRIGUEZ MELANIA",
+      "CASTILLO FALLAS JOSE CARLOS",
+      "CORDERO GARCIA IVAN GABRIEL",
+      "ELIZONDO ZUÑIGA JENNIFER",
+      "JIMENEZ CARBALLO CARLOS ADRIAN",
+      "MAYORGA ESPINOZA CARLOS",
+      "MONTERO ZELEDON ERNESTO",
+      "MORALES MUÑOZ WALTER",
+      "PEREZ HIDALGO JOSE ESTEBAN",
+      "SEGURA CARVAJAL MARCOS",
+      "SEQUEIRA CASTRO DAVID",
+      "SEVILLA QUESADA EVAR",
+      "SOLANO PIEDRA RICARDO ADOLFO"
+    ]
+  },
+  "FI1202": {
+    "nombre": "Laboratorio física general II",
+    "profesores": [
+      "ALVARADO ORTEGA ROMMEL",
+      "ARAYA SOLANO LUIS ALONSO",
+      "GAMBOA ALFARO MARVIN RICARDO",
+      "MORALES MUÑOZ WALTER",
+      "MURILLO ZUMBADO GUSTAVO",
+      "OREAMUNO MADRIZ RAFAEL"
+    ]
+  },
+  "FI1503": {
+    "nombre": "Fundamentos de física para arquitectura",
+    "profesores": [
+      "MURILLO QUIROS NATALIA",
+      "SOTO CHINCHILLA YERRY"
+    ]
+  },
+  "FI2103": {
+    "nombre": "Física general III",
+    "profesores": [
+      "ARAYA SOLANO LUIS ALONSO",
+      "CASTILLO FALLAS JOSE CARLOS",
+      "CHAVES ALVAREZ MARCELA MARIA",
+      "MONTERO ZELEDON ERNESTO",
+      "OREAMUNO MADRIZ RAFAEL",
+      "ROJAS PEREZ FRANCISCO",
+      "ROJAS ROJAS LAURA",
+      "SEGURA ZARATE ANA YANCY",
+      "SEQUEIRA CASTRO DAVID"
+    ]
+  },
+  "FO1106": {
+    "nombre": "Climatología forestal",
+    "profesores": [
+      "CARVAJAL VANEGAS DORIAN"
+    ]
+  },
+  "FO1107": {
+    "nombre": "Botánica forestal",
+    "profesores": [
+      "HILJE RODRIGUEZ BRANKO"
+    ]
+  },
+  "FO1108": {
+    "nombre": "Laboratorio de botánica forestal",
+    "profesores": [
+      "HILJE RODRIGUEZ BRANKO"
+    ]
+  },
+  "FO2108": {
+    "nombre": "Laboratorio de suelos forestales",
+    "profesores": [
+      "ARIAS AGUILAR  DAGOBERTO"
+    ]
+  },
+  "FO2201": {
+    "nombre": "Levantamiento forestal",
+    "profesores": [
+      "CARVAJAL VANEGAS DORIAN"
+    ]
+  },
+  "FO2303": {
+    "nombre": "Propiedades de la madera",
+    "profesores": [
+      "MOYA ROQUE ROGER"
+    ]
+  },
+  "FO3109": {
+    "nombre": "Manejo de plantaciones forestales",
+    "profesores": [
+      "BADILLA VALVERDE YORLENY"
+    ]
+  },
+  "FO3113": {
+    "nombre": "Inventarios forestales",
+    "profesores": [
+      "VARGAS FONSECA LUPITA"
+    ]
+  },
+  "FO3118": {
+    "nombre": "Silvicultura bosque natural",
+    "profesores": [
+      "TORRES GOMEZ DANILO"
+    ]
+  },
+  "FO3123": {
+    "nombre": "Mejora genética forestal",
+    "profesores": [
+      "MURILLO GAMBOA OLMAN"
+    ]
+  },
+  "FO3132": {
+    "nombre": "Entomología y patología forestales",
+    "profesores": [
+      "BERROCAL JIMENEZ ALEXANDER"
+    ]
+  },
+  "FO3133": {
+    "nombre": "Laboratorio de entomología y patología forestales",
+    "profesores": [
+      "MENDEZ ALVAREZ DAWA"
+    ]
+  },
+  "FO3203": {
+    "nombre": "Aprovechamiento forestal I",
+    "profesores": [
+      "VILLALOBOS BARQUERO VERONICA"
+    ]
+  },
+  "FO3210": {
+    "nombre": "Gestión de administración forestal",
+    "profesores": [
+      "CAMACHO CORNEJO DIEGO"
+    ]
+  },
+  "FO3307": {
+    "nombre": "Biología de la conservación",
+    "profesores": [
+      "GAMBOA BADILLA NANCY"
+    ]
+  },
+  "FO4104": {
+    "nombre": "Formulación y evaluación de proyectos",
+    "profesores": [
+      "SALAS GARITA CYNTHIA"
+    ]
+  },
+  "FO4107": {
+    "nombre": "Suelos forestales",
+    "profesores": [
+      "ARIAS AGUILAR  DAGOBERTO"
+    ]
+  },
+  "FO4220": {
+    "nombre": "Restauración de ecosistemas tropicales",
+    "profesores": [
+      "ACOSTA VARGAS LUIS GUILLERMO"
+    ]
+  },
+  "FO4223": {
+    "nombre": "Dendroenergía",
+    "profesores": [
+      "ARIAS AGUILAR  DAGOBERTO"
+    ]
+  },
+  "FO4224": {
+    "nombre": "Introducción a la fauna silvestre en ecosistemas forestales",
+    "profesores": [
+      "HILJE RODRIGUEZ BRANKO"
+    ]
+  },
+  "FO4225": {
+    "nombre": "Seguimiento y auditoría ambiental",
+    "profesores": [
+      "ZUÑIGA GARITA IGOR"
+    ]
+  },
+  "FO4309": {
+    "nombre": "Manufactura de productos forestales II",
+    "profesores": [
+      "MUÑOZ ACOSTA FREDDY"
+    ]
+  },
+  "FO4406": {
+    "nombre": "Sistemas de información geográfica II",
+    "profesores": [
+      "SOTO MONTOYA CASIA"
+    ]
+  },
+  "FO4412": {
+    "nombre": "Mercadeo y comercialización de productos forestales",
+    "profesores": [
+      "CAMACHO CORNEJO DIEGO"
+    ]
+  },
+  "FO4417": {
+    "nombre": "Ecofisiología forestal",
+    "profesores": [
+      "VALVERDE OTAROLA JUAN CARLOS"
+    ]
+  },
+  "FO4418": {
+    "nombre": "Cambio climático: acciones y métricas en sistemas terrestres",
+    "profesores": [
+      "VARGAS FONSECA LUPITA"
+    ]
+  },
+  "FO5049": {
+    "nombre": "Seminario de graduación",
+    "profesores": [
+      "GAMBOA BADILLA NANCY"
+    ]
+  },
+  "GP0100": {
+    "nombre": "Estrategia y gerencia de proyectos",
+    "profesores": [
+      "MORA ROJAS ALFREDO"
+    ]
+  },
+  "GP0102": {
+    "nombre": "Formulación de proyectos",
+    "profesores": [
+      "GONZALEZ LEON BERNAL"
+    ]
+  },
+  "GP0201": {
+    "nombre": "Gerencia de proyectos I",
+    "profesores": [
+      "NAVARRO MATA JORGE"
+    ]
+  },
+  "GP0203": {
+    "nombre": "Gerencia de proyectos III",
+    "profesores": [
+      "RAMIREZ CHACON MARCO"
+    ]
+  },
+  "GP0205": {
+    "nombre": "Oficina de proyectos y portafolios",
+    "profesores": [
+      "NOVO GUTIERREZ LUDBYG JOHANES"
+    ]
+  },
+  "GP2502": {
+    "nombre": "Desarrollo de capacidades organizacionales para la administración de proyectos",
+    "profesores": [
+      "MUÑOZ CASTRO DONAL"
+    ]
+  },
+  "GP2527": {
+    "nombre": "BIM y la gestión de proyectos de construcción",
+    "profesores": [
+      "CABRERA SANDOVAL MARCO"
+    ]
+  },
+  "GP2531": {
+    "nombre": "Estimación en proyectos de desarrollo de software",
+    "profesores": [
+      "JIMENEZ FUENTES MARIO AUGUSTO"
+    ]
+  },
+  "GP3906": {
+    "nombre": "Seminario de metodología de investigación en el énfasis en proyectos empresariales",
+    "profesores": [
+      "RAMIREZ MORA FREDDY"
+    ]
+  },
+  "GP3908": {
+    "nombre": "Seminario de investigación II en el énfasis en proyectos empresariales",
+    "profesores": [
+      "SANDOVAL QUIROS MILTON"
+    ]
+  },
+  "GP3909": {
+    "nombre": "Seminario de metodología de investigación en el énfasis en tecnología de información",
+    "profesores": [
+      "RAMIREZ MORA FREDDY"
+    ]
+  },
+  "GP3911": {
+    "nombre": "Seminario de investigación II en el énfasis en tecnología de información",
+    "profesores": [
+      "SANDOVAL QUIROS MILTON"
+    ]
+  },
+  "GP3912": {
+    "nombre": "Seminario de metodología de investigación en el énfasis en construcción",
+    "profesores": [
+      "RAMIREZ MORA FREDDY"
+    ]
+  },
+  "GP3914": {
+    "nombre": "Seminario de investigación II en el énfasis en construcción",
+    "profesores": [
+      "SANDOVAL QUIROS MILTON"
+    ]
+  },
+  "IA1203": {
+    "nombre": "Dibujo técnico",
+    "profesores": [
+      "GARITA CERDAS ADRIAN DAVID"
+    ]
+  },
+  "IA2106": {
+    "nombre": "Sistemas de producción agrícola",
+    "profesores": [
+      "CHAVARRIA VIDAL ADRIAN"
+    ]
+  },
+  "IA2202": {
+    "nombre": "Estática",
+    "profesores": [
+      "GOMEZ ASTORGA MARIA JOSE"
+    ]
+  },
+  "IA3004": {
+    "nombre": "Trabajo final de graduación",
+    "profesores": [
+      "GOMEZ ASTORGA MARIA JOSE"
+    ]
+  },
+  "IA3105": {
+    "nombre": "Relación suelo-agua-planta",
+    "profesores": [
+      "CHAVARRIA VIDAL ADRIAN"
+    ]
+  },
+  "IA3203": {
+    "nombre": "Hidrología",
+    "profesores": [
+      "WATSON HERNANDEZ FERNANDO"
+    ]
+  },
+  "IA3210": {
+    "nombre": "Laboratorio de hidráulica",
+    "profesores": [
+      "GUZMAN ARIAS ISABEL"
+    ]
+  },
+  "IA3213": {
+    "nombre": "Hidráulica de canales",
+    "profesores": [
+      "MONGE VARGAS KAREN"
+    ]
+  },
+  "IA3303": {
+    "nombre": "Aplicaciones topográficas",
+    "profesores": [
+      "JIMENEZ AGUILAR JUAN CARLOS"
+    ]
+  },
+  "IA3401": {
+    "nombre": "Elementos y mecanismos de máquinas agrícolas",
+    "profesores": [
+      "RAMIREZ HERNANDEZ LUIS STEVEN"
+    ]
+  },
+  "IA3501": {
+    "nombre": "Electrificación rural",
+    "profesores": [
+      "HERRERA CORTEZ OSCAR"
+    ]
+  },
+  "IA4313": {
+    "nombre": "Riego a presión",
+    "profesores": [
+      "ARRIETA QUESADA SERGIO"
+    ]
+  },
+  "IA4314": {
+    "nombre": "Drenaje sub-superficial",
+    "profesores": [
+      "PICADO MORA ERICKA"
+    ]
+  },
+  "IA4315": {
+    "nombre": "Manejo de suelos, aguas y diseño de obras de conservación",
+    "profesores": [
+      "CHAVARRIA VIDAL ADRIAN"
+    ]
+  },
+  "IA4403": {
+    "nombre": "Mecanización agrícola",
+    "profesores": [
+      "ROMERO CALVO KERIN"
+    ]
+  },
+  "IA5402": {
+    "nombre": "Laboratorio de tractores y mecanización",
+    "profesores": [
+      "GARITA CERDAS ADRIAN DAVID"
+    ]
+  },
+  "IA5601": {
+    "nombre": "Protección ambiental",
+    "profesores": [
+      "VILLAGRA MENDOZA CAROLINA"
+    ]
+  },
+  "IA5604": {
+    "nombre": "Sistema de información geográfico",
+    "profesores": []
+  },
+  "IA5605": {
+    "nombre": "Tecnologías en ambientes protegidos",
+    "profesores": [
+      "SOTO MONGE ALLAN"
+    ]
+  },
+  "IB2021": {
+    "nombre": "Sistemas bioinformáticos",
+    "profesores": [
+      "BARBOZA FALLAS LUIS"
+    ]
+  },
+  "IB2113": {
+    "nombre": "Análisis estadístico para biotecnología",
+    "profesores": [
+      "CHACON CERDAS RANDALL"
+    ]
+  },
+  "IB2203": {
+    "nombre": "Anatomía vegetal",
+    "profesores": [
+      "ALVARADO MARCHENA LUIS FERNANDO"
+    ]
+  },
+  "IB2204": {
+    "nombre": "Laboratorio de anatomía vegetal",
+    "profesores": [
+      "SCHMIDT DURAN ALEXANDER",
+      "SOLERA STELLER PAOLA MARIA"
+    ]
+  },
+  "IB2503": {
+    "nombre": "Biotecnología y genética humana",
+    "profesores": [
+      "HERNANDEZ CARVAJAL ERICK"
+    ]
+  },
+  "IB3107": {
+    "nombre": "Microbiología industrial",
+    "profesores": [
+      "CHICAS ROMERO MAURICIO",
+      "MENESES MONTERO KARLA",
+      "MONTERO CAMPOS VIRGINIA"
+    ]
+  },
+  "IB3210": {
+    "nombre": "Sistemas ecológicos",
+    "profesores": [
+      "CARVAJAL ALFARO VANESSA",
+      "CHAVARRIA PIZARRO LAURA"
+    ]
+  },
+  "IB3302": {
+    "nombre": "Mejoramiento genético",
+    "profesores": [
+      "JARQUIN CORDERO MONSERRAT"
+    ]
+  },
+  "IB3404": {
+    "nombre": "Aplicación de sistemas de producción agrícola",
+    "profesores": [
+      "BRENES MADRIZ  JAIME"
+    ]
+  },
+  "IB3405": {
+    "nombre": "Laboratorio aplicación de sistemas de producción agrícola",
+    "profesores": [
+      "BRENES MADRIZ  JAIME",
+      "RIVERA MENDEZ WILLIAM EDUARDO"
+    ]
+  },
+  "IB3601": {
+    "nombre": "Bioquímica",
+    "profesores": [
+      "CENTENO CERDAS CAROLINA"
+    ]
+  },
+  "IB3603": {
+    "nombre": "Laboratorio de bioquímica",
+    "profesores": [
+      "CENTENO CERDAS CAROLINA",
+      "ROJAS CHAVES MIGUEL",
+      "VILLALTA ROMERO FABIAN"
+    ]
+  },
+  "IB4101": {
+    "nombre": "Biología molecular aplicada",
+    "profesores": [
+      "HERNANDEZ CARVAJAL ERICK"
+    ]
+  },
+  "IB4106": {
+    "nombre": "Laboratorio de biología molecular aplicada",
+    "profesores": [
+      "HERNANDEZ CARVAJAL ERICK",
+      "PERAZA MORAGA JOHNNY",
+      "VALERIN BERROCAL KARLA"
+    ]
+  },
+  "IB4201": {
+    "nombre": "Cultivo de tejidos II",
+    "profesores": [
+      "CALVO CASTRO LAURA"
+    ]
+  },
+  "IB4202": {
+    "nombre": "Laboratorio de cultivo de tejidos II",
+    "profesores": [
+      "ALVARADO ULLOA CARLOS",
+      "BARRIENTOS ALFARO FRANK CARLOS",
+      "GARRO MONGE GEOVANNY",
+      "MURILLO VEGA FRANCINIE",
+      "SALAS ARIAS KARLA MELISSA"
+    ]
+  },
+  "IB4805": {
+    "nombre": "Fundamentos de anatomía y desarrollo animal",
+    "profesores": [
+      "CASTRO PIEDRA SILVIA"
+    ]
+  },
+  "IB4806": {
+    "nombre": "Bacteriología aplicada a la biotecnología",
+    "profesores": [
+      "RIVAS SOLANO OLGA"
+    ]
+  },
+  "IB4810": {
+    "nombre": "Introducción a la fitoquímica",
+    "profesores": [
+      "ROSALES LOPEZ CATALINA"
+    ]
+  },
+  "IB4811": {
+    "nombre": "Propiedad intelectual, innovación y biotecnología",
+    "profesores": [
+      "ALVARADO ULLOA CARLOS"
+    ]
+  },
+  "IB4815": {
+    "nombre": "Insectos en biotecnología",
+    "profesores": [
+      "CHAVARRIA PIZARRO LAURA"
+    ]
+  },
+  "IC1400": {
+    "nombre": "Fundamentos de organización de computadoras",
+    "profesores": [
+      "ALVARADO CAMPOS LEISTER FRANCISCO",
+      "BENAVIDES CESPEDES CARLOS",
+      "GATJENS SOTO KIRSTEIN",
+      "QUIROS OVIEDO ROCIO",
+      "SANCHEZ CORRALES JUAN MANUEL",
+      "TORRES ROJAS FRANCISCO JOSE",
+      "VARGAS CALVO JORGE"
+    ]
+  },
+  "IC1802": {
+    "nombre": "Introducción a la programación",
+    "profesores": [
+      "ALFARO QUESADA ALEJANDRO",
+      "BRENES BRENES JOSE ALEXANDER",
+      "CANESSA MONTERO EDUARDO ADOLFO",
+      "CERDAS QUESADA IVANNIA",
+      "COTO SARMIENTO LAURA",
+      "MATA RODRIGUEZ WILLIAM",
+      "MORA ROJAS DIEGO"
+    ]
+  },
+  "IC1803": {
+    "nombre": "Taller de programación",
+    "profesores": [
+      "ALFARO QUESADA ALEJANDRO",
+      "BRENES BRENES JOSE ALEXANDER",
+      "CANESSA MONTERO EDUARDO ADOLFO",
+      "CERDAS QUESADA IVANNIA",
+      "COTO SARMIENTO LAURA",
+      "MATA RODRIGUEZ WILLIAM",
+      "MIRANDA FAJARDO JEAN CARLOS",
+      "MORA ROJAS DIEGO"
+    ]
+  },
+  "IC2001": {
+    "nombre": "Estructuras de datos",
+    "profesores": [
+      "AVILES CISNEROS MAURICIO",
+      "BOGARIN NAVARRO RODRIGO",
+      "CERDAS QUESADA IVANNIA",
+      "GARRO ABARCA VICTOR",
+      "MORA FONSECA DAVID RICARDO",
+      "RAMIREZ JIMENEZ EDDY",
+      "SANABRIA RODRIGUEZ AURELIO",
+      "VALERIO SOLIS LORENA"
+    ]
+  },
+  "IC2101": {
+    "nombre": "Programación orientada a objetos",
+    "profesores": [
+      "AVILES CISNEROS MAURICIO",
+      "CAMPOS FERNANDEZ IVAN",
+      "CHAVARRIA SANCHEZ LUIS JAVIER",
+      "MORA ROJAS DIEGO",
+      "NUÑEZ NUÑEZ RODRIGO",
+      "RAMIREZ SEGURA ROGER EMMANUEL",
+      "SOLANO FERNANDEZ ERICKA",
+      "VIQUEZ ACUÑA LEONARDO",
+      "VIQUEZ ACUÑA OSCAR MARIO"
+    ]
+  },
+  "IC3002": {
+    "nombre": "Análisis de algoritmos",
+    "profesores": [
+      "CASTRO MORA JOSE",
+      "HELO GUZMAN JOSE ELIAS",
+      "MUNGUIA MOLINA DIEGO",
+      "NAVAS SU JOSE DOLORES",
+      "NUÑEZ NUÑEZ RODRIGO",
+      "PECOU JOHNSON JOSS",
+      "VALERIO SOLIS LORENA"
+    ]
+  },
+  "IC3101": {
+    "nombre": "Arquitectura de computadores",
+    "profesores": [
+      "ALFARO VELASCO JORGE",
+      "BENAVIDES CESPEDES CARLOS",
+      "CANESSA MONTERO EDUARDO ADOLFO",
+      "GATJENS SOTO KIRSTEIN",
+      "MORA FONSECA DAVID RICARDO",
+      "QUIROS OVIEDO ROCIO",
+      "SANCHEZ HERRERA KERVIN",
+      "VARGAS CALVO JORGE"
+    ]
+  },
+  "IC4301": {
+    "nombre": "Bases de datos I",
+    "profesores": [
+      "ALVAREZ FIGUEROA ADRIANA",
+      "ARIAS RODRIGUEZ CARLOS",
+      "CORTES SEAS JONATHAN",
+      "MORA ROJAS DIEGO",
+      "QUIROS RAMIREZ FRANCO",
+      "SOTO CHAVES LUIS PABLO"
+    ]
+  },
+  "IC4302": {
+    "nombre": "Bases de datos II",
+    "profesores": [
+      "CAMPOS AGUERO CRISTIAN",
+      "CAMPOS ARAYA GERARDO NEREO",
+      "HERNANDEZ BONILLA ERICK",
+      "MORA CROSS MARIA AUXILIADORA",
+      "OBANDO RODRIGUEZ KENNETH",
+      "VIQUEZ ACUÑA LEONARDO"
+    ]
+  },
+  "IC4700": {
+    "nombre": "Lenguajes de programación",
+    "profesores": [
+      "CASTRO MORA JOSE",
+      "GATJENS SOTO KIRSTEIN",
+      "RAMIREZ JIMENEZ EDDY",
+      "RODRIGUEZ DAVILA ALLAN",
+      "VARGAS CALVO JORGE",
+      "VIQUEZ ACUÑA OSCAR MARIO"
+    ]
+  },
+  "IC4810": {
+    "nombre": "Administración de proyectos",
+    "profesores": [
+      "ALVAREZ FIGUEROA ADRIANA",
+      "ARROYO HERRERA MAURICIO",
+      "PEREZ GUTIERREZ FABIAN ANTONIO",
+      "RODRIGUEZ OVARES MARCO",
+      "SOLANO SOTO JAIME",
+      "VEGA DIAZ JEAN"
+    ]
+  },
+  "IC5701": {
+    "nombre": "Compiladores e interpretes",
+    "profesores": [
+      "MARIN SCHUMANN ERIKA",
+      "RAMIREZ JIMENEZ EDDY",
+      "RODRIGUEZ DAVILA ALLAN",
+      "SANABRIA RODRIGUEZ AURELIO",
+      "TORRES ROJAS FRANCISCO JOSE",
+      "VIQUEZ ACUÑA OSCAR MARIO"
+    ]
+  },
+  "IC5821": {
+    "nombre": "Requerimientos de software",
+    "profesores": [
+      "CAMPOS AGUILAR JOSE ANGEL",
+      "CAMPOS FUENTES MARVIN",
+      "CHACON RIVAS  MARIO",
+      "HERNANDEZ SIBAJA BRYAN",
+      "MONTOYA POITEVIEN LUIS",
+      "SOLANO SOTO JAIME"
+    ]
+  },
+  "IC6200": {
+    "nombre": "Inteligencia artificial",
+    "profesores": [
+      "CALDERON RAMIREZ SAUL",
+      "CASTRO MORA JOSE",
+      "JIMENEZ DELGADO EFREN ANTONIO",
+      "OBANDO RODRIGUEZ KENNETH",
+      "PACHECO PORTUGUEZ STEVEN"
+    ]
+  },
+  "IC6400": {
+    "nombre": "Investigación de operaciones",
+    "profesores": [
+      "BALLESTERO ALFARO ESTEBAN",
+      "HELO GUZMAN JOSE ELIAS",
+      "MENDEZ FLORES MANUEL",
+      "MIRANDA FAJARDO JEAN CARLOS",
+      "TORRES ROJAS FRANCISCO JOSE"
+    ]
+  },
+  "IC6600": {
+    "nombre": "Principios de sistemas operativos",
+    "profesores": [
+      "ALFARO VELASCO JORGE",
+      "ARCE OROZCO ARMANDO",
+      "ARIAS MENDEZ ESTEBAN",
+      "CAMPOS AGUERO CRISTIAN",
+      "MORA ZAMORA RODOLFO DE JESUS",
+      "RAMIREZ JIMENEZ EDDY"
+    ]
+  },
+  "IC6821": {
+    "nombre": "Diseño de software",
+    "profesores": [
+      "CAMPOS AGUILAR JOSE ANGEL",
+      "CHACON RIVAS  MARIO",
+      "MORA ROJAS RAQUEL FABIANA",
+      "RODRIGUEZ OVARES MARCO",
+      "SALAZAR HERNANDEZ ALICIA",
+      "SOLANO FERNANDEZ ERICKA",
+      "SOLIS PARAJELES JONATHAN"
+    ]
+  },
+  "IC6831": {
+    "nombre": "Aseguramiento de la calidad del software",
+    "profesores": [
+      "CHACON RIVAS  MARIO",
+      "HERNANDEZ BONILLA ERICK",
+      "MORA FONSECA DAVID RICARDO",
+      "RODRIGUEZ OVARES MARCO",
+      "SALAZAR HERNANDEZ ALICIA",
+      "VIQUEZ VIQUEZ ANDRES"
+    ]
+  },
+  "IC7602": {
+    "nombre": "Redes",
+    "profesores": [
+      "BENAVIDES CESPEDES CARLOS",
+      "CAMPOS ARAYA GERARDO NEREO",
+      "CANESSA MONTERO EDUARDO ADOLFO",
+      "MONDRAGON CORRALES GABRIEL",
+      "MORAGA GARCIA KEVIN"
+    ]
+  },
+  "IC7841": {
+    "nombre": "Proyecto de ingeniería de software",
+    "profesores": [
+      "LOPEZ VALERIO CYNTHIA",
+      "MORA ZAMORA RODOLFO DE JESUS",
+      "ROJAS VEGA DIEGO",
+      "SALAZAR HERNANDEZ ALICIA",
+      "SOLANO SOTO JAIME"
+    ]
+  },
+  "IC7900": {
+    "nombre": "Computación y sociedad",
+    "profesores": [
+      "GUTIERREZ ALFARO JAIME",
+      "MENDEZ PORRAS ABEL",
+      "MORA ZAMORA RODOLFO DE JESUS",
+      "SOLANO SOTO JAIME",
+      "VILLALOBOS ARIAS LUIS ROBERTO"
+    ]
+  },
+  "IC8048": {
+    "nombre": "Simulación de sistemas naturales",
+    "profesores": [
+      "AVILES CISNEROS MAURICIO"
+    ]
+  },
+  "IC8052": {
+    "nombre": "Criptografía",
+    "profesores": [
+      "VARGAS CALVO JORGE"
+    ]
+  },
+  "IC8057": {
+    "nombre": "Introducción al desarrollo de paginas web",
+    "profesores": [
+      "ROJAS VEGA DIEGO"
+    ]
+  },
+  "IC8058": {
+    "nombre": "Sistemas de información geográfica",
+    "profesores": [
+      "ARCE OROZCO ARMANDO",
+      "GUTIERREZ ALFARO JAIME"
+    ]
+  },
+  "IC8059": {
+    "nombre": "Introducción a los gráficos por computador",
+    "profesores": [
+      "TORRES ROJAS FRANCISCO JOSE"
+    ]
+  },
+  "IC8060": {
+    "nombre": "Recuperación de información textual",
+    "profesores": [
+      "SANABRIA RODRIGUEZ AURELIO"
+    ]
+  },
+  "IC8063": {
+    "nombre": "Comercio electrónico",
+    "profesores": [
+      "PECOU JOHNSON JOSS"
+    ]
+  },
+  "IC8071": {
+    "nombre": "Seguridad del software",
+    "profesores": [
+      "ALVAREZ FIGUEROA ADRIANA",
+      "CAMPOS AGUERO CRISTIAN",
+      "ESQUIVEL VARGAS HERSON",
+      "FERNANDEZ DE CASTRO NATAN",
+      "ROJAS CHAVARRIA ADRIANA"
+    ]
+  },
+  "IC8073": {
+    "nombre": "Introducción a la realidad virtual",
+    "profesores": [
+      "LAW WAN YUEN"
+    ]
+  },
+  "IC8076": {
+    "nombre": "Introducción al análisis de datos",
+    "profesores": [
+      "ZAMORA CARDENAS WILLARD"
+    ]
+  },
+  "IC8078": {
+    "nombre": "Almacenes de datos y procesamiento OLAP",
+    "profesores": [
+      "SHUM CHAN ALBERTO"
+    ]
+  },
+  "IC8842": {
+    "nombre": "Práctica profesional",
+    "profesores": [
+      "ALVAREZ FIGUEROA ADRIANA"
+    ]
+  },
+  "ID1101": {
+    "nombre": "Análisis de producto I",
+    "profesores": [
+      "BRENES CATALAN JOSE"
+    ]
+  },
+  "ID1103": {
+    "nombre": "Métodos de desarrollo de productos",
+    "profesores": [
+      "ARAYA ROJAS LUIS CARLOS"
+    ]
+  },
+  "ID1104": {
+    "nombre": "Análisis de producto II",
+    "profesores": [
+      "VALVERDE SOLANO MARIA DEL CARMEN"
+    ]
+  },
+  "ID1118": {
+    "nombre": "Fundamentos del diseño",
+    "profesores": [
+      "GRANADOS GOMEZ DONALD"
+    ]
+  },
+  "ID1119": {
+    "nombre": "Principios del diseño",
+    "profesores": [
+      "GRANADOS GOMEZ DONALD",
+      "MOREIRA ACUÑA SILVIA"
+    ]
+  },
+  "ID1205": {
+    "nombre": "Taller de dibujo",
+    "profesores": [
+      "MONTERO PIZARRO LEONARDO"
+    ]
+  },
+  "ID1206": {
+    "nombre": "Modelado y simulación",
+    "profesores": [
+      "GONZALEZ CAMACHO FEDERICO"
+    ]
+  },
+  "ID2107": {
+    "nombre": "Diseño I",
+    "profesores": [
+      "MONTERO PIZARRO LEONARDO"
+    ]
+  },
+  "ID2108": {
+    "nombre": "Diseño II",
+    "profesores": [
+      "VALVERDE SOLANO MARIA DEL CARMEN"
+    ]
+  },
+  "ID2120": {
+    "nombre": "Comunicación visual",
+    "profesores": [
+      "MONTERO PIZARRO LEONARDO"
+    ]
+  },
+  "ID2204": {
+    "nombre": "Herramientas digitales para diseño",
+    "profesores": [
+      "SEGURA SOLIS DAVID"
+    ]
+  },
+  "ID2207": {
+    "nombre": "Análisis del espacio tridimensional",
+    "profesores": [
+      "GONZALEZ CAMACHO FEDERICO"
+    ]
+  },
+  "ID2301": {
+    "nombre": "Principios estructurales",
+    "profesores": [
+      "BRENES CATALAN JOSE"
+    ]
+  },
+  "ID2302": {
+    "nombre": "Procesos de manufactura I",
+    "profesores": [
+      "CUBERO UGALDE MARCELA"
+    ]
+  },
+  "ID2401": {
+    "nombre": "Ergonomía",
+    "profesores": [
+      "SANCHEZ BRENES OLGA"
+    ]
+  },
+  "ID3109": {
+    "nombre": "Diseño III",
+    "profesores": [
+      "SANCHEZ BRENES OLGA"
+    ]
+  },
+  "ID3110": {
+    "nombre": "Diseño IV",
+    "profesores": [
+      "CUBERO UGALDE MARCELA"
+    ]
+  },
+  "ID3111": {
+    "nombre": "Diseño V",
+    "profesores": [
+      "ARAYA ROJAS LUIS CARLOS",
+      "GONZALEZ RAMIREZ MARIO"
+    ]
+  },
+  "ID3112": {
+    "nombre": "Diseño VI",
+    "profesores": [
+      "MORALES RODRIGUEZ PAULA"
+    ]
+  },
+  "ID3113": {
+    "nombre": "Biónica y eco-diseño",
+    "profesores": [
+      "BRENES CATALAN JOSE"
+    ]
+  },
+  "ID3205": {
+    "nombre": "Cultura material",
+    "profesores": [
+      "MOREIRA ACUÑA SILVIA"
+    ]
+  },
+  "ID3303": {
+    "nombre": "Procesos de manufactura II",
+    "profesores": [
+      "GONZALEZ RAMIREZ MARIO"
+    ]
+  },
+  "ID3304": {
+    "nombre": "Procesos de manufactura III",
+    "profesores": [
+      "RAMIREZ CHACON FERNANDO"
+    ]
+  },
+  "ID4501": {
+    "nombre": "Diseño de productos VII",
+    "profesores": [
+      "ARAYA CALVO MIGUEL"
+    ]
+  },
+  "ID4601": {
+    "nombre": "Diseño de comunicación visual VII",
+    "profesores": [
+      "HERNANDEZ CASTRO FRANKLIN"
+    ]
+  },
+  "ID5004": {
+    "nombre": "Introducción al diseño para la innovación social",
+    "profesores": [
+      "VARELA SOJO XINIA"
+    ]
+  },
+  "ID5114": {
+    "nombre": "Gestión de proyectos",
+    "profesores": [
+      "VARELA SOJO XINIA"
+    ]
+  },
+  "ID5115": {
+    "nombre": "Innovación de productos",
+    "profesores": [
+      "SEGURA SOLIS DAVID"
+    ]
+  },
+  "ID5511": {
+    "nombre": "Trabajo final de graduación (productos)",
+    "profesores": [
+      "CUBERO UGALDE MARCELA"
+    ]
+  },
+  "ID5515": {
+    "nombre": "Taller de diseño integrado",
+    "profesores": [
+      "GONZALEZ RAMIREZ MARIO"
+    ]
+  },
+  "ID5516": {
+    "nombre": "Teoría de las interfases y la interactividad",
+    "profesores": [
+      "WALSH ZUÑIGA YOSELYN"
+    ]
+  },
+  "ID5602": {
+    "nombre": "Teoría del diseño de la información",
+    "profesores": [
+      "HERNANDEZ CASTRO FRANKLIN"
+    ]
+  },
+  "ID5611": {
+    "nombre": "Trabajo final de graduación (comunicación visual)",
+    "profesores": []
+  },
+  "IF3502": {
+    "nombre": "Instrumentación I",
+    "profesores": [
+      "FONT CRUZ EDUARDO",
+      "MOYA SERRANO ROY DAVID"
+    ]
+  },
+  "IF3503": {
+    "nombre": "Instrumentación II",
+    "profesores": [
+      "FONT CRUZ EDUARDO"
+    ]
+  },
+  "IF3601": {
+    "nombre": "Metodología de la investigación",
+    "profesores": [
+      "SOLANO PIEDRA RICARDO ADOLFO"
+    ]
+  },
+  "IF3602": {
+    "nombre": "Métodos matemáticos de física e ingeniería I",
+    "profesores": [
+      "LACY MORA GERARDO"
+    ]
+  },
+  "IF3603": {
+    "nombre": "Óptica",
+    "profesores": [
+      "ALFARO ALVARADO JOSE ABRAHAN"
+    ]
+  },
+  "IF3604": {
+    "nombre": "Laboratorio de óptica",
+    "profesores": [
+      "MURILLO SALAZAR DENNIS"
+    ]
+  },
+  "IF4801": {
+    "nombre": "Mecánica cuántica para ingeniería",
+    "profesores": [
+      "MAYORGA ESPINOZA CARLOS"
+    ]
+  },
+  "IF4802": {
+    "nombre": "Laboratorio metrología I",
+    "profesores": [
+      "ALFARO ALVARADO JOSE ABRAHAN",
+      "MORA VINDAS ALAN GERARDO",
+      "SANABRIA SANDI RAZIEL FARID"
+    ]
+  },
+  "IF4803": {
+    "nombre": "Metrología industrial y legal",
+    "profesores": [
+      "SANABRIA SANDI RAZIEL FARID"
+    ]
+  },
+  "IF4804": {
+    "nombre": "Física computacional II",
+    "profesores": [
+      "MAYORGA ESPINOZA CARLOS"
+    ]
+  },
+  "IF5901": {
+    "nombre": "Física experimental",
+    "profesores": [
+      "MOYA SERRANO ROY DAVID"
+    ]
+  },
+  "LA5040": {
+    "nombre": "Sistemas de información financiera",
+    "profesores": [
+      "ARTAVIA DELGADO RANDALL"
+    ]
+  },
+  "LA5125": {
+    "nombre": "Contabilidad IV",
+    "profesores": [
+      "SOLANO MARTINEZ MAURICIO"
+    ]
+  },
+  "LA5132": {
+    "nombre": "Modelos de decisiones financieras",
+    "profesores": [
+      "SOLIS SALAZAR MARTIN"
+    ]
+  },
+  "LA5133": {
+    "nombre": "Banca y desarrollo",
+    "profesores": [
+      "MARTINEZ SOLIS KELLER"
+    ]
+  },
+  "LA5134": {
+    "nombre": "Decisiones de inversión",
+    "profesores": [
+      "HERNANDEZ RAMIREZ MANRIQUE"
+    ]
+  },
+  "LA5139": {
+    "nombre": "Auditoría gubernamental",
+    "profesores": [
+      "ABREGO CAMPOS LEONEL"
+    ]
+  },
+  "LA5141": {
+    "nombre": "Auditoría tributaria",
+    "profesores": [
+      "TREJOS MONGE SONIA"
+    ]
+  },
+  "LA5142": {
+    "nombre": "Auditoría de las tecnologías de la información I",
+    "profesores": [
+      "VALERIN CASTRO ALEXANDER"
+    ]
+  },
+  "LA5226": {
+    "nombre": "Planificación desarrollo de recursos humanos",
+    "profesores": [
+      "JARA VEGA ANA CATALINA"
+    ]
+  },
+  "LA5227": {
+    "nombre": "Desarrollo gerencial",
+    "profesores": [
+      "CORDOBA GONZALEZ CARLOS MANUEL"
+    ]
+  },
+  "LA5301": {
+    "nombre": "Políticas económicas",
+    "profesores": [
+      "CHAVARRIA HIDALGO CARLOS"
+    ]
+  },
+  "LA5416": {
+    "nombre": "Mercadeo gerencial",
+    "profesores": [
+      "JAUBERT SOLANO WILLIAM"
+    ]
+  },
+  "LA5417": {
+    "nombre": "Mercadeo de exportación",
+    "profesores": [
+      "MONTOYA RODRIGUEZ ILEANA"
+    ]
+  },
+  "LA5419": {
+    "nombre": "Estrategia de ventas",
+    "profesores": [
+      "SOLIS RAMIREZ INGRID"
+    ]
+  },
+  "LA6013": {
+    "nombre": "Trabajo final de graduación énfasis contaduría pública",
+    "profesores": [
+      "CERVANTES MEZA ALBERTO"
+    ]
+  },
+  "LA7008": {
+    "nombre": "Gestión de proyectos en mercadeo",
+    "profesores": [
+      "GUZMAN RIVERA DIEGO ANDRES"
+    ]
+  },
+  "LA8008": {
+    "nombre": "Gestión del riesgo",
+    "profesores": [
+      "GONZALEZ LEON JONATHAN"
+    ]
+  },
+  "LE1204": {
+    "nombre": "Psicología educativa en ETFP",
+    "profesores": [
+      "RODRIGUEZ MORALES OSCAR"
+    ]
+  },
+  "LE1205": {
+    "nombre": "Planificación didáctica y curricular en ETFP",
+    "profesores": [
+      "SOTO GRANT ANDREA"
+    ]
+  },
+  "LE1206": {
+    "nombre": "Metodología de la investigación",
+    "profesores": [
+      "HERNANDEZ ARAYA JESUS"
+    ]
+  },
+  "MA0101": {
+    "nombre": "Matemática general",
+    "profesores": [
+      "AZOFEIFA CUBERO ROBERTO",
+      "CARRERA RETANA LUIS ERNESTO",
+      "CORDERO QUIROS MARCIAL",
+      "ESQUIVEL SAMUDIO JEISON",
+      "GONZALEZ VARGAS KARINA",
+      "JIMENEZ CESPEDES RODOLFO",
+      "JIMENEZ MADRIGAL JORGE",
+      "MARRERO CALVO MARCELA",
+      "NAVARRO AGUIRRE JESSICA",
+      "PRENDAS ROJAS JUAN PABLO",
+      "QUESADA VILLALOBOS LOURDES",
+      "RODRIGUEZ BUSTOS KENDALL",
+      "RODRIGUEZ CASTRO BRYAN",
+      "SANCHEZ FERNANDEZ IVONNE",
+      "SOLANO VARELA DANIEL JESUS",
+      "SOLIS PALMA ANGIE",
+      "VEGA VASQUEZ ARTURO",
+      "WYNTA BANTON RANDY YADIR"
+    ]
+  },
+  "MA1102": {
+    "nombre": "Cálculo diferencial e integral",
+    "profesores": [
+      "CORDERO QUIROS MARCIAL",
+      "FALLAS MONGE JUAN JOSE",
+      "FREER PANIAGUA DYLANA",
+      "GUILLEN PEREZ CARLOS ENRIQUE",
+      "GUTIERREZ MONTENEGRO MARCO VINICIO",
+      "JIMENEZ MADRIGAL JORGE",
+      "LOPEZ MORA VERONICA",
+      "MASIS FLORES DAVID",
+      "MEJIAS RAMIREZ ELVIS ANDRES",
+      "MORA CASASOLA MARIA FERNANDA",
+      "MORA PICADO LUIS FERNANDO",
+      "NUÑEZ VANEGAS FELIX",
+      "PAEZ PAEZ CRISTIAN",
+      "PARRA SALAZAR EDWARD",
+      "QUESADA VILLALOBOS LOURDES",
+      "RAMIREZ BOGANTES MELVIN",
+      "RODRIGUEZ GRANADOS NATALIA",
+      "SABORIO CORDERO NATALIA",
+      "SOTO CASCANTE EMANUELLE",
+      "VILLALOBOS ARIAS MARIO",
+      "WYNTA BANTON RANDY YADIR"
+    ]
+  },
+  "MA1103": {
+    "nombre": "Cálculo y álgebra lineal",
+    "profesores": [
+      "ACUÑA PRADO LUIS",
+      "BRENES GOMEZ  RANDALL",
+      "CALDERON SOLANO MANUEL",
+      "CARRERA RETANA LUIS ERNESTO",
+      "CHAVARRIA MOLINA JEFFRY",
+      "CHINCHILLA VALVERDE JORGE LUIS",
+      "FIGUEROA MATA GEOVANNI",
+      "FREER PANIAGUA DYLANA",
+      "GUTIERREZ MONTENEGRO MARCO VINICIO",
+      "JIMENEZ ROMERO ALEJANDRA",
+      "LOPEZ MORA VERONICA",
+      "MORA PICADO LUIS FERNANDO",
+      "NAVARRO AGUIRRE JESSICA",
+      "OVIEDO UGALDE NORBERTO",
+      "PARRA RODRIGUEZ EMMANUELLE"
+    ]
+  },
+  "MA1303": {
+    "nombre": "Matemática básica para administración",
+    "profesores": [
+      "CHINCHILLA VALVERDE JORGE LUIS",
+      "JIMENEZ CESPEDES RODOLFO",
+      "MONGE MADRIZ CARLOS",
+      "RAMOS MARIN SIGURD"
+    ]
+  },
+  "MA1304": {
+    "nombre": "Cálculo para administración",
+    "profesores": [
+      "ACUÑA PRADO LUIS",
+      "CALDERON SOLANO MANUEL",
+      "CHACON VARGAS ERICK",
+      "JIMENEZ CESPEDES RODOLFO",
+      "RODRIGUEZ CASTRO BRYAN",
+      "SOTO CASCANTE EMANUELLE"
+    ]
+  },
+  "MA1403": {
+    "nombre": "Matemática discreta",
+    "profesores": [
+      "FALLAS MONGE JUAN JOSE",
+      "GONZALEZ VARGAS KARINA",
+      "RAMIREZ ARCE GREIVIN",
+      "RODRIGUEZ BUSTOS KENDALL",
+      "SABORIO CORDERO NATALIA",
+      "SOLANO HERRERA BYRON ANDREY",
+      "SOLIS ARGUEDAS ADRIANA"
+    ]
+  },
+  "MA2104": {
+    "nombre": "Cálculo superior",
+    "profesores": [
+      "BORBON ALPIZAR ALEXANDER",
+      "CARRERA RETANA LUIS ERNESTO",
+      "ESQUIVEL SAMUDIO JEISON",
+      "GARCIA DELGADO PAULO",
+      "JIMENEZ ROMERO ALEJANDRA",
+      "MONGE FALLAS JORGE",
+      "OVIEDO UGALDE NORBERTO",
+      "VALVERDE SANCHEZ SAMUEL",
+      "WYNTA BANTON RANDY YADIR"
+    ]
+  },
+  "MA2105": {
+    "nombre": "Ecuaciones diferenciales",
+    "profesores": [
+      "ALPIZAR BRENES GEISEL",
+      "BRENES GOMEZ  RANDALL",
+      "GARCIA DELGADO PAULO",
+      "GUILLEN PEREZ CARLOS ENRIQUE",
+      "MARIN SANCHEZ MARIO",
+      "OVIEDO UGALDE NORBERTO",
+      "RAMIREZ ARCE GREIVIN"
+    ]
+  },
+  "MA2117": {
+    "nombre": "Cálculo y geometría analítica",
+    "profesores": [
+      "VEGA VASQUEZ ARTURO"
+    ]
+  },
+  "MA2404": {
+    "nombre": "Probabilidades",
+    "profesores": [
+      "ALVARADO SOLANO ANDY",
+      "BALLESTERO ALFARO ESTEBAN",
+      "PARRA RODRIGUEZ EMMANUELLE",
+      "PRENDAS ROJAS JUAN PABLO",
+      "RODRIGUEZ CASTRO BRYAN",
+      "SOTO CASCANTE EMANUELLE"
+    ]
+  },
+  "MA3106": {
+    "nombre": "Métodos numéricos",
+    "profesores": [
+      "ALVARADO SOLANO ANDY",
+      "CHAVARRIA MOLINA JEFFRY"
+    ]
+  },
+  "MA3405": {
+    "nombre": "Estadística",
+    "profesores": [
+      "CHACON VARGAS ERICK",
+      "CHAVES SALAS LEONEL ROLANDO",
+      "MEJIAS RAMIREZ ELVIS ANDRES",
+      "MORA CASASOLA MARIA FERNANDA",
+      "SOTO CASCANTE EMANUELLE"
+    ]
+  },
+  "ME2208": {
+    "nombre": "Ciencias de los materiales",
+    "profesores": [
+      "GONZALEZ MASIS JEIMY",
+      "RODRIGUEZ QUESADA LARIA FABIOLA",
+      "VARGAS GOMEZ RODRIGO DAVID"
+    ]
+  },
+  "ME3208": {
+    "nombre": "Tecnología de materiales",
+    "profesores": [
+      "BENAVIDES RAMIREZ WILLIAM JESUS"
+    ]
+  },
+  "ME3209": {
+    "nombre": "Laboratorio de tecnología de materiales",
+    "profesores": [
+      "FERNANDEZ CHAVES ROBERTO",
+      "GONZALEZ HERNANDEZ EDUARDO",
+      "GONZALEZ MASIS JEIMY",
+      "RODRIGUEZ QUESADA LARIA FABIOLA",
+      "VEGA GARITA VICTOR"
+    ]
+  },
+  "MI2101": {
+    "nombre": "Dibujo técnico",
+    "profesores": [
+      "BERMUDEZ CHACON MARVIN",
+      "BONILLA GUIDO FRANCISCO",
+      "CORDOBA RAMIREZ LUIS FELIPE",
+      "GUZMAN CONEJO JOSHUA",
+      "HERNANDEZ GONZALEZ VICTOR JULIO",
+      "JACKSON QUIROS HERBERT",
+      "JIMENEZ CECILIANO MAXIMINO",
+      "MARIN GUILLEN FRANK",
+      "OTAROLA ZUÑIGA CARLOS",
+      "UREÑA SANDI NOEL"
+    ]
+  },
+  "MI2106": {
+    "nombre": "Estática",
+    "profesores": [
+      "GUERRERO FERNANDEZ JUAN LUIS",
+      "MATA COTO MANUEL",
+      "MONTERO JIMENEZ JUAN JOSE",
+      "MORERA HIDALGO JULIO",
+      "SALAS MOYA LAURA",
+      "VEGA SANCHEZ CHRISTOPHER"
+    ]
+  },
+  "MI2109": {
+    "nombre": "Estática",
+    "profesores": [
+      "CHAVES ALVAREZ MARCELA MARIA",
+      "MORERA HIDALGO JULIO",
+      "SALAS MOYA LAURA",
+      "VEGA SANCHEZ CHRISTOPHER"
+    ]
+  },
+  "MI2202": {
+    "nombre": "Laboratorio de electricidad I",
+    "profesores": [
+      "ARAYA RODRIGUEZ LISANDRO",
+      "GUERRERO  CASTRO OSVALDO"
+    ]
+  },
+  "MI2204": {
+    "nombre": "Laboratorio de electricidad II",
+    "profesores": [
+      "GOMEZ RAMIREZ GUSTAVO",
+      "VAQUERANO PINEDA NICOLAS"
+    ]
+  },
+  "MI2205": {
+    "nombre": "Electricidad I",
+    "profesores": [
+      "ARAYA RODRIGUEZ LISANDRO"
+    ]
+  },
+  "MI2207": {
+    "nombre": "Electricidad II",
+    "profesores": [
+      "VAQUERANO PINEDA NICOLAS"
+    ]
+  },
+  "MI3103": {
+    "nombre": "Procesos de manufactura",
+    "profesores": [
+      "CORDOBA RAMIREZ LUIS FELIPE",
+      "MARIN GUILLEN FRANK"
+    ]
+  },
+  "MI3104": {
+    "nombre": "Laboratorio procesos de manufactura",
+    "profesores": [
+      "BONILLA GUIDO FRANCISCO",
+      "CORDOBA RAMIREZ LUIS FELIPE",
+      "MARIN GUILLEN FRANK",
+      "ROJAS GOMEZ JULIO CESAR"
+    ]
+  },
+  "MI3108": {
+    "nombre": "Mecánica de fluidos",
+    "profesores": [
+      "DEL VALLE GRANADOS IGNACIO"
+    ]
+  },
+  "MI3111": {
+    "nombre": "Laboratorio de mecánica de fluidos",
+    "profesores": [
+      "ARIAS CARTIN JUAN PABLO"
+    ]
+  },
+  "MI3115": {
+    "nombre": "Resistencia de materiales",
+    "profesores": [
+      "MATA COTO MANUEL",
+      "MORERA HIDALGO JULIO",
+      "UREÑA SANDI NOEL"
+    ]
+  },
+  "MI3116": {
+    "nombre": "Turbo máquinas",
+    "profesores": [
+      "GARRO ZAVALETA JOSE ALBERTO"
+    ]
+  },
+  "MI3117": {
+    "nombre": "Dinámica",
+    "profesores": [
+      "MONTERO JIMENEZ JUAN JOSE",
+      "OTAROLA ZUÑIGA CARLOS",
+      "RICHMOND NAVARRO GUSTAVO"
+    ]
+  },
+  "MI3119": {
+    "nombre": "Laboratorio de turbomáquinas",
+    "profesores": [
+      "MONGE RUIZ OSCAR EDUARDO"
+    ]
+  },
+  "MI3124": {
+    "nombre": "Dibujo industrial",
+    "profesores": [
+      "HERNANDEZ GONZALEZ VICTOR JULIO",
+      "SALAS MOYA LAURA"
+    ]
+  },
+  "MI3130": {
+    "nombre": "Termodinámica",
+    "profesores": [
+      "DEL VALLE GRANADOS IGNACIO"
+    ]
+  },
+  "MI3138": {
+    "nombre": "Máquinas y equipos",
+    "profesores": [
+      "GUZMAN CONEJO JOSHUA",
+      "MONGE RUIZ OSCAR EDUARDO"
+    ]
+  },
+  "MI3206": {
+    "nombre": "Laboratorio de máquinas eléctricas",
+    "profesores": [
+      "GUERRERO  CASTRO OSVALDO"
+    ]
+  },
+  "MI3209": {
+    "nombre": "Electricidad III",
+    "profesores": [
+      "ARAYA RODRIGUEZ LISANDRO"
+    ]
+  },
+  "MI3210": {
+    "nombre": "Máquinas eléctricas",
+    "profesores": [
+      "GUERRERO  CASTRO OSVALDO"
+    ]
+  },
+  "MI4125": {
+    "nombre": "Laboratorio de sistemas de vapor",
+    "profesores": [
+      "GARRO ZAVALETA JOSE ALBERTO"
+    ]
+  },
+  "MI4129": {
+    "nombre": "Sistemas de vapor",
+    "profesores": [
+      "GARRO ZAVALETA JOSE ALBERTO"
+    ]
+  },
+  "MI4136": {
+    "nombre": "Elementos de máquinas",
+    "profesores": [
+      "OTAROLA ZUÑIGA CARLOS"
+    ]
+  },
+  "MI4209": {
+    "nombre": "Control eléctrico",
+    "profesores": [
+      "MURILLO SOTO LUIS DIEGO"
+    ]
+  },
+  "MI4210": {
+    "nombre": "Laboratorio de control eléctrico",
+    "profesores": [
+      "GOMEZ GUTIERREZ LUIS",
+      "MURILLO SOTO LUIS DIEGO",
+      "ROJAS HERNANDEZ JUAN JOSE"
+    ]
+  },
+  "MI4212": {
+    "nombre": "Instalaciones eléctricas",
+    "profesores": [
+      "GOMEZ GUTIERREZ LUIS"
+    ]
+  },
+  "MI4300": {
+    "nombre": "Administración mantenimiento I",
+    "profesores": [
+      "MATA ORTEGA SEBASTIAN"
+    ]
+  },
+  "MI4305": {
+    "nombre": "Administración de mantenimiento II",
+    "profesores": [
+      "PIEDRA SANTAMARIA CARLOS"
+    ]
+  },
+  "MI4311": {
+    "nombre": "Modelos cuantitativos para la toma de decisiones",
+    "profesores": [
+      "MATARRITA CHAVES ROSA MARIA"
+    ]
+  },
+  "MI4510": {
+    "nombre": "Electrotecnia",
+    "profesores": [
+      "VAQUERANO PINEDA NICOLAS"
+    ]
+  },
+  "MI5151": {
+    "nombre": "Diseño mecánico",
+    "profesores": [
+      "UREÑA SANDI NOEL"
+    ]
+  },
+  "MI5215": {
+    "nombre": "Análisis de sistemas eléctricos de potencia",
+    "profesores": [
+      "BARAHONA GUZMAN GREIVIN"
+    ]
+  },
+  "MI6253": {
+    "nombre": "Fundamentos en administración de proyectos en ingeniería",
+    "profesores": [
+      "MATA ORTEGA SEBASTIAN"
+    ]
+  },
+  "MI6258": {
+    "nombre": "Sistema de puesta a tierra",
+    "profesores": [
+      "MUÑOZ CHACON LUIS CARLOS"
+    ]
+  },
+  "MI6259": {
+    "nombre": "Sistemas de refrigeración",
+    "profesores": [
+      "MONGE RUIZ OSCAR EDUARDO"
+    ]
+  },
+  "MI6351": {
+    "nombre": "Mantenimiento predictivo",
+    "profesores": [
+      "PIEDRA SANTAMARIA CARLOS"
+    ]
+  },
+  "MI8304": {
+    "nombre": "Máquinas y equipos",
+    "profesores": [
+      "BERMUDEZ CHACON MARVIN",
+      "DEL VALLE GRANADOS IGNACIO"
+    ]
+  },
+  "MR1102": {
+    "nombre": "Inferencia estadística",
+    "profesores": [
+      "ARIAS AGUILAR  DAGOBERTO"
+    ]
+  },
+  "MR1103": {
+    "nombre": "Administración y manejo sostenible de recursos naturales",
+    "profesores": [
+      "TORRES CONTRERAS ANGELICA"
+    ]
+  },
+  "MR1201": {
+    "nombre": "Gerencia de recursos naturales",
+    "profesores": [
+      "RODRIGUEZ MOLINA DANIEL"
+    ]
+  },
+  "MR1202": {
+    "nombre": "Sostenibilidad y desarrollo de sistemas naturales y productivos",
+    "profesores": [
+      "ARIAS AGUILAR  DAGOBERTO"
+    ]
+  },
+  "MR2529": {
+    "nombre": "Aguas subterráneas",
+    "profesores": [
+      "GUEVARA RODRIGUEZ GREGORIO"
+    ]
+  },
+  "MR2533": {
+    "nombre": "Técnicas de identificación y valoración del daño ambiental",
+    "profesores": [
+      "ARIAS ZUÑIGA ANA LORENA"
+    ]
+  },
+  "MT2001": {
+    "nombre": "Circuitos eléctricos en CC y CA",
+    "profesores": [
+      "MEZA OBANDO FELIPE",
+      "VAQUERANO PINEDA NICOLAS"
+    ]
+  },
+  "MT2002": {
+    "nombre": "Laboratorio de circuitos de corriente continua y corriente alterna",
+    "profesores": [
+      "ARIAS ESQUIVEL YEINER",
+      "ASENJO CASTILLO EDUARDO JOSE",
+      "MELENDEZ POLTRONIERI ROGER",
+      "VILCHEZ MONGE MARTA"
+    ]
+  },
+  "MT3001": {
+    "nombre": "Electrónica analógica",
+    "profesores": [
+      "MONTERO RODRIGUEZ JUAN JOSE"
+    ]
+  },
+  "MT3002": {
+    "nombre": "Laboratorio de electrónica analógica",
+    "profesores": [
+      "BRENES TORRES JUAN CARLOS",
+      "MELENDEZ POLTRONIERI ROGER"
+    ]
+  },
+  "MT3003": {
+    "nombre": "Máquinas eléctricas para mecatrónica",
+    "profesores": [
+      "GUERRERO  CASTRO OSVALDO"
+    ]
+  },
+  "MT3004": {
+    "nombre": "Laboratorio de máquinas eléctricas para mecatrónica",
+    "profesores": [
+      "GUERRERO  CASTRO OSVALDO",
+      "MATA ORTEGA SEBASTIAN"
+    ]
+  },
+  "MT4001": {
+    "nombre": "Electrónica digital",
+    "profesores": [
+      "PIEDRA CAMACHO RODOLFO JOSE"
+    ]
+  },
+  "MT4002": {
+    "nombre": "Laboratorio electrónica digital",
+    "profesores": [
+      "CASTRO GODINEZ JORGE ALBERTO"
+    ]
+  },
+  "MT5002": {
+    "nombre": "Modelos de sistemas para mecatrónica",
+    "profesores": [
+      "ARAYA MENESES IVAN"
+    ]
+  },
+  "MT5003": {
+    "nombre": "Electrónica de potencia aplicada",
+    "profesores": [
+      "ARIAS ESQUIVEL YEINER"
+    ]
+  },
+  "MT5004": {
+    "nombre": "Laboratorio de electrónica de potencia aplicada",
+    "profesores": [
+      "ELIZONDO RAMIREZ DIEGO HUMBERTO"
+    ]
+  },
+  "MT6001": {
+    "nombre": "Probabilidad y procesos estocásticos",
+    "profesores": [
+      "MAYORGA ESPINOZA CARLOS"
+    ]
+  },
+  "MT6002": {
+    "nombre": "Termofluidos",
+    "profesores": [
+      "DEL VALLE GRANADOS IGNACIO"
+    ]
+  },
+  "MT6003": {
+    "nombre": "Laboratorio de termofluidos",
+    "profesores": [
+      "ARIAS CARTIN JUAN PABLO",
+      "GARRO ZAVALETA JOSE ALBERTO",
+      "MONGE RUIZ OSCAR EDUARDO"
+    ]
+  },
+  "MT7001": {
+    "nombre": "Análisis y simulación de sistemas",
+    "profesores": [
+      "ORTIZ LEON GABRIELA"
+    ]
+  },
+  "MT7002": {
+    "nombre": "Sensores y actuadores",
+    "profesores": [
+      "ELIZONDO RAMIREZ DIEGO HUMBERTO"
+    ]
+  },
+  "MT7003": {
+    "nombre": "Microprocesadores y microcontroladores",
+    "profesores": [
+      "SALAZAR GARCIA CARLOS ADRIAN"
+    ]
+  },
+  "MT7004": {
+    "nombre": "Neumática y oleohidráulica",
+    "profesores": [
+      "ARAYA MENESES IVAN"
+    ]
+  },
+  "MT7005": {
+    "nombre": "Formulación de proyectos",
+    "profesores": [
+      "SALAZAR GARCIA CARLOS ADRIAN"
+    ]
+  },
+  "MT7006": {
+    "nombre": "Diseño máquinas y mecanismos",
+    "profesores": [
+      "MORA MELENDEZ JAIME"
+    ]
+  },
+  "MT8001": {
+    "nombre": "Teoría de comunicación y procesamiento de señales",
+    "profesores": [
+      "MORA MELENDEZ JAIME"
+    ]
+  },
+  "MT8002": {
+    "nombre": "Automatización y redes industriales",
+    "profesores": [
+      "ASENJO CASTILLO EDUARDO JOSE",
+      "CARRASQUILLA BATISTA ARYS INDIRA"
+    ]
+  },
+  "MT8003": {
+    "nombre": "Sistemas de manufactura",
+    "profesores": [
+      "MORA MELENDEZ JAIME"
+    ]
+  },
+  "MT8005": {
+    "nombre": "Robótica",
+    "profesores": [
+      "BRENES TORRES JUAN CARLOS"
+    ]
+  },
+  "MT8008": {
+    "nombre": "Inteligencia artificial",
+    "profesores": [
+      "CRESPO MARINO JUAN LUIS"
+    ]
+  },
+  "MT9001": {
+    "nombre": "Diseño de sistemas mecatrónicos",
+    "profesores": [
+      "CRESPO MARINO JUAN LUIS"
+    ]
+  },
+  "MT9002": {
+    "nombre": "Mantenimiento de sistemas mecatrónicos",
+    "profesores": [
+      "MONTERO JIMENEZ JUAN JOSE"
+    ]
+  },
+  "MT9005": {
+    "nombre": "Simulación procesos industriales",
+    "profesores": [
+      "BRENES TORRES JUAN CARLOS"
+    ]
+  },
+  "MT9008": {
+    "nombre": "Sistemas de visión",
+    "profesores": [
+      "CRESPO MARINO JUAN LUIS"
+    ]
+  },
+  "NE0001": {
+    "nombre": "Historia natural de Costa Rica",
+    "profesores": [
+      "CARVAJAL ALFARO VANESSA"
+    ]
+  },
+  "NE1001": {
+    "nombre": "Fundamentos de química ambiental para turismo",
+    "profesores": [
+      "ARIAS ALPIZAR KEVIN RICARDO"
+    ]
+  },
+  "NE1004": {
+    "nombre": "Estadística inferencial para turismo",
+    "profesores": [
+      "MEJIAS RAMIREZ ELVIS ANDRES"
+    ]
+  },
+  "NE1006": {
+    "nombre": "Física para Agronomía",
+    "profesores": [
+      "GAMBOA ALFARO MARVIN RICARDO"
+    ]
+  },
+  "PI2304": {
+    "nombre": "Estudio del trabajo I",
+    "profesores": [
+      "CUBILLO MORALES DANIER",
+      "DANIELS CHAN ESTEBAN",
+      "HASBUM FERNANDEZ  IVANNIA",
+      "ROJAS RODRIGUEZ DAVID"
+    ]
+  },
+  "PI2608": {
+    "nombre": "Análisis estadístico",
+    "profesores": [
+      "ALEGRIA GRANADOS MELISSA",
+      "BRENES MORALES ORLANDO"
+    ]
+  },
+  "PI2609": {
+    "nombre": "Probabilidad y estadística",
+    "profesores": [
+      "HASBUM FERNANDEZ  IVANNIA",
+      "SOLANO LEANDRO PAULA"
+    ]
+  },
+  "PI2610": {
+    "nombre": "Probabilidad y estadística I",
+    "profesores": [
+      "ALEGRIA GRANADOS MELISSA",
+      "FARAH GUZMAN BILJHANA SHAKIRA",
+      "ROBLES OBANDO NATALIA",
+      "RODRIGUEZ GONZALEZ LUIS ELADIO"
+    ]
+  },
+  "PI3206": {
+    "nombre": "Logística y administración de la cadena de abastecimiento",
+    "profesores": [
+      "DANIELS CHAN ESTEBAN",
+      "HASBUM FERNANDEZ  IVANNIA",
+      "MITCHELL RILEY MARIO",
+      "MORALES ARIAS JONATHAN"
+    ]
+  },
+  "PI3306": {
+    "nombre": "Gestión de calidad",
+    "profesores": [
+      "RODRIGUEZ GONZALEZ LUIS ELADIO"
+    ]
+  },
+  "PI3308": {
+    "nombre": "Estudio del trabajo II",
+    "profesores": [
+      "CORDERO MEZA HAROLD",
+      "HASBUM FERNANDEZ  IVANNIA"
+    ]
+  },
+  "PI3403": {
+    "nombre": "Sistema de información",
+    "profesores": [
+      "ARIAS RAMIREZ DENNIS",
+      "CAVERO QUESADA ANDREA",
+      "ESPINOZA RODRIGUEZ FABIANA",
+      "MORALES ARIAS JONATHAN",
+      "ROJAS RODRIGUEZ DAVID"
+    ]
+  },
+  "PI3407": {
+    "nombre": "Computación industrial",
+    "profesores": [
+      "BRENES NAVARRO BALAM",
+      "LEMAITRE GONZALEZ ESTEBAN"
+    ]
+  },
+  "PI3501": {
+    "nombre": "Costos Industriales I",
+    "profesores": [
+      "BRENES MORALES ORLANDO",
+      "MADRIZ QUIROS CARMEN",
+      "PEREZ MURILLO ERICK"
+    ]
+  },
+  "PI3502": {
+    "nombre": "Costos industriales II",
+    "profesores": [
+      "ALVAREZ SOLORZANO DIOGENES",
+      "CORDERO MEZA HAROLD",
+      "ESPINOZA RODRIGUEZ FABIANA",
+      "OCAMPO CAMPOS LAURA"
+    ]
+  },
+  "PI3512": {
+    "nombre": "Dirección de personal",
+    "profesores": [
+      "ALEGRIA GRANADOS MELISSA",
+      "GARITA ALPIZAR PABLO",
+      "VARGAS GOMEZ PABLO JOSE",
+      "VARGAS VARGAS BERNAL"
+    ]
+  },
+  "PI3603": {
+    "nombre": "Investigación de operaciones I",
+    "profesores": [
+      "ALVAREZ SOLORZANO DIOGENES",
+      "FARAH GUZMAN BILJHANA SHAKIRA",
+      "MORALES ARIAS JONATHAN",
+      "ROBLES OBANDO NATALIA"
+    ]
+  },
+  "PI3612": {
+    "nombre": "Probabilidad y estadística II",
+    "profesores": [
+      "PEREZ MURILLO ERICK",
+      "SALAS CERDAS LISS",
+      "SOLANO LEANDRO PAULA"
+    ]
+  },
+  "PI4001": {
+    "nombre": "Dirección de personal",
+    "profesores": [
+      "CORDOBA GONZALEZ CARLOS MANUEL",
+      "GARCIA ROMERO SOFIA",
+      "VARGAS GOMEZ PABLO JOSE"
+    ]
+  },
+  "PI4303": {
+    "nombre": "Control de producción",
+    "profesores": [
+      "BRENES BONILLA JARY",
+      "SANCHEZ BRENES MAGALY"
+    ]
+  },
+  "PI4306": {
+    "nombre": "Metrología y normalización",
+    "profesores": [
+      "SOLANO LEANDRO PAULA",
+      "TORRES NAVARRO RAFAEL"
+    ]
+  },
+  "PI4307": {
+    "nombre": "Control de calidad",
+    "profesores": [
+      "ALEGRIA GRANADOS MELISSA",
+      "GARCES MONGE LUIS IGNACIO"
+    ]
+  },
+  "PI4309": {
+    "nombre": "Planeación y diseño de instalaciones",
+    "profesores": [
+      "BRENES BONILLA JARY",
+      "CUBILLO MORALES DANIER",
+      "GARCES MONGE LUIS IGNACIO"
+    ]
+  },
+  "PI4505": {
+    "nombre": "Análisis económico",
+    "profesores": [
+      "ALVAREZ SOLORZANO DIOGENES",
+      "BRENES NAVARRO BALAM"
+    ]
+  },
+  "PI4802": {
+    "nombre": "Administración de proyectos",
+    "profesores": [
+      "CORDERO MEZA HAROLD",
+      "FONSECA RETANA LEONEL",
+      "VARGAS VARGAS BERNAL"
+    ]
+  },
+  "PI4803": {
+    "nombre": "Gestión de la innovación",
+    "profesores": [
+      "ARIAS RAMIREZ DENNIS",
+      "LAFUENTE CHRYSOOPULOS RAQUEL",
+      "ROJAS RODRIGUEZ DAVID"
+    ]
+  },
+  "PI5101": {
+    "nombre": "Gestión de procesos",
+    "profesores": [
+      "SILES SOLANO ANA CATALINA"
+    ]
+  },
+  "PI5302": {
+    "nombre": "Diseño de experimentos",
+    "profesores": [
+      "MENESES GUZMAN MARCELA",
+      "ROBLES OBANDO NATALIA",
+      "RODRIGUEZ GONZALEZ LUIS ELADIO",
+      "SANCHEZ BRENES MAGALY"
+    ]
+  },
+  "PI5401": {
+    "nombre": "Simulación industrial",
+    "profesores": [
+      "MADRIZ QUIROS CARMEN",
+      "SANCHEZ BRENES MAGALY",
+      "VARGAS VARGAS BERNAL"
+    ]
+  },
+  "PI5402": {
+    "nombre": "Automatización de manufactura",
+    "profesores": [
+      "BADILLA MURILLO FELIX",
+      "GUTIERREZ ESPINOZA KEVIN",
+      "HERNANDEZ GRANADOS JUAN BAUTISTA",
+      "LEMAITRE GONZALEZ ESTEBAN"
+    ]
+  },
+  "PI5408": {
+    "nombre": "Tópicos avanzados de producción",
+    "profesores": [
+      "ARIAS RAMIREZ DENNIS"
+    ]
+  },
+  "PI5516": {
+    "nombre": "Ingeniería económica",
+    "profesores": [
+      "CHACON ROJAS FERNANDO",
+      "FARAH GUZMAN BILJHANA SHAKIRA",
+      "HERNANDEZ RAMIREZ MANRIQUE",
+      "MCLEAN VALERIO KATHLEEN"
+    ]
+  },
+  "PI5601": {
+    "nombre": "Diagnóstico industrial",
+    "profesores": [
+      "ARIAS RAMIREZ DENNIS",
+      "VARGAS VARGAS BERNAL"
+    ]
+  },
+  "PI5707": {
+    "nombre": "Ingeniería de la confiabilidad",
+    "profesores": [
+      "ALVARADO PEÑA MARCO",
+      "BADILLA MURILLO FELIX",
+      "LEMAITRE GONZALEZ ESTEBAN",
+      "PEREZ MURILLO ERICK"
+    ]
+  },
+  "PI5708": {
+    "nombre": "Gestión por procesos",
+    "profesores": [
+      "DANIELS CHAN ESTEBAN"
+    ]
+  },
+  "PI5710": {
+    "nombre": "Diseño de puestos de trabajo y herramientas ergonómicas",
+    "profesores": [
+      "ROJAS RODRIGUEZ DAVID"
+    ]
+  },
+  "QU1102": {
+    "nombre": "Laboratorio de química básica I",
+    "profesores": [
+      "CALLEJA AMADOR CARLOS ENRIQUE",
+      "FERNANDEZ RODRIGUEZ MARCELA",
+      "HERNANDEZ ALPIZAR LAURA",
+      "MORA MOLINA JESUS",
+      "QUIROS BUSTOS NOEMI",
+      "VILLALOBOS MURILLO JOHANA"
+    ]
+  },
+  "QU1104": {
+    "nombre": "Laboratorio de química básica II",
+    "profesores": [
+      "ABARCA GUERRERO LILLIANA",
+      "ARIAS ALPIZAR KEVIN RICARDO",
+      "CHAVES BARQUERO LUIS GERARDO",
+      "FERNANDEZ RODRIGUEZ MARCELA",
+      "FLORES CANTILLO ADRIAN",
+      "HERRERA NUÑEZ JACQUELINE MARIA",
+      "MATA SOLANO ROGELIO",
+      "MORA MOLINA JESUS",
+      "OSORNO FALLAS DAVID",
+      "PORRAS CAJINA DANILO ALBERTO",
+      "ROBLES CHAVEZ DIANA",
+      "ROMERO BLANCO ERIC",
+      "SALAZAR ROJAS TERESA",
+      "SANCHEZ KOPPER ANDRES",
+      "SANDOVAL MORA JOSE ALBERTO",
+      "ULATE MOLINA RICARDO ENRIQUE",
+      "VILLALOBOS MURILLO JOHANA"
+    ]
+  },
+  "QU1106": {
+    "nombre": "Química básica I",
+    "profesores": [
+      "ARIAS ALPIZAR KEVIN RICARDO",
+      "CALLEJA AMADOR CARLOS ENRIQUE",
+      "OSORNO FALLAS DAVID",
+      "PORRAS ACOSTA MARIA",
+      "QUIROS BUSTOS NOEMI",
+      "SOTO CORDOBA SILVIA",
+      "VILLALTA ROMERO FABIAN"
+    ]
+  },
+  "QU1107": {
+    "nombre": "Química básica II",
+    "profesores": [
+      "ARAYA CARVAJAL FABIO",
+      "ARCE ROJAS HEILEN",
+      "CHAVES BARQUERO LUIS GERARDO",
+      "LEDEZMA ESPINOZA AURA",
+      "OSORNO FALLAS DAVID",
+      "PORRAS CAJINA DANILO ALBERTO",
+      "SALAS JIMENEZ JUAN CARLOS",
+      "STARBIRD PEREZ RICARDO",
+      "VARGAS CAMARENO MARICRUZ"
+    ]
+  },
+  "QU1902": {
+    "nombre": "Fundamentos de química",
+    "profesores": [
+      "ARAYA MARCHENA MARIO"
+    ]
+  },
+  "QU2402": {
+    "nombre": "Laboratorio fundamentos química orgánica",
+    "profesores": [
+      "MATA SOLANO ROGELIO"
+    ]
+  },
+  "QU2403": {
+    "nombre": "Química orgánica",
+    "profesores": [
+      "PUENTE URBINA ALLEN ARTURO",
+      "VALVERDE CERDAS JOHNNY"
+    ]
+  },
+  "QU2404": {
+    "nombre": "Laboratorio de química orgánica",
+    "profesores": [
+      "SOTO CORDOBA SILVIA",
+      "VALVERDE CERDAS JOHNNY"
+    ]
+  },
+  "QU2407": {
+    "nombre": "Fundamentos de química orgánica",
+    "profesores": [
+      "CESPEDES CAMACHO ISAAC FABIAN"
+    ]
+  },
+  "QU2409": {
+    "nombre": "Química orgánica y bioquímica",
+    "profesores": [
+      "ARAYA MARCHENA MARIO"
+    ]
+  },
+  "QU2410": {
+    "nombre": "Laboratorio de química orgánica y bioquímica",
+    "profesores": [
+      "SANDOVAL MORA JOSE ALBERTO"
+    ]
+  },
+  "QU2604": {
+    "nombre": "Química ambiental y analítica",
+    "profesores": [
+      "FLORES CANTILLO ADRIAN"
+    ]
+  },
+  "QU2605": {
+    "nombre": "Laboratorio de química ambiental y analítica",
+    "profesores": [
+      "PUENTE URBINA ALLEN ARTURO"
+    ]
+  },
+  "SE1101": {
+    "nombre": "Artes dramáticas",
+    "profesores": [
+      "DE SIMONE CASTELLON ALEXANDRA",
+      "GOMEZ JIMENEZ ANDREA",
+      "HERRERA CORDERO SERGIO"
+    ]
+  },
+  "SE1102": {
+    "nombre": "Acción social",
+    "profesores": [
+      "BARRANTES ALVARADO IVAN",
+      "HERNANDEZ RAMIREZ MARIELA",
+      "VALERIN ROJAS SOFIA"
+    ]
+  },
+  "SE1103": {
+    "nombre": "Danza",
+    "profesores": [
+      "LEANDRO CHACON MARIA FRANCELA",
+      "QUESADA VILLALOBOS JORGE",
+      "VALVERDE JARA ANA"
+    ]
+  },
+  "SE1104": {
+    "nombre": "Artes visuales",
+    "profesores": [
+      "COTO GUZMAN ALICIA",
+      "DIAZ BRENES NELSON",
+      "SERRANO SOLANO ALEX"
+    ]
+  },
+  "SE1105": {
+    "nombre": "Artes musicales",
+    "profesores": [
+      "CASTILLO ULATE ELENA",
+      "MEZA SOLANO VINICIO",
+      "MONGE PEREZ LUIS DIEGO"
+    ]
+  },
+  "SE1106": {
+    "nombre": "Apreciación literaria",
+    "profesores": [
+      "RAMOS VARGAS ARNOLDO"
+    ]
+  },
+  "SE1107": {
+    "nombre": "Apreciación de cine",
+    "profesores": [
+      "COTO GUZMAN ALICIA",
+      "DIAZ BRENES NELSON",
+      "HERRERA CORDERO SERGIO",
+      "RAMOS VARGAS ARNOLDO",
+      "SERRANO SOLANO ALEX"
+    ]
+  },
+  "SE1109": {
+    "nombre": "Dinámica de la cultura",
+    "profesores": [
+      "SANCHO MARTINEZ LAURA KARINA"
+    ]
+  },
+  "SE1111": {
+    "nombre": "Expresión corporal",
+    "profesores": [
+      "LEANDRO CHACON MARIA FRANCELA"
+    ]
+  },
+  "SE1201": {
+    "nombre": "Atletismo",
+    "profesores": [
+      "LARIOS CRUZ BORIS ALLAN",
+      "LORIA SOLANO JOHNNY"
+    ]
+  },
+  "SE1204": {
+    "nombre": "Natación",
+    "profesores": [
+      "BOGANTES GARCIA FERNANDO",
+      "LARIOS CRUZ BORIS ALLAN",
+      "LOAIZA SOTO BIERY",
+      "MENDEZ SOLANO MIGUEL",
+      "RODRIGUEZ MORERA MARCIA",
+      "SANCHEZ PEREZ LISBETH"
+    ]
+  },
+  "SE1205": {
+    "nombre": "Juegos y deportes en conjunto",
+    "profesores": [
+      "CABRERA ARAYA GUSTAVO ALCIDES",
+      "JIMENEZ JIMENEZ DANIEL",
+      "LOAIZA SOTO BIERY",
+      "MENDEZ GAMBOA ROSAURA",
+      "QUIROS VALVERDE RODRIGO",
+      "VEGA AGUERO JORGE",
+      "VIQUEZ ZELEDON JESSENIA"
+    ]
+  },
+  "SE1206": {
+    "nombre": "Acondicionamiento físico",
+    "profesores": [
+      "LORIA SOLANO JOHNNY",
+      "MENDEZ GAMBOA ROSAURA",
+      "ORTEGA ARTAVIA JHONNY",
+      "RODRIGUEZ MORERA MARCIA",
+      "VEGA AGUERO JORGE",
+      "VIQUEZ ZELEDON JESSENIA"
+    ]
+  },
+  "SE1209": {
+    "nombre": "Béisbol-softbol",
+    "profesores": [
+      "MENDEZ SOLANO MIGUEL",
+      "VEGA AGUERO JORGE"
+    ]
+  },
+  "SE1218": {
+    "nombre": "Ajedrez",
+    "profesores": [
+      "CORDERO MAROTO NELSON"
+    ]
+  },
+  "SE1219": {
+    "nombre": "Baloncesto recreativo",
+    "profesores": [
+      "CABRERA ARAYA GUSTAVO ALCIDES",
+      "MARIN VARGAS FABIAN"
+    ]
+  },
+  "SE1220": {
+    "nombre": "Baloncesto",
+    "profesores": [
+      "TRAVIESO RODRIGUEZ ALBERTO"
+    ]
+  },
+  "SE1221": {
+    "nombre": "Futbol I",
+    "profesores": [
+      "JIMENEZ JIMENEZ DANIEL",
+      "LARIOS CRUZ BORIS ALLAN"
+    ]
+  },
+  "SE1222": {
+    "nombre": "Futbol sala",
+    "profesores": [
+      "ORTEGA ARTAVIA JHONNY"
+    ]
+  },
+  "SE1223": {
+    "nombre": "Voleibol",
+    "profesores": [
+      "RODRIGUEZ MORERA MARCIA",
+      "VIQUEZ ZELEDON JESSENIA"
+    ]
+  },
+  "SE2110": {
+    "nombre": "Apreciación musical",
+    "profesores": [
+      "QUIROS SALAZAR MARIA LORNA"
+    ]
+  },
+  "SE2111": {
+    "nombre": "Técnica del canto",
+    "profesores": [
+      "QUIROS SALAZAR MARIA LORNA"
+    ]
+  },
+  "SO2404": {
+    "nombre": "Procesos de manufactura",
+    "profesores": [
+      "FERNANDEZ RIVAS LUIS ANTONIO"
+    ]
+  },
+  "SO2405": {
+    "nombre": "Bioestadística",
+    "profesores": [
+      "RODRIGUEZ ZAMORA MARIA GABRIELA"
+    ]
+  },
+  "SO2406": {
+    "nombre": "Anatomía y fisiología médica",
+    "profesores": [
+      "MENDEZ VILLALOBOS GERALD"
+    ]
+  },
+  "SO2407": {
+    "nombre": "Legislación ocupacional y ambiental",
+    "profesores": [
+      "ALCAZAR VILLALOBOS JUAN PABLO"
+    ]
+  },
+  "SO2601": {
+    "nombre": "Fundamentos de seguridad e higiene ocupacional",
+    "profesores": [
+      "CARPIO CHAVES MONICA"
+    ]
+  },
+  "SO3506": {
+    "nombre": "Metodología investigación",
+    "profesores": [
+      "Gutierrez Fuentes Adrián"
+    ]
+  },
+  "SO3603": {
+    "nombre": "Evaluación y control de ruidos y vibraciones",
+    "profesores": [
+      "ARAYA SOLANO TANNIA"
+    ]
+  },
+  "SO3606": {
+    "nombre": "Factores psicosociales",
+    "profesores": [
+      "BLANCO LEITON HAROL"
+    ]
+  },
+  "SO4508": {
+    "nombre": "Protección del ambiente",
+    "profesores": [
+      "AGUERO HERNANDEZ ANA LAURA"
+    ]
+  },
+  "SO4604": {
+    "nombre": "Seguridad y salud ocupacional",
+    "profesores": [
+      "AGUERO HERNANDEZ ANA LAURA",
+      "CARPIO CHAVES MONICA",
+      "FERNANDEZ RIVAS LUIS ANTONIO",
+      "MEDINA ESCOBAR MARIA LOURDES",
+      "MORALES MARTINEZ GABRIELA"
+    ]
+  },
+  "SO4701": {
+    "nombre": "Taller de agentes ambientales químicos",
+    "profesores": [
+      "MEDINA ESCOBAR MARIA LOURDES",
+      "RODRIGUEZ ZAMORA MARIA GABRIELA"
+    ]
+  },
+  "SO4702": {
+    "nombre": "Seguridad eléctrica",
+    "profesores": [
+      "BERMUDEZ CHACON MARVIN"
+    ]
+  },
+  "SO4706": {
+    "nombre": "Seminario de adaptación al cambio climático",
+    "profesores": [
+      "AGUERO HERNANDEZ ANA LAURA"
+    ]
+  },
+  "SO4707": {
+    "nombre": "Administración de proyectos",
+    "profesores": [
+      "Gutierrez Fuentes Adrián"
+    ]
+  },
+  "SO4803": {
+    "nombre": "Evaluación y control de radiaciones e iluminación",
+    "profesores": [
+      "Gutierrez Fuentes Adrián"
+    ]
+  },
+  "SO5902": {
+    "nombre": "Sistemas integrados de gestión",
+    "profesores": [
+      "FERNANDEZ RIVAS LUIS ANTONIO"
+    ]
+  },
+  "SO5904": {
+    "nombre": "Factores humanos y ergonomía ocupacional",
+    "profesores": [
+      "ZAMORA ZAMORA CINDY"
+    ]
+  },
+  "ST1002": {
+    "nombre": "Geografía turística de Costa Rica",
+    "profesores": [
+      "PEREZ MURILLO DANIEL"
+    ]
+  },
+  "ST1003": {
+    "nombre": "Servicios turísticos rurales",
+    "profesores": [
+      "SANCHO JIMENEZ LUIS FELIPE"
+    ]
+  },
+  "ST2002": {
+    "nombre": "Evolución social de Costa Rica",
+    "profesores": [
+      "JAEN ESPAÑA ADRIAN"
+    ]
+  },
+  "ST3001": {
+    "nombre": "Tendencias turísticas mundiales",
+    "profesores": [
+      "PEREZ MURILLO DANIEL"
+    ]
+  },
+  "TI1102": {
+    "nombre": "Información contable",
+    "profesores": [
+      "UMAÑA CENTENO GABRIEL"
+    ]
+  },
+  "TI1201": {
+    "nombre": "Comportamiento organizacional y talento humano",
+    "profesores": [
+      "DELGADO LEANDRO GONZALO"
+    ]
+  },
+  "TI1400": {
+    "nombre": "Introducción a la programación",
+    "profesores": [
+      "SOTO CHAVES LUIS PABLO"
+    ]
+  },
+  "TI1401": {
+    "nombre": "Taller de programación",
+    "profesores": [
+      "SOTO CHAVES LUIS PABLO"
+    ]
+  },
+  "TI2201": {
+    "nombre": "Programación orientada a objetos",
+    "profesores": [
+      "CHAVARRIA SANCHEZ LUIS JAVIER"
+    ]
+  },
+  "TI2402": {
+    "nombre": "Algoritmos y estructuras de datos",
+    "profesores": [
+      "SOLIS CESPEDES JACQUELINE",
+      "SOTO CHAVES LUIS PABLO"
+    ]
+  },
+  "TI2404": {
+    "nombre": "Organización y arquitectura de computadoras",
+    "profesores": [
+      "SEGREDA JOHANNING JUAN ANDRES"
+    ]
+  },
+  "TI3600": {
+    "nombre": "Bases de datos",
+    "profesores": [
+      "SOLIS CESPEDES JACQUELINE"
+    ]
+  },
+  "TI3601": {
+    "nombre": "Modelo de toma de decisiones",
+    "profesores": [
+      "TORRES CARBALLO FEDERICO"
+    ]
+  },
+  "TI3602": {
+    "nombre": "Producción, logística y calidad",
+    "profesores": [
+      "ALVAREZ SOLORZANO DIOGENES"
+    ]
+  },
+  "TI3603": {
+    "nombre": "Calidad en sistemas de información",
+    "profesores": [
+      "MORALES RODRIGUEZ NESTOR"
+    ]
+  },
+  "TI3604": {
+    "nombre": "Fundamentos de redes",
+    "profesores": [
+      "SEGREDA JOHANNING JUAN ANDRES"
+    ]
+  },
+  "TI3801": {
+    "nombre": "Administración de proyectos II",
+    "profesores": [
+      "GAMBOA CUBERO LUIS MAURICIO",
+      "PICADO VALVERDE LUIS FELIPE"
+    ]
+  },
+  "TI4101": {
+    "nombre": "Planificación y presupuesto",
+    "profesores": [
+      "DELGADO LEANDRO GONZALO",
+      "TENCIO CHACON ANGELA"
+    ]
+  },
+  "TI4200": {
+    "nombre": "Economía",
+    "profesores": [
+      "TORRES CARBALLO FEDERICO"
+    ]
+  },
+  "TI4500": {
+    "nombre": "Ingeniería de requerimientos",
+    "profesores": [
+      "MORALES RODRIGUEZ NESTOR",
+      "PICADO VALVERDE LUIS FELIPE"
+    ]
+  },
+  "TI4601": {
+    "nombre": "Bases de datos avanzados",
+    "profesores": [
+      "ZUÑIGA SEGURA LORENA"
+    ]
+  },
+  "TI5501": {
+    "nombre": "Diseño de software",
+    "profesores": [
+      "CHAVARRIA SANCHEZ LUIS JAVIER"
+    ]
+  },
+  "TI5904": {
+    "nombre": "Investigación en sistemas de información",
+    "profesores": [
+      "SANDOVAL SANCHEZ YARIMA"
+    ]
+  },
+  "TI6900": {
+    "nombre": "Inteligencia de negocios",
+    "profesores": [
+      "SANCHEZ SOTO MICHAEL"
+    ]
+  },
+  "TI8509": {
+    "nombre": "Habilidades directivas para el administrador de tecnología de la información",
+    "profesores": [
+      "DELGADO LEANDRO GONZALO"
+    ]
+  },
+  "TI8511": {
+    "nombre": "Fundamentos de transformación digital",
+    "profesores": [
+      "UMAÑA CENTENO GABRIEL"
+    ]
+  },
+  "TI8515": {
+    "nombre": "Inteligencia Artificial en Sistemas de Información",
+    "profesores": [
+      "CHAVARRIA SANCHEZ LUIS JAVIER"
+    ]
+  },
+  "TI8902": {
+    "nombre": "Adquisición de TI",
+    "profesores": [
+      "GONZALEZ QUESADA MELVIN"
+    ]
+  },
+  "TI8904": {
+    "nombre": "Administración de procesos de negocios",
+    "profesores": [
+      "LEIVA CHINCHILLA PEDRO IGNACIO"
+    ]
+  },
+  "TI8905": {
+    "nombre": "Administración de servicios de tecnologías de información I",
+    "profesores": [
+      "GONZALEZ QUESADA MELVIN"
+    ]
+  },
+  "TI9003": {
+    "nombre": "Computación y sociedad",
+    "profesores": [
+      "ARTAVIA JIMENEZ MARIA JOSE"
+    ]
+  },
+  "TI9805": {
+    "nombre": "Auditoría de TI",
+    "profesores": [
+      "ALPIZAR CHAVES LAURA"
+    ]
+  },
+  "TI9905": {
+    "nombre": "Sistemas de información empresarial",
+    "profesores": [
+      "UMAÑA CENTENO GABRIEL"
+    ]
+  },
+  "TR3235": {
+    "nombre": "Planificación del turismo",
+    "profesores": [
+      "CESPEDES OBANDO FRANCISCO"
+    ]
+  },
+  "TR4133": {
+    "nombre": "Introducción a la interpretación ambiental",
+    "profesores": [
+      "PEREZ MURILLO DANIEL"
+    ]
+  },
+  "TR4232": {
+    "nombre": "Innovación de productos turísticos",
+    "profesores": [
+      "CALVO QUIROS ANGELINE"
+    ]
+  },
+  "TR4233": {
+    "nombre": "Organización comunal y turismo",
+    "profesores": [
+      "FERNANDEZ MORA LADY"
+    ]
+  },
+  "TS1100": {
+    "nombre": "Gestión ambiental",
+    "profesores": [
+      "ARIAS HIDALGO DAVID"
+    ]
+  },
+  "TS1201": {
+    "nombre": "Turismo y sociedad",
+    "profesores": [
+      "MORA SANCHEZ AMILKAR"
+    ]
+  },
+  "TS1202": {
+    "nombre": "Equidad y participación social",
+    "profesores": [
+      "CEDEÑO CAMACHO MAURICIO"
+    ]
+  },
+  "TS2202": {
+    "nombre": "Práctica de especialidad",
+    "profesores": [
+      "ALVAREZ HERNANDEZ MARIAM"
+    ]
+  },
+  "TS2204": {
+    "nombre": "Sociología del turismo",
+    "profesores": [
+      "MURILLO SOLIS  JAVIER"
+    ]
+  },
+  "TS2301": {
+    "nombre": "Formulación y evaluación de proyectos",
+    "profesores": [
+      "ALVAREZ HERNANDEZ MARIAM"
+    ]
+  }
+}

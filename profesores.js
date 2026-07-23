@@ -11,11 +11,13 @@
 //
 // Ejemplo real (ITCR, Ingeniería en Computación):
 const PROFESORES_MISPROFES = {
-    "Francisco Torres": "https://costarica.misprofesores.com/profesores/Francisco-Torres_13257",
     "VALVERDE SANCHEZ SAMUEL": "https://costarica.misprofesores.com/profesores/Samuel-Valverde-Sanchez_48832",
-    "Jose Castro": "https://costarica.misprofesores.com/profesores/Jose-Castro_13349",
-    "Eddy Ramirez Jimenez": "https://costarica.misprofesores.com/profesores/Eddy-Ramirez-Jimenez_13271",
-    "Mauricio Aviles": "https://costarica.misprofesores.com/profesores/Mauricio-Aviles_13273",
+    "ACUÑA PRADO LUIS": "https://costarica.misprofesores.com/profesores/Luis-Acuna_13248",
+    "BRENES GOMEZ  RANDALL": "https://costarica.misprofesores.com/profesores/Randall-Brenes_13309",
+    "": "",
+    "": "",
+    "": "",
+    "": "",
 
     // "Nombre Exacto Como Aparece En El Horario": "https://costarica.misprofesores.com/profesores/Nombre-Apellido_ID",
 };
