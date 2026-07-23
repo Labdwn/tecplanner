@@ -517,7 +517,11 @@ function renderHorariosCursos() {
                                 title="${favorito ? 'Quitar de favoritos' : 'Marcar como favorito'}">${favorito ? '★' : '☆'}</button>
                             <span class="hor-grupo-modalidad">${g.modalidad || ''}</span>
                         </div>
-                        <div class="hor-grupo-line">👤 ${g.profesor || 'Sin profesor'}</div>
+                        <div class="hor-grupo-line hor-grupo-prof">
+                            👤 ${g.profesor || 'Sin profesor'}
+                            ${buscarUrlProfesor(g.profesor) ? `<button class="hor-prof-btn" title="Ver calificaciones en MisProfesores"
+                                onclick='event.stopPropagation(); abrirPanelProfesor(${JSON.stringify(g.profesor)}, ${JSON.stringify(buscarUrlProfesor(g.profesor))})'>⭐</button>` : ''}
+                        </div>
                         <div class="hor-grupo-line">🕐 ${g.horario || 'Sin horario definido'}</div>
                         ${g.aula ? `<div class="hor-grupo-line">📍 ${g.edificio ? `${g.edificio}-${g.aula}` : g.aula}</div>` : ''}
                          <button class="hor-btn-select ${elegido ? 'is-selected' : ''}"
@@ -1119,4 +1123,216 @@ async function exportHorarioComoPDF() {
         console.error('Error exportando PDF:', e);
         alert('No se pudo generar el PDF. Probá de nuevo.');
     }
+}
+
+// =============================================================================
+// 15. MISPROFESORES.COM — calificaciones en vivo + comparador
+// =============================================================================
+// Se consulta EN EL MOMENTO en que el usuario hace clic, directo a la URL
+// específica asignada al profesor (ver profesores.js). Como el navegador no
+// puede hacer fetch() cross-origin a misprofesores.com (no manda cabeceras
+// CORS), se pasa por un proxy público. Si un proxy falla o está caído,
+// se intenta con el siguiente de la lista.
+
+const MISPROFES_PROXIES = [
+    (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+    (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+];
+
+let misprofesCache = {}; // url -> datos ya parseados, evita re-consultar en la misma sesión
+
+async function fetchHtmlViaProxy(url) {
+    let ultimoError;
+    for (const construir of MISPROFES_PROXIES) {
+        try {
+            const res = await fetch(construir(url));
+            if (res.ok) return await res.text();
+        } catch (e) { ultimoError = e; }
+    }
+    throw ultimoError || new Error('No se pudo contactar ningún proxy');
+}
+
+// Extrae los 4 datos numéricos del HTML de la página del profesor.
+// Estrategia: recorrer todos los nodos de texto en orden (igual que ve el
+// usuario en pantalla) y, para cada etiqueta conocida, tomar el siguiente
+// texto no vacío como su valor. Es resistente a cambios de clases/CSS,
+// pero depende de que las etiquetas en español no cambien.
+function parseMisprofesHTML(html, url) {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    doc.querySelectorAll('script, style, noscript').forEach(n => n.remove());
+
+    const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT, null);
+    const lines = [];
+    let node;
+    while ((node = walker.nextNode())) {
+        const t = node.textContent.replace(/\s+/g, ' ').trim();
+        if (t) lines.push(t);
+    }
+
+    const valorDespuesDe = (etiqueta) => {
+        const idx = lines.findIndex(l => l === etiqueta);
+        if (idx === -1) return null;
+        for (let i = idx + 1; i < lines.length; i++) {
+            if (lines[i]) return lines[i];
+        }
+        return null;
+    };
+
+    let numCalificaciones = null;
+    for (const line of lines) {
+        const m = line.match(/^(\d+)\s+Calificaciones de Estudiantes/i);
+        if (m) { numCalificaciones = parseInt(m[1], 10); break; }
+    }
+
+    return {
+        calidadGeneral: valorDespuesDe('Calidad General'),
+        nivelDificultad: valorDespuesDe('Nivel de Dificultad'),
+        loRecomiendan: valorDespuesDe('Lo Recomiendan'),
+        numCalificaciones,
+        url
+    };
+}
+
+async function obtenerDatosMisprofes(url) {
+    if (misprofesCache[url]) return misprofesCache[url];
+    const html = await fetchHtmlViaProxy(url);
+    const datos = parseMisprofesHTML(html, url);
+    misprofesCache[url] = datos;
+    return datos;
+}
+
+function renderMetricasMisprofesHTML(datos) {
+    const metrica = (label, val, color) => `
+        <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:14px; text-align:center;">
+            <div style="font-size:1.5rem; font-weight:700; color:${color};">${datos ? (val ?? '—') : '—'}</div>
+            <div style="font-size:0.68rem; color:var(--text-dim); text-transform:uppercase; margin-top:4px; letter-spacing:0.5px;">${label}</div>
+        </div>`;
+    return `
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+            ${metrica('Calidad General', datos?.calidadGeneral, '#10b981')}
+            ${metrica('Nivel de Dificultad', datos?.nivelDificultad, '#ef4444')}
+            ${metrica('Lo Recomiendan', datos?.loRecomiendan, '#3b82f6')}
+            ${metrica('# Calificaciones', datos?.numCalificaciones, '#fbbf24')}
+        </div>`;
+}
+
+// --- Panel individual ---
+
+async function abrirPanelProfesor(nombre, url) {
+    document.getElementById('profesorModal')?.remove();
+
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay';
+    modal.id = 'profesorModal';
+    modal.style.cssText = 'display:flex; z-index:6500;';
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+    modal.innerHTML = `
+        <div class="modal-content" style="width:460px;">
+            <div class="modal-header">
+                <div class="modal-title-code" style="color:#fbbf24;">⭐ CALIFICACIONES</div>
+                <div class="modal-title-name" style="font-size:1.35rem;">${nombre}</div>
+            </div>
+            <div class="modal-body" id="profesorModalBody">
+                <div style="text-align:center; padding:30px; color:var(--text-dim);">⏳ Consultando MisProfesores...</div>
+            </div>
+            <div class="modal-footer" style="flex-direction:column; gap:10px;">
+                <a href="${url}" target="_blank" rel="noopener" class="btn-modal btn-confirm"
+                   style="text-decoration:none; text-align:center; display:block;">Ver perfil completo en MisProfesores →</a>
+                <div style="display:flex; gap:10px; width:100%;">
+                    <button class="btn-modal btn-cancel" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
+                    <button class="btn-modal btn-cancel" onclick='abrirComparadorProfesores(${JSON.stringify(nombre)}, ${JSON.stringify(url)})'>⚖️ Comparar</button>
+                </div>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+
+    try {
+        const datos = await obtenerDatosMisprofes(url);
+        const body = document.getElementById('profesorModalBody');
+        if (body) body.innerHTML = renderMetricasMisprofesHTML(datos);
+    } catch (e) {
+        const body = document.getElementById('profesorModalBody');
+        if (body) body.innerHTML = `
+            <div style="text-align:center; padding:10px; color:#ef4444; font-size:0.88rem;">
+                ⚠️ No se pudo obtener la información en este momento.<br>
+                <span style="color:var(--text-dim); font-size:0.8rem;">Probá de nuevo o abrí el perfil completo con el botón de abajo.</span>
+            </div>`;
+    }
+}
+
+// --- Comparador ---
+
+function abrirComparadorProfesores(nombreActual, urlActual) {
+    document.getElementById('profesorModal')?.remove();
+    document.getElementById('comparadorModal')?.remove();
+
+    const opciones = Object.keys(PROFESORES_MISPROFES)
+        .filter(n => n !== nombreActual)
+        .sort((a, b) => a.localeCompare(b, 'es'));
+
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay';
+    modal.id = 'comparadorModal';
+    modal.style.cssText = 'display:flex; z-index:6500;';
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+    modal.innerHTML = `
+        <div class="modal-content" style="width:640px;">
+            <div class="modal-header">
+                <div class="modal-title-code" style="color:#fbbf24;">⚖️ COMPARAR PROFESORES</div>
+                <div class="modal-title-name" style="font-size:1.25rem;">${nombreActual} vs otro profesor</div>
+            </div>
+            <div class="modal-body">
+                <select id="comparadorSelect" class="rpg-input" style="cursor:pointer; appearance:auto;">
+                    <option value="">Elegí un profesor para comparar</option>
+                    ${opciones.map(n => `<option value="${n}">${n}</option>`).join('')}
+                </select>
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:16px;">
+                    <div>
+                        <div style="text-align:center; font-weight:700; color:#fff; margin-bottom:10px;">${nombreActual}</div>
+                        <div id="comparadorColA">${renderMetricasMisprofesHTML(null)}</div>
+                    </div>
+                    <div>
+                        <div id="comparadorColBTitulo" style="text-align:center; font-weight:700; color:var(--text-dim); margin-bottom:10px;">—</div>
+                        <div id="comparadorColB" style="text-align:center; color:var(--text-dim); padding:30px 10px; font-size:0.85rem;">Elegí un profesor arriba ↑</div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-modal btn-confirm" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+
+    obtenerDatosMisprofes(urlActual)
+        .then(datos => {
+            const colA = document.getElementById('comparadorColA');
+            if (colA) colA.innerHTML = renderMetricasMisprofesHTML(datos);
+        })
+        .catch(() => {
+            const colA = document.getElementById('comparadorColA');
+            if (colA) colA.innerHTML = `<div style="text-align:center; color:#ef4444; font-size:0.85rem;">⚠️ Error al consultar</div>`;
+        });
+
+    document.getElementById('comparadorSelect').onchange = async (e) => {
+        const nombre = e.target.value;
+        const colB = document.getElementById('comparadorColB');
+        const tituloB = document.getElementById('comparadorColBTitulo');
+        if (!nombre) {
+            tituloB.textContent = '—';
+            colB.innerHTML = 'Elegí un profesor arriba ↑';
+            return;
+        }
+        const url = PROFESORES_MISPROFES[nombre];
+        tituloB.textContent = nombre;
+        tituloB.style.color = '#fff';
+        colB.innerHTML = `<div style="text-align:center; padding:20px; color:var(--text-dim);">⏳ Consultando...</div>`;
+        try {
+            const datos = await obtenerDatosMisprofes(url);
+            colB.innerHTML = renderMetricasMisprofesHTML(datos);
+        } catch {
+            colB.innerHTML = `<div style="text-align:center; color:#ef4444; font-size:0.85rem;">⚠️ Error al consultar</div>`;
+        }
+    };
 }
