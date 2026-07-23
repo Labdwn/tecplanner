@@ -520,7 +520,7 @@ function renderHorariosCursos() {
                         <div class="hor-grupo-line hor-grupo-prof">
                             👤 ${g.profesor || 'Sin profesor'}
                             ${buscarUrlProfesor(g.profesor) ? `<button class="hor-prof-btn" title="Ver calificaciones en MisProfesores"
-                                onclick='event.stopPropagation(); abrirPanelProfesor(${JSON.stringify(g.profesor)}, ${JSON.stringify(buscarUrlProfesor(g.profesor))})'>⭐</button>` : ''}
+    onclick='event.stopPropagation(); abrirPanelProfesor(${JSON.stringify(g.profesor)}, ${JSON.stringify(buscarUrlProfesor(g.profesor))}, ${JSON.stringify(c.codigo)}, ${JSON.stringify(c.nombre)})'>⭐</button>` : ''}
                         </div>
                         <div class="hor-grupo-line">🕐 ${g.horario || 'Sin horario definido'}</div>
                         ${g.aula ? `<div class="hor-grupo-line">📍 ${g.edificio ? `${g.edificio}-${g.aula}` : g.aula}</div>` : ''}
@@ -1230,7 +1230,7 @@ function renderMetricasMisprofesHTML(datos) {
 
 // --- Panel individual ---
 
-async function abrirPanelProfesor(nombre, url) {
+async function abrirPanelProfesor(nombre, url, cursoCodigo, cursoNombre) {
     document.getElementById('profesorModal')?.remove();
 
     const modal = document.createElement('div');
@@ -1253,7 +1253,7 @@ async function abrirPanelProfesor(nombre, url) {
                    style="text-decoration:none; text-align:center; display:block;">Ver perfil completo en MisProfesores →</a>
                 <div style="display:flex; gap:10px; width:100%;">
                     <button class="btn-modal btn-cancel" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
-                    <button class="btn-modal btn-cancel" onclick='abrirComparadorProfesores(${JSON.stringify(nombre)}, ${JSON.stringify(url)})'>⚖️ Comparar</button>
+                    <button class="btn-modal btn-cancel" onclick='abrirComparadorProfesores(${JSON.stringify(nombre)}, ${JSON.stringify(cursoCodigo)}, ${JSON.stringify(cursoNombre)})'>⚖️ Comparar</button>
                 </div>
             </div>
         </div>`;
@@ -1275,13 +1275,32 @@ async function abrirPanelProfesor(nombre, url) {
 
 // --- Comparador ---
 
-function abrirComparadorProfesores(nombreActual, urlActual) {
+// =============================================================================
+// COMPARADOR DE PROFESORES — v2 (multi-selección, por curso, ordenable)
+// Reemplaza a la función abrirComparadorProfesores() vieja en horarios.js.
+// =============================================================================
+
+let comparadorEstado = { resultados: [], orden: 'recomiendan_desc' };
+
+// Junta los nombres de profesor únicos que dictan un curso específico
+// (a partir de horariosCursosDisponibles, ya cargado para la escuela activa),
+// y para cada uno resuelve su URL de misprofesores si existe.
+function obtenerProfesoresDelCurso(codigoCurso) {
+    const curso = horariosCursosDisponibles.find(c => c.codigo === codigoCurso);
+    if (!curso) return [];
+    const nombres = [...new Set(curso.grupos.map(g => g.profesor).filter(Boolean))];
+    return nombres.map(nombre => ({ nombre, url: buscarUrlProfesor(nombre) }));
+}
+
+function abrirComparadorProfesores(nombreActual, cursoCodigo, cursoNombre) {
     document.getElementById('profesorModal')?.remove();
     document.getElementById('comparadorModal')?.remove();
 
-    const opciones = Object.keys(PROFESORES_MISPROFES)
-        .filter(n => n !== nombreActual)
-        .sort((a, b) => a.localeCompare(b, 'es'));
+    const profesoresCurso = obtenerProfesoresDelCurso(cursoCodigo);
+    const conUrl = profesoresCurso.filter(p => p.url);
+    const sinUrl = profesoresCurso.filter(p => !p.url);
+
+    comparadorEstado = { resultados: [], orden: 'recomiendan_desc' };
 
     const modal = document.createElement('div');
     modal.className = 'modal-overlay';
@@ -1290,61 +1309,162 @@ function abrirComparadorProfesores(nombreActual, urlActual) {
     modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
 
     modal.innerHTML = `
-        <div class="modal-content" style="width:640px;">
+        <div class="modal-content" style="width:760px; max-height:88vh; display:flex; flex-direction:column;">
             <div class="modal-header">
                 <div class="modal-title-code" style="color:#fbbf24;">⚖️ COMPARAR PROFESORES</div>
-                <div class="modal-title-name" style="font-size:1.25rem;">${nombreActual} vs otro profesor</div>
-            </div>
-            <div class="modal-body">
-                <select id="comparadorSelect" class="rpg-input" style="cursor:pointer; appearance:auto;">
-                    <option value="">Elegí un profesor para comparar</option>
-                    ${opciones.map(n => `<option value="${n}">${n}</option>`).join('')}
-                </select>
-                <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:16px;">
-                    <div>
-                        <div style="text-align:center; font-weight:700; color:#fff; margin-bottom:10px;">${nombreActual}</div>
-                        <div id="comparadorColA">${renderMetricasMisprofesHTML(null)}</div>
-                    </div>
-                    <div>
-                        <div id="comparadorColBTitulo" style="text-align:center; font-weight:700; color:var(--text-dim); margin-bottom:10px;">—</div>
-                        <div id="comparadorColB" style="text-align:center; color:var(--text-dim); padding:30px 10px; font-size:0.85rem;">Elegí un profesor arriba ↑</div>
-                    </div>
+                <div class="modal-title-name" style="font-size:1.2rem;">
+                    ${cursoNombre} <span style="color:var(--text-dim); font-size:0.85rem;">(${cursoCodigo})</span>
                 </div>
             </div>
+            <div class="modal-body" style="overflow-y:auto; flex:1;">
+                ${conUrl.length === 0 ? `
+                    <div style="text-align:center; padding:30px; color:var(--text-dim);">
+                        Ningún profesor de este curso tiene URL asignada todavía en <code>profesores.js</code>.
+                    </div>` : `
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:8px;">
+                        <div style="font-size:0.85rem; color:var(--text-dim);">Elegí a quiénes comparar:</div>
+                        <div style="display:flex; gap:8px;">
+                            <button type="button" class="hor-btn-ghost" onclick="marcarTodosComparador(true)">☑️ Todos</button>
+                            <button type="button" class="hor-btn-ghost" onclick="marcarTodosComparador(false)">☐ Ninguno</button>
+                        </div>
+                    </div>
+                    <div id="comparadorCheckboxes" style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:14px;">
+                        ${conUrl.map(p => `
+                            <label style="display:flex; align-items:center; gap:8px; background:#09090b; border:1px solid #333;
+                                          border-radius:6px; padding:8px 12px; cursor:pointer; font-size:0.87rem;">
+                                <input type="checkbox" class="comparador-check" value="${p.nombre}" data-url="${p.url}"
+                                       ${p.nombre === nombreActual ? 'checked' : ''}>
+                                <span style="color:#fff;">${p.nombre}</span>
+                                ${p.nombre === nombreActual ? '<span style="color:var(--accent); font-size:0.7rem;">(actual)</span>' : ''}
+                            </label>`).join('')}
+                    </div>
+                    ${sinUrl.length > 0 ? `
+                        <div style="font-size:0.78rem; color:#555; margin-bottom:14px;">
+                            Sin URL asignada (no se pueden comparar): ${sinUrl.map(p => p.nombre).join(', ')}
+                        </div>` : ''}
+                    <button class="btn-modal btn-confirm" style="width:100%;" onclick="ejecutarComparacion()">Comparar seleccionados</button>
+                    <div id="comparadorResultadosWrap" style="margin-top:18px;"></div>
+                `}
+            </div>
             <div class="modal-footer">
-                <button class="btn-modal btn-confirm" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
+                <button class="btn-modal btn-cancel" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
             </div>
         </div>`;
     document.body.appendChild(modal);
+}
 
-    obtenerDatosMisprofes(urlActual)
-        .then(datos => {
-            const colA = document.getElementById('comparadorColA');
-            if (colA) colA.innerHTML = renderMetricasMisprofesHTML(datos);
-        })
-        .catch(() => {
-            const colA = document.getElementById('comparadorColA');
-            if (colA) colA.innerHTML = `<div style="text-align:center; color:#ef4444; font-size:0.85rem;">⚠️ Error al consultar</div>`;
-        });
+function marcarTodosComparador(valor) {
+    document.querySelectorAll('.comparador-check').forEach(cb => cb.checked = valor);
+}
 
-    document.getElementById('comparadorSelect').onchange = async (e) => {
-        const nombre = e.target.value;
-        const colB = document.getElementById('comparadorColB');
-        const tituloB = document.getElementById('comparadorColBTitulo');
-        if (!nombre) {
-            tituloB.textContent = '—';
-            colB.innerHTML = 'Elegí un profesor arriba ↑';
-            return;
-        }
-        const url = PROFESORES_MISPROFES[nombre];
-        tituloB.textContent = nombre;
-        tituloB.style.color = '#fff';
-        colB.innerHTML = `<div style="text-align:center; padding:20px; color:var(--text-dim);">⏳ Consultando...</div>`;
+async function ejecutarComparacion() {
+    const seleccionados = [...document.querySelectorAll('.comparador-check:checked')]
+        .map(cb => ({ nombre: cb.value, url: cb.dataset.url }));
+
+    const wrap = document.getElementById('comparadorResultadosWrap');
+    if (seleccionados.length === 0) {
+        wrap.innerHTML = `<div style="text-align:center; color:var(--text-dim); padding:20px;">Elegí al menos un profesor.</div>`;
+        return;
+    }
+
+    wrap.innerHTML = `<div style="text-align:center; padding:20px; color:var(--text-dim);">
+        ⏳ Consultando ${seleccionados.length} profesor${seleccionados.length !== 1 ? 'es' : ''}...
+    </div>`;
+
+    // En paralelo: cada consulta usa el mismo fetchHtmlViaProxy con timeout,
+    // así que un profesor lento no bloquea a los demás.
+    const resultados = await Promise.all(seleccionados.map(async (p) => {
         try {
-            const datos = await obtenerDatosMisprofes(url);
-            colB.innerHTML = renderMetricasMisprofesHTML(datos);
-        } catch {
-            colB.innerHTML = `<div style="text-align:center; color:#ef4444; font-size:0.85rem;">⚠️ Error al consultar</div>`;
+            const datos = await obtenerDatosMisprofes(p.url);
+            return { nombre: p.nombre, datos, error: null };
+        } catch (e) {
+            return { nombre: p.nombre, datos: null, error: 'No se pudo consultar' };
+        }
+    }));
+
+    comparadorEstado.resultados = resultados;
+    renderTablaComparacion();
+}
+
+function parsearNumeroComparador(val) {
+    if (val === null || val === undefined) return null;
+    const n = parseFloat(String(val).replace('%', '').replace(',', '.'));
+    return isNaN(n) ? null : n;
+}
+
+function ordenarResultadosComparador(resultados, criterio) {
+    const conDatos = resultados.filter(r => r.datos);
+    const sinDatos = resultados.filter(r => !r.datos);
+
+    const valorSegunCriterio = (r) => {
+        const d = r.datos;
+        switch (criterio) {
+            case 'calidad_desc':        return parsearNumeroComparador(d.calidadGeneral) ?? -Infinity;
+            case 'dificultad_asc':      return parsearNumeroComparador(d.nivelDificultad) ?? Infinity;
+            case 'dificultad_desc':     return parsearNumeroComparador(d.nivelDificultad) ?? -Infinity;
+            case 'calificaciones_desc': return parsearNumeroComparador(d.numCalificaciones) ?? -Infinity;
+            case 'recomiendan_desc':
+            default:                    return parsearNumeroComparador(d.loRecomiendan) ?? -Infinity;
         }
     };
+
+    conDatos.sort((a, b) => {
+        const va = valorSegunCriterio(a), vb = valorSegunCriterio(b);
+        return criterio === 'dificultad_asc' ? va - vb : vb - va;
+    });
+
+    return [...conDatos, ...sinDatos];
+}
+
+function renderTablaComparacion() {
+    const wrap = document.getElementById('comparadorResultadosWrap');
+    if (!wrap) return;
+
+    const ordenados = ordenarResultadosComparador(comparadorEstado.resultados, comparadorEstado.orden);
+
+    const filas = ordenados.map(r => {
+        if (!r.datos) {
+            return `<tr>
+                <td style="color:#fff;">${r.nombre}</td>
+                <td colspan="4" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
+            </tr>`;
+        }
+        const d = r.datos;
+        return `<tr>
+            <td style="color:#fff; font-weight:700;">${r.nombre}</td>
+            <td style="text-align:center; color:#10b981;">${d.calidadGeneral ?? '—'}</td>
+            <td style="text-align:center; color:#ef4444;">${d.nivelDificultad ?? '—'}</td>
+            <td style="text-align:center; color:#3b82f6;">${d.loRecomiendan ?? '—'}</td>
+            <td style="text-align:center; color:#fbbf24;">${d.numCalificaciones ?? '—'}</td>
+        </tr>`;
+    }).join('');
+
+    wrap.innerHTML = `
+        <div style="display:flex; justify-content:flex-end; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
+            <label style="font-size:0.8rem; color:var(--text-dim);">Ordenar por:</label>
+            <select id="comparadorOrdenSelect" class="list-select" onchange="cambiarOrdenComparador(this.value)">
+                <option value="recomiendan_desc" ${comparadorEstado.orden === 'recomiendan_desc' ? 'selected' : ''}>Más recomendado</option>
+                <option value="calidad_desc" ${comparadorEstado.orden === 'calidad_desc' ? 'selected' : ''}>Mejor calidad general</option>
+                <option value="dificultad_asc" ${comparadorEstado.orden === 'dificultad_asc' ? 'selected' : ''}>Más fácil</option>
+                <option value="dificultad_desc" ${comparadorEstado.orden === 'dificultad_desc' ? 'selected' : ''}>Más difícil</option>
+                <option value="calificaciones_desc" ${comparadorEstado.orden === 'calificaciones_desc' ? 'selected' : ''}>Más calificaciones</option>
+            </select>
+        </div>
+        <table class="list-table" style="width:100%;">
+            <thead>
+                <tr>
+                    <th>Profesor</th>
+                    <th style="text-align:center;">Calidad</th>
+                    <th style="text-align:center;">Dificultad</th>
+                    <th style="text-align:center;">Recomiendan</th>
+                    <th style="text-align:center;"># Calif.</th>
+                </tr>
+            </thead>
+            <tbody>${filas}</tbody>
+        </table>`;
+}
+
+function cambiarOrdenComparador(valor) {
+    comparadorEstado.orden = valor;
+    renderTablaComparacion();
 }
