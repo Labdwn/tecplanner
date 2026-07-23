@@ -1141,15 +1141,27 @@ const MISPROFES_PROXIES = [
 
 let misprofesCache = {}; // url -> datos ya parseados, evita re-consultar en la misma sesión
 
-async function fetchHtmlViaProxy(url) {
-    let ultimoError;
-    for (const construir of MISPROFES_PROXIES) {
-        try {
-            const res = await fetch(construir(url));
-            if (res.ok) return await res.text();
-        } catch (e) { ultimoError = e; }
+async function fetchConTimeout(url, timeoutMs = 12000) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+        const res = await fetch(url, { signal: controller.signal });
+        if (!res.ok) throw new Error(`status ${res.status}`);
+        return await res.text();
+    } finally {
+        clearTimeout(timer);
     }
-    throw ultimoError || new Error('No se pudo contactar ningún proxy');
+}
+
+// Lanza TODOS los proxies a la vez y se queda con el que responda primero.
+// Si uno se cuelga, el timeout lo aborta sin frenar a los demás.
+async function fetchHtmlViaProxy(url) {
+    const intentos = MISPROFES_PROXIES.map(construir => fetchConTimeout(construir(url)));
+    try {
+        return await Promise.any(intentos);
+    } catch {
+        throw new Error('No se pudo contactar ningún proxy (todos fallaron o tardaron demasiado)');
+    }
 }
 
 // Extrae los 4 datos numéricos del HTML de la página del profesor.
