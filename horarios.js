@@ -520,8 +520,9 @@ function renderHorariosCursos() {
                         <div class="hor-grupo-line hor-grupo-prof">
                             👤 ${g.profesor || 'Sin profesor'}
                             ${buscarUrlProfesor(g.profesor) ? `<button class="hor-prof-btn" title="Ver calificaciones en MisProfesores"
-    onclick='event.stopPropagation(); abrirPanelProfesor(${JSON.stringify(g.profesor)}, ${JSON.stringify(buscarUrlProfesor(g.profesor))}, ${JSON.stringify(c.codigo)}, ${JSON.stringify(c.nombre)})'>⭐</button>` : ''}
-                        </div>
+    onclick='event.stopPropagation(); abrirPanelProfesor(${JSON.stringify(g.profesor)}, ${JSON.stringify(buscarUrlProfesor(g.profesor))}, ${JSON.stringify(c.codigo)}, ${JSON.stringify(c.nombre)})'>
+    <span class="hor-prof-dot"></span>Reseñas</button>` : ''}
+                            </div>
                         <div class="hor-grupo-line">🕐 ${g.horario || 'Sin horario definido'}</div>
                         ${g.aula ? `<div class="hor-grupo-line">📍 ${g.edificio ? `${g.edificio}-${g.aula}` : g.aula}</div>` : ''}
                          <button class="hor-btn-select ${elegido ? 'is-selected' : ''}"
