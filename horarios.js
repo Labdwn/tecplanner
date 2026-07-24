@@ -45,6 +45,15 @@ let horFiltros = { favoritos: false, sinChoques: false };
 let horFiltroDias = new Set();       // días activos en los chips de filtro (distinto de horGridConfig.dias)
 let horCursosColapsados = new Set(); // códigos de curso plegados
 
+let horExportTema = localStorage.getItem('TecPlanner_HorExportTema') || 'oscuro';
+
+function setHorExportTema(tema) {
+    horExportTema = tema;
+    localStorage.setItem('TecPlanner_HorExportTema', tema);
+    document.querySelectorAll('.hor-theme-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tema === tema);
+    });
+}
 
 function nombreSede(codigo) { return SEDE_NOMBRES[codigo] || codigo; }
 function nombrePeriodo(p) {
@@ -207,6 +216,11 @@ function renderHorariosLayout() {
             <div class="hor-layout">
                 <div id="horListaCursos" class="hor-lista"><div class="hor-empty">Elegí sede y escuela para ver cursos.</div></div>
                 <div class="hor-sidebar">
+                    <div class="hor-export-theme-toggle">
+                        <span class="hor-export-theme-label">Exportar:</span>
+                        <button class="hor-theme-btn ${horExportTema === 'oscuro' ? 'active' : ''}" data-tema="oscuro" onclick="setHorExportTema('oscuro')">🌙 Oscuro</button>
+                        <button class="hor-theme-btn ${horExportTema === 'claro' ? 'active' : ''}" data-tema="claro" onclick="setHorExportTema('claro')">☀️ Claro (imprimir)</button>
+                    </div>
                     <div class="hor-sidebar-actions">
                         <button class="hor-btn-ghost" id="horBtnUndo" style="display:none;" onclick="undoRemoveHorCurso()">↩ Deshacer</button>
                         <button class="btn-export" onclick="exportHorarioComoImagen()">🖼️ PNG</button>
@@ -995,41 +1009,63 @@ function importHorarioJSON(event) {
 // una versión "limpia" de la grilla fuera de pantalla, la capturamos, y la
 // borramos. Esto es mucho más confiable.
 
+// Reemplaza a la función buildExportGridElement() vieja en horarios.js (sección 14).
+
+function getExportTemaColores() {
+    if (horExportTema === 'claro') {
+        return {
+            wrapBg: '#ffffff', wrapBorder: '#ccc',
+            gridGap: '#ddd',
+            headerBg: '#f1f1f4', headerText: '#5b21b6',
+            timeBg: '#fafafa', timeText: '#555',
+            cellBg: '#ffffff',
+        };
+    }
+    return {
+        wrapBg: '#09090b', wrapBorder: '#333',
+        gridGap: '#222',
+        headerBg: '#18181b', headerText: '#8257e6',
+        timeBg: '#121214', timeText: '#888',
+        cellBg: '#0d0d0f',
+    };
+}
+
 function buildExportGridElement() {
     const dias = horGridConfig.dias;
     const minH = horGridConfig.horaIni;
     const maxH = horGridConfig.horaFin;
     const totalHoras = maxH - minH;
     const rowH = 28; // px por cada media hora
+    const c = getExportTemaColores();
 
     const wrap = document.createElement('div');
     wrap.style.cssText = `
         position:fixed; left:-99999px; top:0; z-index:-1;
         width:${70 + dias.length * 150}px;
-        background:#09090b; padding:16px; box-sizing:border-box;
+        background:${c.wrapBg}; padding:16px; box-sizing:border-box;
         font-family:Arial,Helvetica,sans-serif;
-        border:1px solid #333; border-radius:10px;
+        border:1px solid ${c.wrapBorder}; border-radius:10px;
     `;
 
     let html = `<div style="display:grid;
         grid-template-columns:50px repeat(${dias.length}, 1fr);
         grid-template-rows:32px repeat(${totalHoras * 2}, ${rowH}px);
-        gap:2px; background:#222;">`;
+        gap:2px; background:${c.gridGap};">`;
 
-    html += `<div style="grid-column:1; grid-row:1; background:#18181b;"></div>`;
+    html += `<div style="grid-column:1; grid-row:1; background:${c.headerBg};"></div>`;
     dias.forEach((d, i) => {
-        html += `<div style="grid-column:${i + 2}; grid-row:1; background:#18181b; color:#8257e6;
+        html += `<div style="grid-column:${i + 2}; grid-row:1; background:${c.headerBg}; color:${c.headerText};
             font-weight:bold; font-size:12px; display:flex; align-items:center; justify-content:center;
             text-transform:uppercase; letter-spacing:0.5px;">${DIA_LABEL[d].slice(0, 3)}</div>`;
     });
 
     for (let h = minH; h < maxH; h++) {
         const row = 2 + (h - minH) * 2;
-        html += `<div style="grid-column:1; grid-row:${row} / span 2; background:#121214; color:#888;
+        html += `<div style="grid-column:1; grid-row:${row} / span 2; background:${c.timeBg}; color:${c.timeText};
             font-size:10px; display:flex; align-items:flex-start; justify-content:center; padding-top:2px;">
             ${String(h).padStart(2, '0')}:00</div>`;
         dias.forEach((d, i) => {
-            html += `<div style="grid-column:${i + 2}; grid-row:${row} / span 2; background:#0d0d0f;"></div>`;
+            html += `<div style="grid-column:${i + 2}; grid-row:${row} / span 2; background:${c.cellBg};"></div>`;
         });
     }
 
