@@ -2632,3 +2632,14 @@ path {
     background: var(--accent); color: #fff; border-color: var(--accent);
     box-shadow: 0 0 10px rgba(130,87,230,0.5);
 }
+
+.hor-grid-wrap.hor-grid-wrap--claro {
+    background: #ffffff; border-color: #ccc; box-shadow: inset 0 0 20px rgba(0,0,0,0.05);
+}
+.hor-grid-wrap--claro .hor-week-grid { background: #ddd; }
+.hor-grid-wrap--claro .hor-cell-header {
+    background: #f1f1f4; color: #5b21b6; text-shadow: none; border-bottom-color: #ddd;
+}
+.hor-grid-wrap--claro .hor-time-label { background: #fafafa; color: #555; }
+.hor-grid-wrap--claro .hor-cell { background: #ffffff; }
+.hor-grid-wrap--claro .hor-block-preview { border-color: rgba(0,0,0,0.5) !important; }

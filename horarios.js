@@ -53,6 +53,7 @@ function setHorExportTema(tema) {
     document.querySelectorAll('.hor-theme-btn').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.tema === tema);
     });
+    renderHorarioGrid();
 }
 
 function nombreSede(codigo) { return SEDE_NOMBRES[codigo] || codigo; }
@@ -217,7 +218,7 @@ function renderHorariosLayout() {
                 <div id="horListaCursos" class="hor-lista"><div class="hor-empty">Elegí sede y escuela para ver cursos.</div></div>
                 <div class="hor-sidebar">
                     <div class="hor-export-theme-toggle">
-                        <span class="hor-export-theme-label">Exportar:</span>
+                        <span class="hor-export-theme-label">Vista:</span>
                         <button class="hor-theme-btn ${horExportTema === 'oscuro' ? 'active' : ''}" data-tema="oscuro" onclick="setHorExportTema('oscuro')">🌙 Oscuro</button>
                         <button class="hor-theme-btn ${horExportTema === 'claro' ? 'active' : ''}" data-tema="claro" onclick="setHorExportTema('claro')">☀️ Claro (imprimir)</button>
                     </div>
@@ -688,6 +689,8 @@ function previewHorGrupo(codigo, grupoId, show) {
 function renderHorarioGrid() {
     const wrap = document.getElementById('horGrid');
     if (!wrap) return;
+
+    wrap.classList.toggle('hor-grid-wrap--claro', horExportTema === 'claro');
 
     const todosBloques = [];
     horariosCursosElegidos.forEach(s => {
