@@ -14,8 +14,8 @@ const PROFESORES_MISPROFES = {
     "VALVERDE SANCHEZ SAMUEL": "https://costarica.misprofesores.com/profesores/Samuel-Valverde-Sanchez_48832",
     "ACUÑA PRADO LUIS": "https://costarica.misprofesores.com/profesores/Luis-Acuna_13248",
     "BRENES GOMEZ  RANDALL": "https://costarica.misprofesores.com/profesores/Randall-Brenes_13309",
-    "": "",
-    "": "",
+    "CALDERON SOLANO MANUEL": "https://costarica.misprofesores.com/profesores/Manuel-Calderon-Solano_13380",
+    "CARRERA RETANA LUIS ERNESTO": "",
     "": "",
     "": "",
 

@@ -2306,7 +2306,7 @@ path {
 
 /* === Mode Switcher (menú radial alrededor de la bola) === */
 .mode-switcher {
-    position: fixed; bottom: 90px; right: 24px; z-index: 3500;
+    position: fixed; bottom: 90px; right: 24px; z-index: 7000;
     width: 58px; height: 58px;
 }
 
