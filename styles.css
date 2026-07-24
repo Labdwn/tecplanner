@@ -2643,3 +2643,19 @@ path {
 .hor-grid-wrap--claro .hor-time-label { background: #fafafa; color: #555; }
 .hor-grid-wrap--claro .hor-cell { background: #ffffff; }
 .hor-grid-wrap--claro .hor-block-preview { border-color: rgba(0,0,0,0.5) !important; }
+
+
+.hor-filtro-cursando-banner:empty { display: none; }
+.hor-filtro-cursando-row {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    background: rgba(130,87,230,0.1); border: 1px solid var(--accent); border-radius: 8px;
+    padding: 10px 16px; font-size: 0.85rem; color: #fff; margin-bottom: 8px;
+}
+.hor-filtro-cursando-warn {
+    background: rgba(239,68,68,0.1); border: 1px solid #ef4444; color: #f87171;
+    border-radius: 6px; padding: 8px 14px; font-size: 0.8rem; margin-bottom: 10px;
+}
+.hor-grupo-sede-badge {
+    background: rgba(59,130,246,0.15); color: #60a5fa; border: 1px solid #3b82f6;
+    font-size: 0.65rem; font-weight: 700; padding: 1px 7px; border-radius: 8px;
+}

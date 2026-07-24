@@ -2842,20 +2842,37 @@ function switchAppMode(mode) {
         setTimeout(drawConnections, 300);
     }
 
-    if (mode === 'index') {
-        renderIndexView();
+    if (mode === 'index') {renderIndexView();
         setTimeout(showModeSwitcherHint, 900);
     }
     if (mode === 'horarios' && typeof initHorarios === 'function') initHorarios();
+
+    actualizarHashParaModo(mode);
 }
+
+let cambiandoHashInternamente = false;
+ 
+function actualizarHashParaModo(mode) {
+    cambiandoHashInternamente = true;
+    location.hash = '/' + mode;
+    setTimeout(() => { cambiandoHashInternamente = false; }, 0);
+}
+ 
+window.addEventListener('hashchange', () => {
+    if (cambiandoHashInternamente) return;
+    const modo = location.hash.replace(/^#\/?/, '');
+    if (['index', 'arbol', 'horarios'].includes(modo)) switchAppMode(modo);
+});
 
 // Al cargar: restaurar el modo donde el usuario se quedó (default: index)
 document.addEventListener('DOMContentLoaded', () => {
-    updateNotifDot();
-    bootSystem();
-    const lastMode = localStorage.getItem('TecPlanner_LastMode') || 'index';
-    switchAppMode(lastMode);
-});
+        updateNotifDot();
+        bootSystem();
+        const modoDesdeHash = location.hash.replace(/^#\/?/, '');
+        const modoValido = ['index', 'arbol', 'horarios'].includes(modoDesdeHash);
+        const lastMode = modoValido ? modoDesdeHash : (localStorage.getItem('TecPlanner_LastMode') || 'index');
+        switchAppMode(lastMode);
+    });
 
 // =============================================================================
 // 20b. HINT DEL MODE SWITCHER (primera visita a Home)
@@ -2951,4 +2968,11 @@ function dismissModeHint() {
     localStorage.setItem('TecPlanner_ModeHintSeen', 'true');
     window.removeEventListener('resize', repositionModeHintIfOpen);
     document.removeEventListener('keydown', modeHintKeyHandler);
+}
+
+function enviarCursandoAHorarios() {
+    switchAppMode('horarios');
+    // Pequeño delay para que renderHorariosLayout() de initHorarios() ya
+    // haya montado el DOM base antes de disparar la búsqueda.
+    setTimeout(() => mostrarCursandoEnHorario(), 50);
 }

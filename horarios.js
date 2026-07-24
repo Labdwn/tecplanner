@@ -45,6 +45,11 @@ let horFiltros = { favoritos: false, sinChoques: false };
 let horFiltroDias = new Set();       // días activos en los chips de filtro (distinto de horGridConfig.dias)
 let horCursosColapsados = new Set(); // códigos de curso plegados
 
+let horModoCursandoActivo = false;   // true mientras se muestra el resultado agregado
+let horCursandoResultado = [];       // cursos encontrados (formato compatible con horariosCursosDisponibles)
+let horCursandoNoEncontrados = [];   // códigos que NO aparecieron en ninguna escuela/sede
+let horCursandoContexto = null;      // { anio, periodo } usados para la búsqueda
+
 let horExportTema = localStorage.getItem('TecPlanner_HorExportTema') || 'oscuro';
 
 function setHorExportTema(tema) {
@@ -66,6 +71,20 @@ function nombrePeriodo(p) {
 // =============================================================================
 // 2. UTILIDADES DE HORARIO
 // =============================================================================
+
+function determinarAnioPeriodoMasReciente() {
+    if (!horariosIndice) return null;
+    const anios = Object.keys(horariosIndice).sort((a, b) => Number(b) - Number(a));
+    if (anios.length === 0) return null;
+    const anio = anios[0];
+ 
+    const periodos = Object.keys(horariosIndice[anio]);
+    if (periodos.length === 0) return null;
+    periodos.sort((a, b) => ORDEN_PERIODOS_RECIENCIA.indexOf(a) - ORDEN_PERIODOS_RECIENCIA.indexOf(b));
+    const periodo = periodos[periodos.length - 1];
+ 
+    return { anio, periodo };
+}
 
 function parseHorario(horarioStr) {
     if (!horarioStr) return [];
@@ -155,6 +174,21 @@ async function initHorarios() {
         }
     }
     restoreHorSeleccion();
+ 
+    const pendienteRaw = localStorage.getItem('TecPlanner_CursandoParaHorario');
+    if (pendienteRaw) {
+        try {
+            const codigos = JSON.parse(pendienteRaw);
+            if (Array.isArray(codigos) && codigos.length > 0) {
+                horFiltroCursandoActivo = true;
+                horFiltroCursandoPendientes = new Set(codigos);
+                horFiltroCursandoEncontrados = new Set();
+                horEscuelasVisitadasFiltro = new Set();
+            }
+        } catch { /* noop */ }
+        localStorage.removeItem('TecPlanner_CursandoParaHorario'); // se consume una sola vez
+    }
+ 
     renderHorariosLayout();
 
     // Si había una selección guardada de año/período/sede/escuela, restaurarla.
@@ -184,9 +218,29 @@ function renderHorariosLayout() {
                         <span class="hor-stat-label">Choques</span>
                     </div>
                 </div>
+                <button class="btn-action" onclick="mostrarCursandoEnHorario()" style="border-color:#a855f7; color:#a855f7;">
+                    📚 Mostrar CURSANDO
+                </button>
             </div>
+ 
+            <div class="hor-filtro-cursando-banner" id="horFiltroCursandoBanner"></div>
+ 
+            ${horModoCursandoActivo ? '' : `
+            <div class="hor-filtros">
+                <select id="horAnio" class="list-select" onchange="onHorFiltroChange()">
+                    <option value="">Año</option>
+                    ${anios.map(a => `<option value="${a}">${a}</option>`).join('')}
+                </select>
+                <select id="horPeriodo" class="list-select" onchange="onHorFiltroChange()"><option value="">Período</option></select>
+                <select id="horSede" class="list-select" onchange="onHorFiltroChange()"><option value="">Sede</option></select>
+                <div class="hor-escuela-combo" id="horEscuelaCombo">
+                    <input type="text" id="horEscuelaInput" class="list-select" placeholder="Escuela" autocomplete="off"
+                           oninput="filterEscuelaOptions(this.value)" onfocus="showEscuelaDropdown()" disabled>
+                    <div id="horEscuelaDropdown" class="hor-escuela-dropdown"></div>
+                </div>
+            </div>`}
 
-            
+            <div class="hor-filtro-cursando-banner" id="horFiltroCursandoBanner"></div>
 
             <div class="hor-filtros">
                 <select id="horAnio" class="list-select" onchange="onHorFiltroChange()">
@@ -220,7 +274,7 @@ function renderHorariosLayout() {
                     <div class="hor-export-theme-toggle">
                         <span class="hor-export-theme-label">Vista:</span>
                         <button class="hor-theme-btn ${horExportTema === 'oscuro' ? 'active' : ''}" data-tema="oscuro" onclick="setHorExportTema('oscuro')">🌙 Oscuro</button>
-                        <button class="hor-theme-btn ${horExportTema === 'claro' ? 'active' : ''}" data-tema="claro" onclick="setHorExportTema('claro')">☀️ Claro (imprimir)</button>
+                        <button class="hor-theme-btn ${horExportTema === 'claro' ? 'active' : ''}" data-tema="claro" onclick="setHorExportTema('claro')">☀️ Claro</button>
                     </div>
                     <div class="hor-sidebar-actions">
                         <button class="hor-btn-ghost" id="horBtnUndo" style="display:none;" onclick="undoRemoveHorCurso()">↩ Deshacer</button>
@@ -263,6 +317,7 @@ function renderHorariosLayout() {
     renderSeleccionados();
     updateHorStats();
     updateChipsUI();
+    renderFiltroCursandoBanner();
 }
 
 function buildHoraOptions(selected) {
@@ -389,7 +444,20 @@ async function onHorEscuelaChange() {
         const res = await fetch(`scraper/data/${anio}/${periodo}/${sede}/${escuela}.json`);
         const data = await res.json();
         horariosCursosDisponibles = data.cursos || [];
+ 
+        if (horFiltroCursandoActivo) {
+            horEscuelasVisitadasFiltro.add(escuela);
+            const codigosDisponibles = new Set(horariosCursosDisponibles.map(c => c.codigo));
+            [...horFiltroCursandoPendientes].forEach(cod => {
+                if (codigosDisponibles.has(cod)) {
+                    horFiltroCursandoPendientes.delete(cod);
+                    horFiltroCursandoEncontrados.add(cod);
+                }
+            });
+        }
+ 
         renderHorariosCursos();
+        renderFiltroCursandoBanner();
     } catch (e) {
         cont.innerHTML = `<div class="hor-empty" style="color:#ef4444;">⚠️ No se encontraron cursos para esa combinación.</div>`;
     }
@@ -472,7 +540,10 @@ function renderHorariosCursos() {
     const cont = document.getElementById('horListaCursos');
     const q = horariosBusqueda.toLowerCase();
 
+    const codigosSolicitadosCursando = new Set([...horFiltroCursandoPendientes, ...horFiltroCursandoEncontrados]);
+ 
     const filtrados = horariosCursosDisponibles
+        .filter(c => !horFiltroCursandoActivo || codigosSolicitadosCursando.has(c.codigo))
         .filter(c => !q || c.codigo.toLowerCase().includes(q) || c.nombre.toLowerCase().includes(q))
         .slice()
         .sort((a, b) => a.codigo.localeCompare(b.codigo, 'es', { numeric: true }))
@@ -525,7 +596,8 @@ function renderHorariosCursos() {
                          onmouseenter="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, true)"
                          onmouseleave="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)">
                         <div class="hor-grupo-top">
-                            <span class="hor-grupo-badge">Grupo ${g.grupo}</span>
+                            <span class="hor-grupo-badge">Grupo ${g._grupoOriginal || g.grupo}</span>
+                            ${g._sede ? `<span class="hor-grupo-sede-badge">${nombreSede(g._sede)}</span>` : ''}
                             ${choca ? `<span class="hor-choque-badge" data-tooltip="Choca con: ${contrasTxt}">⚠️</span>` : ''}
                             <button class="hor-fav-btn ${favorito ? 'is-fav' : ''}"
                                 onclick='toggleHorFavorito(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)})'
@@ -820,8 +892,13 @@ function setHorColor(codigo, grupoId, color) {
 }
 
 function ordenarGrupos(grupos) {
-    return [...grupos].sort((a, b) => parseInt(a.grupo) - parseInt(b.grupo));
-}
+        return [...grupos].sort((a, b) => {
+            const av = parseInt(a._grupoOriginal ?? a.grupo);
+            const bv = parseInt(b._grupoOriginal ?? b.grupo);
+            if (av !== bv) return av - bv;
+            return (a._sede || '').localeCompare(b._sede || '');
+        });
+    }
 
 
 // =============================================================================
@@ -1507,4 +1584,160 @@ function renderTablaComparacion() {
 function cambiarOrdenComparador(valor) {
     comparadorEstado.orden = valor;
     renderTablaComparacion();
+}
+
+function renderFiltroCursandoBanner() {
+    const el = document.getElementById('horFiltroCursandoBanner');
+    if (!el) return;
+ 
+    if (!horFiltroCursandoActivo) { el.innerHTML = ''; return; }
+ 
+    const totalPend = horFiltroCursandoPendientes.size;
+    const totalEnc = horFiltroCursandoEncontrados.size;
+ 
+    let advertencia = '';
+    const { anio, periodo, sede } = horariosSeleccion;
+ 
+    if (totalPend > 0 && anio && periodo && sede && horariosIndice?.[anio]?.[periodo]?.sedes?.[sede]) {
+        const totalEscuelasSede = Object.keys(horariosIndice[anio][periodo].sedes[sede]).length;
+        const pendientesTexto = [...horFiltroCursandoPendientes].join(', ');
+ 
+        if (horEscuelasVisitadasFiltro.size >= totalEscuelasSede) {
+            advertencia = `<div class="hor-filtro-cursando-warn">⚠️ Estos cursos no se abren este período en ${nombreSede(sede)}: ${pendientesTexto}</div>`;
+        } else {
+            advertencia = `<div class="hor-filtro-cursando-info">Aún no encontrados — puede que estén en otra escuela que no has revisado todavía: ${pendientesTexto}</div>`;
+        }
+    }
+ 
+    el.innerHTML = `
+        <div class="hor-filtro-cursando-row">
+            <span>🎯 Mostrando solo tus cursos <strong>Cursando</strong> — encontrados: ${totalEnc}, pendientes: ${totalPend}</span>
+            <button class="hor-btn-ghost" onclick="quitarFiltroCursando()">✕ Quitar filtro</button>
+        </div>
+        ${advertencia}`;
+}
+ 
+function quitarFiltroCursando() {
+    horFiltroCursandoActivo = false;
+    horFiltroCursandoPendientes.clear();
+    horFiltroCursandoEncontrados.clear();
+    horEscuelasVisitadasFiltro.clear();
+    renderFiltroCursandoBanner();
+    renderHorariosCursos();
+}
+
+async function mostrarCursandoEnHorario() {
+    if (typeof coursesDB === 'undefined' || !coursesDB || coursesDB.length === 0) {
+        alert('No hay un plan de estudios cargado. Elegí tu carrera primero en Planes de Estudio.');
+        return;
+    }
+    const cursando = coursesDB.filter(c => c.status === 'cursando');
+    if (cursando.length === 0) {
+        alert('No tenés cursos marcados como Cursando todavía.');
+        return;
+    }
+    const codigosBuscados = [...new Set(cursando.map(c => c.isRetry ? (c.originalId || c.id) : c.id))];
+ 
+    if (!horariosIndice) {
+        try {
+            const res = await fetch('scraper/output/indice.json');
+            horariosIndice = await res.json();
+        } catch {
+            alert('No se pudo cargar el índice de horarios. Revisá tu conexión.');
+            return;
+        }
+    }
+ 
+    const contexto = determinarAnioPeriodoMasReciente();
+    if (!contexto) {
+        alert('No hay datos de matrícula disponibles todavía.');
+        return;
+    }
+    const { anio, periodo } = contexto;
+ 
+    horModoCursandoActivo = true;
+    horCursandoContexto = { anio, periodo };
+    renderHorariosLayout();
+ 
+    const listaEl = document.getElementById('horListaCursos');
+    if (listaEl) listaEl.innerHTML = `<div class="hor-empty hor-empty-loading">⏳ Buscando ${codigosBuscados.length} curso${codigosBuscados.length !== 1 ? 's' : ''} en todas las escuelas de ${anio}-${periodo}...</div>`;
+ 
+    const sedes = horariosIndice[anio][periodo].sedes;
+    const tareas = [];
+    for (const [sedeCod, escuelas] of Object.entries(sedes)) {
+        for (const escCod of Object.keys(escuelas)) {
+            tareas.push(
+                fetch(`scraper/data/${anio}/${periodo}/${sedeCod}/${escCod}.json`)
+                    .then(r => (r.ok ? r.json() : null))
+                    .then(data => ({ sedeCod, data }))
+                    .catch(() => ({ sedeCod, data: null }))
+            );
+        }
+    }
+ 
+    const resultados = await Promise.all(tareas);
+ 
+    const encontrados = new Map(); // codigo -> curso agregado
+    resultados.forEach(({ sedeCod, data }) => {
+        if (!data || !Array.isArray(data.cursos)) return;
+        data.cursos.forEach(curso => {
+            if (!codigosBuscados.includes(curso.codigo)) return;
+            if (!encontrados.has(curso.codigo)) {
+                encontrados.set(curso.codigo, {
+                    codigo: curso.codigo, nombre: curso.nombre, creditos: curso.creditos, grupos: []
+                });
+            }
+            const entrada = encontrados.get(curso.codigo);
+            (curso.grupos || []).forEach(g => {
+                // El número de grupo se vuelve único con el prefijo de sede (ej. "CA-1"),
+                // así el resto del código de selección/favoritos/choques no necesita
+                // ningún cambio para distinguir grupos del mismo número en sedes distintas.
+                entrada.grupos.push({
+                    ...g,
+                    grupo: `${sedeCod}-${g.grupo}`,
+                    _grupoOriginal: g.grupo,
+                    _sede: sedeCod
+                });
+            });
+        });
+    });
+ 
+    horCursandoResultado = [...encontrados.values()];
+    const codigosEncontrados = new Set(horCursandoResultado.map(c => c.codigo));
+    horCursandoNoEncontrados = codigosBuscados.filter(cod => !codigosEncontrados.has(cod));
+ 
+    horariosCursosDisponibles = horCursandoResultado;
+    renderHorariosCursos();
+    renderHorarioGrid();
+    renderFiltroCursandoBanner();
+}
+ 
+function salirDeModoCursando() {
+    horModoCursandoActivo = false;
+    horCursandoResultado = [];
+    horCursandoNoEncontrados = [];
+    horCursandoContexto = null;
+    horariosCursosDisponibles = [];
+    renderHorariosLayout();
+}
+ 
+function renderFiltroCursandoBanner() {
+    const el = document.getElementById('horFiltroCursandoBanner');
+    if (!el) return;
+ 
+    if (!horModoCursandoActivo) { el.innerHTML = ''; return; }
+ 
+    const { anio, periodo } = horCursandoContexto || {};
+    const totalEnc = horCursandoResultado.length;
+ 
+    const advertencia = horCursandoNoEncontrados.length > 0
+        ? `<div class="hor-filtro-cursando-warn">⚠️ Estos cursos no se abren en ${anio}-${periodo} en ninguna escuela: ${horCursandoNoEncontrados.join(', ')}</div>`
+        : '';
+ 
+    el.innerHTML = `
+        <div class="hor-filtro-cursando-row">
+            <span>📚 Mostrando tus cursos <strong>Cursando</strong> · Matrícula ${anio}-${periodo} · encontrados: ${totalEnc}</span>
+            <button class="hor-btn-ghost" onclick="salirDeModoCursando()">✕ Volver a búsqueda normal</button>
+        </div>
+        ${advertencia}`;
 }
