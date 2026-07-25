@@ -23,6 +23,9 @@
 
 const SEDE_NOMBRES = { CA: 'Cartago', SJ: 'San José', SC: 'San Carlos', AL: 'Alajuela', LM: 'Limón' };
 const HOR_PALETTE = ['#8257e6','#06b6d4','#10b981','#f59e0b','#ef4444','#a855f7','#3b82f6','#ec4899','#84cc16','#f97316'];
+// Orden cronológico de los períodos dentro de un mismo año (de más antiguo a más reciente).
+// Usado para determinar cuál es el período "más reciente" disponible en el índice.
+const ORDEN_PERIODOS_RECIENCIA = ['1', '1V', '2', '2V'];
 const DIAS_ORDEN = ['LUN','MAR','MIE','JUE','VIE','SAB'];
 const DIA_LABEL = { LUN:'Lunes', MAR:'Martes', MIE:'Miércoles', JUE:'Jueves', VIE:'Viernes', SAB:'Sábado' };
 const DIA_JS_MAP = { 1:'LUN', 2:'MAR', 3:'MIE', 4:'JUE', 5:'VIE', 6:'SAB' }; // Date.getDay()
