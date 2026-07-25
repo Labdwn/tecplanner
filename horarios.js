@@ -175,19 +175,6 @@ async function initHorarios() {
     }
     restoreHorSeleccion();
  
-    const pendienteRaw = localStorage.getItem('TecPlanner_CursandoParaHorario');
-    if (pendienteRaw) {
-        try {
-            const codigos = JSON.parse(pendienteRaw);
-            if (Array.isArray(codigos) && codigos.length > 0) {
-                horFiltroCursandoActivo = true;
-                horFiltroCursandoPendientes = new Set(codigos);
-                horFiltroCursandoEncontrados = new Set();
-                horEscuelasVisitadasFiltro = new Set();
-            }
-        } catch { /* noop */ }
-        localStorage.removeItem('TecPlanner_CursandoParaHorario'); // se consume una sola vez
-    }
  
     renderHorariosLayout();
 
@@ -517,7 +504,6 @@ function renderHorariosCursos() {
    
  
     const filtrados = horariosCursosDisponibles
-        .filter(c => !horFiltroCursandoActivo || codigosSolicitadosCursando.has(c.codigo))
         .filter(c => !q || c.codigo.toLowerCase().includes(q) || c.nombre.toLowerCase().includes(q))
         .slice()
         .sort((a, b) => a.codigo.localeCompare(b.codigo, 'es', { numeric: true }))
@@ -1560,45 +1546,7 @@ function cambiarOrdenComparador(valor) {
     renderTablaComparacion();
 }
 
-function renderFiltroCursandoBanner() {
-    const el = document.getElementById('horFiltroCursandoBanner');
-    if (!el) return;
- 
-    if (!horFiltroCursandoActivo) { el.innerHTML = ''; return; }
- 
-    const totalPend = horFiltroCursandoPendientes.size;
-    const totalEnc = horFiltroCursandoEncontrados.size;
- 
-    let advertencia = '';
-    const { anio, periodo, sede } = horariosSeleccion;
- 
-    if (totalPend > 0 && anio && periodo && sede && horariosIndice?.[anio]?.[periodo]?.sedes?.[sede]) {
-        const totalEscuelasSede = Object.keys(horariosIndice[anio][periodo].sedes[sede]).length;
-        const pendientesTexto = [...horFiltroCursandoPendientes].join(', ');
- 
-        if (horEscuelasVisitadasFiltro.size >= totalEscuelasSede) {
-            advertencia = `<div class="hor-filtro-cursando-warn">⚠️ Estos cursos no se abren este período en ${nombreSede(sede)}: ${pendientesTexto}</div>`;
-        } else {
-            advertencia = `<div class="hor-filtro-cursando-info">Aún no encontrados — puede que estén en otra escuela que no has revisado todavía: ${pendientesTexto}</div>`;
-        }
-    }
- 
-    el.innerHTML = `
-        <div class="hor-filtro-cursando-row">
-            <span>🎯 Mostrando solo tus cursos <strong>Cursando</strong> — encontrados: ${totalEnc}, pendientes: ${totalPend}</span>
-            <button class="hor-btn-ghost" onclick="quitarFiltroCursando()">✕ Quitar filtro</button>
-        </div>
-        ${advertencia}`;
-}
- 
-function quitarFiltroCursando() {
-    horFiltroCursandoActivo = false;
-    horFiltroCursandoPendientes.clear();
-    horFiltroCursandoEncontrados.clear();
-    horEscuelasVisitadasFiltro.clear();
-    renderFiltroCursandoBanner();
-    renderHorariosCursos();
-}
+
 
 async function mostrarCursandoEnHorario() {
     if (typeof coursesDB === 'undefined' || !coursesDB || coursesDB.length === 0) {
