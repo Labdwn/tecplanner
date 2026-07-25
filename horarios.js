@@ -1293,6 +1293,108 @@ async function obtenerDatosMisprofes(url) {
     return datos;
 }
 
+// --- Recomendación Matemática (usa el mismo caché/proxy de arriba) ---
+
+const REC_M = 30; // umbral de confianza: con menos calificaciones que esto, el número se corrige hacia el promedio
+const REC_C_CALIDAD = 7.0;    // promedio de referencia (escala misprofesores.com 0-10)
+const REC_C_RECOMIENDA = 65;  // promedio de referencia (%)
+
+// Convierte los datos ya parseados de misprofesCache en el score ajustado
+function calcularRecomendacionDesdeDatos(datos) {
+    if (!datos) return null;
+    const calidad     = parsearNumeroComparador(datos.calidadGeneral);
+    const recomienda  = parsearNumeroComparador(datos.loRecomiendan);
+    const n           = parsearNumeroComparador(datos.numCalificaciones);
+    if (calidad === null || recomienda === null || n === null) return null;
+
+    const peso = n / (n + REC_M);
+    const calidadAjustada    = peso * calidad    + (1 - peso) * REC_C_CALIDAD;
+    const recomiendaAjustada = peso * recomienda + (1 - peso) * REC_C_RECOMIENDA;
+    const score = calidadAjustada * 0.7 + (recomiendaAjustada / 10) * 0.3;
+
+    return {
+        score: Math.round(score * 10) / 10,
+        calidadAjustada: Math.round(calidadAjustada * 10) / 10,
+        recomiendaAjustada: Math.round(recomiendaAjustada),
+        confiable: n >= REC_M,
+        n
+    };
+}
+
+// Devuelve: null (sin URL asignada), { pendiente:true } (aún no se consultó),
+// o el objeto de recomendación ya calculado
+function getRecomendacionProfesor(nombreProfesor) {
+    const url = buscarUrlProfesor(nombreProfesor);
+    if (!url) return null;
+    if (!misprofesCache[url]) return { pendiente: true, url };
+    return calcularRecomendacionDesdeDatos(misprofesCache[url]);
+}
+
+// Dispara en segundo plano las consultas que falten para los profesores dados
+async function precargarRecomendaciones(nombresProfesores) {
+    const pendientes = [...new Set(nombresProfesores)]
+        .map(nombre => buscarUrlProfesor(nombre))
+        .filter(url => url && !misprofesCache[url]);
+
+    if (pendientes.length === 0) return;
+    await Promise.all(pendientes.map(url => obtenerDatosMisprofes(url).catch(() => null)));
+}
+
+function badgeRecomendacionHTML(nombreProfesor) {
+    const rec = getRecomendacionProfesor(nombreProfesor);
+    if (!rec) return '';
+    if (rec.pendiente) return `<span class="hor-rec-badge rec-pendiente" title="Aún no consultado">🧮 ?</span>`;
+
+    const nivel = rec.score >= 7.5 ? 'rec-alta' : rec.score >= 5.5 ? 'rec-media' : 'rec-baja';
+    const pocos = rec.confiable ? '' : 'rec-pocos-datos';
+    const tooltip = `Recomendación Matemática: ${rec.score}/10 · Calidad ajustada: ${rec.calidadAjustada} · ` +
+                     `Recomendaría: ~${rec.recomiendaAjustada}% · ${rec.n} calificaciones` +
+                     (rec.confiable ? '' : ' (muestra pequeña, ajustado hacia el promedio general)');
+    return `<span class="hor-rec-badge ${nivel} ${pocos}" title="${tooltip}">🧮 ${rec.score}</span>`;
+}
+
+function openRecomendacionInfoModal() {
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay';
+    modal.style.cssText = 'display:flex; z-index:6000;';
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+    modal.innerHTML = `
+        <div class="modal-content" style="width:560px;">
+            <div class="modal-header">
+                <div class="modal-title-code" style="color:#10b981;">🧮 RECOMENDACIÓN MATEMÁTICA</div>
+                <div class="modal-title-name" style="font-size:1.3rem;">¿Cómo se calcula?</div>
+            </div>
+            <div class="modal-body" style="gap:16px;">
+                <p style="color:var(--text-dim); line-height:1.6; margin:0;">
+                    Los datos (calidad, dificultad, % que recomienda) se consultan en vivo desde
+                    <strong style="color:#fff;">MisProfesores.com</strong>. Un profesor con nota alta pero
+                    pocas calificaciones es menos confiable que uno con nota más baja pero muchas — por eso
+                    el número se corrige hacia un promedio general cuando hay pocos datos
+                    (promedio bayesiano / regresión a la media).
+                </p>
+                <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:16px; font-family:monospace; font-size:0.85rem; color:var(--text-dim); line-height:1.8;">
+                    peso = n / (n + ${REC_M})<br>
+                    calidad_ajustada = peso × calidad + (1 − peso) × ${REC_C_CALIDAD}<br>
+                    recomienda_ajustado = peso × recomienda% + (1 − peso) × ${REC_C_RECOMIENDA}%<br>
+                    <strong style="color:#4ade80;">score = calidad_ajustada × 0.7 + (recomienda_ajustado / 10) × 0.3</strong>
+                </div>
+                <ul style="margin:0; padding-left:20px; color:var(--text-dim); line-height:1.8; font-size:0.9rem;">
+                    <li><strong style="color:#fff;">n</strong> = calificaciones de ese profesor en MisProfesores.com.</li>
+                    <li><strong style="color:#fff;">${REC_M}</strong> = a partir de esta cantidad, el número casi no se corrige.</li>
+                    <li>La <strong>dificultad</strong> no penaliza el score: un curso difícil no implica mal profesor.</li>
+                    <li>Solo aparece en profesores que ya tienen URL asignada en <code>profesores.js</code>.</li>
+                </ul>
+                <div style="background:rgba(245,158,11,0.1); border-left:4px solid #f59e0b; padding:12px 14px; border-radius:6px; font-size:0.85rem; color:var(--text-dim);">
+                    ⚠️ Datos externos y no oficiales. Úsalo como referencia.
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-modal btn-confirm" onclick="this.closest('.modal-overlay').remove()">Entendido</button>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+}
+
 function renderMetricasMisprofesHTML(datos) {
     const metrica = (label, val, color) => `
         <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:14px; text-align:center;">
@@ -1360,7 +1462,7 @@ async function abrirPanelProfesor(nombre, url, cursoCodigo, cursoNombre) {
 // Reemplaza a la función abrirComparadorProfesores() vieja en horarios.js.
 // =============================================================================
 
-let comparadorEstado = { resultados: [], orden: 'recomiendan_desc' };
+let comparadorEstado = { resultados: [], orden: 'bayes_desc' };
 
 // Junta los nombres de profesor únicos que dictan un curso específico
 // (a partir de horariosCursosDisponibles, ya cargado para la escuela activa),
@@ -1380,7 +1482,7 @@ function abrirComparadorProfesores(nombreActual, cursoCodigo, cursoNombre) {
     const conUrl = profesoresCurso.filter(p => p.url);
     const sinUrl = profesoresCurso.filter(p => !p.url);
 
-    comparadorEstado = { resultados: [], orden: 'recomiendan_desc' };
+    comparadorEstado = { resultados: [], orden: 'bayes_desc' };
 
     const modal = document.createElement('div');
     modal.className = 'modal-overlay';
@@ -1483,6 +1585,7 @@ function ordenarResultadosComparador(resultados, criterio) {
             case 'dificultad_asc':      return parsearNumeroComparador(d.nivelDificultad) ?? Infinity;
             case 'dificultad_desc':     return parsearNumeroComparador(d.nivelDificultad) ?? -Infinity;
             case 'calificaciones_desc': return parsearNumeroComparador(d.numCalificaciones) ?? -Infinity;
+            case 'bayes_desc':          return calcularRecomendacionDesdeDatos(d)?.score ?? -Infinity;
             case 'recomiendan_desc':
             default:                    return parsearNumeroComparador(d.loRecomiendan) ?? -Infinity;
         }
@@ -1506,29 +1609,44 @@ function renderTablaComparacion() {
         if (!r.datos) {
             return `<tr>
                 <td style="color:#fff;">${r.nombre}</td>
-                <td colspan="4" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
+                <td colspan="5" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
             </tr>`;
         }
         const d = r.datos;
+        const rec = calcularRecomendacionDesdeDatos(d);
+        const scoreTxt = rec ? rec.score.toFixed(1) : '—';
+        const scoreColor = !rec ? '#555' : rec.score >= 7.5 ? '#10b981' : rec.score >= 5.5 ? '#fbbf24' : '#ef4444';
+        const scoreTitle = rec
+            ? `Score bayesiano: ${rec.score}/10 (n=${rec.n}${rec.confiable ? '' : ', muestra pequeña → ajustado hacia el promedio'})`
+            : 'Datos insuficientes para calcular el score';
         return `<tr>
             <td style="color:#fff; font-weight:700;">${r.nombre}</td>
             <td style="text-align:center; color:#10b981;">${d.calidadGeneral ?? '—'}</td>
             <td style="text-align:center; color:#ef4444;">${d.nivelDificultad ?? '—'}</td>
             <td style="text-align:center; color:#3b82f6;">${d.loRecomiendan ?? '—'}</td>
             <td style="text-align:center; color:#fbbf24;">${d.numCalificaciones ?? '—'}</td>
+            <td style="text-align:center; color:${scoreColor}; font-weight:700;" title="${scoreTitle}">
+                🧮 ${scoreTxt}${rec && !rec.confiable ? ' <span style="font-size:0.65rem; color:#666;">(pocos datos)</span>' : ''}
+            </td>
         </tr>`;
     }).join('');
 
     wrap.innerHTML = `
-        <div style="display:flex; justify-content:flex-end; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
-            <label style="font-size:0.8rem; color:var(--text-dim);">Ordenar por:</label>
-            <select id="comparadorOrdenSelect" class="list-select" onchange="cambiarOrdenComparador(this.value)">
-                <option value="recomiendan_desc" ${comparadorEstado.orden === 'recomiendan_desc' ? 'selected' : ''}>Más recomendado</option>
-                <option value="calidad_desc" ${comparadorEstado.orden === 'calidad_desc' ? 'selected' : ''}>Mejor calidad general</option>
-                <option value="dificultad_asc" ${comparadorEstado.orden === 'dificultad_asc' ? 'selected' : ''}>Más fácil</option>
-                <option value="dificultad_desc" ${comparadorEstado.orden === 'dificultad_desc' ? 'selected' : ''}>Más difícil</option>
-                <option value="calificaciones_desc" ${comparadorEstado.orden === 'calificaciones_desc' ? 'selected' : ''}>Más calificaciones</option>
-            </select>
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
+            <button type="button" class="hor-btn-ghost" onclick="openRecomendacionInfoModal()" style="border-color:#10b981; color:#10b981;">
+                🧮 ¿Cómo se calcula el score?
+            </button>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <label style="font-size:0.8rem; color:var(--text-dim);">Ordenar por:</label>
+                <select id="comparadorOrdenSelect" class="list-select" onchange="cambiarOrdenComparador(this.value)">
+                    <option value="bayes_desc" ${comparadorEstado.orden === 'bayes_desc' ? 'selected' : ''}>⚖️ Mejor balance (calidad + confianza)</option>
+                    <option value="recomiendan_desc" ${comparadorEstado.orden === 'recomiendan_desc' ? 'selected' : ''}>Más recomendado</option>
+                    <option value="calidad_desc" ${comparadorEstado.orden === 'calidad_desc' ? 'selected' : ''}>Mejor calidad general</option>
+                    <option value="dificultad_asc" ${comparadorEstado.orden === 'dificultad_asc' ? 'selected' : ''}>Más fácil</option>
+                    <option value="dificultad_desc" ${comparadorEstado.orden === 'dificultad_desc' ? 'selected' : ''}>Más difícil</option>
+                    <option value="calificaciones_desc" ${comparadorEstado.orden === 'calificaciones_desc' ? 'selected' : ''}>Más calificaciones</option>
+                </select>
+            </div>
         </div>
         <table class="list-table" style="width:100%;">
             <thead>
@@ -1538,10 +1656,15 @@ function renderTablaComparacion() {
                     <th style="text-align:center;">Dificultad</th>
                     <th style="text-align:center;">Recomiendan</th>
                     <th style="text-align:center;"># Calif.</th>
+                    <th style="text-align:center;">⚖️ Score</th>
                 </tr>
             </thead>
             <tbody>${filas}</tbody>
-        </table>`;
+        </table>
+        <div style="margin-top:10px; font-size:0.76rem; color:#555; line-height:1.5;">
+            El <strong style="color:#999;">⚖️ Score</strong> corrige la nota hacia el promedio general cuando hay pocas
+            calificaciones, así un profesor con 9/10 pero solo 5 reseñas no le gana automáticamente a uno con 8/10 y 200 reseñas.
+        </div>`;
 }
 
 function cambiarOrdenComparador(valor) {
