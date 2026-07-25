@@ -1294,10 +1294,68 @@ async function obtenerDatosMisprofes(url) {
 }
 
 // --- Recomendación Matemática (usa el mismo caché/proxy de arriba) ---
+//
+// FUNDAMENTO ESTADÍSTICO (por qué ya no es un número inventado):
+//
+// 1) CALIDAD (nota 0-10): se usa un promedio bayesiano/empírico, el mismo principio
+//    que usa IMDB para su Top 250 (WR = v/(v+m)·R + m/(v+m)·C). Dos piezas que antes
+//    eran arbitrarias ahora están justificadas:
+//      - "C" (el promedio de referencia) se calcula EN VIVO como el promedio real de
+//        todos los profesores ya consultados en esta sesión (empirical Bayes: se usa
+//        la propia población observada como prior, en vez de inventar un número).
+//        Si aún no hay muestra suficiente (< REC_MIN_MUESTRA_GLOBAL profesores en
+//        caché) se cae a un valor de respaldo razonable.
+//      - "m" (el umbral de confianza, antes fijo en 30) ahora se DERIVA del margen de
+//        error que se está dispuesto a aceptar: para estimar una calidad con margen
+//        ±E puntos al 95% de confianza, asumiendo una desviación estándar típica σ en
+//        las calificaciones individuales, el tamaño de muestra necesario es
+//        n ≈ (z·σ/E)². Con z=1.96, σ≈2 (típico en escalas 0-10 de este tipo de sitios)
+//        y E=0.7 el resultado da n≈31 — coincide con el 30 original, pero ahora es
+//        una consecuencia de una decisión explícita (qué margen de error aceptamos),
+//        no un valor sacado de la nada.
+//
+// 2) RECOMIENDA (%): en vez de mezclarlo linealmente con un promedio fijo, se usa el
+//    límite inferior del intervalo de confianza de Wilson (Wilson, 1927) para una
+//    proporción binomial — el mismo método que usan sitios como Reddit para ordenar
+//    por "mejor" en vez de por promedio bruto. Es más robusto que una mezcla lineal
+//    porque la incertidumbre sale directo de n y de la proporción observada, sin
+//    necesitar elegir un "peso" a mano.
 
-const REC_M = 30; // umbral de confianza: con menos calificaciones que esto, el número se corrige hacia el promedio
-const REC_C_CALIDAD = 7.0;    // promedio de referencia (escala misprofesores.com 0-10)
-const REC_C_RECOMIENDA = 65;  // promedio de referencia (%)
+const REC_Z = 1.96;                      // z para un intervalo de confianza del 95%
+const REC_SIGMA_CALIDAD_ASUMIDA = 2.0;   // desv. estándar asumida de la calidad individual (escala 0-10)
+const REC_MARGEN_ACEPTABLE = 0.7;        // margen de error aceptado en la calidad estimada (puntos sobre 10)
+const REC_M = Math.round(Math.pow(REC_Z * REC_SIGMA_CALIDAD_ASUMIDA / REC_MARGEN_ACEPTABLE, 2)); // ≈31, calculado
+const REC_C_CALIDAD_DEFECTO = 7.0;       // respaldo si aún no hay suficiente muestra en caché
+const REC_C_RECOMIENDA_DEFECTO = 65;     // respaldo (%) si aún no hay suficiente muestra en caché
+const REC_MIN_MUESTRA_GLOBAL = 5;        // mínimo de profesores en caché para confiar en el promedio empírico
+
+// Promedio de calidad/recomendación de TODOS los profesores ya consultados en esta
+// sesión (empirical Bayes: la población real observada actúa como prior, y se afina
+// sola a medida que se consultan más profesores, en vez de quedar fija para siempre).
+function calcularPromedioGlobalCache() {
+    const valores = Object.values(misprofesCache)
+        .map(d => ({
+            calidad: parsearNumeroComparador(d?.calidadGeneral),
+            recomienda: parsearNumeroComparador(d?.loRecomiendan)
+        }))
+        .filter(v => v.calidad !== null && v.recomienda !== null);
+
+    if (valores.length < REC_MIN_MUESTRA_GLOBAL) return null;
+
+    const sumCalidad    = valores.reduce((s, v) => s + v.calidad, 0);
+    const sumRecomienda = valores.reduce((s, v) => s + v.recomienda, 0);
+    return { calidad: sumCalidad / valores.length, recomienda: sumRecomienda / valores.length, n: valores.length };
+}
+
+// Límite inferior del intervalo de Wilson para una proporción binomial (Wilson, 1927).
+// p: proporción observada (0-1), n: tamaño de muestra, z: cuantil normal (95% por defecto).
+function wilsonLowerBound(p, n, z = REC_Z) {
+    if (!n || n <= 0) return 0;
+    const denom  = 1 + (z * z) / n;
+    const centro = p + (z * z) / (2 * n);
+    const margen = z * Math.sqrt((p * (1 - p) + (z * z) / (4 * n)) / n);
+    return Math.max(0, (centro - margen) / denom);
+}
 
 // Convierte los datos ya parseados de misprofesCache en el score ajustado
 function calcularRecomendacionDesdeDatos(datos) {
@@ -1307,9 +1365,16 @@ function calcularRecomendacionDesdeDatos(datos) {
     const n           = parsearNumeroComparador(datos.numCalificaciones);
     if (calidad === null || recomienda === null || n === null) return null;
 
+    const globalCache = calcularPromedioGlobalCache();
+    const cCalidad     = globalCache ? globalCache.calidad    : REC_C_CALIDAD_DEFECTO;
+
+    // Calidad: promedio bayesiano/empírico (shrinkage hacia cCalidad cuando n es chico)
     const peso = n / (n + REC_M);
-    const calidadAjustada    = peso * calidad    + (1 - peso) * REC_C_CALIDAD;
-    const recomiendaAjustada = peso * recomienda + (1 - peso) * REC_C_RECOMIENDA;
+    const calidadAjustada = peso * calidad + (1 - peso) * cCalidad;
+
+    // Recomienda: límite inferior de Wilson sobre la proporción observada
+    const recomiendaAjustada = wilsonLowerBound(recomienda / 100, n) * 100;
+
     const score = calidadAjustada * 0.7 + (recomiendaAjustada / 10) * 0.3;
 
     return {
@@ -1317,6 +1382,7 @@ function calcularRecomendacionDesdeDatos(datos) {
         calidadAjustada: Math.round(calidadAjustada * 10) / 10,
         recomiendaAjustada: Math.round(recomiendaAjustada),
         confiable: n >= REC_M,
+        usaPromedioEmpirico: !!globalCache,
         n
     };
 }
@@ -1347,19 +1413,25 @@ function badgeRecomendacionHTML(nombreProfesor) {
 
     const nivel = rec.score >= 7.5 ? 'rec-alta' : rec.score >= 5.5 ? 'rec-media' : 'rec-baja';
     const pocos = rec.confiable ? '' : 'rec-pocos-datos';
-    const tooltip = `Recomendación Matemática: ${rec.score}/10 · Calidad ajustada: ${rec.calidadAjustada} · ` +
-                     `Recomendaría: ~${rec.recomiendaAjustada}% · ${rec.n} calificaciones` +
-                     (rec.confiable ? '' : ' (muestra pequeña, ajustado hacia el promedio general)');
+    const tooltip = `Recomendación Matemática: ${rec.score}/10 · Calidad ajustada (bayesiana): ${rec.calidadAjustada} · ` +
+                     `Recomendaría (Wilson 95%): ~${rec.recomiendaAjustada}% · ${rec.n} calificaciones` +
+                     (rec.confiable ? '' : ' (muestra pequeña, corregido hacia el promedio general)');
     return `<span class="hor-rec-badge ${nivel} ${pocos}" title="${tooltip}">🧮 ${rec.score}</span>`;
 }
 
 function openRecomendacionInfoModal() {
     const modal = document.createElement('div');
     modal.className = 'modal-overlay';
-    modal.style.cssText = 'display:flex; z-index:6000;';
+    modal.style.cssText = 'display:flex; z-index:7000;';
     modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+    const globalCache = calcularPromedioGlobalCache();
+    const cCalidadTxt = globalCache
+        ? `${globalCache.calidad.toFixed(2)} <span style="color:#555;">(promedio real de ${globalCache.n} profesores ya consultados en esta sesión)</span>`
+        : `${REC_C_CALIDAD_DEFECTO} <span style="color:#555;">(valor de respaldo — aún hay menos de ${REC_MIN_MUESTRA_GLOBAL} profesores en caché para calcularlo en vivo)</span>`;
+
     modal.innerHTML = `
-        <div class="modal-content" style="width:560px;">
+        <div class="modal-content" style="width:600px;">
             <div class="modal-header">
                 <div class="modal-title-code" style="color:#10b981;">🧮 RECOMENDACIÓN MATEMÁTICA</div>
                 <div class="modal-title-name" style="font-size:1.3rem;">¿Cómo se calcula?</div>
@@ -1368,24 +1440,49 @@ function openRecomendacionInfoModal() {
                 <p style="color:var(--text-dim); line-height:1.6; margin:0;">
                     Los datos (calidad, dificultad, % que recomienda) se consultan en vivo desde
                     <strong style="color:#fff;">MisProfesores.com</strong>. Un profesor con nota alta pero
-                    pocas calificaciones es menos confiable que uno con nota más baja pero muchas — por eso
-                    el número se corrige hacia un promedio general cuando hay pocos datos
-                    (promedio bayesiano / regresión a la media).
+                    pocas calificaciones es menos confiable que uno con nota más baja pero muchas, así que se
+                    corrigen ambos números por separado según cuánta muestra tienen detrás.
                 </p>
-                <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:16px; font-family:monospace; font-size:0.85rem; color:var(--text-dim); line-height:1.8;">
-                    peso = n / (n + ${REC_M})<br>
-                    calidad_ajustada = peso × calidad + (1 − peso) × ${REC_C_CALIDAD}<br>
-                    recomienda_ajustado = peso × recomienda% + (1 − peso) × ${REC_C_RECOMIENDA}%<br>
-                    <strong style="color:#4ade80;">score = calidad_ajustada × 0.7 + (recomienda_ajustado / 10) × 0.3</strong>
+
+                <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:16px;">
+                    <div style="font-weight:700; color:#fff; margin-bottom:8px; font-size:0.92rem;">1️⃣ Calidad → promedio bayesiano/empírico</div>
+                    <div style="font-family:monospace; font-size:0.85rem; color:var(--text-dim); line-height:1.8;">
+                        peso = n / (n + m)<br>
+                        calidad_ajustada = peso × calidad + (1 − peso) × C
+                    </div>
+                    <ul style="margin:10px 0 0; padding-left:20px; color:var(--text-dim); line-height:1.8; font-size:0.87rem;">
+                        <li><strong style="color:#fff;">C</strong> (promedio de referencia) = ${cCalidadTxt}, no un número fijo inventado.</li>
+                        <li><strong style="color:#fff;">m</strong> (umbral de confianza) = <strong style="color:#4ade80;">${REC_M}</strong>, calculado —no elegido a ojo— así:
+                            para estimar la calidad con un margen de error de ±${REC_MARGEN_ACEPTABLE} puntos al 95% de confianza,
+                            asumiendo una desviación estándar típica de ${REC_SIGMA_CALIDAD_ASUMIDA} en calificaciones individuales (escala 0-10),
+                            el tamaño de muestra necesario es <code>n ≈ (z·σ/E)²</code> con z=${REC_Z}.</li>
+                    </ul>
                 </div>
+
+                <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:16px;">
+                    <div style="font-weight:700; color:#fff; margin-bottom:8px; font-size:0.92rem;">2️⃣ % Recomienda → límite inferior de Wilson</div>
+                    <div style="font-family:monospace; font-size:0.85rem; color:var(--text-dim); line-height:1.8;">
+                        recomienda_ajustado = límite_inferior_Wilson(p, n) × 100
+                    </div>
+                    <p style="margin:10px 0 0; color:var(--text-dim); font-size:0.87rem; line-height:1.6;">
+                        En vez de mezclar el % con un promedio fijo, se usa el intervalo de confianza de Wilson (1927)
+                        para una proporción — el mismo método que usan sitios como Reddit para ordenar por "mejor" en
+                        vez de por promedio bruto. Con pocas calificaciones el intervalo es ancho y el límite inferior
+                        baja mucho (penaliza la incertidumbre); con muchas, el límite inferior se acerca al % observado.
+                    </p>
+                </div>
+
+                <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:16px; font-family:monospace; font-size:0.85rem; color:#4ade80;">
+                    score = calidad_ajustada × 0.7 + (recomienda_ajustado / 10) × 0.3
+                </div>
+
                 <ul style="margin:0; padding-left:20px; color:var(--text-dim); line-height:1.8; font-size:0.9rem;">
                     <li><strong style="color:#fff;">n</strong> = calificaciones de ese profesor en MisProfesores.com.</li>
-                    <li><strong style="color:#fff;">${REC_M}</strong> = a partir de esta cantidad, el número casi no se corrige.</li>
                     <li>La <strong>dificultad</strong> no penaliza el score: un curso difícil no implica mal profesor.</li>
                     <li>Solo aparece en profesores que ya tienen URL asignada en <code>profesores.js</code>.</li>
                 </ul>
                 <div style="background:rgba(245,158,11,0.1); border-left:4px solid #f59e0b; padding:12px 14px; border-radius:6px; font-size:0.85rem; color:var(--text-dim);">
-                    ⚠️ Datos externos y no oficiales. Úsalo como referencia.
+                    ⚠️ Datos externos y no oficiales. Úsalo como referencia, no como verdad absoluta.
                 </div>
             </div>
             <div class="modal-footer">
