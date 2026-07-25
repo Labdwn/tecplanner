@@ -240,22 +240,6 @@ function renderHorariosLayout() {
                 </div>
             </div>`}
 
-            <div class="hor-filtro-cursando-banner" id="horFiltroCursandoBanner"></div>
-
-            <div class="hor-filtros">
-                <select id="horAnio" class="list-select" onchange="onHorFiltroChange()">
-                    <option value="">Año</option>
-                    ${anios.map(a => `<option value="${a}">${a}</option>`).join('')}
-                </select>
-                <select id="horPeriodo" class="list-select" onchange="onHorFiltroChange()"><option value="">Período</option></select>
-                <select id="horSede" class="list-select" onchange="onHorFiltroChange()"><option value="">Sede</option></select>
-                <div class="hor-escuela-combo" id="horEscuelaCombo">
-                    <input type="text" id="horEscuelaInput" class="list-select" placeholder="Escuela" autocomplete="off"
-                           oninput="filterEscuelaOptions(this.value)" onfocus="showEscuelaDropdown()" disabled>
-                    <div id="horEscuelaDropdown" class="hor-escuela-dropdown"></div>
-                </div>
-            </div>
-
             <div class="hor-search-row">
                 <div class="search-container" style="flex:1; min-width:220px;">
                     <input type="text" id="horBusqueda" class="search-input hor-search"
@@ -445,16 +429,6 @@ async function onHorEscuelaChange() {
         const data = await res.json();
         horariosCursosDisponibles = data.cursos || [];
  
-        if (horFiltroCursandoActivo) {
-            horEscuelasVisitadasFiltro.add(escuela);
-            const codigosDisponibles = new Set(horariosCursosDisponibles.map(c => c.codigo));
-            [...horFiltroCursandoPendientes].forEach(cod => {
-                if (codigosDisponibles.has(cod)) {
-                    horFiltroCursandoPendientes.delete(cod);
-                    horFiltroCursandoEncontrados.add(cod);
-                }
-            });
-        }
  
         renderHorariosCursos();
         renderFiltroCursandoBanner();
@@ -540,7 +514,7 @@ function renderHorariosCursos() {
     const cont = document.getElementById('horListaCursos');
     const q = horariosBusqueda.toLowerCase();
 
-    const codigosSolicitadosCursando = new Set([...horFiltroCursandoPendientes, ...horFiltroCursandoEncontrados]);
+   
  
     const filtrados = horariosCursosDisponibles
         .filter(c => !horFiltroCursandoActivo || codigosSolicitadosCursando.has(c.codigo))
