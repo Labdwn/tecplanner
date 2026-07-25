@@ -1,0 +1,3080 @@
+ABARCA GUERRERO LILLIANA:
+  - QU1104 - Laboratorio de química básica II
+
+ABREGO CAMPOS LEONEL:
+  - AE3127 - Administración financiera I
+  - LA5139 - Auditoría gubernamental
+
+ACEVEDO WHITFORD OSCAR:
+  - AE1122 - Contabilidad I
+  - AE2125 - Matemática financiera
+  - AE3128 - Administración financiera II
+
+ACHOY HERNANDEZ ALEJANDRO:
+  - CS1308 - Derecho comercial
+  - CS2303 - Relaciones laborales
+
+ACOSTA VARGAS LUIS GUILLERMO:
+  - FO4220 - Restauración de ecosistemas tropicales
+
+ACUÑA CHACON REIMAN:
+  - EM5006 - Didáctica de las matemáticas II
+
+ACUÑA PIEDRA ANDREA:
+  - AI5106 - Gestión ambiental
+
+ACUÑA PRADO LUIS:
+  - MA1103 - Cálculo y álgebra lineal
+  - MA1304 - Cálculo para administración
+
+AGUERO HERNANDEZ ANA LAURA:
+  - SO4508 - Protección del ambiente
+  - SO4604 - Seguridad y salud ocupacional
+  - SO4706 - Seminario de adaptación al cambio climático
+
+ALAN ZUÑIGA MANUEL ANTONIO:
+  - CO4107 - Programación de proyectos
+  - CO5024 - Normativa en la construcción
+
+ALBERTAZZI OSORIO SONIA:
+  - CI0202 - Inglés básico
+  - CI1230 - Inglés I
+  - CI1231 - Inglés II
+
+ALCAZAR VILLALOBOS JUAN PABLO:
+  - SO2407 - Legislación ocupacional y ambiental
+
+ALEGRIA GRANADOS MELISSA:
+  - PI2608 - Análisis estadístico
+  - PI2610 - Probabilidad y estadística I
+  - PI3512 - Dirección de personal
+  - PI4307 - Control de calidad
+
+ALFARO ALVARADO JOSE ABRAHAN:
+  - FI1201 - Laboratorio física general I
+  - IF3603 - Óptica
+  - IF4802 - Laboratorio metrología I
+
+ALFARO BADILLA JASON KALED:
+  - EL3310 - Diseño de sistemas digitales
+
+ALFARO QUESADA ALEJANDRO:
+  - IC1802 - Introducción a la programación
+  - IC1803 - Taller de programación
+
+ALFARO RAMOS ALFREDO:
+  - AE2311 - Macroeconomía
+
+ALFARO VELASCO JORGE:
+  - IC3101 - Arquitectura de computadores
+  - IC6600 - Principios de sistemas operativos
+
+ALLEN MAITLAND KENDRALL:
+  - AE2126 - Contabilidad de costos I
+
+ALPIZAR BRENES GEISEL:
+  - MA2105 - Ecuaciones diferenciales
+
+ALPIZAR CHAVES LAURA:
+  - TI9805 - Auditoría de TI
+
+ALVARADO CAMPOS LEISTER FRANCISCO:
+  - IC1400 - Fundamentos de organización de computadoras
+
+ALVARADO MARCHENA LUIS FERNANDO:
+  - IB2203 - Anatomía vegetal
+
+ALVARADO MOYA JOSE PABLO:
+  - EL4703 - Señales y sistemas
+  - EL5805 - Procesamiento digital de señales
+
+ALVARADO ORTEGA ROMMEL:
+  - FI1101 - Física general I
+  - FI1102 - Física general II
+  - FI1201 - Laboratorio física general I
+  - FI1202 - Laboratorio física general II
+
+ALVARADO PEÑA MARCO:
+  - PI5707 - Ingeniería de la confiabilidad
+
+ALVARADO SOLANO ANDY:
+  - EM2603 - Cálculo y análisis I
+  - MA2404 - Probabilidades
+  - MA3106 - Métodos numéricos
+
+ALVARADO ULLOA CARLOS:
+  - IB4202 - Laboratorio de cultivo de tejidos II
+  - IB4811 - Propiedad intelectual, innovación y biotecnología
+
+ALVAREZ FIGUEROA ADRIANA:
+  - IC4301 - Bases de datos I
+  - IC4810 - Administración de proyectos
+  - IC8071 - Seguridad del software
+  - IC8842 - Práctica profesional
+
+ALVAREZ GRIJALBA WALTER:
+  - CA3125 - Análisis y diseño de algoritmos
+
+ALVAREZ HERNANDEZ MARIAM:
+  - CS3406 - Seminario de ética para administración de empresas
+  - TS2202 - Práctica de especialidad
+  - TS2301 - Formulación y evaluación de proyectos
+
+ALVAREZ SOLORZANO DIOGENES:
+  - PI3502 - Costos industriales II
+  - PI3603 - Investigación de operaciones I
+  - PI4505 - Análisis económico
+  - TI3602 - Producción, logística y calidad
+
+AMADOR JARA ALVARO:
+  - FI1102 - Física general II
+
+AMADOR SOLANO GABRIELA:
+  - CI1106 - Comunicación escrita
+  - CI1107 - Comunicación oral
+
+ARAYA CALVO MIGUEL:
+  - ID4501 - Diseño de productos VII
+
+ARAYA CARVAJAL FABIO:
+  - QU1107 - Química básica II
+
+ARAYA LEANDRO ARNOLDO:
+  - AE3128 - Administración financiera II
+  - AE4128 - Auditoría I
+
+ARAYA MARCHENA MARIO:
+  - QU1902 - Fundamentos de química
+  - QU2409 - Química orgánica y bioquímica
+
+ARAYA MENESES IVAN:
+  - CM3207 - Métodos numéricos para ingeniería
+  - MT5002 - Modelos de sistemas para mecatrónica
+  - MT7004 - Neumática y oleohidráulica
+
+ARAYA MORA FABIAN:
+  - CM3205 - Tecnología de maquinado
+  - CM3601 - Mecánica de fluidos
+  - CM4307 - Conformado de materiales
+  - CM5302 - Equipos auxiliares de planta
+
+ARAYA OBANDO JOSE ANDRES:
+  - CO4108 - Taller I
+
+ARAYA RODRIGUEZ LISANDRO:
+  - CE1109 - Circuitos analógicos
+  - EL2114 - Circuitos eléctricos en corriente alterna
+  - MI2202 - Laboratorio de electricidad I
+  - MI2205 - Electricidad I
+  - MI3209 - Electricidad III
+
+ARAYA RODRIGUEZ MAURICIO:
+  - CO2203 - Interpretación de planos
+  - CO3401 - Mecánica del solido I
+
+ARAYA ROJAS LUIS CARLOS:
+  - ID1103 - Métodos de desarrollo de productos
+  - ID3111 - Diseño V
+
+ARAYA SOLANO LUIS ALONSO:
+  - FI1202 - Laboratorio física general II
+  - FI2103 - Física general III
+
+ARAYA SOLANO TANNIA:
+  - SO3603 - Evaluación y control de ruidos y vibraciones
+
+ARAYA VARELA KAREN:
+  - AI6109 - Cambio climático, adaptación y mitigación
+
+ARCE GUTIERREZ SUSAN:
+  - AE2124 - Contabilidad III
+
+ARCE OROZCO ARMANDO:
+  - CA3125 - Análisis y diseño de algoritmos
+  - IC6600 - Principios de sistemas operativos
+  - IC8058 - Sistemas de información geográfica
+
+ARCE ROJAS HEILEN:
+  - QU1107 - Química básica II
+
+ARIAS AGUILAR  DAGOBERTO:
+  - FO2108 - Laboratorio de suelos forestales
+  - FO4107 - Suelos forestales
+  - FO4223 - Dendroenergía
+  - MR1102 - Inferencia estadística
+  - MR1202 - Sostenibilidad y desarrollo de sistemas naturales y productivos
+
+ARIAS ALPIZAR KEVIN RICARDO:
+  - NE1001 - Fundamentos de química ambiental para turismo
+  - QU1104 - Laboratorio de química básica II
+  - QU1106 - Química básica I
+
+ARIAS CARTIN JUAN PABLO:
+  - MI3111 - Laboratorio de mecánica de fluidos
+  - MT6003 - Laboratorio de termofluidos
+
+ARIAS ESQUIVEL YEINER:
+  - EL4201 - Procesamiento electrónico de potencia
+  - MT2002 - Laboratorio de circuitos de corriente continua y corriente alterna
+  - MT5003 - Electrónica de potencia aplicada
+
+ARIAS HIDALGO DAVID:
+  - CS4402 - Seminario de estudios costarricenses
+  - TS1100 - Gestión ambiental
+
+ARIAS MENDEZ ESTEBAN:
+  - IC6600 - Principios de sistemas operativos
+
+ARIAS MONGE ESTEBAN DAVID:
+  - AI6104 - Seguridad y salud ocupacional en Ingeniería Ambiental
+
+ARIAS PORRAS MARIA FERNANDA:
+  - CO3103 - Costos de construcción I
+
+ARIAS RAMIREZ DENNIS:
+  - PI3403 - Sistema de información
+  - PI4803 - Gestión de la innovación
+  - PI5408 - Tópicos avanzados de producción
+  - PI5601 - Diagnóstico industrial
+
+ARIAS RODRIGUEZ CARLOS:
+  - IC4301 - Bases de datos I
+
+ARIAS SOSA LUIS ALBAN:
+  - CS1308 - Derecho comercial
+  - CS2303 - Relaciones laborales
+  - CS2304 - Derecho laboral
+  - CS5300 - Desarrollo tecnológico y sostenibilidad
+
+ARIAS ZUÑIGA ANA LORENA:
+  - MR2533 - Técnicas de identificación y valoración del daño ambiental
+
+ARRIETA QUESADA SERGIO:
+  - IA4313 - Riego a presión
+
+ARRIOLA VALVERDE SERGIO:
+  - EL1200 - Introducción a la electrónica
+
+ARROYO HERRERA MAURICIO:
+  - IC4810 - Administración de proyectos
+
+ARTAVIA ALVARADO MIGUEL:
+  - CO5031 - Administración de empresas constructoras
+  - CO5051 - Control de costos de construcción
+
+ARTAVIA DELGADO RANDALL:
+  - LA5040 - Sistemas de información financiera
+
+ARTAVIA GRANADOS XINIA:
+  - FH0147 - Sexo y género, en la vida y el amor
+
+ARTAVIA JIMENEZ MARIA JOSE:
+  - TI9003 - Computación y sociedad
+
+ASENJO CASTILLO EDUARDO JOSE:
+  - MT2002 - Laboratorio de circuitos de corriente continua y corriente alterna
+  - MT8002 - Automatización y redes industriales
+
+AVILA ZAMORA ANDREA:
+  - AU1503 - Composición arquitectónica I
+  - AU1903 - Sistemas ambientales arquitectónicos I
+
+AVILES CISNEROS MAURICIO:
+  - IC2001 - Estructuras de datos
+  - IC2101 - Programación orientada a objetos
+  - IC8048 - Simulación de sistemas naturales
+
+AZOFEIFA CUBERO ROBERTO:
+  - MA0101 - Matemática general
+
+AZOFEIFA ORTIZ CARLOS:
+  - AU2005 - Laboratorio de proyectos VIII, diseño integral
+
+BADILLA MURILLO FELIX:
+  - PI5402 - Automatización de manufactura
+  - PI5707 - Ingeniería de la confiabilidad
+
+BADILLA VALVERDE YORLENY:
+  - FO3109 - Manejo de plantaciones forestales
+
+BALLESTERO ALFARO ESTEBAN:
+  - IC6400 - Investigación de operaciones
+  - MA2404 - Probabilidades
+
+BALTODANO GOULDING RAFAEL:
+  - CO4308 - Mecánica de suelos II
+
+BARAHONA GUZMAN GREIVIN:
+  - MI5215 - Análisis de sistemas eléctricos de potencia
+
+BARBOZA ARTAVIA LUIS:
+  - CE1103 - Algoritmos y estructuras de datos I
+  - CE1106 - Paradigmas de programación
+  - CE4302 - Arquitectura de computadores II
+  - CE4303 - Principios de sistemas operativos
+
+BARBOZA DIAZ LINO:
+  - AE1122 - Contabilidad I
+  - AE2124 - Contabilidad III
+
+BARBOZA FALLAS LUIS:
+  - IB2021 - Sistemas bioinformáticos
+
+BARBOZA RETANA JOSE MIGUEL:
+  - EL3215 - Laboratorio de electrónica analógica
+  - EL4703 - Señales y sistemas
+
+BARRANTES ALVARADO IVAN:
+  - SE1102 - Acción social
+
+BARRANTES BARRANTES EILYN:
+  - AE4228 - Gestión del talento humano II
+
+BARRIENTOS ALFARO FRANK CARLOS:
+  - IB4202 - Laboratorio de cultivo de tejidos II
+
+BARRIOS HERNANDEZ MARYLUZ:
+  - AI3112 - Diseño y tratamiento de aguas residuales
+
+BENAVIDES CESPEDES CARLOS:
+  - IC1400 - Fundamentos de organización de computadoras
+  - IC3101 - Arquitectura de computadores
+  - IC7602 - Redes
+
+BENAVIDES RAMIREZ WILLIAM JESUS:
+  - CM2103 - Termodinámica
+  - CM2402 - Laboratorio de metalurgia física
+  - CM4108 - Transferencia de calor
+  - CM4202 - Laboratorio tecnología aleaciones metálicas
+  - ME3208 - Tecnología de materiales
+
+BERMUDEZ CHACON MARVIN:
+  - MI2101 - Dibujo técnico
+  - MI8304 - Máquinas y equipos
+  - SO4702 - Seguridad eléctrica
+
+BERROCAL JIMENEZ ALEXANDER:
+  - FO3132 - Entomología y patología forestales
+
+BINNS HERNANDEZ HENRY ALBERTO:
+  - AE1122 - Contabilidad I
+
+BLACKWOOD BARRETT AISHA JOHANNA:
+  - CI1108 - Destrezas comunicativas del inglés para biotecnología I
+
+BLANCO BENAMBURG RANDALL:
+  - EM2604 - Geometría I
+
+BLANCO LEITON HAROL:
+  - SO3606 - Factores psicosociales
+
+BOGANTES GARCIA FERNANDO:
+  - SE1204 - Natación
+
+BOGARIN NAVARRO RODRIGO:
+  - CA2125 - Elementos de computación
+  - CA3125 - Análisis y diseño de algoritmos
+  - IC2001 - Estructuras de datos
+
+BOJORGE MURILLO ALEXANDER:
+  - CS1502 - Introducción a la técnica ciencia y tecnología
+  - CS3404 - Seminario de ética para la ingeniería
+
+BONILLA GUIDO FRANCISCO:
+  - MI2101 - Dibujo técnico
+  - MI3104 - Laboratorio procesos de manufactura
+
+BONILLA SOTO LUIS CARLOS:
+  - FH0053 - Patrimonio e identidad cultural
+
+BORBON ALPIZAR ALEXANDER:
+  - MA2104 - Cálculo superior
+
+BRENES BONILLA JARY:
+  - PI4303 - Control de producción
+  - PI4309 - Planeación y diseño de instalaciones
+
+BRENES BRENES JOSE ALEXANDER:
+  - IC1802 - Introducción a la programación
+  - IC1803 - Taller de programación
+
+BRENES BRENES RONALD:
+  - CM4309 - Corrosión y protección de materiales
+  - CM4802 - Gestión de proyectos
+
+BRENES CATALAN JOSE:
+  - ID1101 - Análisis de producto I
+  - ID2301 - Principios estructurales
+  - ID3113 - Biónica y eco-diseño
+
+BRENES CERVANTES IVANNIA:
+  - AE4208 - Desarrollo de emprendedores
+
+BRENES GOMEZ  RANDALL:
+  - MA1103 - Cálculo y álgebra lineal
+  - MA2105 - Ecuaciones diferenciales
+
+BRENES MADRIZ  JAIME:
+  - IB3404 - Aplicación de sistemas de producción agrícola
+  - IB3405 - Laboratorio aplicación de sistemas de producción agrícola
+
+BRENES MORALES ORLANDO:
+  - AN3006 - Investigación de operaciones en agronegocios
+  - PI2608 - Análisis estadístico
+  - PI3501 - Costos Industriales I
+
+BRENES NAVARRO BALAM:
+  - PI3407 - Computación industrial
+  - PI4505 - Análisis económico
+
+BRENES NAVARRO DAVID HUMBERTO:
+  - AA2302 - Contabilidad de costos aplicada
+
+BRENES ROJAS LEONARDO:
+  - CI1230 - Inglés I
+  - CI1231 - Inglés II
+  - CI1305 - Inglés I para administración
+
+BRENES SANCHEZ RONALD:
+  - AE2220 - Análisis administrativo
+  - AE3505 - Metodología de la investigación
+
+BRENES TORRES JUAN CARLOS:
+  - EM1613 - Tecnologías digitales aplicadas a la matemática educativa III
+  - MT3002 - Laboratorio de electrónica analógica
+  - MT8005 - Robótica
+  - MT9005 - Simulación procesos industriales
+
+BROWN RICHARDS ENOS:
+  - AE3223 - Gestión del talento humano I
+
+BULGARELLI BOLAÑOS JOSE PABLO:
+  - AU4408 - Urbanismo ordenamiento territorial I
+
+CABALLERO CHAVARRIA ANDREY:
+  - AI3109 - Laboratorio de tratamiento de agua potable y residual
+  - AI4103 - Laboratorio de ingeniería en emisiones atmosféricas
+
+CABRERA ARAYA GUSTAVO ALCIDES:
+  - SE1205 - Juegos y deportes en conjunto
+  - SE1219 - Baloncesto recreativo
+
+CABRERA SANDOVAL MARCO:
+  - AU2006 - Planos y especificaciones técnicas
+  - CO2201 - Dibujo
+  - GP2527 - BIM y la gestión de proyectos de construcción
+
+CALDERON ACUÑA ERICK:
+  - AU1904 - Composición urbana I
+
+CALDERON ARCE CINDY:
+  - CM3207 - Métodos numéricos para ingeniería
+
+CALDERON CERDAS RUBEN ALFONSO:
+  - AN3007 - Cultivos hortícolas
+  - AN4007 - Cultivos no tradicionales y tecnologías alternativas
+
+CALDERON FERREY MARTHA:
+  - CS1308 - Derecho comercial
+  - CS2303 - Relaciones laborales
+
+CALDERON RAMIREZ SAUL:
+  - IC6200 - Inteligencia artificial
+
+CALDERON SOLANO MANUEL:
+  - MA1103 - Cálculo y álgebra lineal
+  - MA1304 - Cálculo para administración
+
+CALLEJA AMADOR CARLOS ENRIQUE:
+  - QU1102 - Laboratorio de química básica I
+  - QU1106 - Química básica I
+
+CALVO CASTRO LAURA:
+  - IB4201 - Cultivo de tejidos II
+
+CALVO QUIROS ANGELINE:
+  - TR4232 - Innovación de productos turísticos
+
+CAMACHO ARIAS ARIADNE:
+  - CI1407 - Habilidades de comunicación en Ingeniería
+
+CAMACHO CORNEJO DIEGO:
+  - FO3210 - Gestión de administración forestal
+  - FO4412 - Mercadeo y comercialización de productos forestales
+
+CAMBRONERO CORDERO MICHAEL:
+  - FI1101 - Física general I
+  - FI1201 - Laboratorio física general I
+
+CAMPOS AGUERO CRISTIAN:
+  - IC4302 - Bases de datos II
+  - IC6600 - Principios de sistemas operativos
+  - IC8071 - Seguridad del software
+
+CAMPOS AGUILAR JOSE ANGEL:
+  - IC5821 - Requerimientos de software
+  - IC6821 - Diseño de software
+
+CAMPOS ARAYA GERARDO NEREO:
+  - IC4302 - Bases de datos II
+  - IC7602 - Redes
+
+CAMPOS CHAVARRIA BENJAMIN:
+  - CS1502 - Introducción a la técnica ciencia y tecnología
+  - CS2101 - Ambiente humano
+  - CS4402 - Seminario de estudios costarricenses
+  - FH0224 - Análisis critico de la revolución virtual
+
+CAMPOS FERNANDEZ IVAN:
+  - CA2125 - Elementos de computación
+  - IC2101 - Programación orientada a objetos
+
+CAMPOS FUENTES MARVIN:
+  - IC5821 - Requerimientos de software
+
+CAMPOS NAVARRO JUAN PABLO:
+  - AI3111 - Administración de proyectos de infraestructura ambiental
+
+CAMPOS RODRIGUEZ MELANIA:
+  - FI1201 - Laboratorio física general I
+
+CAMPOS RODRIGUEZ ROOEL:
+  - AN4006 - Gestión ambiental en agronegocios
+
+CANESSA MONTERO EDUARDO ADOLFO:
+  - IC1802 - Introducción a la programación
+  - IC1803 - Taller de programación
+  - IC3101 - Arquitectura de computadores
+  - IC7602 - Redes
+
+CARDINALE VILLALOBOS LEONARDO:
+  - EL5856 - Taller de circuitos electrónicos para sistemas energéticos
+
+CARMONA PINEDA MAIRIM:
+  - CS4402 - Seminario de estudios costarricenses
+
+CARPIO CHAVES MONICA:
+  - SO2601 - Fundamentos de seguridad e higiene ocupacional
+  - SO4604 - Seguridad y salud ocupacional
+
+CARRANZA SOLANO MAURICIO:
+  - CO4406 - Estructuras de mampostería
+  - CO5013 - Análisis estructural
+
+CARRASQUILLA BATISTA ARYS INDIRA:
+  - MT8002 - Automatización y redes industriales
+
+CARRERA RETANA LUIS ERNESTO:
+  - EL4513 - Teoría electromagnética I
+  - MA0101 - Matemática general
+  - MA1103 - Cálculo y álgebra lineal
+  - MA2104 - Cálculo superior
+
+CARVAJAL ALFARO VANESSA:
+  - FH0016 - El desarrollo de la ciencia en Costa Rica
+  - IB3210 - Sistemas ecológicos
+  - NE0001 - Historia natural de Costa Rica
+
+CARVAJAL GODINEZ JOHAN:
+  - EL5841 - Taller de sistemas embebidos
+
+CARVAJAL VANEGAS DORIAN:
+  - FO1106 - Climatología forestal
+  - FO2201 - Levantamiento forestal
+
+CARVAJAL VILLAPLANA ALVARO:
+  - CS3401 - Seminario de estudios filosóficos históricos
+
+CASASOLA RIVERA WILMER:
+  - CS3404 - Seminario de ética para la ingeniería
+
+CASTILLO FALLAS JOSE CARLOS:
+  - FI1101 - Física general I
+  - FI1201 - Laboratorio física general I
+  - FI2103 - Física general III
+
+CASTILLO RODRIGUEZ LARISSA:
+  - CI1107 - Comunicación oral
+
+CASTILLO ULATE ELENA:
+  - SE1105 - Artes musicales
+
+CASTRO BADILLA GUILLERMO:
+  - EL1200 - Introducción a la electrónica
+  - EL2111 - Laboratorio de circuitos eléctricos
+  - EL2207 - Elementos activos
+  - EL5610 - Taller integrador
+
+CASTRO CHACON ESTEBAN:
+  - AU1503 - Composición arquitectónica I
+  - AU1701 - Laboratorio de proyectos IV, espacio arquitectónico
+
+CASTRO FERNANDEZ PEDRO:
+  - CO5032 - Construcción de pavimentos
+
+CASTRO GODINEZ JORGE ALBERTO:
+  - MT4002 - Laboratorio electrónica digital
+
+CASTRO MORA JOSE:
+  - IC3002 - Análisis de algoritmos
+  - IC4700 - Lenguajes de programación
+  - IC6200 - Inteligencia artificial
+
+CASTRO PIEDRA SILVIA:
+  - IB4805 - Fundamentos de anatomía y desarrollo animal
+
+CASTRO ROLDAN MARVIN:
+  - CA2125 - Elementos de computación
+
+CAVERO QUESADA ANDREA:
+  - PI3403 - Sistema de información
+
+CEDEÑO CAMACHO MAURICIO:
+  - CS3401 - Seminario de estudios filosóficos históricos
+  - CS3404 - Seminario de ética para la ingeniería
+  - CS3406 - Seminario de ética para administración de empresas
+  - TS1202 - Equidad y participación social
+
+CENTENO CERDAS CAROLINA:
+  - IB3601 - Bioquímica
+  - IB3603 - Laboratorio de bioquímica
+
+CERDAS QUESADA IVANNIA:
+  - CA2125 - Elementos de computación
+  - IC1802 - Introducción a la programación
+  - IC1803 - Taller de programación
+  - IC2001 - Estructuras de datos
+
+CERVANTES MEZA ALBERTO:
+  - AE1122 - Contabilidad I
+  - AE2124 - Contabilidad III
+  - AE2126 - Contabilidad de costos I
+  - LA6013 - Trabajo final de graduación énfasis contaduría pública
+
+CESPEDES CAMACHO ISAAC FABIAN:
+  - AI3212 - Termodinámica y cinética ambiental
+  - QU2407 - Fundamentos de química orgánica
+
+CESPEDES OBANDO FRANCISCO:
+  - TR3235 - Planificación del turismo
+
+CHACON CERDAS RANDALL:
+  - IB2113 - Análisis estadístico para biotecnología
+
+CHACON MATA ALFONSO:
+  - CS2303 - Relaciones laborales
+  - CS2304 - Derecho laboral
+
+CHACON RIVAS  MARIO:
+  - IC5821 - Requerimientos de software
+  - IC6821 - Diseño de software
+  - IC6831 - Aseguramiento de la calidad del software
+
+CHACON RODRIGUEZ ALFONSO:
+  - EL3307 - Diseño lógico
+  - EL5807 - Introducción al diseño de circuitos integrados
+
+CHACON ROJAS FERNANDO:
+  - PI5516 - Ingeniería económica
+
+CHACON VARGAS ERICK:
+  - MA1304 - Cálculo para administración
+  - MA3405 - Estadística
+
+CHANG ALBIZUREZ DOMINIQUE:
+  - AU1501 - Laboratorio de proyectos II, Composición arquitectural
+
+CHAVARRIA HIDALGO CARLOS:
+  - AE2311 - Macroeconomía
+  - AE3312 - Negocios internacionales
+  - LA5301 - Políticas económicas
+
+CHAVARRIA MOLINA JEFFRY:
+  - MA1103 - Cálculo y álgebra lineal
+  - MA3106 - Métodos numéricos
+
+CHAVARRIA PIZARRO LAURA:
+  - IB3210 - Sistemas ecológicos
+  - IB4815 - Insectos en biotecnología
+
+CHAVARRIA SANCHEZ LUIS JAVIER:
+  - IC2101 - Programación orientada a objetos
+  - TI2201 - Programación orientada a objetos
+  - TI5501 - Diseño de software
+  - TI8515 - Inteligencia Artificial en Sistemas de Información
+
+CHAVARRIA VIDAL ADRIAN:
+  - IA2106 - Sistemas de producción agrícola
+  - IA3105 - Relación suelo-agua-planta
+  - IA4315 - Manejo de suelos, aguas y diseño de obras de conservación
+
+CHAVARRIA ZAMORA LUIS:
+  - CE1107 - Fundamentos de Arquitectura de Computadores
+  - CE1110 - Análisis de señales mixtas
+  - CE1112 - Taller de señales mixtas
+  - CE4302 - Arquitectura de computadores II
+
+CHAVERRI FLORES LAURA:
+  - AU1303 - Historia del arte y la arquitectura I
+
+CHAVERRI QUIROS OSCAR:
+  - CM5901 - Ensayos no destructivos
+
+CHAVES ABARCA RANDALL:
+  - AN2004 - Laboratorio de bioquímica agroalimentaria
+
+CHAVES ALVAREZ MARCELA MARIA:
+  - FI2103 - Física general III
+  - MI2109 - Estática
+
+CHAVES BARQUERO LUIS GERARDO:
+  - QU1104 - Laboratorio de química básica II
+  - QU1107 - Química básica II
+
+CHAVES JIMENEZ ADOLFO:
+  - EL5408 - Control automático
+  - EL5409 - Laboratorio de control automático
+
+CHAVES NOGUERA JUAN SCOTT:
+  - EL4607 - Normalización técnica (estándares industriales)
+  - EL5610 - Taller integrador
+
+CHAVES SALAS LEONEL ROLANDO:
+  - MA3405 - Estadística
+
+CHICAS ROMERO MAURICIO:
+  - BL1201 - Metodologías de investigación
+  - IB3107 - Microbiología industrial
+
+CHINCHILLA VALVERDE JORGE LUIS:
+  - MA1103 - Cálculo y álgebra lineal
+  - MA1303 - Matemática básica para administración
+
+CHINCHILLA VARGAS ERICK GUSTAVO:
+  - EL2114 - Circuitos eléctricos en corriente alterna
+
+CHINE POLITO BRUNO:
+  - CM3207 - Métodos numéricos para ingeniería
+  - CM4101 - Modelación y simulación
+  - CM4701 - Transferencia de calor y masa
+
+CONTRERAS SANCHEZ CARLOS:
+  - EL1200 - Introducción a la electrónica
+
+CORDERO CASTILLO DAMARIS:
+  - AE4226 - Estrategia empresarial
+
+CORDERO GARCIA IVAN GABRIEL:
+  - EL4513 - Teoría electromagnética I
+  - FI1101 - Física general I
+  - FI1201 - Laboratorio física general I
+
+CORDERO MAROTO NELSON:
+  - SE1218 - Ajedrez
+
+CORDERO MEZA HAROLD:
+  - PI3308 - Estudio del trabajo II
+  - PI3502 - Costos industriales II
+  - PI4802 - Administración de proyectos
+
+CORDERO QUIROS MARCIAL:
+  - MA0101 - Matemática general
+  - MA1102 - Cálculo diferencial e integral
+
+CORDOBA ARTAVIA OSCAR:
+  - AE2506 - Estadística II
+  - AE4208 - Desarrollo de emprendedores
+
+CORDOBA GONZALEZ CARLOS MANUEL:
+  - LA5227 - Desarrollo gerencial
+  - PI4001 - Dirección de personal
+
+CORDOBA RAMIREZ LUIS FELIPE:
+  - MI2101 - Dibujo técnico
+  - MI3103 - Procesos de manufactura
+  - MI3104 - Laboratorio procesos de manufactura
+
+CORELLA ESQUIVEL KARINA:
+  - CI1106 - Comunicación escrita
+  - CI1107 - Comunicación oral
+
+CORRALES BRENES REBECA:
+  - CM2402 - Laboratorio de metalurgia física
+  - CM5241 - Tecnología de recubrimientos y capas delgadas
+
+CORRALES QUESADA ESTEBAN:
+  - FI1101 - Física general I
+  - FI1102 - Física general II
+
+CORTES MIXTER JULIO:
+  - AE2506 - Estadística II
+
+CORTES SEAS JONATHAN:
+  - IC4301 - Bases de datos I
+
+COTO CALDERON ROLEN JESUS:
+  - EL3313 - Taller de diseño digital
+
+COTO CORTES ANIBAL:
+  - EL4514 - Teoría electromagnética II
+
+COTO GUZMAN ALICIA:
+  - SE1104 - Artes visuales
+  - SE1107 - Apreciación de cine
+
+COTO SARMIENTO LAURA:
+  - CA2125 - Elementos de computación
+  - IC1802 - Introducción a la programación
+  - IC1803 - Taller de programación
+
+CRESPO MARINO JUAN LUIS:
+  - MT8008 - Inteligencia artificial
+  - MT9001 - Diseño de sistemas mecatrónicos
+  - MT9008 - Sistemas de visión
+
+CUBERO SESIN JORGE MAURICIO:
+  - CM4801 - Caracterización de materiales
+
+CUBERO UGALDE MARCELA:
+  - ID2302 - Procesos de manufactura I
+  - ID3110 - Diseño IV
+  - ID5511 - Trabajo final de graduación (productos)
+
+CUBILLO MORALES DANIER:
+  - PI2304 - Estudio del trabajo I
+  - PI4309 - Planeación y diseño de instalaciones
+
+CUBILLO SALAS GUSTAVO:
+  - AE3415 - Investigación de mercados
+
+CUEVAS KAUFFMANN ROMMEL LEZING:
+  - CO3403 - Concreto
+
+DANIELS CHAN ESTEBAN:
+  - PI2304 - Estudio del trabajo I
+  - PI3206 - Logística y administración de la cadena de abastecimiento
+  - PI5708 - Gestión por procesos
+
+DE LA O CORDERO DYALA:
+  - AE1122 - Contabilidad I
+  - AE3505 - Metodología de la investigación
+
+DE LA O TORRES MARVIN:
+  - AE4130 - Formulación y evaluación de proyectos
+
+DE SIMONE CASTELLON ALEXANDRA:
+  - SE1101 - Artes dramáticas
+
+DEL VALLE GRANADOS IGNACIO:
+  - MI3108 - Mecánica de fluidos
+  - MI3130 - Termodinámica
+  - MI8304 - Máquinas y equipos
+  - MT6002 - Termofluidos
+
+DELGADO LEANDRO GONZALO:
+  - TI1201 - Comportamiento organizacional y talento humano
+  - TI4101 - Planificación y presupuesto
+  - TI8509 - Habilidades directivas para el administrador de tecnología de la información
+
+DIAZ BRENES NELSON:
+  - SE1104 - Artes visuales
+  - SE1107 - Apreciación de cine
+
+DIAZ GUTIERREZ CARLOS:
+  - AE4130 - Formulación y evaluación de proyectos
+
+DITTEL MEZA FERNANDO:
+  - CM4202 - Laboratorio tecnología aleaciones metálicas
+
+DUARTE NUÑEZ KAREN MELISSA:
+  - AE4541 - Impuestos en Costa Rica
+
+DURAN MORA JOAQUIN:
+  - AG3223 - Protección de cultivos II
+
+ECHEVERRIA BEIRUTE FABIAN:
+  - AG2201 - Fisiología vegetal
+
+EDUARTE RODRIGUEZ DAVID:
+  - CS4402 - Seminario de estudios costarricenses
+
+ELIZONDO RAMIREZ DIEGO HUMBERTO:
+  - MT5004 - Laboratorio de electrónica de potencia aplicada
+  - MT7002 - Sensores y actuadores
+
+ELIZONDO ZUÑIGA JENNIFER:
+  - FI1101 - Física general I
+  - FI1201 - Laboratorio física general I
+
+ESPINOZA RODRIGUEZ FABIANA:
+  - PI3403 - Sistema de información
+  - PI3502 - Costos industriales II
+
+ESQUIVEL SAMUDIO JEISON:
+  - MA0101 - Matemática general
+  - MA2104 - Cálculo superior
+
+ESQUIVEL SEGURA EDWIN:
+  - AG2203 - Edafología
+  - AG4703 - Sistemas de producción de cultivos perennes
+
+ESQUIVEL VARGAS HERSON:
+  - IC8071 - Seguridad del software
+
+FAITH VARGAS MARGIE:
+  - AE3505 - Metodología de la investigación
+  - AE4208 - Desarrollo de emprendedores
+
+FALLAS ALVAREZ ERICK:
+  - AG4705 - Sistemas de producción de granos básicos
+
+FALLAS MONGE JUAN JOSE:
+  - MA1102 - Cálculo diferencial e integral
+  - MA1403 - Matemática discreta
+
+FALLAS VARGAS FABRICIO:
+  - CS3401 - Seminario de estudios filosóficos históricos
+
+FARAH GUZMAN BILJHANA SHAKIRA:
+  - PI2610 - Probabilidad y estadística I
+  - PI3603 - Investigación de operaciones I
+  - PI5516 - Ingeniería económica
+
+FERNANDEZ AGUILAR JADVY:
+  - AE2220 - Análisis administrativo
+  - AE3223 - Gestión del talento humano I
+
+FERNANDEZ CERDAS SERGIO:
+  - CO3304 - Laboratorio mecánica de suelos I
+  - CO5032 - Construcción de pavimentos
+
+FERNANDEZ CHAVES ROBERTO:
+  - CM3602 - Tecnología de aleaciones metálicas
+  - ME3209 - Laboratorio de tecnología de materiales
+
+FERNANDEZ DE CASTRO NATAN:
+  - IC8071 - Seguridad del software
+
+FERNANDEZ MORA LADY:
+  - TR4233 - Organización comunal y turismo
+
+FERNANDEZ RIVAS LUIS ANTONIO:
+  - SO2404 - Procesos de manufactura
+  - SO4604 - Seguridad y salud ocupacional
+  - SO5902 - Sistemas integrados de gestión
+
+FERNANDEZ RODRIGUEZ JOSE MIGUEL:
+  - EL5609 - Formulación de proyectos
+
+FERNANDEZ RODRIGUEZ MARCELA:
+  - QU1102 - Laboratorio de química básica I
+  - QU1104 - Laboratorio de química básica II
+
+FERRETO GUTIERREZ EUGENIA:
+  - AE4228 - Gestión del talento humano II
+
+FIGUEROA MATA GEOVANNI:
+  - MA1103 - Cálculo y álgebra lineal
+
+FLETES GALAN WILBERTH:
+  - AE3127 - Administración financiera I
+
+FLORES CALDERON ARDUI:
+  - CI1230 - Inglés I
+  - CI2308 - Inglés IV para administración
+
+FLORES CANTILLO ADRIAN:
+  - QU1104 - Laboratorio de química básica II
+  - QU2604 - Química ambiental y analítica
+
+FONSECA CRUZ JOSE:
+  - EL3217 - Taller de diseño analógico
+
+FONSECA RETANA LEONEL:
+  - PI4802 - Administración de proyectos
+
+FONT CRUZ EDUARDO:
+  - IF3502 - Instrumentación I
+  - IF3503 - Instrumentación II
+
+FRANCESCHI SOJO KATTIA:
+  - CS4402 - Seminario de estudios costarricenses
+
+FREER PANIAGUA DYLANA:
+  - MA1102 - Cálculo diferencial e integral
+  - MA1103 - Cálculo y álgebra lineal
+
+FUENTES AGUILAR OLMAN:
+  - CO2202 - Topografía
+
+FUENTES MORA ESTEBAN:
+  - CI1231 - Inglés II
+  - CI2308 - Inglés IV para administración
+  - CI3202 - Inglés para mecatrónica
+
+GALINDO BADILLA JAIME:
+  - AG2101 - Anatomía y fisiología animal para agronomía
+
+GAMBOA ALFARO MARVIN RICARDO:
+  - FI1102 - Física general II
+  - FI1202 - Laboratorio física general II
+  - NE1006 - Física para Agronomía
+
+GAMBOA BADILLA NANCY:
+  - FO3307 - Biología de la conservación
+  - FO5049 - Seminario de graduación
+
+GAMBOA CUBERO LUIS MAURICIO:
+  - TI3801 - Administración de proyectos II
+
+GAMBOA MURILLO MARIANELA:
+  - AN1004 - Gestión en agronegocios
+  - AN4005 - Procesado productos pecuarios
+
+GAMBOA RAMIREZ SANTIAGO:
+  - CE1103 - Algoritmos y estructuras de datos I
+  - CE1106 - Paradigmas de programación
+
+GARCES MONGE LUIS IGNACIO:
+  - PI4307 - Control de calidad
+  - PI4309 - Planeación y diseño de instalaciones
+
+GARCIA BALTODANO KENIA:
+  - AU1502 - Introducción a la investigación
+
+GARCIA DELGADO PAULO:
+  - MA2104 - Cálculo superior
+  - MA2105 - Ecuaciones diferenciales
+
+GARCIA RAMIREZ RONNY:
+  - EL4314 - Arquitectura de computadoras I
+  - EL5811 - Verificación funcional de circuitos integrados
+
+GARCIA ROMERO SOFIA:
+  - PI4001 - Dirección de personal
+
+GARCIA ZAMORA ANTONIO:
+  - FH0024 - Lo imaginario en el arte los sueños y la locura
+
+GARITA ALPIZAR PABLO:
+  - AE3415 - Investigación de mercados
+  - AE3505 - Metodología de la investigación
+  - AE4549 - Neuromarketing y neurociencia
+  - PI3512 - Dirección de personal
+
+GARITA CERDAS ADRIAN DAVID:
+  - IA1203 - Dibujo técnico
+  - IA5402 - Laboratorio de tractores y mecanización
+
+GARITA GRANADOS CARLA:
+  - AE4208 - Desarrollo de emprendedores
+
+GARRO ABARCA VICTOR:
+  - CA3125 - Análisis y diseño de algoritmos
+  - IC2001 - Estructuras de datos
+
+GARRO MONGE GEOVANNY:
+  - IB4202 - Laboratorio de cultivo de tejidos II
+
+GARRO REYES MAURICIO:
+  - CS1502 - Introducción a la técnica ciencia y tecnología
+  - CS3404 - Seminario de ética para la ingeniería
+
+GARRO ZAVALETA JOSE ALBERTO:
+  - MI3116 - Turbo máquinas
+  - MI4125 - Laboratorio de sistemas de vapor
+  - MI4129 - Sistemas de vapor
+  - MT6003 - Laboratorio de termofluidos
+
+GATJENS BONICHE OMAR:
+  - BI1102 - Laboratorio de biología general
+  - BI2301 - Genética
+  - BI2303 - Laboratorio de genética
+
+GATJENS SOTO KIRSTEIN:
+  - IC1400 - Fundamentos de organización de computadoras
+  - IC3101 - Arquitectura de computadores
+  - IC4700 - Lenguajes de programación
+
+GODINEZ ROJAS PAULETTE:
+  - CI1107 - Comunicación oral
+  - CI1407 - Habilidades de comunicación en Ingeniería
+
+GOMEZ ASTORGA MARIA JOSE:
+  - IA2202 - Estática
+  - IA3004 - Trabajo final de graduación
+
+GOMEZ CORDOBA CARLOS EDUARDO:
+  - AN3004 - Fundamentos de agroindustria alimentaria
+
+GOMEZ GUTIERREZ LUIS:
+  - MI4210 - Laboratorio de control eléctrico
+  - MI4212 - Instalaciones eléctricas
+
+GOMEZ GUTIERREZ MARCO VINICIO:
+  - AN4008 - Sistematización de datos en agronegocios
+
+GOMEZ JIMENEZ ANDREA:
+  - SE1101 - Artes dramáticas
+
+GOMEZ MONTOYA CARLOS ANDRES:
+  - CI0202 - Inglés básico
+  - CI1230 - Inglés I
+  - CI1231 - Inglés II
+
+GOMEZ RAMIREZ GUSTAVO:
+  - MI2204 - Laboratorio de electricidad II
+
+GONZALEZ CAMACHO FEDERICO:
+  - ID1206 - Modelado y simulación
+  - ID2207 - Análisis del espacio tridimensional
+
+GONZALEZ ESPINOZA MANUEL:
+  - AE2308 - Microeconomía
+
+GONZALEZ GOMEZ JEFERSON:
+  - CE1113 - Sistemas empotrados
+  - CE4301 - Arquitectura de computadores I
+  - EL3313 - Taller de diseño digital
+
+GONZALEZ HERNANDEZ EDUARDO:
+  - ME3209 - Laboratorio de tecnología de materiales
+
+GONZALEZ LEON BERNAL:
+  - GP0102 - Formulación de proyectos
+
+GONZALEZ LEON JONATHAN:
+  - LA8008 - Gestión del riesgo
+
+GONZALEZ MASIS JEIMY:
+  - CM2402 - Laboratorio de metalurgia física
+  - CM5221 - Biomateriales
+  - ME2208 - Ciencias de los materiales
+  - ME3209 - Laboratorio de tecnología de materiales
+
+GONZALEZ QUESADA MELVIN:
+  - TI8902 - Adquisición de TI
+  - TI8905 - Administración de servicios de tecnologías de información I
+
+GONZALEZ RAMIREZ MARIO:
+  - ID3111 - Diseño V
+  - ID3303 - Procesos de manufactura II
+  - ID5515 - Taller de diseño integrado
+
+GONZALEZ VARGAS KARINA:
+  - MA0101 - Matemática general
+  - MA1403 - Matemática discreta
+
+GONZALEZ VEGA MICHAEL ALBERTO:
+  - EL3310 - Diseño de sistemas digitales
+
+GONZALEZ ZUÑIGA RODOLFO:
+  - CS3401 - Seminario de estudios filosóficos históricos
+  - CS3404 - Seminario de ética para la ingeniería
+  - CS3406 - Seminario de ética para administración de empresas
+
+GRANADOS GOMEZ DONALD:
+  - ID1118 - Fundamentos del diseño
+  - ID1119 - Principios del diseño
+
+GUADAMUZ BRENES SAUL:
+  - EL1200 - Introducción a la electrónica
+  - EL2114 - Circuitos eléctricos en corriente alterna
+  - EL4514 - Teoría electromagnética II
+  - EL5513 - Comunicaciones eléctricas I
+  - EL5521 - Comunicaciones eléctricas II
+
+GUADAMUZ MAYORGA CAROLINA:
+  - AN2003 - Bioquímica agroalimentaria
+
+GUERRERO  CASTRO OSVALDO:
+  - MI2202 - Laboratorio de electricidad I
+  - MI3206 - Laboratorio de máquinas eléctricas
+  - MI3210 - Máquinas eléctricas
+  - MT3003 - Máquinas eléctricas para mecatrónica
+  - MT3004 - Laboratorio de máquinas eléctricas para mecatrónica
+
+GUERRERO FERNANDEZ JUAN LUIS:
+  - EL4419 - Análisis y control de sistemas lineales
+  - EL5409 - Laboratorio de control automático
+  - MI2106 - Estática
+
+GUERRERO VARGAS LIGIA:
+  - AE2219 - Comportamiento organizacional
+  - AE2220 - Análisis administrativo
+
+GUEVARA MURILLO MAURICIO:
+  - AU4004 - Investigación dirigida
+  - AU4533 - Práctica de vinculación
+
+GUEVARA RODRIGUEZ GREGORIO:
+  - MR2529 - Aguas subterráneas
+
+GUILLEN GIRON TEODOLITO:
+  - CM4305 - Tecnología de polímeros
+
+GUILLEN JIMENEZ LUIS DIEGO:
+  - CI1230 - Inglés I
+
+GUILLEN MARTINEZ LUIS DIEGO:
+  - FH0239 - La condición humana en nuestra época: ética y derechos humanos
+
+GUILLEN MIRANDA ERICK:
+  - AE4208 - Desarrollo de emprendedores
+  - AE4226 - Estrategia empresarial
+
+GUILLEN PEREZ CARLOS ENRIQUE:
+  - CM3207 - Métodos numéricos para ingeniería
+  - MA1102 - Cálculo diferencial e integral
+  - MA2105 - Ecuaciones diferenciales
+
+GUTIERREZ ALFARO JAIME:
+  - IC7900 - Computación y sociedad
+  - IC8058 - Sistemas de información geográfica
+
+GUTIERREZ ESPINOZA KEVIN:
+  - PI5402 - Automatización de manufactura
+
+Gutierrez Fuentes Adrián:
+  - SO3506 - Metodología investigación
+  - SO4707 - Administración de proyectos
+  - SO4803 - Evaluación y control de radiaciones e iluminación
+
+GUTIERREZ MONTENEGRO MARCO VINICIO:
+  - MA1102 - Cálculo diferencial e integral
+  - MA1103 - Cálculo y álgebra lineal
+
+GUTIERREZ RUIZ GRETTEL:
+  - EM3409 - Práctica docente
+
+GUZMAN ARIAS ISABEL:
+  - IA3210 - Laboratorio de hidráulica
+
+GUZMAN CONEJO JOSHUA:
+  - MI2101 - Dibujo técnico
+  - MI3138 - Máquinas y equipos
+
+GUZMAN RIVERA DIEGO ANDRES:
+  - AE3414 - Fundamentos de mercadeo
+  - AE3415 - Investigación de mercados
+  - LA7008 - Gestión de proyectos en mercadeo
+
+HASBUM FERNANDEZ  IVANNIA:
+  - PI2304 - Estudio del trabajo I
+  - PI2609 - Probabilidad y estadística
+  - PI3206 - Logística y administración de la cadena de abastecimiento
+  - PI3308 - Estudio del trabajo II
+
+HASBUN DEL VALLE DANIEL:
+  - CS2303 - Relaciones laborales
+  - CS2304 - Derecho laboral
+  - CS3405 - Derecho informático y mercantil
+
+HELO GUZMAN JOSE ELIAS:
+  - IC3002 - Análisis de algoritmos
+  - IC6400 - Investigación de operaciones
+
+HERNANDEZ ALPIZAR LAURA:
+  - QU1102 - Laboratorio de química básica I
+
+HERNANDEZ ARAYA JESUS:
+  - LE1206 - Metodología de la investigación
+
+HERNANDEZ BONILLA ERICK:
+  - IC4302 - Bases de datos II
+  - IC6831 - Aseguramiento de la calidad del software
+
+HERNANDEZ CARVAJAL ERICK:
+  - IB2503 - Biotecnología y genética humana
+  - IB4101 - Biología molecular aplicada
+  - IB4106 - Laboratorio de biología molecular aplicada
+
+HERNANDEZ CASTRO FRANKLIN:
+  - ID4601 - Diseño de comunicación visual VII
+  - ID5602 - Teoría del diseño de la información
+
+HERNANDEZ GONZALEZ VICTOR JULIO:
+  - MI2101 - Dibujo técnico
+  - MI3124 - Dibujo industrial
+
+HERNANDEZ GRANADOS JUAN BAUTISTA:
+  - PI5402 - Automatización de manufactura
+
+HERNANDEZ PARRA DAVID:
+  - AI6111 - Ingeniería urbana sostenible
+
+HERNANDEZ RAMIREZ MANRIQUE:
+  - LA5134 - Decisiones de inversión
+  - PI5516 - Ingeniería económica
+
+HERNANDEZ RAMIREZ MARIELA:
+  - SE1102 - Acción social
+
+HERNANDEZ RIVERA MIGUEL:
+  - EL2113 - Circuitos eléctricos en corriente continua
+  - EL5609 - Formulación de proyectos
+
+HERNANDEZ ROMERO MIGUEL ANGEL:
+  - CI1230 - Inglés I
+  - CI1231 - Inglés II
+  - CI1306 - Inglés II para administración
+
+HERNÁNDEZ SALAZAR GABRIELA:
+  - CI0202 - Inglés básico
+  - CI1231 - Inglés II
+  - CI2307 - Inglés III para administración
+
+HERNANDEZ SALAZAR ILEANA:
+  - AU1501 - Laboratorio de proyectos II, Composición arquitectural
+
+HERNANDEZ SIBAJA BRYAN:
+  - CA2125 - Elementos de computación
+  - CA3125 - Análisis y diseño de algoritmos
+  - IC5821 - Requerimientos de software
+
+HERNANDEZ TORRES HAZEL MARIA:
+  - AI6105 - Evaluación de impacto ambiental
+
+HERNANDEZ VASQUEZ MARCO:
+  - CE1105 - Principios de modelado en Ingeniería
+
+HERNANDEZ VEGA HENRY:
+  - CO4309 - Carreteras II
+
+HERRERA CORDERO SERGIO:
+  - SE1101 - Artes dramáticas
+  - SE1107 - Apreciación de cine
+
+HERRERA CORTEZ OSCAR:
+  - IA3501 - Electrificación rural
+
+HERRERA JIMENEZ INGRID:
+  - CI1230 - Inglés I
+  - CI1231 - Inglés II
+
+HERRERA NUÑEZ JACQUELINE MARIA:
+  - QU1104 - Laboratorio de química básica II
+
+HERRERO CHAVARRIA FELIPE:
+  - EL2114 - Circuitos eléctricos en corriente alterna
+
+HILJE RODRIGUEZ BRANKO:
+  - FO1107 - Botánica forestal
+  - FO1108 - Laboratorio de botánica forestal
+  - FO4224 - Introducción a la fauna silvestre en ecosistemas forestales
+
+INTERIANO SALGUERO EDUARDO:
+  - EL5409 - Laboratorio de control automático
+
+JACKSON QUIROS HERBERT:
+  - MI2101 - Dibujo técnico
+
+JAEN ESPAÑA ADRIAN:
+  - CS2101 - Ambiente humano
+  - CS4402 - Seminario de estudios costarricenses
+  - ST2002 - Evolución social de Costa Rica
+
+JARA VEGA ANA CATALINA:
+  - LA5226 - Planificación desarrollo de recursos humanos
+
+JARQUIN CORDERO MONSERRAT:
+  - IB3302 - Mejoramiento genético
+
+JAUBERT SOLANO WILLIAM:
+  - AE2220 - Análisis administrativo
+  - LA5416 - Mercadeo gerencial
+
+JIMENEZ AGUILAR JUAN CARLOS:
+  - IA3303 - Aplicaciones topográficas
+
+JIMENEZ CARBALLO CARLOS ADRIAN:
+  - FI1201 - Laboratorio física general I
+
+JIMENEZ CECILIANO MAXIMINO:
+  - MI2101 - Dibujo técnico
+
+JIMENEZ CESPEDES RODOLFO:
+  - MA0101 - Matemática general
+  - MA1303 - Matemática básica para administración
+  - MA1304 - Cálculo para administración
+
+JIMENEZ DELGADO EFREN ANTONIO:
+  - IC6200 - Inteligencia artificial
+
+JIMENEZ FUENTES MARIO AUGUSTO:
+  - GP2531 - Estimación en proyectos de desarrollo de software
+
+JIMENEZ JIMENEZ DANIEL:
+  - SE1205 - Juegos y deportes en conjunto
+  - SE1221 - Futbol I
+
+JIMENEZ MADRIGAL JORGE:
+  - MA0101 - Matemática general
+  - MA1102 - Cálculo diferencial e integral
+
+JIMENEZ MADRIGAL JOSE PABLO:
+  - BI1101 - Biología general
+
+JIMENEZ RODRIGUEZ ROXANA:
+  - CI3203 - Inglés especializado para ingenierías en computadores
+  - FH0151 - Brujas, hadas y fantasmas en Shakespeare
+
+JIMENEZ ROMERO ALEJANDRA:
+  - MA1103 - Cálculo y álgebra lineal
+  - MA2104 - Cálculo superior
+
+JIMENEZ ZUÑIGA LUIS GUILLERMO:
+  - AU3106 - Teoría de la arquitectura II
+
+JOSE ZAMORA JIMENEZ:
+  - AE2124 - Contabilidad III
+  - AE4128 - Auditoría I
+
+KENNEDY RUSSELL ANA:
+  - CI0202 - Inglés básico
+  - CI1231 - Inglés II
+  - CI1305 - Inglés I para administración
+
+LACY MORA GERARDO:
+  - IF3602 - Métodos matemáticos de física e ingeniería I
+
+LAFUENTE CHRYSOOPULOS RAQUEL:
+  - PI4803 - Gestión de la innovación
+
+LARIOS CRUZ BORIS ALLAN:
+  - SE1201 - Atletismo
+  - SE1204 - Natación
+  - SE1221 - Futbol I
+
+LAW WAN YUEN:
+  - IC8073 - Introducción a la realidad virtual
+
+LEANDRO CHACON MARIA FRANCELA:
+  - SE1103 - Danza
+  - SE1111 - Expresión corporal
+
+LEANDRO ELIZONDO RONALD:
+  - AE3552 - Métodos cuantitativos para administración
+  - AE4208 - Desarrollo de emprendedores
+
+LEDEZMA ESPINOZA AURA:
+  - QU1107 - Química básica II
+
+LEITON JIMENEZ JASON:
+  - CE1108 - Compiladores e intérpretes
+
+LEIVA BONILLA JUAN CARLOS:
+  - AE4548 - Creatividad e innovación empresarial
+
+LEIVA CHINCHILLA PEDRO IGNACIO:
+  - TI8904 - Administración de procesos de negocios
+
+LEMAITRE GONZALEZ ESTEBAN:
+  - PI3407 - Computación industrial
+  - PI5402 - Automatización de manufactura
+  - PI5707 - Ingeniería de la confiabilidad
+
+LEON RODRIGUEZ MARIA ELENA:
+  - CS3401 - Seminario de estudios filosóficos históricos
+
+LEON VEGA LUIS GERARDO:
+  - EL3307 - Diseño lógico
+  - EL5859 - Introducción a la computación heterogénea
+
+LOAIZA SOTO BIERY:
+  - SE1204 - Natación
+  - SE1205 - Juegos y deportes en conjunto
+
+LOBO ZAMORA JUAN CARLOS:
+  - FI1102 - Física general II
+
+LOPEZ MORA VERONICA:
+  - MA1102 - Cálculo diferencial e integral
+  - MA1103 - Cálculo y álgebra lineal
+
+LOPEZ VALERIO CYNTHIA:
+  - IC7841 - Proyecto de ingeniería de software
+
+LORIA SOLANO JOHNNY:
+  - SE1201 - Atletismo
+  - SE1206 - Acondicionamiento físico
+
+MADRIGAL JIMENEZ VICTOR HUGO:
+  - AU4108 - Teoría e historia urbanismo II
+
+MADRIGAL SANCHEZ JOHANNA:
+  - EL4702 - Probabilidad y estadística
+
+MADRIGAL VALVERDE MONICA:
+  - AG4706 - Sistemas de producción avícola
+
+MADRIZ HUERTAS DANIEL:
+  - CE1116 - Diseño y calidad en productos tecnológicos
+
+MADRIZ QUIROS CARMEN:
+  - PI3501 - Costos Industriales I
+  - PI5401 - Simulación industrial
+
+MAGLIANESI MARIA ALEJANDRA:
+  - BI2408 - Fundamentos de agroecología
+
+MALAVASSI AGUILAR ROSA ELENA:
+  - AU1303 - Historia del arte y la arquitectura I
+  - AU2103 - Historia de arte y arquitectura de Costa Rica
+  - AU5408 - Proyecto de graduación
+
+MARIN GUILLEN FRANK:
+  - MI2101 - Dibujo técnico
+  - MI3103 - Procesos de manufactura
+  - MI3104 - Laboratorio procesos de manufactura
+
+MARIN MORENO WILLIAM:
+  - EL1200 - Introducción a la electrónica
+  - EL2110 - Laboratorio de mediciones eléctricas
+  - EL2111 - Laboratorio de circuitos eléctricos
+
+MARIN SANCHEZ MARIO:
+  - MA2105 - Ecuaciones diferenciales
+
+MARIN SCHUMANN ERIKA:
+  - IC5701 - Compiladores e interpretes
+
+MARIN VARGAS FABIAN:
+  - SE1219 - Baloncesto recreativo
+
+MAROTO CALVO OSCAR:
+  - AE2220 - Análisis administrativo
+  - AE3223 - Gestión del talento humano I
+  - AE4228 - Gestión del talento humano II
+
+MARRERO CALVO MARCELA:
+  - EM3048 - Atención a la diversidad en la enseñanza y el aprendizaje de la matemática
+  - MA0101 - Matemática general
+
+MARTINEZ BALDARES TOMAS:
+  - AU4003 - Planificación urbana y territorial aplicadas
+  - AU5002 - Laboratorio de proyectos X: Diseño urbano
+
+MARTINEZ GUTIERREZ BERNAL:
+  - AE4130 - Formulación y evaluación de proyectos
+  - AE5121 - Ingeniería económica
+
+MARTINEZ MORA MARCO:
+  - AE3415 - Investigación de mercados
+
+MARTINEZ SOLIS KELLER:
+  - LA5133 - Banca y desarrollo
+
+MARTINEZ VILLAVICENCIO JOSE:
+  - AE2124 - Contabilidad III
+
+MASIS ARCE ALEJANDRO:
+  - AE5111 - Contabilidad y finanzas
+  - AE5122 - Ingeniería financiera
+
+MASIS FLORES DAVID:
+  - MA1102 - Cálculo diferencial e integral
+
+MASIS JIMENEZ MANUEL:
+  - AN3005 - Finanzas en agronegocios
+
+MASIS MELENDEZ FEDERICO:
+  - AI5107 - Mecánica de suelos para Ingeniería Ambiental
+
+MATA COTO MANUEL:
+  - MI2106 - Estática
+  - MI3115 - Resistencia de materiales
+
+MATA ORTEGA SEBASTIAN:
+  - MI4300 - Administración mantenimiento I
+  - MI6253 - Fundamentos en administración de proyectos en ingeniería
+  - MT3004 - Laboratorio de máquinas eléctricas para mecatrónica
+
+MATA RODRIGUEZ WILLIAM:
+  - CA2125 - Elementos de computación
+  - IC1802 - Introducción a la programación
+  - IC1803 - Taller de programación
+
+MATA SOLANO ROGELIO:
+  - QU1104 - Laboratorio de química básica II
+  - QU2402 - Laboratorio fundamentos química orgánica
+
+MATARRITA CHAVES ROSA MARIA:
+  - MI4311 - Modelos cuantitativos para la toma de decisiones
+
+MATARRITA MC CALLA KIMBERLY:
+  - FH0178 - Factores psicosociales de la salud mental
+
+MATTHEWS GARRO JOSE IGNACIO:
+  - CO2205 - Estática
+
+MAYORGA ESPINOZA CARLOS:
+  - FI1201 - Laboratorio física general I
+  - IF4801 - Mecánica cuántica para ingeniería
+  - IF4804 - Física computacional II
+  - MT6001 - Probabilidad y procesos estocásticos
+
+MCLEAN VALERIO KATHLEEN:
+  - PI5516 - Ingeniería económica
+
+MEDINA ANGULO EZEQUIEL ALEJANDRO:
+  - CO4307 - Carreteras I
+
+MEDINA ESCOBAR MARIA LOURDES:
+  - SO4604 - Seguridad y salud ocupacional
+  - SO4701 - Taller de agentes ambientales químicos
+
+MEJIAS RAMIREZ ELVIS ANDRES:
+  - MA1102 - Cálculo diferencial e integral
+  - MA3405 - Estadística
+  - NE1004 - Estadística inferencial para turismo
+
+MELENDEZ POLTRONIERI ROGER:
+  - MT2002 - Laboratorio de circuitos de corriente continua y corriente alterna
+  - MT3002 - Laboratorio de electrónica analógica
+
+MENDEZ ALVAREZ DAWA:
+  - FO3133 - Laboratorio de entomología y patología forestales
+
+MENDEZ FLORES MANUEL:
+  - IC6400 - Investigación de operaciones
+
+MENDEZ GAMBOA ROSAURA:
+  - SE1205 - Juegos y deportes en conjunto
+  - SE1206 - Acondicionamiento físico
+
+MENDEZ MORALES MAIKEL:
+  - CO3503 - Laboratorio de hidráulica
+
+MENDEZ PORRAS ABEL:
+  - IC7900 - Computación y sociedad
+
+MENDEZ SOLANO MIGUEL:
+  - SE1204 - Natación
+  - SE1209 - Béisbol-softbol
+
+MENDEZ VILLALOBOS GERALD:
+  - SO2406 - Anatomía y fisiología médica
+
+MENDOZA PONCE PABLO DANIEL:
+  - EL5521 - Comunicaciones eléctricas II
+
+MENESES GUZMAN MARCELA:
+  - PI5302 - Diseño de experimentos
+
+MENESES MARIN GUILLERMO:
+  - CS4402 - Seminario de estudios costarricenses
+
+MENESES MONTERO KARLA:
+  - IB3107 - Microbiología industrial
+
+MESEN MONTENEGRO VLADIMIR:
+  - CS2404 - Seminario de problemática urbana
+  - CS4402 - Seminario de estudios costarricenses
+
+MEZA BENAVIDES CARLOS:
+  - EL5854 - Sistemas fotovoltaicos
+
+MEZA CASCANTE LUIS GERARDO:
+  - EM5008 - Investigación educativa
+
+MEZA OBANDO FELIPE:
+  - MT2001 - Circuitos eléctricos en CC y CA
+
+MEZA SOLANO VINICIO:
+  - SE1105 - Artes musicales
+
+MIRANDA FAJARDO JEAN CARLOS:
+  - IC1803 - Taller de programación
+  - IC6400 - Investigación de operaciones
+
+MIRANDA JENKINS PIO ALBERTO:
+  - CO4409 - Estructuras de acero
+
+MITCHELL RILEY MARIO:
+  - PI3206 - Logística y administración de la cadena de abastecimiento
+
+MOJICA MENDIETA FRANCISCO JAVIER:
+  - CS2404 - Seminario de problemática urbana
+  - CS4402 - Seminario de estudios costarricenses
+
+MOLINA MONTERO RAFAEL:
+  - AG4704 - Sistemas de producción de bovinos de leche
+
+MOLINA ROBLES ROBERTO CARLOS:
+  - EL1200 - Introducción a la electrónica
+  - EL3310 - Diseño de sistemas digitales
+  - EL5855 - Ingeniería de pruebas para circuitos integrados
+
+MOLINA VILLALOBOS TANIA:
+  - CI1230 - Inglés I
+  - CI1306 - Inglés II para administración
+
+MONDRAGON CORRALES GABRIEL:
+  - IC7602 - Redes
+
+MONGE DAVANZO YAFANNY:
+  - AE3223 - Gestión del talento humano I
+
+MONGE FALLAS JORGE:
+  - EM1606 - Fundamentos de matemática II
+  - EM5007 - Taller II: multimedios en matemática
+  - MA2104 - Cálculo superior
+
+MONGE GONZALEZ MANUEL:
+  - AN1004 - Gestión en agronegocios
+  - AN4002 - Mercadeo productos agroindustriales
+
+MONGE MADRIZ CARLOS:
+  - EM1607 - Didáctica de la geometría
+  - MA1303 - Matemática básica para administración
+
+MONGE PEREZ LUIS DIEGO:
+  - FH0246 - La música nos define: visión desde la etnomusicología
+  - SE1105 - Artes musicales
+
+MONGE RUIZ OSCAR EDUARDO:
+  - MI3119 - Laboratorio de turbomáquinas
+  - MI3138 - Máquinas y equipos
+  - MI6259 - Sistemas de refrigeración
+  - MT6003 - Laboratorio de termofluidos
+
+MONGE VARGAS KAREN:
+  - IA3213 - Hidráulica de canales
+
+MONTERO CAMPOS VIRGINIA:
+  - AI6116 - Toxicología
+  - BL1124 - Control de calidad aplicado a las empresas de manufactura de dispositivos médicos
+  - BL1131 - Auditorías a sistemas de calidad
+  - BL1133 - Gerencia técnica de la calidad basada en INTE-ISO 17025:2017
+  - IB3107 - Microbiología industrial
+
+MONTERO JIMENEZ JUAN JOSE:
+  - MI2106 - Estática
+  - MI3117 - Dinámica
+  - MT9002 - Mantenimiento de sistemas mecatrónicos
+
+MONTERO PIZARRO LEONARDO:
+  - ID1205 - Taller de dibujo
+  - ID2107 - Diseño I
+  - ID2120 - Comunicación visual
+
+MONTERO RODRIGUEZ JUAN JOSE:
+  - EL2207 - Elementos activos
+  - EL3212 - Circuitos discretos
+  - MT3001 - Electrónica analógica
+
+MONTERO ZELEDON ERNESTO:
+  - FI1201 - Laboratorio física general I
+  - FI2103 - Física general III
+
+MONTOYA POITEVIEN LUIS:
+  - IC5821 - Requerimientos de software
+
+MONTOYA RODRIGUEZ ILEANA:
+  - LA5417 - Mercadeo de exportación
+
+MORA BENAVIDES BERENICE:
+  - CS4402 - Seminario de estudios costarricenses
+
+MORA CASASOLA MARIA FERNANDA:
+  - MA1102 - Cálculo diferencial e integral
+  - MA3405 - Estadística
+
+MORA CROSS MARIA AUXILIADORA:
+  - IC4302 - Bases de datos II
+
+MORA CRUZ ALEXANDRA:
+  - AE3127 - Administración financiera I
+  - AE3505 - Metodología de la investigación
+
+MORA ESQUIVEL RONALD:
+  - AE3505 - Metodología de la investigación
+
+MORA FONSECA DAVID RICARDO:
+  - IC2001 - Estructuras de datos
+  - IC3101 - Arquitectura de computadores
+  - IC6831 - Aseguramiento de la calidad del software
+
+MORA MELENDEZ JAIME:
+  - MT7006 - Diseño máquinas y mecanismos
+  - MT8001 - Teoría de comunicación y procesamiento de señales
+  - MT8003 - Sistemas de manufactura
+
+MORA MOLINA JESUS:
+  - QU1102 - Laboratorio de química básica I
+  - QU1104 - Laboratorio de química básica II
+
+MORA PICADO LUIS FERNANDO:
+  - MA1102 - Cálculo diferencial e integral
+  - MA1103 - Cálculo y álgebra lineal
+
+MORA ROJAS ALFREDO:
+  - GP0100 - Estrategia y gerencia de proyectos
+
+MORA ROJAS DIEGO:
+  - CE1105 - Principios de modelado en Ingeniería
+  - IC1802 - Introducción a la programación
+  - IC1803 - Taller de programación
+  - IC2101 - Programación orientada a objetos
+  - IC4301 - Bases de datos I
+
+MORA ROJAS RAQUEL FABIANA:
+  - IC6821 - Diseño de software
+
+MORA SANCHEZ AMILKAR:
+  - CS4402 - Seminario de estudios costarricenses
+  - TS1201 - Turismo y sociedad
+
+MORA VINDAS ALAN GERARDO:
+  - IF4802 - Laboratorio metrología I
+
+MORA ZAMORA RODOLFO DE JESUS:
+  - IC6600 - Principios de sistemas operativos
+  - IC7841 - Proyecto de ingeniería de software
+  - IC7900 - Computación y sociedad
+
+MORAGA GARCIA KEVIN:
+  - IC7602 - Redes
+
+MORALES ARIAS JONATHAN:
+  - AG4409 - Acromática II
+  - PI3206 - Logística y administración de la cadena de abastecimiento
+  - PI3403 - Sistema de información
+  - PI3603 - Investigación de operaciones I
+
+MORALES GARAY SARAY:
+  - CI1107 - Comunicación oral
+  - CI1407 - Habilidades de comunicación en Ingeniería
+
+MORALES HERNANDEZ SERGIO:
+  - EL1200 - Introducción a la electrónica
+  - EL2111 - Laboratorio de circuitos eléctricos
+  - EL2113 - Circuitos eléctricos en corriente continua
+
+MORALES MARTINEZ GABRIELA:
+  - SO4604 - Seguridad y salud ocupacional
+
+MORALES MUÑOZ WALTER:
+  - FI1201 - Laboratorio física general I
+  - FI1202 - Laboratorio física general II
+
+MORALES RODRIGUEZ NESTOR:
+  - TI3603 - Calidad en sistemas de información
+  - TI4500 - Ingeniería de requerimientos
+
+MORALES RODRIGUEZ PAULA:
+  - ID3112 - Diseño VI
+
+MOREIRA ACUÑA SILVIA:
+  - ID1119 - Principios del diseño
+  - ID3205 - Cultura material
+
+MORERA HIDALGO JULIO:
+  - MI2106 - Estática
+  - MI2109 - Estática
+  - MI3115 - Resistencia de materiales
+
+MOYA ROQUE ROGER:
+  - FO2303 - Propiedades de la madera
+
+MOYA SERRANO ROY DAVID:
+  - FI1101 - Física general I
+  - IF3502 - Instrumentación I
+  - IF5901 - Física experimental
+
+MUNGUIA MOLINA DIEGO:
+  - IC3002 - Análisis de algoritmos
+
+MUÑOZ ACOSTA FREDDY:
+  - FO4309 - Manufactura de productos forestales II
+
+MUÑOZ CASTRO DONAL:
+  - GP2502 - Desarrollo de capacidades organizacionales para la administración de proyectos
+
+MUÑOZ CHACON LUIS CARLOS:
+  - MI6258 - Sistema de puesta a tierra
+
+MURILLO ESCALANTE ROCIO:
+  - CI0202 - Inglés básico
+  - CI1231 - Inglés II
+  - CI2307 - Inglés III para administración
+
+MURILLO GAMBOA OLMAN:
+  - FO3123 - Mejora genética forestal
+
+MURILLO QUIROS NATALIA:
+  - FI1503 - Fundamentos de física para arquitectura
+
+MURILLO SALAZAR DENNIS:
+  - FI1101 - Física general I
+  - IF3604 - Laboratorio de óptica
+
+MURILLO SOLIS  JAVIER:
+  - CS2101 - Ambiente humano
+  - CS4402 - Seminario de estudios costarricenses
+  - CS5300 - Desarrollo tecnológico y sostenibilidad
+  - TS2204 - Sociología del turismo
+
+MURILLO SOTO LUIS DIEGO:
+  - MI4209 - Control eléctrico
+  - MI4210 - Laboratorio de control eléctrico
+
+MURILLO VEGA FRANCINIE:
+  - IB4202 - Laboratorio de cultivo de tejidos II
+
+MURILLO ZUMBADO GUSTAVO:
+  - FI1101 - Física general I
+  - FI1102 - Física general II
+  - FI1202 - Laboratorio física general II
+
+NAVARRO AGUIRRE JESSICA:
+  - MA0101 - Matemática general
+  - MA1103 - Cálculo y álgebra lineal
+
+NAVARRO CERDAS GUSTAVO:
+  - AE2506 - Estadística II
+
+NAVARRO HENRIQUEZ FRANCISCO:
+  - EL3216 - Circuitos integrados analógicos
+  - EL3217 - Taller de diseño analógico
+  - EL5522 - Taller de comunicaciones eléctricas
+  - EL5842 - Taller de instrumentación
+
+NAVARRO MATA JORGE:
+  - GP0201 - Gerencia de proyectos I
+
+NAVARRO MORA ANGEL:
+  - CO4405 - Construcción de estructuras de concreto
+  - CO5023 - Estructuras temporales
+
+NAVAS SU JOSE DOLORES:
+  - CA2125 - Elementos de computación
+  - IC3002 - Análisis de algoritmos
+
+NOGUERA MENA LUIS DIEGO:
+  - CE1114 - Proyecto de aplicación de la ingeniería en computadores
+
+NOVO GUTIERREZ LUDBYG JOHANES:
+  - GP0205 - Oficina de proyectos y portafolios
+
+NUÑEZ ARGUEDAS EVELYN:
+  - AE2124 - Contabilidad III
+
+NUÑEZ NUÑEZ RODRIGO:
+  - IC2101 - Programación orientada a objetos
+  - IC3002 - Análisis de algoritmos
+
+NUÑEZ VANEGAS FELIX:
+  - EM1614 - Estadística inferencial
+  - MA1102 - Cálculo diferencial e integral
+
+OBANDO RODRIGUEZ KENNETH:
+  - IC4302 - Bases de datos II
+  - IC6200 - Inteligencia artificial
+
+OBANDO ULLOA JAVIER:
+  - AG2702 - Administración agropecuaria II
+
+OCAMPO CAMPOS LAURA:
+  - PI3502 - Costos industriales II
+
+OREAMUNO MADRIZ RAFAEL:
+  - FI1102 - Física general II
+  - FI1202 - Laboratorio física general II
+  - FI2103 - Física general III
+
+OROZCO CORRALES CARLOS:
+  - AG3109 - Agrostología
+
+OROZCO MUÑOZ SEBASTIAN:
+  - AU5001 - Laboratorio de proyectos X: Diseño arquitectónico
+
+ORTEGA ARTAVIA JHONNY:
+  - SE1206 - Acondicionamiento físico
+  - SE1222 - Futbol sala
+
+ORTIZ ACUÑA CINDY:
+  - AE2506 - Estadística II
+  - AE4544 - Analítica de negocio
+
+ORTIZ ACUÑA LEONARDO:
+  - CS1502 - Introducción a la técnica ciencia y tecnología
+  - CS3401 - Seminario de estudios filosóficos históricos
+
+ORTIZ ALVAREZ JORGE ISAAC:
+  - CS2101 - Ambiente humano
+
+ORTIZ LEON GABRIELA:
+  - MT7001 - Análisis y simulación de sistemas
+
+ORTIZ QUESADA GEANNINA:
+  - CO5056 - Taller de diseño
+
+OSORNO FALLAS DAVID:
+  - QU1104 - Laboratorio de química básica II
+  - QU1106 - Química básica I
+  - QU1107 - Química básica II
+
+OTAROLA ZUÑIGA CARLOS:
+  - MI2101 - Dibujo técnico
+  - MI3117 - Dinámica
+  - MI4136 - Elementos de máquinas
+
+OVIEDO UGALDE NORBERTO:
+  - MA1103 - Cálculo y álgebra lineal
+  - MA2104 - Cálculo superior
+  - MA2105 - Ecuaciones diferenciales
+
+PACHECO PORTUGUEZ STEVEN:
+  - IC6200 - Inteligencia artificial
+
+PAEZ PAEZ CRISTIAN:
+  - MA1102 - Cálculo diferencial e integral
+
+PARRA RODRIGUEZ EMMANUELLE:
+  - EM4612 - Métodos numéricos
+  - MA1103 - Cálculo y álgebra lineal
+  - MA2404 - Probabilidades
+
+PARRA SALAZAR EDWARD:
+  - EM1600 - Tecnologías digitales aplicadas a la matemática educativa I
+  - MA1102 - Cálculo diferencial e integral
+
+PECOU JOHNSON JOSS:
+  - IC3002 - Análisis de algoritmos
+  - IC8063 - Comercio electrónico
+
+PELAEZ GIL MARA CAROLINA:
+  - CS2304 - Derecho laboral
+  - CS3301 - Derecho ambiental y biotecnológico
+  - CS3305 - Legislación agrícola
+  - CS4108 - Derecho ambiental
+
+PERALTA SALAS MIGUEL:
+  - CO3407 - Estructuras de concreto
+
+PERAZA MORAGA JOHNNY:
+  - IB4106 - Laboratorio de biología molecular aplicada
+
+PEREIRA ALONSO EDUARDO JOSE:
+  - CO3404 - Laboratorio de concreto
+
+PEREIRA ARROYO ROBERTO:
+  - EL4607 - Normalización técnica (estándares industriales)
+  - EL5617 - Trabajo final de graduación
+
+PEREZ GUTIERREZ ALEXANDER:
+  - AE1122 - Contabilidad I
+  - AE3128 - Administración financiera II
+
+PEREZ GUTIERREZ FABIAN ANTONIO:
+  - IC4810 - Administración de proyectos
+
+PEREZ HIDALGO JOSE ESTEBAN:
+  - FI1102 - Física general II
+  - FI1201 - Laboratorio física general I
+
+PEREZ MURILLO DANIEL:
+  - ST1002 - Geografía turística de Costa Rica
+  - ST3001 - Tendencias turísticas mundiales
+  - TR4133 - Introducción a la interpretación ambiental
+
+PEREZ MURILLO ERICK:
+  - PI3501 - Costos Industriales I
+  - PI3612 - Probabilidad y estadística II
+  - PI5707 - Ingeniería de la confiabilidad
+
+PEREZ OROZCO ALLAN JOSE:
+  - AE3414 - Fundamentos de mercadeo
+  - AE3415 - Investigación de mercados
+  - AE4208 - Desarrollo de emprendedores
+
+PEREZ PEREZ MARLON:
+  - CI0202 - Inglés básico
+  - CI1230 - Inglés I
+  - CI1305 - Inglés I para administración
+
+PEREZ RODRIGUEZ JAVIER:
+  - EL1200 - Introducción a la electrónica
+  - EL2110 - Laboratorio de mediciones eléctricas
+  - EL2111 - Laboratorio de circuitos eléctricos
+  - EL2113 - Circuitos eléctricos en corriente continua
+
+PEREZ ROJAS NELSON:
+  - CI1107 - Comunicación oral
+  - FH0033 - Cine y literatura
+
+PETGRAVE BROWN LYANNETTE:
+  - CS1308 - Derecho comercial
+
+PHILLIPS BRENES HAYDEN ANTHONY:
+  - EL2207 - Elementos activos
+  - EL5408 - Control automático
+
+PICADO GARCIA FABIAN ALBERTO:
+  - EL2113 - Circuitos eléctricos en corriente continua
+
+PICADO MORA ERICKA:
+  - IA4314 - Drenaje sub-superficial
+
+PICADO VALVERDE LUIS FELIPE:
+  - TI3801 - Administración de proyectos II
+  - TI4500 - Ingeniería de requerimientos
+
+PICADO VALVERDE SOFIA:
+  - AI3209 - Hidrología
+  - CO4106 - Taller II
+
+PIEDRA CAMACHO RODOLFO JOSE:
+  - MT4001 - Electrónica digital
+
+PIEDRA NAVARRO DAYHANA:
+  - AE2220 - Análisis administrativo
+  - AE4226 - Estrategia empresarial
+
+PIEDRA SANTAMARIA CARLOS:
+  - MI4305 - Administración de mantenimiento II
+  - MI6351 - Mantenimiento predictivo
+
+PIEDRA SEGURA JUAN FRANCISCO:
+  - CO4505 - Instalaciones electromecánicas
+
+PINEDA LIZANO JUAN JOSE:
+  - FI1101 - Física general I
+  - FI1102 - Física general II
+
+PINNOCK CHACON MAC:
+  - EL2207 - Elementos activos
+  - EL3212 - Circuitos discretos
+
+PINO GOMEZ MACARIO:
+  - AI3104 - Ecosaneamiento ambiental
+  - AI3110 - Diseño de sistemas de potabilización de agua
+
+PORRAS ACOSTA MARIA:
+  - QU1106 - Química básica I
+
+PORRAS ALFARO DAVID:
+  - AU1502 - Introducción a la investigación
+
+PORRAS CAJINA DANILO ALBERTO:
+  - QU1104 - Laboratorio de química básica II
+  - QU1107 - Química básica II
+
+POVEDA MONTOYA WILLIAM ALONSO:
+  - CO3304 - Laboratorio mecánica de suelos I
+  - CO3305 - Mecánica de suelos I
+
+POVEDA MORA JHONNY:
+  - AE2220 - Análisis administrativo
+
+PRADO ARROYO JOSE:
+  - AE5121 - Ingeniería económica
+
+PRENDAS ROJAS JUAN PABLO:
+  - MA0101 - Matemática general
+  - MA2404 - Probabilidades
+
+PRENDAS SOLANO JORGE:
+  - CS3401 - Seminario de estudios filosóficos históricos
+  - CS3404 - Seminario de ética para la ingeniería
+
+PUENTE URBINA ALLEN ARTURO:
+  - QU2403 - Química orgánica
+  - QU2605 - Laboratorio de química ambiental y analítica
+
+QUESADA CARVAJAL LAURA:
+  - AI4102 - Ingeniería en emisiones atmosféricas
+
+QUESADA MARTINEZ ADRIAN:
+  - CM3207 - Métodos numéricos para ingeniería
+  - CM3603 - Mecánica de materiales avanzada
+
+QUESADA VILLALOBOS JORGE:
+  - SE1103 - Danza
+
+QUESADA VILLALOBOS LOURDES:
+  - MA0101 - Matemática general
+  - MA1102 - Cálculo diferencial e integral
+
+QUIROS BUSTOS NOEMI:
+  - QU1102 - Laboratorio de química básica I
+  - QU1106 - Química básica I
+
+QUIROS LEIVA RANDALL:
+  - CI1106 - Comunicación escrita
+  - CI1107 - Comunicación oral
+
+QUIROS OVIEDO ROCIO:
+  - IC1400 - Fundamentos de organización de computadoras
+  - IC3101 - Arquitectura de computadores
+
+QUIROS RAMIREZ FRANCO:
+  - CA2125 - Elementos de computación
+  - IC4301 - Bases de datos I
+
+QUIROS SALAZAR MARIA LORNA:
+  - SE2110 - Apreciación musical
+  - SE2111 - Técnica del canto
+
+QUIROS SOLANO WILLIAM:
+  - EL2114 - Circuitos eléctricos en corriente alterna
+  - EL4513 - Teoría electromagnética I
+  - EL4514 - Teoría electromagnética II
+
+QUIROS VALVERDE RODRIGO:
+  - SE1205 - Juegos y deportes en conjunto
+
+RAMIREZ ARCE GREIVIN:
+  - MA1403 - Matemática discreta
+  - MA2105 - Ecuaciones diferenciales
+
+RAMIREZ BOGANTES MELVIN:
+  - MA1102 - Cálculo diferencial e integral
+
+RAMIREZ CASTRO MONSERRAT:
+  - CI1230 - Inglés I
+  - CI1305 - Inglés I para administración
+
+RAMIREZ CHACON FERNANDO:
+  - ID3304 - Procesos de manufactura III
+
+RAMIREZ CHACON MARCO:
+  - GP0203 - Gerencia de proyectos III
+
+RAMIREZ HERNANDEZ LUIS STEVEN:
+  - IA3401 - Elementos y mecanismos de máquinas agrícolas
+
+RAMIREZ HERRERA JOSE ISAAC:
+  - CE2103 - Algoritmos y estructuras de datos II
+
+RAMIREZ JIMENEZ ARNOLDO ALCIDES:
+  - EL5521 - Comunicaciones eléctricas II
+  - EL5522 - Taller de comunicaciones eléctricas
+
+RAMIREZ JIMENEZ EDDY:
+  - IC2001 - Estructuras de datos
+  - IC4700 - Lenguajes de programación
+  - IC5701 - Compiladores e interpretes
+  - IC6600 - Principios de sistemas operativos
+
+RAMIREZ LOPEZ MICHELLE:
+  - CI1231 - Inglés II
+  - CI1305 - Inglés I para administración
+
+RAMIREZ MONTES GUILLERMO:
+  - EM2608 - Elementos de análisis de datos y probabilidad
+
+RAMIREZ MORA FREDDY:
+  - GP3906 - Seminario de metodología de investigación en el énfasis en proyectos empresariales
+  - GP3909 - Seminario de metodología de investigación en el énfasis en tecnología de información
+  - GP3912 - Seminario de metodología de investigación en el énfasis en construcción
+
+RAMIREZ PEREZ KARINA:
+  - BI1201 - Botánica general
+  - BI1202 - Laboratorio botánica general
+
+RAMIREZ SEGURA ROGER EMMANUEL:
+  - IC2101 - Programación orientada a objetos
+
+RAMOS MARIN SIGURD:
+  - EM2408 - Aprendizaje y didáctica de la matemática
+  - MA1303 - Matemática básica para administración
+
+RAMOS VARGAS ARNOLDO:
+  - SE1106 - Apreciación literaria
+  - SE1107 - Apreciación de cine
+
+RETANA CORRALES LUIS FELIPE:
+  - EL3307 - Diseño lógico
+
+RICHMOND NAVARRO GUSTAVO:
+  - MI3117 - Dinámica
+
+RIMOLO DONADIO RENATO:
+  - EL5610 - Taller integrador
+
+RIOS SANCHEZ ARMANDO:
+  - CI1106 - Comunicación escrita
+  - CI1107 - Comunicación oral
+  - FH0259 - Pervivencia de modelos femeninos: de la Grecia antigua a la actualidad
+
+RIVAS SOLANO OLGA:
+  - IB4806 - Bacteriología aplicada a la biotecnología
+
+RIVERA ALVARADO ERNESTO:
+  - EL3310 - Diseño de sistemas digitales
+  - EL4314 - Arquitectura de computadoras I
+  - EL5522 - Taller de comunicaciones eléctricas
+
+RIVERA ALVARADO JAVIER:
+  - EL3216 - Circuitos integrados analógicos
+  - EL4703 - Señales y sistemas
+
+RIVERA MENDEZ WILLIAM EDUARDO:
+  - IB3405 - Laboratorio aplicación de sistemas de producción agrícola
+
+RIVERA MENESES MARCO:
+  - CE1105 - Principios de modelado en Ingeniería
+  - CE3101 - Bases de datos
+
+RIVERA VEGA KATERINE:
+  - CI0202 - Inglés básico
+  - CI1202 - Inglés para biotecnología I
+  - CI1231 - Inglés II
+
+ROBLES CHAVEZ DIANA:
+  - QU1104 - Laboratorio de química básica II
+
+ROBLES OBANDO NATALIA:
+  - PI2610 - Probabilidad y estadística I
+  - PI3603 - Investigación de operaciones I
+  - PI5302 - Diseño de experimentos
+
+RODRIGUEZ BARQUERO  RONNY:
+  - AE2705 - Análisis y gestión de datos empresariales
+  - AE3505 - Metodología de la investigación
+
+RODRIGUEZ BUSTOS KENDALL:
+  - MA0101 - Matemática general
+  - MA1403 - Matemática discreta
+
+RODRIGUEZ CASTRO BRYAN:
+  - MA0101 - Matemática general
+  - MA1304 - Cálculo para administración
+  - MA2404 - Probabilidades
+
+RODRIGUEZ DAVILA ALLAN:
+  - IC4700 - Lenguajes de programación
+  - IC5701 - Compiladores e interpretes
+
+RODRIGUEZ GONZALEZ LUIS ELADIO:
+  - PI2610 - Probabilidad y estadística I
+  - PI3306 - Gestión de calidad
+  - PI5302 - Diseño de experimentos
+
+RODRIGUEZ GRANADOS NATALIA:
+  - MA1102 - Cálculo diferencial e integral
+
+RODRIGUEZ HERRA NATALIA:
+  - CI1107 - Comunicación oral
+
+RODRIGUEZ MENDEZ FRANCISCO:
+  - CM4803 - Taller de diseño en ciencia e ingeniería de los materiales
+
+RODRIGUEZ MOLINA DANIEL:
+  - MR1201 - Gerencia de recursos naturales
+
+RODRIGUEZ MORALES OSCAR:
+  - CS2101 - Ambiente humano
+  - CS4402 - Seminario de estudios costarricenses
+  - FH0035 - Globalización y humanismo
+  - LE1204 - Psicología educativa en ETFP
+
+RODRIGUEZ MORERA MARCIA:
+  - SE1204 - Natación
+  - SE1206 - Acondicionamiento físico
+  - SE1223 - Voleibol
+
+RODRIGUEZ OVARES MARCO:
+  - IC4810 - Administración de proyectos
+  - IC6821 - Diseño de software
+  - IC6831 - Aseguramiento de la calidad del software
+
+RODRIGUEZ QUESADA LARIA FABIOLA:
+  - ME2208 - Ciencias de los materiales
+  - ME3209 - Laboratorio de tecnología de materiales
+
+RODRIGUEZ ROJAS ALFREDO:
+  - CM3103 - Termodinámica de materiales
+  - CM3207 - Métodos numéricos para ingeniería
+  - CM5104 - Diseño de moldes y troqueles
+
+RODRIGUEZ VARGAS PABLO CESAR:
+  - EL2110 - Laboratorio de mediciones eléctricas
+  - EL2113 - Circuitos eléctricos en corriente continua
+  - EL5409 - Laboratorio de control automático
+
+RODRIGUEZ ZAMORA MARIA GABRIELA:
+  - SO2405 - Bioestadística
+  - SO4701 - Taller de agentes ambientales químicos
+
+ROJAS BRENES SILVIA ELENA:
+  - FH0115 - García Márquez y el realismo mágico
+
+ROJAS CHACON LUIS GUSTAVO:
+  - CO5012 - Diseño de procesos constructivos
+
+ROJAS CHAVARRIA ADRIANA:
+  - IC8071 - Seguridad del software
+
+ROJAS CHAVES MIGUEL:
+  - IB3603 - Laboratorio de bioquímica
+
+ROJAS ESQUIVEL ARMANDO:
+  - AE2308 - Microeconomía
+
+ROJAS GOMEZ JULIO CESAR:
+  - MI3104 - Laboratorio procesos de manufactura
+
+ROJAS HERNANDEZ JUAN JOSE:
+  - MI4210 - Laboratorio de control eléctrico
+
+ROJAS MARIN ANGIE:
+  - CI1107 - Comunicación oral
+
+ROJAS MOLINA BETSY:
+  - CS2101 - Ambiente humano
+  - CS4402 - Seminario de estudios costarricenses
+
+ROJAS PEREZ FRANCISCO:
+  - FI1101 - Física general I
+  - FI2103 - Física general III
+
+ROJAS RODRIGUEZ DAVID:
+  - EL4702 - Probabilidad y estadística
+  - PI2304 - Estudio del trabajo I
+  - PI3403 - Sistema de información
+  - PI4803 - Gestión de la innovación
+  - PI5710 - Diseño de puestos de trabajo y herramientas ergonómicas
+
+ROJAS RODRIGUEZ GIOVANNY:
+  - AE2705 - Análisis y gestión de datos empresariales
+
+ROJAS ROJAS LAURA:
+  - FI2103 - Física general III
+
+ROJAS SEGURA JAVIER:
+  - AE3505 - Metodología de la investigación
+
+ROJAS VEGA DIEGO:
+  - CA3125 - Análisis y diseño de algoritmos
+  - IC7841 - Proyecto de ingeniería de software
+  - IC8057 - Introducción al desarrollo de paginas web
+
+ROMERO ALVAREZ ERICKA:
+  - CI1106 - Comunicación escrita
+  - CI1107 - Comunicación oral
+
+ROMERO BLANCO ERIC:
+  - AI2101 - Análisis estadístico para Ingeniería Ambiental
+  - AI5104 - Análisis y diseño experimental para Ingeniería Ambiental
+  - CO4108 - Taller I
+  - QU1104 - Laboratorio de química básica II
+
+ROMERO CALVO KERIN:
+  - IA4403 - Mecanización agrícola
+
+ROSALES ALPIZAR LUIS CARLOS:
+  - EL4703 - Señales y sistemas
+  - EL5409 - Laboratorio de control automático
+  - EL5513 - Comunicaciones eléctricas I
+
+ROSALES LOPEZ CATALINA:
+  - IB4810 - Introducción a la fitoquímica
+
+ROSALES ORTEGA JOSE:
+  - EM3608 - Cálculo y análisis III
+
+RUIZ NAVARRO MARLON:
+  - AE2124 - Contabilidad III
+
+SABORIO CORDERO NATALIA:
+  - MA1102 - Cálculo diferencial e integral
+  - MA1403 - Matemática discreta
+
+SALAS ACUÑA ERICK:
+  - CI1107 - Comunicación oral
+
+SALAS ARIAS KARLA MELISSA:
+  - IB4202 - Laboratorio de cultivo de tejidos II
+
+SALAS CERDAS LISS:
+  - PI3612 - Probabilidad y estadística II
+
+SALAS GARITA CYNTHIA:
+  - FO4104 - Formulación y evaluación de proyectos
+
+SALAS JIMENEZ JUAN CARLOS:
+  - QU1107 - Química básica II
+
+SALAS MOYA LAURA:
+  - MI2106 - Estática
+  - MI2109 - Estática
+  - MI3124 - Dibujo industrial
+
+SALAZAR CECILIANO ENMANUEL:
+  - AU1901 - Laboratorio de proyectos VI, Sostenibilidad
+
+SALAZAR GARCIA CARLOS ADRIAN:
+  - MT7003 - Microprocesadores y microcontroladores
+  - MT7005 - Formulación de proyectos
+
+SALAZAR HERNANDEZ ALICIA:
+  - IC6821 - Diseño de software
+  - IC6831 - Aseguramiento de la calidad del software
+  - IC7841 - Proyecto de ingeniería de software
+
+SALAZAR MORERA RODOLFO:
+  - AG3403 - Mecanización agrícola
+
+SALAZAR ROJAS TERESA:
+  - QU1104 - Laboratorio de química básica II
+
+SANABRIA BRENES GEOVANNI:
+  - EM5005 - Teoría de números
+
+SANABRIA COTO CRISTIAN:
+  - AN4008 - Sistematización de datos en agronegocios
+
+SANABRIA RODRIGUEZ AURELIO:
+  - IC2001 - Estructuras de datos
+  - IC5701 - Compiladores e interpretes
+  - IC8060 - Recuperación de información textual
+
+SANABRIA SANDI RAZIEL FARID:
+  - IF4802 - Laboratorio metrología I
+  - IF4803 - Metrología industrial y legal
+
+SANCHEZ BRENES MAGALY:
+  - PI4303 - Control de producción
+  - PI5302 - Diseño de experimentos
+  - PI5401 - Simulación industrial
+
+SANCHEZ BRENES OLGA:
+  - ID2401 - Ergonomía
+  - ID3109 - Diseño III
+
+SANCHEZ CORDERO CARLOS ALBERTO:
+  - CM4702 - Materiales cerámicos y compuestos
+
+SANCHEZ CORRALES JUAN MANUEL:
+  - IC1400 - Fundamentos de organización de computadoras
+
+SANCHEZ FERNANDEZ IVONNE:
+  - MA0101 - Matemática general
+
+SANCHEZ HERRERA KERVIN:
+  - EL2110 - Laboratorio de mediciones eléctricas
+  - EL4314 - Arquitectura de computadoras I
+  - IC3101 - Arquitectura de computadores
+
+SANCHEZ KOPPER ANDRES:
+  - QU1104 - Laboratorio de química básica II
+
+SANCHEZ MASIS ALLAN ROBERTO:
+  - EL4513 - Teoría electromagnética I
+
+SANCHEZ PEREZ LISBETH:
+  - SE1204 - Natación
+
+SANCHEZ RAMIREZ VANESSA:
+  - AE1122 - Contabilidad I
+
+SANCHEZ SOTO MICHAEL:
+  - TI6900 - Inteligencia de negocios
+
+SANCHO JIMENEZ LUIS FELIPE:
+  - ST1003 - Servicios turísticos rurales
+
+SANCHO MARTINEZ LAURA KARINA:
+  - SE1109 - Dinámica de la cultura
+
+SANDOVAL CASCANTE LEONARDO:
+  - EL5513 - Comunicaciones eléctricas I
+  - EL5522 - Taller de comunicaciones eléctricas
+
+SANDOVAL MORA JOSE ALBERTO:
+  - QU1104 - Laboratorio de química básica II
+  - QU2410 - Laboratorio de química orgánica y bioquímica
+
+SANDOVAL QUIROS MILTON:
+  - GP3908 - Seminario de investigación II en el énfasis en proyectos empresariales
+  - GP3911 - Seminario de investigación II en el énfasis en tecnología de información
+  - GP3914 - Seminario de investigación II en el énfasis en construcción
+
+SANDOVAL SANCHEZ YARIMA:
+  - TI5904 - Investigación en sistemas de información
+
+SANDOVAL VASQUEZ JOSE FULVIO:
+  - AE4312 - Macroeconomía
+
+SCHMIDT DURAN ALEXANDER:
+  - IB2204 - Laboratorio de anatomía vegetal
+
+SCHMIDT PERALTA JEFF:
+  - CE1101 - Introducción a la programación
+
+SEGREDA JOHANNING JUAN ANDRES:
+  - TI2404 - Organización y arquitectura de computadoras
+  - TI3604 - Fundamentos de redes
+
+SEGURA CARVAJAL MARCOS:
+  - FI1201 - Laboratorio física general I
+
+SEGURA QUIROS CARLOS:
+  - EL2110 - Laboratorio de mediciones eléctricas
+  - EL2207 - Elementos activos
+
+SEGURA SOLIS DAVID:
+  - ID2204 - Herramientas digitales para diseño
+  - ID5115 - Innovación de productos
+
+SEGURA ZARATE ANA YANCY:
+  - FI1101 - Física general I
+  - FI2103 - Física general III
+
+SEQUEIRA CASTRO DAVID:
+  - FI1101 - Física general I
+  - FI1201 - Laboratorio física general I
+  - FI2103 - Física general III
+
+SERRANO SOLANO ALEX:
+  - SE1104 - Artes visuales
+  - SE1107 - Apreciación de cine
+
+SEVILLA QUESADA EVAR:
+  - FI1201 - Laboratorio física general I
+
+SHILTAGH PRADA DIMITRI:
+  - CI1107 - Comunicación oral
+
+SHUM CHAN ALBERTO:
+  - IC8078 - Almacenes de datos y procesamiento OLAP
+
+SILES SOLANO ANA CATALINA:
+  - PI5101 - Gestión de procesos
+
+SOJO CASTRO MARJORIE:
+  - AE3127 - Administración financiera I
+
+SOLANO CORDERO JENNIER:
+  - CE1117 - Formulación y Gestión de Proyectos
+  - CE5600 - Trabajo final de graduación
+  - CE5601 - Trabajo final de graduación
+
+SOLANO FERNANDEZ ERICKA:
+  - IC2101 - Programación orientada a objetos
+  - IC6821 - Diseño de software
+
+SOLANO HERRERA BYRON ANDREY:
+  - MA1403 - Matemática discreta
+
+SOLANO LEANDRO PAULA:
+  - PI2609 - Probabilidad y estadística
+  - PI3612 - Probabilidad y estadística II
+  - PI4306 - Metrología y normalización
+
+SOLANO MARTINEZ MAURICIO:
+  - AE2126 - Contabilidad de costos I
+  - LA5125 - Contabilidad IV
+
+SOLANO MORAGA SIGRID:
+  - CI1107 - Comunicación oral
+
+SOLANO OBANDO MABEL:
+  - CI1231 - Inglés II
+
+SOLANO PIEDRA RICARDO ADOLFO:
+  - FI1201 - Laboratorio física general I
+  - IF3601 - Metodología de la investigación
+
+SOLANO RIVERA WILLIAM:
+  - CO3301 - Topografía aplicada
+
+SOLANO SOLANO JOSE EDUARDO:
+  - CI1230 - Inglés I
+  - CI1306 - Inglés II para administración
+  - FH0162 - La enseñanza de la lengua inglesa y su paralelismo con desarrollo económico
+
+SOLANO SOTO JAIME:
+  - IC4810 - Administración de proyectos
+  - IC5821 - Requerimientos de software
+  - IC7841 - Proyecto de ingeniería de software
+  - IC7900 - Computación y sociedad
+
+SOLANO VARELA DANIEL JESUS:
+  - MA0101 - Matemática general
+
+SOLERA STELLER PAOLA MARIA:
+  - BI1101 - Biología general
+  - BI1102 - Laboratorio de biología general
+  - IB2204 - Laboratorio de anatomía vegetal
+
+SOLIS ARGUEDAS ADRIANA:
+  - MA1403 - Matemática discreta
+
+SOLIS CESPEDES JACQUELINE:
+  - TI2402 - Algoritmos y estructuras de datos
+  - TI3600 - Bases de datos
+
+SOLIS GARCIA MARCO:
+  - AU1702 - Sistemas de representación digital I
+
+SOLIS PALMA ANGIE:
+  - MA0101 - Matemática general
+
+SOLIS PARAJELES JONATHAN:
+  - CA2125 - Elementos de computación
+  - IC6821 - Diseño de software
+
+SOLIS RAMIREZ INGRID:
+  - AE3415 - Investigación de mercados
+  - LA5419 - Estrategia de ventas
+
+SOLIS SALAZAR MARTIN:
+  - LA5132 - Modelos de decisiones financieras
+
+SOTO CASCANTE EMANUELLE:
+  - MA1102 - Cálculo diferencial e integral
+  - MA1304 - Cálculo para administración
+  - MA2404 - Probabilidades
+  - MA3405 - Estadística
+
+SOTO CHAVES LUIS PABLO:
+  - IC4301 - Bases de datos I
+  - TI1400 - Introducción a la programación
+  - TI1401 - Taller de programación
+  - TI2402 - Algoritmos y estructuras de datos
+
+SOTO CHINCHILLA YERRY:
+  - FI1503 - Fundamentos de física para arquitectura
+
+SOTO CORDOBA SILVIA:
+  - QU1106 - Química básica I
+  - QU2404 - Laboratorio de química orgánica
+
+SOTO GARITA JUAN PABLO:
+  - EL3216 - Circuitos integrados analógicos
+
+SOTO GRANT ANDREA:
+  - LE1205 - Planificación didáctica y curricular en ETFP
+
+SOTO MONGE ALLAN:
+  - IA5605 - Tecnologías en ambientes protegidos
+
+SOTO MONTOYA CASIA:
+  - AI2401 - Análisis topográfico en Ingeniería Ambiental
+  - FO4406 - Sistemas de información geográfica II
+
+SOTO QUIROS JUAN PABLO:
+  - CE1111 - Análisis numérico para la Ingeniería
+
+STARBIRD PEREZ RICARDO:
+  - AI6108 - Introducción a la ciencia de los polímeros
+  - CM3501 - Materiales poliméricos
+  - QU1107 - Química básica II
+
+STRADI GRANADOS BENITO:
+  - CM3207 - Métodos numéricos para ingeniería
+
+TACSAN CHAVES RODOLFO:
+  - CE5301 - Redes de computadores
+
+TAPIA BALLADARES MARCO:
+  - CO3302 - Geología aplicada
+
+TENCIO CHACON ANGELA:
+  - TI4101 - Planificación y presupuesto
+
+TENORIO SANCHEZ ANA PATRICIA:
+  - AE2506 - Estadística II
+
+THAMES RAMIREZ KARLA:
+  - AE5121 - Ingeniería económica
+
+TIFFER SOTOMAYOR HAYDEE CELINA:
+  - AE2311 - Macroeconomía
+  - AE3312 - Negocios internacionales
+
+TORRES CARBALLO FEDERICO:
+  - TI3601 - Modelo de toma de decisiones
+  - TI4200 - Economía
+
+TORRES CONTRERAS ANGELICA:
+  - MR1103 - Administración y manejo sostenible de recursos naturales
+
+TORRES GOMEZ DANILO:
+  - FO3118 - Silvicultura bosque natural
+
+TORRES HERNANDEZ LEONARDO:
+  - CO3405 - Mecánica del solido II
+
+TORRES NAVARRO RAFAEL:
+  - PI4306 - Metrología y normalización
+
+TORRES ROJAS FRANCISCO JOSE:
+  - IC1400 - Fundamentos de organización de computadoras
+  - IC5701 - Compiladores e interpretes
+  - IC6400 - Investigación de operaciones
+  - IC8059 - Introducción a los gráficos por computador
+
+TRAVIESO RODRIGUEZ ALBERTO:
+  - SE1220 - Baloncesto
+
+TREJOS ESPINOZA RAUL:
+  - BL1130 - Introducción a la programación para biotecnología
+
+TREJOS MONGE SONIA:
+  - LA5141 - Auditoría tributaria
+
+ULATE MOLINA RICARDO ENRIQUE:
+  - QU1104 - Laboratorio de química básica II
+
+UMAÑA CENTENO GABRIEL:
+  - TI1102 - Información contable
+  - TI8511 - Fundamentos de transformación digital
+  - TI9905 - Sistemas de información empresarial
+
+UMAÑA QUIROS BRAULIO:
+  - AI3208 - Hidráulica para ingeniería ambiental
+  - CO3501 - Hidráulica
+
+UREÑA JIMENEZ RONALD ANDREY:
+  - AN3008 - Probabilidad y estadísticas en los agronegocios
+
+UREÑA SANDI NOEL:
+  - MI2101 - Dibujo técnico
+  - MI3115 - Resistencia de materiales
+  - MI5151 - Diseño mecánico
+
+VALERIN BERROCAL KARLA:
+  - IB4106 - Laboratorio de biología molecular aplicada
+
+VALERIN CASTRO ALEXANDER:
+  - AE2705 - Análisis y gestión de datos empresariales
+  - LA5142 - Auditoría de las tecnologías de la información I
+
+VALERIN ROJAS SOFIA:
+  - SE1102 - Acción social
+
+VALERIO ALFARO DANILO:
+  - AU1704 - Diseño bioclimático
+
+VALERIO PEREZ LUIS GUILLERMO:
+  - AI5105 - Consumo y producción sostenible
+  - AI6115 - Energías renovables
+
+VALERIO SOLIS LORENA:
+  - IC2001 - Estructuras de datos
+  - IC3002 - Análisis de algoritmos
+
+VALLECILLO ALFARO JOHANNY:
+  - CI0202 - Inglés básico
+  - CI1231 - Inglés II
+
+VALVERDE ABARCA ANTHONNY:
+  - AG3107 - Reproducción animal
+
+VALVERDE CERDAS JOHNNY:
+  - QU2403 - Química orgánica
+  - QU2404 - Laboratorio de química orgánica
+
+VALVERDE GARDELA HERBERTH:
+  - EL2114 - Circuitos eléctricos en corriente alterna
+
+VALVERDE JARA ANA:
+  - SE1103 - Danza
+
+VALVERDE MADRIZ LUIS:
+  - AU1902 - Instalaciones eléctricas
+
+VALVERDE MASIS EDUARDO:
+  - AE1205 - Habilidades gerenciales
+
+VALVERDE OTAROLA JUAN CARLOS:
+  - FO4417 - Ecofisiología forestal
+
+VALVERDE SANCHEZ SAMUEL:
+  - MA2104 - Cálculo superior
+
+VALVERDE SOLANO MARIA DEL CARMEN:
+  - ID1104 - Análisis de producto II
+  - ID2108 - Diseño II
+
+VAQUERANO PINEDA FELIPE:
+  - AA3202 - Anatomía y fisiología animal
+  - AA4205 - Producción bovina
+
+VAQUERANO PINEDA NICOLAS:
+  - MI2204 - Laboratorio de electricidad II
+  - MI2207 - Electricidad II
+  - MI4510 - Electrotecnia
+  - MT2001 - Circuitos eléctricos en CC y CA
+
+VARELA SOJO XINIA:
+  - ID5004 - Introducción al diseño para la innovación social
+  - ID5114 - Gestión de proyectos
+
+VARGAS BLANCO IVAN:
+  - FI1102 - Física general II
+
+VARGAS CALVO JORGE:
+  - IC1400 - Fundamentos de organización de computadoras
+  - IC3101 - Arquitectura de computadores
+  - IC4700 - Lenguajes de programación
+  - IC8052 - Criptografía
+
+VARGAS CAMARENO MARICRUZ:
+  - QU1107 - Química básica II
+
+VARGAS CORRALES CAMILO JOSE:
+  - CO5022 - Procesos constructivos
+
+VARGAS ELIZONDO CELSO:
+  - CS3401 - Seminario de estudios filosóficos históricos
+  - CS3404 - Seminario de ética para la ingeniería
+
+VARGAS FONSECA LUPITA:
+  - FO3113 - Inventarios forestales
+  - FO4418 - Cambio climático: acciones y métricas en sistemas terrestres
+
+VARGAS GOMEZ PABLO JOSE:
+  - PI3512 - Dirección de personal
+  - PI4001 - Dirección de personal
+
+VARGAS GOMEZ RODRIGO DAVID:
+  - CM2401 - Metalurgia física
+  - CM3208 - Metrología para ingeniería
+  - CM5243 - Análisis de fallas
+  - ME2208 - Ciencias de los materiales
+
+VARGAS RIVERA ANDRES:
+  - CE1115 - Seguridad de la información
+
+VARGAS VARGAS BERNAL:
+  - PI3512 - Dirección de personal
+  - PI4802 - Administración de proyectos
+  - PI5401 - Simulación industrial
+  - PI5601 - Diagnóstico industrial
+
+VEGA AGUERO JORGE:
+  - SE1205 - Juegos y deportes en conjunto
+  - SE1206 - Acondicionamiento físico
+  - SE1209 - Béisbol-softbol
+
+VEGA ALFARO ANDREY:
+  - AG3405 - Agroestadística II
+
+VEGA CASTILLO PAOLA:
+  - EL2113 - Circuitos eléctricos en corriente continua
+  - EL2207 - Elementos activos
+
+VEGA DIAZ JEAN:
+  - IC4810 - Administración de proyectos
+
+VEGA GARITA VICTOR:
+  - CM3207 - Métodos numéricos para ingeniería
+  - ME3209 - Laboratorio de tecnología de materiales
+
+VEGA ROJAS LUIS MAURICIO:
+  - FH0025 - Sexualidad pareja y teoría psicosexual
+
+VEGA SANCHEZ CHRISTOPHER:
+  - MI2106 - Estática
+  - MI2109 - Estática
+
+VEGA VASQUEZ ARTURO:
+  - EM4010 - Programación lineal
+  - MA0101 - Matemática general
+  - MA2117 - Cálculo y geometría analítica
+
+VILCHEZ MONGE MARTA:
+  - MT2002 - Laboratorio de circuitos de corriente continua y corriente alterna
+
+VILLAGRA MENDOZA CAROLINA:
+  - IA5601 - Protección ambiental
+
+VILLALOBOS ARIAS LUIS ROBERTO:
+  - CA2125 - Elementos de computación
+  - IC7900 - Computación y sociedad
+
+VILLALOBOS ARIAS MARIO:
+  - MA1102 - Cálculo diferencial e integral
+
+VILLALOBOS BARQUERO VERONICA:
+  - FO3203 - Aprovechamiento forestal I
+
+VILLALOBOS MURILLO JOHANA:
+  - QU1102 - Laboratorio de química básica I
+  - QU1104 - Laboratorio de química básica II
+
+VILLALTA ROMERO FABIAN:
+  - IB3603 - Laboratorio de bioquímica
+  - QU1106 - Química básica I
+
+VILLAREAL MARCHENA TANIA:
+  - AN7001 - Gestión de certificaciones en agronegocios
+
+VILLEGAS LEMUS MILTON:
+  - CE1104 - Fundamentos de sistemas computacionales
+
+VILLEGAS ROJAS ALEXANDER:
+  - AE1122 - Contabilidad I
+  - AE2124 - Contabilidad III
+
+VILLEGAS SALAS SONIA:
+  - CI0202 - Inglés básico
+  - CI1230 - Inglés I
+  - CI1231 - Inglés II
+
+VINDAS FERNANDEZ NURIA:
+  - CI0202 - Inglés básico
+  - CI3400 - Inglés 1 (ATI)
+  - CI4401 - Inglés II (ATI)
+
+VIQUEZ ACUÑA LEONARDO:
+  - IC2101 - Programación orientada a objetos
+  - IC4302 - Bases de datos II
+
+VIQUEZ ACUÑA OSCAR MARIO:
+  - IC2101 - Programación orientada a objetos
+  - IC4700 - Lenguajes de programación
+  - IC5701 - Compiladores e interpretes
+
+VIQUEZ PANIAGUA ANA GABRIELA:
+  - AE3551 - Administración de proyectos
+
+VIQUEZ VIQUEZ ANDRES:
+  - IC6831 - Aseguramiento de la calidad del software
+
+VIQUEZ ZELEDON JESSENIA:
+  - SE1205 - Juegos y deportes en conjunto
+  - SE1206 - Acondicionamiento físico
+  - SE1223 - Voleibol
+
+WALSH ZUÑIGA YOSELYN:
+  - ID5516 - Teoría de las interfases y la interactividad
+
+WATSON HERNANDEZ FERNANDO:
+  - IA3203 - Hidrología
+
+WYNTA BANTON RANDY YADIR:
+  - AE2506 - Estadística II
+  - MA0101 - Matemática general
+  - MA1102 - Cálculo diferencial e integral
+  - MA2104 - Cálculo superior
+
+YGLESIAS CUADRA ROBERTO:
+  - AU1703 - Sistemas de construcción I
+
+ZAMORA BOLAÑOS JUAN DIEGO:
+  - EL4702 - Probabilidad y estadística
+
+ZAMORA CARDENAS WILLARD:
+  - IC8076 - Introducción al análisis de datos
+
+ZAMORA ZAMORA CINDY:
+  - SO5904 - Factores humanos y ergonomía ocupacional
+
+ZUÑIGA GARITA IGOR:
+  - FO4225 - Seguimiento y auditoría ambiental
+
+ZUÑIGA RIVERA MONICA:
+  - CI1107 - Comunicación oral
+  - FH0263 - Religión, espiritualidades y ética mundial
+
+ZUÑIGA SEGURA LORENA:
+  - TI4601 - Bases de datos avanzados
+

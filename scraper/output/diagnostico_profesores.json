@@ -1,0 +1,299 @@
+{
+  "resumen": {
+    "totalGrupos": 1828,
+    "gruposConProfesorValido": 1784,
+    "gruposDescartados": 44
+  },
+  "porArchivo": {
+    "data\\2026\\2\\CA\\CI.json": {
+      "totalGrupos": 87,
+      "sinProfesor": 11,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "CI1106",
+          "grupo": 1,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1107",
+          "grupo": 4,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1107",
+          "grupo": 16,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1107",
+          "grupo": 25,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1107",
+          "grupo": 26,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1107",
+          "grupo": 30,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1107",
+          "grupo": 31,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1107",
+          "grupo": 32,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1407",
+          "grupo": 2,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1407",
+          "grupo": 4,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1406",
+          "grupo": 1,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\CA\\DI.json": {
+      "totalGrupos": 44,
+      "sinProfesor": 1,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "ID5611",
+          "grupo": 1,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\CA\\FI.json": {
+      "totalGrupos": 65,
+      "sinProfesor": 13,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "FI1201",
+          "grupo": 9,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1201",
+          "grupo": 10,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1201",
+          "grupo": 14,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1201",
+          "grupo": 18,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1102",
+          "grupo": 5,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1202",
+          "grupo": 3,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1202",
+          "grupo": 4,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI2103",
+          "grupo": 3,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI2103",
+          "grupo": 5,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI2103",
+          "grupo": 9,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1101",
+          "grupo": 6,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1101",
+          "grupo": 14,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "FI1101",
+          "grupo": 18,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\CA\\IA.json": {
+      "totalGrupos": 20,
+      "sinProfesor": 1,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "IA5604",
+          "grupo": 1,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\CA\\MI.json": {
+      "totalGrupos": 86,
+      "sinProfesor": 1,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "MI3124",
+          "grupo": 2,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\CA\\PI.json": {
+      "totalGrupos": 61,
+      "sinProfesor": 1,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "PI5601",
+          "grupo": 1,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\CA\\QU.json": {
+      "totalGrupos": 74,
+      "sinProfesor": 10,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "QU1104",
+          "grupo": 10,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1104",
+          "grupo": 23,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1104",
+          "grupo": 30,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1104",
+          "grupo": 31,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1102",
+          "grupo": 1,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1102",
+          "grupo": 4,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1102",
+          "grupo": 12,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1102",
+          "grupo": 13,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1102",
+          "grupo": 14,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "QU1102",
+          "grupo": 15,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\SC\\AG.json": {
+      "totalGrupos": 25,
+      "sinProfesor": 1,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "AG2305",
+          "grupo": 50,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\SC\\DVE.json": {
+      "totalGrupos": 15,
+      "sinProfesor": 3,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "SE1205",
+          "grupo": 50,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "SE1220",
+          "grupo": 50,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "SE1222",
+          "grupo": 50,
+          "motivo": "vacio"
+        }
+      ]
+    },
+    "data\\2026\\2\\SJ\\CI.json": {
+      "totalGrupos": 11,
+      "sinProfesor": 2,
+      "placeholders": 0,
+      "detalle": [
+        {
+          "curso": "CI1106",
+          "grupo": 41,
+          "motivo": "vacio"
+        },
+        {
+          "curso": "CI1107",
+          "grupo": 40,
+          "motivo": "vacio"
+        }
+      ]
+    }
+  }
+}

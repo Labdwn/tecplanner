@@ -1,0 +1,5509 @@
+[
+  {
+    "nombre": "ABARCA GUERRERO LILLIANA",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "ABREGO CAMPOS LEONEL",
+    "cursos": [
+      "AE3127 - Administración financiera I",
+      "LA5139 - Auditoría gubernamental"
+    ]
+  },
+  {
+    "nombre": "ACEVEDO WHITFORD OSCAR",
+    "cursos": [
+      "AE1122 - Contabilidad I",
+      "AE2125 - Matemática financiera",
+      "AE3128 - Administración financiera II"
+    ]
+  },
+  {
+    "nombre": "ACHOY HERNANDEZ ALEJANDRO",
+    "cursos": [
+      "CS1308 - Derecho comercial",
+      "CS2303 - Relaciones laborales"
+    ]
+  },
+  {
+    "nombre": "ACOSTA VARGAS LUIS GUILLERMO",
+    "cursos": [
+      "FO4220 - Restauración de ecosistemas tropicales"
+    ]
+  },
+  {
+    "nombre": "ACUÑA CHACON REIMAN",
+    "cursos": [
+      "EM5006 - Didáctica de las matemáticas II"
+    ]
+  },
+  {
+    "nombre": "ACUÑA PIEDRA ANDREA",
+    "cursos": [
+      "AI5106 - Gestión ambiental"
+    ]
+  },
+  {
+    "nombre": "ACUÑA PRADO LUIS",
+    "cursos": [
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA1304 - Cálculo para administración"
+    ]
+  },
+  {
+    "nombre": "AGUERO HERNANDEZ ANA LAURA",
+    "cursos": [
+      "SO4508 - Protección del ambiente",
+      "SO4604 - Seguridad y salud ocupacional",
+      "SO4706 - Seminario de adaptación al cambio climático"
+    ]
+  },
+  {
+    "nombre": "ALAN ZUÑIGA MANUEL ANTONIO",
+    "cursos": [
+      "CO4107 - Programación de proyectos",
+      "CO5024 - Normativa en la construcción"
+    ]
+  },
+  {
+    "nombre": "ALBERTAZZI OSORIO SONIA",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1230 - Inglés I",
+      "CI1231 - Inglés II"
+    ]
+  },
+  {
+    "nombre": "ALCAZAR VILLALOBOS JUAN PABLO",
+    "cursos": [
+      "SO2407 - Legislación ocupacional y ambiental"
+    ]
+  },
+  {
+    "nombre": "ALEGRIA GRANADOS MELISSA",
+    "cursos": [
+      "PI2608 - Análisis estadístico",
+      "PI2610 - Probabilidad y estadística I",
+      "PI3512 - Dirección de personal",
+      "PI4307 - Control de calidad"
+    ]
+  },
+  {
+    "nombre": "ALFARO ALVARADO JOSE ABRAHAN",
+    "cursos": [
+      "FI1201 - Laboratorio física general I",
+      "IF3603 - Óptica",
+      "IF4802 - Laboratorio metrología I"
+    ]
+  },
+  {
+    "nombre": "ALFARO BADILLA JASON KALED",
+    "cursos": [
+      "EL3310 - Diseño de sistemas digitales"
+    ]
+  },
+  {
+    "nombre": "ALFARO QUESADA ALEJANDRO",
+    "cursos": [
+      "IC1802 - Introducción a la programación",
+      "IC1803 - Taller de programación"
+    ]
+  },
+  {
+    "nombre": "ALFARO RAMOS ALFREDO",
+    "cursos": [
+      "AE2311 - Macroeconomía"
+    ]
+  },
+  {
+    "nombre": "ALFARO VELASCO JORGE",
+    "cursos": [
+      "IC3101 - Arquitectura de computadores",
+      "IC6600 - Principios de sistemas operativos"
+    ]
+  },
+  {
+    "nombre": "ALLEN MAITLAND KENDRALL",
+    "cursos": [
+      "AE2126 - Contabilidad de costos I"
+    ]
+  },
+  {
+    "nombre": "ALPIZAR BRENES GEISEL",
+    "cursos": [
+      "MA2105 - Ecuaciones diferenciales"
+    ]
+  },
+  {
+    "nombre": "ALPIZAR CHAVES LAURA",
+    "cursos": [
+      "TI9805 - Auditoría de TI"
+    ]
+  },
+  {
+    "nombre": "ALVARADO CAMPOS LEISTER FRANCISCO",
+    "cursos": [
+      "IC1400 - Fundamentos de organización de computadoras"
+    ]
+  },
+  {
+    "nombre": "ALVARADO MARCHENA LUIS FERNANDO",
+    "cursos": [
+      "IB2203 - Anatomía vegetal"
+    ]
+  },
+  {
+    "nombre": "ALVARADO MOYA JOSE PABLO",
+    "cursos": [
+      "EL4703 - Señales y sistemas",
+      "EL5805 - Procesamiento digital de señales"
+    ]
+  },
+  {
+    "nombre": "ALVARADO ORTEGA ROMMEL",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI1102 - Física general II",
+      "FI1201 - Laboratorio física general I",
+      "FI1202 - Laboratorio física general II"
+    ]
+  },
+  {
+    "nombre": "ALVARADO PEÑA MARCO",
+    "cursos": [
+      "PI5707 - Ingeniería de la confiabilidad"
+    ]
+  },
+  {
+    "nombre": "ALVARADO SOLANO ANDY",
+    "cursos": [
+      "EM2603 - Cálculo y análisis I",
+      "MA2404 - Probabilidades",
+      "MA3106 - Métodos numéricos"
+    ]
+  },
+  {
+    "nombre": "ALVARADO ULLOA CARLOS",
+    "cursos": [
+      "IB4202 - Laboratorio de cultivo de tejidos II",
+      "IB4811 - Propiedad intelectual, innovación y biotecnología"
+    ]
+  },
+  {
+    "nombre": "ALVAREZ FIGUEROA ADRIANA",
+    "cursos": [
+      "IC4301 - Bases de datos I",
+      "IC4810 - Administración de proyectos",
+      "IC8071 - Seguridad del software",
+      "IC8842 - Práctica profesional"
+    ]
+  },
+  {
+    "nombre": "ALVAREZ GRIJALBA WALTER",
+    "cursos": [
+      "CA3125 - Análisis y diseño de algoritmos"
+    ]
+  },
+  {
+    "nombre": "ALVAREZ HERNANDEZ MARIAM",
+    "cursos": [
+      "CS3406 - Seminario de ética para administración de empresas",
+      "TS2202 - Práctica de especialidad",
+      "TS2301 - Formulación y evaluación de proyectos"
+    ]
+  },
+  {
+    "nombre": "ALVAREZ SOLORZANO DIOGENES",
+    "cursos": [
+      "PI3502 - Costos industriales II",
+      "PI3603 - Investigación de operaciones I",
+      "PI4505 - Análisis económico",
+      "TI3602 - Producción, logística y calidad"
+    ]
+  },
+  {
+    "nombre": "AMADOR JARA ALVARO",
+    "cursos": [
+      "FI1102 - Física general II"
+    ]
+  },
+  {
+    "nombre": "AMADOR SOLANO GABRIELA",
+    "cursos": [
+      "CI1106 - Comunicación escrita",
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "ARAYA CALVO MIGUEL",
+    "cursos": [
+      "ID4501 - Diseño de productos VII"
+    ]
+  },
+  {
+    "nombre": "ARAYA CARVAJAL FABIO",
+    "cursos": [
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "ARAYA LEANDRO ARNOLDO",
+    "cursos": [
+      "AE3128 - Administración financiera II",
+      "AE4128 - Auditoría I"
+    ]
+  },
+  {
+    "nombre": "ARAYA MARCHENA MARIO",
+    "cursos": [
+      "QU1902 - Fundamentos de química",
+      "QU2409 - Química orgánica y bioquímica"
+    ]
+  },
+  {
+    "nombre": "ARAYA MENESES IVAN",
+    "cursos": [
+      "CM3207 - Métodos numéricos para ingeniería",
+      "MT5002 - Modelos de sistemas para mecatrónica",
+      "MT7004 - Neumática y oleohidráulica"
+    ]
+  },
+  {
+    "nombre": "ARAYA MORA FABIAN",
+    "cursos": [
+      "CM3205 - Tecnología de maquinado",
+      "CM3601 - Mecánica de fluidos",
+      "CM4307 - Conformado de materiales",
+      "CM5302 - Equipos auxiliares de planta"
+    ]
+  },
+  {
+    "nombre": "ARAYA OBANDO JOSE ANDRES",
+    "cursos": [
+      "CO4108 - Taller I"
+    ]
+  },
+  {
+    "nombre": "ARAYA RODRIGUEZ LISANDRO",
+    "cursos": [
+      "CE1109 - Circuitos analógicos",
+      "EL2114 - Circuitos eléctricos en corriente alterna",
+      "MI2202 - Laboratorio de electricidad I",
+      "MI2205 - Electricidad I",
+      "MI3209 - Electricidad III"
+    ]
+  },
+  {
+    "nombre": "ARAYA RODRIGUEZ MAURICIO",
+    "cursos": [
+      "CO2203 - Interpretación de planos",
+      "CO3401 - Mecánica del solido I"
+    ]
+  },
+  {
+    "nombre": "ARAYA ROJAS LUIS CARLOS",
+    "cursos": [
+      "ID1103 - Métodos de desarrollo de productos",
+      "ID3111 - Diseño V"
+    ]
+  },
+  {
+    "nombre": "ARAYA SOLANO LUIS ALONSO",
+    "cursos": [
+      "FI1202 - Laboratorio física general II",
+      "FI2103 - Física general III"
+    ]
+  },
+  {
+    "nombre": "ARAYA SOLANO TANNIA",
+    "cursos": [
+      "SO3603 - Evaluación y control de ruidos y vibraciones"
+    ]
+  },
+  {
+    "nombre": "ARAYA VARELA KAREN",
+    "cursos": [
+      "AI6109 - Cambio climático, adaptación y mitigación"
+    ]
+  },
+  {
+    "nombre": "ARCE GUTIERREZ SUSAN",
+    "cursos": [
+      "AE2124 - Contabilidad III"
+    ]
+  },
+  {
+    "nombre": "ARCE OROZCO ARMANDO",
+    "cursos": [
+      "CA3125 - Análisis y diseño de algoritmos",
+      "IC6600 - Principios de sistemas operativos",
+      "IC8058 - Sistemas de información geográfica"
+    ]
+  },
+  {
+    "nombre": "ARCE ROJAS HEILEN",
+    "cursos": [
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "ARIAS AGUILAR  DAGOBERTO",
+    "cursos": [
+      "FO2108 - Laboratorio de suelos forestales",
+      "FO4107 - Suelos forestales",
+      "FO4223 - Dendroenergía",
+      "MR1102 - Inferencia estadística",
+      "MR1202 - Sostenibilidad y desarrollo de sistemas naturales y productivos"
+    ]
+  },
+  {
+    "nombre": "ARIAS ALPIZAR KEVIN RICARDO",
+    "cursos": [
+      "NE1001 - Fundamentos de química ambiental para turismo",
+      "QU1104 - Laboratorio de química básica II",
+      "QU1106 - Química básica I"
+    ]
+  },
+  {
+    "nombre": "ARIAS CARTIN JUAN PABLO",
+    "cursos": [
+      "MI3111 - Laboratorio de mecánica de fluidos",
+      "MT6003 - Laboratorio de termofluidos"
+    ]
+  },
+  {
+    "nombre": "ARIAS ESQUIVEL YEINER",
+    "cursos": [
+      "EL4201 - Procesamiento electrónico de potencia",
+      "MT2002 - Laboratorio de circuitos de corriente continua y corriente alterna",
+      "MT5003 - Electrónica de potencia aplicada"
+    ]
+  },
+  {
+    "nombre": "ARIAS HIDALGO DAVID",
+    "cursos": [
+      "CS4402 - Seminario de estudios costarricenses",
+      "TS1100 - Gestión ambiental"
+    ]
+  },
+  {
+    "nombre": "ARIAS MENDEZ ESTEBAN",
+    "cursos": [
+      "IC6600 - Principios de sistemas operativos"
+    ]
+  },
+  {
+    "nombre": "ARIAS MONGE ESTEBAN DAVID",
+    "cursos": [
+      "AI6104 - Seguridad y salud ocupacional en Ingeniería Ambiental"
+    ]
+  },
+  {
+    "nombre": "ARIAS PORRAS MARIA FERNANDA",
+    "cursos": [
+      "CO3103 - Costos de construcción I"
+    ]
+  },
+  {
+    "nombre": "ARIAS RAMIREZ DENNIS",
+    "cursos": [
+      "PI3403 - Sistema de información",
+      "PI4803 - Gestión de la innovación",
+      "PI5408 - Tópicos avanzados de producción",
+      "PI5601 - Diagnóstico industrial"
+    ]
+  },
+  {
+    "nombre": "ARIAS RODRIGUEZ CARLOS",
+    "cursos": [
+      "IC4301 - Bases de datos I"
+    ]
+  },
+  {
+    "nombre": "ARIAS SOSA LUIS ALBAN",
+    "cursos": [
+      "CS1308 - Derecho comercial",
+      "CS2303 - Relaciones laborales",
+      "CS2304 - Derecho laboral",
+      "CS5300 - Desarrollo tecnológico y sostenibilidad"
+    ]
+  },
+  {
+    "nombre": "ARIAS ZUÑIGA ANA LORENA",
+    "cursos": [
+      "MR2533 - Técnicas de identificación y valoración del daño ambiental"
+    ]
+  },
+  {
+    "nombre": "ARRIETA QUESADA SERGIO",
+    "cursos": [
+      "IA4313 - Riego a presión"
+    ]
+  },
+  {
+    "nombre": "ARRIOLA VALVERDE SERGIO",
+    "cursos": [
+      "EL1200 - Introducción a la electrónica"
+    ]
+  },
+  {
+    "nombre": "ARROYO HERRERA MAURICIO",
+    "cursos": [
+      "IC4810 - Administración de proyectos"
+    ]
+  },
+  {
+    "nombre": "ARTAVIA ALVARADO MIGUEL",
+    "cursos": [
+      "CO5031 - Administración de empresas constructoras",
+      "CO5051 - Control de costos de construcción"
+    ]
+  },
+  {
+    "nombre": "ARTAVIA DELGADO RANDALL",
+    "cursos": [
+      "LA5040 - Sistemas de información financiera"
+    ]
+  },
+  {
+    "nombre": "ARTAVIA GRANADOS XINIA",
+    "cursos": [
+      "FH0147 - Sexo y género, en la vida y el amor"
+    ]
+  },
+  {
+    "nombre": "ARTAVIA JIMENEZ MARIA JOSE",
+    "cursos": [
+      "TI9003 - Computación y sociedad"
+    ]
+  },
+  {
+    "nombre": "ASENJO CASTILLO EDUARDO JOSE",
+    "cursos": [
+      "MT2002 - Laboratorio de circuitos de corriente continua y corriente alterna",
+      "MT8002 - Automatización y redes industriales"
+    ]
+  },
+  {
+    "nombre": "AVILA ZAMORA ANDREA",
+    "cursos": [
+      "AU1503 - Composición arquitectónica I",
+      "AU1903 - Sistemas ambientales arquitectónicos I"
+    ]
+  },
+  {
+    "nombre": "AVILES CISNEROS MAURICIO",
+    "cursos": [
+      "IC2001 - Estructuras de datos",
+      "IC2101 - Programación orientada a objetos",
+      "IC8048 - Simulación de sistemas naturales"
+    ]
+  },
+  {
+    "nombre": "AZOFEIFA CUBERO ROBERTO",
+    "cursos": [
+      "MA0101 - Matemática general"
+    ]
+  },
+  {
+    "nombre": "AZOFEIFA ORTIZ CARLOS",
+    "cursos": [
+      "AU2005 - Laboratorio de proyectos VIII, diseño integral"
+    ]
+  },
+  {
+    "nombre": "BADILLA MURILLO FELIX",
+    "cursos": [
+      "PI5402 - Automatización de manufactura",
+      "PI5707 - Ingeniería de la confiabilidad"
+    ]
+  },
+  {
+    "nombre": "BADILLA VALVERDE YORLENY",
+    "cursos": [
+      "FO3109 - Manejo de plantaciones forestales"
+    ]
+  },
+  {
+    "nombre": "BALLESTERO ALFARO ESTEBAN",
+    "cursos": [
+      "IC6400 - Investigación de operaciones",
+      "MA2404 - Probabilidades"
+    ]
+  },
+  {
+    "nombre": "BALTODANO GOULDING RAFAEL",
+    "cursos": [
+      "CO4308 - Mecánica de suelos II"
+    ]
+  },
+  {
+    "nombre": "BARAHONA GUZMAN GREIVIN",
+    "cursos": [
+      "MI5215 - Análisis de sistemas eléctricos de potencia"
+    ]
+  },
+  {
+    "nombre": "BARBOZA ARTAVIA LUIS",
+    "cursos": [
+      "CE1103 - Algoritmos y estructuras de datos I",
+      "CE1106 - Paradigmas de programación",
+      "CE4302 - Arquitectura de computadores II",
+      "CE4303 - Principios de sistemas operativos"
+    ]
+  },
+  {
+    "nombre": "BARBOZA DIAZ LINO",
+    "cursos": [
+      "AE1122 - Contabilidad I",
+      "AE2124 - Contabilidad III"
+    ]
+  },
+  {
+    "nombre": "BARBOZA FALLAS LUIS",
+    "cursos": [
+      "IB2021 - Sistemas bioinformáticos"
+    ]
+  },
+  {
+    "nombre": "BARBOZA RETANA JOSE MIGUEL",
+    "cursos": [
+      "EL3215 - Laboratorio de electrónica analógica",
+      "EL4703 - Señales y sistemas"
+    ]
+  },
+  {
+    "nombre": "BARRANTES ALVARADO IVAN",
+    "cursos": [
+      "SE1102 - Acción social"
+    ]
+  },
+  {
+    "nombre": "BARRANTES BARRANTES EILYN",
+    "cursos": [
+      "AE4228 - Gestión del talento humano II"
+    ]
+  },
+  {
+    "nombre": "BARRIENTOS ALFARO FRANK CARLOS",
+    "cursos": [
+      "IB4202 - Laboratorio de cultivo de tejidos II"
+    ]
+  },
+  {
+    "nombre": "BARRIOS HERNANDEZ MARYLUZ",
+    "cursos": [
+      "AI3112 - Diseño y tratamiento de aguas residuales"
+    ]
+  },
+  {
+    "nombre": "BENAVIDES CESPEDES CARLOS",
+    "cursos": [
+      "IC1400 - Fundamentos de organización de computadoras",
+      "IC3101 - Arquitectura de computadores",
+      "IC7602 - Redes"
+    ]
+  },
+  {
+    "nombre": "BENAVIDES RAMIREZ WILLIAM JESUS",
+    "cursos": [
+      "CM2103 - Termodinámica",
+      "CM2402 - Laboratorio de metalurgia física",
+      "CM4108 - Transferencia de calor",
+      "CM4202 - Laboratorio tecnología aleaciones metálicas",
+      "ME3208 - Tecnología de materiales"
+    ]
+  },
+  {
+    "nombre": "BERMUDEZ CHACON MARVIN",
+    "cursos": [
+      "MI2101 - Dibujo técnico",
+      "MI8304 - Máquinas y equipos",
+      "SO4702 - Seguridad eléctrica"
+    ]
+  },
+  {
+    "nombre": "BERROCAL JIMENEZ ALEXANDER",
+    "cursos": [
+      "FO3132 - Entomología y patología forestales"
+    ]
+  },
+  {
+    "nombre": "BINNS HERNANDEZ HENRY ALBERTO",
+    "cursos": [
+      "AE1122 - Contabilidad I"
+    ]
+  },
+  {
+    "nombre": "BLACKWOOD BARRETT AISHA JOHANNA",
+    "cursos": [
+      "CI1108 - Destrezas comunicativas del inglés para biotecnología I"
+    ]
+  },
+  {
+    "nombre": "BLANCO BENAMBURG RANDALL",
+    "cursos": [
+      "EM2604 - Geometría I"
+    ]
+  },
+  {
+    "nombre": "BLANCO LEITON HAROL",
+    "cursos": [
+      "SO3606 - Factores psicosociales"
+    ]
+  },
+  {
+    "nombre": "BOGANTES GARCIA FERNANDO",
+    "cursos": [
+      "SE1204 - Natación"
+    ]
+  },
+  {
+    "nombre": "BOGARIN NAVARRO RODRIGO",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "CA3125 - Análisis y diseño de algoritmos",
+      "IC2001 - Estructuras de datos"
+    ]
+  },
+  {
+    "nombre": "BOJORGE MURILLO ALEXANDER",
+    "cursos": [
+      "CS1502 - Introducción a la técnica ciencia y tecnología",
+      "CS3404 - Seminario de ética para la ingeniería"
+    ]
+  },
+  {
+    "nombre": "BONILLA GUIDO FRANCISCO",
+    "cursos": [
+      "MI2101 - Dibujo técnico",
+      "MI3104 - Laboratorio procesos de manufactura"
+    ]
+  },
+  {
+    "nombre": "BONILLA SOTO LUIS CARLOS",
+    "cursos": [
+      "FH0053 - Patrimonio e identidad cultural"
+    ]
+  },
+  {
+    "nombre": "BORBON ALPIZAR ALEXANDER",
+    "cursos": [
+      "MA2104 - Cálculo superior"
+    ]
+  },
+  {
+    "nombre": "BRENES BONILLA JARY",
+    "cursos": [
+      "PI4303 - Control de producción",
+      "PI4309 - Planeación y diseño de instalaciones"
+    ]
+  },
+  {
+    "nombre": "BRENES BRENES JOSE ALEXANDER",
+    "cursos": [
+      "IC1802 - Introducción a la programación",
+      "IC1803 - Taller de programación"
+    ]
+  },
+  {
+    "nombre": "BRENES BRENES RONALD",
+    "cursos": [
+      "CM4309 - Corrosión y protección de materiales",
+      "CM4802 - Gestión de proyectos"
+    ]
+  },
+  {
+    "nombre": "BRENES CATALAN JOSE",
+    "cursos": [
+      "ID1101 - Análisis de producto I",
+      "ID2301 - Principios estructurales",
+      "ID3113 - Biónica y eco-diseño"
+    ]
+  },
+  {
+    "nombre": "BRENES CERVANTES IVANNIA",
+    "cursos": [
+      "AE4208 - Desarrollo de emprendedores"
+    ]
+  },
+  {
+    "nombre": "BRENES GOMEZ  RANDALL",
+    "cursos": [
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA2105 - Ecuaciones diferenciales"
+    ]
+  },
+  {
+    "nombre": "BRENES MADRIZ  JAIME",
+    "cursos": [
+      "IB3404 - Aplicación de sistemas de producción agrícola",
+      "IB3405 - Laboratorio aplicación de sistemas de producción agrícola"
+    ]
+  },
+  {
+    "nombre": "BRENES MORALES ORLANDO",
+    "cursos": [
+      "AN3006 - Investigación de operaciones en agronegocios",
+      "PI2608 - Análisis estadístico",
+      "PI3501 - Costos Industriales I"
+    ]
+  },
+  {
+    "nombre": "BRENES NAVARRO BALAM",
+    "cursos": [
+      "PI3407 - Computación industrial",
+      "PI4505 - Análisis económico"
+    ]
+  },
+  {
+    "nombre": "BRENES NAVARRO DAVID HUMBERTO",
+    "cursos": [
+      "AA2302 - Contabilidad de costos aplicada"
+    ]
+  },
+  {
+    "nombre": "BRENES ROJAS LEONARDO",
+    "cursos": [
+      "CI1230 - Inglés I",
+      "CI1231 - Inglés II",
+      "CI1305 - Inglés I para administración"
+    ]
+  },
+  {
+    "nombre": "BRENES SANCHEZ RONALD",
+    "cursos": [
+      "AE2220 - Análisis administrativo",
+      "AE3505 - Metodología de la investigación"
+    ]
+  },
+  {
+    "nombre": "BRENES TORRES JUAN CARLOS",
+    "cursos": [
+      "EM1613 - Tecnologías digitales aplicadas a la matemática educativa III",
+      "MT3002 - Laboratorio de electrónica analógica",
+      "MT8005 - Robótica",
+      "MT9005 - Simulación procesos industriales"
+    ]
+  },
+  {
+    "nombre": "BROWN RICHARDS ENOS",
+    "cursos": [
+      "AE3223 - Gestión del talento humano I"
+    ]
+  },
+  {
+    "nombre": "BULGARELLI BOLAÑOS JOSE PABLO",
+    "cursos": [
+      "AU4408 - Urbanismo ordenamiento territorial I"
+    ]
+  },
+  {
+    "nombre": "CABALLERO CHAVARRIA ANDREY",
+    "cursos": [
+      "AI3109 - Laboratorio de tratamiento de agua potable y residual",
+      "AI4103 - Laboratorio de ingeniería en emisiones atmosféricas"
+    ]
+  },
+  {
+    "nombre": "CABRERA ARAYA GUSTAVO ALCIDES",
+    "cursos": [
+      "SE1205 - Juegos y deportes en conjunto",
+      "SE1219 - Baloncesto recreativo"
+    ]
+  },
+  {
+    "nombre": "CABRERA SANDOVAL MARCO",
+    "cursos": [
+      "AU2006 - Planos y especificaciones técnicas",
+      "CO2201 - Dibujo",
+      "GP2527 - BIM y la gestión de proyectos de construcción"
+    ]
+  },
+  {
+    "nombre": "CALDERON ACUÑA ERICK",
+    "cursos": [
+      "AU1904 - Composición urbana I"
+    ]
+  },
+  {
+    "nombre": "CALDERON ARCE CINDY",
+    "cursos": [
+      "CM3207 - Métodos numéricos para ingeniería"
+    ]
+  },
+  {
+    "nombre": "CALDERON CERDAS RUBEN ALFONSO",
+    "cursos": [
+      "AN3007 - Cultivos hortícolas",
+      "AN4007 - Cultivos no tradicionales y tecnologías alternativas"
+    ]
+  },
+  {
+    "nombre": "CALDERON FERREY MARTHA",
+    "cursos": [
+      "CS1308 - Derecho comercial",
+      "CS2303 - Relaciones laborales"
+    ]
+  },
+  {
+    "nombre": "CALDERON RAMIREZ SAUL",
+    "cursos": [
+      "IC6200 - Inteligencia artificial"
+    ]
+  },
+  {
+    "nombre": "CALDERON SOLANO MANUEL",
+    "cursos": [
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA1304 - Cálculo para administración"
+    ]
+  },
+  {
+    "nombre": "CALLEJA AMADOR CARLOS ENRIQUE",
+    "cursos": [
+      "QU1102 - Laboratorio de química básica I",
+      "QU1106 - Química básica I"
+    ]
+  },
+  {
+    "nombre": "CALVO CASTRO LAURA",
+    "cursos": [
+      "IB4201 - Cultivo de tejidos II"
+    ]
+  },
+  {
+    "nombre": "CALVO QUIROS ANGELINE",
+    "cursos": [
+      "TR4232 - Innovación de productos turísticos"
+    ]
+  },
+  {
+    "nombre": "CAMACHO ARIAS ARIADNE",
+    "cursos": [
+      "CI1407 - Habilidades de comunicación en Ingeniería"
+    ]
+  },
+  {
+    "nombre": "CAMACHO CORNEJO DIEGO",
+    "cursos": [
+      "FO3210 - Gestión de administración forestal",
+      "FO4412 - Mercadeo y comercialización de productos forestales"
+    ]
+  },
+  {
+    "nombre": "CAMBRONERO CORDERO MICHAEL",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI1201 - Laboratorio física general I"
+    ]
+  },
+  {
+    "nombre": "CAMPOS AGUERO CRISTIAN",
+    "cursos": [
+      "IC4302 - Bases de datos II",
+      "IC6600 - Principios de sistemas operativos",
+      "IC8071 - Seguridad del software"
+    ]
+  },
+  {
+    "nombre": "CAMPOS AGUILAR JOSE ANGEL",
+    "cursos": [
+      "IC5821 - Requerimientos de software",
+      "IC6821 - Diseño de software"
+    ]
+  },
+  {
+    "nombre": "CAMPOS ARAYA GERARDO NEREO",
+    "cursos": [
+      "IC4302 - Bases de datos II",
+      "IC7602 - Redes"
+    ]
+  },
+  {
+    "nombre": "CAMPOS CHAVARRIA BENJAMIN",
+    "cursos": [
+      "CS1502 - Introducción a la técnica ciencia y tecnología",
+      "CS2101 - Ambiente humano",
+      "CS4402 - Seminario de estudios costarricenses",
+      "FH0224 - Análisis critico de la revolución virtual"
+    ]
+  },
+  {
+    "nombre": "CAMPOS FERNANDEZ IVAN",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "IC2101 - Programación orientada a objetos"
+    ]
+  },
+  {
+    "nombre": "CAMPOS FUENTES MARVIN",
+    "cursos": [
+      "IC5821 - Requerimientos de software"
+    ]
+  },
+  {
+    "nombre": "CAMPOS NAVARRO JUAN PABLO",
+    "cursos": [
+      "AI3111 - Administración de proyectos de infraestructura ambiental"
+    ]
+  },
+  {
+    "nombre": "CAMPOS RODRIGUEZ MELANIA",
+    "cursos": [
+      "FI1201 - Laboratorio física general I"
+    ]
+  },
+  {
+    "nombre": "CAMPOS RODRIGUEZ ROOEL",
+    "cursos": [
+      "AN4006 - Gestión ambiental en agronegocios"
+    ]
+  },
+  {
+    "nombre": "CANESSA MONTERO EDUARDO ADOLFO",
+    "cursos": [
+      "IC1802 - Introducción a la programación",
+      "IC1803 - Taller de programación",
+      "IC3101 - Arquitectura de computadores",
+      "IC7602 - Redes"
+    ]
+  },
+  {
+    "nombre": "CARDINALE VILLALOBOS LEONARDO",
+    "cursos": [
+      "EL5856 - Taller de circuitos electrónicos para sistemas energéticos"
+    ]
+  },
+  {
+    "nombre": "CARMONA PINEDA MAIRIM",
+    "cursos": [
+      "CS4402 - Seminario de estudios costarricenses"
+    ]
+  },
+  {
+    "nombre": "CARPIO CHAVES MONICA",
+    "cursos": [
+      "SO2601 - Fundamentos de seguridad e higiene ocupacional",
+      "SO4604 - Seguridad y salud ocupacional"
+    ]
+  },
+  {
+    "nombre": "CARRANZA SOLANO MAURICIO",
+    "cursos": [
+      "CO4406 - Estructuras de mampostería",
+      "CO5013 - Análisis estructural"
+    ]
+  },
+  {
+    "nombre": "CARRASQUILLA BATISTA ARYS INDIRA",
+    "cursos": [
+      "MT8002 - Automatización y redes industriales"
+    ]
+  },
+  {
+    "nombre": "CARRERA RETANA LUIS ERNESTO",
+    "cursos": [
+      "EL4513 - Teoría electromagnética I",
+      "MA0101 - Matemática general",
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA2104 - Cálculo superior"
+    ]
+  },
+  {
+    "nombre": "CARVAJAL ALFARO VANESSA",
+    "cursos": [
+      "FH0016 - El desarrollo de la ciencia en Costa Rica",
+      "IB3210 - Sistemas ecológicos",
+      "NE0001 - Historia natural de Costa Rica"
+    ]
+  },
+  {
+    "nombre": "CARVAJAL GODINEZ JOHAN",
+    "cursos": [
+      "EL5841 - Taller de sistemas embebidos"
+    ]
+  },
+  {
+    "nombre": "CARVAJAL VANEGAS DORIAN",
+    "cursos": [
+      "FO1106 - Climatología forestal",
+      "FO2201 - Levantamiento forestal"
+    ]
+  },
+  {
+    "nombre": "CARVAJAL VILLAPLANA ALVARO",
+    "cursos": [
+      "CS3401 - Seminario de estudios filosóficos históricos"
+    ]
+  },
+  {
+    "nombre": "CASASOLA RIVERA WILMER",
+    "cursos": [
+      "CS3404 - Seminario de ética para la ingeniería"
+    ]
+  },
+  {
+    "nombre": "CASTILLO FALLAS JOSE CARLOS",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI1201 - Laboratorio física general I",
+      "FI2103 - Física general III"
+    ]
+  },
+  {
+    "nombre": "CASTILLO RODRIGUEZ LARISSA",
+    "cursos": [
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "CASTILLO ULATE ELENA",
+    "cursos": [
+      "SE1105 - Artes musicales"
+    ]
+  },
+  {
+    "nombre": "CASTRO BADILLA GUILLERMO",
+    "cursos": [
+      "EL1200 - Introducción a la electrónica",
+      "EL2111 - Laboratorio de circuitos eléctricos",
+      "EL2207 - Elementos activos",
+      "EL5610 - Taller integrador"
+    ]
+  },
+  {
+    "nombre": "CASTRO CHACON ESTEBAN",
+    "cursos": [
+      "AU1503 - Composición arquitectónica I",
+      "AU1701 - Laboratorio de proyectos IV, espacio arquitectónico"
+    ]
+  },
+  {
+    "nombre": "CASTRO FERNANDEZ PEDRO",
+    "cursos": [
+      "CO5032 - Construcción de pavimentos"
+    ]
+  },
+  {
+    "nombre": "CASTRO GODINEZ JORGE ALBERTO",
+    "cursos": [
+      "MT4002 - Laboratorio electrónica digital"
+    ]
+  },
+  {
+    "nombre": "CASTRO MORA JOSE",
+    "cursos": [
+      "IC3002 - Análisis de algoritmos",
+      "IC4700 - Lenguajes de programación",
+      "IC6200 - Inteligencia artificial"
+    ]
+  },
+  {
+    "nombre": "CASTRO PIEDRA SILVIA",
+    "cursos": [
+      "IB4805 - Fundamentos de anatomía y desarrollo animal"
+    ]
+  },
+  {
+    "nombre": "CASTRO ROLDAN MARVIN",
+    "cursos": [
+      "CA2125 - Elementos de computación"
+    ]
+  },
+  {
+    "nombre": "CAVERO QUESADA ANDREA",
+    "cursos": [
+      "PI3403 - Sistema de información"
+    ]
+  },
+  {
+    "nombre": "CEDEÑO CAMACHO MAURICIO",
+    "cursos": [
+      "CS3401 - Seminario de estudios filosóficos históricos",
+      "CS3404 - Seminario de ética para la ingeniería",
+      "CS3406 - Seminario de ética para administración de empresas",
+      "TS1202 - Equidad y participación social"
+    ]
+  },
+  {
+    "nombre": "CENTENO CERDAS CAROLINA",
+    "cursos": [
+      "IB3601 - Bioquímica",
+      "IB3603 - Laboratorio de bioquímica"
+    ]
+  },
+  {
+    "nombre": "CERDAS QUESADA IVANNIA",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "IC1802 - Introducción a la programación",
+      "IC1803 - Taller de programación",
+      "IC2001 - Estructuras de datos"
+    ]
+  },
+  {
+    "nombre": "CERVANTES MEZA ALBERTO",
+    "cursos": [
+      "AE1122 - Contabilidad I",
+      "AE2124 - Contabilidad III",
+      "AE2126 - Contabilidad de costos I",
+      "LA6013 - Trabajo final de graduación énfasis contaduría pública"
+    ]
+  },
+  {
+    "nombre": "CESPEDES CAMACHO ISAAC FABIAN",
+    "cursos": [
+      "AI3212 - Termodinámica y cinética ambiental",
+      "QU2407 - Fundamentos de química orgánica"
+    ]
+  },
+  {
+    "nombre": "CESPEDES OBANDO FRANCISCO",
+    "cursos": [
+      "TR3235 - Planificación del turismo"
+    ]
+  },
+  {
+    "nombre": "CHACON CERDAS RANDALL",
+    "cursos": [
+      "IB2113 - Análisis estadístico para biotecnología"
+    ]
+  },
+  {
+    "nombre": "CHACON MATA ALFONSO",
+    "cursos": [
+      "CS2303 - Relaciones laborales",
+      "CS2304 - Derecho laboral"
+    ]
+  },
+  {
+    "nombre": "CHACON RIVAS  MARIO",
+    "cursos": [
+      "IC5821 - Requerimientos de software",
+      "IC6821 - Diseño de software",
+      "IC6831 - Aseguramiento de la calidad del software"
+    ]
+  },
+  {
+    "nombre": "CHACON RODRIGUEZ ALFONSO",
+    "cursos": [
+      "EL3307 - Diseño lógico",
+      "EL5807 - Introducción al diseño de circuitos integrados"
+    ]
+  },
+  {
+    "nombre": "CHACON ROJAS FERNANDO",
+    "cursos": [
+      "PI5516 - Ingeniería económica"
+    ]
+  },
+  {
+    "nombre": "CHACON VARGAS ERICK",
+    "cursos": [
+      "MA1304 - Cálculo para administración",
+      "MA3405 - Estadística"
+    ]
+  },
+  {
+    "nombre": "CHANG ALBIZUREZ DOMINIQUE",
+    "cursos": [
+      "AU1501 - Laboratorio de proyectos II, Composición arquitectural"
+    ]
+  },
+  {
+    "nombre": "CHAVARRIA HIDALGO CARLOS",
+    "cursos": [
+      "AE2311 - Macroeconomía",
+      "AE3312 - Negocios internacionales",
+      "LA5301 - Políticas económicas"
+    ]
+  },
+  {
+    "nombre": "CHAVARRIA MOLINA JEFFRY",
+    "cursos": [
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA3106 - Métodos numéricos"
+    ]
+  },
+  {
+    "nombre": "CHAVARRIA PIZARRO LAURA",
+    "cursos": [
+      "IB3210 - Sistemas ecológicos",
+      "IB4815 - Insectos en biotecnología"
+    ]
+  },
+  {
+    "nombre": "CHAVARRIA SANCHEZ LUIS JAVIER",
+    "cursos": [
+      "IC2101 - Programación orientada a objetos",
+      "TI2201 - Programación orientada a objetos",
+      "TI5501 - Diseño de software",
+      "TI8515 - Inteligencia Artificial en Sistemas de Información"
+    ]
+  },
+  {
+    "nombre": "CHAVARRIA VIDAL ADRIAN",
+    "cursos": [
+      "IA2106 - Sistemas de producción agrícola",
+      "IA3105 - Relación suelo-agua-planta",
+      "IA4315 - Manejo de suelos, aguas y diseño de obras de conservación"
+    ]
+  },
+  {
+    "nombre": "CHAVARRIA ZAMORA LUIS",
+    "cursos": [
+      "CE1107 - Fundamentos de Arquitectura de Computadores",
+      "CE1110 - Análisis de señales mixtas",
+      "CE1112 - Taller de señales mixtas",
+      "CE4302 - Arquitectura de computadores II"
+    ]
+  },
+  {
+    "nombre": "CHAVERRI FLORES LAURA",
+    "cursos": [
+      "AU1303 - Historia del arte y la arquitectura I"
+    ]
+  },
+  {
+    "nombre": "CHAVERRI QUIROS OSCAR",
+    "cursos": [
+      "CM5901 - Ensayos no destructivos"
+    ]
+  },
+  {
+    "nombre": "CHAVES ABARCA RANDALL",
+    "cursos": [
+      "AN2004 - Laboratorio de bioquímica agroalimentaria"
+    ]
+  },
+  {
+    "nombre": "CHAVES ALVAREZ MARCELA MARIA",
+    "cursos": [
+      "FI2103 - Física general III",
+      "MI2109 - Estática"
+    ]
+  },
+  {
+    "nombre": "CHAVES BARQUERO LUIS GERARDO",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II",
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "CHAVES JIMENEZ ADOLFO",
+    "cursos": [
+      "EL5408 - Control automático",
+      "EL5409 - Laboratorio de control automático"
+    ]
+  },
+  {
+    "nombre": "CHAVES NOGUERA JUAN SCOTT",
+    "cursos": [
+      "EL4607 - Normalización técnica (estándares industriales)",
+      "EL5610 - Taller integrador"
+    ]
+  },
+  {
+    "nombre": "CHAVES SALAS LEONEL ROLANDO",
+    "cursos": [
+      "MA3405 - Estadística"
+    ]
+  },
+  {
+    "nombre": "CHICAS ROMERO MAURICIO",
+    "cursos": [
+      "BL1201 - Metodologías de investigación",
+      "IB3107 - Microbiología industrial"
+    ]
+  },
+  {
+    "nombre": "CHINCHILLA VALVERDE JORGE LUIS",
+    "cursos": [
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA1303 - Matemática básica para administración"
+    ]
+  },
+  {
+    "nombre": "CHINCHILLA VARGAS ERICK GUSTAVO",
+    "cursos": [
+      "EL2114 - Circuitos eléctricos en corriente alterna"
+    ]
+  },
+  {
+    "nombre": "CHINE POLITO BRUNO",
+    "cursos": [
+      "CM3207 - Métodos numéricos para ingeniería",
+      "CM4101 - Modelación y simulación",
+      "CM4701 - Transferencia de calor y masa"
+    ]
+  },
+  {
+    "nombre": "CONTRERAS SANCHEZ CARLOS",
+    "cursos": [
+      "EL1200 - Introducción a la electrónica"
+    ]
+  },
+  {
+    "nombre": "CORDERO CASTILLO DAMARIS",
+    "cursos": [
+      "AE4226 - Estrategia empresarial"
+    ]
+  },
+  {
+    "nombre": "CORDERO GARCIA IVAN GABRIEL",
+    "cursos": [
+      "EL4513 - Teoría electromagnética I",
+      "FI1101 - Física general I",
+      "FI1201 - Laboratorio física general I"
+    ]
+  },
+  {
+    "nombre": "CORDERO MAROTO NELSON",
+    "cursos": [
+      "SE1218 - Ajedrez"
+    ]
+  },
+  {
+    "nombre": "CORDERO MEZA HAROLD",
+    "cursos": [
+      "PI3308 - Estudio del trabajo II",
+      "PI3502 - Costos industriales II",
+      "PI4802 - Administración de proyectos"
+    ]
+  },
+  {
+    "nombre": "CORDERO QUIROS MARCIAL",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "CORDOBA ARTAVIA OSCAR",
+    "cursos": [
+      "AE2506 - Estadística II",
+      "AE4208 - Desarrollo de emprendedores"
+    ]
+  },
+  {
+    "nombre": "CORDOBA GONZALEZ CARLOS MANUEL",
+    "cursos": [
+      "LA5227 - Desarrollo gerencial",
+      "PI4001 - Dirección de personal"
+    ]
+  },
+  {
+    "nombre": "CORDOBA RAMIREZ LUIS FELIPE",
+    "cursos": [
+      "MI2101 - Dibujo técnico",
+      "MI3103 - Procesos de manufactura",
+      "MI3104 - Laboratorio procesos de manufactura"
+    ]
+  },
+  {
+    "nombre": "CORELLA ESQUIVEL KARINA",
+    "cursos": [
+      "CI1106 - Comunicación escrita",
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "CORRALES BRENES REBECA",
+    "cursos": [
+      "CM2402 - Laboratorio de metalurgia física",
+      "CM5241 - Tecnología de recubrimientos y capas delgadas"
+    ]
+  },
+  {
+    "nombre": "CORRALES QUESADA ESTEBAN",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI1102 - Física general II"
+    ]
+  },
+  {
+    "nombre": "CORTES MIXTER JULIO",
+    "cursos": [
+      "AE2506 - Estadística II"
+    ]
+  },
+  {
+    "nombre": "CORTES SEAS JONATHAN",
+    "cursos": [
+      "IC4301 - Bases de datos I"
+    ]
+  },
+  {
+    "nombre": "COTO CALDERON ROLEN JESUS",
+    "cursos": [
+      "EL3313 - Taller de diseño digital"
+    ]
+  },
+  {
+    "nombre": "COTO CORTES ANIBAL",
+    "cursos": [
+      "EL4514 - Teoría electromagnética II"
+    ]
+  },
+  {
+    "nombre": "COTO GUZMAN ALICIA",
+    "cursos": [
+      "SE1104 - Artes visuales",
+      "SE1107 - Apreciación de cine"
+    ]
+  },
+  {
+    "nombre": "COTO SARMIENTO LAURA",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "IC1802 - Introducción a la programación",
+      "IC1803 - Taller de programación"
+    ]
+  },
+  {
+    "nombre": "CRESPO MARINO JUAN LUIS",
+    "cursos": [
+      "MT8008 - Inteligencia artificial",
+      "MT9001 - Diseño de sistemas mecatrónicos",
+      "MT9008 - Sistemas de visión"
+    ]
+  },
+  {
+    "nombre": "CUBERO SESIN JORGE MAURICIO",
+    "cursos": [
+      "CM4801 - Caracterización de materiales"
+    ]
+  },
+  {
+    "nombre": "CUBERO UGALDE MARCELA",
+    "cursos": [
+      "ID2302 - Procesos de manufactura I",
+      "ID3110 - Diseño IV",
+      "ID5511 - Trabajo final de graduación (productos)"
+    ]
+  },
+  {
+    "nombre": "CUBILLO MORALES DANIER",
+    "cursos": [
+      "PI2304 - Estudio del trabajo I",
+      "PI4309 - Planeación y diseño de instalaciones"
+    ]
+  },
+  {
+    "nombre": "CUBILLO SALAS GUSTAVO",
+    "cursos": [
+      "AE3415 - Investigación de mercados"
+    ]
+  },
+  {
+    "nombre": "CUEVAS KAUFFMANN ROMMEL LEZING",
+    "cursos": [
+      "CO3403 - Concreto"
+    ]
+  },
+  {
+    "nombre": "DANIELS CHAN ESTEBAN",
+    "cursos": [
+      "PI2304 - Estudio del trabajo I",
+      "PI3206 - Logística y administración de la cadena de abastecimiento",
+      "PI5708 - Gestión por procesos"
+    ]
+  },
+  {
+    "nombre": "DE LA O CORDERO DYALA",
+    "cursos": [
+      "AE1122 - Contabilidad I",
+      "AE3505 - Metodología de la investigación"
+    ]
+  },
+  {
+    "nombre": "DE LA O TORRES MARVIN",
+    "cursos": [
+      "AE4130 - Formulación y evaluación de proyectos"
+    ]
+  },
+  {
+    "nombre": "DE SIMONE CASTELLON ALEXANDRA",
+    "cursos": [
+      "SE1101 - Artes dramáticas"
+    ]
+  },
+  {
+    "nombre": "DEL VALLE GRANADOS IGNACIO",
+    "cursos": [
+      "MI3108 - Mecánica de fluidos",
+      "MI3130 - Termodinámica",
+      "MI8304 - Máquinas y equipos",
+      "MT6002 - Termofluidos"
+    ]
+  },
+  {
+    "nombre": "DELGADO LEANDRO GONZALO",
+    "cursos": [
+      "TI1201 - Comportamiento organizacional y talento humano",
+      "TI4101 - Planificación y presupuesto",
+      "TI8509 - Habilidades directivas para el administrador de tecnología de la información"
+    ]
+  },
+  {
+    "nombre": "DIAZ BRENES NELSON",
+    "cursos": [
+      "SE1104 - Artes visuales",
+      "SE1107 - Apreciación de cine"
+    ]
+  },
+  {
+    "nombre": "DIAZ GUTIERREZ CARLOS",
+    "cursos": [
+      "AE4130 - Formulación y evaluación de proyectos"
+    ]
+  },
+  {
+    "nombre": "DITTEL MEZA FERNANDO",
+    "cursos": [
+      "CM4202 - Laboratorio tecnología aleaciones metálicas"
+    ]
+  },
+  {
+    "nombre": "DUARTE NUÑEZ KAREN MELISSA",
+    "cursos": [
+      "AE4541 - Impuestos en Costa Rica"
+    ]
+  },
+  {
+    "nombre": "DURAN MORA JOAQUIN",
+    "cursos": [
+      "AG3223 - Protección de cultivos II"
+    ]
+  },
+  {
+    "nombre": "ECHEVERRIA BEIRUTE FABIAN",
+    "cursos": [
+      "AG2201 - Fisiología vegetal"
+    ]
+  },
+  {
+    "nombre": "EDUARTE RODRIGUEZ DAVID",
+    "cursos": [
+      "CS4402 - Seminario de estudios costarricenses"
+    ]
+  },
+  {
+    "nombre": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+    "cursos": [
+      "MT5004 - Laboratorio de electrónica de potencia aplicada",
+      "MT7002 - Sensores y actuadores"
+    ]
+  },
+  {
+    "nombre": "ELIZONDO ZUÑIGA JENNIFER",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI1201 - Laboratorio física general I"
+    ]
+  },
+  {
+    "nombre": "ESPINOZA RODRIGUEZ FABIANA",
+    "cursos": [
+      "PI3403 - Sistema de información",
+      "PI3502 - Costos industriales II"
+    ]
+  },
+  {
+    "nombre": "ESQUIVEL SAMUDIO JEISON",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA2104 - Cálculo superior"
+    ]
+  },
+  {
+    "nombre": "ESQUIVEL SEGURA EDWIN",
+    "cursos": [
+      "AG2203 - Edafología",
+      "AG4703 - Sistemas de producción de cultivos perennes"
+    ]
+  },
+  {
+    "nombre": "ESQUIVEL VARGAS HERSON",
+    "cursos": [
+      "IC8071 - Seguridad del software"
+    ]
+  },
+  {
+    "nombre": "FAITH VARGAS MARGIE",
+    "cursos": [
+      "AE3505 - Metodología de la investigación",
+      "AE4208 - Desarrollo de emprendedores"
+    ]
+  },
+  {
+    "nombre": "FALLAS ALVAREZ ERICK",
+    "cursos": [
+      "AG4705 - Sistemas de producción de granos básicos"
+    ]
+  },
+  {
+    "nombre": "FALLAS MONGE JUAN JOSE",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA1403 - Matemática discreta"
+    ]
+  },
+  {
+    "nombre": "FALLAS VARGAS FABRICIO",
+    "cursos": [
+      "CS3401 - Seminario de estudios filosóficos históricos"
+    ]
+  },
+  {
+    "nombre": "FARAH GUZMAN BILJHANA SHAKIRA",
+    "cursos": [
+      "PI2610 - Probabilidad y estadística I",
+      "PI3603 - Investigación de operaciones I",
+      "PI5516 - Ingeniería económica"
+    ]
+  },
+  {
+    "nombre": "FERNANDEZ AGUILAR JADVY",
+    "cursos": [
+      "AE2220 - Análisis administrativo",
+      "AE3223 - Gestión del talento humano I"
+    ]
+  },
+  {
+    "nombre": "FERNANDEZ CERDAS SERGIO",
+    "cursos": [
+      "CO3304 - Laboratorio mecánica de suelos I",
+      "CO5032 - Construcción de pavimentos"
+    ]
+  },
+  {
+    "nombre": "FERNANDEZ CHAVES ROBERTO",
+    "cursos": [
+      "CM3602 - Tecnología de aleaciones metálicas",
+      "ME3209 - Laboratorio de tecnología de materiales"
+    ]
+  },
+  {
+    "nombre": "FERNANDEZ DE CASTRO NATAN",
+    "cursos": [
+      "IC8071 - Seguridad del software"
+    ]
+  },
+  {
+    "nombre": "FERNANDEZ MORA LADY",
+    "cursos": [
+      "TR4233 - Organización comunal y turismo"
+    ]
+  },
+  {
+    "nombre": "FERNANDEZ RIVAS LUIS ANTONIO",
+    "cursos": [
+      "SO2404 - Procesos de manufactura",
+      "SO4604 - Seguridad y salud ocupacional",
+      "SO5902 - Sistemas integrados de gestión"
+    ]
+  },
+  {
+    "nombre": "FERNANDEZ RODRIGUEZ JOSE MIGUEL",
+    "cursos": [
+      "EL5609 - Formulación de proyectos"
+    ]
+  },
+  {
+    "nombre": "FERNANDEZ RODRIGUEZ MARCELA",
+    "cursos": [
+      "QU1102 - Laboratorio de química básica I",
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "FERRETO GUTIERREZ EUGENIA",
+    "cursos": [
+      "AE4228 - Gestión del talento humano II"
+    ]
+  },
+  {
+    "nombre": "FIGUEROA MATA GEOVANNI",
+    "cursos": [
+      "MA1103 - Cálculo y álgebra lineal"
+    ]
+  },
+  {
+    "nombre": "FLETES GALAN WILBERTH",
+    "cursos": [
+      "AE3127 - Administración financiera I"
+    ]
+  },
+  {
+    "nombre": "FLORES CALDERON ARDUI",
+    "cursos": [
+      "CI1230 - Inglés I",
+      "CI2308 - Inglés IV para administración"
+    ]
+  },
+  {
+    "nombre": "FLORES CANTILLO ADRIAN",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II",
+      "QU2604 - Química ambiental y analítica"
+    ]
+  },
+  {
+    "nombre": "FONSECA CRUZ JOSE",
+    "cursos": [
+      "EL3217 - Taller de diseño analógico"
+    ]
+  },
+  {
+    "nombre": "FONSECA RETANA LEONEL",
+    "cursos": [
+      "PI4802 - Administración de proyectos"
+    ]
+  },
+  {
+    "nombre": "FONT CRUZ EDUARDO",
+    "cursos": [
+      "IF3502 - Instrumentación I",
+      "IF3503 - Instrumentación II"
+    ]
+  },
+  {
+    "nombre": "FRANCESCHI SOJO KATTIA",
+    "cursos": [
+      "CS4402 - Seminario de estudios costarricenses"
+    ]
+  },
+  {
+    "nombre": "FREER PANIAGUA DYLANA",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA1103 - Cálculo y álgebra lineal"
+    ]
+  },
+  {
+    "nombre": "FUENTES AGUILAR OLMAN",
+    "cursos": [
+      "CO2202 - Topografía"
+    ]
+  },
+  {
+    "nombre": "FUENTES MORA ESTEBAN",
+    "cursos": [
+      "CI1231 - Inglés II",
+      "CI2308 - Inglés IV para administración",
+      "CI3202 - Inglés para mecatrónica"
+    ]
+  },
+  {
+    "nombre": "GALINDO BADILLA JAIME",
+    "cursos": [
+      "AG2101 - Anatomía y fisiología animal para agronomía"
+    ]
+  },
+  {
+    "nombre": "GAMBOA ALFARO MARVIN RICARDO",
+    "cursos": [
+      "FI1102 - Física general II",
+      "FI1202 - Laboratorio física general II",
+      "NE1006 - Física para Agronomía"
+    ]
+  },
+  {
+    "nombre": "GAMBOA BADILLA NANCY",
+    "cursos": [
+      "FO3307 - Biología de la conservación",
+      "FO5049 - Seminario de graduación"
+    ]
+  },
+  {
+    "nombre": "GAMBOA CUBERO LUIS MAURICIO",
+    "cursos": [
+      "TI3801 - Administración de proyectos II"
+    ]
+  },
+  {
+    "nombre": "GAMBOA MURILLO MARIANELA",
+    "cursos": [
+      "AN1004 - Gestión en agronegocios",
+      "AN4005 - Procesado productos pecuarios"
+    ]
+  },
+  {
+    "nombre": "GAMBOA RAMIREZ SANTIAGO",
+    "cursos": [
+      "CE1103 - Algoritmos y estructuras de datos I",
+      "CE1106 - Paradigmas de programación"
+    ]
+  },
+  {
+    "nombre": "GARCES MONGE LUIS IGNACIO",
+    "cursos": [
+      "PI4307 - Control de calidad",
+      "PI4309 - Planeación y diseño de instalaciones"
+    ]
+  },
+  {
+    "nombre": "GARCIA BALTODANO KENIA",
+    "cursos": [
+      "AU1502 - Introducción a la investigación"
+    ]
+  },
+  {
+    "nombre": "GARCIA DELGADO PAULO",
+    "cursos": [
+      "MA2104 - Cálculo superior",
+      "MA2105 - Ecuaciones diferenciales"
+    ]
+  },
+  {
+    "nombre": "GARCIA RAMIREZ RONNY",
+    "cursos": [
+      "EL4314 - Arquitectura de computadoras I",
+      "EL5811 - Verificación funcional de circuitos integrados"
+    ]
+  },
+  {
+    "nombre": "GARCIA ROMERO SOFIA",
+    "cursos": [
+      "PI4001 - Dirección de personal"
+    ]
+  },
+  {
+    "nombre": "GARCIA ZAMORA ANTONIO",
+    "cursos": [
+      "FH0024 - Lo imaginario en el arte los sueños y la locura"
+    ]
+  },
+  {
+    "nombre": "GARITA ALPIZAR PABLO",
+    "cursos": [
+      "AE3415 - Investigación de mercados",
+      "AE3505 - Metodología de la investigación",
+      "AE4549 - Neuromarketing y neurociencia",
+      "PI3512 - Dirección de personal"
+    ]
+  },
+  {
+    "nombre": "GARITA CERDAS ADRIAN DAVID",
+    "cursos": [
+      "IA1203 - Dibujo técnico",
+      "IA5402 - Laboratorio de tractores y mecanización"
+    ]
+  },
+  {
+    "nombre": "GARITA GRANADOS CARLA",
+    "cursos": [
+      "AE4208 - Desarrollo de emprendedores"
+    ]
+  },
+  {
+    "nombre": "GARRO ABARCA VICTOR",
+    "cursos": [
+      "CA3125 - Análisis y diseño de algoritmos",
+      "IC2001 - Estructuras de datos"
+    ]
+  },
+  {
+    "nombre": "GARRO MONGE GEOVANNY",
+    "cursos": [
+      "IB4202 - Laboratorio de cultivo de tejidos II"
+    ]
+  },
+  {
+    "nombre": "GARRO REYES MAURICIO",
+    "cursos": [
+      "CS1502 - Introducción a la técnica ciencia y tecnología",
+      "CS3404 - Seminario de ética para la ingeniería"
+    ]
+  },
+  {
+    "nombre": "GARRO ZAVALETA JOSE ALBERTO",
+    "cursos": [
+      "MI3116 - Turbo máquinas",
+      "MI4125 - Laboratorio de sistemas de vapor",
+      "MI4129 - Sistemas de vapor",
+      "MT6003 - Laboratorio de termofluidos"
+    ]
+  },
+  {
+    "nombre": "GATJENS BONICHE OMAR",
+    "cursos": [
+      "BI1102 - Laboratorio de biología general",
+      "BI2301 - Genética",
+      "BI2303 - Laboratorio de genética"
+    ]
+  },
+  {
+    "nombre": "GATJENS SOTO KIRSTEIN",
+    "cursos": [
+      "IC1400 - Fundamentos de organización de computadoras",
+      "IC3101 - Arquitectura de computadores",
+      "IC4700 - Lenguajes de programación"
+    ]
+  },
+  {
+    "nombre": "GODINEZ ROJAS PAULETTE",
+    "cursos": [
+      "CI1107 - Comunicación oral",
+      "CI1407 - Habilidades de comunicación en Ingeniería"
+    ]
+  },
+  {
+    "nombre": "GOMEZ ASTORGA MARIA JOSE",
+    "cursos": [
+      "IA2202 - Estática",
+      "IA3004 - Trabajo final de graduación"
+    ]
+  },
+  {
+    "nombre": "GOMEZ CORDOBA CARLOS EDUARDO",
+    "cursos": [
+      "AN3004 - Fundamentos de agroindustria alimentaria"
+    ]
+  },
+  {
+    "nombre": "GOMEZ GUTIERREZ LUIS",
+    "cursos": [
+      "MI4210 - Laboratorio de control eléctrico",
+      "MI4212 - Instalaciones eléctricas"
+    ]
+  },
+  {
+    "nombre": "GOMEZ GUTIERREZ MARCO VINICIO",
+    "cursos": [
+      "AN4008 - Sistematización de datos en agronegocios"
+    ]
+  },
+  {
+    "nombre": "GOMEZ JIMENEZ ANDREA",
+    "cursos": [
+      "SE1101 - Artes dramáticas"
+    ]
+  },
+  {
+    "nombre": "GOMEZ MONTOYA CARLOS ANDRES",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1230 - Inglés I",
+      "CI1231 - Inglés II"
+    ]
+  },
+  {
+    "nombre": "GOMEZ RAMIREZ GUSTAVO",
+    "cursos": [
+      "MI2204 - Laboratorio de electricidad II"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ CAMACHO FEDERICO",
+    "cursos": [
+      "ID1206 - Modelado y simulación",
+      "ID2207 - Análisis del espacio tridimensional"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ ESPINOZA MANUEL",
+    "cursos": [
+      "AE2308 - Microeconomía"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ GOMEZ JEFERSON",
+    "cursos": [
+      "CE1113 - Sistemas empotrados",
+      "CE4301 - Arquitectura de computadores I",
+      "EL3313 - Taller de diseño digital"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ HERNANDEZ EDUARDO",
+    "cursos": [
+      "ME3209 - Laboratorio de tecnología de materiales"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ LEON BERNAL",
+    "cursos": [
+      "GP0102 - Formulación de proyectos"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ LEON JONATHAN",
+    "cursos": [
+      "LA8008 - Gestión del riesgo"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ MASIS JEIMY",
+    "cursos": [
+      "CM2402 - Laboratorio de metalurgia física",
+      "CM5221 - Biomateriales",
+      "ME2208 - Ciencias de los materiales",
+      "ME3209 - Laboratorio de tecnología de materiales"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ QUESADA MELVIN",
+    "cursos": [
+      "TI8902 - Adquisición de TI",
+      "TI8905 - Administración de servicios de tecnologías de información I"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ RAMIREZ MARIO",
+    "cursos": [
+      "ID3111 - Diseño V",
+      "ID3303 - Procesos de manufactura II",
+      "ID5515 - Taller de diseño integrado"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ VARGAS KARINA",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA1403 - Matemática discreta"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ VEGA MICHAEL ALBERTO",
+    "cursos": [
+      "EL3310 - Diseño de sistemas digitales"
+    ]
+  },
+  {
+    "nombre": "GONZALEZ ZUÑIGA RODOLFO",
+    "cursos": [
+      "CS3401 - Seminario de estudios filosóficos históricos",
+      "CS3404 - Seminario de ética para la ingeniería",
+      "CS3406 - Seminario de ética para administración de empresas"
+    ]
+  },
+  {
+    "nombre": "GRANADOS GOMEZ DONALD",
+    "cursos": [
+      "ID1118 - Fundamentos del diseño",
+      "ID1119 - Principios del diseño"
+    ]
+  },
+  {
+    "nombre": "GUADAMUZ BRENES SAUL",
+    "cursos": [
+      "EL1200 - Introducción a la electrónica",
+      "EL2114 - Circuitos eléctricos en corriente alterna",
+      "EL4514 - Teoría electromagnética II",
+      "EL5513 - Comunicaciones eléctricas I",
+      "EL5521 - Comunicaciones eléctricas II"
+    ]
+  },
+  {
+    "nombre": "GUADAMUZ MAYORGA CAROLINA",
+    "cursos": [
+      "AN2003 - Bioquímica agroalimentaria"
+    ]
+  },
+  {
+    "nombre": "GUERRERO  CASTRO OSVALDO",
+    "cursos": [
+      "MI2202 - Laboratorio de electricidad I",
+      "MI3206 - Laboratorio de máquinas eléctricas",
+      "MI3210 - Máquinas eléctricas",
+      "MT3003 - Máquinas eléctricas para mecatrónica",
+      "MT3004 - Laboratorio de máquinas eléctricas para mecatrónica"
+    ]
+  },
+  {
+    "nombre": "GUERRERO FERNANDEZ JUAN LUIS",
+    "cursos": [
+      "EL4419 - Análisis y control de sistemas lineales",
+      "EL5409 - Laboratorio de control automático",
+      "MI2106 - Estática"
+    ]
+  },
+  {
+    "nombre": "GUERRERO VARGAS LIGIA",
+    "cursos": [
+      "AE2219 - Comportamiento organizacional",
+      "AE2220 - Análisis administrativo"
+    ]
+  },
+  {
+    "nombre": "GUEVARA MURILLO MAURICIO",
+    "cursos": [
+      "AU4004 - Investigación dirigida",
+      "AU4533 - Práctica de vinculación"
+    ]
+  },
+  {
+    "nombre": "GUEVARA RODRIGUEZ GREGORIO",
+    "cursos": [
+      "MR2529 - Aguas subterráneas"
+    ]
+  },
+  {
+    "nombre": "GUILLEN GIRON TEODOLITO",
+    "cursos": [
+      "CM4305 - Tecnología de polímeros"
+    ]
+  },
+  {
+    "nombre": "GUILLEN JIMENEZ LUIS DIEGO",
+    "cursos": [
+      "CI1230 - Inglés I"
+    ]
+  },
+  {
+    "nombre": "GUILLEN MARTINEZ LUIS DIEGO",
+    "cursos": [
+      "FH0239 - La condición humana en nuestra época: ética y derechos humanos"
+    ]
+  },
+  {
+    "nombre": "GUILLEN MIRANDA ERICK",
+    "cursos": [
+      "AE4208 - Desarrollo de emprendedores",
+      "AE4226 - Estrategia empresarial"
+    ]
+  },
+  {
+    "nombre": "GUILLEN PEREZ CARLOS ENRIQUE",
+    "cursos": [
+      "CM3207 - Métodos numéricos para ingeniería",
+      "MA1102 - Cálculo diferencial e integral",
+      "MA2105 - Ecuaciones diferenciales"
+    ]
+  },
+  {
+    "nombre": "GUTIERREZ ALFARO JAIME",
+    "cursos": [
+      "IC7900 - Computación y sociedad",
+      "IC8058 - Sistemas de información geográfica"
+    ]
+  },
+  {
+    "nombre": "GUTIERREZ ESPINOZA KEVIN",
+    "cursos": [
+      "PI5402 - Automatización de manufactura"
+    ]
+  },
+  {
+    "nombre": "Gutierrez Fuentes Adrián",
+    "cursos": [
+      "SO3506 - Metodología investigación",
+      "SO4707 - Administración de proyectos",
+      "SO4803 - Evaluación y control de radiaciones e iluminación"
+    ]
+  },
+  {
+    "nombre": "GUTIERREZ MONTENEGRO MARCO VINICIO",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA1103 - Cálculo y álgebra lineal"
+    ]
+  },
+  {
+    "nombre": "GUTIERREZ RUIZ GRETTEL",
+    "cursos": [
+      "EM3409 - Práctica docente"
+    ]
+  },
+  {
+    "nombre": "GUZMAN ARIAS ISABEL",
+    "cursos": [
+      "IA3210 - Laboratorio de hidráulica"
+    ]
+  },
+  {
+    "nombre": "GUZMAN CONEJO JOSHUA",
+    "cursos": [
+      "MI2101 - Dibujo técnico",
+      "MI3138 - Máquinas y equipos"
+    ]
+  },
+  {
+    "nombre": "GUZMAN RIVERA DIEGO ANDRES",
+    "cursos": [
+      "AE3414 - Fundamentos de mercadeo",
+      "AE3415 - Investigación de mercados",
+      "LA7008 - Gestión de proyectos en mercadeo"
+    ]
+  },
+  {
+    "nombre": "HASBUM FERNANDEZ  IVANNIA",
+    "cursos": [
+      "PI2304 - Estudio del trabajo I",
+      "PI2609 - Probabilidad y estadística",
+      "PI3206 - Logística y administración de la cadena de abastecimiento",
+      "PI3308 - Estudio del trabajo II"
+    ]
+  },
+  {
+    "nombre": "HASBUN DEL VALLE DANIEL",
+    "cursos": [
+      "CS2303 - Relaciones laborales",
+      "CS2304 - Derecho laboral",
+      "CS3405 - Derecho informático y mercantil"
+    ]
+  },
+  {
+    "nombre": "HELO GUZMAN JOSE ELIAS",
+    "cursos": [
+      "IC3002 - Análisis de algoritmos",
+      "IC6400 - Investigación de operaciones"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ ALPIZAR LAURA",
+    "cursos": [
+      "QU1102 - Laboratorio de química básica I"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ ARAYA JESUS",
+    "cursos": [
+      "LE1206 - Metodología de la investigación"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ BONILLA ERICK",
+    "cursos": [
+      "IC4302 - Bases de datos II",
+      "IC6831 - Aseguramiento de la calidad del software"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ CARVAJAL ERICK",
+    "cursos": [
+      "IB2503 - Biotecnología y genética humana",
+      "IB4101 - Biología molecular aplicada",
+      "IB4106 - Laboratorio de biología molecular aplicada"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ CASTRO FRANKLIN",
+    "cursos": [
+      "ID4601 - Diseño de comunicación visual VII",
+      "ID5602 - Teoría del diseño de la información"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ GONZALEZ VICTOR JULIO",
+    "cursos": [
+      "MI2101 - Dibujo técnico",
+      "MI3124 - Dibujo industrial"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ GRANADOS JUAN BAUTISTA",
+    "cursos": [
+      "PI5402 - Automatización de manufactura"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ PARRA DAVID",
+    "cursos": [
+      "AI6111 - Ingeniería urbana sostenible"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ RAMIREZ MANRIQUE",
+    "cursos": [
+      "LA5134 - Decisiones de inversión",
+      "PI5516 - Ingeniería económica"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ RAMIREZ MARIELA",
+    "cursos": [
+      "SE1102 - Acción social"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ RIVERA MIGUEL",
+    "cursos": [
+      "EL2113 - Circuitos eléctricos en corriente continua",
+      "EL5609 - Formulación de proyectos"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ ROMERO MIGUEL ANGEL",
+    "cursos": [
+      "CI1230 - Inglés I",
+      "CI1231 - Inglés II",
+      "CI1306 - Inglés II para administración"
+    ]
+  },
+  {
+    "nombre": "HERNÁNDEZ SALAZAR GABRIELA",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1231 - Inglés II",
+      "CI2307 - Inglés III para administración"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ SALAZAR ILEANA",
+    "cursos": [
+      "AU1501 - Laboratorio de proyectos II, Composición arquitectural"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ SIBAJA BRYAN",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "CA3125 - Análisis y diseño de algoritmos",
+      "IC5821 - Requerimientos de software"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ TORRES HAZEL MARIA",
+    "cursos": [
+      "AI6105 - Evaluación de impacto ambiental"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ VASQUEZ MARCO",
+    "cursos": [
+      "CE1105 - Principios de modelado en Ingeniería"
+    ]
+  },
+  {
+    "nombre": "HERNANDEZ VEGA HENRY",
+    "cursos": [
+      "CO4309 - Carreteras II"
+    ]
+  },
+  {
+    "nombre": "HERRERA CORDERO SERGIO",
+    "cursos": [
+      "SE1101 - Artes dramáticas",
+      "SE1107 - Apreciación de cine"
+    ]
+  },
+  {
+    "nombre": "HERRERA CORTEZ OSCAR",
+    "cursos": [
+      "IA3501 - Electrificación rural"
+    ]
+  },
+  {
+    "nombre": "HERRERA JIMENEZ INGRID",
+    "cursos": [
+      "CI1230 - Inglés I",
+      "CI1231 - Inglés II"
+    ]
+  },
+  {
+    "nombre": "HERRERA NUÑEZ JACQUELINE MARIA",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "HERRERO CHAVARRIA FELIPE",
+    "cursos": [
+      "EL2114 - Circuitos eléctricos en corriente alterna"
+    ]
+  },
+  {
+    "nombre": "HILJE RODRIGUEZ BRANKO",
+    "cursos": [
+      "FO1107 - Botánica forestal",
+      "FO1108 - Laboratorio de botánica forestal",
+      "FO4224 - Introducción a la fauna silvestre en ecosistemas forestales"
+    ]
+  },
+  {
+    "nombre": "INTERIANO SALGUERO EDUARDO",
+    "cursos": [
+      "EL5409 - Laboratorio de control automático"
+    ]
+  },
+  {
+    "nombre": "JACKSON QUIROS HERBERT",
+    "cursos": [
+      "MI2101 - Dibujo técnico"
+    ]
+  },
+  {
+    "nombre": "JAEN ESPAÑA ADRIAN",
+    "cursos": [
+      "CS2101 - Ambiente humano",
+      "CS4402 - Seminario de estudios costarricenses",
+      "ST2002 - Evolución social de Costa Rica"
+    ]
+  },
+  {
+    "nombre": "JARA VEGA ANA CATALINA",
+    "cursos": [
+      "LA5226 - Planificación desarrollo de recursos humanos"
+    ]
+  },
+  {
+    "nombre": "JARQUIN CORDERO MONSERRAT",
+    "cursos": [
+      "IB3302 - Mejoramiento genético"
+    ]
+  },
+  {
+    "nombre": "JAUBERT SOLANO WILLIAM",
+    "cursos": [
+      "AE2220 - Análisis administrativo",
+      "LA5416 - Mercadeo gerencial"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ AGUILAR JUAN CARLOS",
+    "cursos": [
+      "IA3303 - Aplicaciones topográficas"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ CARBALLO CARLOS ADRIAN",
+    "cursos": [
+      "FI1201 - Laboratorio física general I"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ CECILIANO MAXIMINO",
+    "cursos": [
+      "MI2101 - Dibujo técnico"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ CESPEDES RODOLFO",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA1303 - Matemática básica para administración",
+      "MA1304 - Cálculo para administración"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ DELGADO EFREN ANTONIO",
+    "cursos": [
+      "IC6200 - Inteligencia artificial"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ FUENTES MARIO AUGUSTO",
+    "cursos": [
+      "GP2531 - Estimación en proyectos de desarrollo de software"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ JIMENEZ DANIEL",
+    "cursos": [
+      "SE1205 - Juegos y deportes en conjunto",
+      "SE1221 - Futbol I"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ MADRIGAL JORGE",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ MADRIGAL JOSE PABLO",
+    "cursos": [
+      "BI1101 - Biología general"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ RODRIGUEZ ROXANA",
+    "cursos": [
+      "CI3203 - Inglés especializado para ingenierías en computadores",
+      "FH0151 - Brujas, hadas y fantasmas en Shakespeare"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ ROMERO ALEJANDRA",
+    "cursos": [
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA2104 - Cálculo superior"
+    ]
+  },
+  {
+    "nombre": "JIMENEZ ZUÑIGA LUIS GUILLERMO",
+    "cursos": [
+      "AU3106 - Teoría de la arquitectura II"
+    ]
+  },
+  {
+    "nombre": "JOSE ZAMORA JIMENEZ",
+    "cursos": [
+      "AE2124 - Contabilidad III",
+      "AE4128 - Auditoría I"
+    ]
+  },
+  {
+    "nombre": "KENNEDY RUSSELL ANA",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1231 - Inglés II",
+      "CI1305 - Inglés I para administración"
+    ]
+  },
+  {
+    "nombre": "LACY MORA GERARDO",
+    "cursos": [
+      "IF3602 - Métodos matemáticos de física e ingeniería I"
+    ]
+  },
+  {
+    "nombre": "LAFUENTE CHRYSOOPULOS RAQUEL",
+    "cursos": [
+      "PI4803 - Gestión de la innovación"
+    ]
+  },
+  {
+    "nombre": "LARIOS CRUZ BORIS ALLAN",
+    "cursos": [
+      "SE1201 - Atletismo",
+      "SE1204 - Natación",
+      "SE1221 - Futbol I"
+    ]
+  },
+  {
+    "nombre": "LAW WAN YUEN",
+    "cursos": [
+      "IC8073 - Introducción a la realidad virtual"
+    ]
+  },
+  {
+    "nombre": "LEANDRO CHACON MARIA FRANCELA",
+    "cursos": [
+      "SE1103 - Danza",
+      "SE1111 - Expresión corporal"
+    ]
+  },
+  {
+    "nombre": "LEANDRO ELIZONDO RONALD",
+    "cursos": [
+      "AE3552 - Métodos cuantitativos para administración",
+      "AE4208 - Desarrollo de emprendedores"
+    ]
+  },
+  {
+    "nombre": "LEDEZMA ESPINOZA AURA",
+    "cursos": [
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "LEITON JIMENEZ JASON",
+    "cursos": [
+      "CE1108 - Compiladores e intérpretes"
+    ]
+  },
+  {
+    "nombre": "LEIVA BONILLA JUAN CARLOS",
+    "cursos": [
+      "AE4548 - Creatividad e innovación empresarial"
+    ]
+  },
+  {
+    "nombre": "LEIVA CHINCHILLA PEDRO IGNACIO",
+    "cursos": [
+      "TI8904 - Administración de procesos de negocios"
+    ]
+  },
+  {
+    "nombre": "LEMAITRE GONZALEZ ESTEBAN",
+    "cursos": [
+      "PI3407 - Computación industrial",
+      "PI5402 - Automatización de manufactura",
+      "PI5707 - Ingeniería de la confiabilidad"
+    ]
+  },
+  {
+    "nombre": "LEON RODRIGUEZ MARIA ELENA",
+    "cursos": [
+      "CS3401 - Seminario de estudios filosóficos históricos"
+    ]
+  },
+  {
+    "nombre": "LEON VEGA LUIS GERARDO",
+    "cursos": [
+      "EL3307 - Diseño lógico",
+      "EL5859 - Introducción a la computación heterogénea"
+    ]
+  },
+  {
+    "nombre": "LOAIZA SOTO BIERY",
+    "cursos": [
+      "SE1204 - Natación",
+      "SE1205 - Juegos y deportes en conjunto"
+    ]
+  },
+  {
+    "nombre": "LOBO ZAMORA JUAN CARLOS",
+    "cursos": [
+      "FI1102 - Física general II"
+    ]
+  },
+  {
+    "nombre": "LOPEZ MORA VERONICA",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA1103 - Cálculo y álgebra lineal"
+    ]
+  },
+  {
+    "nombre": "LOPEZ VALERIO CYNTHIA",
+    "cursos": [
+      "IC7841 - Proyecto de ingeniería de software"
+    ]
+  },
+  {
+    "nombre": "LORIA SOLANO JOHNNY",
+    "cursos": [
+      "SE1201 - Atletismo",
+      "SE1206 - Acondicionamiento físico"
+    ]
+  },
+  {
+    "nombre": "MADRIGAL JIMENEZ VICTOR HUGO",
+    "cursos": [
+      "AU4108 - Teoría e historia urbanismo II"
+    ]
+  },
+  {
+    "nombre": "MADRIGAL SANCHEZ JOHANNA",
+    "cursos": [
+      "EL4702 - Probabilidad y estadística"
+    ]
+  },
+  {
+    "nombre": "MADRIGAL VALVERDE MONICA",
+    "cursos": [
+      "AG4706 - Sistemas de producción avícola"
+    ]
+  },
+  {
+    "nombre": "MADRIZ HUERTAS DANIEL",
+    "cursos": [
+      "CE1116 - Diseño y calidad en productos tecnológicos"
+    ]
+  },
+  {
+    "nombre": "MADRIZ QUIROS CARMEN",
+    "cursos": [
+      "PI3501 - Costos Industriales I",
+      "PI5401 - Simulación industrial"
+    ]
+  },
+  {
+    "nombre": "MAGLIANESI MARIA ALEJANDRA",
+    "cursos": [
+      "BI2408 - Fundamentos de agroecología"
+    ]
+  },
+  {
+    "nombre": "MALAVASSI AGUILAR ROSA ELENA",
+    "cursos": [
+      "AU1303 - Historia del arte y la arquitectura I",
+      "AU2103 - Historia de arte y arquitectura de Costa Rica",
+      "AU5408 - Proyecto de graduación"
+    ]
+  },
+  {
+    "nombre": "MARIN GUILLEN FRANK",
+    "cursos": [
+      "MI2101 - Dibujo técnico",
+      "MI3103 - Procesos de manufactura",
+      "MI3104 - Laboratorio procesos de manufactura"
+    ]
+  },
+  {
+    "nombre": "MARIN MORENO WILLIAM",
+    "cursos": [
+      "EL1200 - Introducción a la electrónica",
+      "EL2110 - Laboratorio de mediciones eléctricas",
+      "EL2111 - Laboratorio de circuitos eléctricos"
+    ]
+  },
+  {
+    "nombre": "MARIN SANCHEZ MARIO",
+    "cursos": [
+      "MA2105 - Ecuaciones diferenciales"
+    ]
+  },
+  {
+    "nombre": "MARIN SCHUMANN ERIKA",
+    "cursos": [
+      "IC5701 - Compiladores e interpretes"
+    ]
+  },
+  {
+    "nombre": "MARIN VARGAS FABIAN",
+    "cursos": [
+      "SE1219 - Baloncesto recreativo"
+    ]
+  },
+  {
+    "nombre": "MAROTO CALVO OSCAR",
+    "cursos": [
+      "AE2220 - Análisis administrativo",
+      "AE3223 - Gestión del talento humano I",
+      "AE4228 - Gestión del talento humano II"
+    ]
+  },
+  {
+    "nombre": "MARRERO CALVO MARCELA",
+    "cursos": [
+      "EM3048 - Atención a la diversidad en la enseñanza y el aprendizaje de la matemática",
+      "MA0101 - Matemática general"
+    ]
+  },
+  {
+    "nombre": "MARTINEZ BALDARES TOMAS",
+    "cursos": [
+      "AU4003 - Planificación urbana y territorial aplicadas",
+      "AU5002 - Laboratorio de proyectos X: Diseño urbano"
+    ]
+  },
+  {
+    "nombre": "MARTINEZ GUTIERREZ BERNAL",
+    "cursos": [
+      "AE4130 - Formulación y evaluación de proyectos",
+      "AE5121 - Ingeniería económica"
+    ]
+  },
+  {
+    "nombre": "MARTINEZ MORA MARCO",
+    "cursos": [
+      "AE3415 - Investigación de mercados"
+    ]
+  },
+  {
+    "nombre": "MARTINEZ SOLIS KELLER",
+    "cursos": [
+      "LA5133 - Banca y desarrollo"
+    ]
+  },
+  {
+    "nombre": "MARTINEZ VILLAVICENCIO JOSE",
+    "cursos": [
+      "AE2124 - Contabilidad III"
+    ]
+  },
+  {
+    "nombre": "MASIS ARCE ALEJANDRO",
+    "cursos": [
+      "AE5111 - Contabilidad y finanzas",
+      "AE5122 - Ingeniería financiera"
+    ]
+  },
+  {
+    "nombre": "MASIS FLORES DAVID",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "MASIS JIMENEZ MANUEL",
+    "cursos": [
+      "AN3005 - Finanzas en agronegocios"
+    ]
+  },
+  {
+    "nombre": "MASIS MELENDEZ FEDERICO",
+    "cursos": [
+      "AI5107 - Mecánica de suelos para Ingeniería Ambiental"
+    ]
+  },
+  {
+    "nombre": "MATA COTO MANUEL",
+    "cursos": [
+      "MI2106 - Estática",
+      "MI3115 - Resistencia de materiales"
+    ]
+  },
+  {
+    "nombre": "MATA ORTEGA SEBASTIAN",
+    "cursos": [
+      "MI4300 - Administración mantenimiento I",
+      "MI6253 - Fundamentos en administración de proyectos en ingeniería",
+      "MT3004 - Laboratorio de máquinas eléctricas para mecatrónica"
+    ]
+  },
+  {
+    "nombre": "MATA RODRIGUEZ WILLIAM",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "IC1802 - Introducción a la programación",
+      "IC1803 - Taller de programación"
+    ]
+  },
+  {
+    "nombre": "MATA SOLANO ROGELIO",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II",
+      "QU2402 - Laboratorio fundamentos química orgánica"
+    ]
+  },
+  {
+    "nombre": "MATARRITA CHAVES ROSA MARIA",
+    "cursos": [
+      "MI4311 - Modelos cuantitativos para la toma de decisiones"
+    ]
+  },
+  {
+    "nombre": "MATARRITA MC CALLA KIMBERLY",
+    "cursos": [
+      "FH0178 - Factores psicosociales de la salud mental"
+    ]
+  },
+  {
+    "nombre": "MATTHEWS GARRO JOSE IGNACIO",
+    "cursos": [
+      "CO2205 - Estática"
+    ]
+  },
+  {
+    "nombre": "MAYORGA ESPINOZA CARLOS",
+    "cursos": [
+      "FI1201 - Laboratorio física general I",
+      "IF4801 - Mecánica cuántica para ingeniería",
+      "IF4804 - Física computacional II",
+      "MT6001 - Probabilidad y procesos estocásticos"
+    ]
+  },
+  {
+    "nombre": "MCLEAN VALERIO KATHLEEN",
+    "cursos": [
+      "PI5516 - Ingeniería económica"
+    ]
+  },
+  {
+    "nombre": "MEDINA ANGULO EZEQUIEL ALEJANDRO",
+    "cursos": [
+      "CO4307 - Carreteras I"
+    ]
+  },
+  {
+    "nombre": "MEDINA ESCOBAR MARIA LOURDES",
+    "cursos": [
+      "SO4604 - Seguridad y salud ocupacional",
+      "SO4701 - Taller de agentes ambientales químicos"
+    ]
+  },
+  {
+    "nombre": "MEJIAS RAMIREZ ELVIS ANDRES",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA3405 - Estadística",
+      "NE1004 - Estadística inferencial para turismo"
+    ]
+  },
+  {
+    "nombre": "MELENDEZ POLTRONIERI ROGER",
+    "cursos": [
+      "MT2002 - Laboratorio de circuitos de corriente continua y corriente alterna",
+      "MT3002 - Laboratorio de electrónica analógica"
+    ]
+  },
+  {
+    "nombre": "MENDEZ ALVAREZ DAWA",
+    "cursos": [
+      "FO3133 - Laboratorio de entomología y patología forestales"
+    ]
+  },
+  {
+    "nombre": "MENDEZ FLORES MANUEL",
+    "cursos": [
+      "IC6400 - Investigación de operaciones"
+    ]
+  },
+  {
+    "nombre": "MENDEZ GAMBOA ROSAURA",
+    "cursos": [
+      "SE1205 - Juegos y deportes en conjunto",
+      "SE1206 - Acondicionamiento físico"
+    ]
+  },
+  {
+    "nombre": "MENDEZ MORALES MAIKEL",
+    "cursos": [
+      "CO3503 - Laboratorio de hidráulica"
+    ]
+  },
+  {
+    "nombre": "MENDEZ PORRAS ABEL",
+    "cursos": [
+      "IC7900 - Computación y sociedad"
+    ]
+  },
+  {
+    "nombre": "MENDEZ SOLANO MIGUEL",
+    "cursos": [
+      "SE1204 - Natación",
+      "SE1209 - Béisbol-softbol"
+    ]
+  },
+  {
+    "nombre": "MENDEZ VILLALOBOS GERALD",
+    "cursos": [
+      "SO2406 - Anatomía y fisiología médica"
+    ]
+  },
+  {
+    "nombre": "MENDOZA PONCE PABLO DANIEL",
+    "cursos": [
+      "EL5521 - Comunicaciones eléctricas II"
+    ]
+  },
+  {
+    "nombre": "MENESES GUZMAN MARCELA",
+    "cursos": [
+      "PI5302 - Diseño de experimentos"
+    ]
+  },
+  {
+    "nombre": "MENESES MARIN GUILLERMO",
+    "cursos": [
+      "CS4402 - Seminario de estudios costarricenses"
+    ]
+  },
+  {
+    "nombre": "MENESES MONTERO KARLA",
+    "cursos": [
+      "IB3107 - Microbiología industrial"
+    ]
+  },
+  {
+    "nombre": "MESEN MONTENEGRO VLADIMIR",
+    "cursos": [
+      "CS2404 - Seminario de problemática urbana",
+      "CS4402 - Seminario de estudios costarricenses"
+    ]
+  },
+  {
+    "nombre": "MEZA BENAVIDES CARLOS",
+    "cursos": [
+      "EL5854 - Sistemas fotovoltaicos"
+    ]
+  },
+  {
+    "nombre": "MEZA CASCANTE LUIS GERARDO",
+    "cursos": [
+      "EM5008 - Investigación educativa"
+    ]
+  },
+  {
+    "nombre": "MEZA OBANDO FELIPE",
+    "cursos": [
+      "MT2001 - Circuitos eléctricos en CC y CA"
+    ]
+  },
+  {
+    "nombre": "MEZA SOLANO VINICIO",
+    "cursos": [
+      "SE1105 - Artes musicales"
+    ]
+  },
+  {
+    "nombre": "MIRANDA FAJARDO JEAN CARLOS",
+    "cursos": [
+      "IC1803 - Taller de programación",
+      "IC6400 - Investigación de operaciones"
+    ]
+  },
+  {
+    "nombre": "MIRANDA JENKINS PIO ALBERTO",
+    "cursos": [
+      "CO4409 - Estructuras de acero"
+    ]
+  },
+  {
+    "nombre": "MITCHELL RILEY MARIO",
+    "cursos": [
+      "PI3206 - Logística y administración de la cadena de abastecimiento"
+    ]
+  },
+  {
+    "nombre": "MOJICA MENDIETA FRANCISCO JAVIER",
+    "cursos": [
+      "CS2404 - Seminario de problemática urbana",
+      "CS4402 - Seminario de estudios costarricenses"
+    ]
+  },
+  {
+    "nombre": "MOLINA MONTERO RAFAEL",
+    "cursos": [
+      "AG4704 - Sistemas de producción de bovinos de leche"
+    ]
+  },
+  {
+    "nombre": "MOLINA ROBLES ROBERTO CARLOS",
+    "cursos": [
+      "EL1200 - Introducción a la electrónica",
+      "EL3310 - Diseño de sistemas digitales",
+      "EL5855 - Ingeniería de pruebas para circuitos integrados"
+    ]
+  },
+  {
+    "nombre": "MOLINA VILLALOBOS TANIA",
+    "cursos": [
+      "CI1230 - Inglés I",
+      "CI1306 - Inglés II para administración"
+    ]
+  },
+  {
+    "nombre": "MONDRAGON CORRALES GABRIEL",
+    "cursos": [
+      "IC7602 - Redes"
+    ]
+  },
+  {
+    "nombre": "MONGE DAVANZO YAFANNY",
+    "cursos": [
+      "AE3223 - Gestión del talento humano I"
+    ]
+  },
+  {
+    "nombre": "MONGE FALLAS JORGE",
+    "cursos": [
+      "EM1606 - Fundamentos de matemática II",
+      "EM5007 - Taller II: multimedios en matemática",
+      "MA2104 - Cálculo superior"
+    ]
+  },
+  {
+    "nombre": "MONGE GONZALEZ MANUEL",
+    "cursos": [
+      "AN1004 - Gestión en agronegocios",
+      "AN4002 - Mercadeo productos agroindustriales"
+    ]
+  },
+  {
+    "nombre": "MONGE MADRIZ CARLOS",
+    "cursos": [
+      "EM1607 - Didáctica de la geometría",
+      "MA1303 - Matemática básica para administración"
+    ]
+  },
+  {
+    "nombre": "MONGE PEREZ LUIS DIEGO",
+    "cursos": [
+      "FH0246 - La música nos define: visión desde la etnomusicología",
+      "SE1105 - Artes musicales"
+    ]
+  },
+  {
+    "nombre": "MONGE RUIZ OSCAR EDUARDO",
+    "cursos": [
+      "MI3119 - Laboratorio de turbomáquinas",
+      "MI3138 - Máquinas y equipos",
+      "MI6259 - Sistemas de refrigeración",
+      "MT6003 - Laboratorio de termofluidos"
+    ]
+  },
+  {
+    "nombre": "MONGE VARGAS KAREN",
+    "cursos": [
+      "IA3213 - Hidráulica de canales"
+    ]
+  },
+  {
+    "nombre": "MONTERO CAMPOS VIRGINIA",
+    "cursos": [
+      "AI6116 - Toxicología",
+      "BL1124 - Control de calidad aplicado a las empresas de manufactura de dispositivos médicos",
+      "BL1131 - Auditorías a sistemas de calidad",
+      "BL1133 - Gerencia técnica de la calidad basada en INTE-ISO 17025:2017",
+      "IB3107 - Microbiología industrial"
+    ]
+  },
+  {
+    "nombre": "MONTERO JIMENEZ JUAN JOSE",
+    "cursos": [
+      "MI2106 - Estática",
+      "MI3117 - Dinámica",
+      "MT9002 - Mantenimiento de sistemas mecatrónicos"
+    ]
+  },
+  {
+    "nombre": "MONTERO PIZARRO LEONARDO",
+    "cursos": [
+      "ID1205 - Taller de dibujo",
+      "ID2107 - Diseño I",
+      "ID2120 - Comunicación visual"
+    ]
+  },
+  {
+    "nombre": "MONTERO RODRIGUEZ JUAN JOSE",
+    "cursos": [
+      "EL2207 - Elementos activos",
+      "EL3212 - Circuitos discretos",
+      "MT3001 - Electrónica analógica"
+    ]
+  },
+  {
+    "nombre": "MONTERO ZELEDON ERNESTO",
+    "cursos": [
+      "FI1201 - Laboratorio física general I",
+      "FI2103 - Física general III"
+    ]
+  },
+  {
+    "nombre": "MONTOYA POITEVIEN LUIS",
+    "cursos": [
+      "IC5821 - Requerimientos de software"
+    ]
+  },
+  {
+    "nombre": "MONTOYA RODRIGUEZ ILEANA",
+    "cursos": [
+      "LA5417 - Mercadeo de exportación"
+    ]
+  },
+  {
+    "nombre": "MORA BENAVIDES BERENICE",
+    "cursos": [
+      "CS4402 - Seminario de estudios costarricenses"
+    ]
+  },
+  {
+    "nombre": "MORA CASASOLA MARIA FERNANDA",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA3405 - Estadística"
+    ]
+  },
+  {
+    "nombre": "MORA CROSS MARIA AUXILIADORA",
+    "cursos": [
+      "IC4302 - Bases de datos II"
+    ]
+  },
+  {
+    "nombre": "MORA CRUZ ALEXANDRA",
+    "cursos": [
+      "AE3127 - Administración financiera I",
+      "AE3505 - Metodología de la investigación"
+    ]
+  },
+  {
+    "nombre": "MORA ESQUIVEL RONALD",
+    "cursos": [
+      "AE3505 - Metodología de la investigación"
+    ]
+  },
+  {
+    "nombre": "MORA FONSECA DAVID RICARDO",
+    "cursos": [
+      "IC2001 - Estructuras de datos",
+      "IC3101 - Arquitectura de computadores",
+      "IC6831 - Aseguramiento de la calidad del software"
+    ]
+  },
+  {
+    "nombre": "MORA MELENDEZ JAIME",
+    "cursos": [
+      "MT7006 - Diseño máquinas y mecanismos",
+      "MT8001 - Teoría de comunicación y procesamiento de señales",
+      "MT8003 - Sistemas de manufactura"
+    ]
+  },
+  {
+    "nombre": "MORA MOLINA JESUS",
+    "cursos": [
+      "QU1102 - Laboratorio de química básica I",
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "MORA PICADO LUIS FERNANDO",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA1103 - Cálculo y álgebra lineal"
+    ]
+  },
+  {
+    "nombre": "MORA ROJAS ALFREDO",
+    "cursos": [
+      "GP0100 - Estrategia y gerencia de proyectos"
+    ]
+  },
+  {
+    "nombre": "MORA ROJAS DIEGO",
+    "cursos": [
+      "CE1105 - Principios de modelado en Ingeniería",
+      "IC1802 - Introducción a la programación",
+      "IC1803 - Taller de programación",
+      "IC2101 - Programación orientada a objetos",
+      "IC4301 - Bases de datos I"
+    ]
+  },
+  {
+    "nombre": "MORA ROJAS RAQUEL FABIANA",
+    "cursos": [
+      "IC6821 - Diseño de software"
+    ]
+  },
+  {
+    "nombre": "MORA SANCHEZ AMILKAR",
+    "cursos": [
+      "CS4402 - Seminario de estudios costarricenses",
+      "TS1201 - Turismo y sociedad"
+    ]
+  },
+  {
+    "nombre": "MORA VINDAS ALAN GERARDO",
+    "cursos": [
+      "IF4802 - Laboratorio metrología I"
+    ]
+  },
+  {
+    "nombre": "MORA ZAMORA RODOLFO DE JESUS",
+    "cursos": [
+      "IC6600 - Principios de sistemas operativos",
+      "IC7841 - Proyecto de ingeniería de software",
+      "IC7900 - Computación y sociedad"
+    ]
+  },
+  {
+    "nombre": "MORAGA GARCIA KEVIN",
+    "cursos": [
+      "IC7602 - Redes"
+    ]
+  },
+  {
+    "nombre": "MORALES ARIAS JONATHAN",
+    "cursos": [
+      "AG4409 - Acromática II",
+      "PI3206 - Logística y administración de la cadena de abastecimiento",
+      "PI3403 - Sistema de información",
+      "PI3603 - Investigación de operaciones I"
+    ]
+  },
+  {
+    "nombre": "MORALES GARAY SARAY",
+    "cursos": [
+      "CI1107 - Comunicación oral",
+      "CI1407 - Habilidades de comunicación en Ingeniería"
+    ]
+  },
+  {
+    "nombre": "MORALES HERNANDEZ SERGIO",
+    "cursos": [
+      "EL1200 - Introducción a la electrónica",
+      "EL2111 - Laboratorio de circuitos eléctricos",
+      "EL2113 - Circuitos eléctricos en corriente continua"
+    ]
+  },
+  {
+    "nombre": "MORALES MARTINEZ GABRIELA",
+    "cursos": [
+      "SO4604 - Seguridad y salud ocupacional"
+    ]
+  },
+  {
+    "nombre": "MORALES MUÑOZ WALTER",
+    "cursos": [
+      "FI1201 - Laboratorio física general I",
+      "FI1202 - Laboratorio física general II"
+    ]
+  },
+  {
+    "nombre": "MORALES RODRIGUEZ NESTOR",
+    "cursos": [
+      "TI3603 - Calidad en sistemas de información",
+      "TI4500 - Ingeniería de requerimientos"
+    ]
+  },
+  {
+    "nombre": "MORALES RODRIGUEZ PAULA",
+    "cursos": [
+      "ID3112 - Diseño VI"
+    ]
+  },
+  {
+    "nombre": "MOREIRA ACUÑA SILVIA",
+    "cursos": [
+      "ID1119 - Principios del diseño",
+      "ID3205 - Cultura material"
+    ]
+  },
+  {
+    "nombre": "MORERA HIDALGO JULIO",
+    "cursos": [
+      "MI2106 - Estática",
+      "MI2109 - Estática",
+      "MI3115 - Resistencia de materiales"
+    ]
+  },
+  {
+    "nombre": "MOYA ROQUE ROGER",
+    "cursos": [
+      "FO2303 - Propiedades de la madera"
+    ]
+  },
+  {
+    "nombre": "MOYA SERRANO ROY DAVID",
+    "cursos": [
+      "FI1101 - Física general I",
+      "IF3502 - Instrumentación I",
+      "IF5901 - Física experimental"
+    ]
+  },
+  {
+    "nombre": "MUNGUIA MOLINA DIEGO",
+    "cursos": [
+      "IC3002 - Análisis de algoritmos"
+    ]
+  },
+  {
+    "nombre": "MUÑOZ ACOSTA FREDDY",
+    "cursos": [
+      "FO4309 - Manufactura de productos forestales II"
+    ]
+  },
+  {
+    "nombre": "MUÑOZ CASTRO DONAL",
+    "cursos": [
+      "GP2502 - Desarrollo de capacidades organizacionales para la administración de proyectos"
+    ]
+  },
+  {
+    "nombre": "MUÑOZ CHACON LUIS CARLOS",
+    "cursos": [
+      "MI6258 - Sistema de puesta a tierra"
+    ]
+  },
+  {
+    "nombre": "MURILLO ESCALANTE ROCIO",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1231 - Inglés II",
+      "CI2307 - Inglés III para administración"
+    ]
+  },
+  {
+    "nombre": "MURILLO GAMBOA OLMAN",
+    "cursos": [
+      "FO3123 - Mejora genética forestal"
+    ]
+  },
+  {
+    "nombre": "MURILLO QUIROS NATALIA",
+    "cursos": [
+      "FI1503 - Fundamentos de física para arquitectura"
+    ]
+  },
+  {
+    "nombre": "MURILLO SALAZAR DENNIS",
+    "cursos": [
+      "FI1101 - Física general I",
+      "IF3604 - Laboratorio de óptica"
+    ]
+  },
+  {
+    "nombre": "MURILLO SOLIS  JAVIER",
+    "cursos": [
+      "CS2101 - Ambiente humano",
+      "CS4402 - Seminario de estudios costarricenses",
+      "CS5300 - Desarrollo tecnológico y sostenibilidad",
+      "TS2204 - Sociología del turismo"
+    ]
+  },
+  {
+    "nombre": "MURILLO SOTO LUIS DIEGO",
+    "cursos": [
+      "MI4209 - Control eléctrico",
+      "MI4210 - Laboratorio de control eléctrico"
+    ]
+  },
+  {
+    "nombre": "MURILLO VEGA FRANCINIE",
+    "cursos": [
+      "IB4202 - Laboratorio de cultivo de tejidos II"
+    ]
+  },
+  {
+    "nombre": "MURILLO ZUMBADO GUSTAVO",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI1102 - Física general II",
+      "FI1202 - Laboratorio física general II"
+    ]
+  },
+  {
+    "nombre": "NAVARRO AGUIRRE JESSICA",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA1103 - Cálculo y álgebra lineal"
+    ]
+  },
+  {
+    "nombre": "NAVARRO CERDAS GUSTAVO",
+    "cursos": [
+      "AE2506 - Estadística II"
+    ]
+  },
+  {
+    "nombre": "NAVARRO HENRIQUEZ FRANCISCO",
+    "cursos": [
+      "EL3216 - Circuitos integrados analógicos",
+      "EL3217 - Taller de diseño analógico",
+      "EL5522 - Taller de comunicaciones eléctricas",
+      "EL5842 - Taller de instrumentación"
+    ]
+  },
+  {
+    "nombre": "NAVARRO MATA JORGE",
+    "cursos": [
+      "GP0201 - Gerencia de proyectos I"
+    ]
+  },
+  {
+    "nombre": "NAVARRO MORA ANGEL",
+    "cursos": [
+      "CO4405 - Construcción de estructuras de concreto",
+      "CO5023 - Estructuras temporales"
+    ]
+  },
+  {
+    "nombre": "NAVAS SU JOSE DOLORES",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "IC3002 - Análisis de algoritmos"
+    ]
+  },
+  {
+    "nombre": "NOGUERA MENA LUIS DIEGO",
+    "cursos": [
+      "CE1114 - Proyecto de aplicación de la ingeniería en computadores"
+    ]
+  },
+  {
+    "nombre": "NOVO GUTIERREZ LUDBYG JOHANES",
+    "cursos": [
+      "GP0205 - Oficina de proyectos y portafolios"
+    ]
+  },
+  {
+    "nombre": "NUÑEZ ARGUEDAS EVELYN",
+    "cursos": [
+      "AE2124 - Contabilidad III"
+    ]
+  },
+  {
+    "nombre": "NUÑEZ NUÑEZ RODRIGO",
+    "cursos": [
+      "IC2101 - Programación orientada a objetos",
+      "IC3002 - Análisis de algoritmos"
+    ]
+  },
+  {
+    "nombre": "NUÑEZ VANEGAS FELIX",
+    "cursos": [
+      "EM1614 - Estadística inferencial",
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "OBANDO RODRIGUEZ KENNETH",
+    "cursos": [
+      "IC4302 - Bases de datos II",
+      "IC6200 - Inteligencia artificial"
+    ]
+  },
+  {
+    "nombre": "OBANDO ULLOA JAVIER",
+    "cursos": [
+      "AG2702 - Administración agropecuaria II"
+    ]
+  },
+  {
+    "nombre": "OCAMPO CAMPOS LAURA",
+    "cursos": [
+      "PI3502 - Costos industriales II"
+    ]
+  },
+  {
+    "nombre": "OREAMUNO MADRIZ RAFAEL",
+    "cursos": [
+      "FI1102 - Física general II",
+      "FI1202 - Laboratorio física general II",
+      "FI2103 - Física general III"
+    ]
+  },
+  {
+    "nombre": "OROZCO CORRALES CARLOS",
+    "cursos": [
+      "AG3109 - Agrostología"
+    ]
+  },
+  {
+    "nombre": "OROZCO MUÑOZ SEBASTIAN",
+    "cursos": [
+      "AU5001 - Laboratorio de proyectos X: Diseño arquitectónico"
+    ]
+  },
+  {
+    "nombre": "ORTEGA ARTAVIA JHONNY",
+    "cursos": [
+      "SE1206 - Acondicionamiento físico",
+      "SE1222 - Futbol sala"
+    ]
+  },
+  {
+    "nombre": "ORTIZ ACUÑA CINDY",
+    "cursos": [
+      "AE2506 - Estadística II",
+      "AE4544 - Analítica de negocio"
+    ]
+  },
+  {
+    "nombre": "ORTIZ ACUÑA LEONARDO",
+    "cursos": [
+      "CS1502 - Introducción a la técnica ciencia y tecnología",
+      "CS3401 - Seminario de estudios filosóficos históricos"
+    ]
+  },
+  {
+    "nombre": "ORTIZ ALVAREZ JORGE ISAAC",
+    "cursos": [
+      "CS2101 - Ambiente humano"
+    ]
+  },
+  {
+    "nombre": "ORTIZ LEON GABRIELA",
+    "cursos": [
+      "MT7001 - Análisis y simulación de sistemas"
+    ]
+  },
+  {
+    "nombre": "ORTIZ QUESADA GEANNINA",
+    "cursos": [
+      "CO5056 - Taller de diseño"
+    ]
+  },
+  {
+    "nombre": "OSORNO FALLAS DAVID",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II",
+      "QU1106 - Química básica I",
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "OTAROLA ZUÑIGA CARLOS",
+    "cursos": [
+      "MI2101 - Dibujo técnico",
+      "MI3117 - Dinámica",
+      "MI4136 - Elementos de máquinas"
+    ]
+  },
+  {
+    "nombre": "OVIEDO UGALDE NORBERTO",
+    "cursos": [
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA2104 - Cálculo superior",
+      "MA2105 - Ecuaciones diferenciales"
+    ]
+  },
+  {
+    "nombre": "PACHECO PORTUGUEZ STEVEN",
+    "cursos": [
+      "IC6200 - Inteligencia artificial"
+    ]
+  },
+  {
+    "nombre": "PAEZ PAEZ CRISTIAN",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "PARRA RODRIGUEZ EMMANUELLE",
+    "cursos": [
+      "EM4612 - Métodos numéricos",
+      "MA1103 - Cálculo y álgebra lineal",
+      "MA2404 - Probabilidades"
+    ]
+  },
+  {
+    "nombre": "PARRA SALAZAR EDWARD",
+    "cursos": [
+      "EM1600 - Tecnologías digitales aplicadas a la matemática educativa I",
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "PECOU JOHNSON JOSS",
+    "cursos": [
+      "IC3002 - Análisis de algoritmos",
+      "IC8063 - Comercio electrónico"
+    ]
+  },
+  {
+    "nombre": "PELAEZ GIL MARA CAROLINA",
+    "cursos": [
+      "CS2304 - Derecho laboral",
+      "CS3301 - Derecho ambiental y biotecnológico",
+      "CS3305 - Legislación agrícola",
+      "CS4108 - Derecho ambiental"
+    ]
+  },
+  {
+    "nombre": "PERALTA SALAS MIGUEL",
+    "cursos": [
+      "CO3407 - Estructuras de concreto"
+    ]
+  },
+  {
+    "nombre": "PERAZA MORAGA JOHNNY",
+    "cursos": [
+      "IB4106 - Laboratorio de biología molecular aplicada"
+    ]
+  },
+  {
+    "nombre": "PEREIRA ALONSO EDUARDO JOSE",
+    "cursos": [
+      "CO3404 - Laboratorio de concreto"
+    ]
+  },
+  {
+    "nombre": "PEREIRA ARROYO ROBERTO",
+    "cursos": [
+      "EL4607 - Normalización técnica (estándares industriales)",
+      "EL5617 - Trabajo final de graduación"
+    ]
+  },
+  {
+    "nombre": "PEREZ GUTIERREZ ALEXANDER",
+    "cursos": [
+      "AE1122 - Contabilidad I",
+      "AE3128 - Administración financiera II"
+    ]
+  },
+  {
+    "nombre": "PEREZ GUTIERREZ FABIAN ANTONIO",
+    "cursos": [
+      "IC4810 - Administración de proyectos"
+    ]
+  },
+  {
+    "nombre": "PEREZ HIDALGO JOSE ESTEBAN",
+    "cursos": [
+      "FI1102 - Física general II",
+      "FI1201 - Laboratorio física general I"
+    ]
+  },
+  {
+    "nombre": "PEREZ MURILLO DANIEL",
+    "cursos": [
+      "ST1002 - Geografía turística de Costa Rica",
+      "ST3001 - Tendencias turísticas mundiales",
+      "TR4133 - Introducción a la interpretación ambiental"
+    ]
+  },
+  {
+    "nombre": "PEREZ MURILLO ERICK",
+    "cursos": [
+      "PI3501 - Costos Industriales I",
+      "PI3612 - Probabilidad y estadística II",
+      "PI5707 - Ingeniería de la confiabilidad"
+    ]
+  },
+  {
+    "nombre": "PEREZ OROZCO ALLAN JOSE",
+    "cursos": [
+      "AE3414 - Fundamentos de mercadeo",
+      "AE3415 - Investigación de mercados",
+      "AE4208 - Desarrollo de emprendedores"
+    ]
+  },
+  {
+    "nombre": "PEREZ PEREZ MARLON",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1230 - Inglés I",
+      "CI1305 - Inglés I para administración"
+    ]
+  },
+  {
+    "nombre": "PEREZ RODRIGUEZ JAVIER",
+    "cursos": [
+      "EL1200 - Introducción a la electrónica",
+      "EL2110 - Laboratorio de mediciones eléctricas",
+      "EL2111 - Laboratorio de circuitos eléctricos",
+      "EL2113 - Circuitos eléctricos en corriente continua"
+    ]
+  },
+  {
+    "nombre": "PEREZ ROJAS NELSON",
+    "cursos": [
+      "CI1107 - Comunicación oral",
+      "FH0033 - Cine y literatura"
+    ]
+  },
+  {
+    "nombre": "PETGRAVE BROWN LYANNETTE",
+    "cursos": [
+      "CS1308 - Derecho comercial"
+    ]
+  },
+  {
+    "nombre": "PHILLIPS BRENES HAYDEN ANTHONY",
+    "cursos": [
+      "EL2207 - Elementos activos",
+      "EL5408 - Control automático"
+    ]
+  },
+  {
+    "nombre": "PICADO GARCIA FABIAN ALBERTO",
+    "cursos": [
+      "EL2113 - Circuitos eléctricos en corriente continua"
+    ]
+  },
+  {
+    "nombre": "PICADO MORA ERICKA",
+    "cursos": [
+      "IA4314 - Drenaje sub-superficial"
+    ]
+  },
+  {
+    "nombre": "PICADO VALVERDE LUIS FELIPE",
+    "cursos": [
+      "TI3801 - Administración de proyectos II",
+      "TI4500 - Ingeniería de requerimientos"
+    ]
+  },
+  {
+    "nombre": "PICADO VALVERDE SOFIA",
+    "cursos": [
+      "AI3209 - Hidrología",
+      "CO4106 - Taller II"
+    ]
+  },
+  {
+    "nombre": "PIEDRA CAMACHO RODOLFO JOSE",
+    "cursos": [
+      "MT4001 - Electrónica digital"
+    ]
+  },
+  {
+    "nombre": "PIEDRA NAVARRO DAYHANA",
+    "cursos": [
+      "AE2220 - Análisis administrativo",
+      "AE4226 - Estrategia empresarial"
+    ]
+  },
+  {
+    "nombre": "PIEDRA SANTAMARIA CARLOS",
+    "cursos": [
+      "MI4305 - Administración de mantenimiento II",
+      "MI6351 - Mantenimiento predictivo"
+    ]
+  },
+  {
+    "nombre": "PIEDRA SEGURA JUAN FRANCISCO",
+    "cursos": [
+      "CO4505 - Instalaciones electromecánicas"
+    ]
+  },
+  {
+    "nombre": "PINEDA LIZANO JUAN JOSE",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI1102 - Física general II"
+    ]
+  },
+  {
+    "nombre": "PINNOCK CHACON MAC",
+    "cursos": [
+      "EL2207 - Elementos activos",
+      "EL3212 - Circuitos discretos"
+    ]
+  },
+  {
+    "nombre": "PINO GOMEZ MACARIO",
+    "cursos": [
+      "AI3104 - Ecosaneamiento ambiental",
+      "AI3110 - Diseño de sistemas de potabilización de agua"
+    ]
+  },
+  {
+    "nombre": "PORRAS ACOSTA MARIA",
+    "cursos": [
+      "QU1106 - Química básica I"
+    ]
+  },
+  {
+    "nombre": "PORRAS ALFARO DAVID",
+    "cursos": [
+      "AU1502 - Introducción a la investigación"
+    ]
+  },
+  {
+    "nombre": "PORRAS CAJINA DANILO ALBERTO",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II",
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "POVEDA MONTOYA WILLIAM ALONSO",
+    "cursos": [
+      "CO3304 - Laboratorio mecánica de suelos I",
+      "CO3305 - Mecánica de suelos I"
+    ]
+  },
+  {
+    "nombre": "POVEDA MORA JHONNY",
+    "cursos": [
+      "AE2220 - Análisis administrativo"
+    ]
+  },
+  {
+    "nombre": "PRADO ARROYO JOSE",
+    "cursos": [
+      "AE5121 - Ingeniería económica"
+    ]
+  },
+  {
+    "nombre": "PRENDAS ROJAS JUAN PABLO",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA2404 - Probabilidades"
+    ]
+  },
+  {
+    "nombre": "PRENDAS SOLANO JORGE",
+    "cursos": [
+      "CS3401 - Seminario de estudios filosóficos históricos",
+      "CS3404 - Seminario de ética para la ingeniería"
+    ]
+  },
+  {
+    "nombre": "PUENTE URBINA ALLEN ARTURO",
+    "cursos": [
+      "QU2403 - Química orgánica",
+      "QU2605 - Laboratorio de química ambiental y analítica"
+    ]
+  },
+  {
+    "nombre": "QUESADA CARVAJAL LAURA",
+    "cursos": [
+      "AI4102 - Ingeniería en emisiones atmosféricas"
+    ]
+  },
+  {
+    "nombre": "QUESADA MARTINEZ ADRIAN",
+    "cursos": [
+      "CM3207 - Métodos numéricos para ingeniería",
+      "CM3603 - Mecánica de materiales avanzada"
+    ]
+  },
+  {
+    "nombre": "QUESADA VILLALOBOS JORGE",
+    "cursos": [
+      "SE1103 - Danza"
+    ]
+  },
+  {
+    "nombre": "QUESADA VILLALOBOS LOURDES",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "QUIROS BUSTOS NOEMI",
+    "cursos": [
+      "QU1102 - Laboratorio de química básica I",
+      "QU1106 - Química básica I"
+    ]
+  },
+  {
+    "nombre": "QUIROS LEIVA RANDALL",
+    "cursos": [
+      "CI1106 - Comunicación escrita",
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "QUIROS OVIEDO ROCIO",
+    "cursos": [
+      "IC1400 - Fundamentos de organización de computadoras",
+      "IC3101 - Arquitectura de computadores"
+    ]
+  },
+  {
+    "nombre": "QUIROS RAMIREZ FRANCO",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "IC4301 - Bases de datos I"
+    ]
+  },
+  {
+    "nombre": "QUIROS SALAZAR MARIA LORNA",
+    "cursos": [
+      "SE2110 - Apreciación musical",
+      "SE2111 - Técnica del canto"
+    ]
+  },
+  {
+    "nombre": "QUIROS SOLANO WILLIAM",
+    "cursos": [
+      "EL2114 - Circuitos eléctricos en corriente alterna",
+      "EL4513 - Teoría electromagnética I",
+      "EL4514 - Teoría electromagnética II"
+    ]
+  },
+  {
+    "nombre": "QUIROS VALVERDE RODRIGO",
+    "cursos": [
+      "SE1205 - Juegos y deportes en conjunto"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ ARCE GREIVIN",
+    "cursos": [
+      "MA1403 - Matemática discreta",
+      "MA2105 - Ecuaciones diferenciales"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ BOGANTES MELVIN",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ CASTRO MONSERRAT",
+    "cursos": [
+      "CI1230 - Inglés I",
+      "CI1305 - Inglés I para administración"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ CHACON FERNANDO",
+    "cursos": [
+      "ID3304 - Procesos de manufactura III"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ CHACON MARCO",
+    "cursos": [
+      "GP0203 - Gerencia de proyectos III"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ HERNANDEZ LUIS STEVEN",
+    "cursos": [
+      "IA3401 - Elementos y mecanismos de máquinas agrícolas"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ HERRERA JOSE ISAAC",
+    "cursos": [
+      "CE2103 - Algoritmos y estructuras de datos II"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ JIMENEZ ARNOLDO ALCIDES",
+    "cursos": [
+      "EL5521 - Comunicaciones eléctricas II",
+      "EL5522 - Taller de comunicaciones eléctricas"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ JIMENEZ EDDY",
+    "cursos": [
+      "IC2001 - Estructuras de datos",
+      "IC4700 - Lenguajes de programación",
+      "IC5701 - Compiladores e interpretes",
+      "IC6600 - Principios de sistemas operativos"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ LOPEZ MICHELLE",
+    "cursos": [
+      "CI1231 - Inglés II",
+      "CI1305 - Inglés I para administración"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ MONTES GUILLERMO",
+    "cursos": [
+      "EM2608 - Elementos de análisis de datos y probabilidad"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ MORA FREDDY",
+    "cursos": [
+      "GP3906 - Seminario de metodología de investigación en el énfasis en proyectos empresariales",
+      "GP3909 - Seminario de metodología de investigación en el énfasis en tecnología de información",
+      "GP3912 - Seminario de metodología de investigación en el énfasis en construcción"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ PEREZ KARINA",
+    "cursos": [
+      "BI1201 - Botánica general",
+      "BI1202 - Laboratorio botánica general"
+    ]
+  },
+  {
+    "nombre": "RAMIREZ SEGURA ROGER EMMANUEL",
+    "cursos": [
+      "IC2101 - Programación orientada a objetos"
+    ]
+  },
+  {
+    "nombre": "RAMOS MARIN SIGURD",
+    "cursos": [
+      "EM2408 - Aprendizaje y didáctica de la matemática",
+      "MA1303 - Matemática básica para administración"
+    ]
+  },
+  {
+    "nombre": "RAMOS VARGAS ARNOLDO",
+    "cursos": [
+      "SE1106 - Apreciación literaria",
+      "SE1107 - Apreciación de cine"
+    ]
+  },
+  {
+    "nombre": "RETANA CORRALES LUIS FELIPE",
+    "cursos": [
+      "EL3307 - Diseño lógico"
+    ]
+  },
+  {
+    "nombre": "RICHMOND NAVARRO GUSTAVO",
+    "cursos": [
+      "MI3117 - Dinámica"
+    ]
+  },
+  {
+    "nombre": "RIMOLO DONADIO RENATO",
+    "cursos": [
+      "EL5610 - Taller integrador"
+    ]
+  },
+  {
+    "nombre": "RIOS SANCHEZ ARMANDO",
+    "cursos": [
+      "CI1106 - Comunicación escrita",
+      "CI1107 - Comunicación oral",
+      "FH0259 - Pervivencia de modelos femeninos: de la Grecia antigua a la actualidad"
+    ]
+  },
+  {
+    "nombre": "RIVAS SOLANO OLGA",
+    "cursos": [
+      "IB4806 - Bacteriología aplicada a la biotecnología"
+    ]
+  },
+  {
+    "nombre": "RIVERA ALVARADO ERNESTO",
+    "cursos": [
+      "EL3310 - Diseño de sistemas digitales",
+      "EL4314 - Arquitectura de computadoras I",
+      "EL5522 - Taller de comunicaciones eléctricas"
+    ]
+  },
+  {
+    "nombre": "RIVERA ALVARADO JAVIER",
+    "cursos": [
+      "EL3216 - Circuitos integrados analógicos",
+      "EL4703 - Señales y sistemas"
+    ]
+  },
+  {
+    "nombre": "RIVERA MENDEZ WILLIAM EDUARDO",
+    "cursos": [
+      "IB3405 - Laboratorio aplicación de sistemas de producción agrícola"
+    ]
+  },
+  {
+    "nombre": "RIVERA MENESES MARCO",
+    "cursos": [
+      "CE1105 - Principios de modelado en Ingeniería",
+      "CE3101 - Bases de datos"
+    ]
+  },
+  {
+    "nombre": "RIVERA VEGA KATERINE",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1202 - Inglés para biotecnología I",
+      "CI1231 - Inglés II"
+    ]
+  },
+  {
+    "nombre": "ROBLES CHAVEZ DIANA",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "ROBLES OBANDO NATALIA",
+    "cursos": [
+      "PI2610 - Probabilidad y estadística I",
+      "PI3603 - Investigación de operaciones I",
+      "PI5302 - Diseño de experimentos"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ BARQUERO  RONNY",
+    "cursos": [
+      "AE2705 - Análisis y gestión de datos empresariales",
+      "AE3505 - Metodología de la investigación"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ BUSTOS KENDALL",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA1403 - Matemática discreta"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ CASTRO BRYAN",
+    "cursos": [
+      "MA0101 - Matemática general",
+      "MA1304 - Cálculo para administración",
+      "MA2404 - Probabilidades"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ DAVILA ALLAN",
+    "cursos": [
+      "IC4700 - Lenguajes de programación",
+      "IC5701 - Compiladores e interpretes"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ GONZALEZ LUIS ELADIO",
+    "cursos": [
+      "PI2610 - Probabilidad y estadística I",
+      "PI3306 - Gestión de calidad",
+      "PI5302 - Diseño de experimentos"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ GRANADOS NATALIA",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ HERRA NATALIA",
+    "cursos": [
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ MENDEZ FRANCISCO",
+    "cursos": [
+      "CM4803 - Taller de diseño en ciencia e ingeniería de los materiales"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ MOLINA DANIEL",
+    "cursos": [
+      "MR1201 - Gerencia de recursos naturales"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ MORALES OSCAR",
+    "cursos": [
+      "CS2101 - Ambiente humano",
+      "CS4402 - Seminario de estudios costarricenses",
+      "FH0035 - Globalización y humanismo",
+      "LE1204 - Psicología educativa en ETFP"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ MORERA MARCIA",
+    "cursos": [
+      "SE1204 - Natación",
+      "SE1206 - Acondicionamiento físico",
+      "SE1223 - Voleibol"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ OVARES MARCO",
+    "cursos": [
+      "IC4810 - Administración de proyectos",
+      "IC6821 - Diseño de software",
+      "IC6831 - Aseguramiento de la calidad del software"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ QUESADA LARIA FABIOLA",
+    "cursos": [
+      "ME2208 - Ciencias de los materiales",
+      "ME3209 - Laboratorio de tecnología de materiales"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ ROJAS ALFREDO",
+    "cursos": [
+      "CM3103 - Termodinámica de materiales",
+      "CM3207 - Métodos numéricos para ingeniería",
+      "CM5104 - Diseño de moldes y troqueles"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ VARGAS PABLO CESAR",
+    "cursos": [
+      "EL2110 - Laboratorio de mediciones eléctricas",
+      "EL2113 - Circuitos eléctricos en corriente continua",
+      "EL5409 - Laboratorio de control automático"
+    ]
+  },
+  {
+    "nombre": "RODRIGUEZ ZAMORA MARIA GABRIELA",
+    "cursos": [
+      "SO2405 - Bioestadística",
+      "SO4701 - Taller de agentes ambientales químicos"
+    ]
+  },
+  {
+    "nombre": "ROJAS BRENES SILVIA ELENA",
+    "cursos": [
+      "FH0115 - García Márquez y el realismo mágico"
+    ]
+  },
+  {
+    "nombre": "ROJAS CHACON LUIS GUSTAVO",
+    "cursos": [
+      "CO5012 - Diseño de procesos constructivos"
+    ]
+  },
+  {
+    "nombre": "ROJAS CHAVARRIA ADRIANA",
+    "cursos": [
+      "IC8071 - Seguridad del software"
+    ]
+  },
+  {
+    "nombre": "ROJAS CHAVES MIGUEL",
+    "cursos": [
+      "IB3603 - Laboratorio de bioquímica"
+    ]
+  },
+  {
+    "nombre": "ROJAS ESQUIVEL ARMANDO",
+    "cursos": [
+      "AE2308 - Microeconomía"
+    ]
+  },
+  {
+    "nombre": "ROJAS GOMEZ JULIO CESAR",
+    "cursos": [
+      "MI3104 - Laboratorio procesos de manufactura"
+    ]
+  },
+  {
+    "nombre": "ROJAS HERNANDEZ JUAN JOSE",
+    "cursos": [
+      "MI4210 - Laboratorio de control eléctrico"
+    ]
+  },
+  {
+    "nombre": "ROJAS MARIN ANGIE",
+    "cursos": [
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "ROJAS MOLINA BETSY",
+    "cursos": [
+      "CS2101 - Ambiente humano",
+      "CS4402 - Seminario de estudios costarricenses"
+    ]
+  },
+  {
+    "nombre": "ROJAS PEREZ FRANCISCO",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI2103 - Física general III"
+    ]
+  },
+  {
+    "nombre": "ROJAS RODRIGUEZ DAVID",
+    "cursos": [
+      "EL4702 - Probabilidad y estadística",
+      "PI2304 - Estudio del trabajo I",
+      "PI3403 - Sistema de información",
+      "PI4803 - Gestión de la innovación",
+      "PI5710 - Diseño de puestos de trabajo y herramientas ergonómicas"
+    ]
+  },
+  {
+    "nombre": "ROJAS RODRIGUEZ GIOVANNY",
+    "cursos": [
+      "AE2705 - Análisis y gestión de datos empresariales"
+    ]
+  },
+  {
+    "nombre": "ROJAS ROJAS LAURA",
+    "cursos": [
+      "FI2103 - Física general III"
+    ]
+  },
+  {
+    "nombre": "ROJAS SEGURA JAVIER",
+    "cursos": [
+      "AE3505 - Metodología de la investigación"
+    ]
+  },
+  {
+    "nombre": "ROJAS VEGA DIEGO",
+    "cursos": [
+      "CA3125 - Análisis y diseño de algoritmos",
+      "IC7841 - Proyecto de ingeniería de software",
+      "IC8057 - Introducción al desarrollo de paginas web"
+    ]
+  },
+  {
+    "nombre": "ROMERO ALVAREZ ERICKA",
+    "cursos": [
+      "CI1106 - Comunicación escrita",
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "ROMERO BLANCO ERIC",
+    "cursos": [
+      "AI2101 - Análisis estadístico para Ingeniería Ambiental",
+      "AI5104 - Análisis y diseño experimental para Ingeniería Ambiental",
+      "CO4108 - Taller I",
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "ROMERO CALVO KERIN",
+    "cursos": [
+      "IA4403 - Mecanización agrícola"
+    ]
+  },
+  {
+    "nombre": "ROSALES ALPIZAR LUIS CARLOS",
+    "cursos": [
+      "EL4703 - Señales y sistemas",
+      "EL5409 - Laboratorio de control automático",
+      "EL5513 - Comunicaciones eléctricas I"
+    ]
+  },
+  {
+    "nombre": "ROSALES LOPEZ CATALINA",
+    "cursos": [
+      "IB4810 - Introducción a la fitoquímica"
+    ]
+  },
+  {
+    "nombre": "ROSALES ORTEGA JOSE",
+    "cursos": [
+      "EM3608 - Cálculo y análisis III"
+    ]
+  },
+  {
+    "nombre": "RUIZ NAVARRO MARLON",
+    "cursos": [
+      "AE2124 - Contabilidad III"
+    ]
+  },
+  {
+    "nombre": "SABORIO CORDERO NATALIA",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA1403 - Matemática discreta"
+    ]
+  },
+  {
+    "nombre": "SALAS ACUÑA ERICK",
+    "cursos": [
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "SALAS ARIAS KARLA MELISSA",
+    "cursos": [
+      "IB4202 - Laboratorio de cultivo de tejidos II"
+    ]
+  },
+  {
+    "nombre": "SALAS CERDAS LISS",
+    "cursos": [
+      "PI3612 - Probabilidad y estadística II"
+    ]
+  },
+  {
+    "nombre": "SALAS GARITA CYNTHIA",
+    "cursos": [
+      "FO4104 - Formulación y evaluación de proyectos"
+    ]
+  },
+  {
+    "nombre": "SALAS JIMENEZ JUAN CARLOS",
+    "cursos": [
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "SALAS MOYA LAURA",
+    "cursos": [
+      "MI2106 - Estática",
+      "MI2109 - Estática",
+      "MI3124 - Dibujo industrial"
+    ]
+  },
+  {
+    "nombre": "SALAZAR CECILIANO ENMANUEL",
+    "cursos": [
+      "AU1901 - Laboratorio de proyectos VI, Sostenibilidad"
+    ]
+  },
+  {
+    "nombre": "SALAZAR GARCIA CARLOS ADRIAN",
+    "cursos": [
+      "MT7003 - Microprocesadores y microcontroladores",
+      "MT7005 - Formulación de proyectos"
+    ]
+  },
+  {
+    "nombre": "SALAZAR HERNANDEZ ALICIA",
+    "cursos": [
+      "IC6821 - Diseño de software",
+      "IC6831 - Aseguramiento de la calidad del software",
+      "IC7841 - Proyecto de ingeniería de software"
+    ]
+  },
+  {
+    "nombre": "SALAZAR MORERA RODOLFO",
+    "cursos": [
+      "AG3403 - Mecanización agrícola"
+    ]
+  },
+  {
+    "nombre": "SALAZAR ROJAS TERESA",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "SANABRIA BRENES GEOVANNI",
+    "cursos": [
+      "EM5005 - Teoría de números"
+    ]
+  },
+  {
+    "nombre": "SANABRIA COTO CRISTIAN",
+    "cursos": [
+      "AN4008 - Sistematización de datos en agronegocios"
+    ]
+  },
+  {
+    "nombre": "SANABRIA RODRIGUEZ AURELIO",
+    "cursos": [
+      "IC2001 - Estructuras de datos",
+      "IC5701 - Compiladores e interpretes",
+      "IC8060 - Recuperación de información textual"
+    ]
+  },
+  {
+    "nombre": "SANABRIA SANDI RAZIEL FARID",
+    "cursos": [
+      "IF4802 - Laboratorio metrología I",
+      "IF4803 - Metrología industrial y legal"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ BRENES MAGALY",
+    "cursos": [
+      "PI4303 - Control de producción",
+      "PI5302 - Diseño de experimentos",
+      "PI5401 - Simulación industrial"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ BRENES OLGA",
+    "cursos": [
+      "ID2401 - Ergonomía",
+      "ID3109 - Diseño III"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ CORDERO CARLOS ALBERTO",
+    "cursos": [
+      "CM4702 - Materiales cerámicos y compuestos"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ CORRALES JUAN MANUEL",
+    "cursos": [
+      "IC1400 - Fundamentos de organización de computadoras"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ FERNANDEZ IVONNE",
+    "cursos": [
+      "MA0101 - Matemática general"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ HERRERA KERVIN",
+    "cursos": [
+      "EL2110 - Laboratorio de mediciones eléctricas",
+      "EL4314 - Arquitectura de computadoras I",
+      "IC3101 - Arquitectura de computadores"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ KOPPER ANDRES",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ MASIS ALLAN ROBERTO",
+    "cursos": [
+      "EL4513 - Teoría electromagnética I"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ PEREZ LISBETH",
+    "cursos": [
+      "SE1204 - Natación"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ RAMIREZ VANESSA",
+    "cursos": [
+      "AE1122 - Contabilidad I"
+    ]
+  },
+  {
+    "nombre": "SANCHEZ SOTO MICHAEL",
+    "cursos": [
+      "TI6900 - Inteligencia de negocios"
+    ]
+  },
+  {
+    "nombre": "SANCHO JIMENEZ LUIS FELIPE",
+    "cursos": [
+      "ST1003 - Servicios turísticos rurales"
+    ]
+  },
+  {
+    "nombre": "SANCHO MARTINEZ LAURA KARINA",
+    "cursos": [
+      "SE1109 - Dinámica de la cultura"
+    ]
+  },
+  {
+    "nombre": "SANDOVAL CASCANTE LEONARDO",
+    "cursos": [
+      "EL5513 - Comunicaciones eléctricas I",
+      "EL5522 - Taller de comunicaciones eléctricas"
+    ]
+  },
+  {
+    "nombre": "SANDOVAL MORA JOSE ALBERTO",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II",
+      "QU2410 - Laboratorio de química orgánica y bioquímica"
+    ]
+  },
+  {
+    "nombre": "SANDOVAL QUIROS MILTON",
+    "cursos": [
+      "GP3908 - Seminario de investigación II en el énfasis en proyectos empresariales",
+      "GP3911 - Seminario de investigación II en el énfasis en tecnología de información",
+      "GP3914 - Seminario de investigación II en el énfasis en construcción"
+    ]
+  },
+  {
+    "nombre": "SANDOVAL SANCHEZ YARIMA",
+    "cursos": [
+      "TI5904 - Investigación en sistemas de información"
+    ]
+  },
+  {
+    "nombre": "SANDOVAL VASQUEZ JOSE FULVIO",
+    "cursos": [
+      "AE4312 - Macroeconomía"
+    ]
+  },
+  {
+    "nombre": "SCHMIDT DURAN ALEXANDER",
+    "cursos": [
+      "IB2204 - Laboratorio de anatomía vegetal"
+    ]
+  },
+  {
+    "nombre": "SCHMIDT PERALTA JEFF",
+    "cursos": [
+      "CE1101 - Introducción a la programación"
+    ]
+  },
+  {
+    "nombre": "SEGREDA JOHANNING JUAN ANDRES",
+    "cursos": [
+      "TI2404 - Organización y arquitectura de computadoras",
+      "TI3604 - Fundamentos de redes"
+    ]
+  },
+  {
+    "nombre": "SEGURA CARVAJAL MARCOS",
+    "cursos": [
+      "FI1201 - Laboratorio física general I"
+    ]
+  },
+  {
+    "nombre": "SEGURA QUIROS CARLOS",
+    "cursos": [
+      "EL2110 - Laboratorio de mediciones eléctricas",
+      "EL2207 - Elementos activos"
+    ]
+  },
+  {
+    "nombre": "SEGURA SOLIS DAVID",
+    "cursos": [
+      "ID2204 - Herramientas digitales para diseño",
+      "ID5115 - Innovación de productos"
+    ]
+  },
+  {
+    "nombre": "SEGURA ZARATE ANA YANCY",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI2103 - Física general III"
+    ]
+  },
+  {
+    "nombre": "SEQUEIRA CASTRO DAVID",
+    "cursos": [
+      "FI1101 - Física general I",
+      "FI1201 - Laboratorio física general I",
+      "FI2103 - Física general III"
+    ]
+  },
+  {
+    "nombre": "SERRANO SOLANO ALEX",
+    "cursos": [
+      "SE1104 - Artes visuales",
+      "SE1107 - Apreciación de cine"
+    ]
+  },
+  {
+    "nombre": "SEVILLA QUESADA EVAR",
+    "cursos": [
+      "FI1201 - Laboratorio física general I"
+    ]
+  },
+  {
+    "nombre": "SHILTAGH PRADA DIMITRI",
+    "cursos": [
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "SHUM CHAN ALBERTO",
+    "cursos": [
+      "IC8078 - Almacenes de datos y procesamiento OLAP"
+    ]
+  },
+  {
+    "nombre": "SILES SOLANO ANA CATALINA",
+    "cursos": [
+      "PI5101 - Gestión de procesos"
+    ]
+  },
+  {
+    "nombre": "SOJO CASTRO MARJORIE",
+    "cursos": [
+      "AE3127 - Administración financiera I"
+    ]
+  },
+  {
+    "nombre": "SOLANO CORDERO JENNIER",
+    "cursos": [
+      "CE1117 - Formulación y Gestión de Proyectos",
+      "CE5600 - Trabajo final de graduación",
+      "CE5601 - Trabajo final de graduación"
+    ]
+  },
+  {
+    "nombre": "SOLANO FERNANDEZ ERICKA",
+    "cursos": [
+      "IC2101 - Programación orientada a objetos",
+      "IC6821 - Diseño de software"
+    ]
+  },
+  {
+    "nombre": "SOLANO HERRERA BYRON ANDREY",
+    "cursos": [
+      "MA1403 - Matemática discreta"
+    ]
+  },
+  {
+    "nombre": "SOLANO LEANDRO PAULA",
+    "cursos": [
+      "PI2609 - Probabilidad y estadística",
+      "PI3612 - Probabilidad y estadística II",
+      "PI4306 - Metrología y normalización"
+    ]
+  },
+  {
+    "nombre": "SOLANO MARTINEZ MAURICIO",
+    "cursos": [
+      "AE2126 - Contabilidad de costos I",
+      "LA5125 - Contabilidad IV"
+    ]
+  },
+  {
+    "nombre": "SOLANO MORAGA SIGRID",
+    "cursos": [
+      "CI1107 - Comunicación oral"
+    ]
+  },
+  {
+    "nombre": "SOLANO OBANDO MABEL",
+    "cursos": [
+      "CI1231 - Inglés II"
+    ]
+  },
+  {
+    "nombre": "SOLANO PIEDRA RICARDO ADOLFO",
+    "cursos": [
+      "FI1201 - Laboratorio física general I",
+      "IF3601 - Metodología de la investigación"
+    ]
+  },
+  {
+    "nombre": "SOLANO RIVERA WILLIAM",
+    "cursos": [
+      "CO3301 - Topografía aplicada"
+    ]
+  },
+  {
+    "nombre": "SOLANO SOLANO JOSE EDUARDO",
+    "cursos": [
+      "CI1230 - Inglés I",
+      "CI1306 - Inglés II para administración",
+      "FH0162 - La enseñanza de la lengua inglesa y su paralelismo con desarrollo económico"
+    ]
+  },
+  {
+    "nombre": "SOLANO SOTO JAIME",
+    "cursos": [
+      "IC4810 - Administración de proyectos",
+      "IC5821 - Requerimientos de software",
+      "IC7841 - Proyecto de ingeniería de software",
+      "IC7900 - Computación y sociedad"
+    ]
+  },
+  {
+    "nombre": "SOLANO VARELA DANIEL JESUS",
+    "cursos": [
+      "MA0101 - Matemática general"
+    ]
+  },
+  {
+    "nombre": "SOLERA STELLER PAOLA MARIA",
+    "cursos": [
+      "BI1101 - Biología general",
+      "BI1102 - Laboratorio de biología general",
+      "IB2204 - Laboratorio de anatomía vegetal"
+    ]
+  },
+  {
+    "nombre": "SOLIS ARGUEDAS ADRIANA",
+    "cursos": [
+      "MA1403 - Matemática discreta"
+    ]
+  },
+  {
+    "nombre": "SOLIS CESPEDES JACQUELINE",
+    "cursos": [
+      "TI2402 - Algoritmos y estructuras de datos",
+      "TI3600 - Bases de datos"
+    ]
+  },
+  {
+    "nombre": "SOLIS GARCIA MARCO",
+    "cursos": [
+      "AU1702 - Sistemas de representación digital I"
+    ]
+  },
+  {
+    "nombre": "SOLIS PALMA ANGIE",
+    "cursos": [
+      "MA0101 - Matemática general"
+    ]
+  },
+  {
+    "nombre": "SOLIS PARAJELES JONATHAN",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "IC6821 - Diseño de software"
+    ]
+  },
+  {
+    "nombre": "SOLIS RAMIREZ INGRID",
+    "cursos": [
+      "AE3415 - Investigación de mercados",
+      "LA5419 - Estrategia de ventas"
+    ]
+  },
+  {
+    "nombre": "SOLIS SALAZAR MARTIN",
+    "cursos": [
+      "LA5132 - Modelos de decisiones financieras"
+    ]
+  },
+  {
+    "nombre": "SOTO CASCANTE EMANUELLE",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral",
+      "MA1304 - Cálculo para administración",
+      "MA2404 - Probabilidades",
+      "MA3405 - Estadística"
+    ]
+  },
+  {
+    "nombre": "SOTO CHAVES LUIS PABLO",
+    "cursos": [
+      "IC4301 - Bases de datos I",
+      "TI1400 - Introducción a la programación",
+      "TI1401 - Taller de programación",
+      "TI2402 - Algoritmos y estructuras de datos"
+    ]
+  },
+  {
+    "nombre": "SOTO CHINCHILLA YERRY",
+    "cursos": [
+      "FI1503 - Fundamentos de física para arquitectura"
+    ]
+  },
+  {
+    "nombre": "SOTO CORDOBA SILVIA",
+    "cursos": [
+      "QU1106 - Química básica I",
+      "QU2404 - Laboratorio de química orgánica"
+    ]
+  },
+  {
+    "nombre": "SOTO GARITA JUAN PABLO",
+    "cursos": [
+      "EL3216 - Circuitos integrados analógicos"
+    ]
+  },
+  {
+    "nombre": "SOTO GRANT ANDREA",
+    "cursos": [
+      "LE1205 - Planificación didáctica y curricular en ETFP"
+    ]
+  },
+  {
+    "nombre": "SOTO MONGE ALLAN",
+    "cursos": [
+      "IA5605 - Tecnologías en ambientes protegidos"
+    ]
+  },
+  {
+    "nombre": "SOTO MONTOYA CASIA",
+    "cursos": [
+      "AI2401 - Análisis topográfico en Ingeniería Ambiental",
+      "FO4406 - Sistemas de información geográfica II"
+    ]
+  },
+  {
+    "nombre": "SOTO QUIROS JUAN PABLO",
+    "cursos": [
+      "CE1111 - Análisis numérico para la Ingeniería"
+    ]
+  },
+  {
+    "nombre": "STARBIRD PEREZ RICARDO",
+    "cursos": [
+      "AI6108 - Introducción a la ciencia de los polímeros",
+      "CM3501 - Materiales poliméricos",
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "STRADI GRANADOS BENITO",
+    "cursos": [
+      "CM3207 - Métodos numéricos para ingeniería"
+    ]
+  },
+  {
+    "nombre": "TACSAN CHAVES RODOLFO",
+    "cursos": [
+      "CE5301 - Redes de computadores"
+    ]
+  },
+  {
+    "nombre": "TAPIA BALLADARES MARCO",
+    "cursos": [
+      "CO3302 - Geología aplicada"
+    ]
+  },
+  {
+    "nombre": "TENCIO CHACON ANGELA",
+    "cursos": [
+      "TI4101 - Planificación y presupuesto"
+    ]
+  },
+  {
+    "nombre": "TENORIO SANCHEZ ANA PATRICIA",
+    "cursos": [
+      "AE2506 - Estadística II"
+    ]
+  },
+  {
+    "nombre": "THAMES RAMIREZ KARLA",
+    "cursos": [
+      "AE5121 - Ingeniería económica"
+    ]
+  },
+  {
+    "nombre": "TIFFER SOTOMAYOR HAYDEE CELINA",
+    "cursos": [
+      "AE2311 - Macroeconomía",
+      "AE3312 - Negocios internacionales"
+    ]
+  },
+  {
+    "nombre": "TORRES CARBALLO FEDERICO",
+    "cursos": [
+      "TI3601 - Modelo de toma de decisiones",
+      "TI4200 - Economía"
+    ]
+  },
+  {
+    "nombre": "TORRES CONTRERAS ANGELICA",
+    "cursos": [
+      "MR1103 - Administración y manejo sostenible de recursos naturales"
+    ]
+  },
+  {
+    "nombre": "TORRES GOMEZ DANILO",
+    "cursos": [
+      "FO3118 - Silvicultura bosque natural"
+    ]
+  },
+  {
+    "nombre": "TORRES HERNANDEZ LEONARDO",
+    "cursos": [
+      "CO3405 - Mecánica del solido II"
+    ]
+  },
+  {
+    "nombre": "TORRES NAVARRO RAFAEL",
+    "cursos": [
+      "PI4306 - Metrología y normalización"
+    ]
+  },
+  {
+    "nombre": "TORRES ROJAS FRANCISCO JOSE",
+    "cursos": [
+      "IC1400 - Fundamentos de organización de computadoras",
+      "IC5701 - Compiladores e interpretes",
+      "IC6400 - Investigación de operaciones",
+      "IC8059 - Introducción a los gráficos por computador"
+    ]
+  },
+  {
+    "nombre": "TRAVIESO RODRIGUEZ ALBERTO",
+    "cursos": [
+      "SE1220 - Baloncesto"
+    ]
+  },
+  {
+    "nombre": "TREJOS ESPINOZA RAUL",
+    "cursos": [
+      "BL1130 - Introducción a la programación para biotecnología"
+    ]
+  },
+  {
+    "nombre": "TREJOS MONGE SONIA",
+    "cursos": [
+      "LA5141 - Auditoría tributaria"
+    ]
+  },
+  {
+    "nombre": "ULATE MOLINA RICARDO ENRIQUE",
+    "cursos": [
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "UMAÑA CENTENO GABRIEL",
+    "cursos": [
+      "TI1102 - Información contable",
+      "TI8511 - Fundamentos de transformación digital",
+      "TI9905 - Sistemas de información empresarial"
+    ]
+  },
+  {
+    "nombre": "UMAÑA QUIROS BRAULIO",
+    "cursos": [
+      "AI3208 - Hidráulica para ingeniería ambiental",
+      "CO3501 - Hidráulica"
+    ]
+  },
+  {
+    "nombre": "UREÑA JIMENEZ RONALD ANDREY",
+    "cursos": [
+      "AN3008 - Probabilidad y estadísticas en los agronegocios"
+    ]
+  },
+  {
+    "nombre": "UREÑA SANDI NOEL",
+    "cursos": [
+      "MI2101 - Dibujo técnico",
+      "MI3115 - Resistencia de materiales",
+      "MI5151 - Diseño mecánico"
+    ]
+  },
+  {
+    "nombre": "VALERIN BERROCAL KARLA",
+    "cursos": [
+      "IB4106 - Laboratorio de biología molecular aplicada"
+    ]
+  },
+  {
+    "nombre": "VALERIN CASTRO ALEXANDER",
+    "cursos": [
+      "AE2705 - Análisis y gestión de datos empresariales",
+      "LA5142 - Auditoría de las tecnologías de la información I"
+    ]
+  },
+  {
+    "nombre": "VALERIN ROJAS SOFIA",
+    "cursos": [
+      "SE1102 - Acción social"
+    ]
+  },
+  {
+    "nombre": "VALERIO ALFARO DANILO",
+    "cursos": [
+      "AU1704 - Diseño bioclimático"
+    ]
+  },
+  {
+    "nombre": "VALERIO PEREZ LUIS GUILLERMO",
+    "cursos": [
+      "AI5105 - Consumo y producción sostenible",
+      "AI6115 - Energías renovables"
+    ]
+  },
+  {
+    "nombre": "VALERIO SOLIS LORENA",
+    "cursos": [
+      "IC2001 - Estructuras de datos",
+      "IC3002 - Análisis de algoritmos"
+    ]
+  },
+  {
+    "nombre": "VALLECILLO ALFARO JOHANNY",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1231 - Inglés II"
+    ]
+  },
+  {
+    "nombre": "VALVERDE ABARCA ANTHONNY",
+    "cursos": [
+      "AG3107 - Reproducción animal"
+    ]
+  },
+  {
+    "nombre": "VALVERDE CERDAS JOHNNY",
+    "cursos": [
+      "QU2403 - Química orgánica",
+      "QU2404 - Laboratorio de química orgánica"
+    ]
+  },
+  {
+    "nombre": "VALVERDE GARDELA HERBERTH",
+    "cursos": [
+      "EL2114 - Circuitos eléctricos en corriente alterna"
+    ]
+  },
+  {
+    "nombre": "VALVERDE JARA ANA",
+    "cursos": [
+      "SE1103 - Danza"
+    ]
+  },
+  {
+    "nombre": "VALVERDE MADRIZ LUIS",
+    "cursos": [
+      "AU1902 - Instalaciones eléctricas"
+    ]
+  },
+  {
+    "nombre": "VALVERDE MASIS EDUARDO",
+    "cursos": [
+      "AE1205 - Habilidades gerenciales"
+    ]
+  },
+  {
+    "nombre": "VALVERDE OTAROLA JUAN CARLOS",
+    "cursos": [
+      "FO4417 - Ecofisiología forestal"
+    ]
+  },
+  {
+    "nombre": "VALVERDE SANCHEZ SAMUEL",
+    "cursos": [
+      "MA2104 - Cálculo superior"
+    ]
+  },
+  {
+    "nombre": "VALVERDE SOLANO MARIA DEL CARMEN",
+    "cursos": [
+      "ID1104 - Análisis de producto II",
+      "ID2108 - Diseño II"
+    ]
+  },
+  {
+    "nombre": "VAQUERANO PINEDA FELIPE",
+    "cursos": [
+      "AA3202 - Anatomía y fisiología animal",
+      "AA4205 - Producción bovina"
+    ]
+  },
+  {
+    "nombre": "VAQUERANO PINEDA NICOLAS",
+    "cursos": [
+      "MI2204 - Laboratorio de electricidad II",
+      "MI2207 - Electricidad II",
+      "MI4510 - Electrotecnia",
+      "MT2001 - Circuitos eléctricos en CC y CA"
+    ]
+  },
+  {
+    "nombre": "VARELA SOJO XINIA",
+    "cursos": [
+      "ID5004 - Introducción al diseño para la innovación social",
+      "ID5114 - Gestión de proyectos"
+    ]
+  },
+  {
+    "nombre": "VARGAS BLANCO IVAN",
+    "cursos": [
+      "FI1102 - Física general II"
+    ]
+  },
+  {
+    "nombre": "VARGAS CALVO JORGE",
+    "cursos": [
+      "IC1400 - Fundamentos de organización de computadoras",
+      "IC3101 - Arquitectura de computadores",
+      "IC4700 - Lenguajes de programación",
+      "IC8052 - Criptografía"
+    ]
+  },
+  {
+    "nombre": "VARGAS CAMARENO MARICRUZ",
+    "cursos": [
+      "QU1107 - Química básica II"
+    ]
+  },
+  {
+    "nombre": "VARGAS CORRALES CAMILO JOSE",
+    "cursos": [
+      "CO5022 - Procesos constructivos"
+    ]
+  },
+  {
+    "nombre": "VARGAS ELIZONDO CELSO",
+    "cursos": [
+      "CS3401 - Seminario de estudios filosóficos históricos",
+      "CS3404 - Seminario de ética para la ingeniería"
+    ]
+  },
+  {
+    "nombre": "VARGAS FONSECA LUPITA",
+    "cursos": [
+      "FO3113 - Inventarios forestales",
+      "FO4418 - Cambio climático: acciones y métricas en sistemas terrestres"
+    ]
+  },
+  {
+    "nombre": "VARGAS GOMEZ PABLO JOSE",
+    "cursos": [
+      "PI3512 - Dirección de personal",
+      "PI4001 - Dirección de personal"
+    ]
+  },
+  {
+    "nombre": "VARGAS GOMEZ RODRIGO DAVID",
+    "cursos": [
+      "CM2401 - Metalurgia física",
+      "CM3208 - Metrología para ingeniería",
+      "CM5243 - Análisis de fallas",
+      "ME2208 - Ciencias de los materiales"
+    ]
+  },
+  {
+    "nombre": "VARGAS RIVERA ANDRES",
+    "cursos": [
+      "CE1115 - Seguridad de la información"
+    ]
+  },
+  {
+    "nombre": "VARGAS VARGAS BERNAL",
+    "cursos": [
+      "PI3512 - Dirección de personal",
+      "PI4802 - Administración de proyectos",
+      "PI5401 - Simulación industrial",
+      "PI5601 - Diagnóstico industrial"
+    ]
+  },
+  {
+    "nombre": "VEGA AGUERO JORGE",
+    "cursos": [
+      "SE1205 - Juegos y deportes en conjunto",
+      "SE1206 - Acondicionamiento físico",
+      "SE1209 - Béisbol-softbol"
+    ]
+  },
+  {
+    "nombre": "VEGA ALFARO ANDREY",
+    "cursos": [
+      "AG3405 - Agroestadística II"
+    ]
+  },
+  {
+    "nombre": "VEGA CASTILLO PAOLA",
+    "cursos": [
+      "EL2113 - Circuitos eléctricos en corriente continua",
+      "EL2207 - Elementos activos"
+    ]
+  },
+  {
+    "nombre": "VEGA DIAZ JEAN",
+    "cursos": [
+      "IC4810 - Administración de proyectos"
+    ]
+  },
+  {
+    "nombre": "VEGA GARITA VICTOR",
+    "cursos": [
+      "CM3207 - Métodos numéricos para ingeniería",
+      "ME3209 - Laboratorio de tecnología de materiales"
+    ]
+  },
+  {
+    "nombre": "VEGA ROJAS LUIS MAURICIO",
+    "cursos": [
+      "FH0025 - Sexualidad pareja y teoría psicosexual"
+    ]
+  },
+  {
+    "nombre": "VEGA SANCHEZ CHRISTOPHER",
+    "cursos": [
+      "MI2106 - Estática",
+      "MI2109 - Estática"
+    ]
+  },
+  {
+    "nombre": "VEGA VASQUEZ ARTURO",
+    "cursos": [
+      "EM4010 - Programación lineal",
+      "MA0101 - Matemática general",
+      "MA2117 - Cálculo y geometría analítica"
+    ]
+  },
+  {
+    "nombre": "VILCHEZ MONGE MARTA",
+    "cursos": [
+      "MT2002 - Laboratorio de circuitos de corriente continua y corriente alterna"
+    ]
+  },
+  {
+    "nombre": "VILLAGRA MENDOZA CAROLINA",
+    "cursos": [
+      "IA5601 - Protección ambiental"
+    ]
+  },
+  {
+    "nombre": "VILLALOBOS ARIAS LUIS ROBERTO",
+    "cursos": [
+      "CA2125 - Elementos de computación",
+      "IC7900 - Computación y sociedad"
+    ]
+  },
+  {
+    "nombre": "VILLALOBOS ARIAS MARIO",
+    "cursos": [
+      "MA1102 - Cálculo diferencial e integral"
+    ]
+  },
+  {
+    "nombre": "VILLALOBOS BARQUERO VERONICA",
+    "cursos": [
+      "FO3203 - Aprovechamiento forestal I"
+    ]
+  },
+  {
+    "nombre": "VILLALOBOS MURILLO JOHANA",
+    "cursos": [
+      "QU1102 - Laboratorio de química básica I",
+      "QU1104 - Laboratorio de química básica II"
+    ]
+  },
+  {
+    "nombre": "VILLALTA ROMERO FABIAN",
+    "cursos": [
+      "IB3603 - Laboratorio de bioquímica",
+      "QU1106 - Química básica I"
+    ]
+  },
+  {
+    "nombre": "VILLAREAL MARCHENA TANIA",
+    "cursos": [
+      "AN7001 - Gestión de certificaciones en agronegocios"
+    ]
+  },
+  {
+    "nombre": "VILLEGAS LEMUS MILTON",
+    "cursos": [
+      "CE1104 - Fundamentos de sistemas computacionales"
+    ]
+  },
+  {
+    "nombre": "VILLEGAS ROJAS ALEXANDER",
+    "cursos": [
+      "AE1122 - Contabilidad I",
+      "AE2124 - Contabilidad III"
+    ]
+  },
+  {
+    "nombre": "VILLEGAS SALAS SONIA",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI1230 - Inglés I",
+      "CI1231 - Inglés II"
+    ]
+  },
+  {
+    "nombre": "VINDAS FERNANDEZ NURIA",
+    "cursos": [
+      "CI0202 - Inglés básico",
+      "CI3400 - Inglés 1 (ATI)",
+      "CI4401 - Inglés II (ATI)"
+    ]
+  },
+  {
+    "nombre": "VIQUEZ ACUÑA LEONARDO",
+    "cursos": [
+      "IC2101 - Programación orientada a objetos",
+      "IC4302 - Bases de datos II"
+    ]
+  },
+  {
+    "nombre": "VIQUEZ ACUÑA OSCAR MARIO",
+    "cursos": [
+      "IC2101 - Programación orientada a objetos",
+      "IC4700 - Lenguajes de programación",
+      "IC5701 - Compiladores e interpretes"
+    ]
+  },
+  {
+    "nombre": "VIQUEZ PANIAGUA ANA GABRIELA",
+    "cursos": [
+      "AE3551 - Administración de proyectos"
+    ]
+  },
+  {
+    "nombre": "VIQUEZ VIQUEZ ANDRES",
+    "cursos": [
+      "IC6831 - Aseguramiento de la calidad del software"
+    ]
+  },
+  {
+    "nombre": "VIQUEZ ZELEDON JESSENIA",
+    "cursos": [
+      "SE1205 - Juegos y deportes en conjunto",
+      "SE1206 - Acondicionamiento físico",
+      "SE1223 - Voleibol"
+    ]
+  },
+  {
+    "nombre": "WALSH ZUÑIGA YOSELYN",
+    "cursos": [
+      "ID5516 - Teoría de las interfases y la interactividad"
+    ]
+  },
+  {
+    "nombre": "WATSON HERNANDEZ FERNANDO",
+    "cursos": [
+      "IA3203 - Hidrología"
+    ]
+  },
+  {
+    "nombre": "WYNTA BANTON RANDY YADIR",
+    "cursos": [
+      "AE2506 - Estadística II",
+      "MA0101 - Matemática general",
+      "MA1102 - Cálculo diferencial e integral",
+      "MA2104 - Cálculo superior"
+    ]
+  },
+  {
+    "nombre": "YGLESIAS CUADRA ROBERTO",
+    "cursos": [
+      "AU1703 - Sistemas de construcción I"
+    ]
+  },
+  {
+    "nombre": "ZAMORA BOLAÑOS JUAN DIEGO",
+    "cursos": [
+      "EL4702 - Probabilidad y estadística"
+    ]
+  },
+  {
+    "nombre": "ZAMORA CARDENAS WILLARD",
+    "cursos": [
+      "IC8076 - Introducción al análisis de datos"
+    ]
+  },
+  {
+    "nombre": "ZAMORA ZAMORA CINDY",
+    "cursos": [
+      "SO5904 - Factores humanos y ergonomía ocupacional"
+    ]
+  },
+  {
+    "nombre": "ZUÑIGA GARITA IGOR",
+    "cursos": [
+      "FO4225 - Seguimiento y auditoría ambiental"
+    ]
+  },
+  {
+    "nombre": "ZUÑIGA RIVERA MONICA",
+    "cursos": [
+      "CI1107 - Comunicación oral",
+      "FH0263 - Religión, espiritualidades y ética mundial"
+    ]
+  },
+  {
+    "nombre": "ZUÑIGA SEGURA LORENA",
+    "cursos": [
+      "TI4601 - Bases de datos avanzados"
+    ]
+  }
+]
