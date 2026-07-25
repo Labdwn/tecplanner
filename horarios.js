@@ -1451,8 +1451,8 @@ function openRecomendacionInfoModal() {
                         calidad_ajustada = peso × calidad + (1 − peso) × C
                     </div>
                     <ul style="margin:10px 0 0; padding-left:20px; color:var(--text-dim); line-height:1.8; font-size:0.87rem;">
-                        <li><strong style="color:#fff;">C</strong> (promedio de referencia) = ${cCalidadTxt}, no un número fijo inventado.</li>
-                        <li><strong style="color:#fff;">m</strong> (umbral de confianza) = <strong style="color:#4ade80;">${REC_M}</strong>, calculado —no elegido a ojo— así:
+                        <li><strong style="color:#fff;">C</strong> (promedio de referencia) = ${cCalidadTxt}.</li>
+                        <li><strong style="color:#fff;">m</strong> (umbral de confianza) = <strong style="color:#4ade80;">${REC_M}</strong>, calculado así:
                             para estimar la calidad con un margen de error de ±${REC_MARGEN_ACEPTABLE} puntos al 95% de confianza,
                             asumiendo una desviación estándar típica de ${REC_SIGMA_CALIDAD_ASUMIDA} en calificaciones individuales (escala 0-10),
                             el tamaño de muestra necesario es <code>n ≈ (z·σ/E)²</code> con z=${REC_Z}.</li>
