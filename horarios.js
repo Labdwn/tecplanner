@@ -1655,9 +1655,9 @@ async function ejecutarComparacion() {
     const resultados = await Promise.all(seleccionados.map(async (p) => {
         try {
             const datos = await obtenerDatosMisprofes(p.url);
-            return { nombre: p.nombre, datos, error: null };
+            return { nombre: p.nombre, url: p.url, datos, error: null };
         } catch (e) {
-            return { nombre: p.nombre, datos: null, error: 'No se pudo consultar' };
+            return { nombre: p.nombre, url: p.url, datos: null, error: 'No se pudo consultar' };
         }
     }));
 
@@ -1724,8 +1724,8 @@ function renderTablaComparacion() {
         const scoreTitle = rec
             ? `Score bayesiano: ${rec.score}/10 (n=${rec.n}${rec.confiable ? '' : ', muestra pequeña → ajustado hacia el promedio'})`
             : 'Datos insuficientes para calcular el score';
-        return `<tr>
-            <td style="color:#fff; font-weight:700;">${r.nombre}</td>
+        return `<tr ${filaAttrs}>
+            <td style="color:#fff; font-weight:700;">${nombreCelda}</td>
             <td style="text-align:center; color:#10b981;">${d.calidadGeneral ?? '—'}</td>
             <td style="text-align:center; color:#ef4444;">${d.nivelDificultad ?? '—'}</td>
             <td style="text-align:center; color:#3b82f6;">${d.loRecomiendan ?? '—'}</td>
