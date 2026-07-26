@@ -1702,58 +1702,33 @@ function renderTablaComparacion() {
 
     const ordenados = ordenarResultadosComparador(comparadorEstado.resultados, comparadorEstado.orden);
 
-    const filas = ordenados.map(r => {
-        const clicable = !!r.url;
-        const filaAttrs = clicable
-            ? `class="comparador-fila-clic" style="cursor:pointer;" title="Ver perfil completo en misprofesores.com" onclick="window.open(${JSON.stringify(r.url)}, '_blank', 'noopener')"`
-            : '';
-        const nombreCelda = clicable
-            ? `${r.nombre} <span style="opacity:0.5; font-size:0.75rem;">↗</span>`
-            : r.nombre;
-
+    const filas = ordenados.map((r, i) => {
         if (!r.datos) {
-            return `<tr ${filaAttrs}>
-                <td style="color:#fff;">${nombreCelda}</td>
-                <td colspan="5" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
+            return `<tr>
+                <td style="color:#fff;">${r.nombre}</td>
+                <td colspan="4" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
             </tr>`;
         }
         const d = r.datos;
-        const rec = calcularRecomendacionDesdeDatos(d);
-        const scoreTxt = rec ? rec.score.toFixed(1) : '—';
-        const scoreColor = !rec ? '#555' : rec.score >= 7.5 ? '#10b981' : rec.score >= 5.5 ? '#fbbf24' : '#ef4444';
-        const scoreTitle = rec
-            ? `Score bayesiano: ${rec.score}/10 (n=${rec.n}${rec.confiable ? '' : ', muestra pequeña → ajustado hacia el promedio'})`
-            : 'Datos insuficientes para calcular el score';
-        return `<tr ${filaAttrs}>
-            <td style="color:#fff; font-weight:700;">${nombreCelda}</td>
+        return `<tr class="comparador-row" data-idx="${i}" style="cursor:pointer;" title="Clic para abrir el perfil de ${r.nombre} en MisProfesTEC">
+            <td style="color:#fff; font-weight:700;">${r.nombre}</td>
             <td style="text-align:center; color:#10b981;">${d.calidadGeneral ?? '—'}</td>
             <td style="text-align:center; color:#ef4444;">${d.nivelDificultad ?? '—'}</td>
             <td style="text-align:center; color:#3b82f6;">${d.loRecomiendan ?? '—'}</td>
             <td style="text-align:center; color:#fbbf24;">${d.numCalificaciones ?? '—'}</td>
-            <td style="text-align:center; color:${scoreColor}; font-weight:700;" title="${scoreTitle}">
-                🧮 ${scoreTxt}${rec && !rec.confiable ? ' <span style="font-size:0.65rem; color:#666;">(pocos datos)</span>' : ''}
-            </td>
         </tr>`;
     }).join('');
 
-   
-
     wrap.innerHTML = `
-        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
-            <button type="button" class="hor-btn-ghost" onclick="openRecomendacionInfoModal()" style="border-color:#10b981; color:#10b981;">
-                🧮 ¿Cómo se calcula el score?
-            </button>
-            <div style="display:flex; align-items:center; gap:8px;">
-                <label style="font-size:0.8rem; color:var(--text-dim);">Ordenar por:</label>
-                <select id="comparadorOrdenSelect" class="list-select" onchange="cambiarOrdenComparador(this.value)">
-                    <option value="bayes_desc" ${comparadorEstado.orden === 'bayes_desc' ? 'selected' : ''}>⚖️ Mejor balance (calidad + confianza)</option>
-                    <option value="recomiendan_desc" ${comparadorEstado.orden === 'recomiendan_desc' ? 'selected' : ''}>Más recomendado</option>
-                    <option value="calidad_desc" ${comparadorEstado.orden === 'calidad_desc' ? 'selected' : ''}>Mejor calidad general</option>
-                    <option value="dificultad_asc" ${comparadorEstado.orden === 'dificultad_asc' ? 'selected' : ''}>Más fácil</option>
-                    <option value="dificultad_desc" ${comparadorEstado.orden === 'dificultad_desc' ? 'selected' : ''}>Más difícil</option>
-                    <option value="calificaciones_desc" ${comparadorEstado.orden === 'calificaciones_desc' ? 'selected' : ''}>Más calificaciones</option>
-                </select>
-            </div>
+        <div style="display:flex; justify-content:flex-end; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
+            <label style="font-size:0.8rem; color:var(--text-dim);">Ordenar por:</label>
+            <select id="comparadorOrdenSelect" class="list-select" onchange="cambiarOrdenComparador(this.value)">
+                <option value="recomiendan_desc" ${comparadorEstado.orden === 'recomiendan_desc' ? 'selected' : ''}>Más recomendado</option>
+                <option value="calidad_desc" ${comparadorEstado.orden === 'calidad_desc' ? 'selected' : ''}>Mejor calidad general</option>
+                <option value="dificultad_asc" ${comparadorEstado.orden === 'dificultad_asc' ? 'selected' : ''}>Más fácil</option>
+                <option value="dificultad_desc" ${comparadorEstado.orden === 'dificultad_desc' ? 'selected' : ''}>Más difícil</option>
+                <option value="calificaciones_desc" ${comparadorEstado.orden === 'calificaciones_desc' ? 'selected' : ''}>Más calificaciones</option>
+            </select>
         </div>
         <table class="list-table" style="width:100%;">
             <thead>
@@ -1763,20 +1738,25 @@ function renderTablaComparacion() {
                     <th style="text-align:center;">Dificultad</th>
                     <th style="text-align:center;">Recomiendan</th>
                     <th style="text-align:center;"># Calif.</th>
-                    <th style="text-align:center;">⚖️ Score</th>
                 </tr>
             </thead>
             <tbody>${filas}</tbody>
         </table>
-        <div style="margin-top:10px; font-size:0.76rem; color:#555; line-height:1.5;">
-            El <strong style="color:#999;">⚖️ Score</strong> corrige la nota hacia el promedio general cuando hay pocas
-            calificaciones, así un profesor con 9/10 pero solo 5 reseñas no le gana automáticamente a uno con 8/10 y 200 reseñas.
-        </div>
-        <div style="margin-top:10px; padding:10px 12px; border-radius:8px; border:1px solid #3b3b1f; background:#1f1c10; font-size:0.78rem; color:#d4c78a; line-height:1.55;">
-            💡 Estos números son solo un resumen. Hacé clic en un profesor para entrar a su página en misprofesores.com,
-            corroborar la información y <strong style="color:#f2e6a8;">leer los comentarios</strong> — muchas veces dicen
-            más sobre el estilo de dar clase, la forma de evaluar o el trato con estudiantes que cualquier número.
+        <div style="margin-top:12px; padding:10px 14px; background:rgba(251,191,36,0.08); border:1px solid rgba(251,191,36,0.3); border-radius:6px; font-size:0.78rem; color:var(--text-dim); line-height:1.5;">
+            💡 Estos números son un resumen. Te recomendamos <strong style="color:#fbbf24;">abrir la página original</strong> (clic en cualquier fila) y leer los <strong style="color:#fbbf24;">comentarios de los estudiantes</strong> antes de decidir — el promedio no siempre cuenta toda la historia.
         </div>`;
+
+    // Guardar referencia a los datos ordenados para el listener de clic
+    wrap._comparadorOrdenados = ordenados;
+
+    wrap.querySelectorAll('.comparador-row').forEach(tr => {
+        tr.addEventListener('click', () => {
+            const idx = parseInt(tr.dataset.idx, 10);
+            const item = wrap._comparadorOrdenados[idx];
+            const url = item?.datos?.url;
+            if (url) window.open(url, '_blank', 'noopener');
+        });
+    });
 }
 
 function cambiarOrdenComparador(valor) {
