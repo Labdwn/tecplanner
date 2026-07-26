@@ -1358,23 +1358,21 @@ function wilsonLowerBound(p, n, z = REC_Z) {
 }
 
 // Convierte los datos ya parseados de misprofesCache en el score ajustado
-function calcularRecomendacionDesdeDatos(datos) {
+function calcularRecomendacionDesdeDatos(datos, cCalidadFijo = null) {
     if (!datos) return null;
-    const calidad     = parsearNumeroComparador(datos.calidadGeneral);
-    const recomienda  = parsearNumeroComparador(datos.loRecomiendan);
-    const n           = parsearNumeroComparador(datos.numCalificaciones);
+    const calidad    = parsearNumeroComparador(datos.calidadGeneral);
+    const recomienda = parsearNumeroComparador(datos.loRecomiendan);
+    const n          = parsearNumeroComparador(datos.numCalificaciones);
     if (calidad === null || recomienda === null || n === null) return null;
 
-    const globalCache = calcularPromedioGlobalCache();
-    const cCalidad     = globalCache ? globalCache.calidad    : REC_C_CALIDAD_DEFECTO;
+    // Si viene un C fijo (snapshot del comparador), se usa ese; si no, se recalcula
+    // en vivo con el caché actual (comportamiento normal para el badge individual).
+    const cCalidad = cCalidadFijo !== null ? cCalidadFijo
+        : (calcularPromedioGlobalCache()?.calidad ?? REC_C_CALIDAD_DEFECTO);
 
-    // Calidad: promedio bayesiano/empírico (shrinkage hacia cCalidad cuando n es chico)
     const peso = n / (n + REC_M);
     const calidadAjustada = peso * calidad + (1 - peso) * cCalidad;
-
-    // Recomienda: límite inferior de Wilson sobre la proporción observada
     const recomiendaAjustada = wilsonLowerBound(recomienda / 100, n) * 100;
-
     const score = calidadAjustada * 0.7 + (recomiendaAjustada / 10) * 0.3;
 
     return {
@@ -1382,7 +1380,6 @@ function calcularRecomendacionDesdeDatos(datos) {
         calidadAjustada: Math.round(calidadAjustada * 10) / 10,
         recomiendaAjustada: Math.round(recomiendaAjustada),
         confiable: n >= REC_M,
-        usaPromedioEmpirico: !!globalCache,
         n
     };
 }
@@ -1650,8 +1647,6 @@ async function ejecutarComparacion() {
         ⏳ Consultando ${seleccionados.length} profesor${seleccionados.length !== 1 ? 'es' : ''}...
     </div>`;
 
-    // En paralelo: cada consulta usa el mismo fetchHtmlViaProxy con timeout,
-    // así que un profesor lento no bloquea a los demás.
     const resultados = await Promise.all(seleccionados.map(async (p) => {
         try {
             const datos = await obtenerDatosMisprofes(p.url);
@@ -1662,6 +1657,10 @@ async function ejecutarComparacion() {
     }));
 
     comparadorEstado.resultados = resultados;
+    // Se congela el promedio de referencia (C) en este instante — así el score
+    // de cada profesor no cambia solo porque el caché siguió creciendo en el
+    // fondo mientras mirás/ordenás esta misma tabla.
+    comparadorEstado.cCalidadSnapshot = calcularPromedioGlobalCache()?.calidad ?? REC_C_CALIDAD_DEFECTO;
     renderTablaComparacion();
 }
 
@@ -1675,10 +1674,8 @@ function ordenarResultadosComparador(resultados, criterio) {
     const conDatos = resultados.filter(r => r.datos);
     const sinDatos = resultados.filter(r => !r.datos);
 
-    // Calcula (una sola vez por render) la recomendación matemática real,
-    // reusando calcularRecomendacionDesdeDatos — el mismo cálculo bayesiano/Wilson
-    // que ya se usa en el badge individual de cada grupo.
-    conDatos.forEach(r => { r._rec = calcularRecomendacionDesdeDatos(r.datos); });
+    const cFijo = comparadorEstado.cCalidadSnapshot ?? REC_C_CALIDAD_DEFECTO;
+    conDatos.forEach(r => { r._rec = calcularRecomendacionDesdeDatos(r.datos, cFijo); });
 
     const valorSegunCriterio = (r) => {
         const d = r.datos;
@@ -1724,11 +1721,11 @@ function renderTablaComparacion() {
 
         return `<tr class="comparador-row" data-idx="${i}" style="cursor:pointer;" title="Clic para abrir el perfil de ${r.nombre} en MisProfesTEC">
             <td style="color:#fff; font-weight:700;">${r.nombre}</td>
-            <td style="text-align:center; color:${scoreColor}; font-weight:700; font-size:1rem;">🧮 ${scoreTxt}${confianzaTag}</td>
             <td style="text-align:center; color:#10b981;">${d.calidadGeneral ?? '—'}</td>
             <td style="text-align:center; color:#ef4444;">${d.nivelDificultad ?? '—'}</td>
             <td style="text-align:center; color:#3b82f6;">${d.loRecomiendan ?? '—'}</td>
             <td style="text-align:center; color:#fbbf24;">${d.numCalificaciones ?? '—'}</td>
+            <td style="text-align:center; color:${scoreColor}; font-weight:700; font-size:1rem;">🧮 ${scoreTxt}${confianzaTag}</td>
         </tr>`;
     }).join('');
 
@@ -1751,11 +1748,11 @@ function renderTablaComparacion() {
             <thead>
                 <tr>
                     <th>Profesor</th>
-                    <th style="text-align:center;">Score</th>
                     <th style="text-align:center;">Calidad</th>
                     <th style="text-align:center;">Dificultad</th>
                     <th style="text-align:center;">Recomiendan</th>
                     <th style="text-align:center;"># Calif.</th>
+                    <th style="text-align:center;">Score</th>
                 </tr>
             </thead>
             <tbody>${filas}</tbody>
@@ -1766,8 +1763,6 @@ function renderTablaComparacion() {
             <strong style="color:#fbbf24;">comentarios de los estudiantes</strong> antes de decidir.
         </div>`;
 
-    // Guardamos la lista ordenada para resolver el clic sin interpolar nombres/URLs
-    // en atributos HTML (evita romper todo si el nombre trae comillas o acentos raros).
     wrap._comparadorOrdenados = ordenados;
     wrap.querySelectorAll('.comparador-row').forEach(tr => {
         tr.addEventListener('click', () => {
