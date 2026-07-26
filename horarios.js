@@ -1736,11 +1736,7 @@ function renderTablaComparacion() {
         </tr>`;
     }).join('');
 
-    <div style="margin-top:10px; padding:10px 12px; border-radius:8px; border:1px solid #3b3b1f; background:#1f1c10; font-size:0.78rem; color:#d4c78a; line-height:1.55;">
-        💡 Estos números son solo un resumen. Hacé clic en un profesor para entrar a su página en misprofesores.com,
-        corroborar la información y <strong style="color:#f2e6a8;">leer los comentarios</strong> — muchas veces dicen
-        más sobre el estilo de dar clase, la forma de evaluar o el trato con estudiantes que cualquier número.
-    </div>
+   
 
     wrap.innerHTML = `
         <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
@@ -1775,6 +1771,11 @@ function renderTablaComparacion() {
         <div style="margin-top:10px; font-size:0.76rem; color:#555; line-height:1.5;">
             El <strong style="color:#999;">⚖️ Score</strong> corrige la nota hacia el promedio general cuando hay pocas
             calificaciones, así un profesor con 9/10 pero solo 5 reseñas no le gana automáticamente a uno con 8/10 y 200 reseñas.
+        </div>
+        <div style="margin-top:10px; padding:10px 12px; border-radius:8px; border:1px solid #3b3b1f; background:#1f1c10; font-size:0.78rem; color:#d4c78a; line-height:1.55;">
+            💡 Estos números son solo un resumen. Hacé clic en un profesor para entrar a su página en misprofesores.com,
+            corroborar la información y <strong style="color:#f2e6a8;">leer los comentarios</strong> — muchas veces dicen
+            más sobre el estilo de dar clase, la forma de evaluar o el trato con estudiantes que cualquier número.
         </div>`;
 }
 
