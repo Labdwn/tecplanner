@@ -2659,3 +2659,11 @@ path {
     background: rgba(59,130,246,0.15); color: #60a5fa; border: 1px solid #3b82f6;
     font-size: 0.65rem; font-weight: 700; padding: 1px 7px; border-radius: 8px;
 }
+
+.list-table tr.comparador-fila-clic:hover {
+    background: color-mix(in srgb, var(--accent) 12%, #25252c);
+}
+
+.list-table tr.comparador-fila-clic:hover td:first-child {
+    color: var(--accent) !important;
+}

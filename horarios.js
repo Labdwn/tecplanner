@@ -1703,9 +1703,17 @@ function renderTablaComparacion() {
     const ordenados = ordenarResultadosComparador(comparadorEstado.resultados, comparadorEstado.orden);
 
     const filas = ordenados.map(r => {
+        const clicable = !!r.url;
+        const filaAttrs = clicable
+            ? `class="comparador-fila-clic" style="cursor:pointer;" title="Ver perfil completo en misprofesores.com" onclick="window.open(${JSON.stringify(r.url)}, '_blank', 'noopener')"`
+            : '';
+        const nombreCelda = clicable
+            ? `${r.nombre} <span style="opacity:0.5; font-size:0.75rem;">↗</span>`
+            : r.nombre;
+
         if (!r.datos) {
-            return `<tr>
-                <td style="color:#fff;">${r.nombre}</td>
+            return `<tr ${filaAttrs}>
+                <td style="color:#fff;">${nombreCelda}</td>
                 <td colspan="5" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
             </tr>`;
         }
@@ -1727,6 +1735,12 @@ function renderTablaComparacion() {
             </td>
         </tr>`;
     }).join('');
+
+    <div style="margin-top:10px; padding:10px 12px; border-radius:8px; border:1px solid #3b3b1f; background:#1f1c10; font-size:0.78rem; color:#d4c78a; line-height:1.55;">
+        💡 Estos números son solo un resumen. Hacé clic en un profesor para entrar a su página en misprofesores.com,
+        corroborar la información y <strong style="color:#f2e6a8;">leer los comentarios</strong> — muchas veces dicen
+        más sobre el estilo de dar clase, la forma de evaluar o el trato con estudiantes que cualquier número.
+    </div>
 
     wrap.innerHTML = `
         <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
