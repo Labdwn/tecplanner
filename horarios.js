@@ -1559,7 +1559,7 @@ async function abrirPanelProfesor(nombre, url, cursoCodigo, cursoNombre) {
 // Reemplaza a la función abrirComparadorProfesores() vieja en horarios.js.
 // =============================================================================
 
-let comparadorEstado = { resultados: [], orden: 'bayes_desc' };
+let comparadorEstado = { resultados: [], orden: 'score_desc' };
 
 // Junta los nombres de profesor únicos que dictan un curso específico
 // (a partir de horariosCursosDisponibles, ya cargado para la escuela activa),
@@ -1675,6 +1675,11 @@ function ordenarResultadosComparador(resultados, criterio) {
     const conDatos = resultados.filter(r => r.datos);
     const sinDatos = resultados.filter(r => !r.datos);
 
+    // Calcula (una sola vez por render) la recomendación matemática real,
+    // reusando calcularRecomendacionDesdeDatos — el mismo cálculo bayesiano/Wilson
+    // que ya se usa en el badge individual de cada grupo.
+    conDatos.forEach(r => { r._rec = calcularRecomendacionDesdeDatos(r.datos); });
+
     const valorSegunCriterio = (r) => {
         const d = r.datos;
         switch (criterio) {
@@ -1682,7 +1687,7 @@ function ordenarResultadosComparador(resultados, criterio) {
             case 'dificultad_asc':      return parsearNumeroComparador(d.nivelDificultad) ?? Infinity;
             case 'dificultad_desc':     return parsearNumeroComparador(d.nivelDificultad) ?? -Infinity;
             case 'calificaciones_desc': return parsearNumeroComparador(d.numCalificaciones) ?? -Infinity;
-            case 'bayes_desc':          return calcularRecomendacionDesdeDatos(d)?.score ?? -Infinity;
+            case 'score_desc':          return r._rec?.score ?? -Infinity;
             case 'recomiendan_desc':
             default:                    return parsearNumeroComparador(d.loRecomiendan) ?? -Infinity;
         }
@@ -1694,6 +1699,84 @@ function ordenarResultadosComparador(resultados, criterio) {
     });
 
     return [...conDatos, ...sinDatos];
+}
+
+function renderTablaComparacion() {
+    const wrap = document.getElementById('comparadorResultadosWrap');
+    if (!wrap) return;
+
+    const ordenados = ordenarResultadosComparador(comparadorEstado.resultados, comparadorEstado.orden);
+
+    const filas = ordenados.map((r, i) => {
+        if (!r.datos) {
+            return `<tr>
+                <td style="color:#fff;">${r.nombre}</td>
+                <td colspan="5" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
+            </tr>`;
+        }
+        const d = r.datos;
+        const rec = r._rec;
+        const scoreColor = !rec ? '#555' : rec.score >= 7.5 ? '#10b981' : rec.score >= 5.5 ? '#fbbf24' : '#ef4444';
+        const scoreTxt = rec ? rec.score : '—';
+        const confianzaTag = rec && !rec.confiable
+            ? `<span title="Muestra pequeña (${rec.n} calificaciones): el score se corrigió hacia el promedio general" style="font-size:0.62rem; color:#f59e0b; margin-left:4px;">⚠</span>`
+            : '';
+
+        return `<tr class="comparador-row" data-idx="${i}" style="cursor:pointer;" title="Clic para abrir el perfil de ${r.nombre} en MisProfesTEC">
+            <td style="color:#fff; font-weight:700;">${r.nombre}</td>
+            <td style="text-align:center; color:${scoreColor}; font-weight:700; font-size:1rem;">🧮 ${scoreTxt}${confianzaTag}</td>
+            <td style="text-align:center; color:#10b981;">${d.calidadGeneral ?? '—'}</td>
+            <td style="text-align:center; color:#ef4444;">${d.nivelDificultad ?? '—'}</td>
+            <td style="text-align:center; color:#3b82f6;">${d.loRecomiendan ?? '—'}</td>
+            <td style="text-align:center; color:#fbbf24;">${d.numCalificaciones ?? '—'}</td>
+        </tr>`;
+    }).join('');
+
+    wrap.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
+            <button type="button" class="hor-btn-ghost" onclick="openRecomendacionInfoModal()">🧮 ¿Cómo se calcula el Score?</button>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <label style="font-size:0.8rem; color:var(--text-dim);">Ordenar por:</label>
+                <select id="comparadorOrdenSelect" class="list-select" onchange="cambiarOrdenComparador(this.value)">
+                    <option value="score_desc" ${comparadorEstado.orden === 'score_desc' ? 'selected' : ''}>🧮 Mejor Score</option>
+                    <option value="recomiendan_desc" ${comparadorEstado.orden === 'recomiendan_desc' ? 'selected' : ''}>Más recomendado (bruto)</option>
+                    <option value="calidad_desc" ${comparadorEstado.orden === 'calidad_desc' ? 'selected' : ''}>Mejor calidad general</option>
+                    <option value="dificultad_asc" ${comparadorEstado.orden === 'dificultad_asc' ? 'selected' : ''}>Más fácil</option>
+                    <option value="dificultad_desc" ${comparadorEstado.orden === 'dificultad_desc' ? 'selected' : ''}>Más difícil</option>
+                    <option value="calificaciones_desc" ${comparadorEstado.orden === 'calificaciones_desc' ? 'selected' : ''}>Más calificaciones</option>
+                </select>
+            </div>
+        </div>
+        <table class="list-table" style="width:100%;">
+            <thead>
+                <tr>
+                    <th>Profesor</th>
+                    <th style="text-align:center;">Score</th>
+                    <th style="text-align:center;">Calidad</th>
+                    <th style="text-align:center;">Dificultad</th>
+                    <th style="text-align:center;">Recomiendan</th>
+                    <th style="text-align:center;"># Calif.</th>
+                </tr>
+            </thead>
+            <tbody>${filas}</tbody>
+        </table>
+        <div style="margin-top:12px; padding:10px 14px; background:rgba(251,191,36,0.08); border:1px solid rgba(251,191,36,0.3); border-radius:6px; font-size:0.78rem; color:var(--text-dim); line-height:1.5;">
+            💡 El Score es un cálculo automático (bayesiano + Wilson), no un dato oficial de MisProfesores. Te recomendamos
+            <strong style="color:#fbbf24;">abrir la página original</strong> (clic en cualquier fila) y leer los
+            <strong style="color:#fbbf24;">comentarios de los estudiantes</strong> antes de decidir.
+        </div>`;
+
+    // Guardamos la lista ordenada para resolver el clic sin interpolar nombres/URLs
+    // en atributos HTML (evita romper todo si el nombre trae comillas o acentos raros).
+    wrap._comparadorOrdenados = ordenados;
+    wrap.querySelectorAll('.comparador-row').forEach(tr => {
+        tr.addEventListener('click', () => {
+            const idx = parseInt(tr.dataset.idx, 10);
+            const item = wrap._comparadorOrdenados[idx];
+            const url = item?.datos?.url;
+            if (url) window.open(url, '_blank', 'noopener');
+        });
+    });
 }
 
 function renderTablaComparacion() {
