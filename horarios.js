@@ -1779,69 +1779,6 @@ function renderTablaComparacion() {
     });
 }
 
-function renderTablaComparacion() {
-    const wrap = document.getElementById('comparadorResultadosWrap');
-    if (!wrap) return;
-
-    const ordenados = ordenarResultadosComparador(comparadorEstado.resultados, comparadorEstado.orden);
-
-    const filas = ordenados.map((r, i) => {
-        if (!r.datos) {
-            return `<tr>
-                <td style="color:#fff;">${r.nombre}</td>
-                <td colspan="4" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
-            </tr>`;
-        }
-        const d = r.datos;
-        return `<tr class="comparador-row" data-idx="${i}" style="cursor:pointer;" title="Clic para abrir el perfil de ${r.nombre} en MisProfesTEC">
-            <td style="color:#fff; font-weight:700;">${r.nombre}</td>
-            <td style="text-align:center; color:#10b981;">${d.calidadGeneral ?? '—'}</td>
-            <td style="text-align:center; color:#ef4444;">${d.nivelDificultad ?? '—'}</td>
-            <td style="text-align:center; color:#3b82f6;">${d.loRecomiendan ?? '—'}</td>
-            <td style="text-align:center; color:#fbbf24;">${d.numCalificaciones ?? '—'}</td>
-        </tr>`;
-    }).join('');
-
-    wrap.innerHTML = `
-        <div style="display:flex; justify-content:flex-end; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
-            <label style="font-size:0.8rem; color:var(--text-dim);">Ordenar por:</label>
-            <select id="comparadorOrdenSelect" class="list-select" onchange="cambiarOrdenComparador(this.value)">
-                <option value="recomiendan_desc" ${comparadorEstado.orden === 'recomiendan_desc' ? 'selected' : ''}>Más recomendado</option>
-                <option value="calidad_desc" ${comparadorEstado.orden === 'calidad_desc' ? 'selected' : ''}>Mejor calidad general</option>
-                <option value="dificultad_asc" ${comparadorEstado.orden === 'dificultad_asc' ? 'selected' : ''}>Más fácil</option>
-                <option value="dificultad_desc" ${comparadorEstado.orden === 'dificultad_desc' ? 'selected' : ''}>Más difícil</option>
-                <option value="calificaciones_desc" ${comparadorEstado.orden === 'calificaciones_desc' ? 'selected' : ''}>Más calificaciones</option>
-            </select>
-        </div>
-        <table class="list-table" style="width:100%;">
-            <thead>
-                <tr>
-                    <th>Profesor</th>
-                    <th style="text-align:center;">Calidad</th>
-                    <th style="text-align:center;">Dificultad</th>
-                    <th style="text-align:center;">Recomiendan</th>
-                    <th style="text-align:center;"># Calif.</th>
-                </tr>
-            </thead>
-            <tbody>${filas}</tbody>
-        </table>
-        <div style="margin-top:12px; padding:10px 14px; background:rgba(251,191,36,0.08); border:1px solid rgba(251,191,36,0.3); border-radius:6px; font-size:0.78rem; color:var(--text-dim); line-height:1.5;">
-            💡 Estos números son un resumen. Te recomendamos <strong style="color:#fbbf24;">abrir la página original</strong> (clic en cualquier fila) y leer los <strong style="color:#fbbf24;">comentarios de los estudiantes</strong> antes de decidir — el promedio no siempre cuenta toda la historia.
-        </div>`;
-
-    // Guardar referencia a los datos ordenados para el listener de clic
-    wrap._comparadorOrdenados = ordenados;
-
-    wrap.querySelectorAll('.comparador-row').forEach(tr => {
-        tr.addEventListener('click', () => {
-            const idx = parseInt(tr.dataset.idx, 10);
-            const item = wrap._comparadorOrdenados[idx];
-            const url = item?.datos?.url;
-            if (url) window.open(url, '_blank', 'noopener');
-        });
-    });
-}
-
 function cambiarOrdenComparador(valor) {
     comparadorEstado.orden = valor;
     renderTablaComparacion();
