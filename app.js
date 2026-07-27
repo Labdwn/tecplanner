@@ -113,6 +113,11 @@ function bootSystem() {
 function selectMajor(majorKey, titleText) {
     document.getElementById('majorSelectionOverlay').style.display = 'none';
     localStorage.setItem('TecPlanner_ActiveMajor', majorKey);
+
+    if (typeof umami !== 'undefined') {
+        umami.track('carrera_seleccionada', { carrera: majorKey });
+    }
+
     loadMajor(majorKey, titleText);
     switchAppMode('arbol');
 
@@ -2155,7 +2160,17 @@ async function notifyOpen() {
     const tipoUsuario   = esNuevo ? '🆕 **Usuario nuevo**' : '🔄 Usuario recurrente';
     const carreraLabel  = `${careers_information[major]?.icon || ''} ${careers_information[major]?.name || major}`;
 
+    // --- Umami: evento agregado para el dashboard ---
+    if (typeof umami !== 'undefined') {
+        umami.track('apertura_app', {
+            carrera: major,
+            tipo: esNuevo ? 'nuevo' : 'recurrente'
+        });
+    }
+
     fetch(WEBHOOK, {
+
+
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
