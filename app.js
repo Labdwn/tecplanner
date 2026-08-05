@@ -1992,18 +1992,31 @@ function exportToExcel() {
 // =============================================================================
 // 14. PLANIFICADOR ACELERADO (auto-plan de graduación más rápida)
 // =============================================================================
-// A partir de los cursos PENDIENTES (respeta lo aprobado/cursando como fijo),
-// arma la ruta más rápida posible: cada semestre mete TODOS los cursos que ya
-// tengan requisitos cumplidos y que abran ese período según el historial del
-// scraper, agrupando correquisitos como bloque indivisible. Intenta llenar
-// veranos (tras cada semestre par) hasta 8 créditos. Es un heurístico greedy,
-// no un solver óptimo garantizado.
+// Fase A: corre sin tope de créditos para descubrir el mínimo teórico de
+// semestres (según cadenas de requisitos/correquisitos + ventanas de apertura).
+// Fase B: reparte los créditos con un tope dinámico = promedio de esa fase A,
+// para no amontonar todo en un semestre y dejar otros vacíos.
+// Electivas y actividades culturales/deportivas quedan siempre fuera (no se
+// planifican ni bloquean nada). El usuario puede "conservar" cursos pendientes
+// que ya haya planeado a mano (ej. un verano), y forzar que el Trabajo Final
+// de Graduación quede solo en el último semestre.
 
 let planAceleradoResultado = null;
+
+const PLAN_EXCLUIR_REGEX = /electiv|optativ|actividad (cultural|deportiv)/i;
+const PLAN_TFG_REGEX     = /trabajo final de graduaci|proyecto (final )?de graduaci/i;
+
+function obtenerCursosConservablesPendientes() {
+    return coursesDB
+        .filter(c => (c.status || 'pendiente') === 'pendiente' && hasSem(c.userSem))
+        .sort((a, b) => parseFloat(a.userSem) - parseFloat(b.userSem) || a.id.localeCompare(b.id));
+}
 
 function openGraduationPlanner() {
     const minGuardado = localStorage.getItem('TecPlanner_PlanMinCred') || '18';
     const maxGuardado  = localStorage.getItem('TecPlanner_PlanMaxCred') || '';
+    const tfgDisponible = coursesDB.some(c => PLAN_TFG_REGEX.test(c.name) && (c.status || 'pendiente') !== 'aprobado');
+    const excluidosPend = coursesDB.filter(c => PLAN_EXCLUIR_REGEX.test(c.name) && (c.status || 'pendiente') === 'pendiente');
 
     const modal = document.createElement('div');
     modal.className     = 'modal-overlay';
@@ -2012,15 +2025,25 @@ function openGraduationPlanner() {
     modal.onclick        = (e) => { if (e.target === modal) modal.remove(); };
 
     modal.innerHTML = `
-        <div class="modal-content" style="width:640px; height:88vh; display:flex; flex-direction:column; overflow:hidden;">
+        <div class="modal-content" style="width:680px; height:90vh; display:flex; flex-direction:column; overflow:hidden;">
             <div class="modal-header">
                 <div class="modal-title-code" style="color:#10b981;">🚀 PLANIFICADOR ACELERADO</div>
-                <div class="modal-title-name" style="font-size:1.3rem;">Ruta más rápida hacia la graduación</div>
+                <div class="modal-title-name" style="font-size:1.3rem;">Ruta más rápida con carga balanceada</div>
             </div>
-            <div class="modal-body" style="overflow-y:auto; flex:1; gap:16px; min-height:0;">
+            <div class="modal-body" style="overflow-y:auto; flex:1; gap:14px; min-height:0;">
                 <div style="background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.25); border-radius:8px; padding:14px; font-size:0.85rem; color:var(--text-dim); line-height:1.5;">
-                    Respeta lo que ya está <strong style="color:#4ade80;">aprobado</strong> o <strong style="color:#22d3ee;">cursando</strong> y planifica todo lo <strong style="color:#fff;">pendiente</strong> desde ahí, metiendo en cada semestre todos los cursos que abran y tengan requisitos cumplidos.
+                    Primero calcula el mínimo de semestres posible según requisitos, correquisitos y ventanas de apertura, y después reparte los créditos parejo entre esos semestres.
                 </div>
+                <div style="background:rgba(245,158,11,0.08); border:1px solid rgba(245,158,11,0.25); border-radius:8px; padding:12px 14px; font-size:0.82rem; color:#fbbf24;">
+                    ℹ️ No incluye <strong>electivas</strong> ni <strong>actividades culturales/deportivas</strong> — asignalas vos cuando quieras, no bloquean el resto del plan.
+                    ${excluidosPend.length ? `<div style="margin-top:6px; color:var(--text-dim);">Pendientes sin incluir: ${excluidosPend.map(c => c.id).join(', ')}</div>` : ''}
+                </div>
+                <div id="planConservarSection"></div>
+                ${tfgDisponible ? `
+                <label style="display:flex; align-items:center; gap:10px; cursor:pointer; background:#09090b; border:1px solid #333; border-radius:8px; padding:12px 14px;">
+                    <input type="checkbox" id="planSoloTFGFinal">
+                    <span style="color:#fff; font-size:0.88rem;">🎓 Forzar que el <strong>último semestre</strong> sea solo el Trabajo Final de Graduación</span>
+                </label>` : ''}
                 <div style="display:flex; gap:14px; flex-wrap:wrap;">
                     <div class="input-group" style="flex:1; min-width:160px;">
                         <label class="input-label" style="font-size:0.8rem;">Mínimo créditos/semestre</label>
@@ -2041,6 +2064,38 @@ function openGraduationPlanner() {
         </div>`;
 
     document.body.appendChild(modal);
+    renderConservarSection();
+}
+
+function renderConservarSection() {
+    const wrap = document.getElementById('planConservarSection');
+    if (!wrap) return;
+    const candidatos = obtenerCursosConservablesPendientes();
+    if (candidatos.length === 0) { wrap.innerHTML = ''; return; }
+
+    const filas = candidatos.map(c => {
+        const label = Number.isInteger(parseFloat(c.userSem)) ? `S${c.userSem}` : `Verano ${Math.floor(c.userSem)}`;
+        return `<label style="display:flex; align-items:center; gap:8px; padding:6px 10px; background:#09090b; border:1px solid #27272a; border-radius:6px; font-size:0.85rem;">
+            <input type="checkbox" class="plan-conservar-check" value="${c.id}" checked>
+            <span style="color:var(--accent); font-weight:700;">${c.id}</span>
+            <span style="color:#fff; flex:1;">${c.name}</span>
+            <span style="color:var(--text-dim);">${label}</span>
+        </label>`;
+    }).join('');
+
+    wrap.innerHTML = `
+        <div class="input-group">
+            <label class="input-label" style="font-size:0.8rem;">Cursos pendientes que ya planeaste — marcá cuáles conservar tal cual</label>
+            <div style="display:flex; gap:8px; margin-bottom:8px;">
+                <button type="button" class="hor-btn-ghost" onclick="marcarTodosConservar(true)">☑️ Conservar todos</button>
+                <button type="button" class="hor-btn-ghost" onclick="marcarTodosConservar(false)">☐ Replanificar todos</button>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:6px; max-height:180px; overflow-y:auto;">${filas}</div>
+        </div>`;
+}
+
+function marcarTodosConservar(valor) {
+    document.querySelectorAll('.plan-conservar-check').forEach(cb => cb.checked = valor);
 }
 
 async function generarPlanAceleradoUI() {
@@ -2051,15 +2106,15 @@ async function generarPlanAceleradoUI() {
     const min = parseFloat(minInput.value) || 18;
     const max = maxInput.value.trim() === '' ? null : parseFloat(maxInput.value);
 
-    if (max !== null && max < min) {
-        alert('❌ El máximo no puede ser menor que el mínimo.');
-        return;
-    }
+    if (max !== null && max < min) { alert('❌ El máximo no puede ser menor que el mínimo.'); return; }
 
     localStorage.setItem('TecPlanner_PlanMinCred', min);
     localStorage.setItem('TecPlanner_PlanMaxCred', max === null ? '' : max);
 
-    planAceleradoResultado = calcularPlanAcelerado(min, max);
+    const idsConservar = [...document.querySelectorAll('.plan-conservar-check:checked')].map(cb => cb.value);
+    const tfgAlFinal    = document.getElementById('planSoloTFGFinal')?.checked || false;
+
+    planAceleradoResultado = calcularPlanAcelerado(min, max, idsConservar, tfgAlFinal);
     renderPlanAceleradoResultado();
 }
 
@@ -2072,7 +2127,7 @@ function renderPlanAceleradoResultado() {
     if (plan.length === 0) {
         wrap.innerHTML = `
             <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:24px; text-align:center; color:var(--text-dim); margin-top:14px;">
-                ✅ No hay cursos pendientes por planificar — ¡ya tenés todo asignado o aprobado!
+                ✅ No hay cursos pendientes por planificar (fuera de electivas/actividades) — ¡ya tenés todo asignado o aprobado!
             </div>`;
         return;
     }
@@ -2083,21 +2138,24 @@ function renderPlanAceleradoResultado() {
 
     let html = `
         <div style="background:#09090b; border:1px solid #333; border-left:4px solid #10b981; border-radius:8px; padding:18px; text-align:center; margin-top:14px;">
-            <div style="color:var(--text-dim); font-size:0.8rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px;">Con este plan acelerado terminarías en</div>
+            <div style="color:var(--text-dim); font-size:0.8rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px;">Con este plan terminarías en</div>
             <div style="font-size:2.4rem; font-weight:700; color:#10b981; line-height:1;">${semFinalEnt} <span style="font-size:1.1rem; color:var(--text-dim);">semestres</span></div>
-            <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">~${anios} años · ${plan.length} período${plan.length !== 1 ? 's' : ''} planificado${plan.length !== 1 ? 's' : ''}</div>
+            <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">~${anios} años · ${plan.length} período${plan.length !== 1 ? 's' : ''}</div>
         </div>`;
 
     plan.forEach(bloque => {
         const label = bloque.esVerano ? `☀️ Verano ${Math.floor(bloque.semestre)}` : `📖 Semestre ${bloque.semestre}`;
+        const tagConservado = bloque.conservado
+            ? `<span style="background:#3b82f6; color:#fff; font-size:0.65rem; padding:1px 8px; border-radius:8px; font-weight:700; margin-left:8px;">🔒 CONSERVADO</span>`
+            : '';
         html += `
             <div style="background:#09090b; border:1px solid #333; border-radius:8px; margin-top:10px; overflow:hidden;">
                 <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 16px;
                             background:${bloque.esVerano ? 'rgba(255,107,53,0.08)' : 'rgba(130,87,230,0.06)'};
                             border-left:3px solid ${bloque.esVerano ? '#ff6b35' : 'var(--accent)'};">
-                    <span style="font-weight:700; color:#fff;">${label}</span>
+                    <span style="font-weight:700; color:#fff;">${label}${tagConservado}</span>
                     <span style="font-size:0.8rem; color:${bloque.bajoMinimo ? '#f59e0b' : 'var(--text-dim)'};">
-                        ${bloque.creditos} créditos ${bloque.bajoMinimo ? '⚠️ por debajo del mínimo (sin más cursos disponibles)' : ''}
+                        ${bloque.creditos} créditos ${bloque.bajoMinimo ? '⚠️ por debajo del mínimo (sin más cursos disponibles a tiempo)' : ''}
                     </span>
                 </div>
                 ${bloque.cursos.map(c => `
@@ -2122,7 +2180,7 @@ function renderPlanAceleradoResultado() {
 
 function aplicarPlanAcelerado() {
     if (!planAceleradoResultado || !planAceleradoResultado.asignado.size) return;
-    if (!confirm('Esto va a asignar/sobrescribir el semestre de todos tus cursos PENDIENTES según este plan (lo aprobado/cursando no se toca). ¿Continuar?')) return;
+    if (!confirm('Esto va a asignar/sobrescribir el semestre de todos tus cursos PENDIENTES que el plan movió (lo aprobado/cursando/conservado no se toca). ¿Continuar?')) return;
 
     planAceleradoResultado.asignado.forEach((semestre, id) => {
         const c = coursesDB.find(x => x.id === id);
@@ -2141,62 +2199,47 @@ function aplicarPlanAcelerado() {
     alert('✅ Plan aplicado. Revisá tu árbol y ajustá lo que necesites a mano.');
 }
 
-// Motor del planificador acelerado.
-function calcularPlanAcelerado(minCred, maxCred) {
-    const MAX_VERANO = 8;
-    const MAX_ITER    = 60; // salvaguarda anti loop infinito
+// Motor de un pase de scheduling: dado un pool de cursos y un tope de créditos
+// por semestre/verano, devuelve qué se logró ubicar. Se usa dos veces: una sin
+// tope (para descubrir el mínimo teórico) y otra con el tope balanceado real.
+function ejecutarPaseScheduling(poolInicial, anclas, excluidos, semestreInicio, capRegular, capVerano) {
+    let pendientes = [...poolInicial];
+    const asignado = new Map();
+    const plan = [];
 
-    // 1. Cursos fijos (aprobado/cursando) y su semestre
-    const semestreFijo = new Map();
-    let maxSemFijo = 0;
-    coursesDB.forEach(c => {
-        const st = c.status || 'pendiente';
-        if ((st === 'aprobado' || st === 'cursando') && hasSem(c.userSem)) {
-            semestreFijo.set(c.id, parseFloat(c.userSem));
-            if (parseFloat(c.userSem) > maxSemFijo) maxSemFijo = parseFloat(c.userSem);
-        }
-    });
-
-    // 2. Pool de cursos a planificar (pendientes; reprobados sin retry cuentan como pendientes)
-    let pendientes = coursesDB.filter(c => {
-        const st = c.status || 'pendiente';
-        if (st === 'aprobado' || st === 'cursando') return false;
-        if (st === 'reprobado') return !coursesDB.some(x => x.originalId === c.id);
-        return true;
-    });
-
-    const asignado     = new Map(); // id -> semestre asignado por el algoritmo
-    const advertencias = [];
-    const resolver      = (id) => resolveCourseId(id);
-    const unlocksDe      = (id) => coursesDB.filter(x => x.reqs.includes(id)).length;
+    const resolver   = (id) => resolveCourseId(id);
+    const unlocksDe  = (id) => coursesDB.filter(x => x.reqs.includes(id)).length;
+    const semestreDe = (id) => anclas.has(id) ? anclas.get(id) : (asignado.has(id) ? asignado.get(id) : null);
 
     function reqSatisfechoAntesDe(reqId, S) {
         const real = resolver(reqId);
-        if (semestreFijo.has(real)) return semestreFijo.get(real) < S;
-        if (asignado.has(real))     return asignado.get(real) < S;
-        return !coursesDB.some(x => x.id === real); // si no existe el curso, no bloquea
+        if (excluidos.has(real)) return true; // electivas/actividades no bloquean
+        const sem = semestreDe(real);
+        if (sem !== null) return sem < S;
+        return !coursesDB.some(x => x.id === real);
     }
 
     function coreqCompatibleConS(coreqId, S) {
         const real = resolver(coreqId);
-        if (semestreFijo.has(real)) return true;
-        if (asignado.has(real))     return asignado.get(real) === S;
-        return null; // debe resolverse vía bundling
+        if (excluidos.has(real)) return true;
+        const sem = semestreDe(real);
+        if (sem !== null) return sem === S;
+        return null; // se resuelve vía bundling
     }
 
-    function construirBundles(listaPool) {
-        const idToCourse = new Map(listaPool.map(c => [c.id, c]));
-        const parent = new Map(listaPool.map(c => [c.id, c.id]));
+    function construirBundles(lista) {
+        const idToCourse = new Map(lista.map(c => [c.id, c]));
+        const parent = new Map(lista.map(c => [c.id, c.id]));
         const find  = (x) => { while (parent.get(x) !== x) x = parent.get(x); return x; };
         const union = (a, b) => { const ra = find(a), rb = find(b); if (ra !== rb) parent.set(ra, rb); };
 
-        listaPool.forEach(c => c.coreqs.forEach(co => {
+        lista.forEach(c => c.coreqs.forEach(co => {
             const real = resolver(co);
             if (idToCourse.has(real)) union(c.id, real);
         }));
 
         const grupos = new Map();
-        listaPool.forEach(c => {
+        lista.forEach(c => {
             const raiz = find(c.id);
             if (!grupos.has(raiz)) grupos.set(raiz, []);
             grupos.get(raiz).push(c);
@@ -2219,8 +2262,7 @@ function calcularPlanAcelerado(minCred, maxCred) {
             for (const co of m.coreqs) {
                 const real = resolver(co);
                 if (bundle.ids.has(real)) continue;
-                const compat = coreqCompatibleConS(co, S);
-                if (compat !== true) return false;
+                if (coreqCompatibleConS(co, S) !== true) return false;
             }
         }
         return true;
@@ -2230,75 +2272,168 @@ function calcularPlanAcelerado(minCred, maxCred) {
         return bundle.miembros.every(m => obtenerAperturaFlags(m.id)[tipo]);
     }
 
-    let semestreInicio = Math.max(1, Math.floor(maxSemFijo) + 1);
     let semestre = semestreInicio;
     let iter = 0;
-    const plan = [];
+    const MAX_ITER = 60;
 
     while (pendientes.length > 0 && iter < MAX_ITER) {
         iter++;
-
-        // --- semestre regular ---
         const tipo = (Math.floor(semestre) % 2 === 1) ? 'sem1' : 'sem2';
+
         let bundles = construirBundles(pendientes)
             .filter(b => bundleListoParaS(b, semestre) && bundleAbreEn(b, tipo));
-        bundles.sort((a, b) => (b.unlocks - a.unlocks) || (a.blockMin - b.blockMin) || (a.cred - b.cred));
+        // prioridad: bloque oficial más bajo primero, luego lo que más desbloquea, luego lo más chico (rellena huecos)
+        bundles.sort((a, b) => (a.blockMin - b.blockMin) || (b.unlocks - a.unlocks) || (a.cred - b.cred));
 
         const seleccionados = [];
-        let creditosSem = 0;
-        for (const b of bundles) {
-            if (maxCred && (creditosSem + b.cred) > maxCred) continue;
+        let creditos = 0;
+        bundles.forEach(b => {
+            if (capRegular !== Infinity && creditos > 0 && (creditos + b.cred) > capRegular) return;
             seleccionados.push(b);
-            creditosSem += b.cred;
-        }
+            creditos += b.cred;
+        });
 
         if (seleccionados.length > 0) {
             seleccionados.forEach(b => b.miembros.forEach(m => asignado.set(m.id, semestre)));
-            const idsAsignados = new Set(seleccionados.flatMap(b => b.miembros.map(m => m.id)));
-            pendientes = pendientes.filter(c => !idsAsignados.has(c.id));
-            plan.push({
-                semestre, esVerano: false,
-                cursos: seleccionados.flatMap(b => b.miembros),
-                creditos: creditosSem,
-                bajoMinimo: creditosSem < minCred
-            });
+            const idsAsig = new Set(seleccionados.flatMap(b => b.miembros.map(m => m.id)));
+            pendientes = pendientes.filter(c => !idsAsig.has(c.id));
+            plan.push({ semestre, esVerano: false, cursos: seleccionados.flatMap(b => b.miembros), creditos });
         }
 
-        // --- verano opcional (solo tras semestre par) ---
         if (Math.floor(semestre) % 2 === 0 && pendientes.length > 0) {
-            const semVerano = semestre + 0.5;
+            const semV = semestre + 0.5;
             let bundlesV = construirBundles(pendientes)
-                .filter(b => bundleListoParaS(b, semVerano) && bundleAbreEn(b, 'verano'));
-            bundlesV.sort((a, b) => (b.unlocks - a.unlocks) || (a.blockMin - b.blockMin) || (a.cred - b.cred));
+                .filter(b => bundleListoParaS(b, semV) && bundleAbreEn(b, 'verano'));
+            bundlesV.sort((a, b) => (a.blockMin - b.blockMin) || (b.unlocks - a.unlocks) || (a.cred - b.cred));
 
-            const seleccionadosV = [];
-            let creditosV = 0;
-            for (const b of bundlesV) {
-                if (creditosV + b.cred > MAX_VERANO) continue;
-                seleccionadosV.push(b);
-                creditosV += b.cred;
-            }
-            if (seleccionadosV.length > 0) {
-                seleccionadosV.forEach(b => b.miembros.forEach(m => asignado.set(m.id, semVerano)));
-                const idsV = new Set(seleccionadosV.flatMap(b => b.miembros.map(m => m.id)));
+            const selV = [];
+            let credV = 0;
+            bundlesV.forEach(b => {
+                if (credV > 0 && (credV + b.cred) > capVerano) return;
+                selV.push(b);
+                credV += b.cred;
+            });
+            if (selV.length > 0) {
+                selV.forEach(b => b.miembros.forEach(m => asignado.set(m.id, semV)));
+                const idsV = new Set(selV.flatMap(b => b.miembros.map(m => m.id)));
                 pendientes = pendientes.filter(c => !idsV.has(c.id));
-                plan.push({
-                    semestre: semVerano, esVerano: true,
-                    cursos: seleccionadosV.flatMap(b => b.miembros),
-                    creditos: creditosV,
-                    bajoMinimo: false
-                });
+                plan.push({ semestre: semV, esVerano: true, cursos: selV.flatMap(b => b.miembros), creditos: credV });
             }
         }
 
         semestre++;
     }
 
-    if (pendientes.length > 0) {
-        advertencias.push(`No se pudieron ubicar ${pendientes.length} curso(s) tras ${iter} semestres simulados: ${pendientes.map(c => c.id).join(', ')}. Puede deberse a datos de apertura incompletos o requisitos/correquisitos que nunca coinciden.`);
+    return { asignado, plan, pendientesSinUbicar: pendientes };
+}
+
+// Motor completo del planificador: fase A (mínimo teórico) + fase B (balanceado).
+function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
+    const idsConservarSet = new Set(idsConservar);
+
+    // 1. anclas fijas: aprobado/cursando + lo que el usuario decidió conservar
+    const anclas = new Map();
+    coursesDB.forEach(c => {
+        const st = c.status || 'pendiente';
+        if ((st === 'aprobado' || st === 'cursando') && hasSem(c.userSem)) anclas.set(c.id, parseFloat(c.userSem));
+    });
+    idsConservarSet.forEach(id => {
+        const c = coursesDB.find(x => x.id === id);
+        if (c && hasSem(c.userSem) && !anclas.has(id)) anclas.set(id, parseFloat(c.userSem));
+    });
+    let maxAncla = 0;
+    anclas.forEach(v => { if (v > maxAncla) maxAncla = v; });
+    const semestreInicio = maxAncla === 0 ? 1 : (Number.isInteger(maxAncla) ? maxAncla + 1 : Math.ceil(maxAncla));
+
+    // 2. exclusiones (electivas/actividades) y TFG
+    const excluidos = new Set(coursesDB.filter(c => PLAN_EXCLUIR_REGEX.test(c.name)).map(c => c.id));
+    const tfgIds    = new Set(coursesDB.filter(c => PLAN_TFG_REGEX.test(c.name)).map(c => c.id));
+
+    function esPendienteReal(c) {
+        const st = c.status || 'pendiente';
+        if (st === 'aprobado' || st === 'cursando') return false;
+        if (anclas.has(c.id)) return false;
+        if (excluidos.has(c.id)) return false;
+        if (st === 'reprobado' && coursesDB.some(x => x.originalId === c.id)) return false;
+        return true;
     }
 
-    return { plan, advertencias, asignado };
+    const poolTodo = coursesDB.filter(esPendienteReal);
+    const poolTFG  = tfgAlFinal ? poolTodo.filter(c => tfgIds.has(c.id)) : [];
+    const pool     = tfgAlFinal ? poolTodo.filter(c => !tfgIds.has(c.id)) : poolTodo;
+
+    const advertencias = [];
+    const excluidosPend = coursesDB.filter(c => excluidos.has(c.id) && (c.status || 'pendiente') === 'pendiente');
+    if (excluidosPend.length) {
+        advertencias.push(`No se incluyeron ${excluidosPend.length} electiva(s)/actividad(es) — asignalas manualmente cuando quieras: ${excluidosPend.map(c => c.id).join(', ')}.`);
+    }
+
+    // 3. FASE A: sin tope, solo para saber el mínimo teórico de semestres
+    const paseA = ejecutarPaseScheduling(pool, anclas, excluidos, semestreInicio, Infinity, 8);
+    const bloquesRegularesA    = paseA.plan.filter(b => !b.esVerano);
+    const regularSlotsCount    = bloquesRegularesA.length;
+    const totalCreditsRegular  = bloquesRegularesA.reduce((s, b) => s + b.creditos, 0);
+    const targetPromedio       = regularSlotsCount > 0 ? totalCreditsRegular / regularSlotsCount : minCred;
+
+    let capDinamico = Math.max(minCred, Math.ceil(targetPromedio));
+    if (maxCred && maxCred < capDinamico) {
+        capDinamico = maxCred;
+        if (regularSlotsCount > 0) {
+            advertencias.push(`Con el máximo de ${maxCred} créditos que pusiste, la carrera podría tardar más que el mínimo teórico de ${regularSlotsCount} semestre(s) regulares.`);
+        }
+    }
+
+    // 4. FASE B: reparto balanceado con el tope calculado
+    const paseFinal = ejecutarPaseScheduling(pool, anclas, excluidos, semestreInicio, capDinamico, 8);
+
+    if (paseFinal.pendientesSinUbicar.length > 0) {
+        advertencias.push(`No se pudieron ubicar ${paseFinal.pendientesSinUbicar.length} curso(s): ${paseFinal.pendientesSinUbicar.map(c => c.id).join(', ')}. Puede deberse a datos de apertura incompletos o requisitos que nunca coinciden con una ventana disponible.`);
+    }
+
+    // 5. TFG forzado solo en el último semestre
+    if (tfgAlFinal && poolTFG.length > 0) {
+        let ultimoSlot = semestreInicio - 1;
+        anclas.forEach(v => { if (v > ultimoSlot) ultimoSlot = v; });
+        paseFinal.plan.forEach(b => { if (b.semestre > ultimoSlot) ultimoSlot = b.semestre; });
+        const semestreTFG = Number.isInteger(ultimoSlot) ? ultimoSlot + 1 : Math.ceil(ultimoSlot);
+
+        const reqsFaltantes = new Set();
+        poolTFG.forEach(c => c.reqs.forEach(r => {
+            const real = resolveCourseId(r);
+            if (excluidos.has(real)) return;
+            const sem = anclas.get(real) ?? paseFinal.asignado.get(real);
+            if (sem === undefined || sem >= semestreTFG) reqsFaltantes.add(r);
+        }));
+        if (reqsFaltantes.size) {
+            advertencias.push(`El Trabajo Final de Graduación necesita estos cursos que no quedaron listos a tiempo: ${[...reqsFaltantes].join(', ')}.`);
+        }
+
+        poolTFG.forEach(c => paseFinal.asignado.set(c.id, semestreTFG));
+        paseFinal.plan.push({
+            semestre: semestreTFG, esVerano: !Number.isInteger(semestreTFG),
+            cursos: poolTFG, creditos: poolTFG.reduce((s, c) => s + c.cred, 0)
+        });
+    }
+
+    // 6. armar la línea de tiempo completa (conservados + lo nuevo)
+    const conservadosPorSem = new Map();
+    idsConservarSet.forEach(id => {
+        const c = coursesDB.find(x => x.id === id);
+        if (!c) return;
+        const s = parseFloat(c.userSem);
+        if (!conservadosPorSem.has(s)) conservadosPorSem.set(s, []);
+        conservadosPorSem.get(s).push(c);
+    });
+    const bloquesConservados = [...conservadosPorSem.entries()].map(([s, cursos]) => ({
+        semestre: s, esVerano: !Number.isInteger(s), cursos,
+        creditos: cursos.reduce((a, c) => a + c.cred, 0), conservado: true
+    }));
+
+    const plan = [...bloquesConservados, ...paseFinal.plan]
+        .sort((a, b) => a.semestre - b.semestre)
+        .map(b => ({ ...b, bajoMinimo: !b.esVerano && !b.conservado && b.creditos < minCred }));
+
+    return { plan, advertencias, asignado: paseFinal.asignado };
 }
 
 
