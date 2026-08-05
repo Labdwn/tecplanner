@@ -1990,107 +1990,315 @@ function exportToExcel() {
 
 
 // =============================================================================
-// 14. SIMULADOR DE GRADUACIÓN
+// 14. PLANIFICADOR ACELERADO (auto-plan de graduación más rápida)
 // =============================================================================
+// A partir de los cursos PENDIENTES (respeta lo aprobado/cursando como fijo),
+// arma la ruta más rápida posible: cada semestre mete TODOS los cursos que ya
+// tengan requisitos cumplidos y que abran ese período según el historial del
+// scraper, agrupando correquisitos como bloque indivisible. Intenta llenar
+// veranos (tras cada semestre par) hasta 8 créditos. Es un heurístico greedy,
+// no un solver óptimo garantizado.
 
-// Abre el modal del simulador de graduación con estimación y listas de cursos
-function openGraduationSimulator() {
-    const planeados  = coursesDB.filter(c => c.userSem && c.userSem > 0);
-    const pendientes = coursesDB.filter(c => !c.userSem || c.userSem <= 0);
+let planAceleradoResultado = null;
 
-    const semMax      = planeados.length > 0 ? Math.max(...planeados.map(c => parseFloat(c.userSem))) : null;
-    const semMaxEnt   = semMax ? Math.ceil(semMax) : null;
-    const anios       = semMaxEnt ? (semMaxEnt / 2).toFixed(1) : null;
-    const adelantados = planeados.filter(c => parseFloat(c.userSem) < c.block);
-    const atrasados   = planeados.filter(c => Math.ceil(parseFloat(c.userSem)) > c.block);
-    const semLabel    = semMax && semMax % 1 !== 0 ? `Verano ${Math.floor(semMax)}` : `Semestre ${semMax}`;
+function openGraduationPlanner() {
+    const minGuardado = localStorage.getItem('TecPlanner_PlanMinCred') || '18';
+    const maxGuardado  = localStorage.getItem('TecPlanner_PlanMaxCred') || '';
 
-    let html = `
-        <div class="modal-overlay" style="display:flex; z-index:5000;" onclick="if(event.target===this) this.remove()">
-        <div class="modal-content" style="width:620px; height:88vh; display:flex; flex-direction:column; overflow:hidden;">
+    const modal = document.createElement('div');
+    modal.className     = 'modal-overlay';
+    modal.id            = 'planAceleradoModal';
+    modal.style.cssText = 'display:flex; z-index:5000;';
+    modal.onclick        = (e) => { if (e.target === modal) modal.remove(); };
+
+    modal.innerHTML = `
+        <div class="modal-content" style="width:640px; height:88vh; display:flex; flex-direction:column; overflow:hidden;">
             <div class="modal-header">
-                <div class="modal-title-code" style="color:#10b981;">🎓 SIMULADOR DE GRADUACIÓN</div>
-                <div class="modal-title-name">Tu plan actual</div>
+                <div class="modal-title-code" style="color:#10b981;">🚀 PLANIFICADOR ACELERADO</div>
+                <div class="modal-title-name" style="font-size:1.3rem;">Ruta más rápida hacia la graduación</div>
             </div>
-            <div class="modal-body" style="overflow-y:auto; flex:1; gap:16px; min-height:0;">`;
-
-    // Card de estimación
-    if (semMax) {
-        html += `
-            <div style="background:#09090b; border:1px solid #333; border-left:4px solid #10b981; border-radius:8px; padding:20px; text-align:center;">
-                <div style="color:var(--text-dim); font-size:0.85rem; margin-bottom:6px; text-transform:uppercase; letter-spacing:1px;">Con tu distribución actual terminarías en</div>
-                <div style="font-size:2.8rem; font-weight:700; color:#10b981; line-height:1;">${semMaxEnt} <span style="font-size:1.2rem; color:var(--text-dim);">semestres</span></div>
-                <div style="color:var(--text-dim); font-size:0.9rem; margin-top:6px;">~${anios} años · último curso planeado: <strong style="color:#fff;">${semLabel}</strong></div>
-                <div style="margin-top:12px; font-size:0.82rem; color:#555;">
-                    ${pendientes.length > 0 ? `⚠️ ${pendientes.length} curso${pendientes.length !== 1 ? 's' : ''} aún sin semestre asignado` : '✅ Todos los cursos tienen semestre asignado'}
+            <div class="modal-body" style="overflow-y:auto; flex:1; gap:16px; min-height:0;">
+                <div style="background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.25); border-radius:8px; padding:14px; font-size:0.85rem; color:var(--text-dim); line-height:1.5;">
+                    Respeta lo que ya está <strong style="color:#4ade80;">aprobado</strong> o <strong style="color:#22d3ee;">cursando</strong> y planifica todo lo <strong style="color:#fff;">pendiente</strong> desde ahí, metiendo en cada semestre todos los cursos que abran y tengan requisitos cumplidos.
                 </div>
-            </div>`;
-    } else {
-        html += `
-            <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:30px; text-align:center; color:var(--text-dim);">
-                <div style="font-size:2.5rem; margin-bottom:10px;">📅</div>
-                <div>No hay cursos planeados aún. Asigná semestres a tus cursos para ver la estimación.</div>
-            </div>`;
-    }
-
-    // Helper para generar una sección colapsable
-    const simSection = (id, titulo, color, bgColor, items, renderItem) => {
-        let s = `
-            <div style="background:#09090b; border:1px solid #333; border-radius:8px; overflow:hidden; margin-top:4px;">
-                <div style="display:flex; justify-content:space-between; align-items:center;
-                            padding:14px 18px; cursor:pointer; user-select:none; border-left:4px solid ${color};"
-                     onclick="toggleSimSection('${id}')">
-                    <div>
-                        <span style="font-weight:700; color:#fff;">${titulo}</span>
-                        <span style="margin-left:10px; background:${bgColor}; color:${color};
-                                     font-size:0.8rem; font-weight:700; padding:2px 10px; border-radius:10px;">${items.length}</span>
+                <div style="display:flex; gap:14px; flex-wrap:wrap;">
+                    <div class="input-group" style="flex:1; min-width:160px;">
+                        <label class="input-label" style="font-size:0.8rem;">Mínimo créditos/semestre</label>
+                        <input type="number" id="planMinCred" class="rpg-input" style="padding:10px; font-size:1rem;" value="${minGuardado}" min="1">
                     </div>
-                    <span id="${id}-icon" style="color:#555; font-size:0.85rem;">▼ Ver</span>
+                    <div class="input-group" style="flex:1; min-width:160px;">
+                        <label class="input-label" style="font-size:0.8rem;">Máximo créditos/semestre (opcional)</label>
+                        <input type="number" id="planMaxCred" class="rpg-input" style="padding:10px; font-size:1rem;" value="${maxGuardado}" placeholder="Sin tope" min="1">
+                    </div>
                 </div>
-                <div id="${id}" style="display:none; border-top:1px solid #1f1f1f;">`;
-        if (items.length === 0) {
-            s += `<div style="padding:14px 18px; color:#555; font-size:0.88rem;">Ningún curso.</div>`;
-        } else {
-            items.forEach(c => { s += renderItem(c); });
-        }
-        s += `</div></div>`;
-        return s;
-    };
-
-    const rowItem = (c, color) => `
-        <div style="display:flex; justify-content:space-between; align-items:center;
-                     padding:10px 18px; border-bottom:1px solid #1a1a1a; font-size:0.87rem;">
-            <div>
-                <span style="color:var(--accent); font-weight:700; margin-right:8px;">${c.id}</span>
-                <span style="color:var(--text-main);">${c.name}</span>
+                <div style="font-size:0.78rem; color:#555;">☀️ Verano: tope fijo de <strong style="color:#fff;">8 créditos</strong>, no configurable.</div>
+                <button class="btn-modal btn-confirm" style="width:100%;" onclick="generarPlanAceleradoUI()">⚡ Generar plan</button>
+                <div id="planAceleradoResultadoWrap"></div>
             </div>
-            <div style="white-space:nowrap; color:var(--text-dim); font-size:0.8rem;">
-                Bloque <strong style="color:#fff;">${c.block}</strong> → planeado en
-                <strong style="color:${color};">S${c.userSem}</strong>
+            <div class="modal-footer">
+                <button class="btn-modal btn-cancel" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
             </div>
         </div>`;
 
-    html += simSection('sim-adelantados', '⚡ Adelantados', 'var(--timing-adelantado)', 'rgba(245,158,11,0.15)', adelantados, c => rowItem(c, 'var(--timing-adelantado)'));
-    html += simSection('sim-atrasados',   '🐢 Atrasados',   'var(--timing-atrasado)',   'rgba(239,68,68,0.15)',   atrasados,   c => rowItem(c, 'var(--timing-atrasado)'));
-
-    html += `
-            </div>
-            <div class="modal-footer">
-                <button class="btn-modal btn-confirm" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
-            </div>
-        </div></div>`;
-
-    document.body.insertAdjacentHTML('beforeend', html);
+    document.body.appendChild(modal);
 }
 
-// Expande o colapsa una sección del simulador de graduación
-function toggleSimSection(id) {
-    const el   = document.getElementById(id);
-    const icon = document.getElementById(`${id}-icon`);
-    const open = el.style.display === 'none';
-    el.style.display  = open ? 'block' : 'none';
-    icon.textContent  = open ? '▲ Ocultar' : '▼ Ver';
-    icon.style.color  = open ? 'var(--accent)' : '#555';
+async function generarPlanAceleradoUI() {
+    if (!courseHistoryData) await loadCourseHistory();
+
+    const minInput = document.getElementById('planMinCred');
+    const maxInput = document.getElementById('planMaxCred');
+    const min = parseFloat(minInput.value) || 18;
+    const max = maxInput.value.trim() === '' ? null : parseFloat(maxInput.value);
+
+    if (max !== null && max < min) {
+        alert('❌ El máximo no puede ser menor que el mínimo.');
+        return;
+    }
+
+    localStorage.setItem('TecPlanner_PlanMinCred', min);
+    localStorage.setItem('TecPlanner_PlanMaxCred', max === null ? '' : max);
+
+    planAceleradoResultado = calcularPlanAcelerado(min, max);
+    renderPlanAceleradoResultado();
+}
+
+function renderPlanAceleradoResultado() {
+    const wrap = document.getElementById('planAceleradoResultadoWrap');
+    if (!wrap || !planAceleradoResultado) return;
+
+    const { plan, advertencias } = planAceleradoResultado;
+
+    if (plan.length === 0) {
+        wrap.innerHTML = `
+            <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:24px; text-align:center; color:var(--text-dim); margin-top:14px;">
+                ✅ No hay cursos pendientes por planificar — ¡ya tenés todo asignado o aprobado!
+            </div>`;
+        return;
+    }
+
+    const semFinal    = plan[plan.length - 1].semestre;
+    const semFinalEnt = Math.ceil(semFinal);
+    const anios       = (semFinalEnt / 2).toFixed(1);
+
+    let html = `
+        <div style="background:#09090b; border:1px solid #333; border-left:4px solid #10b981; border-radius:8px; padding:18px; text-align:center; margin-top:14px;">
+            <div style="color:var(--text-dim); font-size:0.8rem; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px;">Con este plan acelerado terminarías en</div>
+            <div style="font-size:2.4rem; font-weight:700; color:#10b981; line-height:1;">${semFinalEnt} <span style="font-size:1.1rem; color:var(--text-dim);">semestres</span></div>
+            <div style="color:var(--text-dim); font-size:0.85rem; margin-top:4px;">~${anios} años · ${plan.length} período${plan.length !== 1 ? 's' : ''} planificado${plan.length !== 1 ? 's' : ''}</div>
+        </div>`;
+
+    plan.forEach(bloque => {
+        const label = bloque.esVerano ? `☀️ Verano ${Math.floor(bloque.semestre)}` : `📖 Semestre ${bloque.semestre}`;
+        html += `
+            <div style="background:#09090b; border:1px solid #333; border-radius:8px; margin-top:10px; overflow:hidden;">
+                <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 16px;
+                            background:${bloque.esVerano ? 'rgba(255,107,53,0.08)' : 'rgba(130,87,230,0.06)'};
+                            border-left:3px solid ${bloque.esVerano ? '#ff6b35' : 'var(--accent)'};">
+                    <span style="font-weight:700; color:#fff;">${label}</span>
+                    <span style="font-size:0.8rem; color:${bloque.bajoMinimo ? '#f59e0b' : 'var(--text-dim)'};">
+                        ${bloque.creditos} créditos ${bloque.bajoMinimo ? '⚠️ por debajo del mínimo (sin más cursos disponibles)' : ''}
+                    </span>
+                </div>
+                ${bloque.cursos.map(c => `
+                    <div style="display:flex; justify-content:space-between; padding:7px 16px; border-top:1px solid #1a1a1a; font-size:0.85rem;">
+                        <span><span style="color:var(--accent); font-weight:700; margin-right:6px;">${c.id}</span>${c.name}</span>
+                        <span style="color:var(--text-dim);">${c.cred} cr</span>
+                    </div>`).join('')}
+            </div>`;
+    });
+
+    if (advertencias.length > 0) {
+        html += `
+            <div style="background:rgba(239,68,68,0.08); border:1px solid #ef4444; border-radius:8px; padding:14px; margin-top:14px; color:#f87171; font-size:0.85rem; line-height:1.5;">
+                ${advertencias.map(a => `⚠️ ${a}`).join('<br><br>')}
+            </div>`;
+    }
+
+    html += `<button class="btn-modal btn-confirm" style="width:100%; margin-top:16px; background:#10b981;" onclick="aplicarPlanAcelerado()">✅ Aplicar este plan a mis cursos pendientes</button>`;
+
+    wrap.innerHTML = html;
+}
+
+function aplicarPlanAcelerado() {
+    if (!planAceleradoResultado || !planAceleradoResultado.asignado.size) return;
+    if (!confirm('Esto va a asignar/sobrescribir el semestre de todos tus cursos PENDIENTES según este plan (lo aprobado/cursando no se toca). ¿Continuar?')) return;
+
+    planAceleradoResultado.asignado.forEach((semestre, id) => {
+        const c = coursesDB.find(x => x.id === id);
+        if (c) c.userSem = semestre;
+    });
+
+    saveToLocal();
+    renderGrid();
+    renderButtons();
+    drawConnections();
+    updateStats(activeFilterSemester);
+    if (activeFilterSemester !== null) filterByUserSemester(activeFilterSemester);
+    if (document.getElementById('characterSheet').classList.contains('open')) updateCharacterSheet();
+
+    document.getElementById('planAceleradoModal')?.remove();
+    alert('✅ Plan aplicado. Revisá tu árbol y ajustá lo que necesites a mano.');
+}
+
+// Motor del planificador acelerado.
+function calcularPlanAcelerado(minCred, maxCred) {
+    const MAX_VERANO = 8;
+    const MAX_ITER    = 60; // salvaguarda anti loop infinito
+
+    // 1. Cursos fijos (aprobado/cursando) y su semestre
+    const semestreFijo = new Map();
+    let maxSemFijo = 0;
+    coursesDB.forEach(c => {
+        const st = c.status || 'pendiente';
+        if ((st === 'aprobado' || st === 'cursando') && hasSem(c.userSem)) {
+            semestreFijo.set(c.id, parseFloat(c.userSem));
+            if (parseFloat(c.userSem) > maxSemFijo) maxSemFijo = parseFloat(c.userSem);
+        }
+    });
+
+    // 2. Pool de cursos a planificar (pendientes; reprobados sin retry cuentan como pendientes)
+    let pendientes = coursesDB.filter(c => {
+        const st = c.status || 'pendiente';
+        if (st === 'aprobado' || st === 'cursando') return false;
+        if (st === 'reprobado') return !coursesDB.some(x => x.originalId === c.id);
+        return true;
+    });
+
+    const asignado     = new Map(); // id -> semestre asignado por el algoritmo
+    const advertencias = [];
+    const resolver      = (id) => resolveCourseId(id);
+    const unlocksDe      = (id) => coursesDB.filter(x => x.reqs.includes(id)).length;
+
+    function reqSatisfechoAntesDe(reqId, S) {
+        const real = resolver(reqId);
+        if (semestreFijo.has(real)) return semestreFijo.get(real) < S;
+        if (asignado.has(real))     return asignado.get(real) < S;
+        return !coursesDB.some(x => x.id === real); // si no existe el curso, no bloquea
+    }
+
+    function coreqCompatibleConS(coreqId, S) {
+        const real = resolver(coreqId);
+        if (semestreFijo.has(real)) return true;
+        if (asignado.has(real))     return asignado.get(real) === S;
+        return null; // debe resolverse vía bundling
+    }
+
+    function construirBundles(listaPool) {
+        const idToCourse = new Map(listaPool.map(c => [c.id, c]));
+        const parent = new Map(listaPool.map(c => [c.id, c.id]));
+        const find  = (x) => { while (parent.get(x) !== x) x = parent.get(x); return x; };
+        const union = (a, b) => { const ra = find(a), rb = find(b); if (ra !== rb) parent.set(ra, rb); };
+
+        listaPool.forEach(c => c.coreqs.forEach(co => {
+            const real = resolver(co);
+            if (idToCourse.has(real)) union(c.id, real);
+        }));
+
+        const grupos = new Map();
+        listaPool.forEach(c => {
+            const raiz = find(c.id);
+            if (!grupos.has(raiz)) grupos.set(raiz, []);
+            grupos.get(raiz).push(c);
+        });
+        return [...grupos.values()].map(miembros => ({
+            miembros,
+            ids: new Set(miembros.map(m => m.id)),
+            cred: miembros.reduce((s, m) => s + m.cred, 0),
+            unlocks: miembros.reduce((s, m) => s + unlocksDe(m.id), 0),
+            blockMin: Math.min(...miembros.map(m => m.block))
+        }));
+    }
+
+    function bundleListoParaS(bundle, S) {
+        for (const m of bundle.miembros) {
+            for (const req of m.reqs) {
+                if (bundle.ids.has(resolver(req))) continue;
+                if (!reqSatisfechoAntesDe(req, S)) return false;
+            }
+            for (const co of m.coreqs) {
+                const real = resolver(co);
+                if (bundle.ids.has(real)) continue;
+                const compat = coreqCompatibleConS(co, S);
+                if (compat !== true) return false;
+            }
+        }
+        return true;
+    }
+
+    function bundleAbreEn(bundle, tipo) {
+        return bundle.miembros.every(m => obtenerAperturaFlags(m.id)[tipo]);
+    }
+
+    let semestreInicio = Math.max(1, Math.floor(maxSemFijo) + 1);
+    let semestre = semestreInicio;
+    let iter = 0;
+    const plan = [];
+
+    while (pendientes.length > 0 && iter < MAX_ITER) {
+        iter++;
+
+        // --- semestre regular ---
+        const tipo = (Math.floor(semestre) % 2 === 1) ? 'sem1' : 'sem2';
+        let bundles = construirBundles(pendientes)
+            .filter(b => bundleListoParaS(b, semestre) && bundleAbreEn(b, tipo));
+        bundles.sort((a, b) => (b.unlocks - a.unlocks) || (a.blockMin - b.blockMin) || (a.cred - b.cred));
+
+        const seleccionados = [];
+        let creditosSem = 0;
+        for (const b of bundles) {
+            if (maxCred && (creditosSem + b.cred) > maxCred) continue;
+            seleccionados.push(b);
+            creditosSem += b.cred;
+        }
+
+        if (seleccionados.length > 0) {
+            seleccionados.forEach(b => b.miembros.forEach(m => asignado.set(m.id, semestre)));
+            const idsAsignados = new Set(seleccionados.flatMap(b => b.miembros.map(m => m.id)));
+            pendientes = pendientes.filter(c => !idsAsignados.has(c.id));
+            plan.push({
+                semestre, esVerano: false,
+                cursos: seleccionados.flatMap(b => b.miembros),
+                creditos: creditosSem,
+                bajoMinimo: creditosSem < minCred
+            });
+        }
+
+        // --- verano opcional (solo tras semestre par) ---
+        if (Math.floor(semestre) % 2 === 0 && pendientes.length > 0) {
+            const semVerano = semestre + 0.5;
+            let bundlesV = construirBundles(pendientes)
+                .filter(b => bundleListoParaS(b, semVerano) && bundleAbreEn(b, 'verano'));
+            bundlesV.sort((a, b) => (b.unlocks - a.unlocks) || (a.blockMin - b.blockMin) || (a.cred - b.cred));
+
+            const seleccionadosV = [];
+            let creditosV = 0;
+            for (const b of bundlesV) {
+                if (creditosV + b.cred > MAX_VERANO) continue;
+                seleccionadosV.push(b);
+                creditosV += b.cred;
+            }
+            if (seleccionadosV.length > 0) {
+                seleccionadosV.forEach(b => b.miembros.forEach(m => asignado.set(m.id, semVerano)));
+                const idsV = new Set(seleccionadosV.flatMap(b => b.miembros.map(m => m.id)));
+                pendientes = pendientes.filter(c => !idsV.has(c.id));
+                plan.push({
+                    semestre: semVerano, esVerano: true,
+                    cursos: seleccionadosV.flatMap(b => b.miembros),
+                    creditos: creditosV,
+                    bajoMinimo: false
+                });
+            }
+        }
+
+        semestre++;
+    }
+
+    if (pendientes.length > 0) {
+        advertencias.push(`No se pudieron ubicar ${pendientes.length} curso(s) tras ${iter} semestres simulados: ${pendientes.map(c => c.id).join(', ')}. Puede deberse a datos de apertura incompletos o requisitos/correquisitos que nunca coinciden.`);
+    }
+
+    return { plan, advertencias, asignado };
 }
 
 
@@ -2231,6 +2439,26 @@ function analizarAperturaCurso(courseId) {
     return { semestreMsg, verano };
 }
 
+// Igual que analizarAperturaCurso, pero en formato de flags booleanos para el
+// planificador acelerado. Si no hay datos históricos, se asume que puede abrir
+// en cualquier semestre regular (pero NUNCA se asume verano sin evidencia).
+function obtenerAperturaFlags(courseId) {
+    const entry = courseHistoryData && courseHistoryData[courseId];
+    if (!entry || !Array.isArray(entry.historial) || entry.historial.length === 0) {
+        return { sem1: true, sem2: true, verano: false, sinDatos: true };
+    }
+    let sem1 = false, sem2 = false, verano = false;
+    entry.historial.forEach(etiqueta => {
+        const periodo = etiqueta.split('-')[1];
+        if (!periodo) return;
+        if (periodo.endsWith('V')) verano = true;
+        else if (periodo === '1') sem1 = true;
+        else if (periodo === '2') sem2 = true;
+    });
+    if (!sem1 && !sem2) { sem1 = true; sem2 = true; } // seguridad: nunca dejar un curso sin ventana regular
+    return { sem1, sem2, verano, sinDatos: false };
+}
+
 // Pinta el aviso minimalista arriba del modal de curso
 function renderAperturaInfo(courseId) {
     const cont = document.getElementById('modalAperturaInfo');
@@ -2358,15 +2586,15 @@ const TOUR_STEPS = [
     { target: () => document.getElementById('statsPanel'), title: '📊 Tus créditos', text: 'Comparás tus créditos contra el total oficial (de la carrera, o del semestre filtrado).', placement: 'bottom' },
 
     // --- SIMULADOR ---
-    { target: () => document.getElementById('btnSimular'), title: '🎓 Simulador de graduación', text: 'Este botón estima en cuántos semestres te graduás según tu plan actual.', placement: 'bottom' },
-    {
-        target: () => tourDynamicModal ? tourDynamicModal.querySelector('.modal-content') : null,
-        title: '🎓 Así se ve',
-        text: 'Te muestra semestres estimados y qué cursos llevás adelantado o atrasado.',
-        placement: 'right',
-        onEnter: () => { openGraduationSimulator(); tourDynamicModal = document.body.lastElementChild; },
-        onExit:  () => { tourDynamicModal?.remove(); tourDynamicModal = null; }
-    },
+    { target: () => document.getElementById('btnSimular'), title: '🚀 Planificador acelerado', text: 'Este botón arma la ruta más rápida posible hacia tu graduación, respetando lo que ya cursaste.', placement: 'bottom' },
+{
+    target: () => tourDynamicModal ? tourDynamicModal.querySelector('.modal-content') : null,
+    title: '🚀 Así se ve',
+    text: 'Generá el plan, revisalo, y si te convence lo aplicás con un botón.',
+    placement: 'right',
+    onEnter: () => { openGraduationPlanner(); tourDynamicModal = document.body.lastElementChild; },
+    onExit:  () => { tourDynamicModal?.remove(); tourDynamicModal = null; }
+},
 
     // --- VISTA LISTA ---
     { target: () => document.getElementById('btnViewMode'), title: '📋 Vista de lista', text: 'Este botón cambia el árbol visual por una tabla filtrable.', placement: 'bottom' },
