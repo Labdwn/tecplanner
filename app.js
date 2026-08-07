@@ -2146,7 +2146,7 @@ function renderConservarSection() {
     const filas = candidatos.map(c => {
         const label = Number.isInteger(parseFloat(c.userSem)) ? `S${c.userSem}` : `Verano ${Math.floor(c.userSem)}`;
         return `<label style="display:flex; align-items:center; gap:8px; padding:6px 10px; background:#09090b; border:1px solid #27272a; border-radius:6px; font-size:0.85rem;">
-            <input type="checkbox" class="plan-conservar-check" value="${c.id}" checked>
+            <input type="checkbox" class="plan-conservar-check" value="${c.id}">
             <span style="color:var(--accent); font-weight:700;">${c.id}</span>
             <span style="color:#fff; flex:1;">${c.name}</span>
             <span style="color:var(--text-dim);">${label}</span>
@@ -2155,7 +2155,7 @@ function renderConservarSection() {
 
     wrap.innerHTML = `
         <div class="input-group">
-            <label class="input-label" style="font-size:0.8rem;">Cursos pendientes que ya planeaste — marcá cuáles conservar tal cual</label>
+            <label class="input-label" style="font-size:0.8rem;">Cursos pendientes que ya planeaste — por defecto se replanifican. Marcá los que querés conservar tal cual (ej. un verano ya armado a mano).</label>
             <div style="display:flex; gap:8px; margin-bottom:8px;">
                 <button type="button" class="hor-btn-ghost" onclick="marcarTodosConservar(true)">☑️ Conservar todos</button>
                 <button type="button" class="hor-btn-ghost" onclick="marcarTodosConservar(false)">☐ Replanificar todos</button>
@@ -2545,6 +2545,90 @@ function programarConSlack(bundles, eps, lps, anclas, semestreInicio, capDuroReg
     return { asignado, plan, sinUbicar: [...restantes].map(id => bundlesPorId.get(id)), advertenciasSlack };
 }
 
+// ---- Reconstruye el plan (por curso y por semestre) desde un mapa bundle->slot ----
+function reconstruirPlanDesdeBundles(bundles, slotDeBundle) {
+    const asignado = new Map();
+    const porSlot = new Map();
+    bundles.forEach(b => {
+        const slot = slotDeBundle.get(b.id);
+        b.miembros.forEach(m => asignado.set(m.id, slot));
+        if (!porSlot.has(slot)) porSlot.set(slot, { semestre: slot, esVerano: !Number.isInteger(slot), cursos: [], creditos: 0 });
+        const acc = porSlot.get(slot);
+        acc.cursos.push(...b.miembros);
+        acc.creditos += b.cred;
+    });
+    return { asignado, plan: [...porSlot.values()] };
+}
+
+// ---- Compactación hacia atrás: intenta adelantar cada bloque al slot más
+// temprano posible que aún cumpla requisitos, ventana de apertura y el tope
+// duro de créditos. Corre varias pasadas porque adelantar un curso puede
+// liberar espacio o completar un requisito que permite adelantar a otro.
+// Esto NO puede bajar del piso teórico (Ttarget) — si un semestre sigue
+// quedando flaco después de esto, es una cadena real de requisitos, no un
+// error de reparto.
+function compactarBundlesHaciaAtras(bundles, slotDeBundle, anclas, semestreInicio, capDuroRegular, capVerano) {
+    const bundlesPorId = new Map(bundles.map(b => [b.id, b]));
+    const ownerDeReal  = new Map();
+    bundles.forEach(b => b.ids.forEach(id => ownerDeReal.set(id, b)));
+
+    function creditosEnSlot(slot, excluirId) {
+        let total = 0;
+        slotDeBundle.forEach((s, id) => {
+            if (id === excluirId || s !== slot) return;
+            total += bundlesPorId.get(id).cred;
+        });
+        return total;
+    }
+
+    function reqsCumplenEn(b, slotCandidato) {
+        for (const real of b.reqsExternos) {
+            let s;
+            if (anclas.has(real)) {
+                s = anclas.get(real);
+            } else {
+                const owner = ownerDeReal.get(real);
+                if (!owner) continue; // no pertenece al pool planificable, no bloquea
+                s = slotDeBundle.get(owner.id);
+            }
+            if (s === undefined || !(s < slotCandidato)) return false;
+        }
+        return true;
+    }
+
+    let movidoAlguno = true, vueltas = 0;
+    while (movidoAlguno && vueltas < 8) {
+        movidoAlguno = false; vueltas++;
+        // De más tardío a más temprano: así liberar un slot atrás abre paso
+        // a los siguientes candidatos en la misma pasada.
+        const ordenTardio = [...bundles].sort((a, b) => slotDeBundle.get(b.id) - slotDeBundle.get(a.id));
+
+        for (const b of ordenTardio) {
+            const slotActual = slotDeBundle.get(b.id);
+            let candidato = semestreInicio, mejor = null;
+
+            while (candidato < slotActual) {
+                const tipo = planTipoSlot(candidato);
+                if (b.tiposApertura.has(tipo) && reqsCumplenEn(b, candidato)) {
+                    const cap = tipo === 'verano' ? capVerano : capDuroRegular;
+                    const usados = creditosEnSlot(candidato, b.id);
+                    if (cap === Infinity || usados === 0 || (usados + b.cred) <= cap) {
+                        mejor = candidato;
+                        break; // el primer slot temprano que sirve
+                    }
+                }
+                candidato = planNextSlot(candidato);
+            }
+
+            if (mejor !== null) {
+                slotDeBundle.set(b.id, mejor);
+                movidoAlguno = true;
+            }
+        }
+    }
+    return slotDeBundle;
+}
+
 // ---- Motor completo ----
 function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
     const idsConservarSet = new Set(idsConservar);
@@ -2592,7 +2676,7 @@ function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
         ? Math.min(capDuroRegular, Math.max(1, Math.ceil(creditosParaRegulares / periodosRegulares)))
         : capDuroRegular;
 
-    const { asignado, plan: planNuevo, sinUbicar, advertenciasSlack } =
+    const { asignado: asignadoInicial, plan: planInicial, sinUbicar, advertenciasSlack } =
         programarConSlack(bundlesResolubles, eps, lps, anclas, semestreInicio, capDuroRegular, capBalanceRegular, 8);
 
     advertencias.push(...advertenciasSlack);
@@ -2600,6 +2684,14 @@ function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
     if (sinUbicar.length > 0) {
         advertencias.push(`No se pudieron ubicar: ${sinUbicar.flatMap(b => b.miembros.map(m => m.id)).join(', ')}.`);
     }
+
+    // Compactación: intenta adelantar cursos a semestres anteriores con
+    // espacio libre. Solo opera sobre lo que sí se logró ubicar.
+    const bundlesUbicados = bundlesResolubles.filter(b => asignadoInicial.has(b.miembros[0].id));
+    const slotDeBundle = new Map(bundlesUbicados.map(b => [b.id, asignadoInicial.get(b.miembros[0].id)]));
+
+    compactarBundlesHaciaAtras(bundlesUbicados, slotDeBundle, anclas, semestreInicio, capDuroRegular, 8);
+    const { asignado, plan: planNuevo } = reconstruirPlanDesdeBundles(bundlesUbicados, slotDeBundle);
 
     if (tfgAlFinal && poolTFG.length > 0) {
         let ultimoUsado = semestreInicio - 1;
