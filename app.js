@@ -2560,6 +2560,25 @@ function reconstruirPlanDesdeBundles(bundles, slotDeBundle) {
     return { asignado, plan: [...porSlot.values()] };
 }
 
+// ---- Explica por qué un semestre con pocos créditos no se pudo llenar más:
+// busca, para cada curso de ese bloque, si alguno de sus requisitos se resolvió
+// justo en el semestre inmediatamente anterior — eso lo convierte en el
+// "cuello de botella" real que impide adelantarlo más.
+function explicarBloqueBajoMinimo(bloque, asignado, anclas) {
+    const razones = [];
+    bloque.cursos.forEach(c => {
+        (c.reqs || []).forEach(r => {
+            const real = resolveCourseId(r);
+            const s = anclas.has(real) ? anclas.get(real) : asignado.get(real);
+            if (s === undefined) return;
+            if (planNextSlot(s) === bloque.semestre) {
+                razones.push(`${c.id} depende de ${real} (asignado en S${s})`);
+            }
+        });
+    });
+    return [...new Set(razones)];
+}
+
 // ---- Compactación hacia atrás: intenta adelantar cada bloque al slot más
 // temprano posible que aún cumpla requisitos, ventana de apertura y el tope
 // duro de créditos. Corre varias pasadas porque adelantar un curso puede
@@ -2567,7 +2586,7 @@ function reconstruirPlanDesdeBundles(bundles, slotDeBundle) {
 // Esto NO puede bajar del piso teórico (Ttarget) — si un semestre sigue
 // quedando flaco después de esto, es una cadena real de requisitos, no un
 // error de reparto.
-function compactarBundlesHaciaAtras(bundles, slotDeBundle, anclas, semestreInicio, capDuroRegular, capVerano) {
+function compactarBundlesHaciaAtras(bundles, slotDeBundle, anclas, semestreInicio, capRegular, capVerano) {
     const bundlesPorId = new Map(bundles.map(b => [b.id, b]));
     const ownerDeReal  = new Map();
     bundles.forEach(b => b.ids.forEach(id => ownerDeReal.set(id, b)));
@@ -2610,7 +2629,7 @@ function compactarBundlesHaciaAtras(bundles, slotDeBundle, anclas, semestreInici
             while (candidato < slotActual) {
                 const tipo = planTipoSlot(candidato);
                 if (b.tiposApertura.has(tipo) && reqsCumplenEn(b, candidato)) {
-                    const cap = tipo === 'verano' ? capVerano : capDuroRegular;
+                    const cap = tipo === 'verano' ? capVerano : capRegular;
                     const usados = creditosEnSlot(candidato, b.id);
                     if (cap === Infinity || usados === 0 || (usados + b.cred) <= cap) {
                         mejor = candidato;
@@ -2690,7 +2709,12 @@ function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
     const bundlesUbicados = bundlesResolubles.filter(b => asignadoInicial.has(b.miembros[0].id));
     const slotDeBundle = new Map(bundlesUbicados.map(b => [b.id, asignadoInicial.get(b.miembros[0].id)]));
 
-    compactarBundlesHaciaAtras(bundlesUbicados, slotDeBundle, anclas, semestreInicio, capDuroRegular, 8);
+    // La compactación usa el tope BALANCEADO, no el máximo duro — si usara el
+    // máximo, apilaría todo contra tu límite en los primeros semestres y
+    // rompería el reparto parejo que ya se calculó. Solo adelanta un curso si
+    // cabe dentro de una carga pareja; si no cabe en ningún lado, se queda
+    // donde estaba (eso confirma un piso real de requisitos, no falta de cupo).
+    compactarBundlesHaciaAtras(bundlesUbicados, slotDeBundle, anclas, semestreInicio, capBalanceRegular, 8);
     const { asignado, plan: planNuevo } = reconstruirPlanDesdeBundles(bundlesUbicados, slotDeBundle);
 
     if (tfgAlFinal && poolTFG.length > 0) {
@@ -2726,6 +2750,17 @@ function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
         .sort((a, b) => a.semestre - b.semestre)
         .map(b => ({ ...b, bajoMinimo: !b.esVerano && !b.anclado && b.creditos < minCred }));
 
+    plan.forEach(b => {
+        if (b.bajoMinimo) {
+            const razones = explicarBloqueBajoMinimo(b, asignado, anclas);
+            advertencias.push(
+                razones.length > 0
+                    ? `Semestre ${b.semestre} quedó con pocos créditos (${b.creditos}) porque estos cursos no pueden ir antes: ${razones.join('; ')}.`
+                    : `Semestre ${b.semestre} quedó con pocos créditos (${b.creditos}) — no se encontró una dependencia específica que lo explique, probablemente ya no quedan más cursos disponibles para adelantar ahí.`
+            );
+        }
+    });
+    
     return { plan, advertencias, asignado };
 }
 
