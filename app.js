@@ -2036,6 +2036,38 @@ function planAnteriorSlotValido(s, tiposAceptados, limiteInferior) {
     while (!tiposAceptados.has(planTipoSlot(cur)) && cur > limiteInferior && guard < 200) { cur = planPrevSlot(cur); guard++; }
     return cur;
 }
+// Cuenta cuántos slots de un tipo ('regular' = sem1+sem2, 'verano') hay entre dos semestres, inclusive.
+function planContarSlots(desde, hasta, tipoDeseado) {
+    let n = 0, s = desde, guard = 0;
+    while (s <= hasta + 1e-9 && guard < 400) {
+        const esVerano = planTipoSlot(s) === 'verano';
+        if ((tipoDeseado === 'verano' && esVerano) || (tipoDeseado === 'regular' && !esVerano)) n++;
+        s = planNextSlot(s);
+        guard++;
+    }
+    return n;
+}
+
+// Fusiona en un solo bloque los bloques (anclados + planificados) que caen en el
+// mismo número de semestre. El tag "FIJO" solo se conserva si TODO el semestre
+// terminó siendo cursos anclados (si se mezcló con cursos replanificados, ya no
+// es 100% fijo y el tag se cae — es lo correcto).
+function fusionarBloquesPorSemestre(bloques) {
+    const porSlot = new Map();
+    bloques.forEach(b => {
+        if (!porSlot.has(b.semestre)) {
+            porSlot.set(b.semestre, { semestre: b.semestre, esVerano: b.esVerano, cursos: [], creditos: 0, soloAnclado: true });
+        }
+        const acc = porSlot.get(b.semestre);
+        acc.cursos.push(...b.cursos);
+        acc.creditos += b.creditos;
+        if (!b.anclado) acc.soloAnclado = false;
+    });
+    return [...porSlot.values()].map(acc => ({
+        semestre: acc.semestre, esVerano: acc.esVerano, cursos: acc.cursos,
+        creditos: acc.creditos, anclado: acc.soloAnclado
+    }));
+}
 function tiposAperturaDeCursos(cursos) {
     const tipos = new Set();
     if (cursos.every(m => obtenerAperturaFlags(m.id).sem1))   tipos.add('sem1');
@@ -2427,18 +2459,20 @@ function calcularLPSTodos(bundles, semestreInicio, Ttarget) {
     return lps;
 }
 
-// ---- Reparto real: obligatorios primero, relleno por menor holgura + más desbloqueos ----
-function programarConSlack(bundles, eps, lps, anclas, semestreInicio, capRegular, capVerano) {
+// ---- Reparto real: obligatorios primero (topados por el tope DURO), relleno
+// opcional topado por el tope BALANCEADO ----
+function programarConSlack(bundles, eps, lps, anclas, semestreInicio, capDuroRegular, capBalanceRegular, capVerano) {
     const asignado = new Map();
     const plan = [];
     const bundlesPorId = new Map(bundles.map(b => [b.id, b]));
     let restantes = new Set(bundles.map(b => b.id));
+    const advertenciasSlack = [];
+    const advertidos = new Set(); // evita spamear la misma advertencia en cada slot que se reintenta
 
     function reqsListos(b, slot) {
         for (const real of b.reqsExternos) {
             const s = anclas.has(real) ? anclas.get(real) : asignado.get(real);
             if (s === undefined || !(s < slot)) {
-                // requisitos que no pertenecen al pool planificable (ej. ya no existen) no bloquean
                 if (!anclas.has(real) && !bundlesPorId.has(real) && !coursesDB.some(x => x.id === real)) continue;
                 if (s === undefined) return false;
                 if (!(s < slot)) return false;
@@ -2448,7 +2482,7 @@ function programarConSlack(bundles, eps, lps, anclas, semestreInicio, capRegular
     }
 
     let slot = semestreInicio, guard = 0;
-    while (restantes.size > 0 && guard < 200) {
+    while (restantes.size > 0 && guard < 300) {
         guard++;
         const tipo = planTipoSlot(slot);
         const candidatos = [...restantes]
@@ -2465,13 +2499,38 @@ function programarConSlack(bundles, eps, lps, anclas, semestreInicio, capRegular
 
         const obligatorios = candidatos.filter(b => slot >= (lps.get(b.id) ?? slot));
         const opcionales    = candidatos.filter(b => !obligatorios.includes(b));
-        const cap = (tipo === 'verano') ? capVerano : capRegular;
+
+        // Tope duro: siempre manda (8cr fijo en verano, o tu máximo en semestre regular).
+        // Los obligatorios SOLO respetan este tope — nunca el balanceado — porque
+        // frenarlos por balance podría atrasar la graduación real.
+        const capDuro = (tipo === 'verano') ? capVerano : capDuroRegular;
+        // Tope balanceado: solo limita a los opcionales, para no empacar de más
+        // cuando repartir parejo alcanza igual para graduarse en la misma cantidad
+        // de semestres.
+        const capBalance = (tipo === 'verano') ? capVerano : Math.min(capBalanceRegular, capDuroRegular);
 
         const seleccionados = [];
         let creditos = 0;
-        obligatorios.forEach(b => { seleccionados.push(b); creditos += b.cred; });
+
+        obligatorios.forEach(b => {
+            const cabe = capDuro === Infinity || seleccionados.length === 0 || (creditos + b.cred) <= capDuro;
+            if (!cabe) {
+                if (!advertidos.has(b.id)) {
+                    advertidos.add(b.id);
+                    advertenciasSlack.push(
+                        `${b.miembros.map(m => m.id).join('+')} es un cuello de botella pero no cupo en el tope de ` +
+                        `${tipo === 'verano' ? 'créditos de verano' : 'créditos del semestre'} ${slot}; se pospuso, ` +
+                        `lo que puede atrasar la graduación respecto a la estimación teórica.`
+                    );
+                }
+                return;
+            }
+            seleccionados.push(b); creditos += b.cred;
+        });
+
         opcionales.forEach(b => {
-            if (cap !== Infinity && creditos > 0 && (creditos + b.cred) > cap) return;
+            const cabe = capBalance === Infinity || seleccionados.length === 0 || (creditos + b.cred) <= capBalance;
+            if (!cabe) return;
             seleccionados.push(b); creditos += b.cred;
         });
 
@@ -2483,7 +2542,7 @@ function programarConSlack(bundles, eps, lps, anclas, semestreInicio, capRegular
         slot = planNextSlot(slot);
     }
 
-    return { asignado, plan, sinUbicar: [...restantes].map(id => bundlesPorId.get(id)) };
+    return { asignado, plan, sinUbicar: [...restantes].map(id => bundlesPorId.get(id)), advertenciasSlack };
 }
 
 // ---- Motor completo ----
@@ -2493,7 +2552,7 @@ function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
     const advertencias = [];
 
     if (pool.length === 0 && poolTFG.length === 0) {
-        const bloquesAnclados = construirBloquesAnclados(anclas, origenAncla)
+        const bloquesAnclados = fusionarBloquesPorSemestre(construirBloquesAnclados(anclas, origenAncla))
             .sort((a, b) => a.semestre - b.semestre);
         return { plan: bloquesAnclados, advertencias, asignado: new Map() };
     }
@@ -2518,8 +2577,25 @@ function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
     eps.forEach(v => { if (v > Ttarget) Ttarget = v; });
 
     const lps = calcularLPSTodos(bundlesResolubles, semestreInicio, Ttarget);
-    const capRegular = maxCred || Infinity;
-    const { asignado, plan: planNuevo, sinUbicar } = programarConSlack(bundlesResolubles, eps, lps, anclas, semestreInicio, capRegular, 8);
+
+    // Reparto balanceado: en vez de empacar cada semestre regular al máximo,
+    // se calcula un tope parejo = créditos restantes que NO caben en veranos
+    // (asumiendo que los veranos siempre se llenan a su tope de 8) repartidos
+    // entre los semestres regulares restantes hasta la meta teórica (Ttarget).
+    const capDuroRegular     = maxCred || Infinity;
+    const periodosVerano     = planContarSlots(semestreInicio, Ttarget, 'verano');
+    const periodosRegulares  = planContarSlots(semestreInicio, Ttarget, 'regular');
+    const totalCreditosPool  = bundlesResolubles.reduce((s, b) => s + b.cred, 0);
+    const capacidadVeranoEstim  = Math.min(periodosVerano * 8, totalCreditosPool);
+    const creditosParaRegulares = Math.max(totalCreditosPool - capacidadVeranoEstim, 0);
+    const capBalanceRegular = periodosRegulares > 0
+        ? Math.min(capDuroRegular, Math.max(1, Math.ceil(creditosParaRegulares / periodosRegulares)))
+        : capDuroRegular;
+
+    const { asignado, plan: planNuevo, sinUbicar, advertenciasSlack } =
+        programarConSlack(bundlesResolubles, eps, lps, anclas, semestreInicio, capDuroRegular, capBalanceRegular, 8);
+
+    advertencias.push(...advertenciasSlack);
 
     if (sinUbicar.length > 0) {
         advertencias.push(`No se pudieron ubicar: ${sinUbicar.flatMap(b => b.miembros.map(m => m.id)).join(', ')}.`);
@@ -2549,12 +2625,12 @@ function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
         poolTFG.forEach(c => asignado.set(c.id, semestreTFG));
         planNuevo.push({
             semestre: semestreTFG, esVerano: !Number.isInteger(semestreTFG),
-            cursos: poolTFG, creditos: poolTFG.reduce((s, c) => s + c.cred, 0)
+            cursos: poolTFG, creditos: poolTFG.reduce((s, c) => s + c.cred, 0), anclado: false
         });
     }
 
     const bloquesAnclados = construirBloquesAnclados(anclas, origenAncla);
-    const plan = [...bloquesAnclados, ...planNuevo]
+    const plan = fusionarBloquesPorSemestre([...bloquesAnclados, ...planNuevo])
         .sort((a, b) => a.semestre - b.semestre)
         .map(b => ({ ...b, bajoMinimo: !b.esVerano && !b.anclado && b.creditos < minCred }));
 
