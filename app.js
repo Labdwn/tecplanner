@@ -3479,13 +3479,30 @@ function renderIndexView() {
     updateNotifDot();
 }
 
-// 20c. PRÓXIMAS FECHAS DEL TEC
+// 20c. CALENDARIO DE FECHAS DEL TEC
 // Lee scraper/output/calendario.json (lo genera scraper/calendario.js a partir
-// del calendario oficial y se actualiza solo). Muestra los hitos relevantes
-// que están en curso o caen dentro de los próximos 30 días.
-const FECHAS_TEC_DIAS = 30;
-const FECHAS_TEC_MAX = 6;
-const MESES_CORTOS = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+// del calendario oficial y se actualiza solo). Muestra un calendario mensual
+// con los hitos relevantes marcados y, al lado, la agenda de lo que viene o
+// lo que cae en el día que se toque.
+const CAL_CATEGORIAS = {
+    guia:        { color: '#8257e6', label: 'Guía y citas' },
+    matricula:   { color: '#10b981', label: 'Matrícula' },
+    apelaciones: { color: '#f59e0b', label: 'Apelaciones' },
+    lectivo:     { color: '#06b6d4', label: 'Lecciones' },
+};
+const CAL_TIPO_A_CATEGORIA = {
+    guia_horarios: 'guia', cursos_posibles: 'guia', citas_preliminar: 'guia', citas_definitivas: 'guia',
+    matricula_ordinaria: 'matricula', matricula_extraordinaria: 'matricula',
+    apelaciones_inclusiones: 'apelaciones',
+    periodo_lectivo: 'lectivo', evaluaciones_finales: 'lectivo',
+};
+const CAL_MESES = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+const CAL_MESES_CORTOS = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+const CAL_DIAS = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
+const CAL_AGENDA_MAX = 6;
+const CAL_RANGO_CORTO = 14; // rangos más largos (ej. período lectivo) solo marcan su inicio y su fin
+
+const calEstado = { eventos: [], anio: 0, mes: 0, seleccionado: null, listo: false };
 
 function fechaHoyCR() {
     return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Costa_Rica' });
@@ -3495,53 +3512,158 @@ function diasEntreISO(a, b) {
 }
 function fechaCortaISO(iso) {
     const [, m, d] = iso.split('-');
-    return `${Number(d)} ${MESES_CORTOS[Number(m) - 1]}`;
+    return `${Number(d)} ${CAL_MESES_CORTOS[Number(m) - 1]}`;
+}
+function isoDe(anio, mes, dia) {
+    return `${anio}-${String(mes + 1).padStart(2, '0')}-${String(dia).padStart(2, '0')}`;
 }
 function escHtmlFechas(t) {
     return String(t).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
+function calCategoria(e) {
+    return CAL_TIPO_A_CATEGORIA[e.tipo] || 'guia';
+}
+// ¿El evento se pinta en este día? Los rangos largos solo en sus extremos.
+function calApareceEn(e, iso) {
+    if (iso < e.inicio || iso > e.fin) return false;
+    return diasEntreISO(e.inicio, e.fin) <= CAL_RANGO_CORTO || iso === e.inicio || iso === e.fin;
+}
+function calEventosDelDia(iso) {
+    return calEstado.eventos.filter(e => calApareceEn(e, iso));
+}
+function calHayEventosEnMes(anio, mes) {
+    const dias = new Date(Date.UTC(anio, mes + 1, 0)).getUTCDate();
+    for (let d = 1; d <= dias; d++) if (calEventosDelDia(isoDe(anio, mes, d)).length) return true;
+    return false;
+}
+
+function calHtmlCuadricula(hoy) {
+    const { anio, mes, seleccionado } = calEstado;
+    const offset = (new Date(Date.UTC(anio, mes, 1)).getUTCDay() + 6) % 7; // semana desde lunes
+    const dias = new Date(Date.UTC(anio, mes + 1, 0)).getUTCDate();
+
+    let celdas = '';
+    for (let i = 0; i < offset; i++) celdas += '<span class="tc-dia tc-vacio"></span>';
+    for (let d = 1; d <= dias; d++) {
+        const iso = isoDe(anio, mes, d);
+        const evs = calEventosDelDia(iso);
+        const cats = [...new Set(evs.map(calCategoria))];
+        const enBanda = evs.some(e => e.inicio < iso && iso < e.fin && diasEntreISO(e.inicio, e.fin) <= CAL_RANGO_CORTO);
+        const clases = ['tc-dia'];
+        if (iso === hoy) clases.push('tc-hoy');
+        if (iso === seleccionado) clases.push('tc-sel');
+        if (evs.length) clases.push('tc-evento');
+        if (enBanda) clases.push('tc-banda');
+        const puntos = cats.slice(0, 3).map(c => `<i style="background:${CAL_CATEGORIAS[c].color};box-shadow:0 0 6px ${CAL_CATEGORIAS[c].color}"></i>`).join('');
+        const aria = `${d} de ${CAL_MESES[mes]}${evs.length ? ', ' + evs.length + (evs.length === 1 ? ' evento' : ' eventos') : ''}`;
+        celdas += `<button type="button" class="${clases.join(' ')}" data-iso="${iso}" aria-label="${aria}"><b>${d}</b><span class="tc-puntos">${puntos}</span></button>`;
+    }
+
+    const flecha = (dir, d) => `<button type="button" class="tc-nav" data-accion="${dir}" aria-label="${dir === 'prev' ? 'Mes anterior' : 'Mes siguiente'}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg></button>`;
+    const leyenda = Object.values(CAL_CATEGORIAS).map(c => `<span><i style="background:${c.color}"></i>${c.label}</span>`).join('');
+
+    return `
+        <div class="tc-mes">
+            ${flecha('prev', 'M15 18l-6-6 6-6')}
+            <div class="tc-mes-titulo">${CAL_MESES[mes]} <span>${anio}</span></div>
+            ${flecha('next', 'M9 18l6-6-6-6')}
+        </div>
+        <div class="tc-semana">${CAL_DIAS.map(d => `<span>${d}</span>`).join('')}</div>
+        <div class="tc-grid">${celdas}</div>
+        <div class="tc-leyenda">${leyenda}</div>`;
+}
+
+function calHtmlAgenda(hoy) {
+    const { seleccionado } = calEstado;
+    let titulo, lista;
+    if (seleccionado) {
+        const [, m, d] = seleccionado.split('-');
+        titulo = `${Number(d)} de ${CAL_MESES[Number(m) - 1].toLowerCase()}`;
+        lista = calEventosDelDia(seleccionado);
+    } else {
+        titulo = 'Lo que viene';
+        lista = calEstado.eventos.filter(e => e.fin >= hoy).slice(0, CAL_AGENDA_MAX);
+    }
+
+    const items = lista.map(e => {
+        const cat = CAL_CATEGORIAS[calCategoria(e)];
+        const enCurso = e.inicio <= hoy;
+        let cuando;
+        if (e.fin < hoy) cuando = 'Finalizó';
+        else if (enCurso) cuando = e.inicio === e.fin ? 'Hoy' : 'En curso';
+        else {
+            const n = diasEntreISO(hoy, e.inicio);
+            cuando = n === 1 ? 'Mañana' : `En ${n} días`;
+        }
+        const rango = e.inicio === e.fin ? fechaCortaISO(e.inicio) : `${fechaCortaISO(e.inicio)} – ${fechaCortaISO(e.fin)}`;
+        return `
+            <div class="tc-item" style="--tc-color:${cat.color}">
+                <div class="tc-item-top">
+                    <span class="tc-item-titulo">${escHtmlFechas(e.actividad)}</span>
+                    <span class="tc-pill">${cuando}</span>
+                </div>
+                <div class="tc-item-sub">${escHtmlFechas(e.etiquetaPeriodo)} · ${rango}</div>
+            </div>`;
+    }).join('') || '<div class="home-empty">Nada marcado para este día.</div>';
+
+    const volver = seleccionado ? '<button type="button" class="tc-volver" data-accion="limpiar">Ver lo que viene</button>' : '';
+    return `<div class="tc-agenda-titulo"><span>${titulo}</span>${volver}</div><div class="tc-agenda-lista">${items}</div>`;
+}
+
+function renderCalendarioTEC() {
+    const cont = document.getElementById('homeCalendario');
+    if (!cont) return;
+    const hoy = fechaHoyCR();
+    cont.innerHTML = `<div class="tc-cuadricula">${calHtmlCuadricula(hoy)}</div><div class="tc-agenda">${calHtmlAgenda(hoy)}</div>`;
+
+    if (!calEstado.listo) {
+        calEstado.listo = true;
+        cont.addEventListener('click', ev => {
+            const el = ev.target.closest('[data-accion], [data-iso]');
+            if (!el) return;
+            const accion = el.dataset.accion;
+            if (accion === 'prev' || accion === 'next') {
+                calEstado.mes += accion === 'next' ? 1 : -1;
+                if (calEstado.mes < 0) { calEstado.mes = 11; calEstado.anio--; }
+                if (calEstado.mes > 11) { calEstado.mes = 0; calEstado.anio++; }
+            } else if (accion === 'limpiar') {
+                calEstado.seleccionado = null;
+            } else if (el.dataset.iso) {
+                calEstado.seleccionado = calEstado.seleccionado === el.dataset.iso ? null : el.dataset.iso;
+            }
+            renderCalendarioTEC();
+        });
+    }
+}
 
 async function cargarProximasFechas() {
-    const lista = document.getElementById('indexFechasList');
     const seccion = document.getElementById('homeFechasSection');
-    if (!lista || !seccion) return;
+    if (!seccion) return;
 
     try {
         const res = await fetch('scraper/output/calendario.json', { cache: 'no-cache' });
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const { eventos } = await res.json();
 
+        calEstado.eventos = eventos
+            .filter(e => e.relevante)
+            .sort((x, y) => x.inicio.localeCompare(y.inicio) || x.actividad.localeCompare(y.actividad));
+        if (calEstado.eventos.length === 0) { seccion.style.display = 'none'; return; }
+
+        // Mes inicial: el actual; si no tiene nada marcado, el del próximo evento.
         const hoy = fechaHoyCR();
-        const limite = new Date(hoy + 'T00:00:00Z');
-        limite.setUTCDate(limite.getUTCDate() + FECHAS_TEC_DIAS);
-        const limiteISO = limite.toISOString().slice(0, 10);
+        calEstado.anio = Number(hoy.slice(0, 4));
+        calEstado.mes = Number(hoy.slice(5, 7)) - 1;
+        if (!calHayEventosEnMes(calEstado.anio, calEstado.mes)) {
+            const proximo = calEstado.eventos.find(e => e.inicio >= hoy) || calEstado.eventos.find(e => e.fin >= hoy);
+            if (proximo) { calEstado.anio = Number(proximo.inicio.slice(0, 4)); calEstado.mes = Number(proximo.inicio.slice(5, 7)) - 1; }
+        }
+        calEstado.seleccionado = null;
 
-        const proximos = eventos
-            .filter(e => e.relevante && e.fin >= hoy && e.inicio <= limiteISO)
-            .sort((x, y) => x.inicio.localeCompare(y.inicio) || x.actividad.localeCompare(y.actividad))
-            .slice(0, FECHAS_TEC_MAX);
-
-        if (proximos.length === 0) { seccion.style.display = 'none'; return; }
         seccion.style.display = '';
-
-        lista.innerHTML = proximos.map(e => {
-            const enCurso = e.inicio <= hoy;
-            const rango = e.inicio === e.fin ? fechaCortaISO(e.inicio) : `${fechaCortaISO(e.inicio)} – ${fechaCortaISO(e.fin)}`;
-            let cuando;
-            if (enCurso) cuando = e.inicio === e.fin ? 'Hoy' : `En curso · termina el ${fechaCortaISO(e.fin)}`;
-            else {
-                const d = diasEntreISO(hoy, e.inicio);
-                cuando = d === 1 ? 'Mañana' : `En ${d} días`;
-            }
-            return `
-        <div class="home-news-item">
-            <div class="hni-title">${escHtmlFechas(e.actividad)}</div>
-            <div class="hni-text">${escHtmlFechas(e.etiquetaPeriodo)} · ${cuando}</div>
-            <div class="hni-date">${rango}</div>
-        </div>`;
-        }).join('');
+        renderCalendarioTEC();
     } catch (err) {
-        // Sin calendario (archivo ausente o sin red): la tarjeta simplemente no se muestra.
+        // Sin calendario (archivo ausente o sin red): la sección simplemente no se muestra.
         seccion.style.display = 'none';
     }
 }

@@ -2667,3 +2667,86 @@ path {
 .list-table tr.comparador-fila-clic:hover td:first-child {
     color: var(--accent) !important;
 }
+
+/* ===== Home: calendario de fechas del TEC ===== */
+.tc-cal {
+    display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: 26px;
+    position: relative; overflow: hidden; padding: 22px;
+    background: linear-gradient(160deg, #1b1b24 0%, #15151a 65%);
+    border: 1px solid #27272a; border-radius: 16px;
+    font-family: 'Rajdhani', sans-serif; margin-bottom: 34px;
+}
+.tc-cal::before {
+    content: ''; position: absolute; top: -90px; right: -70px; width: 280px; height: 280px;
+    background: radial-gradient(circle, rgba(130,87,230,0.20), transparent 70%); pointer-events: none;
+}
+.tc-cuadricula, .tc-agenda { position: relative; min-width: 0; }
+
+.tc-mes { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.tc-mes-titulo { color: #fff; font-size: 1.3rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+.tc-mes-titulo span { color: var(--accent); margin-left: 4px; }
+.tc-nav {
+    display: flex; align-items: center; justify-content: center; width: 34px; height: 34px;
+    background: #121214; border: 1px solid #2e2e36; border-radius: 10px; color: var(--text-dim);
+    cursor: pointer; transition: all 0.2s;
+}
+.tc-nav:hover { color: #fff; border-color: var(--accent); box-shadow: 0 0 12px rgba(130,87,230,0.35); }
+
+.tc-semana, .tc-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+.tc-semana { margin-bottom: 6px; }
+.tc-semana span { text-align: center; color: #6b6b78; font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; }
+
+.tc-dia {
+    position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
+    aspect-ratio: 1 / 1; min-height: 40px; padding: 0;
+    background: #17171c; border: 1px solid #25252c; border-radius: 10px;
+    color: var(--text-dim); font-family: 'Rajdhani', sans-serif; font-size: 0.95rem; cursor: default;
+    transition: all 0.18s;
+}
+.tc-dia b { font-weight: 600; line-height: 1; }
+.tc-vacio { background: transparent; border-color: transparent; }
+.tc-puntos { display: flex; gap: 3px; height: 6px; }
+.tc-puntos i { display: block; width: 6px; height: 6px; border-radius: 50%; }
+
+.tc-evento { cursor: pointer; color: #fff; background: #1d1d26; border-color: #33333f; }
+.tc-evento:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 6px 18px rgba(130,87,230,0.28); }
+.tc-banda { background: rgba(130,87,230,0.13); border-color: rgba(130,87,230,0.35); }
+.tc-hoy { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent), 0 0 14px rgba(130,87,230,0.45); color: #fff; }
+.tc-hoy b { color: #fff; }
+.tc-sel { background: linear-gradient(135deg, #8257e6, #6a43c9); border-color: #a58af0; color: #fff; box-shadow: 0 6px 20px rgba(130,87,230,0.5); }
+
+.tc-leyenda { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 16px; color: #8b8b98; font-size: 0.78rem; }
+.tc-leyenda span { display: inline-flex; align-items: center; gap: 6px; }
+.tc-leyenda i { display: block; width: 8px; height: 8px; border-radius: 50%; }
+
+.tc-agenda-titulo {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px;
+    color: #fff; font-size: 1.05rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+}
+.tc-volver {
+    background: transparent; border: 1px solid #33333f; border-radius: 8px; color: var(--text-dim);
+    font-family: 'Rajdhani', sans-serif; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; cursor: pointer;
+    text-transform: none; letter-spacing: 0.3px; transition: all 0.2s;
+}
+.tc-volver:hover { color: #fff; border-color: var(--accent); }
+.tc-agenda-lista { display: flex; flex-direction: column; gap: 10px; }
+.tc-item {
+    background: #18181d; border: 1px solid #27272a; border-left: 3px solid var(--tc-color);
+    border-radius: 10px; padding: 11px 14px; transition: all 0.2s;
+}
+.tc-item:hover { background: #1d1d24; transform: translateX(3px); box-shadow: -6px 0 18px -8px var(--tc-color); }
+.tc-item-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
+.tc-item-titulo { color: #fff; font-weight: 700; font-size: 0.92rem; line-height: 1.25; }
+.tc-pill {
+    flex-shrink: 0; padding: 2px 9px; border-radius: 999px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.4px;
+    color: var(--tc-color); border: 1px solid var(--tc-color); background: rgba(255,255,255,0.03);
+}
+.tc-item-sub { color: var(--text-dim); font-size: 0.78rem; margin-top: 5px; }
+
+@media (max-width: 900px) {
+    .tc-cal { grid-template-columns: 1fr; padding: 16px; gap: 20px; }
+}
+@media (max-width: 420px) {
+    .tc-semana, .tc-grid { gap: 4px; }
+    .tc-dia { min-height: 36px; font-size: 0.85rem; border-radius: 8px; }
+}
