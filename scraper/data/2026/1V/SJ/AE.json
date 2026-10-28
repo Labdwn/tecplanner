@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "AE4128",
+      "nombre": "Auditoría I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "VILLEGAS ROJAS ALEXANDER",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:30-20:15] MIE[17:30-20:15] JUE[17:30-19:10]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

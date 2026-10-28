@@ -16,8 +16,8 @@
           "profesor": "ALFARO BADILLA JASON KALED",
           "modalidad": "Semipresencial",
           "horario": "VIE[07:00-10:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "ARAYA RODRIGUEZ LISANDRO",
           "modalidad": "Semipresencial",
           "horario": "VIE[08:00-11:50]",
-          "edificio": "UTN",
-          "aula": "602"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "CORDERO GARCIA IVAN GABRIEL",
           "modalidad": "Regular",
           "horario": "MAR[10:00-11:50] JUE[10:00-11:50]",
-          "edificio": "UTN",
-          "aula": "604"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,16 +61,16 @@
           "profesor": "MORALES HERNANDEZ SERGIO",
           "modalidad": "Regular",
           "horario": "MAR[07:00-08:50]",
-          "edificio": "LAT",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 21,
           "profesor": "MORALES HERNANDEZ SERGIO",
           "modalidad": "Regular",
           "horario": "JUE[07:00-08:50]",
-          "edificio": "LAT",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -84,8 +84,8 @@
           "profesor": "MORALES HERNANDEZ SERGIO",
           "modalidad": "Regular",
           "horario": "LUN[09:00-10:50]",
-          "edificio": "LAT",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -99,8 +99,8 @@
           "profesor": "MORALES HERNANDEZ SERGIO",
           "modalidad": "Regular",
           "horario": "VIE[13:00-16:50]",
-          "edificio": "UTN",
-          "aula": "602"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -114,8 +114,8 @@
           "profesor": "PEREIRA ARROYO ROBERTO",
           "modalidad": "Virtual",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -129,8 +129,8 @@
           "profesor": "PEREIRA ARROYO ROBERTO",
           "modalidad": "Virtual",
           "horario": "MIE[10:00-11:50] VIE[10:00-11:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -144,8 +144,8 @@
           "profesor": "PHILLIPS BRENES HAYDEN ANTHONY",
           "modalidad": "Virtual",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -159,8 +159,8 @@
           "profesor": "PHILLIPS BRENES HAYDEN ANTHONY",
           "modalidad": "Virtual",
           "horario": "LUN[08:00-11:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -174,8 +174,8 @@
           "profesor": "RAMIREZ JIMENEZ ARNOLDO ALCIDES",
           "modalidad": "Virtual",
           "horario": "LUN[18:00-19:50] VIE[18:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -189,8 +189,8 @@
           "profesor": "RAMIREZ JIMENEZ ARNOLDO ALCIDES",
           "modalidad": "Semipresencial",
           "horario": "SAB[08:00-11:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -204,8 +204,8 @@
           "profesor": "ROSALES ALPIZAR LUIS CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:00-08:50] JUE[07:00-08:50]",
-          "edificio": "UTN",
-          "aula": "620"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -219,8 +219,8 @@
           "profesor": "ROSALES ALPIZAR LUIS CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "LAT",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -234,8 +234,8 @@
           "profesor": "ROSALES ALPIZAR LUIS CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:00-08:50] VIE[07:00-08:50]",
-          "edificio": "UTN",
-          "aula": "601"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -249,8 +249,8 @@
           "profesor": "SANCHEZ HERRERA KERVIN",
           "modalidad": "Regular",
           "horario": "LUN[07:00-08:50]",
-          "edificio": "LAT",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -264,8 +264,8 @@
           "profesor": "SANCHEZ HERRERA KERVIN",
           "modalidad": "Virtual",
           "horario": "MIE[18:00-19:50] VIE[18:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -279,8 +279,8 @@
           "profesor": "SOTO GARITA JUAN PABLO",
           "modalidad": "Semipresencial",
           "horario": "SAB[08:00-11:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -294,8 +294,8 @@
           "profesor": "ZAMORA BOLAÑOS JUAN DIEGO",
           "modalidad": "Semipresencial",
           "horario": "VIE[15:00-16:50] SAB[10:00-11:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

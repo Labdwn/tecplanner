@@ -1,0 +1,85 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "FH0227",
+      "nombre": "Estado o mercado: el origen de la discusión ideológica",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "BOJORGE MURILLO ALEXANDER",
+          "modalidad": "Virtual",
+          "horario": "MIE[16:00-19:10] JUE[16:00-19:10] VIE[16:00-19:10]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0198",
+      "nombre": "Fundamentos de desarrollo sostenible",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CARVAJAL ALFARO VANESSA",
+          "modalidad": "Virtual",
+          "horario": "MIE[14:00-16:50] JUE[14:00-16:50] VIE[14:00-16:50] SAB[14:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0191",
+      "nombre": "Introducción al pensamiento critico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "GUILLEN MARTINEZ LUIS DIEGO",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:20-21:05] JUE[18:20-21:05] VIE[18:20-21:05] SAB[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0271",
+      "nombre": "De monstruos y vampiros: el horror gótico en Frankenstein y Drácula en la época victoriana",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "JIMENEZ RODRIGUEZ ROXANA",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0162",
+      "nombre": "La enseñanza de la lengua inglesa y su paralelismo con desarrollo económico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLANO SOLANO JOSE EDUARDO",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:30-20:15] JUE[17:30-20:15] VIE[17:30-20:15] SAB[17:30-20:15]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

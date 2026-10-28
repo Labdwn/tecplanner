@@ -16,16 +16,16 @@
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
           "horario": "MAR[07:00-11:30] MAR[07:00-11:30] MAR[07:00-11:30]",
-          "edificio": "A",
-          "aula": "15"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
           "horario": "MAR[07:00-14:15] MAR[07:00-14:15] MAR[07:00-14:15]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,16 +39,16 @@
           "profesor": "ECHEVERRIA BEIRUTE FABIAN",
           "modalidad": "Regular",
           "horario": "LUN[07:00-11:30] LUN[07:00-11:30]",
-          "edificio": "A",
-          "aula": "15"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "ECHEVERRIA BEIRUTE FABIAN",
           "modalidad": "Regular",
           "horario": "LUN[07:00-14:15] LUN[07:00-14:15]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -62,39 +62,16 @@
           "profesor": "ESQUIVEL SEGURA EDWIN",
           "modalidad": "Regular",
           "horario": "JUE[07:00-11:30]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "ESQUIVEL SEGURA EDWIN",
           "modalidad": "Regular",
           "horario": "JUE[07:00-14:15]",
-          "edificio": "ND",
-          "aula": "0"
-        }
-      ]
-    },
-    {
-      "codigo": "AG4703",
-      "nombre": "Sistemas de producción de cultivos perennes",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 50,
-          "profesor": "ESQUIVEL SEGURA EDWIN",
-          "modalidad": "Regular",
-          "horario": "SAB[07:00-11:30] SAB[07:00-11:30]",
-          "edificio": "ND",
-          "aula": "0"
-        },
-        {
-          "grupo": 51,
-          "profesor": "ESQUIVEL SEGURA EDWIN",
-          "modalidad": "Regular",
-          "horario": "SAB[07:00-14:15] SAB[07:00-14:15]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -108,16 +85,16 @@
           "profesor": "FALLAS ALVAREZ ERICK",
           "modalidad": "Regular",
           "horario": "LUN[14:20-17:00] MAR[13:25-15:10] LUN[14:20-17:00] MAR[13:25-15:10]",
-          "edificio": "A",
-          "aula": "15"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "FALLAS ALVAREZ ERICK",
           "modalidad": "Regular",
           "horario": "LUN[14:20-17:00] MAR[15:15-17:00] LUN[14:20-17:00] MAR[15:15-17:00]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -131,16 +108,24 @@
           "profesor": "GALINDO BADILLA JAIME",
           "modalidad": "Regular",
           "horario": "MAR[16:10-18:50] MIE[07:00-08:45] MAR[16:10-18:50] MIE[07:00-08:45]",
-          "edificio": "A",
-          "aula": "15"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "GALINDO BADILLA JAIME",
           "modalidad": "Regular",
           "horario": "MAR[16:10-18:50] MIE[09:45-11:30] MAR[16:10-18:50] MIE[09:45-11:30]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 52,
+          "profesor": "GALINDO BADILLA JAIME",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-18:50] MAR[07:00-18:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -151,19 +136,41 @@
       "grupos": [
         {
           "grupo": 50,
-          "profesor": "MADRIGAL VALVERDE MONICA",
+          "profesor": "GALINDO BADILLA JAIME",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-11:30]",
-          "edificio": "A",
-          "aula": "3"
-        },
+          "horario": "LUN[07:00-08:45] VIE[13:25-16:05] LUN[07:00-08:45] VIE[13:25-16:05] LUN[07:00-08:45] VIE[13:25-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AG3011",
+      "nombre": "Gestión de calidad agroalimentaria",
+      "creditos": 3,
+      "grupos": [
         {
-          "grupo": 51,
-          "profesor": "MADRIGAL VALVERDE MONICA",
+          "grupo": 50,
+          "profesor": "GUERRERO VARGAS LIGIA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:10-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AG2305",
+      "nombre": "Agroclimatología",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GUZMAN ALVAREZ JOSE ANTONIO",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-14:15]",
-          "edificio": "ND",
-          "aula": "0"
+          "horario": "SAB[07:55-10:35]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -177,16 +184,31 @@
           "profesor": "MOLINA MONTERO RAFAEL",
           "modalidad": "Regular",
           "horario": "MIE[07:00-11:30]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "MOLINA MONTERO RAFAEL",
           "modalidad": "Regular",
           "horario": "MIE[07:00-14:15]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AG5222",
+      "nombre": "Seminario de trabajos finales de graduación",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MONTERO CARMONA WAINER",
+          "modalidad": "Regular",
+          "horario": "MIE[14:20-17:00] MIE[14:20-17:00] MIE[14:20-17:00]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -200,8 +222,8 @@
           "profesor": "MORALES ARIAS JONATHAN",
           "modalidad": "Regular",
           "horario": "JUE[07:00-11:30]",
-          "edificio": "LAG",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -215,8 +237,23 @@
           "profesor": "OBANDO ULLOA JAVIER",
           "modalidad": "Regular",
           "horario": "LUN[14:20-18:50]",
-          "edificio": "A",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AG5221",
+      "nombre": "Manejo y comercialización de productos agropecuarios",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "OBANDO ULLOA JAVIER",
+          "modalidad": "Regular",
+          "horario": "MIE[17:05-20:40] MIE[17:05-20:40]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -230,16 +267,69 @@
           "profesor": "OROZCO CORRALES CARLOS",
           "modalidad": "Regular",
           "horario": "LUN[08:50-14:15]",
-          "edificio": "A",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "OROZCO CORRALES CARLOS",
           "modalidad": "Regular",
           "horario": "LUN[08:50-16:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AG3010",
+      "nombre": "Cultivos protegidos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RAMIREZ VARGAS CARLOS VINICIO",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AG5405",
+      "nombre": "Preparación y evaluación proyectos agropecuarios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS SEGURA JAVIER",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-13:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AG4703",
+      "nombre": "Sistemas de producción de cultivos perennes",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "SALAZAR BLANCO JOSE DANIEL",
+          "modalidad": "Regular",
+          "horario": "SAB[07:00-11:30]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 51,
+          "profesor": "SALAZAR BLANCO JOSE DANIEL",
+          "modalidad": "Regular",
+          "horario": "SAB[07:00-14:15]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -253,23 +343,8 @@
           "profesor": "SALAZAR MORERA RODOLFO",
           "modalidad": "Regular",
           "horario": "SAB[07:00-11:30]",
-          "edificio": "A",
-          "aula": "15"
-        }
-      ]
-    },
-    {
-      "codigo": "AG2305",
-      "nombre": "Agroclimatología",
-      "creditos": 2,
-      "grupos": [
-        {
-          "grupo": 50,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "SAB[07:55-10:35]",
-          "edificio": "LAG",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -283,16 +358,16 @@
           "profesor": "VALVERDE ABARCA ANTHONNY",
           "modalidad": "Regular",
           "horario": "MIE[07:00-11:30]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "VALVERDE ABARCA ANTHONNY",
           "modalidad": "Regular",
           "horario": "MIE[07:00-14:15]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -306,8 +381,8 @@
           "profesor": "VEGA ALFARO ANDREY",
           "modalidad": "Regular",
           "horario": "JUE[07:00-11:30]",
-          "edificio": "A",
-          "aula": "17"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

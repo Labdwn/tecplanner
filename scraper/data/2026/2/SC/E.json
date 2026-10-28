@@ -16,8 +16,8 @@
           "profesor": "CARDINALE VILLALOBOS LEONARDO",
           "modalidad": "Semipresencial",
           "horario": "MIE[16:10-19:45]",
-          "edificio": "E",
-          "aula": "108"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "CARRERA RETANA LUIS ERNESTO",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-19:45] VIE[16:10-17:55]",
-          "edificio": "E",
-          "aula": "106"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,24 +46,24 @@
           "profesor": "CASTRO BADILLA GUILLERMO",
           "modalidad": "Regular",
           "horario": "LUN[07:55-09:40]",
-          "edificio": "E",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "CASTRO BADILLA GUILLERMO",
           "modalidad": "Regular",
           "horario": "MAR[07:55-09:40]",
-          "edificio": "A",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 52,
           "profesor": "GUADAMUZ BRENES SAUL",
           "modalidad": "Regular",
           "horario": "JUE[07:00-08:45]",
-          "edificio": "A",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -77,8 +77,8 @@
           "profesor": "CASTRO BADILLA GUILLERMO",
           "modalidad": "Regular",
           "horario": "MIE[07:55-09:40]",
-          "edificio": "LE",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -92,8 +92,8 @@
           "profesor": "CASTRO BADILLA GUILLERMO",
           "modalidad": "Regular",
           "horario": "MIE[12:30-16:05]",
-          "edificio": "A",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -107,8 +107,8 @@
           "profesor": "CASTRO BADILLA GUILLERMO",
           "modalidad": "Semipresencial",
           "horario": "LUN[16:10-19:45]",
-          "edificio": "E",
-          "aula": "109"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -122,8 +122,8 @@
           "profesor": "FERNANDEZ RODRIGUEZ JOSE MIGUEL",
           "modalidad": "Semipresencial",
           "horario": "MAR[18:00-19:45] JUE[18:00-19:45]",
-          "edificio": "E",
-          "aula": "209"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -137,8 +137,8 @@
           "profesor": "GUADAMUZ BRENES SAUL",
           "modalidad": "Regular",
           "horario": "LUN[16:10-17:55] MAR[13:25-15:10]",
-          "edificio": "E",
-          "aula": "209"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -152,8 +152,8 @@
           "profesor": "GUADAMUZ BRENES SAUL",
           "modalidad": "Regular",
           "horario": "JUE[09:45-11:30] VIE[07:00-08:45]",
-          "edificio": "A",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -167,8 +167,8 @@
           "profesor": "GUADAMUZ BRENES SAUL",
           "modalidad": "Regular",
           "horario": "MIE[07:55-09:40] VIE[09:45-11:30]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -182,8 +182,8 @@
           "profesor": "GUADAMUZ BRENES SAUL",
           "modalidad": "Semipresencial",
           "horario": "MAR[16:10-17:55] JUE[16:10-17:55]",
-          "edificio": "E",
-          "aula": "209"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -197,8 +197,8 @@
           "profesor": "LEON VEGA LUIS GERARDO",
           "modalidad": "Semipresencial",
           "horario": "JUE[07:00-08:45] VIE[07:00-08:45]",
-          "edificio": "E",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -211,9 +211,9 @@
           "grupo": 50,
           "profesor": "LEON VEGA LUIS GERARDO",
           "modalidad": "Virtual",
-          "horario": "VIE[16:10-19:45] VIE[16:10-19:45]",
-          "edificio": "ND",
-          "aula": "0"
+          "horario": "VIE[16:10-19:45]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -227,8 +227,8 @@
           "profesor": "RIVERA ALVARADO ERNESTO",
           "modalidad": "Semipresencial",
           "horario": "MAR[16:10-17:55] MIE[14:20-16:05]",
-          "edificio": "E",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -242,8 +242,8 @@
           "profesor": "RIVERA ALVARADO ERNESTO",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:45-11:30] MIE[09:45-11:30]",
-          "edificio": "E",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -257,8 +257,8 @@
           "profesor": "RIVERA ALVARADO ERNESTO",
           "modalidad": "Semipresencial",
           "horario": "MAR[12:30-16:05]",
-          "edificio": "E",
-          "aula": "108"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -272,8 +272,8 @@
           "profesor": "RIVERA ALVARADO JAVIER",
           "modalidad": "Regular",
           "horario": "MIE[07:00-14:15]",
-          "edificio": "A",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -287,8 +287,8 @@
           "profesor": "RIVERA ALVARADO JAVIER",
           "modalidad": "Regular",
           "horario": "MIE[17:05-20:40]",
-          "edificio": "E",
-          "aula": "209"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -302,8 +302,8 @@
           "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
           "modalidad": "Regular",
           "horario": "VIE[12:30-14:15]",
-          "edificio": "LE",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -317,8 +317,8 @@
           "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
           "modalidad": "Regular",
           "horario": "MIE[16:10-17:55] VIE[07:55-09:40]",
-          "edificio": "E",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -332,8 +332,8 @@
           "profesor": "RODRIGUEZ VARGAS PABLO CESAR",
           "modalidad": "Regular",
           "horario": "JUE[12:30-16:05]",
-          "edificio": "E",
-          "aula": "109"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -347,8 +347,8 @@
           "profesor": "ROJAS RODRIGUEZ DAVID",
           "modalidad": "Semipresencial",
           "horario": "JUE[12:30-16:05]",
-          "edificio": "E",
-          "aula": "209"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

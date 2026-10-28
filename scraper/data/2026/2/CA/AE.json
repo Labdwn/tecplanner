@@ -16,24 +16,24 @@
           "profesor": "ARAYA LEANDRO ARNOLDO",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ARAYA LEANDRO ARNOLDO",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "PEREZ GUTIERREZ ALEXANDER",
           "modalidad": "Regular",
           "horario": "JUE[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -47,24 +47,55 @@
           "profesor": "ARCE GUTIERREZ SUSAN",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MARTINEZ VILLAVICENCIO JOSE",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "NUÑEZ ARGUEDAS EVELYN",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2705",
+      "nombre": "Análisis y gestión de datos empresariales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "ARTAVIA DELGADO RANDALL",
+          "modalidad": "Regular",
+          "horario": "MIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ROJAS RODRIGUEZ GIOVANNY",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "VALERIN CASTRO ALEXANDER",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -78,40 +109,56 @@
           "profesor": "BRENES CERVANTES IVANNIA",
           "modalidad": "Regular",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "B1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GARITA GRANADOS CARLA",
           "modalidad": "Regular",
           "horario": "JUE[17:00-20:50]",
-          "edificio": "B1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "GUERRERO VARGAS LIGIA",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "GUILLEN MIRANDA ERICK",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "GUILLEN MIRANDA ERICK",
+          "modalidad": "Virtual",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "LEANDRO ELIZONDO RONALD",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
-          "grupo": 2,
-          "profesor": "PEREZ OROZCO ALLAN JOSE",
+          "grupo": 7,
+          "profesor": "THAMES RAMIREZ KARLA",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -125,24 +172,24 @@
           "profesor": "BRENES SANCHEZ RONALD",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "BRENES SANCHEZ RONALD",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "B1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "POVEDA MORA JHONNY",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -156,32 +203,32 @@
           "profesor": "BRENES SANCHEZ RONALD",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "D1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "DE LA O CORDERO DYALA",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MORA CRUZ ALEXANDRA",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "B1",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MORA ESQUIVEL RONALD",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -195,24 +242,24 @@
           "profesor": "CERVANTES MEZA ALBERTO",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "DE LA O CORDERO DYALA",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "SANCHEZ RAMIREZ VANESSA",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -226,16 +273,16 @@
           "profesor": "CHAVARRIA HIDALGO CARLOS",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "B1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -249,24 +296,24 @@
           "profesor": "CORTES MIXTER JULIO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ORTIZ ACUÑA CINDY",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "B1",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "ORTIZ ACUÑA CINDY",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -280,16 +327,24 @@
           "profesor": "CUBILLO SALAS GUSTAVO",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "D3",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "GUZMAN RIVERA DIEGO ANDRES",
+          "modalidad": "Virtual",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MARTINEZ MORA MARCO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "D1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -303,8 +358,8 @@
           "profesor": "DUARTE NUÑEZ KAREN MELISSA",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -318,24 +373,24 @@
           "profesor": "FERRETO GUTIERREZ EUGENIA",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "FERRETO GUTIERREZ EUGENIA",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MAROTO CALVO OSCAR",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -349,8 +404,8 @@
           "profesor": "GUZMAN RIVERA DIEGO ANDRES",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -364,23 +419,8 @@
           "profesor": "LEANDRO ELIZONDO RONALD",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "D1",
-          "aula": "1"
-        }
-      ]
-    },
-    {
-      "codigo": "AE4548",
-      "nombre": "Creatividad e innovación empresarial",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "LEIVA BONILLA JUAN CARLOS",
-          "modalidad": "Virtual",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -394,24 +434,24 @@
           "profesor": "MARTINEZ GUTIERREZ BERNAL",
           "modalidad": "Regular",
           "horario": "MIE[16:00-18:50]",
-          "edificio": "B1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "PRADO ARROYO JOSE",
           "modalidad": "Regular",
           "horario": "JUE[07:30-10:20]",
-          "edificio": "B1",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "THAMES RAMIREZ KARLA",
           "modalidad": "Regular",
           "horario": "MAR[17:00-19:50]",
-          "edificio": "B1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -425,8 +465,8 @@
           "profesor": "MASIS ARCE ALEJANDRO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -440,31 +480,8 @@
           "profesor": "MASIS ARCE ALEJANDRO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "K2",
-          "aula": "5"
-        }
-      ]
-    },
-    {
-      "codigo": "AE2705",
-      "nombre": "Análisis y gestión de datos empresariales",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "ROJAS RODRIGUEZ GIOVANNY",
-          "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": "B1",
-          "aula": "10"
-        },
-        {
-          "grupo": 2,
-          "profesor": "VALERIN CASTRO ALEXANDER",
-          "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": "B1",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -478,8 +495,8 @@
           "profesor": "SANDOVAL VASQUEZ JOSE FULVIO",
           "modalidad": "Regular",
           "horario": "MIE[16:00-19:50]",
-          "edificio": "F5",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -493,8 +510,8 @@
           "profesor": "VALVERDE MASIS EDUARDO",
           "modalidad": "Regular",
           "horario": "SAB[13:00-15:50]",
-          "edificio": "B1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

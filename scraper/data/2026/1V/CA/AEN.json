@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "AEN",
+  "nombreEscuela": "ADMINISTRACION DE EMPRESAS NOCTURNA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "AE2311",
+      "nombre": "Macroeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "CHAVARRIA HIDALGO CARLOS",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-21:50] MAR[18:00-21:50] JUE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -13,11 +13,26 @@
       "grupos": [
         {
           "grupo": 1,
-          "profesor": "CHICAS ROMERO MAURICIO",
+          "profesor": "BARBOZA FALLAS LUIS",
           "modalidad": "Semipresencial",
-          "horario": "SAB[08:30-11:20] SAB[08:30-11:20] SAB[08:30-11:20]",
-          "edificio": "F5",
-          "aula": "5"
+          "horario": "SAB[08:30-11:20] SAB[08:30-11:20] SAB[08:30-11:20] SAB[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "BL1132",
+      "nombre": "Biotecnología ambiental para el desarrollo",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHICAS ROMERO MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "VIE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +46,8 @@
           "profesor": "MONTERO CAMPOS VIRGINIA",
           "modalidad": "Semipresencial",
           "horario": "VIE[18:00-20:50]",
-          "edificio": "F5",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +61,8 @@
           "profesor": "MONTERO CAMPOS VIRGINIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[18:00-20:50]",
-          "edificio": "F5",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +76,8 @@
           "profesor": "MONTERO CAMPOS VIRGINIA",
           "modalidad": "Semipresencial",
           "horario": "LUN[18:00-20:50]",
-          "edificio": "F4",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +91,8 @@
           "profesor": "TREJOS ESPINOZA RAUL",
           "modalidad": "Virtual",
           "horario": "MIE[18:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

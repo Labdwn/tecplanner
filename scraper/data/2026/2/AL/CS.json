@@ -13,11 +13,11 @@
       "grupos": [
         {
           "grupo": 20,
-          "profesor": "ACHOY HERNANDEZ ALEJANDRO",
+          "profesor": "CALDERON FERREY MARTHA",
           "modalidad": "Virtual",
           "horario": "LUN[18:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
           "horario": "LUN[07:00-09:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
           "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "PRENDAS SOLANO JORGE",
           "modalidad": "Virtual",
           "horario": "JUE[07:00-09:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "ROJAS MOLINA BETSY",
           "modalidad": "Virtual",
           "horario": "LUN[09:00-11:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

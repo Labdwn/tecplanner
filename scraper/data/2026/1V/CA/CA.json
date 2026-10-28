@@ -1,0 +1,109 @@
+{
+  "codigoEscuela": "CA",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTACION",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "IC7602",
+      "nombre": "Redes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CAMPOS ARAYA GERARDO NEREO",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CA2125",
+      "nombre": "Elementos de computación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CERDAS QUESADA IVANNIA",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "COTO SARMIENTO LAURA",
+          "modalidad": "Virtual",
+          "horario": "LUN[08:30-12:20] MAR[08:30-12:20] MIE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "VILLALOBOS ARIAS LUIS ROBERTO",
+          "modalidad": "Virtual",
+          "horario": "MAR[15:00-18:50] MIE[15:00-18:50] JUE[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CA3125",
+      "nombre": "Análisis y diseño de algoritmos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARRO ABARCA VICTOR",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50] SAB[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC3101",
+      "nombre": "Arquitectura de computadores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GATJENS SOTO KIRSTEIN",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC7841",
+      "nombre": "Proyecto de ingeniería de software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAZAR HERNANDEZ ALICIA",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-20:50] MIE[17:00-20:50] JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -16,8 +16,8 @@
           "profesor": "CHAVES ALVAREZ MARCELA MARIA",
           "modalidad": "Semipresencial",
           "horario": "LUN[16:10-17:55] MIE[16:10-17:55]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,16 +31,16 @@
           "profesor": "UREÑA SANDI NOEL",
           "modalidad": "Virtual",
           "horario": "MAR[07:55-11:30]",
-          "edificio": "LP",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "UREÑA SANDI NOEL",
           "modalidad": "Virtual",
           "horario": "JUE[07:55-11:30]",
-          "edificio": "LP",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

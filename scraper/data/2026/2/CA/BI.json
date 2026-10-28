@@ -16,8 +16,8 @@
           "profesor": "SOLERA STELLER PAOLA MARIA",
           "modalidad": "Regular",
           "horario": "MAR[08:30-11:20]",
-          "edificio": "F4",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,16 @@
           "profesor": "SOLERA STELLER PAOLA MARIA",
           "modalidad": "Laboratorio",
           "horario": "VIE[07:30-09:20]",
-          "edificio": "B4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SOLERA STELLER PAOLA MARIA",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     }

@@ -1,0 +1,70 @@
+{
+  "codigoEscuela": "CA",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTACION",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "IC6821",
+      "nombre": "Diseño de software",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CAMPOS FUENTES MARVIN",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] JUE[07:55-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC7900",
+      "nombre": "Computación y sociedad",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MENDEZ PORRAS ABEL",
+          "modalidad": "Virtual",
+          "horario": "LUN[13:25-16:55] MAR[13:25-16:55] MIE[13:25-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6831",
+      "nombre": "Aseguramiento de la calidad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ OVARES MARCO",
+          "modalidad": "Virtual",
+          "horario": "MAR[12:30-16:05] MIE[12:30-16:05] JUE[13:25-16:05] MAR[12:30-16:05] MIE[12:30-16:05] JUE[13:25-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8068",
+      "nombre": "Diseño de juegos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS VEGA DIEGO",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

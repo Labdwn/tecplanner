@@ -15,9 +15,9 @@
           "grupo": 50,
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-10:35]",
-          "edificio": "E",
-          "aula": "106"
+          "horario": "LUN[18:00-20:40]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
           "horario": "VIE[07:55-11:30]",
-          "edificio": "A",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "ALFARO RAMOS ALFREDO",
           "modalidad": "Regular",
           "horario": "JUE[07:55-11:30]",
-          "edificio": "A",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "BARRANTES BARRANTES EILYN",
           "modalidad": "Regular",
           "horario": "MIE[12:30-16:05]",
-          "edificio": "A",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "CORDOBA ARTAVIA OSCAR",
           "modalidad": "Regular",
           "horario": "JUE[12:30-16:05]",
-          "edificio": "A",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -90,9 +90,9 @@
           "grupo": 50,
           "profesor": "CORDOBA ARTAVIA OSCAR",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30] MAR[07:55-11:30]",
-          "edificio": "A",
-          "aula": "16"
+          "horario": "MAR[07:55-11:30]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +106,8 @@
           "profesor": "GUERRERO VARGAS LIGIA",
           "modalidad": "Regular",
           "horario": "MIE[07:55-11:30]",
-          "edificio": "A",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,8 +121,8 @@
           "profesor": "GUERRERO VARGAS LIGIA",
           "modalidad": "Regular",
           "horario": "MAR[12:30-16:05]",
-          "edificio": "A",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -136,8 +136,8 @@
           "profesor": "PEREZ OROZCO ALLAN JOSE",
           "modalidad": "Regular",
           "horario": "MAR[07:55-11:30]",
-          "edificio": "A",
-          "aula": "17"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -151,8 +151,8 @@
           "profesor": "PEREZ OROZCO ALLAN JOSE",
           "modalidad": "Regular",
           "horario": "JUE[12:30-16:05]",
-          "edificio": "A",
-          "aula": "17"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -166,8 +166,8 @@
           "profesor": "RODRIGUEZ BARQUERO  RONNY",
           "modalidad": "Regular",
           "horario": "MAR[12:30-16:05]",
-          "edificio": "A",
-          "aula": "17"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -181,8 +181,23 @@
           "profesor": "RODRIGUEZ BARQUERO  RONNY",
           "modalidad": "Regular",
           "horario": "JUE[12:30-16:05]",
-          "edificio": "A",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3551",
+      "nombre": "Administración de proyectos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ BARQUERO  RONNY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -196,8 +211,8 @@
           "profesor": "VILLEGAS ROJAS ALEXANDER",
           "modalidad": "Regular",
           "horario": "MIE[07:55-11:30]",
-          "edificio": "A",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -211,23 +226,8 @@
           "profesor": "VILLEGAS ROJAS ALEXANDER",
           "modalidad": "Regular",
           "horario": "MIE[12:30-16:05]",
-          "edificio": "A",
-          "aula": "17"
-        }
-      ]
-    },
-    {
-      "codigo": "AE3551",
-      "nombre": "Administración de proyectos",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 50,
-          "profesor": "VIQUEZ PANIAGUA ANA GABRIELA",
-          "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": "A",
-          "aula": "17"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

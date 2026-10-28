@@ -7,6 +7,37 @@
   "periodo": "2",
   "cursos": [
     {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALARCON ZAMORA SHIRLEY",
+          "modalidad": "Regular",
+          "horario": "JUE[08:50-11:30] JUE[08:50-11:30]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 52,
+          "profesor": "CAMPOS CHAVARRIA BENJAMIN",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:25-16:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 51,
+          "profesor": "MORA BENAVIDES BERENICE",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:05-19:45]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
       "codigo": "CS1308",
       "nombre": "Derecho comercial",
       "creditos": 2,
@@ -16,8 +47,8 @@
           "profesor": "ARIAS SOSA LUIS ALBAN",
           "modalidad": "Regular",
           "horario": "MAR[12:30-16:05]",
-          "edificio": "A",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +62,8 @@
           "profesor": "ARIAS SOSA LUIS ALBAN",
           "modalidad": "Regular",
           "horario": "JUE[07:00-09:40]",
-          "edificio": "A",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +77,8 @@
           "profesor": "ARIAS SOSA LUIS ALBAN",
           "modalidad": "Regular",
           "horario": "MAR[08:50-11:30]",
-          "edificio": "E",
-          "aula": "106"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +92,23 @@
           "profesor": "ARIAS SOSA LUIS ALBAN",
           "modalidad": "Regular",
           "horario": "JUE[12:30-16:05] JUE[12:30-16:05]",
-          "edificio": "A",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1106",
+      "nombre": "Comunicación escrita",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CAMACHO ARIAS ARIADNE",
+          "modalidad": "Regular",
+          "horario": "LUN[17:05-19:45] LUN[17:05-19:45]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,16 +122,16 @@
           "profesor": "CAMACHO ARIAS ARIADNE",
           "modalidad": "Virtual",
           "horario": "MIE[12:30-15:10]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "CAMACHO ARIAS ARIADNE",
           "modalidad": "Virtual",
           "horario": "MAR[12:30-15:10]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -99,8 +145,8 @@
           "profesor": "CAMPOS CHAVARRIA BENJAMIN",
           "modalidad": "Regular",
           "horario": "LUN[17:05-18:50]",
-          "edificio": "A",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -114,62 +160,16 @@
           "profesor": "CAMPOS CHAVARRIA BENJAMIN",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:25-16:05]",
-          "edificio": "A",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "JAEN ESPAÑA ADRIAN",
           "modalidad": "Semipresencial",
           "horario": "MIE[16:10-18:50]",
-          "edificio": "A",
-          "aula": "6"
-        }
-      ]
-    },
-    {
-      "codigo": "CS4402",
-      "nombre": "Seminario de estudios costarricenses",
-      "creditos": 2,
-      "grupos": [
-        {
-          "grupo": 52,
-          "profesor": "CAMPOS CHAVARRIA BENJAMIN",
-          "modalidad": "Virtual",
-          "horario": "JUE[13:25-16:05]",
-          "edificio": "ND",
-          "aula": "0"
-        },
-        {
-          "grupo": 50,
-          "profesor": "JAEN ESPAÑA ADRIAN",
-          "modalidad": "Regular",
-          "horario": "JUE[08:50-11:30]",
-          "edificio": "A",
-          "aula": "9"
-        },
-        {
-          "grupo": 51,
-          "profesor": "MORA BENAVIDES BERENICE",
-          "modalidad": "Virtual",
-          "horario": "MAR[17:05-19:45]",
-          "edificio": "ND",
-          "aula": "0"
-        }
-      ]
-    },
-    {
-      "codigo": "CI1106",
-      "nombre": "Comunicación escrita",
-      "creditos": 2,
-      "grupos": [
-        {
-          "grupo": 50,
-          "profesor": "CORELLA ESQUIVEL KARINA",
-          "modalidad": "Regular",
-          "horario": "LUN[17:05-19:45]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -183,72 +183,72 @@
           "profesor": "CORELLA ESQUIVEL KARINA",
           "modalidad": "Regular",
           "horario": "LUN[07:55-10:35]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "CORELLA ESQUIVEL KARINA",
           "modalidad": "Regular",
           "horario": "MAR[07:55-10:35]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 54,
           "profesor": "ROJAS MARIN ANGIE",
           "modalidad": "Regular",
           "horario": "MIE[07:55-10:35]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 56,
           "profesor": "ROJAS MARIN ANGIE",
           "modalidad": "Regular",
           "horario": "MIE[13:25-16:05]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 57,
           "profesor": "ROJAS MARIN ANGIE",
           "modalidad": "Regular",
           "horario": "MAR[17:05-19:45]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 58,
           "profesor": "ROJAS MARIN ANGIE",
           "modalidad": "Regular",
           "horario": "MAR[13:25-16:05]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 52,
           "profesor": "SALAS ACUÑA ERICK",
           "modalidad": "Regular",
           "horario": "JUE[08:50-11:30]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 53,
           "profesor": "SALAS ACUÑA ERICK",
           "modalidad": "Regular",
           "horario": "JUE[13:25-16:05]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 55,
           "profesor": "SALAS ACUÑA ERICK",
           "modalidad": "Regular",
           "horario": "VIE[08:50-11:30]",
-          "edificio": "E",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -262,40 +262,40 @@
           "profesor": "FLORES CALDERON ARDUI",
           "modalidad": "Regular",
           "horario": "MAR[08:50-11:30]",
-          "edificio": "A",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 53,
           "profesor": "FLORES CALDERON ARDUI",
           "modalidad": "Regular",
-          "horario": "MAR[16:10-18:50]",
-          "edificio": "A",
-          "aula": "6"
+          "horario": "MAR[16:10-18:50] MAR[16:10-18:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 54,
           "profesor": "HERNANDEZ ROMERO MIGUEL ANGEL",
           "modalidad": "Semipresencial",
           "horario": "JUE[08:50-11:30]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "PEREZ PEREZ MARLON",
           "modalidad": "Regular",
           "horario": "JUE[12:30-15:10]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 50,
           "profesor": "VILLEGAS SALAS SONIA",
           "modalidad": "Regular",
           "horario": "MAR[12:30-15:10]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -309,8 +309,8 @@
           "profesor": "FLORES CALDERON ARDUI",
           "modalidad": "Regular",
           "horario": "LUN[07:55-21:35]",
-          "edificio": "A",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -324,8 +324,8 @@
           "profesor": "GONZALEZ ZUÑIGA RODOLFO",
           "modalidad": "Regular",
           "horario": "MIE[08:50-11:30] MIE[08:50-11:30]",
-          "edificio": "A",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -339,8 +339,8 @@
           "profesor": "GONZALEZ ZUÑIGA RODOLFO",
           "modalidad": "Regular",
           "horario": "LUN[08:50-11:30]",
-          "edificio": "A",
-          "aula": "18"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -354,8 +354,8 @@
           "profesor": "GONZALEZ ZUÑIGA RODOLFO",
           "modalidad": "Regular",
           "horario": "MAR[08:50-11:30]",
-          "edificio": "A",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -369,32 +369,32 @@
           "profesor": "HERNANDEZ ROMERO MIGUEL ANGEL",
           "modalidad": "Regular",
           "horario": "JUE[12:30-15:10]",
-          "edificio": "A",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 53,
           "profesor": "HERNÁNDEZ SALAZAR GABRIELA",
-          "modalidad": "Regular",
+          "modalidad": "Semipresencial",
           "horario": "VIE[08:50-11:30]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 52,
           "profesor": "RAMIREZ LOPEZ MICHELLE",
           "modalidad": "Regular",
           "horario": "MIE[12:30-15:10]",
-          "edificio": "A",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 50,
           "profesor": "VILLEGAS SALAS SONIA",
           "modalidad": "Regular",
           "horario": "MIE[12:30-15:10]",
-          "edificio": "A",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -408,8 +408,8 @@
           "profesor": "HERNANDEZ ROMERO MIGUEL ANGEL",
           "modalidad": "Regular",
           "horario": "LUN[07:55-21:35]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -423,24 +423,24 @@
           "profesor": "HERNÁNDEZ SALAZAR GABRIELA",
           "modalidad": "Regular",
           "horario": "MIE[12:30-15:10]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "PEREZ PEREZ MARLON",
           "modalidad": "Regular",
           "horario": "MAR[16:10-18:50]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 50,
           "profesor": "VILLEGAS SALAS SONIA",
           "modalidad": "Regular",
           "horario": "MAR[08:50-11:30]",
-          "edificio": "A",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -454,8 +454,8 @@
           "profesor": "HERNÁNDEZ SALAZAR GABRIELA",
           "modalidad": "Regular",
           "horario": "LUN[07:55-21:35]",
-          "edificio": "A",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -469,8 +469,8 @@
           "profesor": "JAEN ESPAÑA ADRIAN",
           "modalidad": "Regular",
           "horario": "JUE[18:00-20:40]",
-          "edificio": "A",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -484,16 +484,16 @@
           "profesor": "PEREZ PEREZ MARLON",
           "modalidad": "Regular",
           "horario": "LUN[07:55-21:35]",
-          "edificio": "A",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 51,
           "profesor": "RAMIREZ LOPEZ MICHELLE",
           "modalidad": "Regular",
           "horario": "LUN[07:55-21:35]",
-          "edificio": "A",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

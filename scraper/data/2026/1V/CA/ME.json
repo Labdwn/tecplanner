@@ -1,0 +1,71 @@
+{
+  "codigoEscuela": "ME",
+  "nombreEscuela": "ESCUELA DE CIENCIA E ING. DE LOS MATERIALES",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "ME3208",
+      "nombre": "Tecnología de materiales",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CM3207",
+      "nombre": "Métodos numéricos para ingeniería",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHINE POLITO BRUNO",
+          "modalidad": "Virtual",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "QUESADA MARTINEZ ADRIAN",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:30-10:20] JUE[07:30-11:20] VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "ME3209",
+      "nombre": "Laboratorio de tecnología de materiales",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DITTEL MEZA FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "DITTEL MEZA FERNANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

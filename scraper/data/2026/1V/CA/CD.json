@@ -1,0 +1,85 @@
+{
+  "codigoEscuela": "CD",
+  "nombreEscuela": "ESCUELA DE CULTURA Y DEPORTE",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "SE1102",
+      "nombre": "Acción social",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BARRANTES ALVARADO IVAN",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-12:20] JUE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SE1222",
+      "nombre": "Futbol sala",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "JIMENEZ JIMENEZ DANIEL",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-15:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SE1105",
+      "nombre": "Artes musicales",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE PEREZ LUIS DIEGO",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-15:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SE1205",
+      "nombre": "Juegos y deportes en conjunto",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANCHEZ PEREZ LISBETH",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-11:20] MIE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SE1206",
+      "nombre": "Acondicionamiento físico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-11:20] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

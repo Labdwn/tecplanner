@@ -16,16 +16,16 @@
           "profesor": "ALVAREZ GRIJALBA WALTER",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "UTN",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 21,
           "profesor": "HERNANDEZ SIBAJA BRYAN",
           "modalidad": "Regular",
           "horario": "MIE[08:00-09:50] VIE[08:00-09:50]",
-          "edificio": "UTN",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,8 +39,8 @@
           "profesor": "ARIAS RODRIGUEZ CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[17:00-18:50] VIE[16:00-17:50]",
-          "edificio": "UTN",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -54,16 +54,16 @@
           "profesor": "BRENES BRENES JOSE ALEXANDER",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "UTN",
-          "aula": "201"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 21,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[07:00-08:50] JUE[07:00-08:50] MAR[07:00-08:50] JUE[07:00-08:50]",
-          "edificio": "UTN",
-          "aula": "312"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -77,16 +77,16 @@
           "profesor": "BRENES BRENES JOSE ALEXANDER",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "UTN",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 21,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[09:00-10:50] JUE[09:00-10:50]",
-          "edificio": "UTN",
-          "aula": "312"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -100,8 +100,8 @@
           "profesor": "CALDERON RAMIREZ SAUL",
           "modalidad": "Regular",
           "horario": "MIE[10:00-14:50]",
-          "edificio": "UTN",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -115,8 +115,8 @@
           "profesor": "FERNANDEZ DE CASTRO NATAN",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "LAT",
-          "aula": "322"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -130,8 +130,8 @@
           "profesor": "GUTIERREZ ALFARO JAIME",
           "modalidad": "Regular",
           "horario": "MAR[08:00-11:50]",
-          "edificio": "UTN",
-          "aula": "602"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -145,8 +145,8 @@
           "profesor": "GUTIERREZ ALFARO JAIME",
           "modalidad": "Regular",
           "horario": "JUE[08:00-11:50] JUE[08:00-11:50]",
-          "edificio": "UTN",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -160,8 +160,8 @@
           "profesor": "HERNANDEZ SIBAJA BRYAN",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "UTN",
-          "aula": "602"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -175,8 +175,8 @@
           "profesor": "LOPEZ VALERIO CYNTHIA",
           "modalidad": "Semipresencial",
           "horario": "JUE[09:00-12:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -190,8 +190,8 @@
           "profesor": "MENDEZ FLORES MANUEL",
           "modalidad": "Regular",
           "horario": "MIE[08:00-11:50]",
-          "edificio": "LAT",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -205,8 +205,8 @@
           "profesor": "MORA CROSS MARIA AUXILIADORA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "LAT",
-          "aula": "322"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -220,8 +220,8 @@
           "profesor": "MORA ROJAS RAQUEL FABIANA",
           "modalidad": "Regular",
           "horario": "MAR[09:00-10:50] JUE[09:00-10:50]",
-          "edificio": "UTN",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -235,8 +235,8 @@
           "profesor": "MORAGA GARCIA KEVIN",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "UTN",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -250,8 +250,8 @@
           "profesor": "MUNGUIA MOLINA DIEGO",
           "modalidad": "Regular",
           "horario": "LUN[08:00-11:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -265,8 +265,8 @@
           "profesor": "PEREZ GUTIERREZ FABIAN ANTONIO",
           "modalidad": "Regular",
           "horario": "MAR[08:00-11:50]",
-          "edificio": "LAT",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -280,8 +280,8 @@
           "profesor": "RAMIREZ JIMENEZ EDDY",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "UTN",
-          "aula": "603"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -295,8 +295,8 @@
           "profesor": "RAMIREZ JIMENEZ EDDY",
           "modalidad": "Regular",
           "horario": "MIE[09:00-10:50] VIE[09:00-10:50]",
-          "edificio": "UTN",
-          "aula": "603"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -310,8 +310,8 @@
           "profesor": "RAMIREZ JIMENEZ EDDY",
           "modalidad": "Regular",
           "horario": "MIE[07:00-08:50] VIE[07:00-08:50]",
-          "edificio": "UTN",
-          "aula": "603"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -325,8 +325,8 @@
           "profesor": "RAMIREZ JIMENEZ EDDY",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "UTN",
-          "aula": "603"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -340,8 +340,8 @@
           "profesor": "RAMIREZ SEGURA ROGER EMMANUEL",
           "modalidad": "Regular",
           "horario": "MAR[16:00-17:50] JUE[15:00-16:50]",
-          "edificio": "UTN",
-          "aula": "602"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -355,8 +355,8 @@
           "profesor": "SANCHEZ CORRALES JUAN MANUEL",
           "modalidad": "Regular",
           "horario": "LUN[07:00-08:50] MIE[07:00-08:50]",
-          "edificio": "UTN",
-          "aula": "602"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -370,8 +370,8 @@
           "profesor": "SANCHEZ HERRERA KERVIN",
           "modalidad": "Regular",
           "horario": "MIE[07:00-08:50] VIE[07:00-08:50]",
-          "edificio": "UTN",
-          "aula": "620"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -385,8 +385,8 @@
           "profesor": "SHUM CHAN ALBERTO",
           "modalidad": "Virtual",
           "horario": "MAR[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -400,8 +400,8 @@
           "profesor": "VIQUEZ VIQUEZ ANDRES",
           "modalidad": "Regular",
           "horario": "MIE[10:00-11:50] VIE[10:00-11:50]",
-          "edificio": "UTN",
-          "aula": "602"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

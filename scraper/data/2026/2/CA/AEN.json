@@ -16,8 +16,8 @@
           "profesor": "ARAYA LEANDRO ARNOLDO",
           "modalidad": "Semipresencial",
           "horario": "MIE[18:00-20:50]",
-          "edificio": "D1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "CERVANTES MEZA ALBERTO",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-21:50]",
-          "edificio": "D1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "CORDERO CASTILLO DAMARIS",
           "modalidad": "Semipresencial",
           "horario": "MAR[18:00-21:50]",
-          "edificio": "D1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "CORTES MIXTER JULIO",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "FERNANDEZ AGUILAR JADVY",
           "modalidad": "Semipresencial",
           "horario": "MAR[18:00-21:50]",
-          "edificio": "D3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +91,8 @@
           "profesor": "GONZALEZ ESPINOZA MANUEL",
           "modalidad": "Semipresencial",
           "horario": "MIE[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +106,8 @@
           "profesor": "GUZMAN RIVERA DIEGO ANDRES",
           "modalidad": "Semipresencial",
           "horario": "LUN[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,8 +121,8 @@
           "profesor": "JAUBERT SOLANO WILLIAM",
           "modalidad": "Semipresencial",
           "horario": "LUN[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -136,8 +136,8 @@
           "profesor": "MARTINEZ GUTIERREZ BERNAL",
           "modalidad": "Semipresencial",
           "horario": "LUN[18:00-21:50]",
-          "edificio": "D3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -151,8 +151,8 @@
           "profesor": "ORTIZ ACUÑA CINDY",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -166,8 +166,8 @@
           "profesor": "PEREZ GUTIERREZ ALEXANDER",
           "modalidad": "Regular",
           "horario": "MIE[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -181,8 +181,8 @@
           "profesor": "ROJAS SEGURA JAVIER",
           "modalidad": "Regular",
           "horario": "MAR[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -196,8 +196,8 @@
           "profesor": "RUIZ NAVARRO MARLON",
           "modalidad": "Semipresencial",
           "horario": "MAR[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -211,8 +211,8 @@
           "profesor": "SOJO CASTRO MARJORIE",
           "modalidad": "Semipresencial",
           "horario": "MIE[18:00-21:50]",
-          "edificio": "D3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -226,8 +226,8 @@
           "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
           "modalidad": "Semipresencial",
           "horario": "VIE[18:00-21:50]",
-          "edificio": "B1",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

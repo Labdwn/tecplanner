@@ -1,0 +1,145 @@
+{
+  "codigoEscuela": "EIC",
+  "nombreEscuela": "ESCUELA DE IDIOMAS Y CIENCIAS SOCIALES",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "CS4402",
+      "nombre": "Seminario de estudios costarricenses",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALARCON ZAMORA SHIRLEY",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:55-11:30] JUE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0255",
+      "nombre": "Alcances de la autonomía universitaria",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ALARCON ZAMORA SHIRLEY",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-19:40] MIE[17:00-19:40] JUE[17:00-19:40] VIE[17:00-19:40]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3401",
+      "nombre": "Seminario de estudios filosóficos históricos",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CAMPOS CHAVARRIA BENJAMIN",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:55-11:30] JUE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3406",
+      "nombre": "Seminario de ética para administración de empresas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GONZALEZ ZUÑIGA RODOLFO",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:55-10:35] JUE[07:55-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS2101",
+      "nombre": "Ambiente humano",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "JAEN ESPAÑA ADRIAN",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:55-11:30] JUE[07:55-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0117",
+      "nombre": "Literatura fantástica: Tolkien y el señor de los anillos",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "JAEN ESPAÑA ADRIAN",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-19:40] MIE[17:00-19:40] JUE[17:00-19:40] VIE[17:00-19:40]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CS3404",
+      "nombre": "Seminario de ética para la ingeniería",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MORA BENAVIDES BERENICE",
+          "modalidad": "Virtual",
+          "horario": "MAR[12:30-16:05] VIE[12:30-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0274",
+      "nombre": "Estoicismo: ¿una filosofía para el presente?",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MORA BENAVIDES BERENICE",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-19:40] MIE[17:00-19:40] JUE[17:00-19:40] VIE[17:00-19:40]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0191",
+      "nombre": "Introducción al pensamiento critico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "SALAS ACUÑA ERICK",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:00-19:40] MIE[17:00-19:40] JUE[17:00-19:40] VIE[17:00-19:40]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

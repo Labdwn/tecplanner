@@ -16,8 +16,31 @@
           "profesor": "CHAVES SALAS LEONEL ROLANDO",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "UTN",
-          "aula": "601"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA0101",
+      "nombre": "Matemática general",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 90,
+          "profesor": "GARCIA DELGADO PAULO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-09:50] JUE[07:00-08:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 91,
+          "profesor": "RODRIGUEZ BUSTOS KENDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-09:50] JUE[07:00-08:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,23 +54,8 @@
           "profesor": "GARCIA DELGADO PAULO",
           "modalidad": "Regular",
           "horario": "MAR[16:00-17:50] JUE[16:00-17:50]",
-          "edificio": "UTN",
-          "aula": "619"
-        }
-      ]
-    },
-    {
-      "codigo": "MA2105",
-      "nombre": "Ecuaciones diferenciales",
-      "creditos": 4,
-      "grupos": [
-        {
-          "grupo": 90,
-          "profesor": "GARCIA DELGADO PAULO",
-          "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "UTN",
-          "aula": "601"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,31 +69,8 @@
           "profesor": "OVIEDO UGALDE NORBERTO",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "UTN",
-          "aula": "601"
-        }
-      ]
-    },
-    {
-      "codigo": "MA0101",
-      "nombre": "Matemática general",
-      "creditos": 2,
-      "grupos": [
-        {
-          "grupo": 90,
-          "profesor": "PRENDAS ROJAS JUAN PABLO",
-          "modalidad": "Regular",
-          "horario": "MAR[07:00-09:50] JUE[07:00-08:50]",
-          "edificio": "UTN",
-          "aula": "601"
-        },
-        {
-          "grupo": 91,
-          "profesor": "RODRIGUEZ BUSTOS KENDALL",
-          "modalidad": "Regular",
-          "horario": "MAR[07:00-09:50] JUE[07:00-08:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -99,8 +84,8 @@
           "profesor": "PRENDAS ROJAS JUAN PABLO",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "UTN",
-          "aula": "620"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -114,16 +99,16 @@
           "profesor": "RAMIREZ BOGANTES MELVIN",
           "modalidad": "Regular",
           "horario": "MAR[10:00-11:50] JUE[09:00-11:50]",
-          "edificio": "UTN",
-          "aula": "601"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 91,
           "profesor": "RAMIREZ BOGANTES MELVIN",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50] JUE[13:00-14:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -137,8 +122,8 @@
           "profesor": "RODRIGUEZ BUSTOS KENDALL",
           "modalidad": "Regular",
           "horario": "MIE[09:00-10:50] VIE[09:00-10:50]",
-          "edificio": "UTN",
-          "aula": "601"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

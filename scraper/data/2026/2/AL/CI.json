@@ -16,8 +16,8 @@
           "profesor": "GODINEZ ROJAS PAULETTE",
           "modalidad": "Regular",
           "horario": "VIE[09:00-11:50]",
-          "edificio": "UTN",
-          "aula": "620"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "GODINEZ ROJAS PAULETTE",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "GUILLEN JIMENEZ LUIS DIEGO",
           "modalidad": "Regular",
           "horario": "LUN[09:00-11:50]",
-          "edificio": "UTN",
-          "aula": "601"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "RIVERA VEGA KATERINE",
           "modalidad": "Regular",
           "horario": "MIE[09:00-11:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

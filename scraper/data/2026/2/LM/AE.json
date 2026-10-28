@@ -16,8 +16,8 @@
           "profesor": "ALLEN MAITLAND KENDRALL",
           "modalidad": "Semipresencial",
           "horario": "LUN[18:00-21:50]",
-          "edificio": "L",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "BINNS HERNANDEZ HENRY ALBERTO",
           "modalidad": "Semipresencial",
           "horario": "LUN[18:00-21:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "BROWN RICHARDS ENOS",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-21:50]",
-          "edificio": "L",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "DE LA O TORRES MARVIN",
           "modalidad": "Semipresencial",
           "horario": "MAR[18:00-21:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "FLETES GALAN WILBERTH",
           "modalidad": "Semipresencial",
           "horario": "VIE[18:00-21:50]",
-          "edificio": "L",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +91,8 @@
           "profesor": "GARITA ALPIZAR PABLO",
           "modalidad": "Semipresencial",
           "horario": "MIE[18:00-21:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +106,8 @@
           "profesor": "GARITA ALPIZAR PABLO",
           "modalidad": "Semipresencial",
           "horario": "VIE[18:00-21:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,8 +121,8 @@
           "profesor": "GARITA ALPIZAR PABLO",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-21:50]",
-          "edificio": "L",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -136,8 +136,8 @@
           "profesor": "JOSE ZAMORA JIMENEZ",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-21:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -151,8 +151,8 @@
           "profesor": "JOSE ZAMORA JIMENEZ",
           "modalidad": "Semipresencial",
           "horario": "VIE[18:00-20:50]",
-          "edificio": "L",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -166,8 +166,8 @@
           "profesor": "PIEDRA NAVARRO DAYHANA",
           "modalidad": "Semipresencial",
           "horario": "MAR[18:00-21:50]",
-          "edificio": "L",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -181,8 +181,38 @@
           "profesor": "PIEDRA NAVARRO DAYHANA",
           "modalidad": "Semipresencial",
           "horario": "LUN[18:00-21:50]",
-          "edificio": "L",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE2308",
+      "nombre": "Microeconomía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE3312",
+      "nombre": "Negocios internacionales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:00-21:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -196,8 +226,8 @@
           "profesor": "WYNTA BANTON RANDY YADIR",
           "modalidad": "Semipresencial",
           "horario": "MIE[18:00-21:50]",
-          "edificio": "L",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

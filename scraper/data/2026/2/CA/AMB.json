@@ -16,8 +16,8 @@
           "profesor": "ACUÑA PIEDRA ANDREA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50] MAR[13:00-16:50]",
-          "edificio": "D3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "ARAYA VARELA KAREN",
           "modalidad": "Virtual",
           "horario": "MAR[18:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "ARIAS MONGE ESTEBAN DAVID",
           "modalidad": "Semipresencial",
           "horario": "LUN[09:30-12:20]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "BARRIOS HERNANDEZ MARYLUZ",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "CABALLERO CHAVARRIA ANDREY",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50] JUE[13:00-15:50]",
-          "edificio": "G17",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +91,8 @@
           "profesor": "CABALLERO CHAVARRIA ANDREY",
           "modalidad": "Regular",
           "horario": "MIE[09:30-12:20] MIE[09:30-12:20]",
-          "edificio": "G17",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +106,8 @@
           "profesor": "CAMPOS NAVARRO JUAN PABLO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50] MIE[13:00-15:50]",
-          "edificio": "G17",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,8 +121,16 @@
           "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "F5",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
+          "modalidad": "Virtual",
+          "horario": "SAB[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -136,8 +144,8 @@
           "profesor": "HERNANDEZ PARRA DAVID",
           "modalidad": "Regular",
           "horario": "MIE[16:00-18:50]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -151,8 +159,8 @@
           "profesor": "HERNANDEZ TORRES HAZEL MARIA",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-19:50]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -166,8 +174,8 @@
           "profesor": "MASIS MELENDEZ FEDERICO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -181,8 +189,8 @@
           "profesor": "MONTERO CAMPOS VIRGINIA",
           "modalidad": "Virtual",
           "horario": "LUN[09:30-12:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -196,8 +204,8 @@
           "profesor": "PICADO VALVERDE SOFIA",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-20:50]",
-          "edificio": "G17",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -211,8 +219,8 @@
           "profesor": "PINO GOMEZ MACARIO",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-09:20] SAB[07:30-08:20]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -226,8 +234,8 @@
           "profesor": "PINO GOMEZ MACARIO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -241,8 +249,8 @@
           "profesor": "QUESADA CARVAJAL LAURA",
           "modalidad": "Semipresencial",
           "horario": "SAB[07:30-11:20]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -256,8 +264,8 @@
           "profesor": "ROMERO BLANCO ERIC",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "G17",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -271,8 +279,8 @@
           "profesor": "ROMERO BLANCO ERIC",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "G17",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -286,8 +294,8 @@
           "profesor": "SOTO MONTOYA CASIA",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "G17",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -301,8 +309,8 @@
           "profesor": "STARBIRD PEREZ RICARDO",
           "modalidad": "Regular",
           "horario": "MIE[09:30-12:20]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -316,8 +324,8 @@
           "profesor": "UMAÑA QUIROS BRAULIO",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "I6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -331,8 +339,8 @@
           "profesor": "VALERIO PEREZ LUIS GUILLERMO",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "G17",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -346,8 +354,8 @@
           "profesor": "VALERIO PEREZ LUIS GUILLERMO",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-08:20] JUE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

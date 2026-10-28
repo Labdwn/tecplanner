@@ -16,40 +16,48 @@
           "profesor": "BARRANTES ALVARADO IVAN",
           "modalidad": "Regular",
           "horario": "LUN[18:00-19:50]",
-          "edificio": "B5",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "BARRANTES ALVARADO IVAN",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "VALERIN ROJAS SOFIA",
           "modalidad": "Virtual",
           "horario": "LUN[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "VALERIN ROJAS SOFIA",
           "modalidad": "Virtual",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "VALERIN ROJAS SOFIA",
           "modalidad": "Virtual",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "VALERIN ROJAS SOFIA",
           "modalidad": "Virtual",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -63,72 +71,72 @@
           "profesor": "BOGANTES GARCIA FERNANDO",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "LOAIZA SOTO BIERY",
           "modalidad": "Regular",
           "horario": "LUN[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "LOAIZA SOTO BIERY",
           "modalidad": "Regular",
           "horario": "LUN[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "LOAIZA SOTO BIERY",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "MENDEZ SOLANO MIGUEL",
           "modalidad": "Regular",
           "horario": "JUE[17:00-18:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "SANCHEZ PEREZ LISBETH",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "SANCHEZ PEREZ LISBETH",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "SANCHEZ PEREZ LISBETH",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "SANCHEZ PEREZ LISBETH",
           "modalidad": "Regular",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -142,56 +150,56 @@
           "profesor": "CABRERA ARAYA GUSTAVO ALCIDES",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "LOAIZA SOTO BIERY",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MENDEZ GAMBOA ROSAURA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "QUIROS VALVERDE RODRIGO",
           "modalidad": "Regular",
           "horario": "LUN[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "QUIROS VALVERDE RODRIGO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "QUIROS VALVERDE RODRIGO",
           "modalidad": "Regular",
           "horario": "JUE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "VEGA AGUERO JORGE",
           "modalidad": "Regular",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -205,16 +213,16 @@
           "profesor": "CABRERA ARAYA GUSTAVO ALCIDES",
           "modalidad": "Regular",
           "horario": "LUN[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MARIN VARGAS FABIAN",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -228,64 +236,79 @@
           "profesor": "CASTILLO ULATE ELENA",
           "modalidad": "Regular",
           "horario": "LUN[07:30-09:20]",
-          "edificio": "B5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "CASTILLO ULATE ELENA",
           "modalidad": "Regular",
           "horario": "VIE[13:00-14:50]",
-          "edificio": "B5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "MEZA SOLANO VINICIO",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50]",
-          "edificio": "B5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "MEZA SOLANO VINICIO",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50]",
-          "edificio": "B5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "MEZA SOLANO VINICIO",
           "modalidad": "Regular",
           "horario": "JUE[15:00-16:50]",
-          "edificio": "B5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MONGE PEREZ LUIS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "B5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MONGE PEREZ LUIS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "B5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "MONGE PEREZ LUIS DIEGO",
           "modalidad": "Regular",
           "horario": "JUE[18:00-19:50]",
-          "edificio": "B5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SE1218",
+      "nombre": "Ajedrez",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CORDERO MAROTO NELSON",
+          "modalidad": "Virtual",
+          "horario": "MAR[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -299,32 +322,32 @@
           "profesor": "COTO GUZMAN ALICIA",
           "modalidad": "Regular",
           "horario": "VIE[09:30-11:20]",
-          "edificio": "B5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "DIAZ BRENES NELSON",
           "modalidad": "Regular",
           "horario": "LUN[17:00-18:50]",
-          "edificio": "B5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "DIAZ BRENES NELSON",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50]",
-          "edificio": "B5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "DIAZ BRENES NELSON",
           "modalidad": "Regular",
           "horario": "MIE[17:00-18:50]",
-          "edificio": "B5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -338,16 +361,24 @@
           "profesor": "COTO GUZMAN ALICIA",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "B5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "COTO GUZMAN ALICIA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "DIAZ BRENES NELSON",
           "modalidad": "Regular",
           "horario": "VIE[13:00-14:50]",
-          "edificio": "B5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -361,24 +392,24 @@
           "profesor": "DE SIMONE CASTELLON ALEXANDRA",
           "modalidad": "Regular",
           "horario": "LUN[09:30-11:20]",
-          "edificio": "B5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GOMEZ JIMENEZ ANDREA",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50]",
-          "edificio": "B5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GOMEZ JIMENEZ ANDREA",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "B5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -392,8 +423,8 @@
           "profesor": "JIMENEZ JIMENEZ DANIEL",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -407,16 +438,16 @@
           "profesor": "LORIA SOLANO JOHNNY",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "LORIA SOLANO JOHNNY",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -430,32 +461,48 @@
           "profesor": "LORIA SOLANO JOHNNY",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MENDEZ GAMBOA ROSAURA",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ORTEGA ARTAVIA JHONNY",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 6,
+          "profesor": "TRAVIESO RODRIGUEZ ALBERTO",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "VEGA AGUERO JORGE",
           "modalidad": "Regular",
           "horario": "VIE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "VEGA AGUERO JORGE",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-09:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -469,32 +516,32 @@
           "profesor": "MENDEZ SOLANO MIGUEL",
           "modalidad": "Regular",
           "horario": "LUN[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MENDEZ SOLANO MIGUEL",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VEGA AGUERO JORGE",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "VEGA AGUERO JORGE",
           "modalidad": "Regular",
           "horario": "VIE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -508,16 +555,16 @@
           "profesor": "ORTEGA ARTAVIA JHONNY",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ORTEGA ARTAVIA JHONNY",
           "modalidad": "Regular",
           "horario": "VIE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -531,8 +578,8 @@
           "profesor": "QUESADA VILLALOBOS JORGE",
           "modalidad": "Regular",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "B5",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -546,8 +593,8 @@
           "profesor": "RAMOS VARGAS ARNOLDO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "B5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -561,8 +608,16 @@
           "profesor": "SANCHO MARTINEZ LAURA KARINA",
           "modalidad": "Virtual",
           "horario": "LUN[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SANCHO MARTINEZ LAURA KARINA",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     }

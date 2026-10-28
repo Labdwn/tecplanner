@@ -16,24 +16,32 @@
           "profesor": "ARAYA RODRIGUEZ LISANDRO",
           "modalidad": "Laboratorio",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "D10",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "GOMEZ RAMIREZ GUSTAVO",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GUERRERO  CASTRO OSVALDO",
           "modalidad": "Laboratorio",
           "horario": "JUE[07:30-09:20]",
-          "edificio": "D10",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GUERRERO  CASTRO OSVALDO",
           "modalidad": "Laboratorio",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "D10",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -47,8 +55,16 @@
           "profesor": "ARAYA RODRIGUEZ LISANDRO",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "D10",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ROJAS HERNANDEZ JUAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -62,8 +78,16 @@
           "profesor": "ARAYA RODRIGUEZ LISANDRO",
           "modalidad": "Semipresencial",
           "horario": "JUE[08:30-11:20]",
-          "edificio": "D10",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ARAYA RODRIGUEZ LISANDRO",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-19:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -77,24 +101,16 @@
           "profesor": "ARIAS CARTIN JUAN PABLO",
           "modalidad": "Laboratorio",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "D10",
-          "aula": "6"
-        },
-        {
-          "grupo": 2,
-          "profesor": "ARIAS CARTIN JUAN PABLO",
-          "modalidad": "Laboratorio",
-          "horario": "MIE[07:30-09:20]",
-          "edificio": "D10",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "ARIAS CARTIN JUAN PABLO",
           "modalidad": "Laboratorio",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "D10",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -108,8 +124,8 @@
           "profesor": "BARAHONA GUZMAN GREIVIN",
           "modalidad": "Semipresencial",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "21"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -123,80 +139,96 @@
           "profesor": "BERMUDEZ CHACON MARVIN",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "24"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "BONILLA GUIDO FRANCISCO",
           "modalidad": "Regular",
           "horario": "LUN[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "23"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 11,
+          "profesor": "BONILLA GUIDO FRANCISCO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "CORDOBA RAMIREZ LUIS FELIPE",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "23"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "HERNANDEZ GONZALEZ VICTOR JULIO",
           "modalidad": "Regular",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "24"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "HERNANDEZ GONZALEZ VICTOR JULIO",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "23"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 10,
           "profesor": "JACKSON QUIROS HERBERT",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "24"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "JIMENEZ CECILIANO MAXIMINO",
           "modalidad": "Regular",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "23"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "MARIN GUILLEN FRANK",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "23"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "MARIN GUILLEN FRANK",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "23"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 12,
+          "profesor": "ROJAS GOMEZ JULIO CESAR",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "UREÑA SANDI NOEL",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "23"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -210,16 +242,16 @@
           "profesor": "BERMUDEZ CHACON MARVIN",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "DEL VALLE GRANADOS IGNACIO",
           "modalidad": "Semipresencial",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -233,48 +265,48 @@
           "profesor": "BONILLA GUIDO FRANCISCO",
           "modalidad": "Laboratorio",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D11",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "CORDOBA RAMIREZ LUIS FELIPE",
           "modalidad": "Laboratorio",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "D11",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "CORDOBA RAMIREZ LUIS FELIPE",
           "modalidad": "Laboratorio",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D11",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MARIN GUILLEN FRANK",
           "modalidad": "Laboratorio",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D11",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MARIN GUILLEN FRANK",
           "modalidad": "Laboratorio",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "D11",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ROJAS GOMEZ JULIO CESAR",
           "modalidad": "Laboratorio",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D11",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -288,16 +320,16 @@
           "profesor": "CORDOBA RAMIREZ LUIS FELIPE",
           "modalidad": "Semipresencial",
           "horario": "LUN[08:30-11:20]",
-          "edificio": "D10",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MARIN GUILLEN FRANK",
           "modalidad": "Semipresencial",
           "horario": "LUN[08:30-11:20]",
-          "edificio": "D10",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -311,8 +343,8 @@
           "profesor": "DEL VALLE GRANADOS IGNACIO",
           "modalidad": "Semipresencial",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "27"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -326,8 +358,8 @@
           "profesor": "DEL VALLE GRANADOS IGNACIO",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "21"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -341,8 +373,8 @@
           "profesor": "GARRO ZAVALETA JOSE ALBERTO",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "D10",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -356,24 +388,24 @@
           "profesor": "GARRO ZAVALETA JOSE ALBERTO",
           "modalidad": "Laboratorio",
           "horario": "JUE[07:30-09:20]",
-          "edificio": "D10",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GARRO ZAVALETA JOSE ALBERTO",
           "modalidad": "Laboratorio",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "D10",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GARRO ZAVALETA JOSE ALBERTO",
           "modalidad": "Laboratorio",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "D10",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -387,8 +419,8 @@
           "profesor": "GARRO ZAVALETA JOSE ALBERTO",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -402,24 +434,24 @@
           "profesor": "GOMEZ GUTIERREZ LUIS",
           "modalidad": "Laboratorio",
           "horario": "JUE[07:30-09:20]",
-          "edificio": "D10",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MURILLO SOTO LUIS DIEGO",
           "modalidad": "Laboratorio",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "D10",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "ROJAS HERNANDEZ JUAN JOSE",
           "modalidad": "Laboratorio",
           "horario": "VIE[09:30-11:20]",
-          "edificio": "D10",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -433,39 +465,8 @@
           "profesor": "GOMEZ GUTIERREZ LUIS",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "1"
-        }
-      ]
-    },
-    {
-      "codigo": "MI2204",
-      "nombre": "Laboratorio de electricidad II",
-      "creditos": 1,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "GOMEZ RAMIREZ GUSTAVO",
-          "modalidad": "Laboratorio",
-          "horario": "VIE[07:30-09:20]",
-          "edificio": "D10",
-          "aula": "10"
-        },
-        {
-          "grupo": 2,
-          "profesor": "VAQUERANO PINEDA NICOLAS",
-          "modalidad": "Laboratorio",
-          "horario": "VIE[09:30-11:20]",
-          "edificio": "D10",
-          "aula": "10"
-        },
-        {
-          "grupo": 3,
-          "profesor": "VAQUERANO PINEDA NICOLAS",
-          "modalidad": "Laboratorio",
-          "horario": "VIE[13:00-14:50]",
-          "edificio": "D10",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -479,24 +480,24 @@
           "profesor": "GUERRERO  CASTRO OSVALDO",
           "modalidad": "Laboratorio",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "D10",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GUERRERO  CASTRO OSVALDO",
           "modalidad": "Laboratorio",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "D10",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GUERRERO  CASTRO OSVALDO",
           "modalidad": "Laboratorio",
           "horario": "JUE[15:00-16:50]",
-          "edificio": "D10",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -510,8 +511,8 @@
           "profesor": "GUERRERO  CASTRO OSVALDO",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "27"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -525,64 +526,64 @@
           "profesor": "GUERRERO FERNANDEZ JUAN LUIS",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MATA COTO MANUEL",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "27"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "MATA COTO MANUEL",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "MONTERO JIMENEZ JUAN JOSE",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MORERA HIDALGO JULIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "MORERA HIDALGO JULIO",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "SALAS MOYA LAURA",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "27"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "VEGA SANCHEZ CHRISTOPHER",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -596,16 +597,16 @@
           "profesor": "GUZMAN CONEJO JOSHUA",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MONGE RUIZ OSCAR EDUARDO",
           "modalidad": "Virtual",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -619,32 +620,40 @@
           "profesor": "HERNANDEZ GONZALEZ VICTOR JULIO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "23"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "HERNANDEZ GONZALEZ VICTOR JULIO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "24"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ROJAS GOMEZ JULIO CESAR",
+          "modalidad": "Regular",
+          "horario": "LUN[17:00-20:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "SALAS MOYA LAURA",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "24"
+          "edificio": null,
+          "aula": null
         },
         {
-          "grupo": 2,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "LUN[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "24"
+          "grupo": 5,
+          "profesor": "UREÑA SANDI NOEL",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -658,32 +667,32 @@
           "profesor": "MATA COTO MANUEL",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "27"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "MATA COTO MANUEL",
           "modalidad": "Regular",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "27"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MORERA HIDALGO JULIO",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "27"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "UREÑA SANDI NOEL",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -697,8 +706,8 @@
           "profesor": "MATA ORTEGA SEBASTIAN",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "21"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -712,8 +721,8 @@
           "profesor": "MATA ORTEGA SEBASTIAN",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "21"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -727,8 +736,8 @@
           "profesor": "MATARRITA CHAVES ROSA MARIA",
           "modalidad": "Regular",
           "horario": "JUE[17:00-19:50]",
-          "edificio": "D10",
-          "aula": "25"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -742,24 +751,16 @@
           "profesor": "MONGE RUIZ OSCAR EDUARDO",
           "modalidad": "Laboratorio",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "D10",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MONGE RUIZ OSCAR EDUARDO",
           "modalidad": "Laboratorio",
           "horario": "JUE[15:00-16:50]",
-          "edificio": "D10",
-          "aula": "6"
-        },
-        {
-          "grupo": 3,
-          "profesor": "MONGE RUIZ OSCAR EDUARDO",
-          "modalidad": "Laboratorio",
-          "horario": "VIE[13:00-14:50]",
-          "edificio": "D10",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -773,8 +774,8 @@
           "profesor": "MONGE RUIZ OSCAR EDUARDO",
           "modalidad": "Semipresencial",
           "horario": "JUE[09:30-12:20] VIE[07:30-09:20]",
-          "edificio": "D10",
-          "aula": "20"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -788,24 +789,24 @@
           "profesor": "MONTERO JIMENEZ JUAN JOSE",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "OTAROLA ZUÑIGA CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "RICHMOND NAVARRO GUSTAVO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -819,24 +820,24 @@
           "profesor": "MORERA HIDALGO JULIO",
           "modalidad": "Semipresencial",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SALAS MOYA LAURA",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "16"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "VEGA SANCHEZ CHRISTOPHER",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -850,8 +851,8 @@
           "profesor": "MUÑOZ CHACON LUIS CARLOS",
           "modalidad": "Semipresencial",
           "horario": "VIE[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "22"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -865,8 +866,8 @@
           "profesor": "MURILLO SOTO LUIS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "D10",
-          "aula": "21"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -880,8 +881,8 @@
           "profesor": "OTAROLA ZUÑIGA CARLOS",
           "modalidad": "Semipresencial",
           "horario": "LUN[08:30-11:20] MAR[09:30-11:20]",
-          "edificio": "D3",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -895,8 +896,8 @@
           "profesor": "PIEDRA SANTAMARIA CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[07:30-10:20]",
-          "edificio": "D10",
-          "aula": "21"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -910,23 +911,31 @@
           "profesor": "PIEDRA SANTAMARIA CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
     {
-      "codigo": "MI5151",
-      "nombre": "Diseño mecánico",
-      "creditos": 4,
+      "codigo": "MI2204",
+      "nombre": "Laboratorio de electricidad II",
+      "creditos": 1,
       "grupos": [
         {
-          "grupo": 1,
-          "profesor": "UREÑA SANDI NOEL",
-          "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "20"
+          "grupo": 2,
+          "profesor": "VAQUERANO PINEDA NICOLAS",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "VAQUERANO PINEDA NICOLAS",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -940,8 +949,8 @@
           "profesor": "VAQUERANO PINEDA NICOLAS",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "27"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -955,8 +964,8 @@
           "profesor": "VAQUERANO PINEDA NICOLAS",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

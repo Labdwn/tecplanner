@@ -16,16 +16,16 @@
           "profesor": "ABREGO CAMPOS LEONEL",
           "modalidad": "Regular",
           "horario": "LUN[17:30-21:05]",
-          "edificio": "J01",
-          "aula": "403"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 41,
           "profesor": "MORA CRUZ ALEXANDRA",
           "modalidad": "Regular",
           "horario": "VIE[13:00-16:50]",
-          "edificio": "J01",
-          "aula": "403"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,16 +39,16 @@
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "J01",
-          "aula": "403"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 40,
           "profesor": "BARBOZA DIAZ LINO",
           "modalidad": "Regular",
           "horario": "MAR[17:30-21:05]",
-          "edificio": "J01",
-          "aula": "403"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -62,8 +62,8 @@
           "profesor": "ARAYA LEANDRO ARNOLDO",
           "modalidad": "Regular",
           "horario": "LUN[17:30-20:15]",
-          "edificio": "J06",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -77,16 +77,16 @@
           "profesor": "BARBOZA DIAZ LINO",
           "modalidad": "Regular",
           "horario": "LUN[17:30-21:05]",
-          "edificio": "J06",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 41,
-          "profesor": "CERVANTES MEZA ALBERTO",
+          "profesor": "CARAZO AGUIRRE LUIS ALBERTO",
           "modalidad": "Regular",
           "horario": "LUN[13:00-16:50]",
-          "edificio": "J06",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -100,16 +100,16 @@
           "profesor": "CERVANTES MEZA ALBERTO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "J06",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 40,
           "profesor": "SOLANO MARTINEZ MAURICIO",
           "modalidad": "Regular",
           "horario": "MAR[17:30-21:05]",
-          "edificio": "J06",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -123,8 +123,8 @@
           "profesor": "CHAVARRIA HIDALGO CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[17:30-21:05]",
-          "edificio": "J01",
-          "aula": "202"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -138,8 +138,8 @@
           "profesor": "DIAZ GUTIERREZ CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[17:30-21:05]",
-          "edificio": "J01",
-          "aula": "202"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -153,16 +153,16 @@
           "profesor": "FAITH VARGAS MARGIE",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "J01",
-          "aula": "203"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 40,
           "profesor": "ROJAS SEGURA JAVIER",
           "modalidad": "Regular",
           "horario": "JUE[17:30-21:05]",
-          "edificio": "J01",
-          "aula": "203"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -176,8 +176,8 @@
           "profesor": "FAITH VARGAS MARGIE",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "J01",
-          "aula": "401"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -191,16 +191,31 @@
           "profesor": "FERNANDEZ AGUILAR JADVY",
           "modalidad": "Regular",
           "horario": "JUE[17:30-21:05]",
-          "edificio": "J06",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 41,
           "profesor": "MAROTO CALVO OSCAR",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "J06",
-          "aula": "104"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4603",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 10,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "FERNANDEZ AGUILAR JADVY",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:30-21:05]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -214,8 +229,8 @@
           "profesor": "GUILLEN MIRANDA ERICK",
           "modalidad": "Regular",
           "horario": "VIE[17:30-21:05]",
-          "edificio": "J01",
-          "aula": "203"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -229,16 +244,16 @@
           "profesor": "MAROTO CALVO OSCAR",
           "modalidad": "Regular",
           "horario": "LUN[13:00-16:50]",
-          "edificio": "J06",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 40,
           "profesor": "MONGE DAVANZO YAFANNY",
           "modalidad": "Regular",
           "horario": "MAR[17:30-21:05]",
-          "edificio": "J06",
-          "aula": "201"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -252,16 +267,16 @@
           "profesor": "NAVARRO CERDAS GUSTAVO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "J01",
-          "aula": "403"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 40,
           "profesor": "TENORIO SANCHEZ ANA PATRICIA",
           "modalidad": "Regular",
           "horario": "MIE[17:30-21:05]",
-          "edificio": "J01",
-          "aula": "403"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -275,8 +290,8 @@
           "profesor": "ROJAS ESQUIVEL ARMANDO",
           "modalidad": "Regular",
           "horario": "LUN[17:30-21:05]",
-          "edificio": "J06",
-          "aula": "104"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -290,8 +305,8 @@
           "profesor": "SOLIS RAMIREZ INGRID",
           "modalidad": "Regular",
           "horario": "JUE[17:30-21:05]",
-          "edificio": "J01",
-          "aula": "202"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

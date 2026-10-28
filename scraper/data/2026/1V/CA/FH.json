@@ -1,0 +1,220 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "FH0262",
+      "nombre": "Vulnerabilidad: personas mayores, envejecimiento y final de la vida",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "AMADOR SOLANO GABRIELA",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0227",
+      "nombre": "Estado o mercado: el origen de la discusión ideológica",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BOJORGE MURILLO ALEXANDER",
+          "modalidad": "Virtual",
+          "horario": "MIE[16:00-19:50] JUE[16:00-19:50] VIE[16:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0272",
+      "nombre": "Manifestaciones del racismo en Costa Rica",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CAMPOS CHAVARRIA BENJAMIN",
+          "modalidad": "Virtual",
+          "horario": "MIE[16:00-19:50] JUE[16:00-19:50] VIE[16:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0223",
+      "nombre": "El erotismo en la literatura: un análisis de \"cuentos sucios\" y otros relatos",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FUENTES MORA ESTEBAN",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0251",
+      "nombre": "El universo de Star Wars: entre la ciencia ficción, la política y la mitología",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARRO REYES MAURICIO",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-19:50] JUE[17:00-19:50] VIE[17:00-19:50] SAB[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0267",
+      "nombre": "Música reggae como patrimonio inmaterial de la humanidad",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ ZUÑIGA RODOLFO",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0249",
+      "nombre": "Formas actuales de violencia en las relaciones de noviazgo",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUADAMUZ MUÑOZ MARJORIE",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50] JUE[13:00-16:50] VIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0170",
+      "nombre": "Mekay Tel Youw: lengua Creole de Costa Rica",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "KENNEDY RUSSELL ANA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-18:50] VIE[13:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0148",
+      "nombre": "Filosofía Vaisnava de la India, ¿qué es?",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE PEREZ LUIS DIEGO",
+          "modalidad": "Virtual",
+          "horario": "MIE[08:30-11:20] JUE[08:30-11:20] VIE[08:30-11:20] SAB[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0007",
+      "nombre": "La literatura en el cine",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PEREZ ROJAS NELSON",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0047",
+      "nombre": "Educación en nuestros tiempos",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIVERA ROJAS FANNI",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-12:20] VIE[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0035",
+      "nombre": "Globalización y humanismo",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ MORALES OSCAR",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0050",
+      "nombre": "Identidad y cultura costarricense",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO ALVAREZ ERICKA",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-19:50] JUE[17:00-19:50] VIE[17:00-19:50] SAB[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0191",
+      "nombre": "Introducción al pensamiento critico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAS ACUÑA ERICK",
+          "modalidad": "Virtual",
+          "horario": "MIE[08:30-11:20] JUE[08:30-11:20] VIE[08:30-11:20] SAB[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

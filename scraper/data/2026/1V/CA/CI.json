@@ -1,0 +1,124 @@
+{
+  "codigoEscuela": "CI",
+  "nombreEscuela": "ESCUELA DE CIENCIAS DEL LENGUAJE",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "CI4401",
+      "nombre": "Inglés II (ATI)",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BLACKWOOD BARRETT AISHA JOHANNA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1107",
+      "nombre": "Comunicación oral",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CASTILLO RODRIGUEZ LARISSA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "PEREZ ROJAS NELSON",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50] MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI0202",
+      "nombre": "Inglés básico",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FUENTES MORA ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-11:20] VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1230",
+      "nombre": "Inglés I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "KENNEDY RUSSELL ANA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "SOLANO SOLANO JOSE EDUARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ CASTRO MONSERRAT",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1106",
+      "nombre": "Comunicación escrita",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "RIOS SANCHEZ ARMANDO",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ROMERO ALVAREZ ERICKA",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "CI",
+  "nombreEscuela": "ESCUELA DE CIENCIAS DEL LENGUAJE",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "CI1231",
+      "nombre": "Inglés II",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "MOLINA VILLALOBOS TANIA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1107",
+      "nombre": "Comunicación oral",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "QUIROS LEIVA RANDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50] JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1106",
+      "nombre": "Comunicación escrita",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "RODRIGUEZ HERRA NATALIA",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50] MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "DVE",
+  "nombreEscuela": "VIDA ESTUDIANTIL Y SERVICIOS ACADEMICOS",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "SE1107",
+      "nombre": "Apreciación de cine",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "HERRERA CORDERO SERGIO",
+          "modalidad": "Virtual",
+          "horario": "LUN[08:50-11:30] MAR[08:50-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

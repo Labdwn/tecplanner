@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "PI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN PRODUCCION INDUSTRIAL",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "PI3612",
+      "nombre": "Probabilidad y estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ MURILLO ERICK",
+          "modalidad": "Regular",
+          "horario": "MAR[13:25-16:55] MIE[13:25-16:55] JUE[13:25-16:05]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5708",
+      "nombre": "Gestión por procesos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS RODRIGUEZ DAVID",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

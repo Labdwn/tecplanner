@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "E",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN ELECTRONICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "EL4607",
+      "nombre": "Normalización técnica (estándares industriales)",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CASTRO BADILLA GUILLERMO",
+          "modalidad": "Virtual",
+          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5850",
+      "nombre": "Gráficos por computadora",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO ERNESTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[12:30-16:05] MIE[12:30-16:05] JUE[12:30-15:10]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

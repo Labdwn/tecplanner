@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "E",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN ELECTRONICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "EL4513",
+      "nombre": "Teoría electromagnética I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARRIOLA VALVERDE SERGIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL4314",
+      "nombre": "Arquitectura de computadoras I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MOLINA ROBLES ROBERTO CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

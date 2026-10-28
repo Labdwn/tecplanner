@@ -1,0 +1,25 @@
+{
+  "codigoEscuela": "AMB",
+  "nombreEscuela": "INGENIERIA AMBIENTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "AI3208",
+      "nombre": "Hidráulica para ingeniería ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZAMBRANO PIAMBA DIANA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

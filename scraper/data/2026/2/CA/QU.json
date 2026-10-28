@@ -12,236 +12,204 @@
       "creditos": 1,
       "grupos": [
         {
-          "grupo": 1,
+          "grupo": 23,
           "profesor": "ABARCA GUERRERO LILLIANA",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "101"
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         },
         {
-          "grupo": 3,
+          "grupo": 28,
           "profesor": "ABARCA GUERRERO LILLIANA",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "101"
+          "horario": "JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 31,
+          "profesor": "ARAYA MARCHENA MARIO",
+          "modalidad": "Regular",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 26,
           "profesor": "FLORES CANTILLO ADRIAN",
           "modalidad": "Regular",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "101"
-        },
-        {
-          "grupo": 28,
-          "profesor": "FLORES CANTILLO ADRIAN",
-          "modalidad": "Regular",
-          "horario": "JUE[15:00-16:50]",
-          "edificio": "K5",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "HERRERA NUÑEZ JACQUELINE MARIA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 16,
+          "profesor": "HERRERA NUÑEZ JACQUELINE MARIA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "MATA SOLANO ROGELIO",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "MATA SOLANO ROGELIO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "106"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "MORA MOLINA JESUS",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "MORA MOLINA JESUS",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50]",
-          "edificio": "K5",
-          "aula": "101"
-        },
-        {
-          "grupo": 16,
-          "profesor": "MORA MOLINA JESUS",
-          "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 11,
           "profesor": "ROBLES CHAVEZ DIANA",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 13,
           "profesor": "ROBLES CHAVEZ DIANA",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 19,
           "profesor": "ROBLES CHAVEZ DIANA",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "K5",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 27,
           "profesor": "ROMERO BLANCO ERIC",
           "modalidad": "Regular",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 29,
           "profesor": "ROMERO BLANCO ERIC",
           "modalidad": "Regular",
           "horario": "JUE[15:00-16:50]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 15,
           "profesor": "SALAZAR ROJAS TERESA",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "106"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 18,
           "profesor": "SALAZAR ROJAS TERESA",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "106"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SANCHEZ KOPPER ANDRES",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "SANCHEZ KOPPER ANDRES",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "106"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 21,
           "profesor": "SANCHEZ KOPPER ANDRES",
           "modalidad": "Regular",
           "horario": "JUE[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 22,
           "profesor": "SANDOVAL MORA JOSE ALBERTO",
           "modalidad": "Regular",
           "horario": "JUE[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 24,
           "profesor": "SANDOVAL MORA JOSE ALBERTO",
           "modalidad": "Regular",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "102"
-        },
-        {
-          "grupo": 10,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50]",
-          "edificio": "K5",
-          "aula": "102"
-        },
-        {
-          "grupo": 23,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "JUE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "101"
-        },
-        {
-          "grupo": 30,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "VIE[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "101"
-        },
-        {
-          "grupo": 31,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "VIE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 12,
           "profesor": "ULATE MOLINA RICARDO ENRIQUE",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 14,
           "profesor": "ULATE MOLINA RICARDO ENRIQUE",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 17,
           "profesor": "ULATE MOLINA RICARDO ENRIQUE",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -255,88 +223,96 @@
           "profesor": "ARAYA CARVAJAL FABIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "D3",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "ARAYA CARVAJAL FABIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "I6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "ARCE ROJAS HEILEN",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "D3",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 14,
+          "profesor": "ARCE ROJAS HEILEN",
+          "modalidad": "Taller",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 13,
           "profesor": "LEDEZMA ESPINOZA AURA",
           "modalidad": "Semipresencial",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "D3",
-          "aula": "13"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "SALAS JIMENEZ JUAN CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "D3",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "SALAS JIMENEZ JUAN CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "D3",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "STARBIRD PEREZ RICARDO",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "G18",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 12,
           "profesor": "STARBIRD PEREZ RICARDO",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "D3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "VARGAS CAMARENO MARICRUZ",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "G18",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 10,
           "profesor": "VARGAS CAMARENO MARICRUZ",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "D3",
-          "aula": "13"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 11,
           "profesor": "VARGAS CAMARENO MARICRUZ",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "D3",
-          "aula": "13"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -350,8 +326,8 @@
           "profesor": "ARAYA MARCHENA MARIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[16:00-17:50] JUE[16:00-18:50]",
-          "edificio": "D3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -365,8 +341,8 @@
           "profesor": "ARAYA MARCHENA MARIO",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "D3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -380,120 +356,104 @@
           "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 11,
           "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
           "modalidad": "Regular",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "HERNANDEZ ALPIZAR LAURA",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 15,
+          "profesor": "LEDEZMA ESPINOZA AURA",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "MATA MATA ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "MORA MOLINA JESUS",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "MORA MOLINA JESUS",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "MORA MOLINA JESUS",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "QUIROS BUSTOS NOEMI",
           "modalidad": "Regular",
           "horario": "JUE[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 10,
           "profesor": "QUIROS BUSTOS NOEMI",
           "modalidad": "Regular",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
-          "profesor": null,
+          "profesor": "SALAS JIMENEZ JUAN CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "105"
-        },
-        {
-          "grupo": 4,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50]",
-          "edificio": "K5",
-          "aula": "105"
-        },
-        {
-          "grupo": 12,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "JUE[15:00-16:50]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 13,
-          "profesor": null,
+          "profesor": "SOTO CORDOBA SILVIA",
           "modalidad": "Regular",
           "horario": "VIE[07:30-09:20]",
-          "edificio": "K5",
-          "aula": "105"
-        },
-        {
-          "grupo": 14,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "VIE[09:30-11:20]",
-          "edificio": "K5",
-          "aula": "105"
-        },
-        {
-          "grupo": 15,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "VIE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "105"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -507,56 +467,56 @@
           "profesor": "CALLEJA AMADOR CARLOS ENRIQUE",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "D3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "PORRAS ACOSTA MARIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F5",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "PORRAS ACOSTA MARIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "F5",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "PORRAS ACOSTA MARIA",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "D3",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "QUIROS BUSTOS NOEMI",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "D3",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "SOTO CORDOBA SILVIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "D3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 11,
           "profesor": "VILLALTA ROMERO FABIAN",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "F5",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -570,8 +530,8 @@
           "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "G18",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -585,8 +545,23 @@
           "profesor": "FLORES CANTILLO ADRIAN",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "D3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2605",
+      "nombre": "Laboratorio de química ambiental y analítica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FLORES CANTILLO ADRIAN",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -600,8 +575,8 @@
           "profesor": "MATA SOLANO ROGELIO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]",
-          "edificio": "K5",
-          "aula": "103"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -615,31 +590,16 @@
           "profesor": "PUENTE URBINA ALLEN ARTURO",
           "modalidad": "Semipresencial",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "G18",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "VALVERDE CERDAS JOHNNY",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "D3",
-          "aula": "4"
-        }
-      ]
-    },
-    {
-      "codigo": "QU2605",
-      "nombre": "Laboratorio de química ambiental y analítica",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "PUENTE URBINA ALLEN ARTURO",
-          "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": "K5",
-          "aula": "104"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -653,16 +613,16 @@
           "profesor": "SANDOVAL MORA JOSE ALBERTO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "K5",
-          "aula": "104"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SANDOVAL MORA JOSE ALBERTO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "K5",
-          "aula": "104"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -676,16 +636,24 @@
           "profesor": "SOTO CORDOBA SILVIA",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "K5",
-          "aula": "103"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VALVERDE CERDAS JOHNNY",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "K5",
-          "aula": "103"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "VALVERDE CERDAS JOHNNY",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     }

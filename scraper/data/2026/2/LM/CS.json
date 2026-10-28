@@ -16,8 +16,8 @@
           "profesor": "ACHOY HERNANDEZ ALEJANDRO",
           "modalidad": "Regular",
           "horario": "VIE[18:00-21:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "ACHOY HERNANDEZ ALEJANDRO",
           "modalidad": "Regular",
           "horario": "VIE[13:00-15:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "CEDEÑO CAMACHO MAURICIO",
           "modalidad": "Virtual",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -59,10 +59,10 @@
         {
           "grupo": 60,
           "profesor": "RODRIGUEZ MORALES OSCAR",
-          "modalidad": "Semipresencial",
+          "modalidad": "Virtual",
           "horario": "JUE[09:30-12:20]",
-          "edificio": "L",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Virtual",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

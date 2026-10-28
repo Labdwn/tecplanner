@@ -16,16 +16,24 @@
           "profesor": "CORDERO MAROTO NELSON",
           "modalidad": "Regular",
           "horario": "MIE[17:30-19:10]",
-          "edificio": "J08",
-          "aula": "103"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 41,
           "profesor": "CORDERO MAROTO NELSON",
           "modalidad": "Regular",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "J08",
-          "aula": "103"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 42,
+          "profesor": "CORDERO MAROTO NELSON",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-14:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,8 +47,8 @@
           "profesor": "DE SIMONE CASTELLON ALEXANDRA",
           "modalidad": "Virtual",
           "horario": "VIE[17:30-19:10]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -54,8 +62,8 @@
           "profesor": "HERNANDEZ RAMIREZ MARIELA",
           "modalidad": "Regular",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "J08",
-          "aula": "103"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -69,8 +77,8 @@
           "profesor": "MEZA SOLANO VINICIO",
           "modalidad": "Virtual",
           "horario": "JUE[17:30-19:10]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -84,8 +92,8 @@
           "profesor": "RAMOS VARGAS ARNOLDO",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "J08",
-          "aula": "103"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -99,8 +107,8 @@
           "profesor": "RAMOS VARGAS ARNOLDO",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50]",
-          "edificio": "J08",
-          "aula": "103"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -114,8 +122,8 @@
           "profesor": "VALVERDE JARA ANA",
           "modalidad": "Regular",
           "horario": "MAR[17:30-19:10]",
-          "edificio": "J01",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -129,8 +137,8 @@
           "profesor": "VIQUEZ ZELEDON JESSENIA",
           "modalidad": "Regular",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "J10",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -144,8 +152,8 @@
           "profesor": "VIQUEZ ZELEDON JESSENIA",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "J10",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -159,8 +167,8 @@
           "profesor": "VIQUEZ ZELEDON JESSENIA",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "J10",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

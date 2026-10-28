@@ -7,6 +7,21 @@
   "periodo": "2",
   "cursos": [
     {
+      "codigo": "SE1104",
+      "nombre": "Artes visuales",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 62,
+          "profesor": "SERRANO SOLANO ALEX",
+          "modalidad": "Virtual",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
       "codigo": "SE1107",
       "nombre": "Apreciación de cine",
       "creditos": 0,
@@ -16,16 +31,16 @@
           "profesor": "SERRANO SOLANO ALEX",
           "modalidad": "Regular",
           "horario": "VIE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 61,
           "profesor": "SERRANO SOLANO ALEX",
           "modalidad": "Regular",
           "horario": "VIE[15:00-16:50]",
-          "edificio": "L",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,16 +54,16 @@
           "profesor": "TRAVIESO RODRIGUEZ ALBERTO",
           "modalidad": "Regular",
           "horario": "JUE[15:00-16:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 61,
           "profesor": "TRAVIESO RODRIGUEZ ALBERTO",
           "modalidad": "Regular",
           "horario": "JUE[17:00-18:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

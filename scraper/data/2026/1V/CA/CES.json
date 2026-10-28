@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "CES",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTADORES",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "CE1112",
+      "nombre": "Taller de señales mixtas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA ZAMORA LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-10:20] MIE[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE5506",
+      "nombre": "Introducción al reconocimiento de patrones",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LEITON JIMENEZ JASON",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE3101",
+      "nombre": "Bases de datos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIVERA MENESES MARCO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-20:50] MIE[17:00-20:50] JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

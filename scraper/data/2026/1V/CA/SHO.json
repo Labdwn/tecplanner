@@ -1,0 +1,48 @@
+{
+  "codigoEscuela": "SHO",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN SEGURIDAD LABORAL E HIGIENE AMBIENTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "SO2601",
+      "nombre": "Fundamentos de seguridad e higiene ocupacional",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES CERDAS MIRIAM",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-11:20] JUE[08:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4604",
+      "nombre": "Seguridad y salud ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MEDINA ESCOBAR MARIA LOURDES",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-15:50] JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-11:20] JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

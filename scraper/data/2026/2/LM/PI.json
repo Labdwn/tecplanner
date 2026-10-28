@@ -16,8 +16,8 @@
           "profesor": "CUBILLO MORALES DANIER",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "L",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,23 @@
           "profesor": "CUBILLO MORALES DANIER",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "L",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4901",
+      "nombre": "Práctica profesional",
+      "creditos": 8,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CUBILLO MORALES DANIER",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +61,8 @@
           "profesor": "ESPINOZA RODRIGUEZ FABIANA",
           "modalidad": "Regular",
           "horario": "MAR[08:30-11:20]",
-          "edificio": "L",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +76,8 @@
           "profesor": "ESPINOZA RODRIGUEZ FABIANA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "L",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +91,8 @@
           "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
           "modalidad": "Virtual",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +106,8 @@
           "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
           "modalidad": "Virtual",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +121,8 @@
           "profesor": "GARITA ALPIZAR PABLO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "L",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,8 +136,8 @@
           "profesor": "MADRIZ QUIROS CARMEN",
           "modalidad": "Regular",
           "horario": "VIE[13:00-15:50]",
-          "edificio": "L",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -136,8 +151,8 @@
           "profesor": "MITCHELL RILEY MARIO",
           "modalidad": "Regular",
           "horario": "VIE[13:00-15:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

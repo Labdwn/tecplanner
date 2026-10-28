@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "AG",
+  "nombreEscuela": "ESCUELA INGENIERIA EN AGRONOMIA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "AG3004",
+      "nombre": "Sistemas agronómicos de información geográfica",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ESQUIVEL SEGURA EDWIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35] MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AG4409",
+      "nombre": "Acromática II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MORALES ARIAS JONATHAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:00-11:30]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "CA",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTACION",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "IC4301",
+      "nombre": "Bases de datos I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CAMPOS AGUERO CRISTIAN",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC6400",
+      "nombre": "Investigación de operaciones",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "MIRANDA FAJARDO JEAN CARLOS",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC5701",
+      "nombre": "Compiladores e interpretes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "RODRIGUEZ DAVILA ALLAN",
+          "modalidad": "Virtual",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

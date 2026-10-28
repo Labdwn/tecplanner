@@ -16,8 +16,8 @@
           "profesor": "ALFARO ALVARADO JOSE ABRAHAN",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "C1",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,24 +31,32 @@
           "profesor": "ALFARO ALVARADO JOSE ABRAHAN",
           "modalidad": "Regular",
           "horario": "VIE[13:00-15:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "ALFARO ALVARADO JOSE ABRAHAN",
+          "modalidad": "Regular",
+          "horario": "MIE[14:00-16:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MORA VINDAS ALAN GERARDO",
           "modalidad": "Regular",
           "horario": "MAR[15:00-17:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "SANABRIA SANDI RAZIEL FARID",
           "modalidad": "Regular",
           "horario": "LUN[17:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -62,16 +70,16 @@
           "profesor": "FONT CRUZ EDUARDO",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "C1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MOYA SERRANO ROY DAVID",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "C1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -85,8 +93,8 @@
           "profesor": "FONT CRUZ EDUARDO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "C1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -100,8 +108,8 @@
           "profesor": "LACY MORA GERARDO",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "C1",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -115,8 +123,8 @@
           "profesor": "MAYORGA ESPINOZA CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "C1",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -130,8 +138,8 @@
           "profesor": "MAYORGA ESPINOZA CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50] MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "C1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -145,16 +153,16 @@
           "profesor": "MOYA SERRANO ROY DAVID",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20] MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "F5",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MOYA SERRANO ROY DAVID",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50] MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "C1",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -168,16 +176,16 @@
           "profesor": "MURILLO SALAZAR DENNIS",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MURILLO SALAZAR DENNIS",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -191,8 +199,8 @@
           "profesor": "SANABRIA SANDI RAZIEL FARID",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "C1",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -206,16 +214,16 @@
           "profesor": "SOLANO PIEDRA RICARDO ADOLFO",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "C1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SOLANO PIEDRA RICARDO ADOLFO",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "C1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

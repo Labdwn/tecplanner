@@ -13,11 +13,11 @@
       "grupos": [
         {
           "grupo": 60,
-          "profesor": "CARPIO CHAVES MONICA",
+          "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
           "modalidad": "Virtual",
           "horario": "JUE[07:30-10:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

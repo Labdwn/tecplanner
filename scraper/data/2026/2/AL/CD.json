@@ -16,8 +16,8 @@
           "profesor": "JIMENEZ JIMENEZ DANIEL",
           "modalidad": "Regular",
           "horario": "MIE[09:00-10:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "JIMENEZ JIMENEZ DANIEL",
           "modalidad": "Regular",
           "horario": "VIE[09:00-10:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,16 +46,16 @@
           "profesor": "SERRANO SOLANO ALEX",
           "modalidad": "Regular",
           "horario": "MIE[10:00-11:50]",
-          "edificio": "UTN",
-          "aula": "620"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 21,
           "profesor": "SERRANO SOLANO ALEX",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "UTN",
-          "aula": "620"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

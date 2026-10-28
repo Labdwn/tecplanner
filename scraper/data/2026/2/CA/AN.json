@@ -16,8 +16,8 @@
           "profesor": "BRENES MORALES ORLANDO",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,23 @@
           "profesor": "BRENES NAVARRO DAVID HUMBERTO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "G1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AN5001",
+      "nombre": "Seminario de graduación en agronegocios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES PERALTA LAURA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +61,8 @@
           "profesor": "CALDERON CERDAS RUBEN ALFONSO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-12:20]",
-          "edificio": "H6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +76,8 @@
           "profesor": "CALDERON CERDAS RUBEN ALFONSO",
           "modalidad": "Regular",
           "horario": "JUE[07:30-12:20]",
-          "edificio": "H6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +91,23 @@
           "profesor": "CAMPOS RODRIGUEZ ROOEL",
           "modalidad": "Regular",
           "horario": "MAR[07:30-10:20]",
-          "edificio": "G1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AN2003",
+      "nombre": "Bioquímica agroalimentaria",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVES ABARCA RANDALL",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,16 +121,16 @@
           "profesor": "CHAVES ABARCA RANDALL",
           "modalidad": "Laboratorio",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "CHAVES ABARCA RANDALL",
           "modalidad": "Laboratorio",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -114,16 +144,16 @@
           "profesor": "GAMBOA MURILLO MARIANELA",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MONGE GONZALEZ MANUEL",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -137,8 +167,8 @@
           "profesor": "GAMBOA MURILLO MARIANELA",
           "modalidad": "Regular",
           "horario": "MIE[07:30-12:20]",
-          "edificio": "G1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -152,8 +182,8 @@
           "profesor": "GOMEZ CORDOBA CARLOS EDUARDO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "H6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -167,31 +197,16 @@
           "profesor": "GOMEZ GUTIERREZ MARCO VINICIO",
           "modalidad": "Regular",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "G1",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "SANABRIA COTO CRISTIAN",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "G1",
-          "aula": "3"
-        }
-      ]
-    },
-    {
-      "codigo": "AN2003",
-      "nombre": "Bioquímica agroalimentaria",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "GUADAMUZ MAYORGA CAROLINA",
-          "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -205,8 +220,8 @@
           "profesor": "MASIS JIMENEZ MANUEL",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -220,8 +235,8 @@
           "profesor": "MONGE GONZALEZ MANUEL",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -235,8 +250,8 @@
           "profesor": "UREÑA JIMENEZ RONALD ANDREY",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "G1",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -250,16 +265,16 @@
           "profesor": "VAQUERANO PINEDA FELIPE",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "H6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VAQUERANO PINEDA FELIPE",
           "modalidad": "Regular",
           "horario": "VIE[13:00-16:50]",
-          "edificio": "H6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -273,8 +288,8 @@
           "profesor": "VAQUERANO PINEDA FELIPE",
           "modalidad": "Regular",
           "horario": "JUE[13:00-18:50]",
-          "edificio": "G1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -288,8 +303,8 @@
           "profesor": "VILLAREAL MARCHENA TANIA",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "G1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

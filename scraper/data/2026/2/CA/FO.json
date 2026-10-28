@@ -16,8 +16,8 @@
           "profesor": "ACOSTA VARGAS LUIS GUILLERMO",
           "modalidad": "Tutoría",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "ARIAS AGUILAR  DAGOBERTO",
           "modalidad": "Regular",
           "horario": "LUN[10:30-12:20]",
-          "edificio": "L4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "ARIAS AGUILAR  DAGOBERTO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-10:20]",
-          "edificio": "L3",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "ARIAS AGUILAR  DAGOBERTO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
-          "edificio": "L3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "BADILLA VALVERDE YORLENY",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20] MAR[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +91,8 @@
           "profesor": "BERROCAL JIMENEZ ALEXANDER",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50] MIE[13:00-14:50]",
-          "edificio": "L3",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +106,8 @@
           "profesor": "CAMACHO CORNEJO DIEGO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,8 +121,8 @@
           "profesor": "CAMACHO CORNEJO DIEGO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -136,8 +136,8 @@
           "profesor": "CARVAJAL VANEGAS DORIAN",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "L3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -151,8 +151,8 @@
           "profesor": "CARVAJAL VANEGAS DORIAN",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20] MAR[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -162,12 +162,27 @@
       "creditos": 3,
       "grupos": [
         {
+          "grupo": 2,
+          "profesor": "GAMBOA BADILLA NANCY",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FO4421",
+      "nombre": "Invasiones biológicas: ecología, manejo y control",
+      "creditos": 3,
+      "grupos": [
+        {
           "grupo": 1,
           "profesor": "GAMBOA BADILLA NANCY",
           "modalidad": "Tutoría",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "2"
+          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -180,9 +195,24 @@
           "grupo": 1,
           "profesor": "GAMBOA BADILLA NANCY",
           "modalidad": "Tutoría",
-          "horario": "MAR[07:30-10:20]",
-          "edificio": "L3",
-          "aula": "2"
+          "horario": "MAR[07:30-10:20] MAR[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FO4430",
+      "nombre": "Silvicultura de precisión",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUEVARA BONILLA MARIO",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -196,8 +226,8 @@
           "profesor": "HILJE RODRIGUEZ BRANKO",
           "modalidad": "Regular",
           "horario": "JUE[07:30-10:20]",
-          "edificio": "L3",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -211,8 +241,8 @@
           "profesor": "HILJE RODRIGUEZ BRANKO",
           "modalidad": "Regular",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "L4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -226,8 +256,8 @@
           "profesor": "HILJE RODRIGUEZ BRANKO",
           "modalidad": "Tutoría",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -241,8 +271,8 @@
           "profesor": "MENDEZ ALVAREZ DAWA",
           "modalidad": "Regular",
           "horario": "MIE[15:00-17:50]",
-          "edificio": "L4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -256,8 +286,8 @@
           "profesor": "MOYA ROQUE ROGER",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": "L3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -271,8 +301,8 @@
           "profesor": "MUÑOZ ACOSTA FREDDY",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -286,8 +316,8 @@
           "profesor": "MURILLO GAMBOA OLMAN",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "L3",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -301,8 +331,8 @@
           "profesor": "SALAS GARITA CYNTHIA",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -314,10 +344,10 @@
         {
           "grupo": 1,
           "profesor": "SOTO MONTOYA CASIA",
-          "modalidad": "Regular",
+          "modalidad": "Tutoría",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -331,8 +361,8 @@
           "profesor": "TORRES GOMEZ DANILO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "L3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -346,8 +376,8 @@
           "profesor": "VALVERDE OTAROLA JUAN CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "L3",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -361,8 +391,8 @@
           "profesor": "VARGAS FONSECA LUPITA",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "L3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -376,8 +406,8 @@
           "profesor": "VARGAS FONSECA LUPITA",
           "modalidad": "Tutoría",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "L3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -391,8 +421,8 @@
           "profesor": "VILLALOBOS BARQUERO VERONICA",
           "modalidad": "Regular",
           "horario": "MIE[07:30-12:20]",
-          "edificio": "L3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -406,8 +436,8 @@
           "profesor": "ZUÑIGA GARITA IGOR",
           "modalidad": "Tutoría",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "L3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

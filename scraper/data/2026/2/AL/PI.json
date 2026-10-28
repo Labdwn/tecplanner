@@ -16,8 +16,8 @@
           "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
           "modalidad": "Regular",
           "horario": "MIE[07:00-10:50]",
-          "edificio": "UTN",
-          "aula": "201"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "VARGAS GOMEZ PABLO JOSE",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "UTN",
-          "aula": "619"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

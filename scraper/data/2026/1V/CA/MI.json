@@ -1,0 +1,33 @@
+{
+  "codigoEscuela": "MI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA ELECTROMECANICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "MI2101",
+      "nombre": "Dibujo técnico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "OTAROLA ZUÑIGA CARLOS",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "UREÑA SANDI NOEL",
+          "modalidad": "Virtual",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

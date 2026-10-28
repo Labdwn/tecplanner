@@ -16,8 +16,8 @@
           "profesor": "MOLINA VILLALOBOS TANIA",
           "modalidad": "Regular",
           "horario": "MAR[09:30-12:20]",
-          "edificio": "J06",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "MURILLO ESCALANTE ROCIO",
           "modalidad": "Regular",
           "horario": "MIE[17:30-20:15]",
-          "edificio": "J06",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "MURILLO ESCALANTE ROCIO",
           "modalidad": "Regular",
           "horario": "MIE[08:30-11:20]",
-          "edificio": "J06",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,16 +61,16 @@
           "profesor": "QUIROS LEIVA RANDALL",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "J06",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 41,
-          "profesor": null,
+          "profesor": "VARGAS AMADOR TANIA",
           "modalidad": "Regular",
           "horario": "VIE[17:30-20:15]",
-          "edificio": "J06",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -84,40 +84,40 @@
           "profesor": "QUIROS LEIVA RANDALL",
           "modalidad": "Regular",
           "horario": "MAR[17:30-20:15]",
-          "edificio": "J06",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 42,
           "profesor": "QUIROS LEIVA RANDALL",
           "modalidad": "Regular",
           "horario": "VIE[08:30-11:20]",
-          "edificio": "J06",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 43,
           "profesor": "QUIROS LEIVA RANDALL",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "J06",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 44,
           "profesor": "QUIROS LEIVA RANDALL",
           "modalidad": "Regular",
           "horario": "VIE[13:00-15:50]",
-          "edificio": "J06",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 40,
-          "profesor": null,
+          "profesor": "SANCHEZ SANCHEZ DANIELA",
           "modalidad": "Regular",
           "horario": "LUN[18:20-21:05]",
-          "edificio": "J06",
-          "aula": "101"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -131,8 +131,8 @@
           "profesor": "RAMIREZ CASTRO MONSERRAT",
           "modalidad": "Regular",
           "horario": "MAR[17:30-21:05] SAB[15:00-16:50]",
-          "edificio": "J06",
-          "aula": "102"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

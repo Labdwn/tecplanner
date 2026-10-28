@@ -610,6 +610,14 @@
           "aula": null
         },
         {
+          "grupo": 3,
+          "profesor": "MARIN MORENO WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
           "grupo": 2,
           "profesor": "PEREZ RODRIGUEZ JAVIER",
           "modalidad": "Regular",

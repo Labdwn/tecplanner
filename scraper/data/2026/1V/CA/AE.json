@@ -1,0 +1,94 @@
+{
+  "codigoEscuela": "AE",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "AE2505",
+      "nombre": "Estadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHACON VARGAS ERICK",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE4208",
+      "nombre": "Desarrollo de emprendedores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GUERRERO VARGAS LIGIA",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "GUILLEN MIRANDA ERICK",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50] VIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "JAUBERT SOLANO WILLIAM",
+          "modalidad": "Virtual",
+          "horario": "LUN[13:00-16:50] MIE[13:00-16:50] VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "THAMES RAMIREZ KARLA",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE5121",
+      "nombre": "Ingeniería económica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MARTINEZ GUTIERREZ BERNAL",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "AE1122",
+      "nombre": "Contabilidad I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NUÑEZ ARGUEDAS EVELYN",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:00-21:50] MIE[18:00-21:50] VIE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -16,8 +16,8 @@
           "profesor": "STRADI GRANADOS BENITO",
           "modalidad": "Virtual",
           "horario": "JUE[07:00-10:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

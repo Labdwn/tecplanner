@@ -16,8 +16,8 @@
           "profesor": "AGUERO HERNANDEZ ANA LAURA",
           "modalidad": "Regular",
           "horario": "VIE[13:00-16:50]",
-          "edificio": "K2",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "AGUERO HERNANDEZ ANA LAURA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "ALCAZAR VILLALOBOS JUAN PABLO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-10:20]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "ARAYA SOLANO TANNIA",
           "modalidad": "Regular",
           "horario": "VIE[13:00-16:50]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "BERMUDEZ CHACON MARVIN",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "K2",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +91,8 @@
           "profesor": "BLANCO LEITON HAROL",
           "modalidad": "Regular",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +106,55 @@
           "profesor": "CARPIO CHAVES MONICA",
           "modalidad": "Regular",
           "horario": "JUE[09:30-11:20]",
-          "edificio": "K2",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "SO4604",
+      "nombre": "Seguridad y salud ocupacional",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "CARPIO CHAVES MONICA",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "MORALES MARTINEZ GABRIELA",
+          "modalidad": "Regular",
+          "horario": "VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,55 +168,8 @@
           "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "K2",
-          "aula": "1"
-        }
-      ]
-    },
-    {
-      "codigo": "SO4604",
-      "nombre": "Seguridad y salud ocupacional",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 2,
-          "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
-          "modalidad": "Regular",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": "D3",
-          "aula": "4"
-        },
-        {
-          "grupo": 1,
-          "profesor": "MORALES MARTINEZ GABRIELA",
-          "modalidad": "Regular",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": "K2",
-          "aula": "5"
-        },
-        {
-          "grupo": 3,
-          "profesor": "MORALES MARTINEZ GABRIELA",
-          "modalidad": "Regular",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": "K2",
-          "aula": "1"
-        },
-        {
-          "grupo": 4,
-          "profesor": "MORALES MARTINEZ GABRIELA",
-          "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": "K2",
-          "aula": "5"
-        },
-        {
-          "grupo": 5,
-          "profesor": "MORALES MARTINEZ GABRIELA",
-          "modalidad": "Regular",
-          "horario": "VIE[07:30-10:20]",
-          "edificio": "K2",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -183,8 +183,8 @@
           "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
           "modalidad": "Regular",
           "horario": "JUE[17:00-20:50]",
-          "edificio": "K2",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -198,8 +198,8 @@
           "profesor": "Gutierrez Fuentes Adrián",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -213,8 +213,8 @@
           "profesor": "Gutierrez Fuentes Adrián",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "K2",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -228,8 +228,8 @@
           "profesor": "Gutierrez Fuentes Adrián",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -243,24 +243,24 @@
           "profesor": "MEDINA ESCOBAR MARIA LOURDES",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "K2",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
           "modalidad": "Regular",
           "horario": "MAR[07:30-10:20]",
-          "edificio": "K2",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "K2",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -274,8 +274,8 @@
           "profesor": "MENDEZ VILLALOBOS GERALD",
           "modalidad": "Regular",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -289,8 +289,8 @@
           "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "K2",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -304,8 +304,8 @@
           "profesor": "ZAMORA ZAMORA CINDY",
           "modalidad": "Regular",
           "horario": "VIE[17:00-20:50]",
-          "edificio": "K2",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

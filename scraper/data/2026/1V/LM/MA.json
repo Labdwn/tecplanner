@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "MA",
+  "nombreEscuela": "ESCUELA DE MATEMATICA",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "MA1102",
+      "nombre": "Cálculo diferencial e integral",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SOTO CASCANTE EMANUELLE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-12:20] MIE[07:30-12:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1403",
+      "nombre": "Matemática discreta",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "WYNTA BANTON RANDY YADIR",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

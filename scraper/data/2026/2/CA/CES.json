@@ -7,6 +7,29 @@
   "periodo": "2",
   "cursos": [
     {
+      "codigo": "CE2201",
+      "nombre": "Laboratorio de circuitos eléctricos",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MARTINEZ LEONARDO",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "ARAYA MARTINEZ LEONARDO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
       "codigo": "CE1109",
       "nombre": "Circuitos analógicos",
       "creditos": 4,
@@ -16,8 +39,8 @@
           "profesor": "ARAYA RODRIGUEZ LISANDRO",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,16 +54,24 @@
           "profesor": "BARBOZA ARTAVIA LUIS",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "F2",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GAMBOA RAMIREZ SANTIAGO",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "F2",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ TREJOS ELLIOTH",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -54,16 +85,16 @@
           "profesor": "BARBOZA ARTAVIA LUIS",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "F5",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GAMBOA RAMIREZ SANTIAGO",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "F2",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -77,16 +108,16 @@
           "profesor": "BARBOZA ARTAVIA LUIS",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "F2",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "CHAVARRIA ZAMORA LUIS",
-          "modalidad": "Semipresencial",
+          "modalidad": "Tutoría",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "F2",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -100,8 +131,31 @@
           "profesor": "BARBOZA ARTAVIA LUIS",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "F2",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE3201",
+      "nombre": "Taller de diseño digital",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CALDERON PRADO KIMBERLY",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-14:50] SAB[08:30-10:20] JUE[13:00-14:50] SAB[08:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "CALDERON PRADO KIMBERLY",
+          "modalidad": "Tutoría",
+          "horario": "MAR[13:00-14:50] SAB[10:30-12:20] MAR[13:00-14:50] SAB[10:30-12:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -114,9 +168,9 @@
           "grupo": 1,
           "profesor": "CHAVARRIA ZAMORA LUIS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "F2",
-          "aula": "7"
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -130,8 +184,8 @@
           "profesor": "CHAVARRIA ZAMORA LUIS",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "F4",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -145,8 +199,8 @@
           "profesor": "CHAVARRIA ZAMORA LUIS",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "F2",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -160,8 +214,8 @@
           "profesor": "GONZALEZ GOMEZ JEFERSON",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "F2",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -175,8 +229,8 @@
           "profesor": "GONZALEZ GOMEZ JEFERSON",
           "modalidad": "Semipresencial",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "F2",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -190,24 +244,47 @@
           "profesor": "HERNANDEZ VASQUEZ MARCO",
           "modalidad": "Semipresencial",
           "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "F2",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "F2",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "RIVERA MENESES MARCO",
           "modalidad": "Semipresencial",
           "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": "F2",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE3101",
+      "nombre": "Bases de datos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "HERNANDEZ VASQUEZ MARCO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[19:00-20:50] VIE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "RIVERA MENESES MARCO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[19:00-20:50] VIE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -220,9 +297,9 @@
           "grupo": 1,
           "profesor": "LEITON JIMENEZ JASON",
           "modalidad": "Semipresencial",
-          "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "F2",
-          "aula": "9"
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -236,8 +313,8 @@
           "profesor": "MADRIZ HUERTAS DANIEL",
           "modalidad": "Semipresencial",
           "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "F2",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -251,8 +328,8 @@
           "profesor": "NOGUERA MENA LUIS DIEGO",
           "modalidad": "Semipresencial",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "F4",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -266,23 +343,8 @@
           "profesor": "RAMIREZ HERRERA JOSE ISAAC",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F5",
-          "aula": "8"
-        }
-      ]
-    },
-    {
-      "codigo": "CE3101",
-      "nombre": "Bases de datos",
-      "creditos": 4,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "RIVERA MENESES MARCO",
-          "modalidad": "Semipresencial",
-          "horario": "MIE[19:00-20:50] VIE[19:00-20:50]",
-          "edificio": "D10",
-          "aula": "35"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -296,16 +358,16 @@
           "profesor": "SCHMIDT PERALTA JEFF",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F2",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SCHMIDT PERALTA JEFF",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "F2",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -319,8 +381,8 @@
           "profesor": "SOLANO CORDERO JENNIER",
           "modalidad": "Virtual",
           "horario": "LUN[18:00-21:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -334,8 +396,8 @@
           "profesor": "SOLANO CORDERO JENNIER",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "D10",
-          "aula": "37"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -349,8 +411,8 @@
           "profesor": "SOLANO CORDERO JENNIER",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -364,8 +426,8 @@
           "profesor": "SOTO QUIROS JUAN PABLO",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "F5",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -379,8 +441,8 @@
           "profesor": "TACSAN CHAVES RODOLFO",
           "modalidad": "Virtual",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -394,8 +456,23 @@
           "profesor": "VARGAS RIVERA ANDRES",
           "modalidad": "Virtual",
           "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CE5508",
+      "nombre": "Soa41d: arquitectura orientada a servicios aplicada a sistemas emergentes",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VARGAS RIVERA ANDRES",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[19:00-20:50] VIE[19:00-20:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -409,8 +486,8 @@
           "profesor": "VILLEGAS LEMUS MILTON",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F2",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

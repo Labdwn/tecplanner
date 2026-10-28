@@ -1,0 +1,100 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "AL",
+  "nombreSede": "CENTRO ACADEMICO DE ALAJUELA",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "FH0204",
+      "nombre": "Hablemos de discapacidad",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "BOGARIN MARIN MILENE",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-20:50] JUE[18:00-20:50] VIE[18:00-20:50] SAB[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0178",
+      "nombre": "Factores psicosociales de la salud mental",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "FLORES LOAIZA JUAN PABLO",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0244",
+      "nombre": "Interacción comunicativa y adquisición del lenguaje",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "GODINEZ ROJAS PAULETTE",
+          "modalidad": "Virtual",
+          "horario": "MAR[09:00-11:50] MIE[09:00-11:50] JUE[09:00-11:50] VIE[09:00-11:50] SAB[09:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0154",
+      "nombre": "Los mitos y búsqueda del héroe",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RIOS SANCHEZ ARMANDO",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0117",
+      "nombre": "Literatura fantástica: Tolkien y el señor de los anillos",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "RODRIGUEZ HERRA NATALIA",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:00-11:50] JUE[09:00-11:50] VIE[09:00-11:50] SAB[09:00-11:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0151",
+      "nombre": "Brujas, hadas y fantasmas en Shakespeare",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SEQUEIRA CASTRO DAVID",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:00-12:50] JUE[09:00-12:50] VIE[09:00-12:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

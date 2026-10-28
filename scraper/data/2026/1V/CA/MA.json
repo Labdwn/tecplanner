@@ -1,0 +1,264 @@
+{
+  "codigoEscuela": "MA",
+  "nombreEscuela": "ESCUELA DE MATEMATICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "MA1103",
+      "nombre": "Cálculo y álgebra lineal",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "ACUÑA CHACON REIMAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-18:50] MIE[15:00-18:50] JUE[15:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA PRADO LUIS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "FALLAS MONGE JUAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "OVIEDO UGALDE NORBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2404",
+      "nombre": "Probabilidades",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVARADO SOLANO ANDY",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1102",
+      "nombre": "Cálculo diferencial e integral",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 5,
+          "profesor": "BLANCO BENAMBURG RANDALL",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-17:50] MIE[13:00-17:50] JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "CORDERO QUIROS MARCIAL",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-19:50] MIE[15:00-19:50] JUE[15:00-18:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "MORA PICADO LUIS FERNANDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-17:50] MIE[13:00-17:50] JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "QUESADA VILLALOBOS LOURDES",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-12:20] MIE[07:30-12:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SANCHEZ FERNANDEZ IVONNE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-12:20] MIE[07:30-12:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2105",
+      "nombre": "Ecuaciones diferenciales",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "BRENES GOMEZ  RANDALL",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[17:00-20:50] MIE[17:00-20:50] JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "FIGUEROA MATA GEOVANNI",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MARIN SANCHEZ MARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA0101",
+      "nombre": "Matemática general",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "GUTIERREZ RUIZ GRETTEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-12:20] MIE[07:30-12:20] JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "VALVERDE SANCHEZ SAMUEL",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-17:50] MIE[13:00-17:50] JUE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "VEGA VASQUEZ ARTURO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-19:50] MIE[15:00-19:50] JUE[15:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA2104",
+      "nombre": "Cálculo superior",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 3,
+          "profesor": "JIMENEZ ROMERO ALEJANDRA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MASIS FLORES DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MONGE FALLAS JORGE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA3106",
+      "nombre": "Métodos numéricos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PARRA RODRIGUEZ EMMANUELLE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1403",
+      "nombre": "Matemática discreta",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ ARCE GREIVIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1303",
+      "nombre": "Matemática básica para administración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMOS MARIN SIGURD",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MA1304",
+      "nombre": "Cálculo para administración",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO QUIROS JUAN PABLO",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

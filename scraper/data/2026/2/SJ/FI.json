@@ -16,16 +16,16 @@
           "profesor": "MURILLO QUIROS NATALIA",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "J01",
-          "aula": "401"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 41,
           "profesor": "SOTO CHINCHILLA YERRY",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "J01",
-          "aula": "402"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

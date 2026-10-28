@@ -16,16 +16,16 @@
           "profesor": "ALVAREZ FIGUEROA ADRIANA",
           "modalidad": "Semipresencial",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "B3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "ESQUIVEL VARGAS HERSON",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,40 +39,40 @@
           "profesor": "ARCE OROZCO ARMANDO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "BOGARIN NAVARRO RODRIGO",
           "modalidad": "Semipresencial",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "B3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GARRO ABARCA VICTOR",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GARRO ABARCA VICTOR",
           "modalidad": "Semipresencial",
           "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "HERNANDEZ SIBAJA BRYAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "B6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -86,16 +86,16 @@
           "profesor": "ARCE OROZCO ARMANDO",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ARIAS MENDEZ ESTEBAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -109,8 +109,8 @@
           "profesor": "ARCE OROZCO ARMANDO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -124,16 +124,16 @@
           "profesor": "ARROYO HERRERA MAURICIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "SOLANO SOTO JAIME",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -147,24 +147,24 @@
           "profesor": "BENAVIDES CESPEDES CARLOS",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GATJENS SOTO KIRSTEIN",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "B3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "VARGAS CALVO JORGE",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -178,32 +178,32 @@
           "profesor": "BENAVIDES CESPEDES CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GATJENS SOTO KIRSTEIN",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GATJENS SOTO KIRSTEIN",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "VARGAS CALVO JORGE",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -217,16 +217,16 @@
           "profesor": "BENAVIDES CESPEDES CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "CAMPOS ARAYA GERARDO NEREO",
           "modalidad": "Semipresencial",
           "horario": "MAR[19:00-20:50] VIE[19:00-20:50]",
-          "edificio": "B3",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -240,104 +240,104 @@
           "profesor": "BOGARIN NAVARRO RODRIGO",
           "modalidad": "Semipresencial",
           "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "B3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "CAMPOS FERNANDEZ IVAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "B6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "CAMPOS FERNANDEZ IVAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "B6",
-          "aula": "5"
-        },
-        {
-          "grupo": 1,
-          "profesor": "CASTRO ROLDAN MARVIN",
-          "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20] MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "4"
-        },
-        {
-          "grupo": 2,
-          "profesor": "CASTRO ROLDAN MARVIN",
-          "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20] MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "CERDAS QUESADA IVANNIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "B3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 11,
           "profesor": "COTO SARMIENTO LAURA",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 12,
           "profesor": "COTO SARMIENTO LAURA",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "HERNANDEZ SIBAJA BRYAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "B6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "MATA RODRIGUEZ WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MATA RODRIGUEZ WILLIAM",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "B6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 10,
           "profesor": "NAVAS SU JOSE DOLORES",
           "modalidad": "Virtual",
           "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "QUIROS RAMIREZ FRANCO",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "B3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 13,
           "profesor": "VILLALOBOS ARIAS LUIS ROBERTO",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -351,32 +351,32 @@
           "profesor": "BOGARIN NAVARRO RODRIGO",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "B3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "CERDAS QUESADA IVANNIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "B3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GARRO ABARCA VICTOR",
           "modalidad": "Semipresencial",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "SANABRIA RODRIGUEZ AURELIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -390,16 +390,16 @@
           "profesor": "CAMPOS ARAYA GERARDO NEREO",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": "B3",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "OBANDO RODRIGUEZ KENNETH",
           "modalidad": "Semipresencial",
           "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "B3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -413,32 +413,32 @@
           "profesor": "CAMPOS FERNANDEZ IVAN",
           "modalidad": "Semipresencial",
           "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": "B6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "B3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "NUÑEZ NUÑEZ RODRIGO",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "B6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SOLANO FERNANDEZ ERICKA",
           "modalidad": "Virtual",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -452,32 +452,32 @@
           "profesor": "CERDAS QUESADA IVANNIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "COTO SARMIENTO LAURA",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MATA RODRIGUEZ WILLIAM",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -491,32 +491,32 @@
           "profesor": "CERDAS QUESADA IVANNIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "COTO SARMIENTO LAURA",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MATA RODRIGUEZ WILLIAM",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -530,24 +530,24 @@
           "profesor": "CHACON RIVAS  MARIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "HERNANDEZ SIBAJA BRYAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SOLANO SOTO JAIME",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "B6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -561,16 +561,16 @@
           "profesor": "CHACON RIVAS  MARIO",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SALAZAR HERNANDEZ ALICIA",
           "modalidad": "Semipresencial",
           "horario": "MIE[19:00-20:50] VIE[19:00-20:50]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -584,16 +584,16 @@
           "profesor": "CHACON RIVAS  MARIO",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "B6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SALAZAR HERNANDEZ ALICIA",
           "modalidad": "Semipresencial",
           "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -607,16 +607,16 @@
           "profesor": "GATJENS SOTO KIRSTEIN",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "B3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VARGAS CALVO JORGE",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -630,24 +630,24 @@
           "profesor": "HELO GUZMAN JOSE ELIAS",
           "modalidad": "Virtual",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "NAVAS SU JOSE DOLORES",
           "modalidad": "Virtual",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "NUÑEZ NUÑEZ RODRIGO",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -661,16 +661,16 @@
           "profesor": "HELO GUZMAN JOSE ELIAS",
           "modalidad": "Virtual",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MIRANDA FAJARDO JEAN CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "B3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -684,8 +684,8 @@
           "profesor": "LAW WAN YUEN",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "B6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -699,16 +699,16 @@
           "profesor": "MARIN SCHUMANN ERIKA",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SANABRIA RODRIGUEZ AURELIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "B3",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -722,24 +722,24 @@
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "B3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "QUIROS RAMIREZ FRANCO",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "QUIROS RAMIREZ FRANCO",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -753,16 +753,16 @@
           "profesor": "OBANDO RODRIGUEZ KENNETH",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "B3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "PACHECO PORTUGUEZ STEVEN",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -776,16 +776,39 @@
           "profesor": "SALAZAR HERNANDEZ ALICIA",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "SOLANO SOTO JAIME",
           "modalidad": "Semipresencial",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "B3",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8842",
+      "nombre": "Práctica profesional",
+      "creditos": 12,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAZAR HERNANDEZ ALICIA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SALAZAR HERNANDEZ ALICIA",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -799,8 +822,8 @@
           "profesor": "SANABRIA RODRIGUEZ AURELIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "B3",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -814,16 +837,16 @@
           "profesor": "SOLANO SOTO JAIME",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VILLALOBOS ARIAS LUIS ROBERTO",
           "modalidad": "Regular",
           "horario": "MAR[19:00-20:50] JUE[19:00-20:50]",
-          "edificio": "B3",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -837,8 +860,8 @@
           "profesor": "VARGAS CALVO JORGE",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "B3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

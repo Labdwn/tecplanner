@@ -16,64 +16,64 @@
           "profesor": "ARAYA MENESES IVAN",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "CALDERON ARCE CINDY",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "CHINE POLITO BRUNO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
-          "profesor": "QUESADA MARTINEZ ADRIAN",
+          "profesor": "RODRIGUEZ MENDEZ FRANCISCO",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "RODRIGUEZ ROJAS ALFREDO",
           "modalidad": "Regular",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "RODRIGUEZ ROJAS ALFREDO",
           "modalidad": "Regular",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "STRADI GRANADOS BENITO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VEGA GARITA VICTOR",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -87,8 +87,8 @@
           "profesor": "ARAYA MORA FABIAN",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -102,8 +102,8 @@
           "profesor": "ARAYA MORA FABIAN",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -117,8 +117,8 @@
           "profesor": "ARAYA MORA FABIAN",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -132,8 +132,8 @@
           "profesor": "ARAYA MORA FABIAN",
           "modalidad": "Regular",
           "horario": "VIE[13:00-16:50]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -147,8 +147,8 @@
           "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "G18",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -162,24 +162,32 @@
           "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
           "modalidad": "Regular",
           "horario": "MAR[16:00-17:50]",
-          "edificio": "I1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "CORRALES BRENES REBECA",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "I1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "GONZALEZ HERNANDEZ EDUARDO",
+          "modalidad": "Laboratorio",
+          "horario": "VIE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "GONZALEZ MASIS JEIMY",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "I1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -193,8 +201,8 @@
           "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
           "modalidad": "Regular",
           "horario": "LUN[08:30-11:20]",
-          "edificio": "D3",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -208,24 +216,24 @@
           "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "I1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "DITTEL MEZA FERNANDO",
           "modalidad": "Regular",
           "horario": "MIE[08:30-11:20]",
-          "edificio": "I1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "DITTEL MEZA FERNANDO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "I1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -239,8 +247,8 @@
           "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
           "modalidad": "Regular",
           "horario": "VIE[08:30-11:20]",
-          "edificio": "D3",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -254,8 +262,8 @@
           "profesor": "BRENES BRENES RONALD",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "I1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -269,8 +277,63 @@
           "profesor": "BRENES BRENES RONALD",
           "modalidad": "Regular",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "ME3209",
+      "nombre": "Laboratorio de tecnología de materiales",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 6,
+          "profesor": "BRENES BRENES RONALD",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "FERNANDEZ CHAVES ROBERTO",
+          "modalidad": "Regular",
+          "horario": "LUN[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "GONZALEZ MASIS JEIMY",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 5,
+          "profesor": "GONZALEZ MASIS JEIMY",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "RODRIGUEZ QUESADA LARIA FABIOLA",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "VEGA GARITA VICTOR",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-09:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -284,8 +347,8 @@
           "profesor": "CHAVERRI QUIROS OSCAR",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "I1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -299,8 +362,8 @@
           "profesor": "CHINE POLITO BRUNO",
           "modalidad": "Regular",
           "horario": "LUN[18:00-21:50]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -314,8 +377,8 @@
           "profesor": "CHINE POLITO BRUNO",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -329,8 +392,8 @@
           "profesor": "CORRALES BRENES REBECA",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-20:50]",
-          "edificio": "I1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -344,8 +407,8 @@
           "profesor": "CUBERO SESIN JORGE MAURICIO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "I1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -359,63 +422,8 @@
           "profesor": "FERNANDEZ CHAVES ROBERTO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "1"
-        }
-      ]
-    },
-    {
-      "codigo": "ME3209",
-      "nombre": "Laboratorio de tecnología de materiales",
-      "creditos": 1,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "FERNANDEZ CHAVES ROBERTO",
-          "modalidad": "Regular",
-          "horario": "LUN[09:30-11:20]",
-          "edificio": "I1",
-          "aula": "1"
-        },
-        {
-          "grupo": 6,
-          "profesor": "GONZALEZ HERNANDEZ EDUARDO",
-          "modalidad": "Regular",
-          "horario": "JUE[15:00-16:50]",
-          "edificio": "I1",
-          "aula": "1"
-        },
-        {
-          "grupo": 3,
-          "profesor": "GONZALEZ MASIS JEIMY",
-          "modalidad": "Regular",
-          "horario": "JUE[07:30-09:20]",
-          "edificio": "I1",
-          "aula": "1"
-        },
-        {
-          "grupo": 5,
-          "profesor": "GONZALEZ MASIS JEIMY",
-          "modalidad": "Regular",
-          "horario": "JUE[13:00-14:50]",
-          "edificio": "I1",
-          "aula": "1"
-        },
-        {
-          "grupo": 4,
-          "profesor": "RODRIGUEZ QUESADA LARIA FABIOLA",
-          "modalidad": "Regular",
-          "horario": "JUE[09:30-11:20]",
-          "edificio": "I1",
-          "aula": "1"
-        },
-        {
-          "grupo": 2,
-          "profesor": "VEGA GARITA VICTOR",
-          "modalidad": "Regular",
-          "horario": "LUN[07:30-09:20]",
-          "edificio": "I1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -429,31 +437,8 @@
           "profesor": "GONZALEZ MASIS JEIMY",
           "modalidad": "Semipresencial",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
-        }
-      ]
-    },
-    {
-      "codigo": "ME2208",
-      "nombre": "Ciencias de los materiales",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 2,
-          "profesor": "GONZALEZ MASIS JEIMY",
-          "modalidad": "Regular",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": "D3",
-          "aula": "2"
-        },
-        {
-          "grupo": 1,
-          "profesor": "RODRIGUEZ QUESADA LARIA FABIOLA",
-          "modalidad": "Regular",
-          "horario": "MAR[17:00-19:50]",
-          "edificio": "D3",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -467,8 +452,8 @@
           "profesor": "GUILLEN GIRON TEODOLITO",
           "modalidad": "Regular",
           "horario": "MAR[17:00-19:50]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -482,8 +467,8 @@
           "profesor": "QUESADA MARTINEZ ADRIAN",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -497,8 +482,31 @@
           "profesor": "RODRIGUEZ MENDEZ FRANCISCO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "35"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "ME2208",
+      "nombre": "Ciencias de los materiales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ QUESADA LARIA FABIOLA",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SANCHEZ CORDERO CARLOS ALBERTO",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -512,8 +520,8 @@
           "profesor": "RODRIGUEZ ROJAS ALFREDO",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -527,8 +535,8 @@
           "profesor": "RODRIGUEZ ROJAS ALFREDO",
           "modalidad": "Regular",
           "horario": "JUE[17:00-20:50]",
-          "edificio": "I4",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -542,8 +550,8 @@
           "profesor": "SANCHEZ CORDERO CARLOS ALBERTO",
           "modalidad": "Regular",
           "horario": "VIE[17:00-20:50]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -557,8 +565,8 @@
           "profesor": "STARBIRD PEREZ RICARDO",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50] MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "D10",
-          "aula": "35"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -572,8 +580,8 @@
           "profesor": "VARGAS GOMEZ RODRIGO DAVID",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "I4",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -587,16 +595,16 @@
           "profesor": "VARGAS GOMEZ RODRIGO DAVID",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "I1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VARGAS GOMEZ RODRIGO DAVID",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "I1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -610,8 +618,8 @@
           "profesor": "VARGAS GOMEZ RODRIGO DAVID",
           "modalidad": "Regular",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "I1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

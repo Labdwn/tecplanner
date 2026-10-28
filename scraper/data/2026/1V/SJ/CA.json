@@ -1,0 +1,55 @@
+{
+  "codigoEscuela": "CA",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN COMPUTACION",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "IC8071",
+      "nombre": "Seguridad del software",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ALVAREZ FIGUEROA ADRIANA",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC4700",
+      "nombre": "Lenguajes de programación",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CASTRO MORA JOSE",
+          "modalidad": "Virtual",
+          "horario": "LUN[08:30-12:20] MAR[08:30-12:20] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC2101",
+      "nombre": "Programación orientada a objetos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SOLANO FERNANDEZ ERICKA",
+          "modalidad": "Virtual",
+          "horario": "MAR[08:30-11:20] MIE[08:30-12:20] JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

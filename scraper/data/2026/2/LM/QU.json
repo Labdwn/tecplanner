@@ -16,16 +16,16 @@
           "profesor": "OSORNO FALLAS DAVID",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "L",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 61,
           "profesor": "OSORNO FALLAS DAVID",
           "modalidad": "Regular",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,8 +39,8 @@
           "profesor": "OSORNO FALLAS DAVID",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -54,8 +54,8 @@
           "profesor": "OSORNO FALLAS DAVID",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[10:30-12:20]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

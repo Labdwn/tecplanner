@@ -1,0 +1,40 @@
+{
+  "codigoEscuela": "CO",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN CONSTRUCCION",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "CO4108",
+      "nombre": "Taller I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA OBANDO JOSE ANDRES",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[08:30-12:20] MIE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CO2205",
+      "nombre": "Estática",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA RODRIGUEZ MAURICIO",
+          "modalidad": "Regular",
+          "horario": "LUN[08:30-12:20] MIE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

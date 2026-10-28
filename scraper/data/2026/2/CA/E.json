@@ -16,16 +16,16 @@
           "profesor": "ALVARADO MOYA JOSE PABLO",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "BARBOZA RETANA JOSE MIGUEL",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "518"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,8 +39,8 @@
           "profesor": "ALVARADO MOYA JOSE PABLO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -54,8 +54,8 @@
           "profesor": "ARIAS ESQUIVEL YEINER",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "418"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -69,56 +69,56 @@
           "profesor": "ARRIOLA VALVERDE SERGIO",
           "modalidad": "Regular",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "207"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "CONTRERAS SANCHEZ CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "207"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "CONTRERAS SANCHEZ CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "207"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "MARIN MORENO WILLIAM",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "210"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MOLINA ROBLES ROBERTO CARLOS",
           "modalidad": "Regular",
           "horario": "LUN[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "210"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "MOLINA ROBLES ROBERTO CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "210"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "PEREZ RODRIGUEZ JAVIER",
           "modalidad": "Regular",
           "horario": "VIE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "210"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -132,16 +132,16 @@
           "profesor": "BARBOZA RETANA JOSE MIGUEL",
           "modalidad": "Regular",
           "horario": "JUE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "111"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "BARBOZA RETANA JOSE MIGUEL",
           "modalidad": "Regular",
           "horario": "JUE[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "111"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -155,8 +155,8 @@
           "profesor": "CARVAJAL GODINEZ JOHAN",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -170,31 +170,16 @@
           "profesor": "CHACON RODRIGUEZ ALFONSO",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "RETANA CORRALES LUIS FELIPE",
           "modalidad": "Semipresencial",
           "horario": "SAB[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "110"
-        }
-      ]
-    },
-    {
-      "codigo": "EL5807",
-      "nombre": "Introducción al diseño de circuitos integrados",
-      "creditos": 4,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "CHACON RODRIGUEZ ALFONSO",
-          "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": "K1",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -208,8 +193,8 @@
           "profesor": "CHAVES JIMENEZ ADOLFO",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "518"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -223,24 +208,24 @@
           "profesor": "CHAVES JIMENEZ ADOLFO",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "206"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GUERRERO FERNANDEZ JUAN LUIS",
           "modalidad": "Regular",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "206"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "INTERIANO SALGUERO EDUARDO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20] LUN[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "206"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -254,31 +239,8 @@
           "profesor": "CHAVES NOGUERA JUAN SCOTT",
           "modalidad": "Virtual",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "ND",
-          "aula": "0"
-        }
-      ]
-    },
-    {
-      "codigo": "EL5610",
-      "nombre": "Taller integrador",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 2,
-          "profesor": "CHAVES NOGUERA JUAN SCOTT",
-          "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20] MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "208"
-        },
-        {
-          "grupo": 1,
-          "profesor": "RIMOLO DONADIO RENATO",
-          "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": "K1",
-          "aula": "208"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -292,32 +254,32 @@
           "profesor": "CHINCHILLA VARGAS ERICK GUSTAVO",
           "modalidad": "Regular",
           "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "HERRERO CHAVARRIA FELIPE",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "518"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "QUIROS SOLANO WILLIAM",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "518"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
-          "profesor": "VALVERDE GARDELA HERBERTH",
+          "profesor": "VALVERDE GARDELA HEBERTH",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "518"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -331,16 +293,16 @@
           "profesor": "COTO CALDERON ROLEN JESUS",
           "modalidad": "Regular",
           "horario": "LUN[17:00-18:50] MIE[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "407"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "GONZALEZ GOMEZ JEFERSON",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "407"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -354,16 +316,16 @@
           "profesor": "COTO CORTES ANIBAL",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "QUIROS SOLANO WILLIAM",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -377,16 +339,16 @@
           "profesor": "FONSECA CRUZ JOSE",
           "modalidad": "Regular",
           "horario": "SAB[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "414"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "NAVARRO HENRIQUEZ FRANCISCO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "K1",
-          "aula": "414"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -400,8 +362,8 @@
           "profesor": "GARCIA RAMIREZ RONNY",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "418"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -415,8 +377,8 @@
           "profesor": "GARCIA RAMIREZ RONNY",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -430,16 +392,16 @@
           "profesor": "GONZALEZ VEGA MICHAEL ALBERTO",
           "modalidad": "Regular",
           "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MOLINA ROBLES ROBERTO CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -453,8 +415,8 @@
           "profesor": "GUERRERO FERNANDEZ JUAN LUIS",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "316"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -468,32 +430,32 @@
           "profesor": "HERNANDEZ RIVERA MIGUEL",
           "modalidad": "Regular",
           "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "PEREZ RODRIGUEZ JAVIER",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "PICADO GARCIA FABIAN ALBERTO",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "518"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "VEGA CASTILLO PAOLA",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -507,8 +469,23 @@
           "profesor": "HERNANDEZ RIVERA MIGUEL",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-18:50] MIE[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "418"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5617",
+      "nombre": "Trabajo final de graduación",
+      "creditos": 7,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ RIVERA MIGUEL",
+          "modalidad": "Virtual",
+          "horario": "JUE[15:00-18:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -522,8 +499,8 @@
           "profesor": "MADRIGAL SANCHEZ JOHANNA",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-20:50]",
-          "edificio": "K1",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -537,24 +514,24 @@
           "profesor": "MARIN MORENO WILLIAM",
           "modalidad": "Regular",
           "horario": "VIE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "111"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "PEREZ RODRIGUEZ JAVIER",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "111"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "SEGURA QUIROS CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "111"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -568,16 +545,24 @@
           "profesor": "MARIN MORENO WILLIAM",
           "modalidad": "Regular",
           "horario": "LUN[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "111"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MARIN MORENO WILLIAM",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "PEREZ RODRIGUEZ JAVIER",
           "modalidad": "Regular",
           "horario": "LUN[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "111"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -591,8 +576,8 @@
           "profesor": "MENDOZA PONCE PABLO DANIEL",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "418"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -606,8 +591,8 @@
           "profesor": "MEZA BENAVIDES CARLOS",
           "modalidad": "Virtual",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50] MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -621,8 +606,8 @@
           "profesor": "MOLINA ROBLES ROBERTO CARLOS",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": "K1",
-          "aula": "414"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -636,32 +621,32 @@
           "profesor": "MONTERO RODRIGUEZ JUAN JOSE",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "418"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
-          "profesor": "PINNOCK CHACON MAC",
+          "profesor": "PINNOCK CHACON MAC ALFRED",
           "modalidad": "Regular",
           "horario": "MIE[17:00-18:50] VIE[09:30-11:20]",
-          "edificio": "K1",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "SEGURA QUIROS CARLOS",
           "modalidad": "Regular",
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "518"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "VEGA CASTILLO PAOLA",
           "modalidad": "Regular",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -675,16 +660,16 @@
           "profesor": "MONTERO RODRIGUEZ JUAN JOSE",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
-          "profesor": "PINNOCK CHACON MAC",
+          "profesor": "PINNOCK CHACON MAC ALFRED",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "K1",
-          "aula": "110"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -698,8 +683,8 @@
           "profesor": "NAVARRO HENRIQUEZ FRANCISCO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -713,16 +698,8 @@
           "profesor": "NAVARRO HENRIQUEZ FRANCISCO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "507"
-        },
-        {
-          "grupo": 1,
-          "profesor": "SANDOVAL CASCANTE LEONARDO",
-          "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": "K1",
-          "aula": "507"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -736,8 +713,8 @@
           "profesor": "NAVARRO HENRIQUEZ FRANCISCO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-16:50] MAR[13:00-16:50]",
-          "edificio": "K1",
-          "aula": "414"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -751,16 +728,31 @@
           "profesor": "QUIROS SOLANO WILLIAM",
           "modalidad": "Semipresencial",
           "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "418"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SANCHEZ MASIS ALLAN ROBERTO",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "418"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "EL5610",
+      "nombre": "Taller integrador",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RIMOLO DONADIO RENATO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -774,8 +766,8 @@
           "profesor": "SANDOVAL CASCANTE LEONARDO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "518"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

@@ -16,8 +16,8 @@
           "profesor": "BRENES ROJAS LEONARDO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "BRENES ROJAS LEONARDO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "BRENES ROJAS LEONARDO",
           "modalidad": "Regular",
           "horario": "MIE[18:00-21:50] SAB[15:00-16:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,24 +61,24 @@
           "profesor": "ZUÑIGA RIVERA MONICA",
           "modalidad": "Regular",
           "horario": "JUE[15:00-17:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 61,
           "profesor": "ZUÑIGA RIVERA MONICA",
           "modalidad": "Regular",
           "horario": "VIE[09:30-12:20]",
-          "edificio": "L",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 62,
           "profesor": "ZUÑIGA RIVERA MONICA",
           "modalidad": "Regular",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

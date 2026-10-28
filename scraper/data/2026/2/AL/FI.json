@@ -16,8 +16,16 @@
           "profesor": "CORDERO GARCIA IVAN GABRIEL",
           "modalidad": "Regular",
           "horario": "MIE[10:00-11:50] VIE[10:00-11:50]",
-          "edificio": "UTN",
-          "aula": "604"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 36,
+          "profesor": "LACY MORA GERARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[08:00-09:50] VIE[08:00-09:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +39,16 @@
           "profesor": "CORDERO GARCIA IVAN GABRIEL",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]",
-          "edificio": "LAT",
-          "aula": "211"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 36,
+          "profesor": "SEVILLA QUESADA EVAR",
+          "modalidad": "Regular",
+          "horario": "JUE[10:00-11:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     }

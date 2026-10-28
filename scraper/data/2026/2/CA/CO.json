@@ -16,8 +16,8 @@
           "profesor": "ALAN ZUÑIGA MANUEL ANTONIO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "ALAN ZUÑIGA MANUEL ANTONIO",
           "modalidad": "Virtual",
           "horario": "VIE[17:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,16 +46,16 @@
           "profesor": "ARAYA OBANDO JOSE ANDRES",
           "modalidad": "Regular",
           "horario": "MAR[09:30-12:20]",
-          "edificio": "F1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ROMERO BLANCO ERIC",
           "modalidad": "Regular",
           "horario": "VIE[07:30-10:20]",
-          "edificio": "F1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -69,8 +69,8 @@
           "profesor": "ARAYA RODRIGUEZ MAURICIO",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-10:20]",
-          "edificio": "F1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -84,8 +84,8 @@
           "profesor": "ARAYA RODRIGUEZ MAURICIO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-10:20]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -99,8 +99,8 @@
           "profesor": "ARIAS PORRAS MARIA FERNANDA",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -114,8 +114,8 @@
           "profesor": "ARTAVIA ALVARADO MIGUEL",
           "modalidad": "Semipresencial",
           "horario": "MAR[18:00-20:50] MAR[18:00-20:50]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -129,8 +129,8 @@
           "profesor": "ARTAVIA ALVARADO MIGUEL",
           "modalidad": "Regular",
           "horario": "LUN[18:00-20:50] LUN[18:00-20:50]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -144,8 +144,8 @@
           "profesor": "BALTODANO GOULDING RAFAEL",
           "modalidad": "Regular",
           "horario": "LUN[08:30-12:20]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -159,16 +159,16 @@
           "profesor": "CABRERA SANDOVAL MARCO",
           "modalidad": "Regular",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "F1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "CABRERA SANDOVAL MARCO",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "F1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -182,8 +182,8 @@
           "profesor": "CARRANZA SOLANO MAURICIO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-10:20]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -197,31 +197,8 @@
           "profesor": "CARRANZA SOLANO MAURICIO",
           "modalidad": "Regular",
           "horario": "LUN[17:00-19:50]",
-          "edificio": "F1",
-          "aula": "5"
-        }
-      ]
-    },
-    {
-      "codigo": "CO5032",
-      "nombre": "Construcción de pavimentos",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "CASTRO FERNANDEZ PEDRO",
-          "modalidad": "Semipresencial",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": "F1",
-          "aula": "4"
-        },
-        {
-          "grupo": 2,
-          "profesor": "FERNANDEZ CERDAS SERGIO",
-          "modalidad": "Semipresencial",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -235,8 +212,8 @@
           "profesor": "CUEVAS KAUFFMANN ROMMEL LEZING",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -250,16 +227,31 @@
           "profesor": "FERNANDEZ CERDAS SERGIO",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "G5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "POVEDA MONTOYA WILLIAM ALONSO",
           "modalidad": "Regular",
           "horario": "JUE[10:30-12:20]",
-          "edificio": "G5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CO5032",
+      "nombre": "Construcción de pavimentos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "FERNANDEZ CERDAS SERGIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -273,8 +265,8 @@
           "profesor": "FUENTES AGUILAR OLMAN",
           "modalidad": "Regular",
           "horario": "JUE[07:30-12:20]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -288,8 +280,8 @@
           "profesor": "HERNANDEZ VEGA HENRY",
           "modalidad": "Regular",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "F1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -303,8 +295,8 @@
           "profesor": "MATTHEWS GARRO JOSE IGNACIO",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -318,8 +310,8 @@
           "profesor": "MEDINA ANGULO EZEQUIEL ALEJANDRO",
           "modalidad": "Regular",
           "horario": "VIE[14:00-16:50]",
-          "edificio": "F1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -333,24 +325,24 @@
           "profesor": "MENDEZ MORALES MAIKEL",
           "modalidad": "Laboratorio",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "G5",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MENDEZ MORALES MAIKEL",
           "modalidad": "Laboratorio",
           "horario": "MAR[09:30-11:20]",
-          "edificio": "G5",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MENDEZ MORALES MAIKEL",
           "modalidad": "Laboratorio",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "G5",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -364,8 +356,8 @@
           "profesor": "MIRANDA JENKINS PIO ALBERTO",
           "modalidad": "Regular",
           "horario": "VIE[08:30-11:20]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -379,8 +371,8 @@
           "profesor": "NAVARRO MORA ANGEL",
           "modalidad": "Regular",
           "horario": "VIE[07:30-10:20]",
-          "edificio": "D3",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -394,8 +386,8 @@
           "profesor": "NAVARRO MORA ANGEL",
           "modalidad": "Virtual",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -409,8 +401,8 @@
           "profesor": "ORTIZ QUESADA GEANNINA",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-08:20]",
-          "edificio": "F1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -424,8 +416,8 @@
           "profesor": "PERALTA SALAS MIGUEL",
           "modalidad": "Regular",
           "horario": "LUN[15:00-17:50]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -435,20 +427,12 @@
       "creditos": 1,
       "grupos": [
         {
-          "grupo": 1,
-          "profesor": "PEREIRA ALONSO EDUARDO JOSE",
-          "modalidad": "Regular",
-          "horario": "MIE[14:00-15:50]",
-          "edificio": "G5",
-          "aula": "1"
-        },
-        {
           "grupo": 2,
           "profesor": "PEREIRA ALONSO EDUARDO JOSE",
           "modalidad": "Regular",
           "horario": "JUE[14:00-15:50]",
-          "edificio": "G5",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -462,8 +446,8 @@
           "profesor": "PICADO VALVERDE SOFIA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -477,8 +461,8 @@
           "profesor": "PIEDRA SEGURA JUAN FRANCISCO",
           "modalidad": "Regular",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -492,8 +476,8 @@
           "profesor": "POVEDA MONTOYA WILLIAM ALONSO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F1",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -507,8 +491,8 @@
           "profesor": "ROJAS CHACON LUIS GUSTAVO",
           "modalidad": "Virtual",
           "horario": "SAB[08:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -522,8 +506,8 @@
           "profesor": "SOLANO RIVERA WILLIAM",
           "modalidad": "Regular",
           "horario": "VIE[07:30-12:20]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -537,8 +521,8 @@
           "profesor": "TAPIA BALLADARES MARCO",
           "modalidad": "Regular",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -552,8 +536,8 @@
           "profesor": "TORRES HERNANDEZ LEONARDO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-10:20]",
-          "edificio": "D3",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -567,8 +551,8 @@
           "profesor": "UMAÑA QUIROS BRAULIO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F1",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -582,8 +566,8 @@
           "profesor": "VARGAS CORRALES CAMILO JOSE",
           "modalidad": "Semipresencial",
           "horario": "LUN[08:30-11:20]",
-          "edificio": "F1",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

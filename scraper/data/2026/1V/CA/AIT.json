@@ -1,0 +1,160 @@
+{
+  "codigoEscuela": "AIT",
+  "nombreEscuela": "ESCUELA DE ADMINISTRACION DE TECNOLOGIAS DE INFORMACION",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "TI3602",
+      "nombre": "Producción, logística y calidad",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVAREZ SOLORZANO DIOGENES",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI7503",
+      "nombre": "Arquitectura de aplicaciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
+          "modalidad": "Virtual",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI5901",
+      "nombre": "Espíritu emprendedor y creación de empresas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DELGADO LEANDRO GONZALO",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50] JUE[13:00-16:50] VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI8902",
+      "nombre": "Adquisición de TI",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ QUESADA MELVIN",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI9004",
+      "nombre": "Administración de servicios de tecnologías de información II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "LEIVA CHINCHILLA PEDRO IGNACIO",
+          "modalidad": "Virtual",
+          "horario": "LUN[17:00-20:50] MAR[17:00-20:50] MIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI4500",
+      "nombre": "Ingeniería de requerimientos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORALES RODRIGUEZ NESTOR",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI3600",
+      "nombre": "Bases de datos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO CHAVES LUIS PABLO",
+          "modalidad": "Virtual",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI8109",
+      "nombre": "Formulación y evaluación de proyectos de TI",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TENCIO CHACON ANGELA",
+          "modalidad": "Virtual",
+          "horario": "LUN[15:00-18:50] MAR[15:00-18:50] JUE[16:00-18:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI4200",
+      "nombre": "Economía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "TORRES CARBALLO FEDERICO",
+          "modalidad": "Virtual",
+          "horario": "MAR[13:00-16:50] JUE[13:00-16:50] VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "TI1102",
+      "nombre": "Información contable",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "UMAÑA CENTENO GABRIEL",
+          "modalidad": "Virtual",
+          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

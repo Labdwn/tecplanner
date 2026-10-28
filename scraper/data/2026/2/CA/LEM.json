@@ -16,8 +16,8 @@
           "profesor": "ACUÑA CHACON REIMAN",
           "modalidad": "Virtual",
           "horario": "VIE[17:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "MEZA CASCANTE LUIS GERARDO",
           "modalidad": "Virtual",
           "horario": "MAR[17:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "MONGE FALLAS JORGE",
           "modalidad": "Virtual",
           "horario": "MIE[17:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "SANABRIA BRENES GEOVANNI",
           "modalidad": "Semipresencial",
           "horario": "JUE[17:00-20:50]",
-          "edificio": "C1",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

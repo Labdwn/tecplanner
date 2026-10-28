@@ -1,0 +1,123 @@
+{
+  "codigoEscuela": "EMT",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN MECATRONICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "MT6002",
+      "nombre": "Termofluidos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA MENESES IVAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT9002",
+      "nombre": "Mantenimiento de sistemas mecatrónicos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT6003",
+      "nombre": "Laboratorio de termofluidos",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "GARRO ZAVALETA JOSE ALBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] MIE[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MONGE RUIZ OSCAR EDUARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] MIE[13:00-14:50] JUE[13:00-14:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT6001",
+      "nombre": "Probabilidad y procesos estocásticos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MAYORGA ESPINOZA CARLOS",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-10:20] MIE[07:30-10:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT5002",
+      "nombre": "Modelos de sistemas para mecatrónica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORA MELENDEZ JAIME",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] JUE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT7003",
+      "nombre": "Microprocesadores y microcontroladores",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SALAZAR GARCIA CARLOS ADRIAN",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT2001",
+      "nombre": "Circuitos eléctricos en CC y CA",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VAQUERANO PINEDA NICOLAS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -16,8 +16,8 @@
           "profesor": "CASTILLO FALLAS JOSE CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "CASTILLO FALLAS JOSE CARLOS",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "CASTILLO FALLAS JOSE CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] JUE[17:00-18:50]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

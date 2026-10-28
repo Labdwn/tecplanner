@@ -16,8 +16,31 @@
           "profesor": "ABREGO CAMPOS LEONEL",
           "modalidad": "Virtual",
           "horario": "MIE[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "LA5301",
+      "nombre": "Políticas económicas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "ALFARO RAMOS ALFREDO",
+          "modalidad": "Virtual",
+          "horario": "MAR[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 40,
+          "profesor": "CHAVARRIA HIDALGO CARLOS",
+          "modalidad": "Virtual",
+          "horario": "VIE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -28,11 +51,11 @@
       "grupos": [
         {
           "grupo": 40,
-          "profesor": "ARTAVIA DELGADO RANDALL",
+          "profesor": "CARMONA CHAVES JORGE",
           "modalidad": "Virtual",
           "horario": "LUN[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,23 +69,8 @@
           "profesor": "CERVANTES MEZA ALBERTO",
           "modalidad": "Virtual",
           "horario": "VIE[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
-        }
-      ]
-    },
-    {
-      "codigo": "LA5301",
-      "nombre": "Políticas económicas",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 40,
-          "profesor": "CHAVARRIA HIDALGO CARLOS",
-          "modalidad": "Virtual",
-          "horario": "VIE[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +99,16 @@
           "profesor": "GONZALEZ LEON JONATHAN",
           "modalidad": "Virtual",
           "horario": "MIE[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 41,
+          "profesor": "GONZALEZ LEON JONATHAN",
+          "modalidad": "Virtual",
+          "horario": "JUE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +122,8 @@
           "profesor": "GUZMAN RIVERA DIEGO ANDRES",
           "modalidad": "Virtual",
           "horario": "JUE[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,8 +137,8 @@
           "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
           "modalidad": "Virtual",
           "horario": "JUE[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -136,8 +152,8 @@
           "profesor": "JAUBERT SOLANO WILLIAM",
           "modalidad": "Virtual",
           "horario": "MAR[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -151,8 +167,8 @@
           "profesor": "MARTINEZ SOLIS KELLER",
           "modalidad": "Virtual",
           "horario": "SAB[08:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -166,8 +182,8 @@
           "profesor": "MONTOYA RODRIGUEZ ILEANA",
           "modalidad": "Virtual",
           "horario": "LUN[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -177,12 +193,20 @@
       "creditos": 3,
       "grupos": [
         {
+          "grupo": 41,
+          "profesor": "PRADO ARROYO JOSE",
+          "modalidad": "Virtual",
+          "horario": "LUN[18:20-21:05]",
+          "edificio": null,
+          "aula": null
+        },
+        {
           "grupo": 40,
           "profesor": "SOLANO MARTINEZ MAURICIO",
           "modalidad": "Virtual",
           "horario": "LUN[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -195,9 +219,9 @@
           "grupo": 40,
           "profesor": "SOLIS RAMIREZ INGRID",
           "modalidad": "Virtual",
-          "horario": "MIE[16:50-19:10]",
-          "edificio": "ND",
-          "aula": "0"
+          "horario": "MIE[18:20-21:05]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -211,8 +235,8 @@
           "profesor": "SOLIS SALAZAR MARTIN",
           "modalidad": "Virtual",
           "horario": "LUN[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -226,8 +250,8 @@
           "profesor": "TREJOS MONGE SONIA",
           "modalidad": "Virtual",
           "horario": "MAR[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -241,8 +265,8 @@
           "profesor": "VALERIN CASTRO ALEXANDER",
           "modalidad": "Virtual",
           "horario": "JUE[18:20-21:05]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

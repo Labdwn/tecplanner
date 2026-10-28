@@ -1,0 +1,168 @@
+{
+  "codigoEscuela": "PI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA EN PRODUCCION INDUSTRIAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "PI2608",
+      "nombre": "Análisis estadístico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALEGRIA GRANADOS MELISSA",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4803",
+      "nombre": "Gestión de la innovación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARIAS RAMIREZ DENNIS",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5708",
+      "nombre": "Gestión por procesos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES BONILLA JARY",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3512",
+      "nombre": "Dirección de personal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "BRENES MORALES ORLANDO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI4001",
+      "nombre": "Dirección de personal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CORDOBA GONZALEZ CARLOS MANUEL",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI2610",
+      "nombre": "Probabilidad y estadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "DANIELS CHAN ESTEBAN",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50] JUE[13:00-16:50] VIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3612",
+      "nombre": "Probabilidad y estadística II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FONSECA RETANA LEONEL",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI3206",
+      "nombre": "Logística y administración de la cadena de abastecimiento",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GARCES MONGE LUIS IGNACIO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-11:20] VIE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI2609",
+      "nombre": "Probabilidad y estadística",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MADRIZ QUIROS CARMEN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SALAS CERDAS LISS",
+          "modalidad": "Regular",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "PI5101",
+      "nombre": "Gestión de procesos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SILES SOLANO ANA CATALINA",
+          "modalidad": "Virtual",
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

@@ -16,8 +16,8 @@
           "profesor": "VARGAS GOMEZ RODRIGO DAVID",
           "modalidad": "Semipresencial",
           "horario": "LUN[08:30-11:20]",
-          "edificio": "L",
-          "aula": "14"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

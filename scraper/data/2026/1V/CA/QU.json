@@ -1,0 +1,70 @@
+{
+  "codigoEscuela": "QU",
+  "nombreEscuela": "ESCUELA DE QUIMICA",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "QU1106",
+      "nombre": "Química básica I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FLORES CANTILLO ADRIAN",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU1107",
+      "nombre": "Química básica II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERRERA NUÑEZ JACQUELINE MARIA",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20] MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2403",
+      "nombre": "Química orgánica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PUENTE URBINA ALLEN ARTURO",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "QU2407",
+      "nombre": "Fundamentos de química orgánica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANDOVAL MORA JOSE ALBERTO",
+          "modalidad": "Regular",
+          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

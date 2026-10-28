@@ -16,16 +16,16 @@
           "profesor": "ARAYA MENESES IVAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ARAYA MENESES IVAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "F3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,16 +39,16 @@
           "profesor": "ARAYA MENESES IVAN",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ARAYA MENESES IVAN",
           "modalidad": "Semipresencial",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -62,24 +62,24 @@
           "profesor": "ARIAS CARTIN JUAN PABLO",
           "modalidad": "Laboratorio",
           "horario": "MAR[07:30-09:20]",
-          "edificio": "D10",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GARRO ZAVALETA JOSE ALBERTO",
           "modalidad": "Laboratorio",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "D10",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MONGE RUIZ OSCAR EDUARDO",
           "modalidad": "Laboratorio",
           "horario": "MAR[15:00-16:50]",
-          "edificio": "D10",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -93,32 +93,32 @@
           "profesor": "ARIAS ESQUIVEL YEINER",
           "modalidad": "Laboratorio",
           "horario": "MAR[13:00-14:50]",
-          "edificio": "K1",
-          "aula": "112"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "ASENJO CASTILLO EDUARDO JOSE",
           "modalidad": "Laboratorio",
           "horario": "MIE[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "112"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MELENDEZ POLTRONIERI ROGER",
           "modalidad": "Laboratorio",
           "horario": "MAR[18:00-19:50]",
-          "edificio": "K1",
-          "aula": "112"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "VILCHEZ MONGE MARTA",
           "modalidad": "Laboratorio",
           "horario": "MIE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "112"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -132,8 +132,8 @@
           "profesor": "ARIAS ESQUIVEL YEINER",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "F4",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -147,16 +147,16 @@
           "profesor": "ASENJO CASTILLO EDUARDO JOSE",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "F4",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "CARRASQUILLA BATISTA ARYS INDIRA",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "F4",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -170,16 +170,16 @@
           "profesor": "BRENES TORRES JUAN CARLOS",
           "modalidad": "Laboratorio",
           "horario": "MAR[15:00-16:50]",
-          "edificio": "K1",
-          "aula": "112"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "MELENDEZ POLTRONIERI ROGER",
           "modalidad": "Laboratorio",
           "horario": "LUN[18:00-19:50]",
-          "edificio": "K1",
-          "aula": "112"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -193,8 +193,8 @@
           "profesor": "BRENES TORRES JUAN CARLOS",
           "modalidad": "Semipresencial",
           "horario": "JUE[07:30-11:20]",
-          "edificio": "F3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -208,8 +208,8 @@
           "profesor": "BRENES TORRES JUAN CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-11:20]",
-          "edificio": "F3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -223,16 +223,16 @@
           "profesor": "CASTRO GODINEZ JORGE ALBERTO",
           "modalidad": "Laboratorio",
           "horario": "JUE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "112"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "CASTRO GODINEZ JORGE ALBERTO",
           "modalidad": "Laboratorio",
           "horario": "VIE[07:30-09:20]",
-          "edificio": "K1",
-          "aula": "112"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -246,8 +246,8 @@
           "profesor": "CRESPO MARINO JUAN LUIS",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "F3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -261,8 +261,8 @@
           "profesor": "CRESPO MARINO JUAN LUIS",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "F3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -276,8 +276,8 @@
           "profesor": "CRESPO MARINO JUAN LUIS",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "F3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -291,8 +291,8 @@
           "profesor": "DEL VALLE GRANADOS IGNACIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "F4",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -306,16 +306,8 @@
           "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
           "modalidad": "Laboratorio",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "F3",
-          "aula": "1"
-        },
-        {
-          "grupo": 2,
-          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
-          "modalidad": "Laboratorio",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": "F3",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -329,16 +321,39 @@
           "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "F3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-16:50]",
-          "edificio": "F3",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "MT8003",
+      "nombre": "Sistemas de manufactura",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[13:00-17:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "MORA MELENDEZ JAIME",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-17:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -352,8 +367,16 @@
           "profesor": "GUERRERO  CASTRO OSVALDO",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-11:20]",
-          "edificio": "F4",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "VAQUERANO PINEDA NICOLAS",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -367,24 +390,24 @@
           "profesor": "GUERRERO  CASTRO OSVALDO",
           "modalidad": "Laboratorio",
           "horario": "MIE[07:30-11:20]",
-          "edificio": "D10",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MATA ORTEGA SEBASTIAN",
           "modalidad": "Laboratorio",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "D10",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MATA ORTEGA SEBASTIAN",
           "modalidad": "Laboratorio",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "D10",
-          "aula": "10"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -398,8 +421,8 @@
           "profesor": "MAYORGA ESPINOZA CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-10:20]",
-          "edificio": "D3",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -413,16 +436,24 @@
           "profesor": "MEZA OBANDO FELIPE",
           "modalidad": "Semipresencial",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F4",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 3,
+          "profesor": "MEZA OBANDO FELIPE",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VAQUERANO PINEDA NICOLAS",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "F4",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -436,8 +467,8 @@
           "profesor": "MONTERO JIMENEZ JUAN JOSE",
           "modalidad": "Semipresencial",
           "horario": "MIE[17:00-20:50]",
-          "edificio": "F4",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -451,8 +482,8 @@
           "profesor": "MONTERO RODRIGUEZ JUAN JOSE",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "F4",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -466,8 +497,8 @@
           "profesor": "MORA MELENDEZ JAIME",
           "modalidad": "Semipresencial",
           "horario": "LUN[17:00-20:50] LUN[17:00-20:50]",
-          "edificio": "F3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -481,23 +512,8 @@
           "profesor": "MORA MELENDEZ JAIME",
           "modalidad": "Semipresencial",
           "horario": "LUN[08:30-11:20]",
-          "edificio": "F3",
-          "aula": "4"
-        }
-      ]
-    },
-    {
-      "codigo": "MT8003",
-      "nombre": "Sistemas de manufactura",
-      "creditos": 4,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "MORA MELENDEZ JAIME",
-          "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-17:50]",
-          "edificio": "G18",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -511,8 +527,8 @@
           "profesor": "ORTIZ LEON GABRIELA",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": "F5",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -526,8 +542,8 @@
           "profesor": "PIEDRA CAMACHO RODOLFO JOSE",
           "modalidad": "Semipresencial",
           "horario": "VIE[13:00-16:50]",
-          "edificio": "F1",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -541,8 +557,8 @@
           "profesor": "SALAZAR GARCIA CARLOS ADRIAN",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "F4",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -556,8 +572,8 @@
           "profesor": "SALAZAR GARCIA CARLOS ADRIAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[17:00-20:50]",
-          "edificio": "F3",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

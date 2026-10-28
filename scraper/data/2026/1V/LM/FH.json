@@ -1,0 +1,78 @@
+{
+  "codigoEscuela": "FH",
+  "nombreEscuela": "FORMACION HUMANISTICA",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "FH0025",
+      "nombre": "Sexualidad pareja y teoría psicosexual",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ACUÑA AVALOS PAOLA",
+          "modalidad": "Virtual",
+          "horario": "MIE[18:00-21:50] JUE[18:00-21:50] VIE[18:00-21:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0173",
+      "nombre": "Situación energética mundial. Opciones de Costa Rica a corto y mediano plazo",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "CARVAJAL ALFARO VANESSA",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:30-12:20] JUE[09:30-12:20] VIE[09:30-12:20] SAB[09:30-12:20]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0011",
+      "nombre": "La revolución científica del siglo XVI y XVII",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SEQUEIRA CASTRO DAVID",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "FH0210",
+      "nombre": "Sexo y erotismo en la literatura",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Virtual",
+          "horario": "JUE[07:30-12:20] SAB[07:30-12:20]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 61,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-17:50] VIE[13:00-17:50]",
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    }
+  ]
+}

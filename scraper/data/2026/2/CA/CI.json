@@ -16,80 +16,80 @@
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Regular",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 10,
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Regular",
           "horario": "VIE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
           "modalidad": "Regular",
           "horario": "MIE[15:00-17:50]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Regular",
           "horario": "LUN[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "MURILLO ESCALANTE ROCIO",
           "modalidad": "Regular",
           "horario": "JUE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "RIVERA VEGA KATERINE",
           "modalidad": "Regular",
           "horario": "MAR[17:00-19:50]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "VALLECILLO ALFARO JOHANNY",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "VALLECILLO ALFARO JOHANNY",
           "modalidad": "Regular",
           "horario": "LUN[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -103,88 +103,88 @@
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Regular",
           "horario": "MAR[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "BRENES ROJAS LEONARDO",
           "modalidad": "Regular",
           "horario": "LUN[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
           "modalidad": "Regular",
           "horario": "MIE[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 10,
           "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
           "modalidad": "Regular",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "GUILLEN JIMENEZ LUIS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[15:00-17:50]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "HERRERA JIMENEZ INGRID",
           "modalidad": "Regular",
           "horario": "MAR[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
           "profesor": "MOLINA VILLALOBOS TANIA",
           "modalidad": "Regular",
           "horario": "JUE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "RAMIREZ CASTRO MONSERRAT",
           "modalidad": "Regular",
           "horario": "MIE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 11,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Regular",
           "horario": "VIE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -198,88 +198,88 @@
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 11,
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
           "modalidad": "Regular",
           "horario": "MAR[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "HERRERA JIMENEZ INGRID",
           "modalidad": "Regular",
           "horario": "LUN[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Regular",
           "horario": "MAR[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "SOLANO OBANDO MABEL",
           "modalidad": "Regular",
           "horario": "LUN[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "SOLANO OBANDO MABEL",
           "modalidad": "Regular",
           "horario": "MIE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 7,
           "profesor": "SOLANO OBANDO MABEL",
           "modalidad": "Regular",
           "horario": "JUE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 10,
           "profesor": "SOLANO OBANDO MABEL",
           "modalidad": "Regular",
           "horario": "MIE[16:00-18:50]",
-          "edificio": "F9",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "VALLECILLO ALFARO JOHANNY",
           "modalidad": "Regular",
           "horario": "VIE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "VALLECILLO ALFARO JOHANNY",
           "modalidad": "Regular",
           "horario": "VIE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -293,32 +293,40 @@
           "profesor": "AMADOR SOLANO GABRIELA",
           "modalidad": "Regular",
           "horario": "JUE[09:30-12:20]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 1,
+          "profesor": "ARCE FUENTES JOSE DANIEL",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "RIOS SANCHEZ ARMANDO",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
-          "grupo": 1,
-          "profesor": null,
+          "grupo": 5,
+          "profesor": "VARGAS CASTRO ERICKA",
           "modalidad": "Regular",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": "F5",
-          "aula": "3"
+          "horario": "MIE[09:30-12:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -332,264 +340,264 @@
           "profesor": "AMADOR SOLANO GABRIELA",
           "modalidad": "Regular",
           "horario": "MAR[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 28,
           "profesor": "AMADOR SOLANO GABRIELA",
           "modalidad": "Regular",
           "horario": "VIE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 26,
+          "profesor": "ARCE FUENTES JOSE DANIEL",
+          "modalidad": "Regular",
+          "horario": "JUE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 30,
+          "profesor": "ARCE FUENTES JOSE DANIEL",
+          "modalidad": "Regular",
+          "horario": "VIE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 1,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Regular",
           "horario": "LUN[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Regular",
           "horario": "LUN[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 5,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Regular",
           "horario": "MAR[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 8,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 10,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Regular",
           "horario": "MAR[16:00-18:50]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 12,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Regular",
           "horario": "MIE[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 31,
+          "profesor": "GOMEZ MONTOYA CAROLINA",
+          "modalidad": "Regular",
+          "horario": "VIE[18:00-20:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 6,
           "profesor": "MORALES GARAY SARAY",
           "modalidad": "Regular",
           "horario": "MAR[07:30-10:20]",
-          "edificio": "F5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 19,
           "profesor": "MORALES GARAY SARAY",
           "modalidad": "Regular",
           "horario": "JUE[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 27,
           "profesor": "MORALES GARAY SARAY",
           "modalidad": "Regular",
           "horario": "VIE[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 4,
+          "profesor": "MORALES SOLANO PAOLA NATALIA",
+          "modalidad": "Regular",
+          "horario": "LUN[18:00-20:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 25,
+          "profesor": "MORALES SOLANO PAOLA NATALIA",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-19:50]",
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 32,
+          "profesor": "MORALES SOLANO PAOLA NATALIA",
+          "modalidad": "Regular",
+          "horario": "VIE[16:00-18:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "PEREZ ROJAS NELSON",
           "modalidad": "Regular",
           "horario": "LUN[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 21,
           "profesor": "PEREZ ROJAS NELSON",
           "modalidad": "Regular",
           "horario": "JUE[09:30-12:20]",
-          "edificio": "F5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 13,
           "profesor": "RIOS SANCHEZ ARMANDO",
           "modalidad": "Regular",
           "horario": "MIE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 15,
           "profesor": "RODRIGUEZ HERRA NATALIA",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 17,
           "profesor": "RODRIGUEZ HERRA NATALIA",
           "modalidad": "Regular",
           "horario": "MIE[17:00-19:50]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 20,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Regular",
           "horario": "JUE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 23,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 33,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Regular",
           "horario": "VIE[09:30-12:20]",
-          "edificio": "F5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 16,
+          "profesor": "SANCHEZ SANCHEZ DANIELA",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-18:50]",
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 9,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 11,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Regular",
           "horario": "MAR[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 14,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 18,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Regular",
           "horario": "MIE[18:00-20:50]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 22,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 29,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Regular",
           "horario": "VIE[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "4"
-        },
-        {
-          "grupo": 4,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "5"
-        },
-        {
-          "grupo": 16,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "MIE[16:00-18:50]",
-          "edificio": "F9",
-          "aula": "4"
-        },
-        {
-          "grupo": 25,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": "F9",
-          "aula": "4"
-        },
-        {
-          "grupo": 26,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": "F5",
-          "aula": "3"
-        },
-        {
-          "grupo": 30,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "VIE[17:00-19:50]",
-          "edificio": "F9",
-          "aula": "4"
-        },
-        {
-          "grupo": 31,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "VIE[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "5"
-        },
-        {
-          "grupo": 32,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "VIE[16:00-18:50]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 24,
           "profesor": "SOLANO MORAGA SIGRID",
           "modalidad": "Regular",
           "horario": "JUE[15:00-17:50]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -603,8 +611,8 @@
           "profesor": "BLACKWOOD BARRETT AISHA JOHANNA",
           "modalidad": "Virtual",
           "horario": "JUE[18:00-20:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -618,8 +626,8 @@
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20] SAB[15:00-16:50]",
-          "edificio": "F9",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -633,8 +641,8 @@
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Regular",
           "horario": "LUN[07:30-10:20]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -648,32 +656,32 @@
           "profesor": "GODINEZ ROJAS PAULETTE",
           "modalidad": "Regular",
           "horario": "LUN[09:30-12:20]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "MORALES GARAY SARAY",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
-          "profesor": null,
+          "profesor": "MORALES SOLANO PAOLA NATALIA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "F5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 4,
-          "profesor": null,
+          "profesor": "MORALES SOLANO PAOLA NATALIA",
           "modalidad": "Regular",
           "horario": "VIE[07:30-10:20]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -687,8 +695,8 @@
           "profesor": "JIMENEZ RODRIGUEZ ROXANA",
           "modalidad": "Regular",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -702,16 +710,16 @@
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Regular",
           "horario": "MAR[18:00-21:50] SAB[13:00-14:50]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Regular",
           "horario": "MIE[13:00-16:50] SAB[15:00-16:50]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -725,16 +733,31 @@
           "profesor": "MOLINA VILLALOBOS TANIA",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50] SAB[15:00-16:50]",
-          "edificio": "F9",
-          "aula": "8"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Regular",
           "horario": "VIE[07:30-11:20] SAB[15:00-16:50]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "CI1406",
+      "nombre": "Argumentación e investigación en comunicación académica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORALES SOLANO PAOLA NATALIA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -748,8 +771,8 @@
           "profesor": "MURILLO ESCALANTE ROCIO",
           "modalidad": "Regular",
           "horario": "JUE[13:00-16:50] SAB[15:00-16:50]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -763,23 +786,8 @@
           "profesor": "RIVERA VEGA KATERINE",
           "modalidad": "Regular",
           "horario": "LUN[18:00-20:50]",
-          "edificio": "F9",
-          "aula": "7"
-        }
-      ]
-    },
-    {
-      "codigo": "CI1406",
-      "nombre": "Argumentación e investigación en comunicación académica",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": null,
-          "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "F5",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -793,16 +801,16 @@
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Regular",
           "horario": "MIE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Regular",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "F5",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -816,8 +824,8 @@
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Regular",
           "horario": "JUE[09:30-12:20]",
-          "edificio": "F9",
-          "aula": "9"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

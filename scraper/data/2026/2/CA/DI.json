@@ -16,16 +16,31 @@
           "profesor": "ARAYA CALVO MIGUEL",
           "modalidad": "Semipresencial",
           "horario": "JUE[13:00-16:50]",
-          "edificio": "K6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "ARAYA CALVO MIGUEL",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
-          "edificio": "K6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "ID5611",
+      "nombre": "Trabajo final de graduación (comunicación visual)",
+      "creditos": 7,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ARAYA OROZCO KARLA",
+          "modalidad": "Virtual",
+          "horario": "LUN[08:30-10:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -39,8 +54,8 @@
           "profesor": "ARAYA ROJAS LUIS CARLOS",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-09:20]",
-          "edificio": "K6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -54,16 +69,16 @@
           "profesor": "ARAYA ROJAS LUIS CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MAR[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GONZALEZ RAMIREZ MARIO",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -77,8 +92,8 @@
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
           "horario": "VIE[07:30-09:20]",
-          "edificio": "K6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -92,8 +107,16 @@
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-16:50]",
-          "edificio": "K6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "BRENES CATALAN JOSE",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[07:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -107,16 +130,16 @@
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-10:20]",
-          "edificio": "K6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
           "horario": "MIE[07:30-10:20]",
-          "edificio": "K6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -130,16 +153,16 @@
           "profesor": "CUBERO UGALDE MARCELA",
           "modalidad": "Semipresencial",
           "horario": "MAR[08:30-11:20] MAR[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "CUBERO UGALDE MARCELA",
           "modalidad": "Semipresencial",
           "horario": "JUE[08:30-11:20] JUE[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -153,8 +176,8 @@
           "profesor": "CUBERO UGALDE MARCELA",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-15:50] MIE[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -168,8 +191,8 @@
           "profesor": "CUBERO UGALDE MARCELA",
           "modalidad": "Virtual",
           "horario": "LUN[08:30-10:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -183,24 +206,24 @@
           "profesor": "GONZALEZ CAMACHO FEDERICO",
           "modalidad": "Semipresencial",
           "horario": "MAR[08:30-11:20] JUE[08:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "GONZALEZ CAMACHO FEDERICO",
           "modalidad": "Semipresencial",
           "horario": "MIE[15:00-17:50] VIE[08:30-11:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 3,
           "profesor": "GONZALEZ CAMACHO FEDERICO",
           "modalidad": "Semipresencial",
           "horario": "MAR[15:00-17:50] JUE[15:00-17:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -214,8 +237,8 @@
           "profesor": "GONZALEZ CAMACHO FEDERICO",
           "modalidad": "Semipresencial",
           "horario": "LUN[08:30-11:20] VIE[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -229,8 +252,8 @@
           "profesor": "GONZALEZ RAMIREZ MARIO",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -244,8 +267,8 @@
           "profesor": "GONZALEZ RAMIREZ MARIO",
           "modalidad": "Virtual",
           "horario": "MIE[18:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -259,8 +282,8 @@
           "profesor": "GRANADOS GOMEZ DONALD",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-15:50] JUE[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -274,16 +297,16 @@
           "profesor": "GRANADOS GOMEZ DONALD",
           "modalidad": "Semipresencial",
           "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
-          "edificio": "K6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MOREIRA ACUÑA SILVIA",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "K6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -297,8 +320,8 @@
           "profesor": "HERNANDEZ CASTRO FRANKLIN",
           "modalidad": "Semipresencial",
           "horario": "MAR[08:30-12:20] MAR[08:30-12:20]",
-          "edificio": "K6",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -312,8 +335,8 @@
           "profesor": "HERNANDEZ CASTRO FRANKLIN",
           "modalidad": "Virtual",
           "horario": "MIE[18:00-21:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -327,8 +350,8 @@
           "profesor": "MONTERO PIZARRO LEONARDO",
           "modalidad": "Semipresencial",
           "horario": "MAR[08:30-11:20] JUE[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -342,16 +365,16 @@
           "profesor": "MONTERO PIZARRO LEONARDO",
           "modalidad": "Semipresencial",
           "horario": "LUN[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MONTERO PIZARRO LEONARDO",
           "modalidad": "Semipresencial",
           "horario": "MIE[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -365,8 +388,8 @@
           "profesor": "MONTERO PIZARRO LEONARDO",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-15:50] JUE[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -380,16 +403,31 @@
           "profesor": "MORALES RODRIGUEZ PAULA",
           "modalidad": "Semipresencial",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "MORALES RODRIGUEZ PAULA",
           "modalidad": "Semipresencial",
           "horario": "VIE[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "ID4503",
+      "nombre": "Diseño VIII (proyecto de graduación)",
+      "creditos": 10,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MORALES RODRIGUEZ PAULA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[08:30-10:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -403,8 +441,8 @@
           "profesor": "MOREIRA ACUÑA SILVIA",
           "modalidad": "Semipresencial",
           "horario": "JUE[07:30-10:20]",
-          "edificio": "K6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -418,8 +456,16 @@
           "profesor": "RAMIREZ CHACON FERNANDO",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "RAMIREZ CHACON FERNANDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[16:00-18:50]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -433,8 +479,8 @@
           "profesor": "SANCHEZ BRENES OLGA",
           "modalidad": "Semipresencial",
           "horario": "MAR[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -448,8 +494,16 @@
           "profesor": "SANCHEZ BRENES OLGA",
           "modalidad": "Semipresencial",
           "horario": "JUE[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
+        },
+        {
+          "grupo": 2,
+          "profesor": "SANCHEZ BRENES OLGA",
+          "modalidad": "Semipresencial",
+          "horario": "VIE[08:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -463,8 +517,8 @@
           "profesor": "SEGURA SOLIS DAVID",
           "modalidad": "Semipresencial",
           "horario": "MIE[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -478,23 +532,8 @@
           "profesor": "SEGURA SOLIS DAVID",
           "modalidad": "Semipresencial",
           "horario": "JUE[18:00-19:50]",
-          "edificio": "K6",
-          "aula": "3"
-        }
-      ]
-    },
-    {
-      "codigo": "ID5611",
-      "nombre": "Trabajo final de graduación (comunicación visual)",
-      "creditos": 7,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": null,
-          "modalidad": "Virtual",
-          "horario": "LUN[08:30-10:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -508,16 +547,16 @@
           "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20]",
-          "edificio": "K6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
           "modalidad": "Semipresencial",
           "horario": "VIE[13:00-14:50]",
-          "edificio": "K6",
-          "aula": "4"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -531,16 +570,16 @@
           "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-15:50]",
-          "edificio": "K6",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 2,
           "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
           "modalidad": "Semipresencial",
           "horario": "VIE[08:30-11:20]",
-          "edificio": "K6",
-          "aula": "2"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -554,8 +593,8 @@
           "profesor": "VARELA SOJO XINIA",
           "modalidad": "Virtual",
           "horario": "MAR[18:00-21:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -569,8 +608,8 @@
           "profesor": "VARELA SOJO XINIA",
           "modalidad": "Virtual",
           "horario": "LUN[18:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -584,8 +623,8 @@
           "profesor": "WALSH ZUÑIGA YOSELYN",
           "modalidad": "Virtual",
           "horario": "VIE[18:00-19:50]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

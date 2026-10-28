@@ -16,8 +16,8 @@
           "profesor": "ALVARADO CAMPOS LEISTER FRANCISCO",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "CAMPOS AGUERO CRISTIAN",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "CAMPOS AGUERO CRISTIAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[10:30-12:20] JUE[09:30-11:20]",
-          "edificio": "L",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "CAMPOS AGUERO CRISTIAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "7"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "CAMPOS AGUILAR JOSE ANGEL",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +91,8 @@
           "profesor": "CAMPOS AGUILAR JOSE ANGEL",
           "modalidad": "Regular",
           "horario": "MAR[16:00-17:50] JUE[16:00-17:50]",
-          "edificio": "L",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -106,8 +106,8 @@
           "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
           "modalidad": "Virtual",
           "horario": "SAB[08:30-12:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -121,8 +121,8 @@
           "profesor": "GUTIERREZ ALFARO JAIME",
           "modalidad": "Semipresencial",
           "horario": "VIE[15:00-18:50]",
-          "edificio": "L",
-          "aula": "12"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -136,8 +136,8 @@
           "profesor": "MATA RODRIGUEZ WILLIAM",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "L",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -151,16 +151,16 @@
           "profesor": "MIRANDA FAJARDO JEAN CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MIE[16:00-17:50] VIE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         },
         {
           "grupo": 61,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "L",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -174,8 +174,8 @@
           "profesor": "MIRANDA FAJARDO JEAN CARLOS",
           "modalidad": "Semipresencial",
           "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": "L",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -189,8 +189,8 @@
           "profesor": "MORA FONSECA DAVID RICARDO",
           "modalidad": "Semipresencial",
           "horario": "MIE[16:00-17:50] VIE[15:00-16:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -204,8 +204,8 @@
           "profesor": "MORA FONSECA DAVID RICARDO",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -219,8 +219,8 @@
           "profesor": "MORA FONSECA DAVID RICARDO",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "11"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -234,8 +234,8 @@
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Regular",
           "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": "L",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -249,8 +249,8 @@
           "profesor": "PECOU JOHNSON JOSS",
           "modalidad": "Regular",
           "horario": "LUN[16:00-17:50] MIE[16:00-17:50]",
-          "edificio": "L",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -264,8 +264,8 @@
           "profesor": "PECOU JOHNSON JOSS",
           "modalidad": "Regular",
           "horario": "LUN[18:00-19:50] MIE[18:00-19:50]",
-          "edificio": "L",
-          "aula": "5"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -279,8 +279,8 @@
           "profesor": "RODRIGUEZ DAVILA ALLAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -294,8 +294,23 @@
           "profesor": "RODRIGUEZ DAVILA ALLAN",
           "modalidad": "Semipresencial",
           "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": "L",
-          "aula": "1"
+          "edificio": null,
+          "aula": null
+        }
+      ]
+    },
+    {
+      "codigo": "IC8842",
+      "nombre": "Práctica profesional",
+      "creditos": 12,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "RODRIGUEZ DAVILA ALLAN",
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20]",
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -309,8 +324,8 @@
           "profesor": "SOTO CHAVES LUIS PABLO",
           "modalidad": "Virtual",
           "horario": "SAB[08:30-12:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -324,8 +339,8 @@
           "profesor": "VEGA DIAZ JEAN",
           "modalidad": "Regular",
           "horario": "LUN[17:00-18:50] MIE[17:00-18:50]",
-          "edificio": "L",
-          "aula": "3"
+          "edificio": null,
+          "aula": null
         }
       ]
     }

@@ -16,8 +16,8 @@
           "profesor": "ALVAREZ HERNANDEZ MARIAM",
           "modalidad": "Semipresencial",
           "horario": "VIE[07:30-11:20]",
-          "edificio": "B2",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -31,8 +31,8 @@
           "profesor": "ALVAREZ HERNANDEZ MARIAM",
           "modalidad": "Semipresencial",
           "horario": "VIE[13:00-16:50]",
-          "edificio": "B2",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -46,8 +46,8 @@
           "profesor": "ARIAS HIDALGO DAVID",
           "modalidad": "Semipresencial",
           "horario": "MAR[13:00-15:50]",
-          "edificio": "B2",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -61,8 +61,8 @@
           "profesor": "CEDEÑO CAMACHO MAURICIO",
           "modalidad": "Virtual",
           "horario": "MIE[09:30-12:20]",
-          "edificio": "ND",
-          "aula": "0"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -76,8 +76,8 @@
           "profesor": "MORA SANCHEZ AMILKAR",
           "modalidad": "Regular",
           "horario": "MAR[09:30-12:20]",
-          "edificio": "B2",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     },
@@ -91,8 +91,8 @@
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
           "horario": "JUE[13:00-15:50]",
-          "edificio": "B2",
-          "aula": "6"
+          "edificio": null,
+          "aula": null
         }
       ]
     }
