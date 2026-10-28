@@ -15,7 +15,7 @@ import { obtenerEscuelas, obtenerCursos } from './api.js';
 import { parsearEscuelas, parsearCursosPorEscuela, periodoEfectivo } from './parser.js';
 import { actualizarHistorial } from './history.js';
 import { construirMetadata } from './metadata.js';
-import { crearAgregador } from './agregador.js';
+import { crearAgregador, fusionarIndices } from './agregador.js';
 import { validarArchivo } from './validacion.js';
 import { escribirJSON, escribirJSONSiCambio, leerJSONSiExiste } from './utils.js';
 import { ejecutarFase2 } from './fase2.js';
@@ -114,7 +114,14 @@ async function escribirTodo(archivos, historial, construirMetadataFinal) {
     if (escribioHistorial) huboCambios = true;
 
     const { construirIndice } = await import('./agregador.js');
-    const escribioIndice = await escribirJSONSiCambio('output/indice.json', construirIndice(archivos));
+    // El índice se fusiona con el que ya existe: una corrida filtrada por
+    // período (como las del cron) solo trae ese período y, sin fusionar,
+    // borraría del índice todos los demás.
+    const indicePrevio = await leerJSONSiExiste('output/indice.json', {});
+    const escribioIndice = await escribirJSONSiCambio(
+        'output/indice.json',
+        fusionarIndices(indicePrevio, construirIndice(archivos))
+    );
     if (escribioIndice) huboCambios = true;
 
     if (huboCambios) {
@@ -129,6 +136,13 @@ async function escribirTodo(archivos, historial, construirMetadataFinal) {
 
 async function main() {
     const { escuelas, agregador } = await recolectarDatos();
+
+    // Durante el sondeo previo a una publicación el TEC todavía puede no tener
+    // datos para este año/período: en ese caso no se toca el disco.
+    if (agregador.obtenerArchivos().size === 0) {
+        console.log('[scraper] el TEC aún no publicó datos para este año/período; no se escribe nada.');
+        return;
+    }
 
     const cursosPorPeriodo = agregador.obtenerCursosPorPeriodo();
     // Fase 2: enriquecimiento con aulas. Aislada por completo — si falla,

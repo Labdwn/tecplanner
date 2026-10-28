@@ -1,0 +1,46 @@
+name: Actualizar calendario del TEC
+
+# Lee el calendario oficial (tec.ac.cr/semestre-verano) y actualiza
+# scraper/output/calendario.json. De ese archivo salen las ventanas de
+# scraping (ventanas.js) y la tarjeta "Próximas fechas del TEC" del Home.
+# Corre antes que el scraper diario (06:00 UTC) para que use fechas frescas.
+# Si el TEC cambia la estructura de la página, calendario.js falla sin
+# escribir nada y el job queda en rojo (GitHub avisa por correo).
+
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+
+# Mismo grupo que el scraper: nunca dos pushes a la vez.
+concurrency:
+  group: tecplanner-scraper
+  cancel-in-progress: false
+
+jobs:
+  calendario:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Leer el calendario del TEC
+        working-directory: scraper
+        run: node calendario.js
+
+      - name: Publicar si cambió
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scraper/output/calendario.json
+          if git diff --cached --quiet; then
+            echo "Calendario sin cambios."
+          else
+            git commit -m "chore: actualizar calendario del TEC [automático]"
+            git pull --rebase
+            git push
+          fi

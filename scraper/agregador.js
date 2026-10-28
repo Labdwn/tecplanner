@@ -56,3 +56,17 @@ export function construirIndice(archivos) {
     }
     return indice;
 }
+
+/**
+ * Fusión profunda de dos índices (año → período → sedes → sede → escuela).
+ * Conserva el orden de claves del previo para no generar cambios falsos.
+ */
+export function fusionarIndices(previo, nuevo) {
+    const salida = { ...previo };
+    for (const [clave, valor] of Object.entries(nuevo)) {
+        const esObjeto = valor && typeof valor === 'object';
+        const previoEsObjeto = previo[clave] && typeof previo[clave] === 'object';
+        salida[clave] = esObjeto && previoEsObjeto ? fusionarIndices(previo[clave], valor) : valor;
+    }
+    return salida;
+}

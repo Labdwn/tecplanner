@@ -3460,6 +3460,8 @@ function renderIndexView() {
             <div class="hni-date">${n.date}</div>
         </div>`).join('') || `<div class="home-empty">Sin novedades por ahora.</div>`;
 
+    cargarProximasFechas();
+
     // Recomendaciones
     const recos = getRecommendations();
     const recosList = document.getElementById('indexRecosList');
@@ -3475,6 +3477,73 @@ function renderIndexView() {
     const latest = NEWS_ITEMS.length ? NEWS_ITEMS[NEWS_ITEMS.length - 1].id : null;
     if (latest) localStorage.setItem('TecPlanner_LastSeenNews', latest);
     updateNotifDot();
+}
+
+// 20c. PRÓXIMAS FECHAS DEL TEC
+// Lee scraper/output/calendario.json (lo genera scraper/calendario.js a partir
+// del calendario oficial y se actualiza solo). Muestra los hitos relevantes
+// que están en curso o caen dentro de los próximos 30 días.
+const FECHAS_TEC_DIAS = 30;
+const FECHAS_TEC_MAX = 6;
+const MESES_CORTOS = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+
+function fechaHoyCR() {
+    return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Costa_Rica' });
+}
+function diasEntreISO(a, b) {
+    return Math.round((new Date(b + 'T00:00:00Z') - new Date(a + 'T00:00:00Z')) / 86400000);
+}
+function fechaCortaISO(iso) {
+    const [, m, d] = iso.split('-');
+    return `${Number(d)} ${MESES_CORTOS[Number(m) - 1]}`;
+}
+function escHtmlFechas(t) {
+    return String(t).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+async function cargarProximasFechas() {
+    const lista = document.getElementById('indexFechasList');
+    const seccion = document.getElementById('homeFechasSection');
+    if (!lista || !seccion) return;
+
+    try {
+        const res = await fetch('scraper/output/calendario.json', { cache: 'no-cache' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const { eventos } = await res.json();
+
+        const hoy = fechaHoyCR();
+        const limite = new Date(hoy + 'T00:00:00Z');
+        limite.setUTCDate(limite.getUTCDate() + FECHAS_TEC_DIAS);
+        const limiteISO = limite.toISOString().slice(0, 10);
+
+        const proximos = eventos
+            .filter(e => e.relevante && e.fin >= hoy && e.inicio <= limiteISO)
+            .sort((x, y) => x.inicio.localeCompare(y.inicio) || x.actividad.localeCompare(y.actividad))
+            .slice(0, FECHAS_TEC_MAX);
+
+        if (proximos.length === 0) { seccion.style.display = 'none'; return; }
+        seccion.style.display = '';
+
+        lista.innerHTML = proximos.map(e => {
+            const enCurso = e.inicio <= hoy;
+            const rango = e.inicio === e.fin ? fechaCortaISO(e.inicio) : `${fechaCortaISO(e.inicio)} – ${fechaCortaISO(e.fin)}`;
+            let cuando;
+            if (enCurso) cuando = e.inicio === e.fin ? 'Hoy' : `En curso · termina el ${fechaCortaISO(e.fin)}`;
+            else {
+                const d = diasEntreISO(hoy, e.inicio);
+                cuando = d === 1 ? 'Mañana' : `En ${d} días`;
+            }
+            return `
+        <div class="home-news-item">
+            <div class="hni-title">${escHtmlFechas(e.actividad)}</div>
+            <div class="hni-text">${escHtmlFechas(e.etiquetaPeriodo)} · ${cuando}</div>
+            <div class="hni-date">${rango}</div>
+        </div>`;
+        }).join('');
+    } catch (err) {
+        // Sin calendario (archivo ausente o sin red): la tarjeta simplemente no se muestra.
+        seccion.style.display = 'none';
+    }
 }
 
 function updateNotifDot() {

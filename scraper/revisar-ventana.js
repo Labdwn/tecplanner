@@ -5,34 +5,20 @@
 // decisión como output de GitHub Actions para que el job siguiente la
 // use en una matrix.
 //
-// Regla de "hoy toca": dentro de la ventana [inicio, fin], y además
-//   - es el primer día (inicio), o
-//   - pasó una semana exacta desde el inicio (cadencia semanal), o
-//   - es el último día (fin) — para asegurar una captura final aunque
-//     no calce con el ciclo semanal.
+// Regla de "hoy toca" (ver debeCorrerHoy en ventanas.js):
+//   - sondeo, antes de la matrícula: todos los días, porque el TEC publica
+//     la guía antes de la fecha oficial;
+//   - desde el inicio de matrícula: cada 7 días y el último día (fin).
 //
 // Se puede simular una fecha con la variable de entorno FECHA_SIMULADA
 // (formato YYYY-MM-DD), útil para probar ventanas.js sin esperar a que
 // llegue la fecha real — ver el input "fecha_simulada" en scrape.yml.
 
 import { appendFileSync } from 'node:fs';
-import { VENTANAS } from './ventanas.js';
-
-function diffDias(fechaA, fechaB) {
-    const a = new Date(`${fechaA}T00:00:00Z`);
-    const b = new Date(`${fechaB}T00:00:00Z`);
-    return Math.round((b - a) / 86_400_000);
-}
+import { VENTANAS, debeCorrerHoy } from './ventanas.js';
 
 function hoyISO() {
     return new Date().toISOString().slice(0, 10);
-}
-
-function debeCorrerHoy(ventana, hoy) {
-    if (hoy < ventana.inicio || hoy > ventana.fin) return false;
-    if (hoy === ventana.fin) return true;
-    const dias = diffDias(ventana.inicio, hoy);
-    return dias % 7 === 0;
 }
 
 function main() {
