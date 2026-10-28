@@ -91,3 +91,41 @@ export function enriquecerArchivoConAulas(archivo, respuestasPorMateria) {
         stats: { intentados, enriquecidos },
     };
 }
+
+// === Fuente TEC Digital (guia.js) ===
+// Cruce directo por código de materia + grupo contra las filas de la guía
+// de horarios de esa misma sede, escuela y período. Un grupo tiene una sola
+// aula en el modelo; si la guía trae varias filas (una por día), se toma la
+// primera que tenga edificio y aula.
+
+/**
+ * @param {object} archivo - un elemento de agregador.obtenerArchivos()
+ * @param {Array|null} filasGuia - filas de guia.parsearTablaGuia() para ese archivo
+ * @returns {{ archivo: object, stats: { intentados: number, enriquecidos: number } }}
+ */
+export function enriquecerArchivoConGuia(archivo, filasGuia) {
+    const aulaPorGrupo = new Map();
+    for (const fila of filasGuia ?? []) {
+        const clave = `${fila.codigo}|${fila.grupo}`;
+        if (fila.aula && !aulaPorGrupo.has(clave)) aulaPorGrupo.set(clave, fila.aula);
+    }
+
+    let intentados = 0;
+    let enriquecidos = 0;
+
+    const cursos = archivo.cursos.map((curso) => ({
+        ...curso,
+        grupos: curso.grupos.map((grupo) => {
+            intentados++;
+            const resultado = aulaPorGrupo.get(`${curso.codigo}|${Number(grupo.grupo)}`) ?? null;
+            if (resultado) enriquecidos++;
+            return {
+                ...grupo,
+                edificio: resultado?.edificio ?? null,
+                aula: resultado?.aula ?? null,
+            };
+        }),
+    }));
+
+    return { archivo: { ...archivo, cursos }, stats: { intentados, enriquecidos } };
+}

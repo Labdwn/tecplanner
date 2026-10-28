@@ -144,3 +144,22 @@ export const AULAS = {
     timeoutMs: 15000,
     maxIntentos: 2, // más bajo que RED.maxIntentos: si falla, preferimos null antes que insistir mucho
 };
+
+// === Fase 2 (fuente TEC Digital): guía de horarios del Expediente Estudiantil ===
+// Requiere sesión iniciada: cookie en la variable de entorno TECDIGITAL_COOKIE
+// (ver guia.js). Dura unas 8 h desde el login; no conviene subirla al cron.
+const GUIA_BASE_URL = 'https://tecdigital.tec.ac.cr/tda-expediente-estudiantil';
+
+export const GUIA_TEC = {
+    referer: `${GUIA_BASE_URL}/`,
+    endpoints: {
+        periodos: `${GUIA_BASE_URL}/ajax/combos/carga_periodos_tds_lib`,
+        sedes: `${GUIA_BASE_URL}/ajax/combos/carga_sedes_tds_lib`,
+        tabla: `${GUIA_BASE_URL}/ajax/tabla_guia_horario`,
+    },
+    // Verificar en DevTools → Network → Headers → "Request Method". Si las
+    // requests de la página son GET, correr con GUIA_METODO=GET.
+    metodo: process.env.GUIA_METODO || 'POST',
+    concurrencia: Number(process.env.AULAS_CONCURRENCIA) || 3,
+    pausaMs: Number(process.env.AULAS_PAUSA_MS) || 300,
+};
