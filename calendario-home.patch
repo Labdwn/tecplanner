@@ -1,0 +1,337 @@
+diff --git a/app.js b/app.js
+index 8381b75..a9bbacb 100644
+--- a/app.js
++++ b/app.js
+@@ -3479,13 +3479,30 @@ function renderIndexView() {
+     updateNotifDot();
+ }
+ 
+-// 20c. PRÓXIMAS FECHAS DEL TEC
++// 20c. CALENDARIO DE FECHAS DEL TEC
+ // Lee scraper/output/calendario.json (lo genera scraper/calendario.js a partir
+-// del calendario oficial y se actualiza solo). Muestra los hitos relevantes
+-// que están en curso o caen dentro de los próximos 30 días.
+-const FECHAS_TEC_DIAS = 30;
+-const FECHAS_TEC_MAX = 6;
+-const MESES_CORTOS = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
++// del calendario oficial y se actualiza solo). Muestra un calendario mensual
++// con los hitos relevantes marcados y, al lado, la agenda de lo que viene o
++// lo que cae en el día que se toque.
++const CAL_CATEGORIAS = {
++    guia:        { color: '#8257e6', label: 'Guía y citas' },
++    matricula:   { color: '#10b981', label: 'Matrícula' },
++    apelaciones: { color: '#f59e0b', label: 'Apelaciones' },
++    lectivo:     { color: '#06b6d4', label: 'Lecciones' },
++};
++const CAL_TIPO_A_CATEGORIA = {
++    guia_horarios: 'guia', cursos_posibles: 'guia', citas_preliminar: 'guia', citas_definitivas: 'guia',
++    matricula_ordinaria: 'matricula', matricula_extraordinaria: 'matricula',
++    apelaciones_inclusiones: 'apelaciones',
++    periodo_lectivo: 'lectivo', evaluaciones_finales: 'lectivo',
++};
++const CAL_MESES = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
++const CAL_MESES_CORTOS = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
++const CAL_DIAS = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
++const CAL_AGENDA_MAX = 6;
++const CAL_RANGO_CORTO = 14; // rangos más largos (ej. período lectivo) solo marcan su inicio y su fin
++
++const calEstado = { eventos: [], anio: 0, mes: 0, seleccionado: null, listo: false };
+ 
+ function fechaHoyCR() {
+     return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Costa_Rica' });
+@@ -3495,53 +3512,158 @@ function diasEntreISO(a, b) {
+ }
+ function fechaCortaISO(iso) {
+     const [, m, d] = iso.split('-');
+-    return `${Number(d)} ${MESES_CORTOS[Number(m) - 1]}`;
++    return `${Number(d)} ${CAL_MESES_CORTOS[Number(m) - 1]}`;
++}
++function isoDe(anio, mes, dia) {
++    return `${anio}-${String(mes + 1).padStart(2, '0')}-${String(dia).padStart(2, '0')}`;
+ }
+ function escHtmlFechas(t) {
+     return String(t).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+ }
++function calCategoria(e) {
++    return CAL_TIPO_A_CATEGORIA[e.tipo] || 'guia';
++}
++// ¿El evento se pinta en este día? Los rangos largos solo en sus extremos.
++function calApareceEn(e, iso) {
++    if (iso < e.inicio || iso > e.fin) return false;
++    return diasEntreISO(e.inicio, e.fin) <= CAL_RANGO_CORTO || iso === e.inicio || iso === e.fin;
++}
++function calEventosDelDia(iso) {
++    return calEstado.eventos.filter(e => calApareceEn(e, iso));
++}
++function calHayEventosEnMes(anio, mes) {
++    const dias = new Date(Date.UTC(anio, mes + 1, 0)).getUTCDate();
++    for (let d = 1; d <= dias; d++) if (calEventosDelDia(isoDe(anio, mes, d)).length) return true;
++    return false;
++}
++
++function calHtmlCuadricula(hoy) {
++    const { anio, mes, seleccionado } = calEstado;
++    const offset = (new Date(Date.UTC(anio, mes, 1)).getUTCDay() + 6) % 7; // semana desde lunes
++    const dias = new Date(Date.UTC(anio, mes + 1, 0)).getUTCDate();
++
++    let celdas = '';
++    for (let i = 0; i < offset; i++) celdas += '<span class="tc-dia tc-vacio"></span>';
++    for (let d = 1; d <= dias; d++) {
++        const iso = isoDe(anio, mes, d);
++        const evs = calEventosDelDia(iso);
++        const cats = [...new Set(evs.map(calCategoria))];
++        const enBanda = evs.some(e => e.inicio < iso && iso < e.fin && diasEntreISO(e.inicio, e.fin) <= CAL_RANGO_CORTO);
++        const clases = ['tc-dia'];
++        if (iso === hoy) clases.push('tc-hoy');
++        if (iso === seleccionado) clases.push('tc-sel');
++        if (evs.length) clases.push('tc-evento');
++        if (enBanda) clases.push('tc-banda');
++        const puntos = cats.slice(0, 3).map(c => `<i style="background:${CAL_CATEGORIAS[c].color};box-shadow:0 0 6px ${CAL_CATEGORIAS[c].color}"></i>`).join('');
++        const aria = `${d} de ${CAL_MESES[mes]}${evs.length ? ', ' + evs.length + (evs.length === 1 ? ' evento' : ' eventos') : ''}`;
++        celdas += `<button type="button" class="${clases.join(' ')}" data-iso="${iso}" aria-label="${aria}"><b>${d}</b><span class="tc-puntos">${puntos}</span></button>`;
++    }
++
++    const flecha = (dir, d) => `<button type="button" class="tc-nav" data-accion="${dir}" aria-label="${dir === 'prev' ? 'Mes anterior' : 'Mes siguiente'}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg></button>`;
++    const leyenda = Object.values(CAL_CATEGORIAS).map(c => `<span><i style="background:${c.color}"></i>${c.label}</span>`).join('');
++
++    return `
++        <div class="tc-mes">
++            ${flecha('prev', 'M15 18l-6-6 6-6')}
++            <div class="tc-mes-titulo">${CAL_MESES[mes]} <span>${anio}</span></div>
++            ${flecha('next', 'M9 18l6-6-6-6')}
++        </div>
++        <div class="tc-semana">${CAL_DIAS.map(d => `<span>${d}</span>`).join('')}</div>
++        <div class="tc-grid">${celdas}</div>
++        <div class="tc-leyenda">${leyenda}</div>`;
++}
++
++function calHtmlAgenda(hoy) {
++    const { seleccionado } = calEstado;
++    let titulo, lista;
++    if (seleccionado) {
++        const [, m, d] = seleccionado.split('-');
++        titulo = `${Number(d)} de ${CAL_MESES[Number(m) - 1].toLowerCase()}`;
++        lista = calEventosDelDia(seleccionado);
++    } else {
++        titulo = 'Lo que viene';
++        lista = calEstado.eventos.filter(e => e.fin >= hoy).slice(0, CAL_AGENDA_MAX);
++    }
++
++    const items = lista.map(e => {
++        const cat = CAL_CATEGORIAS[calCategoria(e)];
++        const enCurso = e.inicio <= hoy;
++        let cuando;
++        if (e.fin < hoy) cuando = 'Finalizó';
++        else if (enCurso) cuando = e.inicio === e.fin ? 'Hoy' : 'En curso';
++        else {
++            const n = diasEntreISO(hoy, e.inicio);
++            cuando = n === 1 ? 'Mañana' : `En ${n} días`;
++        }
++        const rango = e.inicio === e.fin ? fechaCortaISO(e.inicio) : `${fechaCortaISO(e.inicio)} – ${fechaCortaISO(e.fin)}`;
++        return `
++            <div class="tc-item" style="--tc-color:${cat.color}">
++                <div class="tc-item-top">
++                    <span class="tc-item-titulo">${escHtmlFechas(e.actividad)}</span>
++                    <span class="tc-pill">${cuando}</span>
++                </div>
++                <div class="tc-item-sub">${escHtmlFechas(e.etiquetaPeriodo)} · ${rango}</div>
++            </div>`;
++    }).join('') || '<div class="home-empty">Nada marcado para este día.</div>';
++
++    const volver = seleccionado ? '<button type="button" class="tc-volver" data-accion="limpiar">Ver lo que viene</button>' : '';
++    return `<div class="tc-agenda-titulo"><span>${titulo}</span>${volver}</div><div class="tc-agenda-lista">${items}</div>`;
++}
++
++function renderCalendarioTEC() {
++    const cont = document.getElementById('homeCalendario');
++    if (!cont) return;
++    const hoy = fechaHoyCR();
++    cont.innerHTML = `<div class="tc-cuadricula">${calHtmlCuadricula(hoy)}</div><div class="tc-agenda">${calHtmlAgenda(hoy)}</div>`;
++
++    if (!calEstado.listo) {
++        calEstado.listo = true;
++        cont.addEventListener('click', ev => {
++            const el = ev.target.closest('[data-accion], [data-iso]');
++            if (!el) return;
++            const accion = el.dataset.accion;
++            if (accion === 'prev' || accion === 'next') {
++                calEstado.mes += accion === 'next' ? 1 : -1;
++                if (calEstado.mes < 0) { calEstado.mes = 11; calEstado.anio--; }
++                if (calEstado.mes > 11) { calEstado.mes = 0; calEstado.anio++; }
++            } else if (accion === 'limpiar') {
++                calEstado.seleccionado = null;
++            } else if (el.dataset.iso) {
++                calEstado.seleccionado = calEstado.seleccionado === el.dataset.iso ? null : el.dataset.iso;
++            }
++            renderCalendarioTEC();
++        });
++    }
++}
+ 
+ async function cargarProximasFechas() {
+-    const lista = document.getElementById('indexFechasList');
+     const seccion = document.getElementById('homeFechasSection');
+-    if (!lista || !seccion) return;
++    if (!seccion) return;
+ 
+     try {
+         const res = await fetch('scraper/output/calendario.json', { cache: 'no-cache' });
+         if (!res.ok) throw new Error('HTTP ' + res.status);
+         const { eventos } = await res.json();
+ 
+-        const hoy = fechaHoyCR();
+-        const limite = new Date(hoy + 'T00:00:00Z');
+-        limite.setUTCDate(limite.getUTCDate() + FECHAS_TEC_DIAS);
+-        const limiteISO = limite.toISOString().slice(0, 10);
++        calEstado.eventos = eventos
++            .filter(e => e.relevante)
++            .sort((x, y) => x.inicio.localeCompare(y.inicio) || x.actividad.localeCompare(y.actividad));
++        if (calEstado.eventos.length === 0) { seccion.style.display = 'none'; return; }
+ 
+-        const proximos = eventos
+-            .filter(e => e.relevante && e.fin >= hoy && e.inicio <= limiteISO)
+-            .sort((x, y) => x.inicio.localeCompare(y.inicio) || x.actividad.localeCompare(y.actividad))
+-            .slice(0, FECHAS_TEC_MAX);
++        // Mes inicial: el actual; si no tiene nada marcado, el del próximo evento.
++        const hoy = fechaHoyCR();
++        calEstado.anio = Number(hoy.slice(0, 4));
++        calEstado.mes = Number(hoy.slice(5, 7)) - 1;
++        if (!calHayEventosEnMes(calEstado.anio, calEstado.mes)) {
++            const proximo = calEstado.eventos.find(e => e.inicio >= hoy) || calEstado.eventos.find(e => e.fin >= hoy);
++            if (proximo) { calEstado.anio = Number(proximo.inicio.slice(0, 4)); calEstado.mes = Number(proximo.inicio.slice(5, 7)) - 1; }
++        }
++        calEstado.seleccionado = null;
+ 
+-        if (proximos.length === 0) { seccion.style.display = 'none'; return; }
+         seccion.style.display = '';
+-
+-        lista.innerHTML = proximos.map(e => {
+-            const enCurso = e.inicio <= hoy;
+-            const rango = e.inicio === e.fin ? fechaCortaISO(e.inicio) : `${fechaCortaISO(e.inicio)} – ${fechaCortaISO(e.fin)}`;
+-            let cuando;
+-            if (enCurso) cuando = e.inicio === e.fin ? 'Hoy' : `En curso · termina el ${fechaCortaISO(e.fin)}`;
+-            else {
+-                const d = diasEntreISO(hoy, e.inicio);
+-                cuando = d === 1 ? 'Mañana' : `En ${d} días`;
+-            }
+-            return `
+-        <div class="home-news-item">
+-            <div class="hni-title">${escHtmlFechas(e.actividad)}</div>
+-            <div class="hni-text">${escHtmlFechas(e.etiquetaPeriodo)} · ${cuando}</div>
+-            <div class="hni-date">${rango}</div>
+-        </div>`;
+-        }).join('');
++        renderCalendarioTEC();
+     } catch (err) {
+-        // Sin calendario (archivo ausente o sin red): la tarjeta simplemente no se muestra.
++        // Sin calendario (archivo ausente o sin red): la sección simplemente no se muestra.
+         seccion.style.display = 'none';
+     }
+ }
+diff --git a/index.html b/index.html
+index 10ab30c..f599c4c 100644
+--- a/index.html
++++ b/index.html
+@@ -981,7 +981,7 @@
+             <div class="home-section-title">
+                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px;margin-right:6px;"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>Próximas fechas del TEC
+             </div>
+-            <div id="indexFechasList" class="home-news-timeline"></div>
++            <div id="homeCalendario" class="tc-cal"></div>
+         </div>
+ 
+         <div class="home-grid-2">
+diff --git a/styles.css b/styles.css
+index 0f63d11..8d7812a 100644
+--- a/styles.css
++++ b/styles.css
+@@ -2666,4 +2666,87 @@ path {
+ 
+ .list-table tr.comparador-fila-clic:hover td:first-child {
+     color: var(--accent) !important;
+-}
+\ No newline at end of file
++}
++
++/* ===== Home: calendario de fechas del TEC ===== */
++.tc-cal {
++    display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr); gap: 26px;
++    position: relative; overflow: hidden; padding: 22px;
++    background: linear-gradient(160deg, #1b1b24 0%, #15151a 65%);
++    border: 1px solid #27272a; border-radius: 16px;
++    font-family: 'Rajdhani', sans-serif; margin-bottom: 34px;
++}
++.tc-cal::before {
++    content: ''; position: absolute; top: -90px; right: -70px; width: 280px; height: 280px;
++    background: radial-gradient(circle, rgba(130,87,230,0.20), transparent 70%); pointer-events: none;
++}
++.tc-cuadricula, .tc-agenda { position: relative; min-width: 0; }
++
++.tc-mes { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
++.tc-mes-titulo { color: #fff; font-size: 1.3rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
++.tc-mes-titulo span { color: var(--accent); margin-left: 4px; }
++.tc-nav {
++    display: flex; align-items: center; justify-content: center; width: 34px; height: 34px;
++    background: #121214; border: 1px solid #2e2e36; border-radius: 10px; color: var(--text-dim);
++    cursor: pointer; transition: all 0.2s;
++}
++.tc-nav:hover { color: #fff; border-color: var(--accent); box-shadow: 0 0 12px rgba(130,87,230,0.35); }
++
++.tc-semana, .tc-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
++.tc-semana { margin-bottom: 6px; }
++.tc-semana span { text-align: center; color: #6b6b78; font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; }
++
++.tc-dia {
++    position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px;
++    aspect-ratio: 1 / 1; min-height: 40px; padding: 0;
++    background: #17171c; border: 1px solid #25252c; border-radius: 10px;
++    color: var(--text-dim); font-family: 'Rajdhani', sans-serif; font-size: 0.95rem; cursor: default;
++    transition: all 0.18s;
++}
++.tc-dia b { font-weight: 600; line-height: 1; }
++.tc-vacio { background: transparent; border-color: transparent; }
++.tc-puntos { display: flex; gap: 3px; height: 6px; }
++.tc-puntos i { display: block; width: 6px; height: 6px; border-radius: 50%; }
++
++.tc-evento { cursor: pointer; color: #fff; background: #1d1d26; border-color: #33333f; }
++.tc-evento:hover { transform: translateY(-2px); border-color: var(--accent); box-shadow: 0 6px 18px rgba(130,87,230,0.28); }
++.tc-banda { background: rgba(130,87,230,0.13); border-color: rgba(130,87,230,0.35); }
++.tc-hoy { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent), 0 0 14px rgba(130,87,230,0.45); color: #fff; }
++.tc-hoy b { color: #fff; }
++.tc-sel { background: linear-gradient(135deg, #8257e6, #6a43c9); border-color: #a58af0; color: #fff; box-shadow: 0 6px 20px rgba(130,87,230,0.5); }
++
++.tc-leyenda { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 16px; color: #8b8b98; font-size: 0.78rem; }
++.tc-leyenda span { display: inline-flex; align-items: center; gap: 6px; }
++.tc-leyenda i { display: block; width: 8px; height: 8px; border-radius: 50%; }
++
++.tc-agenda-titulo {
++    display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px;
++    color: #fff; font-size: 1.05rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
++}
++.tc-volver {
++    background: transparent; border: 1px solid #33333f; border-radius: 8px; color: var(--text-dim);
++    font-family: 'Rajdhani', sans-serif; font-size: 0.75rem; font-weight: 700; padding: 4px 10px; cursor: pointer;
++    text-transform: none; letter-spacing: 0.3px; transition: all 0.2s;
++}
++.tc-volver:hover { color: #fff; border-color: var(--accent); }
++.tc-agenda-lista { display: flex; flex-direction: column; gap: 10px; }
++.tc-item {
++    background: #18181d; border: 1px solid #27272a; border-left: 3px solid var(--tc-color);
++    border-radius: 10px; padding: 11px 14px; transition: all 0.2s;
++}
++.tc-item:hover { background: #1d1d24; transform: translateX(3px); box-shadow: -6px 0 18px -8px var(--tc-color); }
++.tc-item-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
++.tc-item-titulo { color: #fff; font-weight: 700; font-size: 0.92rem; line-height: 1.25; }
++.tc-pill {
++    flex-shrink: 0; padding: 2px 9px; border-radius: 999px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.4px;
++    color: var(--tc-color); border: 1px solid var(--tc-color); background: rgba(255,255,255,0.03);
++}
++.tc-item-sub { color: var(--text-dim); font-size: 0.78rem; margin-top: 5px; }
++
++@media (max-width: 900px) {
++    .tc-cal { grid-template-columns: 1fr; padding: 16px; gap: 20px; }
++}
++@media (max-width: 420px) {
++    .tc-semana, .tc-grid { gap: 4px; }
++    .tc-dia { min-height: 36px; font-size: 0.85rem; border-radius: 8px; }
++}

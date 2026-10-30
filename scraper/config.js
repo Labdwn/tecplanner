@@ -163,3 +163,26 @@ export const GUIA_TEC = {
     concurrencia: Number(process.env.AULAS_CONCURRENCIA) || 3,
     pausaMs: Number(process.env.AULAS_PAUSA_MS) || 300,
 };
+
+
+// === MisProfesores.com (buscar-misprofesores.js) ===
+// La página de la escuela trae embebida la lista COMPLETA de profesores (id, nombre,
+// apellidos, departamento, nº de calificaciones y promedio), así que con una sola
+// descarga se cruza todo en local: no hay búsquedas por profesor.
+// La URL de la escuela y su id viven SOLO acá.
+const MISPROFES_HOST = process.env.MISPROFES_HOST || 'https://costarica.misprofesores.com';
+
+export const MISPROFES = {
+    host: MISPROFES_HOST,
+    escuelaId: '1135',
+    escuelaUrl: `${MISPROFES_HOST}/escuelas/ITCR-Instituto-Tecnologico-de-Costa-Rica_1135`,
+    // Resultados: profesor → enlace elegido, candidatos y estado. Es el archivo que se commitea.
+    archivoResultados: 'output/profesores_misprofes.json',
+    // Copia de la página de la escuela tal como se descargó (local/ está en .gitignore).
+    archivoPagina: 'local/escuela.html',
+    userAgent: 'TecPlanner-profesores/1.0 (script personal sin fines de lucro; contacto: estudiante.kenneth.sandi@gmail.com)',
+    pausaMinMs: Number(process.env.MISPROFES_PAUSA_MIN_MS) || 2500,
+    pausaMaxMs: Number(process.env.MISPROFES_PAUSA_MAX_MS) || 5000,
+    bloqueosMax: 3,            // bloqueos seguidos (403/429/desafío) antes de parar
+    timeoutMs: 20000,
+};
