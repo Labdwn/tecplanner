@@ -1214,9 +1214,16 @@ async function exportHorarioComoPDF() {
 // CORS), se pasa por un proxy público. Si un proxy falla o está caído,
 // se intenta con el siguiente de la lista.
 
+// Proxy propio (Cloudflare Worker, ver worker/misprofes-proxy.js). Pega aquí su URL,
+// por ejemplo 'https://misprofes-proxy.TU-USUARIO.workers.dev'. corsproxy.io ya no
+// funciona sin API key; allorigins queda solo como respaldo.
+const MISPROFES_WORKER = '';
+
 const MISPROFES_PROXIES = [
+    ...(MISPROFES_WORKER ? [(url) => `${MISPROFES_WORKER}/?url=${encodeURIComponent(url)}`] : []),
     (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-    (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+    (url) => `https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(url)}`,
+    (url) => `https://thingproxy.freeboard.io/fetch/${url}`,
 ];
 
 let misprofesCache = {}; // url -> datos ya parseados, evita re-consultar en la misma sesión
@@ -1285,47 +1292,10 @@ function parseMisprofesHTML(html, url) {
     };
 }
 
-// Estadísticas estáticas (scraper/output/profesores_stats.json, generado por
-// `npm run profesores`): promedio y nº de calificaciones sacados de la lista de la
-// escuela. Sirven de respaldo cuando los proxies públicos fallan.
-let misprofesStats = null;
-async function cargarStatsMisprofes() {
-    if (misprofesStats) return misprofesStats;
-    try {
-        const res = await fetch('scraper/output/profesores_stats.json', { cache: 'no-cache' });
-        misprofesStats = res.ok ? ((await res.json()).p ?? {}) : {};
-    } catch { misprofesStats = {}; }
-    return misprofesStats;
-}
-
-let misprofesProxiesCaidos = false; // si todos fallaron una vez, no se vuelve a esperar el timeout en cada clic
-
 async function obtenerDatosMisprofes(url) {
     if (misprofesCache[url]) return misprofesCache[url];
-
-    if (!misprofesProxiesCaidos) {
-        try {
-            const html = await fetchHtmlViaProxy(url);
-            const datos = parseMisprofesHTML(html, url);
-            if (datos.calidadGeneral || datos.numCalificaciones) {
-                misprofesCache[url] = datos;
-                return datos;
-            }
-        } catch { misprofesProxiesCaidos = true; }
-    }
-
-    // Respaldo: datos estáticos por id (la parte final de la URL: ..._49591)
-    const id = (url.match(/_(\d+)\/?$/) || [])[1];
-    const st = id ? (await cargarStatsMisprofes())[id] : null;
-    if (!st) throw new Error('Sin datos en vivo ni estáticos');
-    const datos = {
-        calidadGeneral: st[0] != null ? String(st[0]) : null,
-        nivelDificultad: null,
-        loRecomiendan: null,
-        numCalificaciones: st[1],
-        url,
-        soloEstaticos: true
-    };
+    const html = await fetchHtmlViaProxy(url);
+    const datos = parseMisprofesHTML(html, url);
     misprofesCache[url] = datos;
     return datos;
 }
