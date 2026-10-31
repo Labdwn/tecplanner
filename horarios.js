@@ -1217,7 +1217,7 @@ async function exportHorarioComoPDF() {
 // Proxy propio (Cloudflare Worker, ver worker/misprofes-proxy.js). Pega aquí su URL,
 // por ejemplo 'https://misprofes-proxy.TU-USUARIO.workers.dev'. corsproxy.io ya no
 // funciona sin API key; allorigins queda solo como respaldo.
-const MISPROFES_WORKER = '';
+const MISPROFES_WORKER = 'https://test.estudiante-kenneth-sandi.workers.dev/';
 
 const MISPROFES_PROXIES = [
     ...(MISPROFES_WORKER ? [(url) => `${MISPROFES_WORKER}/?url=${encodeURIComponent(url)}`] : []),
