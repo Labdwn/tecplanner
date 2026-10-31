@@ -1285,10 +1285,47 @@ function parseMisprofesHTML(html, url) {
     };
 }
 
+// Estadísticas estáticas (scraper/output/profesores_stats.json, generado por
+// `npm run profesores`): promedio y nº de calificaciones sacados de la lista de la
+// escuela. Sirven de respaldo cuando los proxies públicos fallan.
+let misprofesStats = null;
+async function cargarStatsMisprofes() {
+    if (misprofesStats) return misprofesStats;
+    try {
+        const res = await fetch('scraper/output/profesores_stats.json', { cache: 'no-cache' });
+        misprofesStats = res.ok ? ((await res.json()).p ?? {}) : {};
+    } catch { misprofesStats = {}; }
+    return misprofesStats;
+}
+
+let misprofesProxiesCaidos = false; // si todos fallaron una vez, no se vuelve a esperar el timeout en cada clic
+
 async function obtenerDatosMisprofes(url) {
     if (misprofesCache[url]) return misprofesCache[url];
-    const html = await fetchHtmlViaProxy(url);
-    const datos = parseMisprofesHTML(html, url);
+
+    if (!misprofesProxiesCaidos) {
+        try {
+            const html = await fetchHtmlViaProxy(url);
+            const datos = parseMisprofesHTML(html, url);
+            if (datos.calidadGeneral || datos.numCalificaciones) {
+                misprofesCache[url] = datos;
+                return datos;
+            }
+        } catch { misprofesProxiesCaidos = true; }
+    }
+
+    // Respaldo: datos estáticos por id (la parte final de la URL: ..._49591)
+    const id = (url.match(/_(\d+)\/?$/) || [])[1];
+    const st = id ? (await cargarStatsMisprofes())[id] : null;
+    if (!st) throw new Error('Sin datos en vivo ni estáticos');
+    const datos = {
+        calidadGeneral: st[0] != null ? String(st[0]) : null,
+        nivelDificultad: null,
+        loRecomiendan: null,
+        numCalificaciones: st[1],
+        url,
+        soloEstaticos: true
+    };
     misprofesCache[url] = datos;
     return datos;
 }

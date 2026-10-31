@@ -166,6 +166,7 @@ const PROFESORES_MISPROFES = {
     "CABRERA ARAYA GUSTAVO ALCIDES": "https://costarica.misprofesores.com/profesores/Gustavo-Cabrera-Araya_50993",
     "CABRERA QUIROS LAURA CRISTINA": "https://costarica.misprofesores.com/profesores/Laura-Cabrera_49288",
     "CABRERA SANDOVAL MARCO": "https://costarica.misprofesores.com/profesores/Marco-Cabrera-Sandoval_51544",
+    "SOTO CHINCHILLA YERRY": "https://costarica.misprofesores.com/profesores/Jerry-Soto-Chinchilla_49481",
     "CALDERON ARCE CINDY": "https://costarica.misprofesores.com/profesores/Cindy-Calderon-Arce_13296",
     "CALDERON FERREY MARTHA": "https://costarica.misprofesores.com/profesores/Martha-Calderon-Ferrey_35350",
     "CALDERON RAMIREZ SAUL": "https://costarica.misprofesores.com/profesores/Saul-Calderon-Ramirez_35839",

@@ -1,0 +1,1935 @@
+// =============================================================================
+// TECPLANNER · horarios.js  (v2 — rediseño completo)
+// =============================================================================
+// Secciones:
+//   1. ESTADO GLOBAL Y CONSTANTES
+//   2. UTILIDADES DE HORARIO (parseo / choques)
+//   3. PERSISTENCIA (selección, favoritos, filtros, config de grilla)
+//   4. INIT Y LAYOUT PRINCIPAL
+//   5. FILTROS DE ÁREA (año/período/sede/escuela)
+//   6. BÚSQUEDA Y CHIPS DE FILTRO RÁPIDO
+//   7. LISTA DE CURSOS DISPONIBLES
+//   8. FAVORITOS
+//   9. SELECCIÓN DE CURSOS (agregar/quitar/deshacer/limpiar)
+//  10. GRILLA SEMANAL (render + preview fantasma + línea de "ahora")
+//  11. STATS / RESUMEN
+//  12. EXPORTAR HORARIO
+// =============================================================================
+
+
+// =============================================================================
+// 1. ESTADO GLOBAL Y CONSTANTES
+// =============================================================================
+
+const SEDE_NOMBRES = { CA: 'Cartago', SJ: 'San José', SC: 'San Carlos', AL: 'Alajuela', LM: 'Limón' };
+const HOR_PALETTE = ['#8257e6','#06b6d4','#10b981','#f59e0b','#ef4444','#a855f7','#3b82f6','#ec4899','#84cc16','#f97316'];
+// Orden cronológico de los períodos dentro de un mismo año (de más antiguo a más reciente).
+// Usado para determinar cuál es el período "más reciente" disponible en el índice.
+const ORDEN_PERIODOS_RECIENCIA = ['1', '1V', '2', '2V'];
+const DIAS_ORDEN = ['LUN','MAR','MIE','JUE','VIE','SAB'];
+const DIA_LABEL = { LUN:'Lunes', MAR:'Martes', MIE:'Miércoles', JUE:'Jueves', VIE:'Viernes', SAB:'Sábado' };
+const DIA_JS_MAP = { 1:'LUN', 2:'MAR', 3:'MIE', 4:'JUE', 5:'VIE', 6:'SAB' }; // Date.getDay()
+const ICON_USERS = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>';
+const ICON_PROF = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>';
+const ICON_LOC = '<svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>';
+
+let horGridConfig = { dias: ['LUN','MAR','MIE','JUE','VIE','SAB'], horaIni: 7, horaFin: 21 };
+let horariosIndice = null;
+let horariosSeleccion = { anio: null, periodo: null, sede: null, escuela: null };
+let horEscuelasDisponibles = {};
+let horariosCursosDisponibles = [];
+let horariosCursosElegidos = []; // { curso, grupo, color }
+let horariosBusqueda = '';
+let horariosFavoritos = new Set();   // "codigo::grupo"
+let horHoverPreview = null;          // { curso, grupo } — grupo bajo el mouse (aún no elegido)
+let horUltimoEliminado = null;       // para "deshacer"
+let horUndoTimer = null;
+let horFiltros = { favoritos: false, sinChoques: false };
+let horFiltroDias = new Set();       // días activos en los chips de filtro (distinto de horGridConfig.dias)
+let horCursosColapsados = new Set(); // códigos de curso plegados
+
+let horModoCursandoActivo = false;   // true mientras se muestra el resultado agregado
+let horCursandoResultado = [];       // cursos encontrados (formato compatible con horariosCursosDisponibles)
+let horCursandoNoEncontrados = [];   // códigos que NO aparecieron en ninguna escuela/sede
+let horCursandoContexto = null;      // { anio, periodo } usados para la búsqueda
+
+let horExportTema = localStorage.getItem('TecPlanner_HorExportTema') || 'oscuro';
+
+function setHorExportTema(tema) {
+    horExportTema = tema;
+    localStorage.setItem('TecPlanner_HorExportTema', tema);
+    document.querySelectorAll('.hor-theme-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tema === tema);
+    });
+    renderHorarioGrid();
+}
+
+function nombreSede(codigo) { return SEDE_NOMBRES[codigo] || codigo; }
+function nombrePeriodo(p) {
+    if (p.endsWith('V')) return `Verano ${p.slice(0, -1)}`;
+    return `Semestre ${p}`;
+}
+
+
+// =============================================================================
+// 2. UTILIDADES DE HORARIO
+// =============================================================================
+
+function determinarAnioPeriodoMasReciente() {
+    if (!horariosIndice) return null;
+    const anios = Object.keys(horariosIndice).sort((a, b) => Number(b) - Number(a));
+    if (anios.length === 0) return null;
+    const anio = anios[0];
+ 
+    const periodos = Object.keys(horariosIndice[anio]);
+    if (periodos.length === 0) return null;
+    periodos.sort((a, b) => ORDEN_PERIODOS_RECIENCIA.indexOf(a) - ORDEN_PERIODOS_RECIENCIA.indexOf(b));
+    const periodo = periodos[periodos.length - 1];
+ 
+    return { anio, periodo };
+}
+
+function parseHorario(horarioStr) {
+    if (!horarioStr) return [];
+    const bloques = [];
+    const regex = /([A-Z]+)\[(\d{2}:\d{2})-(\d{2}:\d{2})\]/g;
+    let m;
+    while ((m = regex.exec(horarioStr)) !== null) {
+        bloques.push({ dia: m[1], inicio: m[2], fin: m[3] });
+    }
+    return bloques;
+}
+
+function horasAMin(hhmm) {
+    const [h, m] = hhmm.split(':').map(Number);
+    return h * 60 + m;
+}
+
+function bloquesChocan(a, b) {
+    if (a.dia !== b.dia) return false;
+    return horasAMin(a.inicio) < horasAMin(b.fin) && horasAMin(b.inicio) < horasAMin(a.fin);
+}
+
+// Evalúa si un horario candidato (string) chocaría con la selección actual.
+// Devuelve { choca, contras: [{curso, grupo}] } sin modificar nada.
+function evaluarChoqueCandidato(horarioStr) {
+    const bloquesCandidato = parseHorario(horarioStr);
+    const contras = [];
+    horariosCursosElegidos.forEach(s => {
+        const bloquesExist = parseHorario(s.grupo.horario);
+        const choca = bloquesCandidato.some(a => bloquesExist.some(b => bloquesChocan(a, b)));
+        if (choca) contras.push(s);
+    });
+    return { choca: contras.length > 0, contras };
+}
+
+
+// =============================================================================
+// 3. PERSISTENCIA
+// =============================================================================
+
+function restoreHorSeleccion() {
+    try { horariosCursosElegidos = JSON.parse(localStorage.getItem('TecPlanner_HorSeleccion') || '[]'); }
+    catch { horariosCursosElegidos = []; }
+
+    try { horariosFavoritos = new Set(JSON.parse(localStorage.getItem('TecPlanner_HorFavoritos') || '[]')); }
+    catch { horariosFavoritos = new Set(); }
+
+    try {
+        const savedFiltros = JSON.parse(localStorage.getItem('TecPlanner_HorFiltrosSel') || 'null');
+        if (savedFiltros) horariosSeleccion = savedFiltros;
+    } catch { /* noop */ }
+
+    try {
+        const savedGrid = JSON.parse(localStorage.getItem('TecPlanner_HorGridConfig') || 'null');
+        if (savedGrid) horGridConfig = savedGrid;
+    } catch { /* noop */ }
+}
+function saveHorSeleccion() {
+    localStorage.setItem('TecPlanner_HorSeleccion', JSON.stringify(horariosCursosElegidos));
+}
+function saveHorFavoritos() {
+    localStorage.setItem('TecPlanner_HorFavoritos', JSON.stringify([...horariosFavoritos]));
+}
+function saveHorFiltrosSel() {
+    localStorage.setItem('TecPlanner_HorFiltrosSel', JSON.stringify(horariosSeleccion));
+}
+function saveHorGridConfig() {
+    localStorage.setItem('TecPlanner_HorGridConfig', JSON.stringify(horGridConfig));
+}
+
+
+// =============================================================================
+// 4. INIT Y LAYOUT PRINCIPAL
+// =============================================================================
+
+async function initHorarios() {
+    const view = document.getElementById('horariosView');
+    view.innerHTML = `<div class="hor-empty hor-empty-loading">⏳ Cargando índice de horarios...</div>`;
+
+    if (!horariosIndice) {
+        try {
+            const res = await fetch('scraper/output/indice.json');
+            horariosIndice = await res.json();
+        } catch (e) {
+            view.innerHTML = `<div class="hor-empty" style="color:#ef4444;">⚠️ No se pudo cargar el índice de horarios. Verificá tu conexión e intentá de nuevo.</div>`;
+            return;
+        }
+    }
+    restoreHorSeleccion();
+ 
+ 
+    renderHorariosLayout();
+
+    // Si había una selección guardada de año/período/sede/escuela, restaurarla.
+    setTimeout(restaurarFiltrosGuardados, 0);
+}
+
+function renderHorariosLayout() {
+    const view = document.getElementById('horariosView');
+    const anios = horariosIndice ? Object.keys(horariosIndice).sort() : [];
+
+    view.innerHTML = `
+        <div class="hor-container">
+
+            <div class="hor-topbar">
+                <h2 class="hor-title">📅 GENERAR HORARIO</h2>
+                <div class="hor-stats" id="horStats">
+                    <div class="hor-stat">
+                        <span class="hor-stat-num" id="horStatCursos">0</span>
+                        <span class="hor-stat-label">Cursos</span>
+                    </div>
+                    <div class="hor-stat">
+                        <span class="hor-stat-num" id="horStatCreditos">0</span>
+                        <span class="hor-stat-label">Créditos</span>
+                    </div>
+                    <div class="hor-stat hor-stat-warn" id="horStatChoques" style="display:none;">
+                        <span class="hor-stat-num" id="horStatChoquesNum">0</span>
+                        <span class="hor-stat-label">Choques</span>
+                    </div>
+                </div>
+                <button class="btn-action" onclick="mostrarCursandoEnHorario()" style="border-color:#a855f7; color:#a855f7;">
+                    📚 Mostrar CURSANDO
+                </button>
+            </div>
+ 
+            <div class="hor-filtro-cursando-banner" id="horFiltroCursandoBanner"></div>
+ 
+            ${horModoCursandoActivo ? '' : `
+            <div class="hor-filtros">
+                <select id="horAnio" class="list-select" onchange="onHorFiltroChange()">
+                    <option value="">Año</option>
+                    ${anios.map(a => `<option value="${a}">${a}</option>`).join('')}
+                </select>
+                <select id="horPeriodo" class="list-select" onchange="onHorFiltroChange()"><option value="">Período</option></select>
+                <select id="horSede" class="list-select" onchange="onHorFiltroChange()"><option value="">Sede</option></select>
+                <div class="hor-escuela-combo" id="horEscuelaCombo">
+                    <input type="text" id="horEscuelaInput" class="list-select" placeholder="Escuela" autocomplete="off"
+                           oninput="filterEscuelaOptions(this.value)" onfocus="showEscuelaDropdown()" disabled>
+                    <div id="horEscuelaDropdown" class="hor-escuela-dropdown"></div>
+                </div>
+            </div>`}
+
+            <div class="hor-search-row">
+                <div class="search-container" style="flex:1; min-width:220px;">
+                    <input type="text" id="horBusqueda" class="search-input hor-search"
+                           placeholder="🔍 Buscar curso por nombre o código..." oninput="filterHorCursos(this.value)">
+                </div>
+                <div class="hor-chips" id="horChips">
+                    <button class="hor-chip" data-chip="favoritos" onclick="toggleHorChip('favoritos')">⭐ Favoritos</button>
+                    <button class="hor-chip" data-chip="sinChoques" onclick="toggleHorChip('sinChoques')">✅ Sin choques</button>
+                    ${DIAS_ORDEN.map(d => `<button class="hor-chip hor-chip-day" data-day="${d}" onclick="toggleHorDiaFiltro('${d}')">${DIA_LABEL[d].slice(0,3)}</button>`).join('')}
+                </div>
+            </div>
+
+            <div class="hor-layout">
+                <div id="horListaCursos" class="hor-lista"><div class="hor-empty">Elegí sede y escuela para ver cursos.</div></div>
+                <div class="hor-sidebar">
+                    <div class="hor-export-theme-toggle">
+                        <span class="hor-export-theme-label">Vista:</span>
+                        <button class="hor-theme-btn ${horExportTema === 'oscuro' ? 'active' : ''}" data-tema="oscuro" onclick="setHorExportTema('oscuro')">🌙 Oscuro</button>
+                        <button class="hor-theme-btn ${horExportTema === 'claro' ? 'active' : ''}" data-tema="claro" onclick="setHorExportTema('claro')">☀️ Claro</button>
+                    </div>
+                    <div class="hor-sidebar-actions">
+                        <button class="hor-btn-ghost" id="horBtnUndo" style="display:none;" onclick="undoRemoveHorCurso()">↩ Deshacer</button>
+                        <button class="btn-export" onclick="exportHorarioComoImagen()">🖼️ PNG</button>
+                        <button class="btn-export" onclick="exportHorarioComoPDF()">📄 PDF</button>
+                        <button class="btn-export" onclick="exportHorarioJSON()">💾 GUARDAR</button>
+                        <label class="btn-export" style="cursor:pointer;">
+                            📂 CARGAR
+                            <input type="file" accept=".json" style="display:none;" onchange="importHorarioJSON(event)">
+                        </label>
+                        <button class="btn-action" id="horBtnLimpiar" style="border-color:#ef4444; color:#ef4444;" onclick="confirmClearHorario()">
+                            🗑️ LIMPIAR
+                        </button>
+                    </div>
+                    <div class="hor-grid-controls">
+                        <div class="hor-days-toggle">
+                            ${DIAS_ORDEN.map(d => `
+                                <button class="hor-day-btn ${horGridConfig.dias.includes(d) ? 'active' : ''}"
+                                    onclick="toggleHorDia('${d}')" title="Mostrar/ocultar ${DIA_LABEL[d]}">${DIA_LABEL[d].slice(0,3)}</button>`).join('')}
+                        </div>
+                        <div class="hor-hours-range">
+                            <label>De</label>
+                            <select id="horHoraIni" class="list-select" onchange="onHorHoraChange()">
+                                ${buildHoraOptions(horGridConfig.horaIni)}
+                            </select>
+                            <label>a</label>
+                            <select id="horHoraFin" class="list-select" onchange="onHorHoraChange()">
+                                ${buildHoraOptions(horGridConfig.horaFin)}
+                            </select>
+                        </div>
+                    </div>
+                    <div id="horGrid" class="hor-grid-wrap"></div>
+                    <div id="horChoques"></div>
+                    
+                </div>
+            </div>
+        </div>`;
+
+    renderHorarioGrid();
+    renderSeleccionados();
+    updateHorStats();
+    updateChipsUI();
+    renderFiltroCursandoBanner();
+}
+
+function buildHoraOptions(selected) {
+    let opts = '';
+    for (let h = 5; h <= 23; h++) {
+        opts += `<option value="${h}" ${h === selected ? 'selected' : ''}>${String(h).padStart(2,'0')}:00</option>`;
+    }
+    return opts;
+}
+
+function toggleHorDia(d) {
+    const idx = horGridConfig.dias.indexOf(d);
+    if (idx !== -1) {
+        if (horGridConfig.dias.length === 1) return; // al menos un día
+        horGridConfig.dias.splice(idx, 1);
+    } else {
+        horGridConfig.dias.push(d);
+        horGridConfig.dias.sort((a, b) => DIAS_ORDEN.indexOf(a) - DIAS_ORDEN.indexOf(b));
+    }
+    document.querySelectorAll('.hor-day-btn').forEach(btn => {
+        const dia = DIAS_ORDEN.find(x => DIA_LABEL[x].slice(0,3) === btn.textContent);
+        btn.classList.toggle('active', horGridConfig.dias.includes(dia));
+    });
+    saveHorGridConfig();
+    renderHorarioGrid();
+}
+
+function onHorHoraChange() {
+    const ini = parseInt(document.getElementById('horHoraIni').value);
+    const fin = parseInt(document.getElementById('horHoraFin').value);
+    if (ini >= fin) { alert('La hora de inicio debe ser menor a la de fin.'); return; }
+    horGridConfig.horaIni = ini;
+    horGridConfig.horaFin = fin;
+    saveHorGridConfig();
+    renderHorarioGrid();
+}
+
+
+// =============================================================================
+// 5. FILTROS DE ÁREA (año/período/sede/escuela)
+// =============================================================================
+
+function onHorFiltroChange() {
+    const anio = document.getElementById('horAnio').value;
+    const periodoSel = document.getElementById('horPeriodo');
+    const sedeSel = document.getElementById('horSede');
+    const escInput = document.getElementById('horEscuelaInput');
+
+    if (anio !== horariosSeleccion.anio) {
+        horariosSeleccion = { anio, periodo: null, sede: null, escuela: null };
+        const periodos = anio ? Object.keys(horariosIndice[anio]) : [];
+        periodoSel.innerHTML = `<option value="">Período</option>` + periodos.map(p => `<option value="${p}">${nombrePeriodo(p)}</option>`).join('');
+        sedeSel.innerHTML = `<option value="">Sede</option>`;
+        horEscuelasDisponibles = {};
+        escInput.value = '';
+        escInput.disabled = true;
+        saveHorFiltrosSel();
+        return;
+    }
+    const periodo = periodoSel.value;
+    if (periodo !== horariosSeleccion.periodo) {
+        horariosSeleccion.periodo = periodo;
+        horariosSeleccion.sede = null;
+        horariosSeleccion.escuela = null;
+        const sedes = (anio && periodo) ? Object.keys(horariosIndice[anio][periodo].sedes) : [];
+        sedeSel.innerHTML = `<option value="">Sede</option>` + sedes.map(s => `<option value="${s}">${nombreSede(s)}</option>`).join('');
+        horEscuelasDisponibles = {};
+        escInput.value = '';
+        escInput.disabled = true;
+        saveHorFiltrosSel();
+        return;
+    }
+    const sede = sedeSel.value;
+    horariosSeleccion.sede = sede;
+    horariosSeleccion.escuela = null;
+    horEscuelasDisponibles = (anio && periodo && sede) ? horariosIndice[anio][periodo].sedes[sede] : {};
+    escInput.value = '';
+    escInput.disabled = Object.keys(horEscuelasDisponibles).length === 0;
+    document.getElementById('horListaCursos').innerHTML = `<div class="hor-empty">Elegí sede y escuela para ver cursos.</div>`;
+    saveHorFiltrosSel();
+}
+
+function showEscuelaDropdown() {
+    filterEscuelaOptions(document.getElementById('horEscuelaInput').value);
+}
+
+function filterEscuelaOptions(q) {
+    const dd = document.getElementById('horEscuelaDropdown');
+    const query = q.trim().toLowerCase();
+    const entries = Object.entries(horEscuelasDisponibles)
+        .filter(([cod, nom]) => !query || nom.toLowerCase().includes(query) || cod.toLowerCase().includes(query));
+
+    dd.innerHTML = entries.length === 0
+        ? `<div class="hor-escuela-opt hor-escuela-empty">Sin resultados</div>`
+        : entries.map(([cod, nom]) => `<div class="hor-escuela-opt" onmousedown="selectEscuelaOption('${cod}')">${nom}</div>`).join('');
+    dd.style.display = 'block';
+}
+
+function selectEscuelaOption(cod) {
+    const nombre = horEscuelasDisponibles[cod];
+    document.getElementById('horEscuelaInput').value = nombre || '';
+    document.getElementById('horEscuelaDropdown').style.display = 'none';
+    horariosSeleccion.escuela = cod;
+    saveHorFiltrosSel();
+    onHorEscuelaChange();
+}
+
+document.addEventListener('click', (e) => {
+    const combo = document.getElementById('horEscuelaCombo');
+    if (combo && !combo.contains(e.target)) {
+        const dd = document.getElementById('horEscuelaDropdown');
+        if (dd) dd.style.display = 'none';
+    }
+});
+
+async function onHorEscuelaChange() {
+    const { anio, periodo, sede, escuela } = horariosSeleccion;
+    if (!anio || !periodo || !sede || !escuela) return;
+
+    const cont = document.getElementById('horListaCursos');
+    cont.innerHTML = `<div class="hor-empty hor-empty-loading">⏳ Cargando cursos...</div>`;
+
+    try {
+        const res = await fetch(`scraper/data/${anio}/${periodo}/${sede}/${escuela}.json`);
+        const data = await res.json();
+        horariosCursosDisponibles = data.cursos || [];
+ 
+ 
+        renderHorariosCursos();
+        renderFiltroCursandoBanner();
+    } catch (e) {
+        cont.innerHTML = `<div class="hor-empty" style="color:#ef4444;">⚠️ No se encontraron cursos para esa combinación.</div>`;
+    }
+}
+
+// Intenta restaurar automáticamente año/período/sede/escuela de la última visita.
+function restaurarFiltrosGuardados() {
+    const { anio, periodo, sede, escuela } = horariosSeleccion;
+    if (!anio || !horariosIndice || !horariosIndice[anio]) return;
+
+    const anioSel = document.getElementById('horAnio');
+    if (!anioSel) return;
+    anioSel.value = anio;
+
+    const periodos = Object.keys(horariosIndice[anio]);
+    const periodoSel = document.getElementById('horPeriodo');
+    periodoSel.innerHTML = `<option value="">Período</option>` + periodos.map(p => `<option value="${p}">${nombrePeriodo(p)}</option>`).join('');
+    if (!periodo || !horariosIndice[anio][periodo]) return;
+    periodoSel.value = periodo;
+
+    const sedes = Object.keys(horariosIndice[anio][periodo].sedes);
+    const sedeSel = document.getElementById('horSede');
+    sedeSel.innerHTML = `<option value="">Sede</option>` + sedes.map(s => `<option value="${s}">${nombreSede(s)}</option>`).join('');
+    if (!sede || !horariosIndice[anio][periodo].sedes[sede]) return;
+    sedeSel.value = sede;
+
+    const escuelas = horariosIndice[anio][periodo].sedes[sede];
+    horEscuelasDisponibles = escuelas;
+    const escInput = document.getElementById('horEscuelaInput');
+    escInput.disabled = false;
+    if (!escuela || !escuelas[escuela]) return;
+    escInput.value = escuelas[escuela];
+
+    onHorEscuelaChange();
+}
+
+
+// =============================================================================
+// 6. BÚSQUEDA Y CHIPS DE FILTRO RÁPIDO
+// =============================================================================
+
+function filterHorCursos(q) {
+    horariosBusqueda = q;
+    renderHorariosCursos();
+}
+
+function toggleHorChip(name) {
+    horFiltros[name] = !horFiltros[name];
+    updateChipsUI();
+    renderHorariosCursos();
+}
+
+function toggleHorDiaFiltro(dia) {
+    if (horFiltroDias.has(dia)) horFiltroDias.delete(dia);
+    else horFiltroDias.add(dia);
+    updateChipsUI();
+    renderHorariosCursos();
+}
+
+function updateChipsUI() {
+    const favBtn = document.querySelector('.hor-chip[data-chip="favoritos"]');
+    const choquesBtn = document.querySelector('.hor-chip[data-chip="sinChoques"]');
+    if (favBtn) favBtn.classList.toggle('active', horFiltros.favoritos);
+    if (choquesBtn) choquesBtn.classList.toggle('active', horFiltros.sinChoques);
+    document.querySelectorAll('.hor-chip-day').forEach(btn => {
+        btn.classList.toggle('active', horFiltroDias.has(btn.dataset.day));
+    });
+}
+
+
+// =============================================================================
+// 7. LISTA DE CURSOS DISPONIBLES
+// =============================================================================
+
+function isGrupoElegido(codigo, grupoId) {
+    return horariosCursosElegidos.some(s => s.curso.codigo === codigo && s.grupo.grupo === grupoId);
+}
+
+function renderHorariosCursos() {
+    const cont = document.getElementById('horListaCursos');
+    const q = horariosBusqueda.toLowerCase();
+
+   
+ 
+    const filtrados = horariosCursosDisponibles
+        .filter(c => !q || c.codigo.toLowerCase().includes(q) || c.nombre.toLowerCase().includes(q))
+        .slice()
+        .sort((a, b) => a.codigo.localeCompare(b.codigo, 'es', { numeric: true }))
+        .map(c => {
+            let grupos = ordenarGrupos(c.grupos);
+
+            if (horFiltroDias.size > 0) {
+                grupos = grupos.filter(g => {
+                    if (isGrupoElegido(c.codigo, g.grupo)) return true; // nunca ocultar lo ya elegido
+                    const bloques = parseHorario(g.horario);
+                    return bloques.some(b => horFiltroDias.has(b.dia));
+                });
+            }
+            if (horFiltros.sinChoques) {
+                grupos = grupos.filter(g => {
+                    if (isGrupoElegido(c.codigo, g.grupo)) return true;
+                    return !evaluarChoqueCandidato(g.horario).choca;
+                });
+            }
+            if (horFiltros.favoritos) {
+                grupos = grupos.filter(g => isGrupoFavorito(c.codigo, g.grupo) || isGrupoElegido(c.codigo, g.grupo));
+            }
+            return { ...c, grupos };
+        })
+        .filter(c => c.grupos.length > 0);
+
+    if (filtrados.length === 0) {
+        cont.innerHTML = `<div class="hor-empty">😕 Sin cursos que coincidan con los filtros actuales.</div>`;
+        return;
+    }
+
+    cont.innerHTML = filtrados.map(c => {
+        const colapsado = horCursosColapsados.has(c.codigo);
+        return `
+        <div class="hor-curso-block">
+            <div class="hor-curso-title hor-curso-title-toggle" onclick="toggleHorCursoColapso('${c.codigo}')">
+                <svg class="hor-curso-arrow ${colapsado ? 'is-collapsed' : ''}" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                <span>${c.codigo} - ${c.nombre}</span>
+            </div>
+            <div class="hor-curso-meta">${c.creditos} Créditos · ${c.grupos.length} grupo${c.grupos.length !== 1 ? 's' : ''}</div>
+            <div class="hor-grupos-grid" style="${colapsado ? 'display:none;' : ''}">
+                ${c.grupos.map(g => {
+                    const elegido = isGrupoElegido(c.codigo, g.grupo);
+                    const favorito = isGrupoFavorito(c.codigo, g.grupo);
+                    const otroElegido = !elegido && horariosCursosElegidos.some(s => s.curso.codigo === c.codigo && s.grupo.grupo !== g.grupo);
+                    const { choca, contras } = (elegido || otroElegido) ? { choca: false, contras: [] } : evaluarChoqueCandidato(g.horario);
+                    const contrasTxt = contras.map(s => `${s.curso.codigo} (Gr.${s.grupo.grupo})`).join(', ');
+                    return `
+                    <div class="hor-grupo-card ${elegido ? 'is-selected' : ''} ${choca ? 'has-choque' : ''} ${otroElegido ? 'is-disabled' : ''}"
+                         onmouseenter="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, true)"
+                         onmouseleave="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)">
+                        <div class="hor-grupo-top">
+                            <span class="hor-grupo-badge">Grupo ${g._grupoOriginal || g.grupo}</span>
+                            ${g._sede ? `<span class="hor-grupo-sede-badge">${nombreSede(g._sede)}</span>` : ''}
+                            ${choca ? `<span class="hor-choque-badge" data-tooltip="Choca con: ${contrasTxt}">⚠️</span>` : ''}
+                            <button class="hor-fav-btn ${favorito ? 'is-fav' : ''}"
+                                onclick='toggleHorFavorito(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)})'
+                                title="${favorito ? 'Quitar de favoritos' : 'Marcar como favorito'}">${favorito ? '★' : '☆'}</button>
+                            <span class="hor-grupo-modalidad">${g.modalidad || ''}</span>
+                        </div>
+                        <div class="hor-grupo-line hor-grupo-prof">
+                            👤 ${g.profesor || 'Sin profesor'}
+                            ${buscarUrlProfesor(g.profesor) ? `<button class="hor-prof-btn" title="Ver calificaciones en MisProfesores"
+    onclick='event.stopPropagation(); abrirPanelProfesor(${JSON.stringify(g.profesor)}, ${JSON.stringify(buscarUrlProfesor(g.profesor))}, ${JSON.stringify(c.codigo)}, ${JSON.stringify(c.nombre)})'>
+    <span class="hor-prof-dot"></span>Reseñas</button>` : ''}
+                            </div>
+                        <div class="hor-grupo-line">🕐 ${g.horario || 'Sin horario definido'}</div>
+                        ${g.aula ? `<div class="hor-grupo-line">📍 ${g.edificio ? `${g.edificio}-${g.aula}` : g.aula}</div>` : ''}
+                         <button class="hor-btn-select ${elegido ? 'is-selected' : ''}"
+                            onclick='toggleHorCurso(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)})'
+                            ${otroElegido ? 'disabled' : ''}>
+                            ${elegido ? '✓ Seleccionado' : otroElegido ? '🔒 Otro grupo elegido' : (choca ? '⚠️ Agregar de todos modos' : 'Seleccionar')}
+                        </button>
+                    </div>`;
+                }).join('')}
+            </div>
+        </div>`;
+    }).join('');
+}
+
+function toggleHorCursoColapso(codigo) {
+    if (horCursosColapsados.has(codigo)) horCursosColapsados.delete(codigo);
+    else horCursosColapsados.add(codigo);
+    renderHorariosCursos();
+}
+
+
+// =============================================================================
+// 8. FAVORITOS
+// =============================================================================
+
+function favKey(codigo, grupoId) { return `${codigo}::${grupoId}`; }
+function isGrupoFavorito(codigo, grupoId) { return horariosFavoritos.has(favKey(codigo, grupoId)); }
+
+function toggleHorFavorito(codigo, grupoId) {
+    const key = favKey(codigo, grupoId);
+    if (horariosFavoritos.has(key)) horariosFavoritos.delete(key);
+    else horariosFavoritos.add(key);
+    saveHorFavoritos();
+    renderHorariosCursos();
+}
+
+
+// =============================================================================
+// 9. SELECCIÓN DE CURSOS
+// =============================================================================
+
+function toggleHorCurso(codigo, grupoId) {
+    const idx = horariosCursosElegidos.findIndex(s => s.curso.codigo === codigo && s.grupo.grupo === grupoId);
+    if (idx !== -1) {
+        removeHorCurso(codigo, grupoId);
+        return;
+    }
+
+    const otroGrupo = horariosCursosElegidos.find(s => s.curso.codigo === codigo && s.grupo.grupo !== grupoId);
+    if (otroGrupo) {
+        alert(`Ya tenés el Grupo ${otroGrupo.grupo.grupo} de ${codigo} seleccionado.\nQuitalo primero si querés elegir otro grupo.`);
+        return;
+    }
+
+    const curso = horariosCursosDisponibles.find(c => c.codigo === codigo);
+    const grupo = curso.grupos.find(g => g.grupo === grupoId);
+    const usedColors = horariosCursosElegidos.map(s => s.color);
+    const color = HOR_PALETTE.find(c => !usedColors.includes(c)) || HOR_PALETTE[horariosCursosElegidos.length % HOR_PALETTE.length];
+    horariosCursosElegidos.push({ curso: { codigo: curso.codigo, nombre: curso.nombre, creditos: curso.creditos }, grupo, color });
+
+    saveHorSeleccion();
+    renderHorariosCursos();
+    renderHorarioGrid();
+    renderSeleccionados();
+    updateHorStats();
+}
+
+function removeHorCurso(codigo, grupoId) {
+    const item = horariosCursosElegidos.find(s => s.curso.codigo === codigo && s.grupo.grupo === grupoId);
+    if (item) {
+        horUltimoEliminado = item;
+        mostrarBotonDeshacer();
+    }
+    horariosCursosElegidos = horariosCursosElegidos.filter(s => !(s.curso.codigo === codigo && s.grupo.grupo === grupoId));
+    saveHorSeleccion();
+    renderHorariosCursos();
+    renderHorarioGrid();
+    renderSeleccionados();
+    updateHorStats();
+}
+
+function mostrarBotonDeshacer() {
+    const btn = document.getElementById('horBtnUndo');
+    if (!btn) return;
+    btn.style.display = 'inline-flex';
+    clearTimeout(horUndoTimer);
+    horUndoTimer = setTimeout(() => { btn.style.display = 'none'; horUltimoEliminado = null; }, 6000);
+}
+
+function undoRemoveHorCurso() {
+    if (!horUltimoEliminado) return;
+    const yaExiste = isGrupoElegido(horUltimoEliminado.curso.codigo, horUltimoEliminado.grupo.grupo);
+    if (!yaExiste) horariosCursosElegidos.push(horUltimoEliminado);
+    horUltimoEliminado = null;
+    document.getElementById('horBtnUndo').style.display = 'none';
+    clearTimeout(horUndoTimer);
+
+    saveHorSeleccion();
+    renderHorariosCursos();
+    renderHorarioGrid();
+    renderSeleccionados();
+    updateHorStats();
+}
+
+function confirmClearHorario() {
+    if (horariosCursosElegidos.length === 0) return;
+    if (!confirm('¿Quitar todos los cursos seleccionados de este horario?')) return;
+    horariosCursosElegidos = [];
+    saveHorSeleccion();
+    renderHorariosCursos();
+    renderHorarioGrid();
+    renderSeleccionados();
+    updateHorStats();
+}
+
+function detectarChoques() {
+    const todos = [];
+    horariosCursosElegidos.forEach(s => {
+        parseHorario(s.grupo.horario).forEach(b => todos.push({ ...b, ref: s }));
+    });
+    const choques = [];
+    for (let i = 0; i < todos.length; i++) {
+        for (let j = i + 1; j < todos.length; j++) {
+            if (todos[i].ref === todos[j].ref) continue;
+            if (bloquesChocan(todos[i], todos[j])) choques.push([todos[i], todos[j]]);
+        }
+    }
+    return choques;
+}
+
+
+// =============================================================================
+// 10. GRILLA SEMANAL
+// =============================================================================
+
+function previewHorGrupo(codigo, grupoId, show) {
+    if (isGrupoElegido(codigo, grupoId)) return; // ya está en la grilla, no hace falta preview
+    if (show) {
+        const curso = horariosCursosDisponibles.find(c => c.codigo === codigo);
+        const grupo = curso?.grupos.find(g => g.grupo === grupoId);
+        if (!grupo) return;
+        horHoverPreview = { curso: { codigo: curso.codigo, nombre: curso.nombre, creditos: curso.creditos }, grupo };
+    } else {
+        horHoverPreview = null;
+    }
+    renderHorarioGrid();
+}
+
+function renderHorarioGrid() {
+    const wrap = document.getElementById('horGrid');
+    if (!wrap) return;
+
+    wrap.classList.toggle('hor-grid-wrap--claro', horExportTema === 'claro');
+
+    const todosBloques = [];
+    horariosCursosElegidos.forEach(s => {
+        parseHorario(s.grupo.horario).forEach(b => todosBloques.push({ ...b, ref: s }));
+    });
+
+    const bloquesPreview = [];
+    if (horHoverPreview) {
+        parseHorario(horHoverPreview.grupo.horario).forEach(b => bloquesPreview.push({ ...b, ref: horHoverPreview }));
+    }
+
+    const dias = horGridConfig.dias;
+    const minH = horGridConfig.horaIni;
+    const maxH = horGridConfig.horaFin;
+    const totalHoras = maxH - minH;
+    const choques = detectarChoques();
+    const chocaIds = new Set();
+    choques.forEach(([a, b]) => { chocaIds.add(a); chocaIds.add(b); });
+
+    let html = `<div class="hor-week-grid" style="grid-template-columns:38px repeat(${dias.length}, 1fr); grid-template-rows:22px repeat(${totalHoras * 2}, 1fr);">`;
+    html += `<div class="hor-cell-header" style="grid-column:1; grid-row:1;"></div>`;
+    dias.forEach((d, i) => html += `<div class="hor-cell-header" style="grid-column:${i+2}; grid-row:1;">${DIA_LABEL[d].slice(0,3)}</div>`);
+
+    for (let h = minH; h < maxH; h++) {
+        const row = 2 + (h - minH) * 2;
+        html += `<div class="hor-time-label" style="grid-column:1; grid-row:${row}/span 2;">${String(h).padStart(2,'0')}:00</div>`;
+        dias.forEach((d, i) => {
+            html += `<div class="hor-cell" style="grid-column:${i+2}; grid-row:${row}/span 2;"></div>`;
+        });
+    }
+
+    // Línea de "ahora"
+    const ahora = new Date();
+    const diaHoy = DIA_JS_MAP[ahora.getDay()];
+    const horaActualFloat = ahora.getHours() + ahora.getMinutes() / 60;
+    if (diaHoy && dias.includes(diaHoy) && horaActualFloat >= minH && horaActualFloat < maxH) {
+        const rowNow = 2 + Math.round((horaActualFloat - minH) * 2);
+        const colNow = dias.indexOf(diaHoy) + 2;
+        html += `<div class="hor-now-line" style="grid-column:2/-1; grid-row:${rowNow};"></div>`;
+        html += `<div class="hor-now-dot" style="grid-column:${colNow}; grid-row:${rowNow};" title="Ahora: ${String(ahora.getHours()).padStart(2,'0')}:${String(ahora.getMinutes()).padStart(2,'0')}"></div>`;
+    }
+
+    const pintarBloque = (b, esPreview) => {
+        const col = dias.indexOf(b.dia);
+        if (col === -1) return '';
+        const bIniH = horasAMin(b.inicio) / 60;
+        const bFinH = horasAMin(b.fin) / 60;
+        if (bFinH <= minH || bIniH >= maxH) return '';
+        const startRow = 2 + Math.round((Math.max(bIniH, minH) - minH) * 2);
+        const endRow = 2 + Math.round((Math.min(bFinH, maxH) - minH) * 2);
+        const isChoque = !esPreview && chocaIds.has(b);
+        const claseExtra = esPreview ? 'hor-block-preview' : (isChoque ? 'is-choque' : '');
+        const color = esPreview ? '#ffffff' : (isChoque ? '#ef4444' : b.ref.color);
+        const span = endRow - startRow;
+        const extra = !esPreview && span >= 2
+            ? `<div class="hor-block-extra">
+                 <div class="hor-block-extra-line">${ICON_USERS}${b.ref.grupo.grupo}${b.ref.grupo.aula ? ` · ${ICON_LOC}${b.ref.grupo.edificio ? `${b.ref.grupo.edificio}-${b.ref.grupo.aula}` : b.ref.grupo.aula}` : ''}</div>
+                 ${b.ref.grupo.profesor ? `<div class="hor-block-extra-line">${ICON_PROF}<span>${abreviarProfesor(b.ref.grupo.profesor)}</span></div>` : ''}
+               </div>`
+            : '';
+        const controles = !esPreview ? `
+                <button class="hor-block-remove" title="Quitar"
+                    onclick='event.stopPropagation(); removeHorCurso(${JSON.stringify(b.ref.curso.codigo)}, ${JSON.stringify(b.ref.grupo.grupo)})'>✕</button>
+                <input type="color" class="hor-block-colorpick" value="${b.ref.color}" title="Cambiar color"
+                    onclick="event.stopPropagation()"
+                    onchange='setHorColor(${JSON.stringify(b.ref.curso.codigo)}, ${JSON.stringify(b.ref.grupo.grupo)}, this.value)'>`
+            : '';
+        return `
+            <div class="hor-block ${claseExtra}"
+                 style="grid-column:${col+2}; grid-row:${startRow}/${endRow}; --block-color:${color};">
+                ${controles}
+                <div class="hor-block-code">${b.ref.curso.nombre}</div>
+                <div class="hor-block-time">${b.inicio}-${b.fin}</div>
+                ${extra}
+            </div>`;
+    };
+
+    todosBloques.forEach(b => { html += pintarBloque(b, false); });
+    bloquesPreview.forEach(b => { html += pintarBloque(b, true); });
+
+    html += `</div>`;
+    wrap.innerHTML = html;
+
+    const choquesEl = document.getElementById('horChoques');
+    choquesEl.innerHTML = choques.length > 0
+        ? `<div class="hor-warning">⚠️ ${choques.length} choque${choques.length !== 1 ? 's' : ''} de horario detectado${choques.length !== 1 ? 's' : ''}</div>`
+        : '';
+
+    updateHorStats();
+}
+
+
+// =============================================================================
+// 11. STATS / RESUMEN
+// =============================================================================
+
+function updateHorStats() {
+    const cursosEl = document.getElementById('horStatCursos');
+    const credsEl = document.getElementById('horStatCreditos');
+    const choquesWrap = document.getElementById('horStatChoques');
+    const choquesNum = document.getElementById('horStatChoquesNum');
+    if (!cursosEl) return;
+
+    const totalCreds = horariosCursosElegidos.reduce((s, x) => s + (x.curso.creditos || 0), 0);
+    cursosEl.textContent = horariosCursosElegidos.length;
+    credsEl.textContent = totalCreds;
+
+    const choques = detectarChoques();
+    if (choques.length > 0) {
+        choquesWrap.style.display = 'flex';
+        choquesNum.textContent = choques.length;
+    } else {
+        choquesWrap.style.display = 'none';
+    }
+}
+
+function renderSeleccionados() { /* panel eliminado: controles ahora viven en cada bloque de la grilla */ }
+
+function setHorColor(codigo, grupoId, color) {
+    const item = horariosCursosElegidos.find(s => s.curso.codigo === codigo && s.grupo.grupo === grupoId);
+    if (!item) return;
+    item.color = color;
+    saveHorSeleccion();
+    renderHorariosCursos();
+    renderHorarioGrid();
+    renderSeleccionados();
+}
+
+function ordenarGrupos(grupos) {
+        return [...grupos].sort((a, b) => {
+            const av = parseInt(a._grupoOriginal ?? a.grupo);
+            const bv = parseInt(b._grupoOriginal ?? b.grupo);
+            if (av !== bv) return av - bv;
+            return (a._sede || '').localeCompare(b._sede || '');
+        });
+    }
+
+
+// =============================================================================
+// 12. EXPORTAR HORARIO
+// =============================================================================
+
+function exportHorarioImagen() {
+    if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
+
+    const PALETTE_EXPORT = HOR_PALETTE;
+    const DAY_COL = { LUN:2, MAR:3, MIE:4, JUE:5, VIE:6, SAB:7 };
+
+    let minH = 22, maxH = 7;
+    horariosCursosElegidos.forEach(s => {
+        parseHorario(s.grupo.horario).forEach(b => {
+            const sh = parseInt(b.inicio.split(':')[0]);
+            const eh = parseInt(b.fin.split(':')[0]);
+            if (sh < minH) minH = sh;
+            if (eh > maxH) maxH = eh;
+        });
+    });
+    if (minH > maxH) { minH = 7; maxH = 21; }
+    minH = Math.max(5, minH - 1);
+    maxH = Math.min(23, maxH + 1);
+
+    const STEP_MIN = 10;
+    const STEPS_PER_H = 60 / STEP_MIN;
+    const TOTAL_STEPS = (maxH - minH) * STEPS_PER_H;
+
+    function timeToRow(timeStr) {
+        const [h, m] = timeStr.split(':').map(Number);
+        return 2 + (h - minH) * STEPS_PER_H + Math.round(m / STEP_MIN);
+    }
+
+    const diasUsados = new Set();
+    horariosCursosElegidos.forEach(s => parseHorario(s.grupo.horario).forEach(b => diasUsados.add(b.dia)));
+    const diasActivos = DIAS_ORDEN.filter(d => diasUsados.size === 0 || diasUsados.has(d));
+    const diasFinal = diasActivos.length > 0 ? diasActivos : DIAS_ORDEN.slice(0, 5);
+
+    const blockHtml = [];
+    horariosCursosElegidos.forEach((s, idx) => {
+        const color = s.color || PALETTE_EXPORT[idx % PALETTE_EXPORT.length];
+        parseHorario(s.grupo.horario).forEach(b => {
+            const col = DAY_COL[b.dia];
+            if (!col || !diasFinal.includes(b.dia)) return;
+            const startRow = timeToRow(b.inicio);
+            const endRow = timeToRow(b.fin);
+            const span = Math.max(endRow - startRow, 1);
+            blockHtml.push(
+                `<div class="class-block" style="grid-column:${col};grid-row:${startRow}/span ${span};background-color:${color} !important;">` +
+                `<div class="subject">${s.curso.nombre}</div>` +
+                `<div class="tags">` +
+                    `<span class="tag">Gr.${s.grupo.grupo}</span>` +
+                    (s.grupo.aula ? `<span class="tag">${s.grupo.edificio ? `${s.grupo.edificio}-${s.grupo.aula}` : s.grupo.aula}</span>` : '') +
+                `</div>` +
+                `<div class="time-range">${b.inicio}&#8211;${b.fin}</div>` +
+                (s.grupo.profesor ? `<div class="details">${s.grupo.profesor}</div>` : '') +
+                `</div>`
+            );
+        });
+    });
+
+    const timeLabels = [];
+    for (let h = minH; h < maxH; h++) {
+        const row = 2 + (h - minH) * STEPS_PER_H;
+        timeLabels.push(`<div class="time-slot" style="grid-column:1;grid-row:${row}/span ${STEPS_PER_H};">${String(h).padStart(2,'0')}:00</div>`);
+    }
+    const gridCells = [];
+    for (let r = 0; r < TOTAL_STEPS; r++) {
+        for (let col = 2; col <= diasFinal.length + 1; col++) {
+            gridCells.push(`<div class="cell" style="grid-column:${col};grid-row:${2+r};"></div>`);
+        }
+    }
+    const headerCols = diasFinal.map(d => `<div class="header">${DIA_LABEL[d]}</div>`).join('');
+
+    const totalCreds = horariosCursosElegidos.reduce((s, x) => s + (x.curso.creditos || 0), 0);
+
+    const html = `<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><title>Mi Horario TEC</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:Arial,sans-serif;background:#fff;padding:14px;}
+h1{text-align:center;color:#2c3e50;font-size:1.15rem;margin-bottom:2px;}
+h2{text-align:center;color:#666;font-size:0.85rem;font-weight:normal;margin-bottom:10px;}
+.print-btn{display:block;margin:0 auto 12px;background:#8257e6;color:#fff;border:none;padding:8px 20px;border-radius:6px;font-size:0.9rem;cursor:pointer;}
+.schedule-container{
+  width:100%; display:grid;
+  grid-template-columns:48px repeat(${diasFinal.length}, 1fr);
+  grid-template-rows:30px repeat(${TOTAL_STEPS},1fr);
+  gap:1px; background:#ccc; border:1px solid #ccc;
+}
+.header{ background:#2c3e50 !important; color:#fff !important; font-weight:700; display:flex; align-items:center; justify-content:center;
+  text-transform:uppercase; font-size:0.7rem; letter-spacing:0.5px; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.time-slot{ background:#f5f5f5 !important; color:#444; font-size:0.6rem; display:flex; align-items:flex-start; justify-content:center;
+  padding-top:3px; font-weight:bold; grid-column:1; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.cell{background:#fff !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+.class-block{ color:#fff !important; font-size:0.65rem; border-radius:3px; display:flex; flex-direction:column; overflow:visible;
+  margin:1px; border-left:4px solid rgba(0,0,0,0.25); line-height:1.25; padding:3px 5px;
+  -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+.subject{font-weight:700;font-size:0.68rem;margin-bottom:1px;}
+.tags{display:flex;gap:3px;flex-wrap:wrap;margin-bottom:2px;}
+.tag{background:rgba(255,255,255,0.28);border-radius:2px;padding:0 4px;font-size:0.52rem;font-weight:700;letter-spacing:0.2px;}
+.time-range{font-size:0.58rem;background:rgba(0,0,0,0.18);border-radius:2px;padding:1px 3px;display:inline-block;align-self:flex-start;margin-bottom:1px;}
+.details{font-size:0.56rem;opacity:0.92;white-space:normal;overflow:visible;font-weight:600;}
+@page{size:landscape;margin:8mm;}
+@media print{ body{padding:0;} .print-btn{display:none!important;} }
+</style></head>
+<body>
+<h1>Mi Horario · TecPlanner</h1>
+<h2>${horariosCursosElegidos.length} cursos · ${totalCreds} créditos</h2>
+<button class="print-btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+<div class="schedule-container">
+  <div class="header" style="grid-column:1;">Hora</div>
+  ${headerCols}
+  ${timeLabels.join('')}
+  ${gridCells.join('')}
+  ${blockHtml.join('')}
+</div>
+</body></html>`;
+
+    const blob = new Blob([html], { type: 'text/html;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    window.open(url, '_blank');
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+}
+
+function abreviarProfesor(nombre) {
+    if (!nombre) return '';
+    const palabras = nombre.trim().split(/\s+/);
+    if (palabras.length <= 2) return nombre;
+    const primerApellido = palabras[0];
+    const primerNombre = palabras.length >= 3 ? palabras[2] : palabras[1];
+    return `${primerApellido} ${primerNombre}`;
+}
+
+// =============================================================================
+// 13. GUARDAR / CARGAR HORARIO EN JSON
+// =============================================================================
+
+function exportHorarioJSON() {
+    if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
+    const payload = {
+        version: 1,
+        seleccion: horariosSeleccion,
+        cursos: horariosCursosElegidos,
+        gridConfig: horGridConfig
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'TecPlanner_Horario.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+function importHorarioJSON(event) {
+    const file = event.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        try {
+            const data = JSON.parse(e.target.result);
+            if (!Array.isArray(data.cursos)) throw new Error('formato inválido');
+            horariosCursosElegidos = data.cursos;
+            if (data.gridConfig) horGridConfig = data.gridConfig;
+            saveHorSeleccion();
+            saveHorGridConfig();
+            renderHorariosCursos();
+            renderHorarioGrid();
+            updateHorStats();
+            alert('Horario cargado con éxito.');
+        } catch (err) {
+            alert('ERROR: El archivo no tiene el formato correcto.');
+        }
+    };
+    reader.readAsText(file);
+    event.target.value = '';
+}
+
+// =============================================================================
+// 14. EXPORTAR EXACTO (PNG / PDF)
+// =============================================================================
+// html2canvas no soporta bien CSS moderno (color-mix, backdrop-filter, inputs
+// type=color, position:sticky). Por eso NO capturamos el DOM visible: armamos
+// una versión "limpia" de la grilla fuera de pantalla, la capturamos, y la
+// borramos. Esto es mucho más confiable.
+
+// Reemplaza a la función buildExportGridElement() vieja en horarios.js (sección 14).
+
+function getExportTemaColores() {
+    if (horExportTema === 'claro') {
+        return {
+            wrapBg: '#ffffff', wrapBorder: '#ccc',
+            gridGap: '#ddd',
+            headerBg: '#f1f1f4', headerText: '#5b21b6',
+            timeBg: '#fafafa', timeText: '#555',
+            cellBg: '#ffffff',
+        };
+    }
+    return {
+        wrapBg: '#09090b', wrapBorder: '#333',
+        gridGap: '#222',
+        headerBg: '#18181b', headerText: '#8257e6',
+        timeBg: '#121214', timeText: '#888',
+        cellBg: '#0d0d0f',
+    };
+}
+
+function buildExportGridElement() {
+    const dias = horGridConfig.dias;
+    const minH = horGridConfig.horaIni;
+    const maxH = horGridConfig.horaFin;
+    const totalHoras = maxH - minH;
+    const rowH = 28; // px por cada media hora
+    const c = getExportTemaColores();
+
+    const wrap = document.createElement('div');
+    wrap.style.cssText = `
+        position:fixed; left:-99999px; top:0; z-index:-1;
+        width:${70 + dias.length * 150}px;
+        background:${c.wrapBg}; padding:16px; box-sizing:border-box;
+        font-family:Arial,Helvetica,sans-serif;
+        border:1px solid ${c.wrapBorder}; border-radius:10px;
+    `;
+
+    let html = `<div style="display:grid;
+        grid-template-columns:50px repeat(${dias.length}, 1fr);
+        grid-template-rows:32px repeat(${totalHoras * 2}, ${rowH}px);
+        gap:2px; background:${c.gridGap};">`;
+
+    html += `<div style="grid-column:1; grid-row:1; background:${c.headerBg};"></div>`;
+    dias.forEach((d, i) => {
+        html += `<div style="grid-column:${i + 2}; grid-row:1; background:${c.headerBg}; color:${c.headerText};
+            font-weight:bold; font-size:12px; display:flex; align-items:center; justify-content:center;
+            text-transform:uppercase; letter-spacing:0.5px;">${DIA_LABEL[d].slice(0, 3)}</div>`;
+    });
+
+    for (let h = minH; h < maxH; h++) {
+        const row = 2 + (h - minH) * 2;
+        html += `<div style="grid-column:1; grid-row:${row} / span 2; background:${c.timeBg}; color:${c.timeText};
+            font-size:10px; display:flex; align-items:flex-start; justify-content:center; padding-top:2px;">
+            ${String(h).padStart(2, '0')}:00</div>`;
+        dias.forEach((d, i) => {
+            html += `<div style="grid-column:${i + 2}; grid-row:${row} / span 2; background:${c.cellBg};"></div>`;
+        });
+    }
+
+    horariosCursosElegidos.forEach(s => {
+        parseHorario(s.grupo.horario).forEach(b => {
+            const col = dias.indexOf(b.dia);
+            if (col === -1) return;
+            const bIniH = horasAMin(b.inicio) / 60;
+            const bFinH = horasAMin(b.fin) / 60;
+            if (bFinH <= minH || bIniH >= maxH) return;
+            const startRow = 2 + Math.round((Math.max(bIniH, minH) - minH) * 2);
+            const endRow = 2 + Math.round((Math.min(bFinH, maxH) - minH) * 2);
+            const span = endRow - startRow;
+            const aulaTxt = s.grupo.aula ? (s.grupo.edificio ? `${s.grupo.edificio}-${s.grupo.aula}` : s.grupo.aula) : '';
+            const profLine = s.grupo.profesor
+                ? `<div style="display:flex; align-items:center; gap:3px; opacity:0.92; font-size:8.5px; margin-top:2px; font-weight:600;">${ICON_PROF}<span>${abreviarProfesor(s.grupo.profesor)}</span></div>`
+                : '';
+            html += `
+                <div style="grid-column:${col + 2}; grid-row:${startRow} / ${endRow};
+                    background-color:${s.color}; border-radius:4px; border-left:3px solid rgba(0,0,0,0.35);
+                    color:#fff; font-size:10px; padding:4px 6px; margin:1px; overflow:hidden;
+                    box-sizing:border-box; display:flex; flex-direction:column;">
+                    <div style="font-weight:bold; font-size:10.5px; line-height:1.2;">${s.curso.nombre}</div>
+                    <div style="opacity:0.9; font-size:9px; margin-top:2px; background:rgba(0,0,0,0.18);
+                        border-radius:2px; padding:1px 3px; display:inline-block; align-self:flex-start;">${b.inicio}&#8211;${b.fin}</div>
+                    ${span >= 2 ? `
+                    <div style="display:flex; align-items:center; gap:3px; opacity:0.9; font-size:8.5px; margin-top:2px;">${ICON_USERS}<span>Gr.${s.grupo.grupo}${aulaTxt ? ' · ' + aulaTxt : ''}</span></div>
+                    ${profLine}` : ''}
+                </div>`;
+        });
+    });
+
+    html += `</div>`;
+    wrap.innerHTML = html;
+    document.body.appendChild(wrap);
+    return wrap;
+}
+
+async function capturarGridComoCanvas() {
+    if (typeof html2canvas !== 'function') {
+        alert('La librería de exportación aún no cargó. Esperá unos segundos e intentá de nuevo.');
+        return null;
+    }
+    const el = buildExportGridElement();
+    try {
+        await new Promise(r => setTimeout(r, 60)); // dejar que el navegador aplique el layout
+        return await html2canvas(el, {
+            backgroundColor: '#09090b',
+            scale: 2,
+            useCORS: true,
+            logging: false,
+        });
+    } finally {
+        el.remove();
+    }
+}
+
+async function exportHorarioComoImagen() {
+    if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
+    try {
+        const canvas = await capturarGridComoCanvas();
+        if (!canvas) return;
+        const a = document.createElement('a');
+        a.download = 'TecPlanner_Horario.png';
+        a.href = canvas.toDataURL('image/png');
+        a.click();
+    } catch (e) {
+        console.error('Error exportando PNG:', e);
+        alert('No se pudo generar la imagen. Probá de nuevo.');
+    }
+}
+
+async function exportHorarioComoPDF() {
+    if (horariosCursosElegidos.length === 0) { alert('Primero seleccioná al menos un curso.'); return; }
+    if (typeof window.jspdf === 'undefined') {
+        alert('La librería de PDF aún no cargó. Esperá unos segundos e intentá de nuevo.');
+        return;
+    }
+    try {
+        const canvas = await capturarGridComoCanvas();
+        if (!canvas) return;
+        const imgData = canvas.toDataURL('image/png');
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF({
+            orientation: canvas.width > canvas.height ? 'landscape' : 'portrait',
+            unit: 'px',
+            format: [canvas.width, canvas.height]
+        });
+        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+        pdf.save('TecPlanner_Horario.pdf');
+    } catch (e) {
+        console.error('Error exportando PDF:', e);
+        alert('No se pudo generar el PDF. Probá de nuevo.');
+    }
+}
+
+// =============================================================================
+// 15. MISPROFESORES.COM — calificaciones en vivo + comparador
+// =============================================================================
+// Se consulta EN EL MOMENTO en que el usuario hace clic, directo a la URL
+// específica asignada al profesor (ver profesores.js). Como el navegador no
+// puede hacer fetch() cross-origin a misprofesores.com (no manda cabeceras
+// CORS), se pasa por un proxy público. Si un proxy falla o está caído,
+// se intenta con el siguiente de la lista.
+
+const MISPROFES_PROXIES = [
+    (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+    (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+];
+
+let misprofesCache = {}; // url -> datos ya parseados, evita re-consultar en la misma sesión
+
+async function fetchConTimeout(url, timeoutMs = 12000) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+        const res = await fetch(url, { signal: controller.signal });
+        if (!res.ok) throw new Error(`status ${res.status}`);
+        return await res.text();
+    } finally {
+        clearTimeout(timer);
+    }
+}
+
+// Lanza TODOS los proxies a la vez y se queda con el que responda primero.
+// Si uno se cuelga, el timeout lo aborta sin frenar a los demás.
+async function fetchHtmlViaProxy(url) {
+    const intentos = MISPROFES_PROXIES.map(construir => fetchConTimeout(construir(url)));
+    try {
+        return await Promise.any(intentos);
+    } catch {
+        throw new Error('No se pudo contactar ningún proxy (todos fallaron o tardaron demasiado)');
+    }
+}
+
+// Extrae los 4 datos numéricos del HTML de la página del profesor.
+// Estrategia: recorrer todos los nodos de texto en orden (igual que ve el
+// usuario en pantalla) y, para cada etiqueta conocida, tomar el siguiente
+// texto no vacío como su valor. Es resistente a cambios de clases/CSS,
+// pero depende de que las etiquetas en español no cambien.
+function parseMisprofesHTML(html, url) {
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    doc.querySelectorAll('script, style, noscript').forEach(n => n.remove());
+
+    const walker = doc.createTreeWalker(doc.body, NodeFilter.SHOW_TEXT, null);
+    const lines = [];
+    let node;
+    while ((node = walker.nextNode())) {
+        const t = node.textContent.replace(/\s+/g, ' ').trim();
+        if (t) lines.push(t);
+    }
+
+    const valorDespuesDe = (etiqueta) => {
+        const idx = lines.findIndex(l => l === etiqueta);
+        if (idx === -1) return null;
+        for (let i = idx + 1; i < lines.length; i++) {
+            if (lines[i]) return lines[i];
+        }
+        return null;
+    };
+
+    let numCalificaciones = null;
+    for (const line of lines) {
+        const m = line.match(/^(\d+)\s+Calificaciones de Estudiantes/i);
+        if (m) { numCalificaciones = parseInt(m[1], 10); break; }
+    }
+
+    return {
+        calidadGeneral: valorDespuesDe('Calidad General'),
+        nivelDificultad: valorDespuesDe('Nivel de Dificultad'),
+        loRecomiendan: valorDespuesDe('Lo Recomiendan'),
+        numCalificaciones,
+        url
+    };
+}
+
+// Estadísticas estáticas (scraper/output/profesores_stats.json, generado por
+// `npm run profesores`): promedio y nº de calificaciones sacados de la lista de la
+// escuela. Sirven de respaldo cuando los proxies públicos fallan.
+let misprofesStats = null;
+async function cargarStatsMisprofes() {
+    if (misprofesStats) return misprofesStats;
+    try {
+        const res = await fetch('scraper/output/profesores_stats.json', { cache: 'no-cache' });
+        misprofesStats = res.ok ? ((await res.json()).p ?? {}) : {};
+    } catch { misprofesStats = {}; }
+    return misprofesStats;
+}
+
+let misprofesProxiesCaidos = false; // si todos fallaron una vez, no se vuelve a esperar el timeout en cada clic
+
+async function obtenerDatosMisprofes(url) {
+    if (misprofesCache[url]) return misprofesCache[url];
+
+    if (!misprofesProxiesCaidos) {
+        try {
+            const html = await fetchHtmlViaProxy(url);
+            const datos = parseMisprofesHTML(html, url);
+            if (datos.calidadGeneral || datos.numCalificaciones) {
+                misprofesCache[url] = datos;
+                return datos;
+            }
+        } catch { misprofesProxiesCaidos = true; }
+    }
+
+    // Respaldo: datos estáticos por id (la parte final de la URL: ..._49591)
+    const id = (url.match(/_(\d+)\/?$/) || [])[1];
+    const st = id ? (await cargarStatsMisprofes())[id] : null;
+    if (!st) throw new Error('Sin datos en vivo ni estáticos');
+    const datos = {
+        calidadGeneral: st[0] != null ? String(st[0]) : null,
+        nivelDificultad: null,
+        loRecomiendan: null,
+        numCalificaciones: st[1],
+        url,
+        soloEstaticos: true
+    };
+    misprofesCache[url] = datos;
+    return datos;
+}
+
+// --- Recomendación Matemática (usa el mismo caché/proxy de arriba) ---
+//
+// FUNDAMENTO ESTADÍSTICO (por qué ya no es un número inventado):
+//
+// 1) CALIDAD (nota 0-10): se usa un promedio bayesiano/empírico, el mismo principio
+//    que usa IMDB para su Top 250 (WR = v/(v+m)·R + m/(v+m)·C). Dos piezas que antes
+//    eran arbitrarias ahora están justificadas:
+//      - "C" (el promedio de referencia) se calcula EN VIVO como el promedio real de
+//        todos los profesores ya consultados en esta sesión (empirical Bayes: se usa
+//        la propia población observada como prior, en vez de inventar un número).
+//        Si aún no hay muestra suficiente (< REC_MIN_MUESTRA_GLOBAL profesores en
+//        caché) se cae a un valor de respaldo razonable.
+//      - "m" (el umbral de confianza, antes fijo en 30) ahora se DERIVA del margen de
+//        error que se está dispuesto a aceptar: para estimar una calidad con margen
+//        ±E puntos al 95% de confianza, asumiendo una desviación estándar típica σ en
+//        las calificaciones individuales, el tamaño de muestra necesario es
+//        n ≈ (z·σ/E)². Con z=1.96, σ≈2 (típico en escalas 0-10 de este tipo de sitios)
+//        y E=0.7 el resultado da n≈31 — coincide con el 30 original, pero ahora es
+//        una consecuencia de una decisión explícita (qué margen de error aceptamos),
+//        no un valor sacado de la nada.
+//
+// 2) RECOMIENDA (%): en vez de mezclarlo linealmente con un promedio fijo, se usa el
+//    límite inferior del intervalo de confianza de Wilson (Wilson, 1927) para una
+//    proporción binomial — el mismo método que usan sitios como Reddit para ordenar
+//    por "mejor" en vez de por promedio bruto. Es más robusto que una mezcla lineal
+//    porque la incertidumbre sale directo de n y de la proporción observada, sin
+//    necesitar elegir un "peso" a mano.
+
+const REC_Z = 1.96;                      // z para un intervalo de confianza del 95%
+const REC_SIGMA_CALIDAD_ASUMIDA = 2.0;   // desv. estándar asumida de la calidad individual (escala 0-10)
+const REC_MARGEN_ACEPTABLE = 0.7;        // margen de error aceptado en la calidad estimada (puntos sobre 10)
+const REC_M = Math.round(Math.pow(REC_Z * REC_SIGMA_CALIDAD_ASUMIDA / REC_MARGEN_ACEPTABLE, 2)); // ≈31, calculado
+const REC_C_CALIDAD_DEFECTO = 7.0;       // respaldo si aún no hay suficiente muestra en caché
+const REC_C_RECOMIENDA_DEFECTO = 65;     // respaldo (%) si aún no hay suficiente muestra en caché
+const REC_MIN_MUESTRA_GLOBAL = 5;        // mínimo de profesores en caché para confiar en el promedio empírico
+
+// Promedio de calidad/recomendación de TODOS los profesores ya consultados en esta
+// sesión (empirical Bayes: la población real observada actúa como prior, y se afina
+// sola a medida que se consultan más profesores, en vez de quedar fija para siempre).
+function calcularPromedioGlobalCache() {
+    const valores = Object.values(misprofesCache)
+        .map(d => ({
+            calidad: parsearNumeroComparador(d?.calidadGeneral),
+            recomienda: parsearNumeroComparador(d?.loRecomiendan)
+        }))
+        .filter(v => v.calidad !== null && v.recomienda !== null);
+
+    if (valores.length < REC_MIN_MUESTRA_GLOBAL) return null;
+
+    const sumCalidad    = valores.reduce((s, v) => s + v.calidad, 0);
+    const sumRecomienda = valores.reduce((s, v) => s + v.recomienda, 0);
+    return { calidad: sumCalidad / valores.length, recomienda: sumRecomienda / valores.length, n: valores.length };
+}
+
+// Límite inferior del intervalo de Wilson para una proporción binomial (Wilson, 1927).
+// p: proporción observada (0-1), n: tamaño de muestra, z: cuantil normal (95% por defecto).
+function wilsonLowerBound(p, n, z = REC_Z) {
+    if (!n || n <= 0) return 0;
+    const denom  = 1 + (z * z) / n;
+    const centro = p + (z * z) / (2 * n);
+    const margen = z * Math.sqrt((p * (1 - p) + (z * z) / (4 * n)) / n);
+    return Math.max(0, (centro - margen) / denom);
+}
+
+// Convierte los datos ya parseados de misprofesCache en el score ajustado
+function calcularRecomendacionDesdeDatos(datos, cCalidadFijo = null) {
+    if (!datos) return null;
+    const calidad    = parsearNumeroComparador(datos.calidadGeneral);
+    const recomienda = parsearNumeroComparador(datos.loRecomiendan);
+    const n          = parsearNumeroComparador(datos.numCalificaciones);
+    if (calidad === null || recomienda === null || n === null) return null;
+
+    // Si viene un C fijo (snapshot del comparador), se usa ese; si no, se recalcula
+    // en vivo con el caché actual (comportamiento normal para el badge individual).
+    const cCalidad = cCalidadFijo !== null ? cCalidadFijo
+        : (calcularPromedioGlobalCache()?.calidad ?? REC_C_CALIDAD_DEFECTO);
+
+    const peso = n / (n + REC_M);
+    const calidadAjustada = peso * calidad + (1 - peso) * cCalidad;
+    const recomiendaAjustada = wilsonLowerBound(recomienda / 100, n) * 100;
+    const score = calidadAjustada * 0.7 + (recomiendaAjustada / 10) * 0.3;
+
+    return {
+        score: Math.round(score * 10) / 10,
+        calidadAjustada: Math.round(calidadAjustada * 10) / 10,
+        recomiendaAjustada: Math.round(recomiendaAjustada),
+        confiable: n >= REC_M,
+        n
+    };
+}
+
+// Devuelve: null (sin URL asignada), { pendiente:true } (aún no se consultó),
+// o el objeto de recomendación ya calculado
+function getRecomendacionProfesor(nombreProfesor) {
+    const url = buscarUrlProfesor(nombreProfesor);
+    if (!url) return null;
+    if (!misprofesCache[url]) return { pendiente: true, url };
+    return calcularRecomendacionDesdeDatos(misprofesCache[url]);
+}
+
+// Dispara en segundo plano las consultas que falten para los profesores dados
+async function precargarRecomendaciones(nombresProfesores) {
+    const pendientes = [...new Set(nombresProfesores)]
+        .map(nombre => buscarUrlProfesor(nombre))
+        .filter(url => url && !misprofesCache[url]);
+
+    if (pendientes.length === 0) return;
+    await Promise.all(pendientes.map(url => obtenerDatosMisprofes(url).catch(() => null)));
+}
+
+function badgeRecomendacionHTML(nombreProfesor) {
+    const rec = getRecomendacionProfesor(nombreProfesor);
+    if (!rec) return '';
+    if (rec.pendiente) return `<span class="hor-rec-badge rec-pendiente" title="Aún no consultado">🧮 ?</span>`;
+
+    const nivel = rec.score >= 7.5 ? 'rec-alta' : rec.score >= 5.5 ? 'rec-media' : 'rec-baja';
+    const pocos = rec.confiable ? '' : 'rec-pocos-datos';
+    const tooltip = `Recomendación Matemática: ${rec.score}/10 · Calidad ajustada (bayesiana): ${rec.calidadAjustada} · ` +
+                     `Recomendaría (Wilson 95%): ~${rec.recomiendaAjustada}% · ${rec.n} calificaciones` +
+                     (rec.confiable ? '' : ' (muestra pequeña, corregido hacia el promedio general)');
+    return `<span class="hor-rec-badge ${nivel} ${pocos}" title="${tooltip}">🧮 ${rec.score}</span>`;
+}
+
+function openRecomendacionInfoModal() {
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay';
+    modal.style.cssText = 'display:flex; z-index:7000;';
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+    const globalCache = calcularPromedioGlobalCache();
+    const cCalidadTxt = globalCache
+        ? `${globalCache.calidad.toFixed(2)} <span style="color:#555;">(promedio real de ${globalCache.n} profesores ya consultados en esta sesión)</span>`
+        : `${REC_C_CALIDAD_DEFECTO} <span style="color:#555;">(valor de respaldo — aún hay menos de ${REC_MIN_MUESTRA_GLOBAL} profesores en caché para calcularlo en vivo)</span>`;
+
+    modal.innerHTML = `
+        <div class="modal-content" style="width:600px;">
+            <div class="modal-header">
+                <div class="modal-title-code" style="color:#10b981;">🧮 RECOMENDACIÓN MATEMÁTICA</div>
+                <div class="modal-title-name" style="font-size:1.3rem;">¿Cómo se calcula?</div>
+            </div>
+            <div class="modal-body" style="gap:16px;">
+                <p style="color:var(--text-dim); line-height:1.6; margin:0;">
+                    Los datos (calidad, dificultad, % que recomienda) se consultan en vivo desde
+                    <strong style="color:#fff;">MisProfesores.com</strong>. Un profesor con nota alta pero
+                    pocas calificaciones es menos confiable que uno con nota más baja pero muchas, así que se
+                    corrigen ambos números por separado según cuánta muestra tienen detrás.
+                </p>
+
+                <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:16px;">
+                    <div style="font-weight:700; color:#fff; margin-bottom:8px; font-size:0.92rem;">1️⃣ Calidad → promedio bayesiano/empírico</div>
+                    <div style="font-family:monospace; font-size:0.85rem; color:var(--text-dim); line-height:1.8;">
+                        peso = n / (n + m)<br>
+                        calidad_ajustada = peso × calidad + (1 − peso) × C
+                    </div>
+                    <ul style="margin:10px 0 0; padding-left:20px; color:var(--text-dim); line-height:1.8; font-size:0.87rem;">
+                        <li><strong style="color:#fff;">C</strong> (promedio de referencia) = ${cCalidadTxt}.</li>
+                        <li><strong style="color:#fff;">m</strong> (umbral de confianza) = <strong style="color:#4ade80;">${REC_M}</strong>, calculado así:
+                            para estimar la calidad con un margen de error de ±${REC_MARGEN_ACEPTABLE} puntos al 95% de confianza,
+                            asumiendo una desviación estándar típica de ${REC_SIGMA_CALIDAD_ASUMIDA} en calificaciones individuales (escala 0-10),
+                            el tamaño de muestra necesario es <code>n ≈ (z·σ/E)²</code> con z=${REC_Z}.</li>
+                    </ul>
+                </div>
+
+                <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:16px;">
+                    <div style="font-weight:700; color:#fff; margin-bottom:8px; font-size:0.92rem;">2️⃣ % Recomienda → límite inferior de Wilson</div>
+                    <div style="font-family:monospace; font-size:0.85rem; color:var(--text-dim); line-height:1.8;">
+                        recomienda_ajustado = límite_inferior_Wilson(p, n) × 100
+                    </div>
+                    <p style="margin:10px 0 0; color:var(--text-dim); font-size:0.87rem; line-height:1.6;">
+                        En vez de mezclar el % con un promedio fijo, se usa el intervalo de confianza de Wilson (1927)
+                        para una proporción — el mismo método que usan sitios como Reddit para ordenar por "mejor" en
+                        vez de por promedio bruto. Con pocas calificaciones el intervalo es ancho y el límite inferior
+                        baja mucho (penaliza la incertidumbre); con muchas, el límite inferior se acerca al % observado.
+                    </p>
+                </div>
+
+                <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:16px; font-family:monospace; font-size:0.85rem; color:#4ade80;">
+                    score = calidad_ajustada × 0.7 + (recomienda_ajustado / 10) × 0.3
+                </div>
+
+                <ul style="margin:0; padding-left:20px; color:var(--text-dim); line-height:1.8; font-size:0.9rem;">
+                    <li><strong style="color:#fff;">n</strong> = calificaciones de ese profesor en MisProfesores.com.</li>
+                    <li>La <strong>dificultad</strong> no penaliza el score: un curso difícil no implica mal profesor.</li>
+                    <li>Solo aparece en profesores que ya tienen URL asignada en <code>profesores.js</code>.</li>
+                </ul>
+                <div style="background:rgba(245,158,11,0.1); border-left:4px solid #f59e0b; padding:12px 14px; border-radius:6px; font-size:0.85rem; color:var(--text-dim);">
+                    ⚠️ Datos externos y no oficiales. Úsalo como referencia, no como verdad absoluta.
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-modal btn-confirm" onclick="this.closest('.modal-overlay').remove()">Entendido</button>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+}
+
+function renderMetricasMisprofesHTML(datos) {
+    const metrica = (label, val, color) => `
+        <div style="background:#09090b; border:1px solid #333; border-radius:8px; padding:14px; text-align:center;">
+            <div style="font-size:1.5rem; font-weight:700; color:${color};">${datos ? (val ?? '—') : '—'}</div>
+            <div style="font-size:0.68rem; color:var(--text-dim); text-transform:uppercase; margin-top:4px; letter-spacing:0.5px;">${label}</div>
+        </div>`;
+    return `
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+            ${metrica('Calidad General', datos?.calidadGeneral, '#10b981')}
+            ${metrica('Nivel de Dificultad', datos?.nivelDificultad, '#ef4444')}
+            ${metrica('Lo Recomiendan', datos?.loRecomiendan, '#3b82f6')}
+            ${metrica('# Calificaciones', datos?.numCalificaciones, '#fbbf24')}
+        </div>`;
+}
+
+// --- Panel individual ---
+
+async function abrirPanelProfesor(nombre, url, cursoCodigo, cursoNombre) {
+    document.getElementById('profesorModal')?.remove();
+
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay';
+    modal.id = 'profesorModal';
+    modal.style.cssText = 'display:flex; z-index:6500;';
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+    modal.innerHTML = `
+        <div class="modal-content" style="width:460px;">
+            <div class="modal-header">
+                <div class="modal-title-code" style="color:#fbbf24;">⭐ CALIFICACIONES</div>
+                <div class="modal-title-name" style="font-size:1.35rem;">${nombre}</div>
+            </div>
+            <div class="modal-body" id="profesorModalBody">
+                <div style="text-align:center; padding:30px; color:var(--text-dim);">⏳ Consultando MisProfesores...</div>
+            </div>
+            <div class="modal-footer" style="flex-direction:column; gap:10px;">
+                <a href="${url}" target="_blank" rel="noopener" class="btn-modal btn-confirm"
+                   style="text-decoration:none; text-align:center; display:block;">Ver perfil completo en MisProfesTEC →</a>
+                <div style="display:flex; gap:10px; width:100%;">
+                    <button class="btn-modal btn-cancel" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
+                    <button class="btn-modal btn-cancel" onclick='abrirComparadorProfesores(${JSON.stringify(nombre)}, ${JSON.stringify(cursoCodigo)}, ${JSON.stringify(cursoNombre)})'>⚖️ Comparar</button>
+                </div>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+
+    try {
+        const datos = await obtenerDatosMisprofes(url);
+        const body = document.getElementById('profesorModalBody');
+        if (body) body.innerHTML = renderMetricasMisprofesHTML(datos);
+    } catch (e) {
+        const body = document.getElementById('profesorModalBody');
+        if (body) body.innerHTML = `
+            <div style="text-align:center; padding:10px; color:#ef4444; font-size:0.88rem;">
+                ⚠️ No se pudo obtener la información en este momento.<br>
+                <span style="color:var(--text-dim); font-size:0.8rem;">Probá de nuevo o abrí el perfil completo con el botón de abajo.</span>
+            </div>`;
+    }
+}
+
+// --- Comparador ---
+
+// =============================================================================
+// COMPARADOR DE PROFESORES — v2 (multi-selección, por curso, ordenable)
+// Reemplaza a la función abrirComparadorProfesores() vieja en horarios.js.
+// =============================================================================
+
+let comparadorEstado = { resultados: [], orden: 'score_desc' };
+
+// Junta los nombres de profesor únicos que dictan un curso específico
+// (a partir de horariosCursosDisponibles, ya cargado para la escuela activa),
+// y para cada uno resuelve su URL de misprofesores si existe.
+function obtenerProfesoresDelCurso(codigoCurso) {
+    const curso = horariosCursosDisponibles.find(c => c.codigo === codigoCurso);
+    if (!curso) return [];
+    const nombres = [...new Set(curso.grupos.map(g => g.profesor).filter(Boolean))];
+    return nombres.map(nombre => ({ nombre, url: buscarUrlProfesor(nombre) }));
+}
+
+function abrirComparadorProfesores(nombreActual, cursoCodigo, cursoNombre) {
+    document.getElementById('profesorModal')?.remove();
+    document.getElementById('comparadorModal')?.remove();
+
+    const profesoresCurso = obtenerProfesoresDelCurso(cursoCodigo);
+    const conUrl = profesoresCurso.filter(p => p.url);
+    const sinUrl = profesoresCurso.filter(p => !p.url);
+
+    comparadorEstado = { resultados: [], orden: 'bayes_desc' };
+
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay';
+    modal.id = 'comparadorModal';
+    modal.style.cssText = 'display:flex; z-index:6500;';
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+    modal.innerHTML = `
+        <div class="modal-content" style="width:760px; max-height:88vh; display:flex; flex-direction:column;">
+            <div class="modal-header">
+                <div class="modal-title-code" style="color:#fbbf24;">⚖️ COMPARAR PROFESORES</div>
+                <div class="modal-title-name" style="font-size:1.2rem;">
+                    ${cursoNombre} <span style="color:var(--text-dim); font-size:0.85rem;">(${cursoCodigo})</span>
+                </div>
+            </div>
+            <div class="modal-body" style="overflow-y:auto; flex:1;">
+                ${conUrl.length === 0 ? `
+                    <div style="text-align:center; padding:30px; color:var(--text-dim);">
+                        Ningún profesor de este curso tiene URL asignada todavía en <code>profesores.js</code>.
+                    </div>` : `
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:8px;">
+                        <div style="font-size:0.85rem; color:var(--text-dim);">Elegí a quiénes comparar:</div>
+                        <div style="display:flex; gap:8px;">
+                            <button type="button" class="hor-btn-ghost" onclick="marcarTodosComparador(true)">☑️ Todos</button>
+                            <button type="button" class="hor-btn-ghost" onclick="marcarTodosComparador(false)">☐ Ninguno</button>
+                        </div>
+                    </div>
+                    <div id="comparadorCheckboxes" style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:14px;">
+                        ${conUrl.map(p => `
+                            <label style="display:flex; align-items:center; gap:8px; background:#09090b; border:1px solid #333;
+                                          border-radius:6px; padding:8px 12px; cursor:pointer; font-size:0.87rem;">
+                                <input type="checkbox" class="comparador-check" value="${p.nombre}" data-url="${p.url}"
+                                       ${p.nombre === nombreActual ? 'checked' : ''}>
+                                <span style="color:#fff;">${p.nombre}</span>
+                                ${p.nombre === nombreActual ? '<span style="color:var(--accent); font-size:0.7rem;">(actual)</span>' : ''}
+                            </label>`).join('')}
+                    </div>
+                    ${sinUrl.length > 0 ? `
+                        <div style="font-size:0.78rem; color:#555; margin-bottom:14px;">
+                            Sin URL asignada (no se pueden comparar): ${sinUrl.map(p => p.nombre).join(', ')}
+                        </div>` : ''}
+                    <button class="btn-modal btn-confirm" style="width:100%;" onclick="ejecutarComparacion()">Comparar seleccionados</button>
+                    <div id="comparadorResultadosWrap" style="margin-top:18px;"></div>
+                `}
+            </div>
+            <div class="modal-footer">
+                <button class="btn-modal btn-cancel" onclick="this.closest('.modal-overlay').remove()">Cerrar</button>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+}
+
+function marcarTodosComparador(valor) {
+    document.querySelectorAll('.comparador-check').forEach(cb => cb.checked = valor);
+}
+
+async function ejecutarComparacion() {
+    const seleccionados = [...document.querySelectorAll('.comparador-check:checked')]
+        .map(cb => ({ nombre: cb.value, url: cb.dataset.url }));
+
+    const wrap = document.getElementById('comparadorResultadosWrap');
+    if (seleccionados.length === 0) {
+        wrap.innerHTML = `<div style="text-align:center; color:var(--text-dim); padding:20px;">Elegí al menos un profesor.</div>`;
+        return;
+    }
+
+    wrap.innerHTML = `<div style="text-align:center; padding:20px; color:var(--text-dim);">
+        ⏳ Consultando ${seleccionados.length} profesor${seleccionados.length !== 1 ? 'es' : ''}...
+    </div>`;
+
+    const resultados = await Promise.all(seleccionados.map(async (p) => {
+        try {
+            const datos = await obtenerDatosMisprofes(p.url);
+            return { nombre: p.nombre, url: p.url, datos, error: null };
+        } catch (e) {
+            return { nombre: p.nombre, url: p.url, datos: null, error: 'No se pudo consultar' };
+        }
+    }));
+
+    comparadorEstado.resultados = resultados;
+    // Se congela el promedio de referencia (C) en este instante — así el score
+    // de cada profesor no cambia solo porque el caché siguió creciendo en el
+    // fondo mientras mirás/ordenás esta misma tabla.
+    comparadorEstado.cCalidadSnapshot = calcularPromedioGlobalCache()?.calidad ?? REC_C_CALIDAD_DEFECTO;
+    renderTablaComparacion();
+}
+
+function parsearNumeroComparador(val) {
+    if (val === null || val === undefined) return null;
+    const n = parseFloat(String(val).replace('%', '').replace(',', '.'));
+    return isNaN(n) ? null : n;
+}
+
+function ordenarResultadosComparador(resultados, criterio) {
+    const conDatos = resultados.filter(r => r.datos);
+    const sinDatos = resultados.filter(r => !r.datos);
+
+    const cFijo = comparadorEstado.cCalidadSnapshot ?? REC_C_CALIDAD_DEFECTO;
+    conDatos.forEach(r => { r._rec = calcularRecomendacionDesdeDatos(r.datos, cFijo); });
+
+    const valorSegunCriterio = (r) => {
+        const d = r.datos;
+        switch (criterio) {
+            case 'calidad_desc':        return parsearNumeroComparador(d.calidadGeneral) ?? -Infinity;
+            case 'dificultad_asc':      return parsearNumeroComparador(d.nivelDificultad) ?? Infinity;
+            case 'dificultad_desc':     return parsearNumeroComparador(d.nivelDificultad) ?? -Infinity;
+            case 'calificaciones_desc': return parsearNumeroComparador(d.numCalificaciones) ?? -Infinity;
+            case 'score_desc':          return r._rec?.score ?? -Infinity;
+            case 'recomiendan_desc':
+            default:                    return parsearNumeroComparador(d.loRecomiendan) ?? -Infinity;
+        }
+    };
+
+    conDatos.sort((a, b) => {
+        const va = valorSegunCriterio(a), vb = valorSegunCriterio(b);
+        return criterio === 'dificultad_asc' ? va - vb : vb - va;
+    });
+
+    return [...conDatos, ...sinDatos];
+}
+
+function renderTablaComparacion() {
+    const wrap = document.getElementById('comparadorResultadosWrap');
+    if (!wrap) return;
+
+    const ordenados = ordenarResultadosComparador(comparadorEstado.resultados, comparadorEstado.orden);
+
+    const filas = ordenados.map((r, i) => {
+        if (!r.datos) {
+            return `<tr>
+                <td style="color:#fff;">${r.nombre}</td>
+                <td colspan="5" style="color:#ef4444; font-size:0.82rem;">⚠️ ${r.error || 'Sin datos'}</td>
+            </tr>`;
+        }
+        const d = r.datos;
+        const rec = r._rec;
+        const scoreColor = !rec ? '#555' : rec.score >= 7.5 ? '#10b981' : rec.score >= 5.5 ? '#fbbf24' : '#ef4444';
+        const scoreTxt = rec ? rec.score : '—';
+        const confianzaTag = rec && !rec.confiable
+            ? `<span title="Muestra pequeña (${rec.n} calificaciones): el score se corrigió hacia el promedio general" style="font-size:0.62rem; color:#f59e0b; margin-left:4px;">⚠</span>`
+            : '';
+
+        return `<tr class="comparador-row" data-idx="${i}" style="cursor:pointer;" title="Clic para abrir el perfil de ${r.nombre} en MisProfesTEC">
+            <td style="color:#fff; font-weight:700;">${r.nombre}</td>
+            <td style="text-align:center; color:#10b981;">${d.calidadGeneral ?? '—'}</td>
+            <td style="text-align:center; color:#ef4444;">${d.nivelDificultad ?? '—'}</td>
+            <td style="text-align:center; color:#3b82f6;">${d.loRecomiendan ?? '—'}</td>
+            <td style="text-align:center; color:#fbbf24;">${d.numCalificaciones ?? '—'}</td>
+            <td style="text-align:center; color:${scoreColor}; font-weight:700; font-size:1rem;">🧮 ${scoreTxt}${confianzaTag}</td>
+        </tr>`;
+    }).join('');
+
+    wrap.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap;">
+            <button type="button" class="hor-btn-ghost" onclick="openRecomendacionInfoModal()">🧮 ¿Cómo se calcula el Score?</button>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <label style="font-size:0.8rem; color:var(--text-dim);">Ordenar por:</label>
+                <select id="comparadorOrdenSelect" class="list-select" onchange="cambiarOrdenComparador(this.value)">
+                    <option value="score_desc" ${comparadorEstado.orden === 'score_desc' ? 'selected' : ''}>🧮 Mejor Score</option>
+                    <option value="recomiendan_desc" ${comparadorEstado.orden === 'recomiendan_desc' ? 'selected' : ''}>Más recomendado (bruto)</option>
+                    <option value="calidad_desc" ${comparadorEstado.orden === 'calidad_desc' ? 'selected' : ''}>Mejor calidad general</option>
+                    <option value="dificultad_asc" ${comparadorEstado.orden === 'dificultad_asc' ? 'selected' : ''}>Más fácil</option>
+                    <option value="dificultad_desc" ${comparadorEstado.orden === 'dificultad_desc' ? 'selected' : ''}>Más difícil</option>
+                    <option value="calificaciones_desc" ${comparadorEstado.orden === 'calificaciones_desc' ? 'selected' : ''}>Más calificaciones</option>
+                </select>
+            </div>
+        </div>
+        <table class="list-table" style="width:100%;">
+            <thead>
+                <tr>
+                    <th>Profesor</th>
+                    <th style="text-align:center;">Calidad</th>
+                    <th style="text-align:center;">Dificultad</th>
+                    <th style="text-align:center;">Recomiendan</th>
+                    <th style="text-align:center;"># Calif.</th>
+                    <th style="text-align:center;">Score</th>
+                </tr>
+            </thead>
+            <tbody>${filas}</tbody>
+        </table>
+        <div style="margin-top:12px; padding:10px 14px; background:rgba(251,191,36,0.08); border:1px solid rgba(251,191,36,0.3); border-radius:6px; font-size:0.78rem; color:var(--text-dim); line-height:1.5;">
+            💡 El Score es un cálculo automático (bayesiano + Wilson), no un dato oficial de MisProfesores. Te recomendamos
+            <strong style="color:#fbbf24;">abrir la página original</strong> (clic en cualquier fila) y leer los
+            <strong style="color:#fbbf24;">comentarios de los estudiantes</strong> antes de decidir.
+        </div>`;
+
+    wrap._comparadorOrdenados = ordenados;
+    wrap.querySelectorAll('.comparador-row').forEach(tr => {
+        tr.addEventListener('click', () => {
+            const idx = parseInt(tr.dataset.idx, 10);
+            const item = wrap._comparadorOrdenados[idx];
+            const url = item?.datos?.url;
+            if (url) window.open(url, '_blank', 'noopener');
+        });
+    });
+}
+
+function cambiarOrdenComparador(valor) {
+    comparadorEstado.orden = valor;
+    renderTablaComparacion();
+}
+
+
+
+async function mostrarCursandoEnHorario() {
+    if (typeof coursesDB === 'undefined' || !coursesDB || coursesDB.length === 0) {
+        alert('No hay un plan de estudios cargado. Elegí tu carrera primero en Planes de Estudio.');
+        return;
+    }
+    const cursando = coursesDB.filter(c => c.status === 'cursando');
+    if (cursando.length === 0) {
+        alert('No tenés cursos marcados como Cursando todavía.');
+        return;
+    }
+    const codigosBuscados = [...new Set(cursando.map(c => c.isRetry ? (c.originalId || c.id) : c.id))];
+ 
+    if (!horariosIndice) {
+        try {
+            const res = await fetch('scraper/output/indice.json');
+            horariosIndice = await res.json();
+        } catch {
+            alert('No se pudo cargar el índice de horarios. Revisá tu conexión.');
+            return;
+        }
+    }
+ 
+    const contexto = determinarAnioPeriodoMasReciente();
+    if (!contexto) {
+        alert('No hay datos de matrícula disponibles todavía.');
+        return;
+    }
+    const { anio, periodo } = contexto;
+ 
+    horModoCursandoActivo = true;
+    horCursandoContexto = { anio, periodo };
+    renderHorariosLayout();
+ 
+    const listaEl = document.getElementById('horListaCursos');
+    if (listaEl) listaEl.innerHTML = `<div class="hor-empty hor-empty-loading">⏳ Buscando ${codigosBuscados.length} curso${codigosBuscados.length !== 1 ? 's' : ''} en todas las escuelas de ${anio}-${periodo}...</div>`;
+ 
+    const sedes = horariosIndice[anio][periodo].sedes;
+    const tareas = [];
+    for (const [sedeCod, escuelas] of Object.entries(sedes)) {
+        for (const escCod of Object.keys(escuelas)) {
+            tareas.push(
+                fetch(`scraper/data/${anio}/${periodo}/${sedeCod}/${escCod}.json`)
+                    .then(r => (r.ok ? r.json() : null))
+                    .then(data => ({ sedeCod, data }))
+                    .catch(() => ({ sedeCod, data: null }))
+            );
+        }
+    }
+ 
+    const resultados = await Promise.all(tareas);
+ 
+    const encontrados = new Map(); // codigo -> curso agregado
+    resultados.forEach(({ sedeCod, data }) => {
+        if (!data || !Array.isArray(data.cursos)) return;
+        data.cursos.forEach(curso => {
+            if (!codigosBuscados.includes(curso.codigo)) return;
+            if (!encontrados.has(curso.codigo)) {
+                encontrados.set(curso.codigo, {
+                    codigo: curso.codigo, nombre: curso.nombre, creditos: curso.creditos, grupos: []
+                });
+            }
+            const entrada = encontrados.get(curso.codigo);
+            (curso.grupos || []).forEach(g => {
+                // El número de grupo se vuelve único con el prefijo de sede (ej. "CA-1"),
+                // así el resto del código de selección/favoritos/choques no necesita
+                // ningún cambio para distinguir grupos del mismo número en sedes distintas.
+                entrada.grupos.push({
+                    ...g,
+                    grupo: `${sedeCod}-${g.grupo}`,
+                    _grupoOriginal: g.grupo,
+                    _sede: sedeCod
+                });
+            });
+        });
+    });
+ 
+    horCursandoResultado = [...encontrados.values()];
+    const codigosEncontrados = new Set(horCursandoResultado.map(c => c.codigo));
+    horCursandoNoEncontrados = codigosBuscados.filter(cod => !codigosEncontrados.has(cod));
+ 
+    horariosCursosDisponibles = horCursandoResultado;
+    renderHorariosCursos();
+    renderHorarioGrid();
+    renderFiltroCursandoBanner();
+}
+ 
+function salirDeModoCursando() {
+    horModoCursandoActivo = false;
+    horCursandoResultado = [];
+    horCursandoNoEncontrados = [];
+    horCursandoContexto = null;
+    horariosCursosDisponibles = [];
+    renderHorariosLayout();
+}
+ 
+function renderFiltroCursandoBanner() {
+    const el = document.getElementById('horFiltroCursandoBanner');
+    if (!el) return;
+ 
+    if (!horModoCursandoActivo) { el.innerHTML = ''; return; }
+ 
+    const { anio, periodo } = horCursandoContexto || {};
+    const totalEnc = horCursandoResultado.length;
+ 
+    const advertencia = horCursandoNoEncontrados.length > 0
+        ? `<div class="hor-filtro-cursando-warn">⚠️ Estos cursos no se abren en ${anio}-${periodo} en ninguna escuela: ${horCursandoNoEncontrados.join(', ')}</div>`
+        : '';
+ 
+    el.innerHTML = `
+        <div class="hor-filtro-cursando-row">
+            <span>📚 Mostrando tus cursos <strong>Cursando</strong> · Matrícula ${anio}-${periodo} · encontrados: ${totalEnc}</span>
+            <button class="hor-btn-ghost" onclick="salirDeModoCursando()">✕ Volver a búsqueda normal</button>
+        </div>
+        ${advertencia}`;
+}

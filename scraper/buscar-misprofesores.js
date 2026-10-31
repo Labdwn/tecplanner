@@ -325,6 +325,15 @@ const guardarAlmacen = (a) => {
     return escribirAtomico(MISPROFES.archivoResultados, JSON.stringify(a, null, 2));
 };
 
+// Estadísticas estáticas para la web: así el modal de calificaciones funciona sin proxies.
+// Formato: { actualizado, p: { "<id>": [promedio, nº calificaciones, departamento] } }
+async function guardarEstadisticas(lista) {
+    const p = {};
+    for (const e of lista) p[e.id] = [e.promedio, e.calificaciones, e.departamento];
+    await escribirAtomico('output/profesores_stats.json', JSON.stringify({ actualizado: new Date().toISOString(), p }));
+    console.log(`[buscar] estadísticas de ${lista.length} profesores guardadas en output/profesores_stats.json`);
+}
+
 const VIGENCIA_COPIA_MS = 6 * 60 * 60 * 1000; // una copia de la página con menos de 6 h se reutiliza sin pedir nada
 
 async function copiaVigente() {
@@ -370,6 +379,7 @@ async function modoBuscar({ archivo, solo, recalcular, forzar }) {
     }
     console.log(`[buscar] lista de MisProfesores: ${lista.length} profesores${declarado ? ` (la página declara ${declarado})` : ''}`);
     if (declarado && lista.length < declarado * 0.9) console.warn(`[buscar] ATENCIÓN: se leyeron bastantes menos (${lista.length}) de los declarados (${declarado}); el formato pudo cambiar.`);
+    await guardarEstadisticas(lista);
     const indice = indexarLista(lista);
 
     if (solo) {
