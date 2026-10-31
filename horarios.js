@@ -555,9 +555,9 @@ function renderHorariosCursos() {
                     const { choca, contras } = (elegido || otroElegido) ? { choca: false, contras: [] } : evaluarChoqueCandidato(g.horario);
                     const contrasTxt = contras.map(s => `${s.curso.codigo} (Gr.${s.grupo.grupo})`).join(', ');
                     return `
-                    <div class="hor-grupo-card ${elegido ? 'is-selected' : ''} ${choca ? 'has-choque' : ''} ${otroElegido ? 'is-disabled' : ''}"
-                         onmouseenter="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, true)"
-                         onmouseleave="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)">
+                                        <div class="hor-grupo-card ${elegido ? 'is-selected' : ''} ${choca ? 'has-choque' : ''} ${otroElegido ? 'is-disabled' : ''}"
+                         onmouseenter='previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, true)'
+                         onmouseleave='previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)'>
                         <div class="hor-grupo-top">
                             <span class="hor-grupo-badge">Grupo ${g._grupoOriginal || g.grupo}</span>
                             ${g._sede ? `<span class="hor-grupo-sede-badge">${nombreSede(g._sede)}</span>` : ''}
