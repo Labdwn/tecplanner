@@ -2970,11 +2970,19 @@ function tourFirstPeriod() {
     return periods.length ? periods[0] : null;
 }
 
+function tourModalAbierto() { return document.getElementById('courseModal').style.display === 'flex'; }
+function tourAbrirModalDemo() {
+    if (tourModalAbierto()) return;
+    const n = tourFirstNode();
+    const c = n && coursesDB.find(x => x.id === n.id);
+    if (c) openModal(c);
+}
+
 const TOUR_STEPS = [
     {
         target: null,
         title: '👋 ¡Bienvenido a TecPlanner!',
-        text: 'Te voy a mostrar cada botón y, después, qué hace al usarlo. Salí cuando quieras con "Saltar" o Esc.<br><br>¿Preferís el manual en texto? <a href="#" onclick="event.preventDefault(); endTour(); openTutorial();" style="color:var(--filter-selected); font-weight:700;">Verlo acá</a>',
+        text: 'Te voy a mostrar cada botón y, después, qué hace al usarlo. Usá las flechas <strong>← →</strong> del teclado para avanzar, y salí cuando quieras con "Saltar" o Esc.<br><br>¿Preferís el manual en texto? <a href="#" onclick="event.preventDefault(); endTour(); openTutorial();" style="color:var(--filter-selected); font-weight:700;">Verlo acá</a>',
         placement: 'center'
     },
 
@@ -2998,11 +3006,40 @@ const TOUR_STEPS = [
         onEnter: () => tourFirstNode()?.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' })
     },
     {
-        target: () => document.getElementById('courseModal').style.display === 'flex' ? document.querySelector('#courseModal .modal-content') : null,
-        title: '📚 Así se ve',
-        text: 'Asigná estado, semestre, nota, modalidad y profesor. <em>No hace falta que guardes nada, es solo demostración.</em>',
+        target: () => tourFirstNode(),
+        title: '🎨 Leé los colores',
+        text: 'El borde de la tarjeta indica el estado: <strong style="color:#888">gris</strong> pendiente, <strong style="color:#22d3ee">cian</strong> cursando, <strong style="color:#4ade80">verde</strong> aprobado.<br>' +
+              'Un punto <strong style="color:#f59e0b">naranja</strong> = lo llevás adelantado, <strong style="color:#ef4444">rojo</strong> = atrasado. ⚠️ = faltan requisitos. 🔑 = curso clave (desbloquea 3 o más).',
         placement: 'right',
-        onEnter: () => { const n = tourFirstNode(); if (n) { const c = coursesDB.find(x => x.id === n.id); if (c) openModal(c); } },
+        onEnter: () => tourFirstNode()?.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' })
+    },
+    {
+        target: () => tourModalAbierto() ? document.querySelector('#courseModal .modal-content') : null,
+        title: '📚 Así se ve',
+        text: 'Cada curso tiene su ventana. <em>No hace falta que guardes nada, es solo demostración.</em>',
+        placement: 'right',
+        onEnter: () => tourAbrirModalDemo()
+    },
+    {
+        target: () => tourModalAbierto() ? document.getElementById('statusContainer') : null,
+        title: '🏷️ Estado del curso',
+        text: 'Pendiente, Cursando, Aprobado o Reprobado. Si marcás <strong>Reprobado</strong>, te ofrece crear un <strong>nuevo intento</strong> como tarjeta aparte, sin perder el historial.',
+        placement: 'right',
+        onEnter: () => tourAbrirModalDemo()
+    },
+    {
+        target: () => tourModalAbierto() ? document.getElementById('inpUserSem') : null,
+        title: '📅 Semestre y nota',
+        text: 'El semestre en que lo planeás o lo llevaste. Usá <strong>.5 para veranos</strong>: <strong>1.5</strong> es el verano entre S1 y S2. La nota mínima para aprobar es <strong>70</strong>.',
+        placement: 'right',
+        onEnter: () => tourAbrirModalDemo()
+    },
+    {
+        target: () => { const el = document.getElementById('modalAperturaInfo'); return tourModalAbierto() && el && el.textContent.trim() ? el : null; },
+        title: '🗓️ ¿Cuándo se abre?',
+        text: 'Cuando hay historial, te dice en qué semestre suele abrirse el curso y si alguna vez se dio en <strong>verano</strong>. Sirve para no planificar algo que casi nunca se abre.',
+        placement: 'right',
+        onEnter: () => tourAbrirModalDemo(),
         onExit:  () => closeModal()
     },
 
@@ -3029,7 +3066,7 @@ const TOUR_STEPS = [
     },
 
     // --- EDICIÓN RÁPIDA ---
-    { target: () => document.querySelector('.quick-actions'), title: '⚡ Edición rápida', text: 'Estos botones activan un modo de marcado rápido.', placement: 'bottom' },
+    { target: () => document.querySelector('.quick-actions'), title: '⚡ Edición rápida', text: 'Estos botones activan un modo de marcado rápido: <strong style="color:#a855f7">CURSANDO</strong> y <strong style="color:#a3e635">APROBADO</strong>. Ideal para cargar tu historial de golpe.', placement: 'bottom' },
     {
         target: () => document.querySelector('.quick-actions'),
         title: '⚡ Así funciona',
@@ -3050,6 +3087,15 @@ const TOUR_STEPS = [
         onExit:  () => closeBulkGrades()
     },
 
+    // --- CURSANDO → HORARIO ---
+    {
+        target: () => document.getElementById('btnEnviarHorario'), title: '📤 Cursando → Horario',
+        text: 'Marcá tus cursos como <strong>Cursando</strong> y este botón te lleva a <strong>Generar Horario</strong> con todos esos cursos ya buscados, con sus grupos disponibles. No lo vamos a ejecutar ahora.',
+        placement: 'bottom',
+        onEnter: () => document.getElementById('btnEnviarHorario')?.classList.add('tour-pulse'),
+        onExit:  () => document.getElementById('btnEnviarHorario')?.classList.remove('tour-pulse')
+    },
+
     // --- CRÉDITOS (sin acción, solo lectura) ---
     { target: () => document.getElementById('statsPanel'), title: '📊 Tus créditos', text: 'Comparás tus créditos contra el total oficial (de la carrera, o del semestre filtrado).', placement: 'bottom' },
 
@@ -3058,7 +3104,7 @@ const TOUR_STEPS = [
 {
     target: () => tourDynamicModal ? tourDynamicModal.querySelector('.modal-content') : null,
     title: '🚀 Así se ve',
-    text: 'Generá el plan, revisalo, y si te convence lo aplicás con un botón.',
+    text: 'Elegís mínimo y máximo de créditos, generás el plan y lo revisás. <strong>Solo se aplica</strong> a tu malla si lo confirmás con el botón verde.',
     placement: 'right',
     onEnter: () => { openGraduationPlanner(); tourDynamicModal = document.body.lastElementChild; },
     onExit:  () => { tourDynamicModal?.remove(); tourDynamicModal = null; }
@@ -3086,7 +3132,7 @@ const TOUR_STEPS = [
     },
     {
         target: () => document.getElementById('btnGuardar'), title: '💾 Guardar y cargar',
-        text: 'Exportá un respaldo .json de tu progreso, o cargalo de vuelta con "Cargar" al lado.',
+        text: 'Tu progreso se guarda solo en este navegador. Exportá un respaldo .json por si cambiás de navegador o computadora, y cargalo de vuelta con "Cargar" al lado.',
         placement: 'bottom',
         onEnter: () => document.getElementById('btnGuardar')?.classList.add('tour-pulse'),
         onExit:  () => document.getElementById('btnGuardar')?.classList.remove('tour-pulse')
@@ -3135,14 +3181,24 @@ const TOUR_STEPS = [
     {
         target: null,
         title: '🎉 ¡Listo!',
-        text: 'Ya conocés cada botón y lo que hace. Repetí el recorrido cuando quieras desde <strong>MANUAL</strong>.',
+        text: 'Ya conocés cada botón y lo que hace. Repetí el recorrido cuando quieras desde <strong>MANUAL</strong>.<br><br>' +
+              '¿Seguimos con <a href="#" onclick="event.preventDefault(); endTour(); switchAppMode(\'horarios\'); setTimeout(() => startTourHorarios(), 700);" style="color:var(--filter-selected); font-weight:700;">el tour de Generar Horario →</a>',
         placement: 'center'
     }
 ];
 
 let tourIndex = -1;
+let tourSteps = TOUR_STEPS;   // pasos del recorrido activo (Planes de Estudio por defecto)
+let tourAlTerminar = null;    // limpieza opcional del recorrido activo (deshacer demos)
+let tourEsPlanes = true;      // true: tour de Planes de Estudio; false: otro (ej. Horarios)
 
-function startTour() {
+// startTour() = tour de Planes de Estudio. Con opciones se puede lanzar otro recorrido:
+// startTour({ steps, alTerminar, clave })
+function startTour(opciones) {
+    const custom = opciones && Array.isArray(opciones.steps) ? opciones : null;
+    tourSteps      = custom ? custom.steps : TOUR_STEPS;
+    tourAlTerminar = custom ? (custom.alTerminar || null) : null;
+    tourEsPlanes   = !custom;
     document.getElementById('tutorialModal').style.display = 'none';
     tourIndex = -1;
     buildTourDOM();
@@ -3181,18 +3237,18 @@ function tourKeyHandler(e) {
     if (e.key === 'ArrowLeft')  prevTourStep();
 }
 
-function currentTourStep() { return TOUR_STEPS[tourIndex]; }
+function currentTourStep() { return tourSteps[tourIndex]; }
 
 function nextTourStep() {
-    const prevStep = TOUR_STEPS[tourIndex];
+    const prevStep = tourSteps[tourIndex];
     if (prevStep && prevStep.onExit) prevStep.onExit();
     tourIndex++;
-    if (tourIndex >= TOUR_STEPS.length) { endTour(); return; }
+    if (tourIndex >= tourSteps.length) { endTour(); return; }
     advanceToStep();
 }
 
 function prevTourStep() {
-    const prevStep = TOUR_STEPS[tourIndex];
+    const prevStep = tourSteps[tourIndex];
     if (prevStep && prevStep.onExit) prevStep.onExit();
     tourIndex--;
     if (tourIndex < 0) { endTour(); return; }
@@ -3203,11 +3259,12 @@ function prevTourStep() {
 // a resaltar — así el target puede ser algo que la propia acción acaba de crear
 // (un modal, un panel abierto, etc.)
 function advanceToStep() {
-    const step = TOUR_STEPS[tourIndex];
+    const step = tourSteps[tourIndex];
     if (step.onEnter) step.onEnter();
 
     const el = step.target ? step.target() : null;
     if (step.target && !el) { nextTourStep(); return; } // nada que mostrar: saltar
+    if (el && step.scroll) el.scrollIntoView({ block: 'center', inline: 'nearest' }); // pasos que lo piden
 
     setTimeout(() => renderTourStep(el), el ? 300 : 0);
 }
@@ -3217,9 +3274,9 @@ function renderTourStep(el) {
     document.getElementById('tourTitle').innerHTML = step.title;
     document.getElementById('tourText').innerHTML  = step.text;
     document.getElementById('tourBackBtn').style.visibility = tourIndex === 0 ? 'hidden' : 'visible';
-    document.getElementById('tourNextBtn').textContent = tourIndex === TOUR_STEPS.length - 1 ? '¡Entendido! ✓' : 'Siguiente →';
+    document.getElementById('tourNextBtn').textContent = tourIndex === tourSteps.length - 1 ? '¡Entendido! ✓' : 'Siguiente →';
 
-    document.getElementById('tourDots').innerHTML = TOUR_STEPS.map((_, i) =>
+    document.getElementById('tourDots').innerHTML = tourSteps.map((_, i) =>
         `<span class="tour-dot ${i === tourIndex ? 'active' : ''}"></span>`).join('');
 
     positionTour(el, step.placement || 'bottom');
@@ -3288,7 +3345,11 @@ function endTour() {
     document.getElementById('tourOverlay')?.remove();
     document.removeEventListener('keydown', tourKeyHandler);
     tourIndex = -1;
-    localStorage.setItem('TecPlanner_TutorialSeen', 'true');
+    if (tourAlTerminar) { try { tourAlTerminar(); } catch (e) { /* limpieza best-effort */ } }
+    tourAlTerminar = null;
+    localStorage.setItem(tourEsPlanes ? 'TecPlanner_TutorialSeen' : 'TecPlanner_TourHorariosSeen', 'true');
+    tourSteps = TOUR_STEPS;
+    tourEsPlanes = true;
 }
 
 window.addEventListener('resize', () => {

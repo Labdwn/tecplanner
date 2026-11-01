@@ -208,10 +208,10 @@ function renderHorariosLayout() {
                         <span class="hor-stat-label">Choques</span>
                     </div>
                 </div>
-                <button class="btn-action" onclick="mostrarCursandoEnHorario()" style="border-color:#a855f7; color:#a855f7;">
+                <button class="btn-action" id="horBtnCursando" onclick="mostrarCursandoEnHorario()" style="border-color:#a855f7; color:#a855f7;">
                     📚 Mostrar CURSANDO
                 </button>
-                <button class="btn-action" onclick="abrirManualHorarios()" style="border-color:#f59e0b; color:#f59e0b;">
+                <button class="btn-action" id="horBtnManual" onclick="startTourHorarios()" style="border-color:#f59e0b; color:#f59e0b;">
                     📖 MANUAL
                 </button>
             </div>
@@ -559,8 +559,8 @@ function renderHorariosCursos() {
                     const contrasTxt = contras.map(s => `${s.curso.codigo} (Gr.${s.grupo.grupo})`).join(', ');
                     return `
                     <div class="hor-grupo-card ${elegido ? 'is-selected' : ''} ${choca ? 'has-choque' : ''} ${otroElegido ? 'is-disabled' : ''}"
-                         onmouseenter="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, true)"
-                         onmouseleave="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)">
+                         onmouseenter='previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, true)'
+                         onmouseleave='previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)'>
                         <div class="hor-grupo-top">
                             <span class="hor-grupo-badge">Grupo ${g._grupoOriginal || g.grupo}</span>
                             ${g._sede ? `<span class="hor-grupo-sede-badge">${nombreSede(g._sede)}</span>` : ''}
@@ -2075,4 +2075,185 @@ function abrirManualHorarios() {
         </div>
     </div>`;
     document.body.appendChild(modal);
+}
+
+
+// =============================================================================
+// 17. TOUR GUIADO DE HORARIOS (usa el motor de tour de app.js)
+// =============================================================================
+// Hace acciones reales (carga una escuela, previsualiza un grupo, lo selecciona) y
+// al terminar deshace SOLO lo que él mismo agregó a tu horario.
+
+let tourHorDemo = null;       // { codigo, grupo } del grupo que agregó el tour
+let tourHorHover = null;      // tarjeta sobre la que simuló el mouse
+
+// Si no hay ninguna escuela cargada, elige una para que el tour tenga qué mostrar.
+function tourHorPrepararDemo() {
+    if (horModoCursandoActivo || horariosCursosDisponibles.length || !horariosIndice) return;
+    const ctx = determinarAnioPeriodoMasReciente();
+    if (!ctx) return;
+    const sedes = horariosIndice[ctx.anio][ctx.periodo].sedes;
+    const sede = sedes.CA ? 'CA' : Object.keys(sedes)[0];
+    const escuela = Object.keys(sedes[sede] || {})[0];
+    if (!sede || !escuela) return;
+    horariosSeleccion = { anio: ctx.anio, periodo: ctx.periodo, sede, escuela };
+    saveHorFiltrosSel();
+    restaurarFiltrosGuardados();
+}
+
+// Primera tarjeta de grupo que se pueda previsualizar/seleccionar sin conflicto.
+function tourHorTarjetaDemo() {
+    return [...document.querySelectorAll('.hor-grupo-card')].find(c =>
+        !c.classList.contains('is-selected') && !c.classList.contains('is-disabled') &&
+        !c.classList.contains('has-choque') && !c.textContent.includes('Sin horario definido'));
+}
+
+function tourHorQuitarHover() {
+    if (tourHorHover) { tourHorHover.dispatchEvent(new MouseEvent('mouseleave')); tourHorHover = null; }
+}
+
+function tourHorQuitarDemo() {
+    tourHorQuitarHover();
+    if (!tourHorDemo) return;
+    const { codigo, grupo } = tourHorDemo;
+    tourHorDemo = null;
+    horariosCursosElegidos = horariosCursosElegidos.filter(s => !(s.curso.codigo === codigo && s.grupo.grupo === grupo));
+    saveHorSeleccion();
+    renderHorariosCursos();
+    renderHorarioGrid();
+    updateHorStats();
+}
+
+const TOUR_HOR_STEPS = [
+    {
+        target: null,
+        title: '👋 Generar Horario',
+        text: 'Te muestro cómo armar tu horario semanal con datos reales del TEC. Avanzá con <strong>← →</strong> o el botón; salí con Esc.<br><br>' +
+              '¿Preferís el manual en texto? <a href="#" onclick="event.preventDefault(); endTour(); abrirManualHorarios();" style="color:var(--filter-selected); font-weight:700;">Verlo acá</a>',
+        placement: 'center',
+        onEnter: () => tourHorPrepararDemo()
+    },
+    {
+        target: () => document.getElementById('horStats'),
+        title: '📊 Tu resumen',
+        text: 'Cuántos <strong>cursos</strong> y <strong>créditos</strong> llevás. Si hay choques de horario aparece además un contador rojo.',
+        placement: 'bottom'
+    },
+    {
+        target: () => document.querySelector('.hor-filtros'),
+        title: '🎯 Dónde buscar',
+        text: 'Elegí <strong>año, período</strong> (semestre 1, 2 o verano), <strong>sede</strong> y <strong>escuela</strong> (podés escribir para filtrar). Tus últimos filtros se recuerdan.<br><em>Para la demo ya dejé una escuela cargada.</em>',
+        placement: 'bottom'
+    },
+    {
+        target: () => document.querySelector('.hor-search-row'),
+        title: '🔍 Buscar y filtrar',
+        text: 'Buscá por nombre o código. Los chips acotan los grupos: <strong>⭐ Favoritos</strong>, <strong>✅ Sin choques</strong> (solo los que caben en tu horario) y los <strong>días</strong> en que querés tener lecciones.',
+        placement: 'bottom'
+    },
+    {
+        target: () => document.querySelector('.hor-curso-block'),
+        title: '📚 Cursos y grupos',
+        text: 'Cada bloque es un curso con sus créditos y cantidad de grupos. Tocá el título para <strong>colapsarlo</strong> y despejar la lista.',
+        placement: 'right',
+        scroll: true
+    },
+    {
+        target: () => tourHorTarjetaDemo() || document.querySelector('.hor-grupo-card'),
+        title: '🧩 Un grupo',
+        text: 'Ves el <strong>grupo</strong>, modalidad, 👤 <strong>profesor</strong>, 🕐 <strong>horario</strong> y 📍 <strong>aula</strong> (cuando el TEC ya la publicó). La ☆ lo marca como favorito.',
+        placement: 'right',
+        scroll: true
+    },
+    {
+        target: () => document.querySelector('.hor-block-preview') || document.getElementById('horGrid'),
+        title: '👀 Vista previa',
+        text: 'Al pasar el mouse sobre un grupo, sus bloques aparecen en <strong>blanco</strong> en tu horario, sin agregarlo todavía. Así ves cómo encaja antes de decidir.',
+        placement: 'left',
+        scroll: true,
+        onEnter: () => {
+            const card = tourHorTarjetaDemo();
+            if (card && !tourHorHover) { tourHorHover = card; card.dispatchEvent(new MouseEvent('mouseenter')); }
+        },
+        onExit: () => tourHorQuitarHover()
+    },
+    {
+        target: () => document.querySelector('.hor-block:not(.hor-block-preview)') || document.getElementById('horGrid'),
+        title: '✅ Seleccionar',
+        text: 'Con <strong>Seleccionar</strong> el grupo se pinta en la grilla con su propio color. Solo podés tener <strong>un grupo por curso</strong> (los demás quedan como "🔒 Otro grupo elegido"). En cada bloque: <strong>✕</strong> lo quita y el selector cambia su color.<br><em>Es una demo: al terminar el tour se quita.</em>',
+        placement: 'left',
+        scroll: true,
+        onEnter: () => {
+            if (tourHorDemo) return;
+            const card = tourHorTarjetaDemo();
+            const btn  = card?.querySelector('.hor-btn-select');
+            if (!btn) return;
+            const antes = horariosCursosElegidos.length;
+            btn.click();
+            if (horariosCursosElegidos.length > antes) {
+                const s = horariosCursosElegidos[horariosCursosElegidos.length - 1];
+                tourHorDemo = { codigo: s.curso.codigo, grupo: s.grupo.grupo };
+            }
+        }
+    },
+    {
+        target: () => document.querySelector('.hor-chip[data-chip="sinChoques"]'),
+        title: '⚠️ Choques',
+        text: 'Si dos grupos coinciden en día y hora, sus bloques se pintan en <strong>rojo</strong> y aparece un aviso bajo la grilla. En la lista, el ⚠️ de un grupo te dice con cuál choca. Con este chip ves solo los que sí caben.',
+        placement: 'bottom'
+    },
+    {
+        target: () => document.querySelector('.hor-grid-controls'),
+        title: '🗓️ Días y horas',
+        text: 'Mostrá u ocultá días (por ejemplo, el sábado) y elegí el rango de horas que se dibuja.',
+        placement: 'left',
+        scroll: true
+    },
+    {
+        target: () => document.querySelector('.hor-export-theme-toggle'),
+        title: '🌙 Tema',
+        text: 'Cambiá entre <strong>Oscuro</strong> y <strong>Claro</strong>. Afecta también la imagen y el PDF que exportás.',
+        placement: 'left',
+        scroll: true
+    },
+    {
+        target: () => document.querySelector('.hor-sidebar-actions'),
+        title: '💾 Exportar y guardar',
+        text: '<strong>PNG</strong> y <strong>PDF</strong> para compartir o imprimir. <strong>GUARDAR</strong> baja un respaldo .json y <strong>CARGAR</strong> lo recupera. <strong>LIMPIAR</strong> vacía tu horario (pide confirmación). Todo se guarda solo en este navegador.',
+        placement: 'left',
+        scroll: true
+    },
+    {
+        target: () => document.querySelector('.hor-prof-btn'),
+        title: '⭐ Reseñas de profesores',
+        text: 'Si el profesor tiene perfil en <strong>MisProfesores</strong> aparece este botón: calidad, dificultad, % que lo recomienda y cuántas calificaciones hay. Desde el panel podés <strong>comparar</strong> a todos los profesores del curso. Son datos externos y no oficiales.',
+        placement: 'right',
+        scroll: true
+    },
+    {
+        target: () => document.getElementById('horBtnCursando'),
+        title: '📚 Mostrar CURSANDO',
+        text: 'Busca de una vez <strong>todos los cursos que marcaste como Cursando</strong> en Planes de Estudio, en todas las escuelas. No lo ejecuto ahora para no sacarte de esta demo.',
+        placement: 'bottom',
+        scroll: true,
+        onEnter: () => document.getElementById('horBtnCursando')?.classList.add('tour-pulse'),
+        onExit:  () => document.getElementById('horBtnCursando')?.classList.remove('tour-pulse')
+    },
+    {
+        target: null,
+        title: '🎉 ¡Listo!',
+        text: 'Ya sabés armar tu horario. Repetí el recorrido cuando quieras desde <strong>📖 MANUAL</strong>. Lo que agregó la demo a tu horario ya se quitó.',
+        placement: 'center'
+    }
+];
+
+function startTourHorarios() {
+    if (typeof startTour !== 'function') return;
+    startTour({
+        steps: TOUR_HOR_STEPS,
+        alTerminar: () => {
+            tourHorQuitarDemo();
+            document.getElementById('horBtnCursando')?.classList.remove('tour-pulse');
+        }
+    });
 }
