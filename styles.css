@@ -2692,7 +2692,7 @@ path {
 }
 .tc-nav:hover { color: #fff; border-color: var(--accent); box-shadow: 0 0 12px rgba(130,87,230,0.35); }
 
-.tc-semana, .tc-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+.tc-semana, .tc-grid { display: grid; grid-template-columns: 26px repeat(7, 1fr); gap: 6px; }
 .tc-semana { margin-bottom: 6px; }
 .tc-semana span { text-align: center; color: #6b6b78; font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; }
 
@@ -2743,10 +2743,63 @@ path {
 }
 .tc-item-sub { color: var(--text-dim); font-size: 0.78rem; margin-top: 5px; }
 
+/* Periodo lectivo */
+.tc-periodo {
+    grid-column: 1 / -1; position: relative; z-index: 1;
+    padding: 16px 18px; border-radius: 14px;
+    background: linear-gradient(135deg, rgba(6,182,212,0.14), rgba(130,87,230,0.10));
+    border: 1px solid rgba(6,182,212,0.35);
+}
+.tc-per-verano { background: linear-gradient(135deg, rgba(245,158,11,0.15), rgba(130,87,230,0.08)); border-color: rgba(245,158,11,0.4); }
+.tc-per-receso { background: #17171c; border-color: #33333f; }
+.tc-per-top { display: flex; justify-content: space-between; align-items: flex-end; gap: 14px; flex-wrap: wrap; }
+.tc-per-etiqueta { color: #8b8b98; font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+.tc-per-semana { color: #fff; font-size: 1.9rem; font-weight: 700; line-height: 1.1; margin-top: 2px; }
+.tc-per-semana b { color: #22d3ee; font-size: 2.3rem; }
+.tc-per-verano .tc-per-semana b { color: #fbbf24; }
+.tc-per-semana span { color: var(--text-dim); font-size: 1.1rem; font-weight: 600; }
+.tc-per-fase { font-size: 1.35rem; }
+.tc-per-estado { color: var(--text-dim); font-size: 0.9rem; margin-top: 3px; }
+.tc-per-der { text-align: right; }
+.tc-per-pct { color: #fff; font-size: 1.5rem; font-weight: 700; line-height: 1; }
+.tc-per-fechas { color: var(--text-dim); font-size: 0.78rem; margin-top: 4px; line-height: 1.35; }
+.tc-per-segs { display: grid; grid-template-columns: repeat(var(--n), 1fr); gap: 4px; margin-top: 12px; }
+.tc-per-segs i { height: 7px; border-radius: 4px; background: #2a2a33; }
+.tc-per-segs i.hecha { background: #22d3ee; }
+.tc-per-segs i.actual { background: linear-gradient(90deg, #22d3ee, #8257e6); box-shadow: 0 0 10px rgba(34,211,238,0.6); }
+.tc-per-verano .tc-per-segs i.hecha { background: #fbbf24; }
+.tc-per-verano .tc-per-segs i.actual { background: linear-gradient(90deg, #fbbf24, #8257e6); box-shadow: 0 0 10px rgba(251,191,36,0.6); }
+.tc-per-prox { margin-top: 12px; color: var(--text-dim); font-size: 0.82rem; }
+.tc-per-prox b { color: #fff; }
+
+.tc-sem-num { display: flex; align-items: center; justify-content: center; color: #22d3ee; font-size: 0.72rem; font-weight: 700; opacity: 0.85; }
+.tc-semana .tc-sem-num { color: #6b6b78; letter-spacing: 0; }
+.tc-lectivo { background: rgba(6,182,212,0.07); border-color: rgba(6,182,212,0.22); }
+.tc-lect-verano { background: rgba(245,158,11,0.08); border-color: rgba(245,158,11,0.25); }
+.tc-lect-ini::after, .tc-lect-fin::after {
+    position: absolute; top: 3px; right: 4px; font-size: 0.7rem; line-height: 1; color: #22d3ee;
+}
+.tc-lect-verano.tc-lect-ini::after, .tc-lect-verano.tc-lect-fin::after { color: #fbbf24; }
+.tc-lect-ini::after { content: '▶'; }
+.tc-lect-fin::after { content: '■'; }
+.tc-lect-ini, .tc-lect-fin { border-color: #22d3ee; }
+.tc-lect-verano.tc-lect-ini, .tc-lect-verano.tc-lect-fin { border-color: #fbbf24; }
+.tc-ley-cuad { border-radius: 3px !important; }
+.tc-ley-lectivo { background: rgba(6,182,212,0.35); }
+.tc-ley-verano { background: rgba(245,158,11,0.4); }
+.tc-ley-marca { width: auto !important; height: auto !important; background: none !important; font-style: normal; font-size: 0.6rem; color: #22d3ee; }
+.tc-hoy-btn {
+    margin-left: 10px; padding: 2px 9px; vertical-align: 3px; cursor: pointer;
+    background: transparent; color: var(--accent); border: 1px solid var(--accent); border-radius: 12px;
+    font-family: 'Rajdhani', sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.5px;
+}
+.tc-hoy-btn:hover { background: var(--accent); color: #fff; }
+
 @media (max-width: 900px) {
     .tc-cal { grid-template-columns: 1fr; padding: 16px; gap: 20px; }
 }
 @media (max-width: 420px) {
-    .tc-semana, .tc-grid { gap: 4px; }
+    .tc-semana, .tc-grid { gap: 4px; grid-template-columns: 20px repeat(7, 1fr); }
+    .tc-per-semana { font-size: 1.5rem; } .tc-per-semana b { font-size: 1.9rem; }
     .tc-dia { min-height: 36px; font-size: 0.85rem; border-radius: 8px; }
 }

@@ -3502,13 +3502,18 @@ const CAL_DIAS = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
 const CAL_AGENDA_MAX = 6;
 const CAL_RANGO_CORTO = 14; // rangos más largos (ej. período lectivo) solo marcan su inicio y su fin
 
-const calEstado = { eventos: [], anio: 0, mes: 0, seleccionado: null, listo: false };
+const calEstado = { eventos: [], todos: [], anio: 0, mes: 0, seleccionado: null, listo: false };
 
 function fechaHoyCR() {
     return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Costa_Rica' });
 }
 function diasEntreISO(a, b) {
     return Math.round((new Date(b + 'T00:00:00Z') - new Date(a + 'T00:00:00Z')) / 86400000);
+}
+function sumarDiasISO(iso, n) {
+    const d = new Date(iso + 'T00:00:00Z');
+    d.setUTCDate(d.getUTCDate() + n);
+    return d.toISOString().slice(0, 10);
 }
 function fechaCortaISO(iso) {
     const [, m, d] = iso.split('-');
@@ -3537,38 +3542,155 @@ function calHayEventosEnMes(anio, mes) {
     return false;
 }
 
+// --- Periodo lectivo: semana N de M, fase actual (lecciones / evaluaciones / receso) ---
+function calPeriodoLectivoEn(iso) {
+    return calEstado.eventos.find(e => e.tipo === 'periodo_lectivo' && e.inicio <= iso && iso <= e.fin) || null;
+}
+function calTotalSemanas(p) {
+    return Math.ceil((diasEntreISO(p.inicio, p.fin) + 1) / 7);
+}
+function calSemanaDe(p, iso) {
+    return Math.floor(diasEntreISO(p.inicio, iso) / 7) + 1;
+}
+function calEsVerano(p) {
+    return /verano/i.test(p.etiquetaPeriodo || '');
+}
+function calDiaSemanaLunes(iso) { // 0 = lunes ... 6 = domingo
+    return (new Date(iso + 'T00:00:00Z').getUTCDay() + 6) % 7;
+}
+function calPlural(n, uno, varios) { return `${n} ${n === 1 ? uno : varios}`; }
+
+// Tarjeta superior: en qué parte del ciclo estamos hoy.
+function calHtmlPeriodo(hoy) {
+    const lectivos = calEstado.eventos.filter(e => e.tipo === 'periodo_lectivo');
+    if (!lectivos.length) return '';
+
+    const p = calPeriodoLectivoEn(hoy);
+    const proximo = calEstado.eventos.find(e => e.tipo !== 'periodo_lectivo' && e.inicio > hoy);
+    const proximoHtml = proximo
+        ? `<div class="tc-per-prox">Próximo hito: <b>${escHtmlFechas(proximo.actividad)}</b> · ${fechaCortaISO(proximo.inicio)} (${diasEntreISO(hoy, proximo.inicio) === 1 ? 'mañana' : 'en ' + diasEntreISO(hoy, proximo.inicio) + ' días'})</div>`
+        : '';
+
+    if (p) {
+        const total = calTotalSemanas(p);
+        const n = calSemanaDe(p, hoy);
+        const dow = calDiaSemanaLunes(hoy);
+        const restan = diasEntreISO(hoy, p.fin);
+        let estado;
+        if (n === total) estado = dow >= 5 ? `Terminando la última semana de lecciones` : 'Última semana de lecciones';
+        else if (dow >= 5) estado = `Terminando la semana ${n}`;
+        else if (dow === 0) estado = `Empieza la semana ${n}`;
+        else estado = `Semana ${n} en curso`;
+        const segs = Array.from({ length: total }, (_, i) => `<i class="${i + 1 < n ? 'hecha' : i + 1 === n ? 'actual' : ''}"></i>`).join('');
+        const pct = Math.round(((diasEntreISO(p.inicio, hoy) + 1) / (diasEntreISO(p.inicio, p.fin) + 1)) * 100);
+        return `
+            <div class="tc-periodo ${calEsVerano(p) ? 'tc-per-verano' : ''}">
+                <div class="tc-per-top">
+                    <div>
+                        <div class="tc-per-etiqueta">${escHtmlFechas(p.etiquetaPeriodo)} · periodo lectivo</div>
+                        <div class="tc-per-semana">Semana <b>${n}</b> <span>de ${total}</span></div>
+                        <div class="tc-per-estado">${estado}</div>
+                    </div>
+                    <div class="tc-per-der">
+                        <div class="tc-per-pct">${pct}%</div>
+                        <div class="tc-per-fechas">${fechaCortaISO(p.inicio)} – ${fechaCortaISO(p.fin)}<br>${restan === 0 ? 'Último día de lecciones' : 'Quedan ' + calPlural(restan, 'día', 'días')}</div>
+                    </div>
+                </div>
+                <div class="tc-per-segs" style="--n:${total}">${segs}</div>
+                ${proximoHtml}
+            </div>`;
+    }
+
+    // Fuera de lecciones: evaluaciones, preparación o receso
+    const ev = calEstado.eventos.find(e => e.tipo === 'evaluaciones_finales' && e.inicio <= hoy && hoy <= e.fin);
+    const prep = calEstado.todos.find(e => /^Preparaci[oó]n para evaluaciones/i.test(e.actividad) && e.inicio <= hoy && hoy <= e.fin);
+    const siguiente = lectivos.find(e => e.inicio > hoy);
+    const anterior = [...lectivos].reverse().find(e => e.fin < hoy);
+    let titulo, sub;
+    if (ev) {
+        titulo = 'Evaluaciones y actividades finales';
+        sub = `${escHtmlFechas(ev.etiquetaPeriodo)} · ${fechaCortaISO(ev.inicio)} – ${fechaCortaISO(ev.fin)} · ${diasEntreISO(hoy, ev.fin) === 0 ? 'último día' : 'quedan ' + calPlural(diasEntreISO(hoy, ev.fin), 'día', 'días')}`;
+    } else if (prep) {
+        titulo = 'Preparación para evaluaciones finales';
+        sub = `${escHtmlFechas(prep.etiquetaPeriodo)} · ${fechaCortaISO(prep.inicio)} – ${fechaCortaISO(prep.fin)}`;
+    } else if (siguiente) {
+        titulo = 'Receso entre periodos';
+        sub = `${escHtmlFechas(siguiente.etiquetaPeriodo)} inicia lecciones el <b>${fechaCortaISO(siguiente.inicio)}</b> (${diasEntreISO(hoy, siguiente.inicio) === 1 ? 'mañana' : 'en ' + diasEntreISO(hoy, siguiente.inicio) + ' días'})`;
+    } else if (anterior) {
+        titulo = 'Periodo lectivo finalizado';
+        sub = `${escHtmlFechas(anterior.etiquetaPeriodo)} terminó el ${fechaCortaISO(anterior.fin)}`;
+    } else return '';
+    return `
+        <div class="tc-periodo tc-per-receso">
+            <div class="tc-per-top"><div>
+                <div class="tc-per-etiqueta">Estado del ciclo</div>
+                <div class="tc-per-semana tc-per-fase">${titulo}</div>
+                <div class="tc-per-estado">${sub}</div>
+            </div></div>
+            ${proximoHtml}
+        </div>`;
+}
+
 function calHtmlCuadricula(hoy) {
     const { anio, mes, seleccionado } = calEstado;
     const offset = (new Date(Date.UTC(anio, mes, 1)).getUTCDay() + 6) % 7; // semana desde lunes
     const dias = new Date(Date.UTC(anio, mes + 1, 0)).getUTCDate();
 
+    // Una fila = una semana (lunes a domingo). Al inicio de cada fila va el nº de semana lectiva.
+    const numSemana = (isoLunes) => {
+        for (let k = 0; k < 7; k++) {
+            const iso = sumarDiasISO(isoLunes, k);
+            const p = calPeriodoLectivoEn(iso);
+            if (p) return calSemanaDe(p, iso);
+        }
+        return null;
+    };
     let celdas = '';
+    const abrirFila = (d) => { // d = día del mes (puede ser <= 0 en la primera fila)
+        const lunes = sumarDiasISO(isoDe(anio, mes, 1), d - 1);
+        const n = numSemana(lunes);
+        celdas += `<span class="tc-sem-num">${n ?? ''}</span>`;
+    };
+    if (offset > 0 || dias > 0) abrirFila(1 - offset);
     for (let i = 0; i < offset; i++) celdas += '<span class="tc-dia tc-vacio"></span>';
     for (let d = 1; d <= dias; d++) {
+        const posicion = (offset + d - 1) % 7;
+        if (posicion === 0 && d > 1) abrirFila(d);
         const iso = isoDe(anio, mes, d);
         const evs = calEventosDelDia(iso);
         const cats = [...new Set(evs.map(calCategoria))];
         const enBanda = evs.some(e => e.inicio < iso && iso < e.fin && diasEntreISO(e.inicio, e.fin) <= CAL_RANGO_CORTO);
+        const lect = calPeriodoLectivoEn(iso);
         const clases = ['tc-dia'];
         if (iso === hoy) clases.push('tc-hoy');
         if (iso === seleccionado) clases.push('tc-sel');
         if (evs.length) clases.push('tc-evento');
         if (enBanda) clases.push('tc-banda');
+        let titulo = '';
+        if (lect) {
+            clases.push(calEsVerano(lect) ? 'tc-lect-verano' : 'tc-lectivo');
+            if (iso === lect.inicio) { clases.push('tc-lect-ini'); titulo = `Inicio de lecciones · ${lect.etiquetaPeriodo}`; }
+            if (iso === lect.fin)    { clases.push('tc-lect-fin'); titulo = `Fin de lecciones · ${lect.etiquetaPeriodo}`; }
+        }
         const puntos = cats.slice(0, 3).map(c => `<i style="background:${CAL_CATEGORIAS[c].color};box-shadow:0 0 6px ${CAL_CATEGORIAS[c].color}"></i>`).join('');
-        const aria = `${d} de ${CAL_MESES[mes]}${evs.length ? ', ' + evs.length + (evs.length === 1 ? ' evento' : ' eventos') : ''}`;
-        celdas += `<button type="button" class="${clases.join(' ')}" data-iso="${iso}" aria-label="${aria}"><b>${d}</b><span class="tc-puntos">${puntos}</span></button>`;
+        const aria = `${d} de ${CAL_MESES[mes]}${lect ? ', semana ' + calSemanaDe(lect, iso) + ' de ' + calTotalSemanas(lect) : ''}${evs.length ? ', ' + evs.length + (evs.length === 1 ? ' evento' : ' eventos') : ''}`;
+        celdas += `<button type="button" class="${clases.join(' ')}" data-iso="${iso}" aria-label="${aria}"${titulo ? ` title="${titulo}"` : ''}><b>${d}</b><span class="tc-puntos">${puntos}</span></button>`;
     }
 
     const flecha = (dir, d) => `<button type="button" class="tc-nav" data-accion="${dir}" aria-label="${dir === 'prev' ? 'Mes anterior' : 'Mes siguiente'}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg></button>`;
-    const leyenda = Object.values(CAL_CATEGORIAS).map(c => `<span><i style="background:${c.color}"></i>${c.label}</span>`).join('');
+    const leyenda = Object.values(CAL_CATEGORIAS).map(c => `<span><i style="background:${c.color}"></i>${c.label}</span>`).join('')
+        + '<span><i class="tc-ley-cuad tc-ley-lectivo"></i>Periodo lectivo</span>'
+        + '<span><i class="tc-ley-cuad tc-ley-verano"></i>Lectivo de verano</span>'
+        + '<span><i class="tc-ley-marca">▶</i>Inicio</span><span><i class="tc-ley-marca">■</i>Fin</span>';
+    const hoyEsteMes = hoy.slice(0, 7) === `${anio}-${String(mes + 1).padStart(2, '0')}`;
 
     return `
         <div class="tc-mes">
             ${flecha('prev', 'M15 18l-6-6 6-6')}
-            <div class="tc-mes-titulo">${CAL_MESES[mes]} <span>${anio}</span></div>
+            <div class="tc-mes-titulo">${CAL_MESES[mes]} <span>${anio}</span>${hoyEsteMes ? '' : '<button type="button" class="tc-hoy-btn" data-accion="hoy">Hoy</button>'}</div>
             ${flecha('next', 'M9 18l6-6-6-6')}
         </div>
-        <div class="tc-semana">${CAL_DIAS.map(d => `<span>${d}</span>`).join('')}</div>
+        <div class="tc-semana"><span class="tc-sem-num">Sem</span>${CAL_DIAS.map(d => `<span>${d}</span>`).join('')}</div>
         <div class="tc-grid">${celdas}</div>
         <div class="tc-leyenda">${leyenda}</div>`;
 }
@@ -3578,7 +3700,8 @@ function calHtmlAgenda(hoy) {
     let titulo, lista;
     if (seleccionado) {
         const [, m, d] = seleccionado.split('-');
-        titulo = `${Number(d)} de ${CAL_MESES[Number(m) - 1].toLowerCase()}`;
+        const lect = calPeriodoLectivoEn(seleccionado);
+        titulo = `${Number(d)} de ${CAL_MESES[Number(m) - 1].toLowerCase()}` + (lect ? ` · Semana ${calSemanaDe(lect, seleccionado)}` : '');
         lista = calEventosDelDia(seleccionado);
     } else {
         titulo = 'Lo que viene';
@@ -3595,11 +3718,19 @@ function calHtmlAgenda(hoy) {
             const n = diasEntreISO(hoy, e.inicio);
             cuando = n === 1 ? 'Mañana' : `En ${n} días`;
         }
-        const rango = e.inicio === e.fin ? fechaCortaISO(e.inicio) : `${fechaCortaISO(e.inicio)} – ${fechaCortaISO(e.fin)}`;
+        let rango = e.inicio === e.fin ? fechaCortaISO(e.inicio) : `${fechaCortaISO(e.inicio)} – ${fechaCortaISO(e.fin)}`;
+        let nombre = e.actividad;
+        if (e.tipo === 'periodo_lectivo') {
+            const ref = seleccionado || hoy;
+            nombre = ref === e.inicio ? 'Inicio del periodo lectivo' : ref === e.fin ? 'Fin del periodo lectivo' : 'Periodo lectivo (lecciones)';
+            const tot = calTotalSemanas(e);
+            rango += ` · ${tot} semanas`;
+            if (e.inicio <= ref && ref <= e.fin) rango += ` · hoy semana ${calSemanaDe(e, ref)}`;
+        }
         return `
             <div class="tc-item" style="--tc-color:${cat.color}">
                 <div class="tc-item-top">
-                    <span class="tc-item-titulo">${escHtmlFechas(e.actividad)}</span>
+                    <span class="tc-item-titulo">${escHtmlFechas(nombre)}</span>
                     <span class="tc-pill">${cuando}</span>
                 </div>
                 <div class="tc-item-sub">${escHtmlFechas(e.etiquetaPeriodo)} · ${rango}</div>
@@ -3614,7 +3745,7 @@ function renderCalendarioTEC() {
     const cont = document.getElementById('homeCalendario');
     if (!cont) return;
     const hoy = fechaHoyCR();
-    cont.innerHTML = `<div class="tc-cuadricula">${calHtmlCuadricula(hoy)}</div><div class="tc-agenda">${calHtmlAgenda(hoy)}</div>`;
+    cont.innerHTML = `${calHtmlPeriodo(hoy)}<div class="tc-cuadricula">${calHtmlCuadricula(hoy)}</div><div class="tc-agenda">${calHtmlAgenda(hoy)}</div>`;
 
     if (!calEstado.listo) {
         calEstado.listo = true;
@@ -3627,6 +3758,11 @@ function renderCalendarioTEC() {
                 if (calEstado.mes < 0) { calEstado.mes = 11; calEstado.anio--; }
                 if (calEstado.mes > 11) { calEstado.mes = 0; calEstado.anio++; }
             } else if (accion === 'limpiar') {
+                calEstado.seleccionado = null;
+            } else if (accion === 'hoy') {
+                const h = fechaHoyCR();
+                calEstado.anio = Number(h.slice(0, 4));
+                calEstado.mes = Number(h.slice(5, 7)) - 1;
                 calEstado.seleccionado = null;
             } else if (el.dataset.iso) {
                 calEstado.seleccionado = calEstado.seleccionado === el.dataset.iso ? null : el.dataset.iso;
@@ -3645,6 +3781,7 @@ async function cargarProximasFechas() {
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const { eventos } = await res.json();
 
+        calEstado.todos = eventos;
         calEstado.eventos = eventos
             .filter(e => e.relevante)
             .sort((x, y) => x.inicio.localeCompare(y.inicio) || x.actividad.localeCompare(y.actividad));
@@ -3654,7 +3791,7 @@ async function cargarProximasFechas() {
         const hoy = fechaHoyCR();
         calEstado.anio = Number(hoy.slice(0, 4));
         calEstado.mes = Number(hoy.slice(5, 7)) - 1;
-        if (!calHayEventosEnMes(calEstado.anio, calEstado.mes)) {
+        if (!calHayEventosEnMes(calEstado.anio, calEstado.mes) && !calPeriodoLectivoEn(hoy)) {
             const proximo = calEstado.eventos.find(e => e.inicio >= hoy) || calEstado.eventos.find(e => e.fin >= hoy);
             if (proximo) { calEstado.anio = Number(proximo.inicio.slice(0, 4)); calEstado.mes = Number(proximo.inicio.slice(5, 7)) - 1; }
         }
