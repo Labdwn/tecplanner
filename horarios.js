@@ -211,6 +211,9 @@ function renderHorariosLayout() {
                 <button class="btn-action" onclick="mostrarCursandoEnHorario()" style="border-color:#a855f7; color:#a855f7;">
                     📚 Mostrar CURSANDO
                 </button>
+                <button class="btn-action" onclick="abrirManualHorarios()" style="border-color:#f59e0b; color:#f59e0b;">
+                    📖 MANUAL
+                </button>
             </div>
  
             <div class="hor-filtro-cursando-banner" id="horFiltroCursandoBanner"></div>
@@ -555,9 +558,9 @@ function renderHorariosCursos() {
                     const { choca, contras } = (elegido || otroElegido) ? { choca: false, contras: [] } : evaluarChoqueCandidato(g.horario);
                     const contrasTxt = contras.map(s => `${s.curso.codigo} (Gr.${s.grupo.grupo})`).join(', ');
                     return `
-                                        <div class="hor-grupo-card ${elegido ? 'is-selected' : ''} ${choca ? 'has-choque' : ''} ${otroElegido ? 'is-disabled' : ''}"
-                         onmouseenter='previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, true)'
-                         onmouseleave='previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)'>
+                    <div class="hor-grupo-card ${elegido ? 'is-selected' : ''} ${choca ? 'has-choque' : ''} ${otroElegido ? 'is-disabled' : ''}"
+                         onmouseenter="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, true)"
+                         onmouseleave="previewHorGrupo(${JSON.stringify(c.codigo)}, ${JSON.stringify(g.grupo)}, false)">
                         <div class="hor-grupo-top">
                             <span class="hor-grupo-badge">Grupo ${g._grupoOriginal || g.grupo}</span>
                             ${g._sede ? `<span class="hor-grupo-sede-badge">${nombreSede(g._sede)}</span>` : ''}
@@ -1217,7 +1220,7 @@ async function exportHorarioComoPDF() {
 // Proxy propio (Cloudflare Worker, ver worker/misprofes-proxy.js). Pega aquí su URL,
 // por ejemplo 'https://misprofes-proxy.TU-USUARIO.workers.dev'. corsproxy.io ya no
 // funciona sin API key; allorigins queda solo como respaldo.
-const MISPROFES_WORKER = 'https://test.estudiante-kenneth-sandi.workers.dev/';
+const MISPROFES_WORKER = '';
 
 const MISPROFES_PROXIES = [
     ...(MISPROFES_WORKER ? [(url) => `${MISPROFES_WORKER}/?url=${encodeURIComponent(url)}`] : []),
@@ -1902,4 +1905,174 @@ function renderFiltroCursandoBanner() {
             <button class="hor-btn-ghost" onclick="salirDeModoCursando()">✕ Volver a búsqueda normal</button>
         </div>
         ${advertencia}`;
+}
+
+
+// =============================================================================
+// 16. MANUAL DE HORARIOS
+// =============================================================================
+
+function abrirManualHorarios() {
+    document.getElementById('horManualModal')?.remove();
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay';
+    modal.id = 'horManualModal';
+    modal.style.cssText = 'display:flex; z-index:6000;';
+    modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+    modal.innerHTML = `
+    <div class="modal-content" style="width:900px; max-width:96vw; max-height:90vh; overflow-y:auto;">
+        <div class="tutorial-close-fixed"><button onclick="this.closest('.modal-overlay').remove()">✕ CERRAR</button></div>
+        <div class="modal-header">
+            <div class="modal-title-code" style="color:#f59e0b; font-size:1.2rem;">📖 MANUAL DE HORARIOS</div>
+            <div class="modal-title-name" style="font-size:2rem;">Generar Horario // Guía Completa</div>
+        </div>
+        <div class="modal-body" style="font-size:1rem; line-height:1.5; padding:30px;">
+
+            <div class="man-toc">
+                <button onclick="manIr('hm-empezar')">🚀 Empezar</button>
+                <button onclick="manIr('hm-filtros')">🎯 Filtros</button>
+                <button onclick="manIr('hm-grupos')">🧩 Grupos</button>
+                <button onclick="manIr('hm-grilla')">🗓️ Tu horario</button>
+                <button onclick="manIr('hm-choques')">⚠️ Choques</button>
+                <button onclick="manIr('hm-cursando')">📚 Mostrar CURSANDO</button>
+                <button onclick="manIr('hm-profes')">⭐ Profesores</button>
+                <button onclick="manIr('hm-exportar')">💾 Exportar</button>
+                <button onclick="manIr('hm-faq')">❓ Preguntas</button>
+            </div>
+
+            <div class="man-sec" id="hm-empezar">
+                <h2>🚀 EMPEZÁ AQUÍ</h2>
+                <ol class="man-pasos">
+                    <li><b>Elegí año, período, sede y escuela.</b> Aparecen los cursos de esa escuela con todos sus grupos.</li>
+                    <li><b>Buscá o filtrá</b> por nombre, código, día, favoritos o "sin choques".</li>
+                    <li><b>Pasá el mouse</b> sobre un grupo: se dibuja una vista previa blanca en tu horario, sin agregarlo todavía.</li>
+                    <li><b>Tocá "Seleccionar"</b> en el grupo que te sirva. Se pinta en la grilla con su propio color.</li>
+                    <li><b>Revisá los choques</b> y exportá tu horario en PNG, PDF o JSON.</li>
+                </ol>
+                <div class="man-tip">💡 <b>Todo se guarda solo</b> en este navegador: tus cursos elegidos, favoritos, filtros y la configuración de la grilla. Si volvés mañana, sigue ahí.</div>
+                <div class="man-tip">⚡ <b>Atajo:</b> si ya marcaste cursos como <b>Cursando</b> en Planes de Estudio, usá <b>📚 Mostrar CURSANDO</b> y se buscan todos de una vez (ver más abajo).</div>
+            </div>
+
+            <div class="man-sec" id="hm-filtros">
+                <h2>🎯 FILTROS Y BÚSQUEDA</h2>
+                <h3>Dónde buscar</h3>
+                <ul class="man-lista">
+                    <li><b>Año y período:</b> semestre 1, semestre 2 o <b>Verano</b>.</li>
+                    <li><b>Sede:</b> las sedes con datos publicados.</li>
+                    <li><b>Escuela:</b> escribí para filtrar la lista (por ejemplo, "física") y elegí una.</li>
+                </ul>
+                <p>Tus últimos filtros se recuerdan para la próxima vez.</p>
+                <h3>Cómo acotar lo que ves</h3>
+                <div class="man-grid2">
+                    <div class="man-card"><div class="t">🔍 Buscador</div><div class="d">Por nombre o código del curso. Se filtra en vivo.</div></div>
+                    <div class="man-card"><div class="t">⭐ Favoritos</div><div class="d">Solo los grupos que marcaste con la estrella (y los que ya elegiste).</div></div>
+                    <div class="man-card"><div class="t">✅ Sin choques</div><div class="d">Oculta los grupos que chocan con lo que ya tenés en tu horario.</div></div>
+                    <div class="man-card"><div class="t">Lun · Mar · Mié…</div><div class="d">Dejá solo los grupos que tengan lecciones en esos días. Podés activar varios.</div></div>
+                </div>
+                <div class="man-tip">💡 Un grupo que <b>ya elegiste nunca se oculta</b> con los filtros, para que no lo pierdas de vista.</div>
+            </div>
+
+            <div class="man-sec" id="hm-grupos">
+                <h2>🧩 LEER Y ELEGIR GRUPOS</h2>
+                <p>Cada curso es un bloque con sus créditos y cantidad de grupos. Tocá el título para <b>colapsarlo</b> y despejar la lista. Cada tarjeta de grupo muestra:</p>
+                <ul class="man-lista">
+                    <li><b>Grupo</b> y, si buscás entre varias sedes, la <b>sede</b>.</li>
+                    <li><b>Modalidad</b> (regular, virtual…).</li>
+                    <li>👤 <b>Profesor</b>, con un botón <b>Reseñas</b> cuando hay perfil en MisProfesores.</li>
+                    <li>🕐 <b>Horario</b> completo, y 📍 <b>aula</b> cuando el TEC ya la publicó (edificio-aula).</li>
+                    <li>☆/★ para marcar el grupo como <b>favorito</b>.</li>
+                </ul>
+                <h3>Reglas al seleccionar</h3>
+                <ul class="man-lista">
+                    <li>Solo podés tener <b>un grupo por curso</b>. Los demás quedan como <span class="man-kbd">🔒 Otro grupo elegido</span>. Para cambiar, quitá el que tenés y elegí el otro.</li>
+                    <li>Si el grupo choca con algo, el botón dice <span class="man-kbd">⚠️ Agregar de todos modos</span>: te deja agregarlo igual, marcado como choque.</li>
+                </ul>
+            </div>
+
+            <div class="man-sec" id="hm-grilla">
+                <h2>🗓️ TU HORARIO (LA GRILLA)</h2>
+                <ul class="man-lista">
+                    <li><b>Vista previa:</b> al pasar el mouse sobre un grupo, sus bloques aparecen en blanco sobre la grilla.</li>
+                    <li><b>Colores:</b> cada curso toma un color automático. El selector de color de cada bloque lo cambia.</li>
+                    <li><b>✕</b> en un bloque quita ese grupo. Aparece <b>↩ Deshacer</b> por si fue sin querer.</li>
+                    <li><b>Línea de "ahora":</b> si hoy es un día visible, se marca la hora actual.</li>
+                    <li>Los bloques grandes muestran además grupo, aula y profesor.</li>
+                </ul>
+                <h3>Ajustá lo que se ve</h3>
+                <ul class="man-lista">
+                    <li><b>Días:</b> los botones Lun–Sáb muestran u ocultan cada día (útil si no tenés clases el sábado).</li>
+                    <li><b>Rango de horas:</b> elegí desde qué hora hasta qué hora se dibuja.</li>
+                    <li><b>🌙 Oscuro / ☀️ Claro:</b> cambia el tema de la grilla y también el de lo que exportás.</li>
+                </ul>
+                <h3>Resumen</h3>
+                <p>Arriba ves cuántos <b>cursos</b> y <b>créditos</b> llevás. Si hay choques aparece además un contador rojo.</p>
+            </div>
+
+            <div class="man-sec" id="hm-choques">
+                <h2>⚠️ CHOQUES DE HORARIO</h2>
+                <p>Hay choque cuando dos grupos tienen lecciones a la <b>misma hora el mismo día</b>.</p>
+                <ul class="man-lista">
+                    <li>Los bloques que chocan se pintan en <b>rojo</b> y debajo de la grilla aparece un aviso con la cantidad.</li>
+                    <li>En la lista, el ⚠️ de un grupo te dice <b>con cuál curso</b> choca al pasar el mouse.</li>
+                    <li>Con el chip <b>✅ Sin choques</b> solo ves los grupos que sí caben.</li>
+                </ul>
+            </div>
+
+            <div class="man-sec" id="hm-cursando">
+                <h2>📚 MOSTRAR CURSANDO</h2>
+                <p>Toma los cursos que marcaste como <b>Cursando</b> en Planes de Estudio y busca <b>todos sus grupos</b> en todas las escuelas del período más reciente. No tenés que saber a qué escuela pertenece cada curso.</p>
+                <ul class="man-lista">
+                    <li>Necesitás tener una carrera cargada y al menos un curso en Cursando.</li>
+                    <li>Mientras está activo, aparece un aviso arriba y los filtros de escuela se reemplazan por esa búsqueda. Si algún curso no se abre ese período, el aviso te lo dice. Salí con <b>✕ Volver a búsqueda normal</b>.</li>
+                    <li>También se llega desde Planes de Estudio con <b>📤 CURSANDO → HORARIO</b>.</li>
+                </ul>
+            </div>
+
+            <div class="man-sec" id="hm-profes">
+                <h2>⭐ RESEÑAS DE PROFESORES</h2>
+                <p>Si el profesor del grupo tiene perfil en <b>MisProfesores.com</b>, aparece el botón <b>Reseñas</b>. Se abre un panel con los datos <b>consultados en ese momento</b>:</p>
+                <div class="man-grid2">
+                    <div class="man-card"><div class="t">Calidad general</div><div class="d">El promedio que le ponen los estudiantes.</div></div>
+                    <div class="man-card"><div class="t">Nivel de dificultad</div><div class="d">Qué tan exigente lo consideran.</div></div>
+                    <div class="man-card"><div class="t">Lo recomiendan</div><div class="d">Porcentaje de estudiantes que lo recomienda.</div></div>
+                    <div class="man-card"><div class="t"># Calificaciones</div><div class="d">Cuántas opiniones hay. Pocas calificaciones = dato poco confiable.</div></div>
+                </div>
+                <p style="margin-top:14px;">El botón <b>Ver perfil completo</b> abre la página del profesor para leer los comentarios.</p>
+                <h3>⚖️ Comparar profesores</h3>
+                <p>Desde el panel, <b>Comparar</b> pone en una tabla a todos los profesores de ese curso que tengan perfil. Podés ordenar por:</p>
+                <ul class="man-lista">
+                    <li><b>🧮 Mejor Score</b> (el orden recomendado), más recomendado, mejor calidad, más fácil, más difícil o más calificaciones.</li>
+                </ul>
+                <p>El <b>Score</b> corrige las notas según cuántas calificaciones tienen detrás: un profesor con 5 reseñas perfectas no le gana sin más a uno con 80 muy buenas. El botón <b>🧮 ¿Cómo se calcula el Score?</b> explica la fórmula.</p>
+                <div class="man-aviso">⚠️ <b>Datos externos y no oficiales.</b> Vienen de opiniones de estudiantes y no siempre están actualizados. Tomalos como una referencia más, no como una verdad absoluta. Si el panel no logra conectarse, usá el botón del perfil completo.</div>
+            </div>
+
+            <div class="man-sec" id="hm-exportar">
+                <h2>💾 EXPORTAR, GUARDAR Y LIMPIAR</h2>
+                <div class="man-grid2">
+                    <div class="man-card"><div class="t">🖼️ PNG</div><div class="d">Imagen de tu horario, lista para el celular o compartir. Respeta el tema Oscuro/Claro.</div></div>
+                    <div class="man-card"><div class="t">📄 PDF</div><div class="d">Tu horario en PDF, para imprimir o enviar.</div></div>
+                    <div class="man-card"><div class="t">💾 GUARDAR</div><div class="d">Descarga un respaldo .json con tus cursos y grupos elegidos.</div></div>
+                    <div class="man-card"><div class="t">📂 CARGAR</div><div class="d">Recupera un horario desde ese .json (por ejemplo, en otro navegador).</div></div>
+                </div>
+                <p style="margin-top:14px;"><b>🗑️ LIMPIAR</b> quita todos los cursos de tu horario y pide confirmación. Tus favoritos no se borran.</p>
+            </div>
+
+            <div class="man-sec man-faq" id="hm-faq">
+                <h2>❓ PREGUNTAS FRECUENTES</h2>
+                <details><summary>No aparecen cursos</summary><p>Revisá que elegiste <b>año, período, sede y escuela</b>, y que no tengas activos los chips de <b>Favoritos</b>, <b>Sin choques</b> o de días. Probá limpiar el buscador.</p></details>
+                <details><summary>Un grupo no muestra el aula</summary><p>El aula aparece cuando el TEC la publica. Al principio de la matrícula muchos grupos todavía no la tienen asignada.</p></details>
+                <details><summary>No encuentro el período que busco</summary><p>Solo aparecen los períodos para los que ya hay datos. El de verano se publica cuando el TEC saca la guía de horarios.</p></details>
+                <details><summary>¿Los grupos y horarios son oficiales?</summary><p>Vienen de la guía de horarios del TEC, pero TecPlanner es una herramienta <b>no oficial</b> y la información puede cambiar. Confirmá tu matrícula en TEC Digital.</p></details>
+                <details><summary>Perdí mi horario</summary><p>Se guarda en el navegador. Si limpiaste los datos del sitio o cambiaste de navegador, usá <b>📂 CARGAR</b> con un respaldo de <b>💾 GUARDAR</b>.</p></details>
+                <details><summary>No me salen las reseñas de un profesor</summary><p>Puede que ese profesor no tenga perfil asignado todavía, o que la consulta falle en ese momento. En ese caso no aparece el botón o el panel avisa; el botón del perfil completo sigue funcionando.</p></details>
+            </div>
+
+        </div>
+        <div class="modal-footer" style="padding:25px 30px;">
+            <button class="btn-modal btn-confirm" onclick="this.closest('.modal-overlay').remove()" style="width:100%; background:var(--accent); color:#fff; font-size:1.2rem; padding:18px; box-shadow:0 0 20px rgba(130,87,230,0.5);">ENTENDIDO</button>
+        </div>
+    </div>`;
+    document.body.appendChild(modal);
 }

@@ -324,7 +324,7 @@
   
 
 <div class="modal-overlay" id="tutorialModal" style="z-index: 4000;" onclick="if(event.target===this) closeTutorial()">
-    <div class="modal-content" style="width: 900px; max-height: 90vh; overflow-y: auto;">
+    <div class="modal-content" style="width: 900px; max-width: 96vw; max-height: 90vh; overflow-y: auto;">
         <div class="tutorial-close-fixed">
             <button onclick="closeTutorial()">✕ CERRAR</button>
         </div>
@@ -333,10 +333,41 @@
             <div class="modal-title-name" style="font-size: 2rem;">TecPlanner v2.0 // Guía Completa</div>
         </div>
         <div class="modal-body" style="font-size: 1rem; line-height: 1.5; padding: 30px;">
+            <div class="man-toc" id="manToc">
+                <button onclick="manIr('man-empezar')">🚀 Empezar</button>
+                <button onclick="manIr('man-leyenda')">🎨 Colores</button>
+                <button onclick="manIr('man-curso')">📚 El curso</button>
+                <button onclick="manIr('man-filtros')">🔍 Filtros</button>
+                <button onclick="manIr('man-edicion')">⚡ Edición rápida</button>
+                <button onclick="manIr('man-notas')">📝 Notas</button>
+                <button onclick="manIr('man-reprobados')">❌ Reprobados</button>
+                <button onclick="manIr('man-busqueda')">🔎 Búsqueda</button>
+                <button onclick="manIr('man-lista')">📋 Lista</button>
+                <button onclick="manIr('man-perfil')">📊 Perfil</button>
+                <button onclick="manIr('man-plan')">🚀 Plan acelerado</button>
+                <button onclick="manIr('man-horario')">📤 A Horarios</button>
+                <button onclick="manIr('man-guardar')">💾 Guardar</button>
+                <button onclick="manIr('man-simulador')">🎓 Graduación</button>
+                <button onclick="manIr('man-faq')">❓ Preguntas</button>
+            </div>
+
+            <div class="man-sec" id="man-empezar">
+                <h2>🚀 EMPEZÁ AQUÍ</h2>
+                <ol class="man-pasos">
+                    <li><b>Elegí tu carrera</b> en el selector de arriba. Se carga la malla completa con el plan oficial del TEC.</li>
+                    <li><b>Marcá lo que ya aprobaste.</b> La forma más rápida es la <b>Edición rápida</b> (⚡/✔): activás el modo y hacés un clic por curso.</li>
+                    <li><b>Marcá lo que estás cursando</b> y, si querés, cargá todas sus notas juntas con <b>📝 NOTAS</b>.</li>
+                    <li><b>Planificá el futuro:</b> abrí un curso pendiente y asignale un semestre. Los cursos que ya podés llevar se resaltan solos.</li>
+                    <li><b>Usá el 🚀 Plan acelerado</b> si querés que TecPlanner arme la ruta más corta hacia tu graduación.</li>
+                </ol>
+                <div class="man-tip">💡 <b>Tu progreso se guarda solo</b> en este navegador. No hace falta una cuenta. Hacé un respaldo con <b>💾 GUARDAR</b> de vez en cuando (ver más abajo).</div>
+                <div class="man-tip">🎬 ¿Preferís que te lo muestren? El botón <b>MANUAL</b> del menú superior inicia un <b>tour guiado</b> paso a paso. Esta guía es la versión en texto.</div>
+            </div>
+
             
           
             <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
-                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🎨 LEYENDA DE COLORES</h2>
+                <h2 id="man-leyenda" style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🎨 LEYENDA DE COLORES</h2>
                 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
                    
@@ -489,8 +520,73 @@
             </div>
 
          
+            <div class="man-sec" id="man-curso">
+                <h2>📚 EL CURSO: QUÉ PODÉS HACER CON UNA TARJETA</h2>
+                <p>Hacé <b>clic</b> en cualquier curso para abrir su ventana. Ahí podés editar:</p>
+                <div class="man-grid2">
+                    <div class="man-card"><div class="t">Estado</div><div class="d">Pendiente, Cursando, Aprobado o Reprobado.</div></div>
+                    <div class="man-card"><div class="t">Semestre</div><div class="d">En cuál lo planeás o lo llevaste. Usá <b>.5</b> para veranos: <span class="man-kbd">1.5</span> es el verano entre S1 y S2.</div></div>
+                    <div class="man-card"><div class="t">Nota</div><div class="d">De 0 a 100. La nota mínima para aprobar es 70: si marcás Aprobado con una nota menor, el curso pasa a Reprobado.</div></div>
+                    <div class="man-card"><div class="t">Modalidad y profesor</div><div class="d">Regular, semipresencial o virtual, y el nombre del profesor. Son datos tuyos, solo para tu referencia.</div></div>
+                </div>
+                <h3>📅 ¿Cuándo se abre este curso?</h3>
+                <p>Arriba del formulario aparece, cuando hay historial, una línea como <i>"Este curso normalmente abre el primer semestre del año"</i> y si alguna vez se impartió en <b>verano</b>. Sale del historial real de matrícula del TEC. Sirve para no planificar un curso en un semestre donde casi nunca se abre.</p>
+                <h3>🖱️ Relaciones y llaves</h3>
+                <p>Pasá el mouse sobre una tarjeta para ver sus requisitos, correquisitos y lo que desbloquea (colores explicados en la leyenda). Un 🔑 con número indica un <b>curso clave</b>: desbloquea 3 o más cursos.</p>
+            </div>
+
+            <div class="man-sec" id="man-reprobados">
+                <h2>❌ REPROBADOS Y NUEVOS INTENTOS</h2>
+                <p>Si marcás un curso como <b>Reprobado</b>, TecPlanner te pregunta si querés agregar un <b>nuevo intento</b>. El intento es una tarjeta aparte (<span class="man-kbd">CÓDIGO_R2</span>, <span class="man-kbd">_R3</span>…), con su propio semestre y nota, para no perder el historial del intento anterior.</p>
+                <ul class="man-lista">
+                    <li>Las tarjetas de intento se pueden <b>eliminar</b>.</li>
+                    <li>El intento más reciente es el que cuenta para desbloquear los cursos que dependen de ese.</li>
+                    <li>Al enviar tus cursos a Horarios se busca el código original, así que los reintentos también aparecen.</li>
+                </ul>
+            </div>
+
+            <div class="man-sec" id="man-lista">
+                <h2>📋 VISTA DE LISTA</h2>
+                <p>El botón <b>📋 LISTA</b> cambia el árbol visual por una <b>tabla</b>. Es más cómoda para revisar mucho de golpe o en el celular.</p>
+                <ul class="man-lista">
+                    <li>Filtrá por <b>semestre</b> y por <b>estado</b>.</li>
+                    <li>Buscá por código o nombre directamente en la tabla.</li>
+                    <li>Volvé al árbol con el mismo botón.</li>
+                </ul>
+            </div>
+
+            <div class="man-sec" id="man-plan">
+                <h2>🚀 PLAN ACELERADO</h2>
+                <p>Calcula la <b>ruta más rápida</b> hacia tu graduación respetando requisitos, correquisitos y lo que ya aprobaste. Los cursos que son cuello de botella entran lo antes posible; el resto rellena cada semestre.</p>
+                <h3>Opciones</h3>
+                <ul class="man-lista">
+                    <li><b>Mínimo de créditos por semestre</b> (por defecto 18) y <b>máximo</b> opcional.</li>
+                    <li><b>Verano:</b> tope fijo de 8 créditos; se llena solo si acelera la carrera.</li>
+                    <li><b>🎓 Forzar que el último semestre sea solo el TFG</b>, si tu plan lo tiene.</li>
+                    <li><b>Conservar cursos ya planeados:</b> marcá los que querés dejar tal cual (por ejemplo, un verano que armaste a mano); el resto se replanifica.</li>
+                    <li>Las electivas y las actividades culturales/deportivas <b>no se mueven</b>: cuentan créditos pero quedan en su semestre.</li>
+                </ul>
+                <p>Primero <b>⚡ Generar plan</b> y revisás el resultado. Solo se aplica a tu malla si lo confirmás.</p>
+                <div class="man-tip">💡 El resultado es una <b>propuesta</b>: la oferta real de cursos cambia cada semestre. Confirmá siempre en Horarios qué grupos se abren.</div>
+            </div>
+
+            <div class="man-sec" id="man-horario">
+                <h2>📤 DE PLANES DE ESTUDIO A HORARIOS</h2>
+                <p>Marcá como <b>Cursando</b> los cursos del próximo semestre y tocá <b>📤 CURSANDO → HORARIO</b>. Te lleva a <b>Generar Horario</b> y busca todos esos cursos, con sus grupos disponibles, en todas las escuelas del período más reciente. Ahorra buscar curso por curso. Más detalles en el manual de Horarios (botón <b>📖 MANUAL</b> dentro de esa pantalla).</p>
+            </div>
+
+            <div class="man-sec man-faq" id="man-faq">
+                <h2>❓ PREGUNTAS FRECUENTES</h2>
+                <details><summary>Cambié de navegador y perdí mi plan</summary><p>El auto-guardado vive en cada navegador. Usá <b>💾 GUARDAR</b> para bajar tu .json y <b>📂 CARGAR</b> en el otro navegador o computadora.</p></details>
+                <details><summary>Marqué un curso como aprobado pero no se desbloquea el siguiente</summary><p>Revisá que el siguiente no tenga <b>otro requisito</b> o <b>correquisito</b> pendiente. Pasá el mouse sobre él para ver sus conexiones.</p></details>
+                <details><summary>Me aparece ⚠️ en un curso</summary><p>Es una <b>anomalía</b>: lo planeaste o aprobaste sin cumplir algún requisito o correquisito. Corregí el semestre o el estado del curso que falta.</p></details>
+                <details><summary>¿Cómo cuento un verano?</summary><p>Con semestre decimal: <span class="man-kbd">1.5</span> es el verano después del semestre 1. En el plan acelerado, los veranos topan en 8 créditos.</p></details>
+                <details><summary>¿Qué hace REINICIAR?</summary><p>Borra <b>todo</b> tu progreso de este navegador (estados, notas, semestres). Pide confirmación porque es irreversible: hacé un respaldo con 💾 GUARDAR antes.</p></details>
+                <details><summary>¿Es oficial?</summary><p>No. TecPlanner es una herramienta <b>no oficial</b>. Para trámites y matrícula, la fuente válida es el TEC.</p></details>
+            </div>
+
             <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
-                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🔍 FILTROS DE SEMESTRE</h2>
+                <h2 id="man-filtros" style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🔍 FILTROS DE SEMESTRE</h2>
                 
                 <p style="color: var(--text-dim); margin-bottom: 20px;">Cuando planeas cursos en un semestre, aparecen botones arriba. Haz clic para filtrar:</p>
                 
@@ -533,7 +629,7 @@
 
             
             <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
-                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">⚡ EDICIÓN RÁPIDA</h2>
+                <h2 id="man-edicion" style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">⚡ EDICIÓN RÁPIDA</h2>
                 
                 <p style="color: var(--text-dim); margin-bottom: 20px;">Marca cursos como CURSANDO o APROBADO con un solo clic:</p>
                 
@@ -601,7 +697,7 @@
                     </div>
                 </div>
                 <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-top: 30px;">
-    <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">📝 CARGA MASIVA DE NOTAS</h2>
+    <h2 id="man-notas" style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">📝 CARGA MASIVA DE NOTAS</h2>
 
     <p style="color: var(--text-dim); margin-bottom: 20px;">
         El botón <strong style="color: #f59e0b;">📝 NOTAS</strong> en el HUD superior te permite ingresar las notas de todos tus cursos <strong style="color: var(--status-cursando);">Cursando</strong> de una sola vez, sin tener que abrir cada curso individualmente.
@@ -652,7 +748,7 @@
 
            
             <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
-                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🔍 BÚSQUEDA RÁPIDA</h2>
+                <h2 id="man-busqueda" style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🔍 BÚSQUEDA RÁPIDA</h2>
                 
                 <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a;">
                     <div style="margin-bottom: 15px;">
@@ -691,7 +787,7 @@
 
            
             <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
-                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">📊 PERFIL Y PROMEDIO PONDERADO</h2>
+                <h2 id="man-perfil" style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">📊 PERFIL Y PROMEDIO PONDERADO</h2>
                 
                 <p style="color: var(--text-dim); margin-bottom: 20px;">Guarda tus notas para calcular automáticamente tu promedio TEC:</p>
                 
@@ -744,7 +840,7 @@
 
          
             <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 30px;">
-                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">💾 GUARDAR Y EXPORTAR</h2>
+                <h2 id="man-guardar" style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">💾 GUARDAR Y EXPORTAR</h2>
                 
                 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
                     <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a; text-align: center;">
@@ -777,7 +873,7 @@
 
            
             <div style="background: #09090b; padding: 25px; border-radius: 12px; border: 1px solid #333;">
-                <h2 style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🎓 SIMULADOR DE GRADUACIÓN</h2>
+                <h2 id="man-simulador" style="color: #fff; margin: 0 0 20px 0; font-size: 1.4rem; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">🎓 SIMULADOR DE GRADUACIÓN</h2>
                 
                 <p style="color: var(--text-dim); margin-bottom: 20px;">Calcula cuándo te graduarás según diferentes ritmos de estudio:</p>
                 

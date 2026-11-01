@@ -2769,6 +2769,11 @@ function calcularPlanAcelerado(minCred, maxCred, idsConservar, tfgAlFinal) {
 // 15. MODALES DE INFO (tutorial, acerca de)
 // =============================================================================
 
+// Salta a una sección dentro de un manual (usa el scroll del modal que lo contiene)
+function manIr(id) {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
 // Abre el tutorial / manual de usuario
 function openTutorial() {
     document.getElementById('tutorialModal').style.display = 'flex';
@@ -2995,7 +3000,7 @@ const TOUR_STEPS = [
     {
         target: () => document.getElementById('courseModal').style.display === 'flex' ? document.querySelector('#courseModal .modal-content') : null,
         title: '📚 Así se ve',
-        text: 'Asigná semestre, nota, profesor, grupo y horario. <em>No hace falta que guardes nada, es solo demostración.</em>',
+        text: 'Asigná estado, semestre, nota, modalidad y profesor. <em>No hace falta que guardes nada, es solo demostración.</em>',
         placement: 'right',
         onEnter: () => { const n = tourFirstNode(); if (n) { const c = coursesDB.find(x => x.id === n.id); if (c) openModal(c); } },
         onExit:  () => closeModal()
