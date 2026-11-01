@@ -1921,72 +1921,8 @@ function filterListView() {
 }
 
 // Exporta el plan actual a un archivo Excel (.xls)
-function exportToExcel() {
-    const plannedCourses = coursesDB.filter(c => c.userSem !== null && c.userSem > 0);
-    if (plannedCourses.length === 0) { alert('Primero planea algunos cursos.'); return; }
 
-    const sems = [...new Set(plannedCourses.map(c => c.userSem))].sort((a, b) => a - b);
-
-    let htmlContent = `
-    <html xmlns:o="urn:schemas-microsoft-com:office:office"
-          xmlns:x="urn:schemas-microsoft-com:office:excel"
-          xmlns="http://www.w3.org/TR/REC-html40">
-    <head><meta charset="utf-8">
-    <!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet>
-        <x:Name>Plan de Estudios</x:Name>
-        <x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions>
-    </x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]-->
-    </head><body><table border="1">`;
-
-    sems.forEach(semNum => {
-        const coursesInSem   = plannedCourses.filter(c => c.userSem === semNum);
-        const plannedCreds   = coursesInSem.reduce((sum, c) => sum + c.cred, 0);
-        const officialCreds  = coursesDB.filter(c => c.block === semNum).reduce((sum, c) => sum + c.cred, 0);
-
-        htmlContent += `
-        <tr style="background-color: #4CAF50; color: white; font-weight: bold;">
-            <td>SEM:</td><td>${semNum}</td><td>Créditos:</td><td>${plannedCreds}</td>
-            <td>Original:</td><td>${officialCreds}</td><td colspan="5"></td>
-        </tr>
-        <tr style="background-color: #f2f2f2; font-weight: bold;">
-            <td>#</td><td>Código</td><td>Curso</td><td>Grupo</td><td>Profesor</td>
-            <td>Horario</td><td>Aula</td><td>Modalidad</td><td>Créditos</td><td>Nota</td><td>Estado</td>
-        </tr>`;
-
-        coursesInSem.forEach((c, index) => {
-            let estado = 'Pendiente', bgColor = '';
-            if (c.grade && c.grade.toString().trim() !== '') {
-                const numGrade = parseFloat(c.grade);
-                if (!isNaN(numGrade)) {
-                    estado   = numGrade >= 70 ? 'Aprobado' : 'Reprobado';
-                    bgColor  = numGrade >= 70 ? '#d4edda'  : '#f8d7da';
-                }
-            }
-            htmlContent += `
-            <tr style="background-color: ${bgColor};">
-                <td>${index + 1}</td><td>${c.id}</td><td>${c.name}</td><td>-</td>
-                <td>${c.prof || ''}</td><td>-</td><td>-</td><td>-</td>
-                <td>${c.cred}</td>
-                <td>${c.grade !== undefined && c.grade !== null ? c.grade : ''}</td>
-                <td>${estado}</td>
-            </tr>`;
-        });
-
-        htmlContent += `<tr><td colspan="11"></td></tr>`;
-    });
-
-    htmlContent += `</table></body></html>`;
-
-    const blob = new Blob(['\ufeff' + htmlContent], { type: 'application/vnd.ms-excel;charset=utf-8;' });
-    const url  = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.setAttribute('href',     url);
-    link.setAttribute('download', `Plan_TEC_${currentMajor}.xls`);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
-}
+// (La exportación a PDF/Excel vive ahora en descargas.js: menú DESCARGAR)
 
 
 // =============================================================================
@@ -3124,8 +3060,8 @@ const TOUR_STEPS = [
 
     // --- EXCEL / GUARDAR (solo señalar, no auto-descargar) ---
     {
-        target: () => document.getElementById('btnExcel'), title: '📊 Exportar a Excel',
-        text: 'Descarga tu plan en .xls. Pruébralo cuando quieras.',
+        target: () => document.getElementById('btnExcel'), title: '⬇️ Descargar',
+        text: 'Abre un menú con <strong>4 descargas</strong>: el <strong>plan original</strong> y <strong>tu plan</strong>, cada uno en <strong>PDF</strong> y en <strong>Excel</strong>. Tu plan incluye estados, notas y avance. Pruébalo cuando quieras.',
         placement: 'bottom',
         onEnter: () => document.getElementById('btnExcel')?.classList.add('tour-pulse'),
         onExit:  () => document.getElementById('btnExcel')?.classList.remove('tour-pulse')

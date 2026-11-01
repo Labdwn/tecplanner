@@ -33,6 +33,7 @@
     <script src="curriculums.js" defer></script>
     <script src="curriculums.js" defer></script>
     <script src="app.js" defer></script>
+    <script src="descargas.js" defer></script>
     <script src="profesores.js" defer></script>
     <script src="horarios.js" defer></script>
     <script defer src="https://cloud.umami.is/script.js" data-website-id="5ae8f5ae-ba6a-4e9d-bcc8-2136eec65c00"></script>
@@ -143,9 +144,9 @@
                     📋 LISTA
                 </button>
 
-                <button class="btn-export" id="btnExcel" onclick="exportToExcel()">
+                <button class="btn-export" id="btnExcel" onclick="toggleMenuDescargas(event)" aria-haspopup="true">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                    EXCEL
+                    DESCARGAR ▾
                 </button>
 
                 <button class="btn-profile" id="btnProfileToggle" onclick="toggleCharacterSheet()">
@@ -859,9 +860,9 @@
                     
                     <div style="background: #18181b; padding: 20px; border-radius: 8px; border: 1px solid #27272a; text-align: center;">
                         <div style="font-size: 2.5rem; margin-bottom: 10px;">📊</div>
-                        <div style="font-weight: 700; color: #fff; margin-bottom: 8px;">EXCEL</div>
-                        <div style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 15px;">Exporta a Excel (.xls)</div>
-                        <button style="background: transparent; border: 1px solid #10b981; color: #10b981; padding: 8px 16px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 700; cursor: pointer;">Descargar Excel</button>
+                        <div style="font-weight: 700; color: #fff; margin-bottom: 8px;">DESCARGAR</div>
+                        <div style="color: var(--text-dim); font-size: 0.85rem; margin-bottom: 15px;">PDF y Excel (.xlsx) del plan original y de tu plan</div>
+                        <button style="background: transparent; border: 1px solid #10b981; color: #10b981; padding: 8px 16px; border-radius: 4px; font-family: 'Rajdhani', sans-serif; font-weight: 700; cursor: pointer;">Ver opciones</button>
                     </div>
                 </div>
                 
@@ -969,7 +970,7 @@
         <li>📋 <strong>Vista de lista</strong> filtrable por estado, semestre o búsqueda.</li>
         <li>🗓️ <strong>Historial de apertura</strong> — te avisa si un curso suele abrir en semestre 1, 2 o verano.</li>
         <li>🌲 <strong>Énfasis Forestal</strong> — elegí entre Manejo y Producción o Conservación y Restauración.</li>
-        <li>💾 <strong>Guardar / Cargar</strong> tu progreso en JSON, o exportarlo a Excel.</li>
+        <li>💾 <strong>Guardar / Cargar</strong> tu progreso en JSON, o descargarlo en PDF y Excel (plan original y el tuyo).</li>
         <li>📖 <strong>Tour guiado</strong> — botón MANUAL, te muestra cada función paso a paso.</li>
     </ul>
 
