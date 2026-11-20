@@ -283,86 +283,6 @@ async function ejecutarDescarga(tipo, boton) {
 // PDF
 // =============================================================================
 
-function dlPdfBase(jsPDF, orientacion, titulo, subtitulo) {
-    const doc = new jsPDF({ orientation: orientacion, unit: 'pt', format: 'a4' });
-    const W = doc.internal.pageSize.getWidth();
-    doc.setFillColor(...DL_COLOR.oscuro);
-    doc.rect(0, 0, W, 78, 'F');
-    doc.setFillColor(...DL_COLOR.marca);
-    doc.rect(0, 78, W, 4, 'F');
-    doc.setTextColor(255, 255, 255);
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(20);
-    doc.text(titulo, 36, 36);
-    doc.setFont('helvetica', 'normal');
-    doc.setFontSize(11);
-    doc.setTextColor(209, 213, 219);
-    doc.text(subtitulo, 36, 56);
-    doc.setFontSize(9);
-    doc.text(`Generado el ${dlHoy()}`, W - 36, 56, { align: 'right' });
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(9);
-    doc.setTextColor(...DL_COLOR.marca);
-    doc.text('TecPlanner', W - 36, 36, { align: 'right' });
-    doc.setTextColor(0, 0, 0);
-    return doc;
-}
-
-// Pie de página con numeración y aviso, en TODAS las páginas (se llama al final)
-function dlPdfPies(doc) {
-    const total = doc.internal.getNumberOfPages();
-    const W = doc.internal.pageSize.getWidth();
-    const H = doc.internal.pageSize.getHeight();
-    for (let i = 1; i <= total; i++) {
-        doc.setPage(i);
-        doc.setDrawColor(229, 231, 235);
-        doc.line(36, H - 34, W - 36, H - 34);
-        doc.setFont('helvetica', 'normal');
-        doc.setFontSize(7.5);
-        doc.setTextColor(...DL_COLOR.gris);
-        doc.text(DL_AVISO, 36, H - 22, { maxWidth: W - 140 });
-        doc.text(`Página ${i} de ${total}`, W - 36, H - 22, { align: 'right' });
-    }
-}
-
-// Cajitas de cifras (KPI) en fila
-function dlPdfKpis(doc, y, items) {
-    const W = doc.internal.pageSize.getWidth();
-    const margen = 36, gap = 10;
-    const ancho = (W - margen * 2 - gap * (items.length - 1)) / items.length;
-    items.forEach((it, i) => {
-        const x = margen + i * (ancho + gap);
-        doc.setFillColor(...DL_COLOR.claro);
-        doc.roundedRect(x, y, ancho, 46, 5, 5, 'F');
-        doc.setFont('helvetica', 'bold');
-        doc.setFontSize(17);
-        doc.setTextColor(...(it.color || DL_COLOR.oscuro));
-        doc.text(String(it.valor), x + ancho / 2, y + 22, { align: 'center' });
-        doc.setFont('helvetica', 'normal');
-        doc.setFontSize(8);
-        doc.setTextColor(...DL_COLOR.gris);
-        doc.text(it.etiqueta, x + ancho / 2, y + 36, { align: 'center' });
-    });
-    doc.setTextColor(0, 0, 0);
-    return y + 46;
-}
-
-// Título de sección dentro del PDF (con salto de página si no cabe)
-function dlPdfSeccion(doc, y, texto, necesario = 80) {
-    const H = doc.internal.pageSize.getHeight();
-    y += 10;
-    if (y + necesario > H - 50) { doc.addPage(); y = 50; }
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(13);
-    doc.setTextColor(...DL_COLOR.oscuro);
-    doc.text(texto, 36, y);
-    doc.setDrawColor(...DL_COLOR.marca);
-    doc.setLineWidth(1.5);
-    doc.line(36, y + 5, 36 + Math.min(doc.getTextWidth(texto) + 8, 300), y + 5);
-    doc.setLineWidth(0.5);
-    return y + 18;
-}
-
 const DL_TABLA_BASE = {
     theme: 'grid',
     styles: { font: 'helvetica', fontSize: 8.5, cellPadding: 4, lineColor: [229, 231, 235], lineWidth: 0.4, textColor: [31, 41, 55], overflow: 'linebreak' },
@@ -375,8 +295,8 @@ const DL_ORDINALES = ['', 'Primer', 'Segundo', 'Tercer', 'Cuarto', 'Quinto', 'Se
 const dlOrdinalSem = (n) => (n === 0 ? 'Cursos previos al primer semestre' : `${DL_ORDINALES[n] ? DL_ORDINALES[n] + ' semestre' : 'Semestre ' + n}`);
 const DL_NAVY = [30, 58, 95];
 
-function dlPdfFormalBase(jsPDF, car) {
-    const doc = new jsPDF({ orientation: 'portrait', unit: 'pt', format: 'a4' });
+function dlPdfFormalBase(jsPDF, car, { orientacion = 'portrait', titulo = 'Plan de Estudios', derecha = '' } = {}) {
+    const doc = new jsPDF({ orientation: orientacion, unit: 'pt', format: 'a4' });
     const W = doc.internal.pageSize.getWidth();
     doc.setFillColor(...DL_NAVY);
     doc.rect(0, 0, W, 118, 'F');
@@ -384,10 +304,11 @@ function dlPdfFormalBase(jsPDF, car) {
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(10);
     doc.text('INSTITUTO TECNOLÓGICO DE COSTA RICA', 36, 34);
+    if (derecha) doc.text(derecha, W - 36, 34, { align: 'right' });
     doc.setTextColor(255, 255, 255);
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(24);
-    doc.text('Plan de Estudios', 36, 66);
+    doc.text(titulo, 36, 66);
     doc.setFont('helvetica', 'normal');
     doc.setFontSize(15);
     doc.text(car.titulo, 36, 90);
@@ -396,12 +317,12 @@ function dlPdfFormalBase(jsPDF, car) {
     doc.line(36, 100, W - 36, 100);
     doc.setFontSize(10);
     doc.setTextColor(203, 213, 225);
-    doc.text(car.detalle || '', 36, 112 - 1);
+    doc.text(car.detalle || '', 36, 111);
     doc.setTextColor(0, 0, 0);
     return doc;
 }
 
-function dlPdfFormalPies(doc) {
+function dlPdfFormalPies(doc, texto = 'Elaborado con TecPlanner a partir del plan de estudios vigente. Documento informativo, no oficial.') {
     const total = doc.internal.getNumberOfPages();
     const W = doc.internal.pageSize.getWidth();
     const H = doc.internal.pageSize.getHeight();
@@ -412,7 +333,7 @@ function dlPdfFormalPies(doc) {
         doc.setFont('helvetica', 'normal');
         doc.setFontSize(7.5);
         doc.setTextColor(...DL_COLOR.gris);
-        doc.text('Elaborado con TecPlanner a partir del plan de estudios vigente. Documento informativo, no oficial.', 36, H - 22);
+        doc.text(texto, 36, H - 22);
         doc.text(`Página ${i} de ${total}`, W - 36, H - 22, { align: 'right' });
     }
 }
@@ -482,91 +403,113 @@ async function descargarPdfOriginal() {
 }
 
 // ---------- 2. PDF · Plan del usuario ----------
+// Mismo estilo formal que el plan original, con la información personal del usuario.
+const dlOrdinalSemUsuario = (n) => {
+    if (n % 1 !== 0) {
+        const a = Math.floor(n);
+        return `Verano entre el ${(DL_ORDINALES[a] || 'semestre ' + a).toLowerCase()} y el ${(DL_ORDINALES[a + 1] || 'semestre ' + (a + 1)).toLowerCase()} semestre`;
+    }
+    return n === 0 ? 'Cursos previos al primer semestre' : dlOrdinalSem(n);
+};
+
 async function descargarPdfUsuario() {
     const jsPDF = await dlAsegurarPdf();
     const car = dlInfoCarrera();
     const p = dlPlanUsuario();
-    const doc = dlPdfBase(jsPDF, 'landscape', `Mi plan de estudios - ${car.titulo}`, car.detalle || 'Plan personal');
+    const doc = dlPdfFormalBase(jsPDF, car, { orientacion: 'landscape', titulo: 'Mi Plan de Estudios', derecha: `Generado el ${dlHoy()}` });
     const W = doc.internal.pageSize.getWidth();
 
-    let y = dlPdfKpis(doc, 100, [
-        { valor: p.credAprobados, etiqueta: 'CRÉDITOS APROBADOS', color: DL_COLOR.estado.aprobado.texto },
-        { valor: p.credCursando, etiqueta: 'CRÉDITOS CURSANDO', color: DL_COLOR.estado.cursando.texto },
-        { valor: p.credPendientes, etiqueta: 'CRÉDITOS PENDIENTES' },
-        { valor: p.credTotal, etiqueta: 'TOTAL DE LA CARRERA', color: DL_COLOR.marca },
-        { valor: p.ponderado === null ? '-' : p.ponderado.toFixed(2), etiqueta: 'PROMEDIO PONDERADO', color: DL_COLOR.marca },
-        { valor: p.ultimoSem === null ? '-' : dlSemCorto(p.ultimoSem), etiqueta: 'ÚLT. SEM. PLANEADO' },
-    ]);
+    // Ficha de avance en dos columnas (clave / valor)
+    const fmt = (n) => (n === null ? '-' : n.toFixed(2));
+    const izq = [
+        ['Créditos aprobados', String(p.credAprobados)],
+        ['Créditos cursando', String(p.credCursando)],
+        ['Créditos pendientes', String(p.credPendientes)],
+        ['Total de créditos de la carrera', String(p.credTotal)],
+    ];
+    const der = [
+        ['Avance de la carrera', `${(p.avance * 100).toFixed(1)}%`],
+        ['Promedio ponderado', fmt(p.ponderado)],
+        ['Cursos', `${p.nAprobados} aprobados, ${p.nCursando} cursando, ${p.nReprobados} reprobados, ${p.nPendientes} pendientes`],
+        ['Último semestre planeado', p.ultimoSem === null ? '-' : dlOrdinalSemUsuario(p.ultimoSem)],
+    ];
+    const filas = izq.map((f, i) => [f[0], f[1], der[i][0], der[i][1]]);
+    doc.autoTable({
+        startY: 136,
+        body: filas,
+        theme: 'plain',
+        styles: { font: 'helvetica', fontSize: 10, cellPadding: { top: 3, bottom: 3, left: 0, right: 8 }, textColor: [31, 41, 55] },
+        columnStyles: { 0: { cellWidth: 180, fontStyle: 'bold', textColor: DL_NAVY }, 1: { cellWidth: 90 }, 2: { cellWidth: 150, fontStyle: 'bold', textColor: DL_NAVY } },
+        margin: { left: 36, right: 36 },
+    });
+    let y = doc.lastAutoTable.finalY + 8;
 
-    // Barra de avance
-    y += 14;
+    // Barra de avance sobria
     const anchoBarra = W - 72;
-    doc.setFillColor(229, 231, 235);
-    doc.roundedRect(36, y, anchoBarra, 10, 5, 5, 'F');
+    doc.setFillColor(226, 232, 240);
+    doc.rect(36, y, anchoBarra, 8, 'F');
     const aprobado = anchoBarra * p.avance;
     const cursando = anchoBarra * (p.credTotal ? p.credCursando / p.credTotal : 0);
-    if (aprobado > 1) { doc.setFillColor(16, 185, 129); doc.roundedRect(36, y, Math.max(aprobado, 8), 10, 5, 5, 'F'); }
-    if (cursando > 1) { doc.setFillColor(6, 182, 212); doc.rect(36 + aprobado, y, cursando, 10, 'F'); }
+    doc.setFillColor(...DL_NAVY);
+    if (aprobado > 0) doc.rect(36, y, aprobado, 8, 'F');
+    doc.setFillColor(100, 149, 205);
+    if (cursando > 0) doc.rect(36 + aprobado, y, cursando, 8, 'F');
     doc.setFont('helvetica', 'normal');
-    doc.setFontSize(8.5);
+    doc.setFontSize(8);
     doc.setTextColor(...DL_COLOR.gris);
-    doc.text(`Avance: ${(p.avance * 100).toFixed(1)}% aprobado  |  ${p.nAprobados} aprobados, ${p.nCursando} cursando, ${p.nReprobados} reprobados, ${p.nPendientes} pendientes  |  ${p.semestres.length} periodos planeados, con veranos (${p.promCredSem.toFixed(1)} créditos por periodo en promedio)`, 36, y + 24);
-    y += 42;
+    doc.setFillColor(...DL_NAVY); doc.rect(36, y + 14, 8, 8, 'F');
+    doc.text('Aprobado', 48, y + 21);
+    doc.setFillColor(100, 149, 205); doc.rect(100, y + 14, 8, 8, 'F');
+    doc.text('Cursando', 112, y + 21);
+    y += 38;
 
-    const cols = ['Código', 'Curso', 'Cr.', 'Estado', 'Nota', 'Vs. plan oficial', 'Requisitos'];
-    const estiloEstado = (c, d) => {
+    const cols = ['Código', 'Nombre del curso', 'Créditos', 'Estado', 'Nota', 'Vs. plan oficial', 'Requisitos'];
+    const estiloEstado = (c) => {
         const e = DL_COLOR.estado[c.status];
         return { content: DL_ESTADO_TXT[c.status], styles: { fillColor: e.fill, textColor: e.texto, fontStyle: 'bold', halign: 'center' } };
     };
-    const filaCurso = (c) => {
-        const cod = dlCodigo(c) + (c.isRetry ? ` (intento ${dlIntento(c)})` : '');
-        return [
-            { content: cod, styles: { fontStyle: 'bold' } },
-            c.name, c.cred, estiloEstado(c),
-            c.grade !== null && c.grade !== undefined && String(c.grade).trim() !== '' ? c.grade : '',
-            dlTiming(c), dlLista(c.reqs),
-        ];
-    };
-    const anchos = { 0: { cellWidth: 80 }, 2: { cellWidth: 30, halign: 'center' }, 3: { cellWidth: 62 }, 4: { cellWidth: 36, halign: 'center' }, 5: { cellWidth: 92 }, 6: { cellWidth: 150 } };
+    const codigo = (c) => dlCodigo(c) + (c.isRetry ? ` (intento ${dlIntento(c)})` : '');
+    const anchos = { 0: { cellWidth: 90, fontStyle: 'bold' }, 2: { cellWidth: 46, halign: 'center' }, 3: { cellWidth: 64 }, 4: { cellWidth: 38, halign: 'center' }, 5: { cellWidth: 92 }, 6: { cellWidth: 150 } };
+    const cabecera = (titulo) => [
+        [{ content: titulo, colSpan: cols.length, styles: { fillColor: DL_NAVY, textColor: 255, fontStyle: 'bold', fontSize: 10.5, halign: 'left' } }],
+        cols.map(c => ({ content: c, styles: { fillColor: [226, 232, 240], textColor: DL_NAVY, fontStyle: 'bold', halign: ['Créditos', 'Nota'].includes(c) ? 'center' : 'left' } })),
+    ];
 
     p.semestres.forEach(g => {
-        const dif = g.oficial === null ? '' : `  (oficial: ${g.oficial})`;
-        const titulo = `${dlEtiquetaSem(g.sem)}  -  ${g.creditos} créditos planeados${dif}`;
-        const pie = [{ content: 'Total del semestre', colSpan: 2, styles: { halign: 'right' } }, g.creditos,
-            { content: g.ponderado === null ? '' : `Prom. ponderado: ${g.ponderado.toFixed(2)}`, colSpan: 4, styles: { halign: 'left' } }];
+        const dif = g.oficial === null ? '' : `  (plan oficial: ${g.oficial})`;
+        const pie = [{ content: 'Total de créditos', colSpan: 2, styles: { halign: 'right' } }, g.creditos,
+            { content: g.ponderado === null ? '' : `Promedio ponderado: ${g.ponderado.toFixed(2)}`, colSpan: 4, styles: { halign: 'left' } }];
+        doc.autoTable({
+            ...DL_TABLA_BASE,
+            startY: y,
+            head: cabecera(`${dlOrdinalSemUsuario(g.sem)}  -  ${g.creditos} créditos planeados${dif}`),
+            body: g.cursos.map(c => [codigo(c), c.name, c.cred, estiloEstado(c),
+                c.grade !== null && c.grade !== undefined && String(c.grade).trim() !== '' ? c.grade : '', dlTiming(c), dlLista(c.reqs).replace(/^-$/, '')]),
+            foot: [pie],
+            showHead: 'everyPage', showFoot: 'lastPage', pageBreak: 'avoid',
+            footStyles: { fillColor: [241, 245, 249], textColor: DL_NAVY, fontStyle: 'bold' },
+            columnStyles: anchos,
+        });
+        y = doc.lastAutoTable.finalY + 16;
+    });
+
+    if (p.sinAsignar.length) {
+        const colsSin = ['Código', 'Nombre del curso', 'Créditos', 'Estado', 'Bloque oficial', 'Requisitos', 'Correquisitos'];
         doc.autoTable({
             ...DL_TABLA_BASE,
             startY: y,
             head: [
-                [{ content: titulo, colSpan: cols.length, styles: { fillColor: DL_COLOR.marca, textColor: 255, fontStyle: 'bold', fontSize: 10, halign: 'left' } }],
-                cols.map(c => ({ content: c, styles: { fillColor: DL_COLOR.oscuro, textColor: 255, fontStyle: 'bold' } })),
+                [{ content: `Cursos sin semestre asignado (${p.sinAsignar.length})`, colSpan: colsSin.length, styles: { fillColor: DL_NAVY, textColor: 255, fontStyle: 'bold', fontSize: 10.5, halign: 'left' } }],
+                colsSin.map(c => ({ content: c, styles: { fillColor: [226, 232, 240], textColor: DL_NAVY, fontStyle: 'bold', halign: ['Créditos', 'Bloque oficial'].includes(c) ? 'center' : 'left' } })),
             ],
-            body: g.cursos.map(filaCurso),
-            foot: [pie],
-            showHead: 'everyPage', showFoot: 'lastPage', pageBreak: 'avoid',
-            footStyles: { fillColor: DL_COLOR.claro, textColor: [31, 41, 55], fontStyle: 'bold' },
-            columnStyles: anchos,
+            body: p.sinAsignar.map(c => [codigo(c), c.name, c.cred, estiloEstado(c), c.block, dlLista(c.reqs).replace(/^-$/, ''), dlLista(c.coreqs).replace(/^-$/, '')]),
+            showHead: 'everyPage', pageBreak: 'avoid',
+            columnStyles: { 0: { cellWidth: 90, fontStyle: 'bold' }, 2: { cellWidth: 46, halign: 'center' }, 3: { cellWidth: 64 }, 4: { cellWidth: 70, halign: 'center' } },
         });
-        y = doc.lastAutoTable.finalY + 14;
-    });
-
-    if (p.sinAsignar.length) {
-        y = dlPdfSeccion(doc, y, `Cursos sin semestre asignado (${p.sinAsignar.length})`, 100);
-        doc.autoTable({
-            ...DL_TABLA_BASE,
-            startY: y,
-            head: [['Código', 'Curso', 'Cr.', 'Estado', 'Bloque oficial', 'Requisitos', 'Correquisitos']],
-            body: p.sinAsignar.map(c => [
-                { content: dlCodigo(c) + (c.isRetry ? ` (intento ${dlIntento(c)})` : ''), styles: { fontStyle: 'bold' } },
-                c.name, c.cred, estiloEstado(c), c.block, dlLista(c.reqs), dlLista(c.coreqs)]),
-            headStyles: { fillColor: DL_COLOR.oscuro, textColor: 255 },
-            columnStyles: { 0: { cellWidth: 74 }, 2: { cellWidth: 26, halign: 'center' }, 3: { cellWidth: 56 }, 4: { cellWidth: 60, halign: 'center' } },
-        });
-        y = doc.lastAutoTable.finalY + 14;
     }
 
-    dlPdfPies(doc);
-    doc.save(`Mi_Plan_${currentMajor}.pdf`);
+    dlPdfFormalPies(doc, 'Plan personal elaborado con TecPlanner. Documento informativo, no oficial.');
+    doc.save(`Mi_Plan_de_Estudios_${currentMajor}.pdf`);
 }
 
 // =============================================================================
@@ -714,9 +657,9 @@ async function descargarExcelUsuario() {
 
     // --- Hoja Mi plan (datos editables) ---
     const hoja = wb.addWorksheet('Mi plan', { views: [{ state: 'frozen', ySplit: 4 }] });
-    dlXlTitulo(hoja, `Mi plan de estudios - ${car.titulo}`, `${car.detalle ? car.detalle + ' · ' : ''}Generado el ${dlHoy()} · Podés editar Semestre, Estado y Nota: el Resumen y "Por semestre" se recalculan solos.`, 14);
+    dlXlTitulo(hoja, `Mi Plan de Estudios - ${car.titulo}`, `Instituto Tecnológico de Costa Rica${car.detalle ? ' · ' + car.detalle : ''} · Generado el ${dlHoy()}`, 14, DL_XL_NAVY);
     hoja.addRow([]);
-    dlXlEncabezado(hoja.addRow(['Sem. planeado', 'Sem. oficial', 'Diferencia', 'Vs. plan oficial', 'Código', 'Curso', 'Cr.', 'Estado', 'Nota', 'Profesor', 'Modalidad', 'Requisitos', 'Correquisitos', 'Alerta']));
+    dlXlEncabezado(hoja.addRow(['Sem. planeado', 'Sem. oficial', 'Diferencia', 'Vs. plan oficial', 'Código', 'Curso', 'Cr.', 'Estado', 'Nota', 'Profesor', 'Modalidad', 'Requisitos', 'Correquisitos', 'Alerta']), DL_XL_NAVY);
     filas.forEach((c, i) => {
         const n = PRIMERA + i;
         const sem = hasSem(c.userSem) ? Number(c.userSem) : null;
@@ -755,9 +698,9 @@ async function descargarExcelUsuario() {
 
     // --- Hoja Por semestre ---
     const por = wb.addWorksheet('Por semestre');
-    dlXlTitulo(por, 'Resumen por semestre', 'Créditos planeados vs. oficiales, aprobados y promedio ponderado de cada semestre.', 7);
+    dlXlTitulo(por, 'Resumen por semestre', `Instituto Tecnológico de Costa Rica · ${car.titulo} · Créditos planeados, oficiales y aprobados de cada semestre`, 7, DL_XL_NAVY);
     por.addRow([]);
-    dlXlEncabezado(por.addRow(['Semestre', 'Cursos', 'Créditos planeados', 'Créditos oficiales', 'Diferencia', 'Créditos aprobados', 'Prom. ponderado']), DL_XL.marca);
+    dlXlEncabezado(por.addRow(['Semestre', 'Cursos', 'Créditos planeados', 'Créditos oficiales', 'Diferencia', 'Créditos aprobados', 'Prom. ponderado']), DL_XL_NAVY);
     p.semestres.forEach(g => {
         const n = por.rowCount + 1;
         const aprob = g.cursos.filter(c => c.status === 'aprobado').reduce((s, c) => s + c.cred, 0);
@@ -784,7 +727,7 @@ async function descargarExcelUsuario() {
 
     // --- Hoja Resumen (primera) ---
     const res = wb.addWorksheet('Resumen');
-    dlXlTitulo(res, `Resumen - ${car.titulo}`, `${car.detalle ? car.detalle + ' · ' : ''}Generado el ${dlHoy()}`, 3);
+    dlXlTitulo(res, `Mi Plan de Estudios - ${car.titulo}`, `Instituto Tecnológico de Costa Rica${car.detalle ? ' · ' + car.detalle : ''} · Generado el ${dlHoy()}`, 3, DL_XL_NAVY);
     res.addRow([]);
     const st = R('H'), cr = R('G');
     const cond = `(${st}="Aprobado")*(${R('I')}<>"")`;
@@ -805,7 +748,7 @@ async function descargarExcelUsuario() {
         ['Cursos con alertas', Object.keys(p.anomalias).length],
         ['Cursos sin semestre asignado', { formula: `COUNTBLANK(${R('A')})`, result: p.sinAsignar.length }],
     ];
-    dlXlEncabezado(res.addRow(['Indicador', 'Valor']), DL_XL.marca);
+    dlXlEncabezado(res.addRow(['Indicador', 'Valor']), DL_XL_NAVY);
     items.forEach(it => {
         const r = res.addRow(it);
         r.getCell(1).font = { bold: true };
@@ -819,5 +762,5 @@ async function descargarExcelUsuario() {
 
     res.orderNo = -1;   // Resumen como primera pestaña
     wb.views = [{ activeTab: 0 }];
-    await dlGuardarXlsx(wb, `Mi_Plan_${currentMajor}.xlsx`);
+    await dlGuardarXlsx(wb, `Mi_Plan_de_Estudios_${currentMajor}.xlsx`);
 }

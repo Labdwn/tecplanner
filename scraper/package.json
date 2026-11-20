@@ -5,10 +5,10 @@
   "type": "module",
   "main": "scraper.js",
   "scripts": {
-    "scrape": "node --env-file=.env --use-system-ca scraper.js",
+    "scrape": "node --env-file-if-exists=.env --use-system-ca scraper.js",
     "revisar-ventana": "node revisar-ventana.js",
     "profesores": "node --use-system-ca buscar-misprofesores.js",
-    "historial-multianual": "node --env-file=.env --use-system-ca build-history-multianual.js",
+    "historial-multianual": "node --env-file-if-exists=.env --use-system-ca build-history-multianual.js",
     "test": "node --test test/*.test.js"
   },
   "engines": {

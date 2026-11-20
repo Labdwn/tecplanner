@@ -5,10 +5,8 @@
 // decisión como output de GitHub Actions para que el job siguiente la
 // use en una matrix.
 //
-// Regla de "hoy toca" (ver debeCorrerHoy en ventanas.js):
-//   - sondeo, antes de la matrícula: todos los días, porque el TEC publica
-//     la guía antes de la fecha oficial;
-//   - desde el inicio de matrícula: cada 7 días y el último día (fin).
+// Regla de "hoy toca" (ver debeCorrerHoy en ventanas.js): todos los días,
+// desde el sondeo previo hasta 30 días después del fin de la ventana.
 //
 // Se puede simular una fecha con la variable de entorno FECHA_SIMULADA
 // (formato YYYY-MM-DD), útil para probar ventanas.js sin esperar a que
@@ -34,11 +32,27 @@ function main() {
         }
     }
 
-    const salida = activas.map((v) => ({
-        anio: v.anio,
-        // GitHub Actions matrix no maneja bien `null`; se usa '' y
-        // config.js ya trata '' como "sin filtro" (`'' || null` → null).
-        periodo: v.periodo ?? '',
+    // El TEC se consulta por AÑO (una petición por escuela, sea cual sea el
+    // período), así que se hace UNA sola corrida por año aunque haya varias
+    // ventanas activas: los períodos activos viajan en `podar`.
+    const porAnio = new Map();
+    for (const v of activas) {
+        const anio = String(v.anio);
+        if (!porAnio.has(anio)) porAnio.set(anio, new Set());
+        if (v.periodo != null) porAnio.get(anio).add(String(v.periodo));
+    }
+    // Red de seguridad: los lunes se revisa también el año en curso, sin podar
+    // nada (solo recoge datos nuevos).
+    const anioHoy = hoy.slice(0, 4);
+    if (new Date(`${hoy}T00:00:00Z`).getUTCDay() === 1 && !porAnio.has(anioHoy)) {
+        porAnio.set(anioHoy, new Set());
+        console.log(`[revisar-ventana] ${hoy}: lunes, revisión semanal de ${anioHoy} (sin poda).`);
+    }
+
+    const salida = [...porAnio].map(([anio, periodos]) => ({
+        anio,
+        periodo: '', // sin filtro: una consulta por año
+        podar: [...periodos].join(','),
     }));
 
     const lineaSalida = `ventanas=${JSON.stringify(salida)}`;

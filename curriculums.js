@@ -11,6 +11,12 @@ const careers_information = {
                 plan: 1053,
                 grado: "Bachillerato"
             },
+            medicina: {
+                name: "Medicina UCR",
+                icon: "🧬",
+                plan: 0,
+                grado: "Licenciatura"
+            },
             electronica: {
                 name: "Ing. Electrónica",
                 icon: "🔌",
@@ -219,6 +225,70 @@ const careers_information = {
                 { id: 'IF5108', block: 10, name: 'Trabajo Final De Graduación', cred: 8, hrs: 24, reqs: ['IF5905'], coreqs: [], userSem: 10 },
                 { id: 'PI4802', block: 10, name: 'Administración De Proyectos', cred: 3, hrs: 4, reqs: ['IF4804'], coreqs: [], userSem: 10 }
             ],
+            medicina: [
+        { id: 'EG-I', name: 'Curso Integrado de Humanidades I', cred: 6, block: 1, reqs: [], coreqs: [] },
+        { id: 'QU-0114', name: 'Química General Intensiva', cred: 4, block: 1, reqs: [], coreqs: ['QU-0115'] },
+        { id: 'QU-0115', name: 'Laboratorio de Química General Intensiva', cred: 1, block: 1, reqs: [], coreqs: ['QU-0114'] },
+        { id: 'EG-ARTE', name: 'Curso de Arte', cred: 2, block: 1, reqs: [], coreqs: [] }, // sigla EG- sin número en el plan
+        { id: 'EF-DEP', name: 'Actividad Deportiva', cred: 0, block: 1, reqs: [], coreqs: [] }, // sigla EF- sin número en el plan
+        { id: 'MA-1210', name: 'Cálculo I', cred: 3, block: 1, reqs: [], coreqs: [] },
+        { id: 'LM-1030', name: 'Estrategias de Lectura en Inglés I (para otras carreras)', cred: 4, block: 1, reqs: [], coreqs: [] },
+        { id: 'HA-1009', name: 'Historia de la Medicina', cred: 2, block: 1, reqs: [], coreqs: [] },
+        { id: 'EG-II', name: 'Curso Integrado de Humanidades II', cred: 6, block: 2, reqs: ['EG-I'], coreqs: [] },
+        { id: 'FS-0208', name: 'Física para Ciencias Médicas', cred: 3, block: 2, reqs: ['MA-1210'], coreqs: ['FS-0204'] }, // req: MA-1210 o MA-1225 o MA-1001
+        { id: 'FS-0204', name: 'Laboratorio de Física para Ciencias de la Vida', cred: 1, block: 2, reqs: [], coreqs: ['FS-0208'] }, // coreq: FS-0208 o FS-0203
+        { id: 'QU-0210', name: 'Fundamentos de Química Orgánica', cred: 4, block: 2, reqs: ['QU-0114', 'QU-0115'], coreqs: ['QU-0211'] }, // req: (QU-0114 y QU-0115) o (QU-0102 y QU-0103)
+        { id: 'QU-0211', name: 'Laboratorio de Fundamentos de Química Orgánica', cred: 1, block: 2, reqs: ['QU-0114', 'QU-0115'], coreqs: ['QU-0210'] }, // req: (QU-0114 y QU-0115) o (QU-0102 y QU-0103)
+        { id: 'B-0106', name: 'Biología General', cred: 3, block: 2, reqs: [], coreqs: ['B-0107'] },
+        { id: 'B-0107', name: 'Laboratorio de Biología General', cred: 1, block: 2, reqs: [], coreqs: ['B-0106'] },
+        { id: 'ME-0410', name: 'Fundamentos de Psiquiatría', cred: 2, block: 3, reqs: ['B-0106', 'B-0107'], coreqs: [] },
+        { id: 'ME-0411', name: 'Histología', cred: 5, block: 3, reqs: ['QU-0210', 'QU-0211'], coreqs: ['ME-0412', 'ME-0421'] },
+        { id: 'ME-0412', name: 'Anatomía Descriptiva', cred: 5, block: 3, reqs: ['B-0106', 'B-0107', 'FS-0204', 'FS-0208', 'LM-1030'], coreqs: ['ME-0421', 'ME-0117', 'ME-0411', 'ME-0113'] },
+        { id: 'ME-0421', name: 'Embriología', cred: 2, block: 3, reqs: ['B-0106', 'B-0107'], coreqs: ['ME-0411', 'ME-0412', 'ME-0117', 'ME-0113'] },
+        { id: 'ME-0117', name: 'Bioquímica para Medicina', cred: 6, block: 3, reqs: ['LM-1030', 'QU-0210'], coreqs: ['ME-0411', 'ME-0412', 'ME-0421', 'ME-0113'] },
+        { id: 'ME-0113', name: 'Laboratorio de Bioquímica para Medicina', cred: 2, block: 3, reqs: ['LM-1030', 'QU-0210', 'QU-0211'], coreqs: ['ME-0411', 'ME-0412', 'ME-0421', 'ME-0117'] },
+        { id: 'SR-I', name: 'Seminario de Realidad Nacional I', cred: 2, block: 3, reqs: ['EG-II'], coreqs: [] },
+        { id: 'ME-2012', name: 'Fisiología', cred: 10, block: 4, reqs: ['ME-0411', 'ME-0412', 'ME-0421', 'ME-0113', 'ME-0117'], coreqs: ['ME-0414', 'ME-0422'] },
+        { id: 'ME-0422', name: 'Neuroanatomía', cred: 3, block: 4, reqs: ['ME-0421', 'ME-0113', 'ME-0117'], coreqs: ['ME-0414', 'ME-2012'] },
+        { id: 'SR-II', name: 'Seminario de Realidad Nacional II', cred: 2, block: 4, reqs: ['SR-I'], coreqs: [] },
+        { id: 'RP', name: 'Repertorio', cred: 3, block: 4, reqs: [], coreqs: [] }, // sigla RP- sin número en el plan
+        { id: 'ME-0414', name: 'Anatomía Topográfica Radiológica y Clínico Quirúrgica', cred: 5, block: 4, reqs: ['ME-0411', 'ME-0412', 'ME-0421', 'ME-0113', 'ME-0117'], coreqs: ['ME-0422'] },
+        { id: 'OPT-I', name: 'Optativo Bloque I', cred: 1, block: 4, reqs: [], coreqs: [] }, // elegir 1 de: ME-0317, ME-0318, ME-0326, ME-0325
+        { id: 'F-0008', name: 'Seminario Ética, Medicina y Sociedad', cred: 0, block: 5, reqs: ['ME-2012', 'ME-0414'], coreqs: ['ME-3103'] }, // coreq: ME-3103 o ME-3005
+        { id: 'XS-0215', name: 'Estadística para Biociencias', cred: 4, block: 5, reqs: ['MA-1210'], coreqs: [] }, // req: MA-1210 o MA-0225 o MA-1001 o MA-0125
+        { id: 'ME-0109', name: 'Patología Humana I', cred: 5, block: 5, reqs: ['ME-2012', 'ME-0414', 'ME-0422'], coreqs: ['ME-3103', 'ME-0104'] },
+        { id: 'ME-3103', name: 'Fisiopatología y Semiología', cred: 10, block: 5, reqs: ['ME-2012', 'ME-0414', 'ME-0422'], coreqs: ['ME-0109', 'ME-0104'] },
+        { id: 'ME-0104', name: 'Enfermedades Infecciosas I', cred: 4, block: 5, reqs: ['ME-2012', 'ME-0414'], coreqs: ['ME-0109', 'ME-3103'] },
+        { id: 'ME-0108', name: 'Patología Humana II', cred: 5, block: 6, reqs: ['ME-0109', 'ME-3103', 'ME-0104'], coreqs: ['ME-3005', 'ME-0107'] },
+        { id: 'ME-3005', name: 'Medicina Interna I', cred: 10, block: 6, reqs: ['ME-0109', 'ME-0104', 'ME-3103'], coreqs: ['ME-0108', 'ME-0107'] },
+        { id: 'ME-0107', name: 'Enfermedades Infecciosas II', cred: 4, block: 6, reqs: ['ME-0104', 'ME-0109', 'ME-3103'], coreqs: ['ME-0108', 'ME-3005'] },
+        { id: 'ME-2200', name: 'Propedéutica Psiquiátrica', cred: 2, block: 6, reqs: ['ME-0410', 'ME-2012', 'ME-0422'], coreqs: [] },
+        { id: 'ME-0313', name: 'Medicina Integral y Comunitaria I', cred: 2, block: 7, reqs: ['ME-3005', 'ME-0107'], coreqs: ['ME-4013', 'ME-4012'] },
+        { id: 'ME-0306', name: 'Farmacología Básica I', cred: 3, block: 7, reqs: ['ME-0108', 'ME-3005', 'ME-0107'], coreqs: ['ME-4012', 'ME-4013'] }, // coreq: ME-4012, (ME-4013 o ME-4015)
+        { id: 'ME-4012', name: 'Obstetricia', cred: 6, block: 7, reqs: ['ME-0108', 'ME-3005', 'ME-0107'], coreqs: ['ME-0306', 'ME-4013'] },
+        { id: 'ME-4013', name: 'Ginecología', cred: 6, block: 7, reqs: ['ME-0108', 'ME-3005', 'ME-0107'], coreqs: ['ME-4012'] },
+        { id: 'ME-4014', name: 'Medicina Legal', cred: 4, block: 7, reqs: ['ME-0108', 'ME-3005', 'ME-0107'], coreqs: ['ME-4012', 'ME-4013'] },
+        { id: 'ME-1007', name: 'Introducción a la Investigación en Medicina', cred: 2, block: 8, reqs: ['XS-0215'], coreqs: ['ME-4015', 'ME-1009'] },
+        { id: 'ME-0310', name: 'Farmacología Básica II', cred: 3, block: 8, reqs: ['ME-0306'], coreqs: ['ME-4015'] }, // coreq: ME-4015 o (ME-4012 y ME-4013)
+        { id: 'ME-4015', name: 'Pediatría', cred: 10, block: 8, reqs: ['ME-0108', 'ME-3005', 'ME-0107'], coreqs: ['ME-1009'] },
+        { id: 'ME-4016', name: 'Psiquiatría', cred: 4, block: 8, reqs: ['ME-2200', 'ME-3005', 'ME-0107', 'ME-0108'], coreqs: ['ME-4015', 'ME-1009'] },
+        { id: 'ME-1009', name: 'Genética Médica', cred: 2, block: 8, reqs: ['ME-3005', 'ME-0108', 'ME-0107'], coreqs: ['ME-4015', 'ME-4016'] },
+        { id: 'ME-0314', name: 'Medicina Integral y Comunitaria II', cred: 2, block: 9, reqs: ['ME-0313', 'ME-0310', 'ME-1007'], coreqs: ['ME-5000'] }, // coreq: ME-5000 o ME-5001
+        { id: 'ME-0315', name: 'Geriatría y Gerontología I', cred: 2, block: 9, reqs: ['ME-0310', 'ME-4013'], coreqs: ['ME-5000', 'ME-0308'] },
+        { id: 'ME-5000', name: 'Medicina Interna II', cred: 10, block: 9, reqs: ['ME-0310', 'ME-4012', 'ME-4013', 'ME-4015'], coreqs: ['ME-0420'] }, // coreq: ME-0420 o ME-0311
+        { id: 'ME-0308', name: 'Farmacología Clínica I', cred: 2, block: 9, reqs: ['ME-0310', 'ME-4012', 'ME-4013', 'ME-4015'], coreqs: ['ME-5000'] }, // coreq: ME-5000 o ME-5001
+        { id: 'ME-0420', name: 'Toxicología Clínica', cred: 2, block: 9, reqs: ['ME-0310', 'ME-4012', 'ME-4013', 'ME-4015'], coreqs: ['ME-5000'] }, // coreq: ME-5000 o ME-5001
+        { id: 'ME-0316', name: 'Geriatría y Gerontología II', cred: 2, block: 10, reqs: ['ME-0315', 'ME-5000'], coreqs: ['ME-5001', 'ME-0309'] },
+        { id: 'ME-5001', name: 'Cirugía', cred: 10, block: 10, reqs: ['ME-5000'], coreqs: ['ME-0311'] }, // coreq: ME-0311 o ME-0420
+        { id: 'ME-0311', name: 'Radiología', cred: 2, block: 10, reqs: ['ME-4012', 'ME-4013', 'ME-4015'], coreqs: ['ME-5001'] }, // coreq: ME-5001 o ME-5000
+        { id: 'ME-0309', name: 'Farmacología Clínica II', cred: 2, block: 10, reqs: ['ME-0308'], coreqs: ['ME-5001'] }, // coreq: ME-5001 o ME-5000
+        { id: 'OPT-II', name: 'Optativo Bloque II', cred: 1, block: 10, reqs: [], coreqs: [] }, // elegir 1 de: ME-0118, ME-0119, ME-0319, ME-0322, ME-0323, ME-0324, ME-0327
+        { id: 'ME-6001', name: 'Internado de Cirugía', cred: 10, block: 11, reqs: [], coreqs: [] }, // requiere todo hasta el ciclo X (nota 1/)
+        { id: 'ME-6002', name: 'Internado de Pediatría', cred: 10, block: 11, reqs: [], coreqs: [] }, // requiere todo hasta el ciclo X (nota 1/)
+        { id: 'ME-6003', name: 'Internado Gineco-Obstetricia', cred: 10, block: 11, reqs: [], coreqs: [] }, // requiere todo hasta el ciclo X (nota 1/)
+        { id: 'ME-6004', name: 'Internado de Medicina Interna', cred: 10, block: 11, reqs: [], coreqs: [] }, // requiere todo hasta el ciclo X (nota 1/)
+        { id: 'ME-6005', name: 'Salud Comunitaria y Familiar', cred: 8, block: 11, reqs: [], coreqs: [] }, // requiere todo hasta el ciclo X (nota 1/)
+    ],
             //forestal y sus énfasis
             forestal: [
                 // BLOQUE 0

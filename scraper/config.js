@@ -23,6 +23,9 @@ export const ANIO = process.env.SCRAPER_ANIO || new Date().getFullYear().toStrin
 // todos los períodos que devuelva el TEC para ese año.
 export const PERIODO = process.env.SCRAPER_PERIODO || null;
 
+// Períodos activos que esta corrida puede podar (ej. "1V,1"). Vacío = no poda nada.
+export const PODAR = (process.env.SCRAPER_PODAR || '').split(',').map((x) => x.trim()).filter(Boolean);
+
 export const RED = {
     maxIntentos: 3,
     esperaBaseMs: 1000, // backoff exponencial: 1s, 2s, 4s...

@@ -10,7 +10,7 @@
 // hubo algún cambio real en datos o historial — si no, ni su timestamp
 // se toca, para no generar commits vacíos en el workflow.
 
-import { ANIO, RUTAS, PERIODO, esPosgrado, esPeriodoBaseValido } from './config.js';
+import { ANIO, RUTAS, PERIODO, PODAR, esPosgrado, esPeriodoBaseValido } from './config.js';
 import { obtenerEscuelas, obtenerCursos } from './api.js';
 import { parsearEscuelas, parsearCursosPorEscuela, periodoEfectivo } from './parser.js';
 import { actualizarHistorial } from './history.js';
@@ -19,6 +19,7 @@ import { crearAgregador, fusionarIndices } from './agregador.js';
 import { validarArchivo } from './validacion.js';
 import { escribirJSON, escribirJSONSiCambio, leerJSONSiExiste } from './utils.js';
 import { ejecutarFase2 } from './fase2.js';
+import { planificarPoda, aplicarPoda, aplicarPodaAlIndice } from './poda.js';
 
 /**
  * Descarga y parsea todas las escuelas. Todo el resultado queda en
@@ -110,17 +111,31 @@ async function escribirTodo(archivos, historial, construirMetadataFinal) {
         if (escribio) huboCambios = true;
     }
 
+    // Foto completa: lo que el TEC ya no publica se elimina de data/ e índice.
+    const poda = await planificarPoda(archivos, {
+        dataDir: RUTAS.data,
+        anio: ANIO,
+        periodosActivos: PODAR,
+        forzar: process.env.SCRAPER_FORZAR_PODA === '1',
+    });
+    poda.omitidos.forEach((m) => console.warn(`[poda] ${m}`));
+    if (poda.eliminar.length > 0) {
+        poda.eliminar.forEach((f) => console.log(`[poda] eliminado (ya no está en el TEC): ${f}`));
+        await aplicarPoda(poda.eliminar);
+        huboCambios = true;
+    }
+
     const escribioHistorial = await escribirJSONSiCambio(RUTAS.history, historial);
     if (escribioHistorial) huboCambios = true;
 
     const { construirIndice } = await import('./agregador.js');
-    // El índice se fusiona con el que ya existe: una corrida filtrada por
-    // período (como las del cron) solo trae ese período y, sin fusionar,
-    // borraría del índice todos los demás.
+    // El índice se fusiona con el previo (una corrida filtrada por período no
+    // debe borrar los demás), pero los períodos podados se reemplazan completos.
     const indicePrevio = await leerJSONSiExiste('output/indice.json', {});
+    const indiceNuevo = construirIndice(archivos);
     const escribioIndice = await escribirJSONSiCambio(
         'output/indice.json',
-        fusionarIndices(indicePrevio, construirIndice(archivos))
+        aplicarPodaAlIndice(fusionarIndices(indicePrevio, indiceNuevo), indiceNuevo, ANIO, poda.periodosPodados)
     );
     if (escribioIndice) huboCambios = true;
 
