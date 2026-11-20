@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "BONILLA SOTO LUIS CARLOS",
           "modalidad": "Virtual",
-          "horario": "MAR[17:05-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:05-19:45]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "CEPEDA CESPEDES ALLAN ALEXANDER",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:40]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 50,
           "profesor": "MORA BENAVIDES BERENICE",
           "modalidad": "Virtual",
-          "horario": "SAB[07:55-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:55-10:35]"
         }
       ]
     }

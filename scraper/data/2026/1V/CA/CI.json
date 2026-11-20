@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "BLACKWOOD BARRETT AISHA JOHANNA",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20] JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20] JUE[07:30-11:20]"
         }
       ]
     },
@@ -30,17 +28,13 @@
           "grupo": 1,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "PEREZ ROJAS NELSON",
           "modalidad": "Regular",
-          "horario": "LUN[13:00-16:50] MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MIE[13:00-16:50]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 1,
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20] VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20] VIE[07:30-11:20]"
         }
       ]
     },
@@ -68,17 +60,13 @@
           "grupo": 2,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20] JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]"
         },
         {
           "grupo": 1,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20] MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20]"
         }
       ]
     },
@@ -91,9 +79,7 @@
           "grupo": 1,
           "profesor": "RAMIREZ CASTRO MONSERRAT",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]"
         }
       ]
     },
@@ -106,17 +92,13 @@
           "grupo": 2,
           "profesor": "RIOS SANCHEZ ARMANDO",
           "modalidad": "Regular",
-          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]"
         },
         {
           "grupo": 1,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Regular",
-          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]"
         }
       ]
     }

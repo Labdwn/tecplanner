@@ -15,9 +15,7 @@
           "grupo": 90,
           "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
           "modalidad": "Regular",
-          "horario": "MIE[07:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-10:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 90,
           "profesor": "VARGAS GOMEZ PABLO JOSE",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     }

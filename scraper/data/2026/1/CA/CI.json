@@ -15,81 +15,61 @@
           "grupo": 8,
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Virtual",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         },
         {
           "grupo": 1,
           "profesor": "GUILLEN JIMENEZ LUIS DIEGO",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         },
         {
           "grupo": 6,
           "profesor": "GUILLEN JIMENEZ LUIS DIEGO",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 7,
           "profesor": "MURILLO ESCALANTE ROCIO",
           "modalidad": "Virtual",
-          "horario": "JUE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[15:00-17:50]"
         },
         {
           "grupo": 4,
           "profesor": "VALLECILLO ALFARO JOHANNY",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 5,
           "profesor": "VALLECILLO ALFARO JOHANNY",
           "modalidad": "Virtual",
-          "horario": "MIE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-17:50]"
         },
         {
           "grupo": 9,
           "profesor": "VALLECILLO ALFARO JOHANNY",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         },
         {
           "grupo": 2,
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-19:50]"
         },
         {
           "grupo": 3,
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 10,
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Virtual",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -102,89 +82,67 @@
           "grupo": 1,
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         },
         {
           "grupo": 7,
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         },
         {
           "grupo": 2,
           "profesor": "HERRERA JIMENEZ INGRID",
           "modalidad": "Virtual",
-          "horario": "MAR[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20]"
         },
         {
           "grupo": 11,
           "profesor": "HERRERA JIMENEZ INGRID",
           "modalidad": "Virtual",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         },
         {
           "grupo": 4,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Virtual",
-          "horario": "MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-10:20]"
         },
         {
           "grupo": 5,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 10,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Virtual",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         },
         {
           "grupo": 9,
           "profesor": "MOLINA VILLALOBOS TANIA",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 3,
           "profesor": "MURILLO ESCALANTE ROCIO",
           "modalidad": "Virtual",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         },
         {
           "grupo": 6,
           "profesor": "MURILLO ESCALANTE ROCIO",
           "modalidad": "Virtual",
-          "horario": "MAR[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-17:50]"
         },
         {
           "grupo": 8,
           "profesor": "RIVERA VEGA KATERINE",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50]"
         }
       ]
     },
@@ -197,89 +155,67 @@
           "grupo": 3,
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Virtual",
-          "horario": "MAR[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20]"
         },
         {
           "grupo": 4,
           "profesor": "ALBERTAZZI OSORIO SONIA",
           "modalidad": "Virtual",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         },
         {
           "grupo": 10,
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Virtual",
-          "horario": "MIE[16:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:00-18:50]"
         },
         {
           "grupo": 5,
           "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50]"
         },
         {
           "grupo": 11,
           "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
           "modalidad": "Virtual",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-19:50]"
         },
         {
           "grupo": 7,
           "profesor": "HERRERA JIMENEZ INGRID",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 6,
           "profesor": "RAMIREZ CASTRO MONSERRAT",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         },
         {
           "grupo": 1,
           "profesor": "SOLANO OBANDO MABEL",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         },
         {
           "grupo": 2,
           "profesor": "SOLANO OBANDO MABEL",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         },
         {
           "grupo": 9,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Virtual",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         },
         {
           "grupo": 8,
           "profesor": "VALLECILLO ALFARO JOHANNY",
           "modalidad": "Virtual",
-          "horario": "VIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-12:20]"
         }
       ]
     },
@@ -292,33 +228,25 @@
           "grupo": 1,
           "profesor": "AMADOR SOLANO GABRIELA",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         },
         {
           "grupo": 4,
           "profesor": "AMADOR SOLANO GABRIELA",
           "modalidad": "Virtual",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         },
         {
           "grupo": 3,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50]"
         },
         {
           "grupo": 2,
           "profesor": "MORALES GARAY SARAY",
           "modalidad": "Virtual",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         }
       ]
     },
@@ -331,17 +259,13 @@
           "grupo": 1,
           "profesor": "AMADOR SOLANO GABRIELA",
           "modalidad": "Virtual",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         },
         {
           "grupo": 2,
           "profesor": "MORALES GARAY SARAY",
           "modalidad": "Virtual",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -354,273 +278,205 @@
           "grupo": 4,
           "profesor": "ARCE FUENTES JOSE DANIEL",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         },
         {
           "grupo": 9,
           "profesor": "ARCE FUENTES JOSE DANIEL",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-19:50]"
         },
         {
           "grupo": 2,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         },
         {
           "grupo": 3,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         },
         {
           "grupo": 5,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Virtual",
-          "horario": "MAR[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20]"
         },
         {
           "grupo": 7,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Virtual",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         },
         {
           "grupo": 11,
           "profesor": "CASTILLO RODRIGUEZ LARISSA",
           "modalidad": "Virtual",
-          "horario": "MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-10:20]"
         },
         {
           "grupo": 24,
           "profesor": "GODINEZ ROJAS PAULETTE",
           "modalidad": "Virtual",
-          "horario": "JUE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[15:00-17:50]"
         },
         {
           "grupo": 33,
           "profesor": "MARTINEZ ALPIZAR DIANA MARIA",
           "modalidad": "Virtual",
-          "horario": "VIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[18:00-20:50]"
         },
         {
           "grupo": 16,
           "profesor": "MORALES SOLANO PAOLA NATALIA",
           "modalidad": "Virtual",
-          "horario": "MIE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-17:50]"
         },
         {
           "grupo": 25,
           "profesor": "MORALES SOLANO PAOLA NATALIA",
           "modalidad": "Virtual",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-19:50]"
         },
         {
           "grupo": 28,
           "profesor": "MORALES SOLANO PAOLA NATALIA",
           "modalidad": "Virtual",
-          "horario": "VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-10:20]"
         },
         {
           "grupo": 30,
           "profesor": "MORALES SOLANO PAOLA NATALIA",
           "modalidad": "Virtual",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         },
         {
           "grupo": 1,
           "profesor": "PEREZ ROJAS NELSON",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         },
         {
           "grupo": 27,
           "profesor": "PEREZ ROJAS NELSON",
           "modalidad": "Virtual",
-          "horario": "VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-10:20]"
         },
         {
           "grupo": 20,
           "profesor": "QUIROS LEIVA RANDALL",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 22,
           "profesor": "QUIROS LEIVA RANDALL",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 13,
           "profesor": "RIOS SANCHEZ ARMANDO",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 32,
           "profesor": "RIOS SANCHEZ ARMANDO",
           "modalidad": "Virtual",
-          "horario": "VIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:00-19:50]"
         },
         {
           "grupo": 14,
           "profesor": "RODRIGUEZ HERRA NATALIA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 17,
           "profesor": "RODRIGUEZ HERRA NATALIA",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50]"
         },
         {
           "grupo": 34,
           "profesor": "RODRIGUEZ HERRA NATALIA",
           "modalidad": "Virtual",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         },
         {
           "grupo": 21,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 23,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 29,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Virtual",
-          "horario": "VIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-12:20]"
         },
         {
           "grupo": 31,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Virtual",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         },
         {
           "grupo": 6,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Virtual",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         },
         {
           "grupo": 8,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Virtual",
-          "horario": "MAR[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-17:50]"
         },
         {
           "grupo": 10,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50]"
         },
         {
           "grupo": 12,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         },
         {
           "grupo": 15,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Virtual",
-          "horario": "MIE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-17:50]"
         },
         {
           "grupo": 18,
           "profesor": "SHILTAGH PRADA DIMITRI",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50]"
         },
         {
           "grupo": 19,
           "profesor": "SOLANO MORAGA SIGRID",
           "modalidad": "Virtual",
-          "horario": "JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-10:20]"
         },
         {
           "grupo": 26,
           "profesor": "VARGAS CASTRO ERICKA",
           "modalidad": "Virtual",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         }
       ]
     },
@@ -633,9 +489,7 @@
           "grupo": 1,
           "profesor": "BLACKWOOD BARRETT AISHA JOHANNA",
           "modalidad": "Virtual",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         }
       ]
     },
@@ -648,9 +502,7 @@
           "grupo": 1,
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Virtual",
-          "horario": "VIE[07:30-11:20] SAB[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20] SAB[15:00-16:50]"
         }
       ]
     },
@@ -663,9 +515,7 @@
           "grupo": 1,
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         }
       ]
     },
@@ -678,17 +528,13 @@
           "grupo": 2,
           "profesor": "GOMEZ MONTOYA CARLOS ANDRES",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-21:50] SAB[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-21:50] SAB[13:00-14:50]"
         },
         {
           "grupo": 1,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-16:50] SAB[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50] SAB[13:00-14:50]"
         }
       ]
     },
@@ -701,9 +547,7 @@
           "grupo": 1,
           "profesor": "JIMENEZ RODRIGUEZ ROXANA",
           "modalidad": "Virtual",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -716,17 +560,13 @@
           "grupo": 2,
           "profesor": "MOLINA VILLALOBOS TANIA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-16:50] SAB[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50] SAB[15:00-16:50]"
         },
         {
           "grupo": 1,
           "profesor": "RIVERA VEGA KATERINE",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-21:50] SAB[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-21:50] SAB[13:00-14:50]"
         }
       ]
     },
@@ -739,33 +579,25 @@
           "grupo": 2,
           "profesor": "MORALES GARAY SARAY",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-19:50]"
         },
         {
           "grupo": 4,
           "profesor": "MORALES GARAY SARAY",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 1,
           "profesor": "MORALES SOLANO PAOLA NATALIA",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         },
         {
           "grupo": 3,
           "profesor": "MORALES SOLANO PAOLA NATALIA",
           "modalidad": "Virtual",
-          "horario": "MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-10:20]"
         }
       ]
     },
@@ -778,9 +610,7 @@
           "grupo": 1,
           "profesor": "RIVERA VEGA KATERINE",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         }
       ]
     },
@@ -793,9 +623,7 @@
           "grupo": 1,
           "profesor": "SOLANO OBANDO MABEL",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-16:50] SAB[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50] SAB[15:00-16:50]"
         }
       ]
     },
@@ -808,9 +636,7 @@
           "grupo": 1,
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         }
       ]
     },
@@ -823,9 +649,7 @@
           "grupo": 1,
           "profesor": "VINDAS FERNANDEZ NURIA",
           "modalidad": "Virtual",
-          "horario": "VIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-12:20]"
         }
       ]
     }

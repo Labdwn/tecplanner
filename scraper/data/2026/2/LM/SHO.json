@@ -15,9 +15,7 @@
           "grupo": 60,
           "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
           "modalidad": "Virtual",
-          "horario": "JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-10:20]"
         }
       ]
     }

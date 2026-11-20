@@ -223,7 +223,8 @@
           "CI": "ESCUELA DE CIENCIAS DEL LENGUAJE",
           "CA": "ESCUELA DE INGENIERIA EN COMPUTACION",
           "MA": "ESCUELA DE MATEMATICA",
-          "FH": "FORMACION HUMANISTICA"
+          "FH": "FORMACION HUMANISTICA",
+          "CD": "ESCUELA DE CULTURA Y DEPORTE"
         },
         "SC": {
           "ECE": "ESCUELA DE CIENCIAS NATURALES Y EXACTAS",
@@ -242,7 +243,8 @@
         "AL": {
           "CA": "ESCUELA DE INGENIERIA EN COMPUTACION",
           "MA": "ESCUELA DE MATEMATICA",
-          "FH": "FORMACION HUMANISTICA"
+          "FH": "FORMACION HUMANISTICA",
+          "E": "ESCUELA DE INGENIERIA EN ELECTRONICA"
         }
       }
     }

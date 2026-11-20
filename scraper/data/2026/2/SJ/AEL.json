@@ -15,9 +15,7 @@
           "grupo": 40,
           "profesor": "ABREGO CAMPOS LEONEL",
           "modalidad": "Virtual",
-          "horario": "MIE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:20-21:05]"
         }
       ]
     },
@@ -30,17 +28,13 @@
           "grupo": 41,
           "profesor": "ALFARO RAMOS ALFREDO",
           "modalidad": "Virtual",
-          "horario": "MAR[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:20-21:05]"
         },
         {
           "grupo": 40,
           "profesor": "CHAVARRIA HIDALGO CARLOS",
           "modalidad": "Virtual",
-          "horario": "VIE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[18:20-21:05]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 40,
           "profesor": "CARMONA CHAVES JORGE",
           "modalidad": "Virtual",
-          "horario": "LUN[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:20-21:05]"
         }
       ]
     },
@@ -68,9 +60,7 @@
           "grupo": 40,
           "profesor": "CERVANTES MEZA ALBERTO",
           "modalidad": "Virtual",
-          "horario": "VIE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[18:20-21:05]"
         }
       ]
     },
@@ -83,9 +73,7 @@
           "grupo": 40,
           "profesor": "CORDOBA GONZALEZ CARLOS MANUEL",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]"
         }
       ]
     },
@@ -98,17 +86,13 @@
           "grupo": 40,
           "profesor": "GONZALEZ LEON JONATHAN",
           "modalidad": "Virtual",
-          "horario": "MIE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:20-21:05]"
         },
         {
           "grupo": 41,
           "profesor": "GONZALEZ LEON JONATHAN",
           "modalidad": "Virtual",
-          "horario": "JUE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:20-21:05]"
         }
       ]
     },
@@ -121,9 +105,7 @@
           "grupo": 40,
           "profesor": "GUZMAN RIVERA DIEGO ANDRES",
           "modalidad": "Virtual",
-          "horario": "JUE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:20-21:05]"
         }
       ]
     },
@@ -136,9 +118,7 @@
           "grupo": 40,
           "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
           "modalidad": "Virtual",
-          "horario": "JUE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:20-21:05]"
         }
       ]
     },
@@ -151,9 +131,7 @@
           "grupo": 40,
           "profesor": "JAUBERT SOLANO WILLIAM",
           "modalidad": "Virtual",
-          "horario": "MAR[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:20-21:05]"
         }
       ]
     },
@@ -166,9 +144,7 @@
           "grupo": 40,
           "profesor": "MARTINEZ SOLIS KELLER",
           "modalidad": "Virtual",
-          "horario": "SAB[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[08:30-11:20]"
         }
       ]
     },
@@ -181,9 +157,7 @@
           "grupo": 40,
           "profesor": "MONTOYA RODRIGUEZ ILEANA",
           "modalidad": "Virtual",
-          "horario": "LUN[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:20-21:05]"
         }
       ]
     },
@@ -196,17 +170,13 @@
           "grupo": 41,
           "profesor": "PRADO ARROYO JOSE",
           "modalidad": "Virtual",
-          "horario": "LUN[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:20-21:05]"
         },
         {
           "grupo": 40,
           "profesor": "SOLANO MARTINEZ MAURICIO",
           "modalidad": "Virtual",
-          "horario": "LUN[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:20-21:05]"
         }
       ]
     },
@@ -219,9 +189,7 @@
           "grupo": 40,
           "profesor": "SOLIS RAMIREZ INGRID",
           "modalidad": "Virtual",
-          "horario": "MIE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:20-21:05]"
         }
       ]
     },
@@ -234,9 +202,7 @@
           "grupo": 40,
           "profesor": "SOLIS SALAZAR MARTIN",
           "modalidad": "Virtual",
-          "horario": "LUN[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:20-21:05]"
         }
       ]
     },
@@ -249,9 +215,7 @@
           "grupo": 40,
           "profesor": "TREJOS MONGE SONIA",
           "modalidad": "Virtual",
-          "horario": "MAR[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:20-21:05]"
         }
       ]
     },
@@ -264,9 +228,7 @@
           "grupo": 40,
           "profesor": "VALERIN CASTRO ALEXANDER",
           "modalidad": "Virtual",
-          "horario": "JUE[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:20-21:05]"
         }
       ]
     }

@@ -15,9 +15,7 @@
           "grupo": 20,
           "profesor": "CARVAJAL ALFARO VANESSA",
           "modalidad": "Virtual",
-          "horario": "SAB[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[09:00-11:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 20,
           "profesor": "JIMENEZ RODRIGUEZ ROXANA",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-19:50]"
         }
       ]
     }

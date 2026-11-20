@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "FLORES CANTILLO ADRIAN",
           "modalidad": "Regular",
-          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "HERRERA NUÑEZ JACQUELINE MARIA",
           "modalidad": "Regular",
-          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20] MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20] MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "PUENTE URBINA ALLEN ARTURO",
           "modalidad": "Regular",
-          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "SANDOVAL MORA JOSE ALBERTO",
           "modalidad": "Regular",
-          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MIE[09:30-12:20] JUE[08:30-12:20]"
         }
       ]
     }

@@ -15,9 +15,7 @@
           "grupo": 60,
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Virtual",
-          "horario": "VIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:00-19:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 60,
           "profesor": "GUILLEN JIMENEZ LUIS DIEGO",
           "modalidad": "Virtual",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         }
       ]
     }

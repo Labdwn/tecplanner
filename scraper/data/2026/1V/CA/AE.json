@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "CHACON VARGAS ERICK",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]"
         }
       ]
     },
@@ -30,33 +28,25 @@
           "grupo": 1,
           "profesor": "GUERRERO VARGAS LIGIA",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]"
         },
         {
           "grupo": 4,
           "profesor": "GUILLEN MIRANDA ERICK",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50] MIE[17:00-20:50] VIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50] VIE[17:00-19:50]"
         },
         {
           "grupo": 3,
           "profesor": "JAUBERT SOLANO WILLIAM",
           "modalidad": "Virtual",
-          "horario": "LUN[13:00-16:50] MIE[13:00-16:50] VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MIE[13:00-16:50] VIE[13:00-15:50]"
         },
         {
           "grupo": 2,
           "profesor": "THAMES RAMIREZ KARLA",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]"
         }
       ]
     },
@@ -69,9 +59,7 @@
           "grupo": 1,
           "profesor": "MARTINEZ GUTIERREZ BERNAL",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]"
         }
       ]
     },
@@ -84,9 +72,7 @@
           "grupo": 1,
           "profesor": "NUÑEZ ARGUEDAS EVELYN",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-21:50] MIE[18:00-21:50] VIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-21:50] MIE[18:00-21:50] VIE[18:00-20:50]"
         }
       ]
     }

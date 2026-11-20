@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "AMADOR SOLANO GABRIELA",
           "modalidad": "Virtual",
-          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "BOJORGE MURILLO ALEXANDER",
           "modalidad": "Virtual",
-          "horario": "MIE[16:00-19:50] JUE[16:00-19:50] VIE[16:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:00-19:50] JUE[16:00-19:50] VIE[16:00-19:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "CAMPOS CHAVARRIA BENJAMIN",
           "modalidad": "Virtual",
-          "horario": "MIE[16:00-19:50] JUE[16:00-19:50] VIE[16:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:00-19:50] JUE[16:00-19:50] VIE[16:00-19:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Virtual",
-          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "GARRO REYES MAURICIO",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-19:50] JUE[17:00-19:50] VIE[17:00-19:50] SAB[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50] JUE[17:00-19:50] VIE[17:00-19:50] SAB[17:00-19:50]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "GONZALEZ ZUÑIGA RODOLFO",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 1,
           "profesor": "GUADAMUZ MUÑOZ MARJORIE",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-16:50] JUE[13:00-16:50] VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50] JUE[13:00-16:50] VIE[13:00-16:50]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 1,
           "profesor": "KENNEDY RUSSELL ANA",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-18:50] VIE[13:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-18:50] VIE[13:00-18:50]"
         }
       ]
     },
@@ -135,9 +119,7 @@
           "grupo": 1,
           "profesor": "MONGE PEREZ LUIS DIEGO",
           "modalidad": "Virtual",
-          "horario": "MIE[08:30-11:20] JUE[08:30-11:20] VIE[08:30-11:20] SAB[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20] JUE[08:30-11:20] VIE[08:30-11:20] SAB[08:30-11:20]"
         }
       ]
     },
@@ -150,9 +132,7 @@
           "grupo": 1,
           "profesor": "PEREZ ROJAS NELSON",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]"
         }
       ]
     },
@@ -165,9 +145,7 @@
           "grupo": 1,
           "profesor": "RIVERA ROJAS FANNI",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-12:20] VIE[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-12:20] VIE[07:30-12:20]"
         }
       ]
     },
@@ -180,9 +158,7 @@
           "grupo": 1,
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]"
         }
       ]
     },
@@ -195,9 +171,7 @@
           "grupo": 1,
           "profesor": "ROMERO ALVAREZ ERICKA",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-19:50] JUE[17:00-19:50] VIE[17:00-19:50] SAB[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50] JUE[17:00-19:50] VIE[17:00-19:50] SAB[17:00-19:50]"
         }
       ]
     },
@@ -210,9 +184,7 @@
           "grupo": 1,
           "profesor": "SALAS ACUÑA ERICK",
           "modalidad": "Virtual",
-          "horario": "MIE[08:30-11:20] JUE[08:30-11:20] VIE[08:30-11:20] SAB[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20] JUE[08:30-11:20] VIE[08:30-11:20] SAB[08:30-11:20]"
         }
       ]
     }

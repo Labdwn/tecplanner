@@ -15,9 +15,7 @@
           "grupo": 20,
           "profesor": "ACHOY HERNANDEZ ALEJANDRO",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 20,
           "profesor": "CARVAJAL VILLAPLANA ALVARO",
           "modalidad": "Virtual",
-          "horario": "JUE[08:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:00-10:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 20,
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-14:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 20,
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
-          "horario": "LUN[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:00-11:50]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 20,
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
-          "horario": "MAR[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-17:50]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 20,
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
-          "horario": "MIE[07:00-10:50] MIE[07:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-10:50] MIE[07:00-10:50]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 20,
           "profesor": "VARGAS ELIZONDO CELSO",
           "modalidad": "Virtual",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         }
       ]
     }

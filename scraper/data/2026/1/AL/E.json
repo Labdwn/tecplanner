@@ -15,9 +15,7 @@
           "grupo": 20,
           "profesor": "ALFARO BADILLA JASON KALED",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:00-08:50] JUE[07:00-08:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-08:50] JUE[07:00-08:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 20,
           "profesor": "ALFARO BADILLA JASON KALED",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:00-10:50] JUE[09:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:00-10:50] JUE[09:00-10:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 20,
           "profesor": "ARAYA RODRIGUEZ LISANDRO",
           "modalidad": "Semipresencial",
-          "horario": "VIE[08:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:00-11:50]"
         }
       ]
     },
@@ -60,17 +54,13 @@
           "grupo": 20,
           "profesor": "CORDERO GARCIA IVAN GABRIEL",
           "modalidad": "Regular",
-          "horario": "MIE[10:00-11:50] VIE[10:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[10:00-11:50] VIE[10:00-11:50]"
         },
         {
           "grupo": 21,
           "profesor": "CORDERO GARCIA IVAN GABRIEL",
           "modalidad": "Tutoría",
-          "horario": "SAB[08:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[08:00-11:50]"
         }
       ]
     },
@@ -83,9 +73,7 @@
           "grupo": 20,
           "profesor": "MORALES HERNANDEZ SERGIO",
           "modalidad": "Regular",
-          "horario": "JUE[08:00-09:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:00-09:50]"
         }
       ]
     },
@@ -98,9 +86,7 @@
           "grupo": 20,
           "profesor": "MORALES HERNANDEZ SERGIO",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         }
       ]
     },
@@ -113,9 +99,7 @@
           "grupo": 20,
           "profesor": "MORALES HERNANDEZ SERGIO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[08:00-09:50] VIE[08:00-09:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:00-09:50] VIE[08:00-09:50]"
         }
       ]
     },
@@ -128,9 +112,7 @@
           "grupo": 20,
           "profesor": "PEREIRA ARROYO ROBERTO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-10:50]"
         }
       ]
     },
@@ -143,9 +125,7 @@
           "grupo": 20,
           "profesor": "PEREIRA ARROYO ROBERTO",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -158,9 +138,7 @@
           "grupo": 20,
           "profesor": "PHILLIPS BRENES HAYDEN ANTHONY",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -173,9 +151,7 @@
           "grupo": 20,
           "profesor": "PHILLIPS BRENES HAYDEN ANTHONY",
           "modalidad": "Virtual",
-          "horario": "LUN[08:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:00-11:50]"
         }
       ]
     },
@@ -188,9 +164,7 @@
           "grupo": 20,
           "profesor": "RAMIREZ JIMENEZ ARNOLDO ALCIDES",
           "modalidad": "Semipresencial",
-          "horario": "LUN[18:00-19:50] MIE[18:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-19:50] MIE[18:00-19:50]"
         }
       ]
     },
@@ -203,9 +177,7 @@
           "grupo": 20,
           "profesor": "RAMIREZ JIMENEZ ARNOLDO ALCIDES",
           "modalidad": "Regular",
-          "horario": "SAB[08:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[08:00-11:50]"
         }
       ]
     },
@@ -218,9 +190,7 @@
           "grupo": 20,
           "profesor": "ROSALES ALPIZAR LUIS CARLOS",
           "modalidad": "Regular",
-          "horario": "MIE[07:00-08:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-08:50]"
         }
       ]
     },
@@ -233,9 +203,7 @@
           "grupo": 20,
           "profesor": "ROSALES ALPIZAR LUIS CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:00-08:50] JUE[07:00-08:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-08:50] JUE[07:00-08:50]"
         }
       ]
     },
@@ -248,9 +216,7 @@
           "grupo": 20,
           "profesor": "ROSALES ALPIZAR LUIS CARLOS",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -263,9 +229,7 @@
           "grupo": 20,
           "profesor": "ROSALES ALPIZAR LUIS CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "JUE[11:00-12:50] VIE[07:00-08:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[11:00-12:50] VIE[07:00-08:50]"
         }
       ]
     },
@@ -278,9 +242,7 @@
           "grupo": 20,
           "profesor": "SANCHEZ HERRERA KERVIN",
           "modalidad": "Virtual",
-          "horario": "MAR[07:00-08:50] JUE[07:00-08:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-08:50] JUE[07:00-08:50]"
         }
       ]
     },
@@ -293,9 +255,7 @@
           "grupo": 20,
           "profesor": "SANCHEZ HERRERA KERVIN",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-19:50] JUE[18:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-19:50] JUE[18:00-19:50]"
         }
       ]
     },
@@ -308,9 +268,7 @@
           "grupo": 20,
           "profesor": "SANCHEZ HERRERA KERVIN",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-10:50]"
         }
       ]
     },
@@ -323,9 +281,7 @@
           "grupo": 20,
           "profesor": "SOTO GARITA JUAN PABLO",
           "modalidad": "Semipresencial",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         }
       ]
     },
@@ -338,17 +294,13 @@
           "grupo": 20,
           "profesor": "ZAMORA BOLAÑOS JUAN DIEGO",
           "modalidad": "Regular",
-          "horario": "SAB[08:00-09:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[08:00-09:50]"
         },
         {
           "grupo": 21,
           "profesor": "ZAMORA BOLAÑOS JUAN DIEGO",
           "modalidad": "Regular",
-          "horario": "SAB[10:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[10:00-11:50]"
         }
       ]
     }

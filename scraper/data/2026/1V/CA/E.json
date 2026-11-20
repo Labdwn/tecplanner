@@ -15,9 +15,20 @@
           "grupo": 1,
           "profesor": "ARRIOLA VALVERDE SERGIO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EL4702",
+      "nombre": "Probabilidad y estadística",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MADRIGAL SANCHEZ JOHANNA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]"
         }
       ]
     },
@@ -30,9 +41,7 @@
           "grupo": 1,
           "profesor": "MOLINA ROBLES ROBERTO CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]"
         }
       ]
     }

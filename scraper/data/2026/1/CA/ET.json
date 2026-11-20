@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ALFARO AGUIRRE JEISON",
           "modalidad": "Virtual",
-          "horario": "SAB[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[13:00-16:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "DELGADO MONTOYA WILLIAM",
           "modalidad": "Virtual",
-          "horario": "VIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:00-20:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ ARAYA JESUS",
           "modalidad": "Virtual",
-          "horario": "SAB[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[13:00-15:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "ORTEGA BRENES JUAN CARLOS",
           "modalidad": "Virtual",
-          "horario": "SAB[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-11:20]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "SOTO GRANT ANDREA",
           "modalidad": "Virtual",
-          "horario": "VIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:00-20:50]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "VILLALOBOS RODRIGUEZ MINOR",
           "modalidad": "Virtual",
-          "horario": "SAB[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-11:20]"
         }
       ]
     }

@@ -15,17 +15,13 @@
           "grupo": 20,
           "profesor": "MEDINA ESCOBAR MARIA LOURDES",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-19:50]"
         },
         {
           "grupo": 21,
           "profesor": "MEDINA ESCOBAR MARIA LOURDES",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50]"
         }
       ]
     }

@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ARAYA OBANDO JOSE ANDRES",
           "modalidad": "Semipresencial",
-          "horario": "LUN[08:30-12:20] MIE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-12:20] MIE[08:30-12:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "ARAYA RODRIGUEZ MAURICIO",
           "modalidad": "Regular",
-          "horario": "LUN[08:30-12:20] MIE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-12:20] MIE[08:30-12:20]"
         }
       ]
     }

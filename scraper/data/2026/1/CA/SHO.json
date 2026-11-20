@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "AGUERO HERNANDEZ ANA LAURA",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "AGUERO HERNANDEZ ANA LAURA",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "AGUERO HERNANDEZ ANA LAURA",
           "modalidad": "Regular",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "ARAYA SOLANO TANNIA",
           "modalidad": "Regular",
-          "horario": "JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-11:20]"
         }
       ]
     },
@@ -75,25 +67,19 @@
           "grupo": 1,
           "profesor": "BERMUDEZ CHACON MARVIN",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "BERMUDEZ CHACON MARVIN",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "BERMUDEZ CHACON MARVIN",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     },
@@ -106,9 +92,7 @@
           "grupo": 1,
           "profesor": "CARPIO CHAVES MONICA",
           "modalidad": "Regular",
-          "horario": "LUN[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-12:20]"
         }
       ]
     },
@@ -121,41 +105,31 @@
           "grupo": 2,
           "profesor": "CARPIO CHAVES MONICA",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 1,
           "profesor": "MORALES MARTINEZ GABRIELA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         },
         {
           "grupo": 3,
           "profesor": "MORALES MARTINEZ GABRIELA",
           "modalidad": "Regular",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-19:50]"
         },
         {
           "grupo": 4,
           "profesor": "MORALES MARTINEZ GABRIELA",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 5,
           "profesor": "MORALES MARTINEZ GABRIELA",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-10:20]"
         }
       ]
     },
@@ -168,9 +142,7 @@
           "grupo": 1,
           "profesor": "DEL VALLE GRANADOS IGNACIO",
           "modalidad": "Regular",
-          "horario": "LUN[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50]"
         }
       ]
     },
@@ -183,9 +155,7 @@
           "grupo": 1,
           "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -198,9 +168,7 @@
           "grupo": 1,
           "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -213,9 +181,7 @@
           "grupo": 1,
           "profesor": "FERNANDEZ RIVAS LUIS ANTONIO",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -228,9 +194,7 @@
           "grupo": 1,
           "profesor": "GODÍNEZ SALAZAR NATALIA",
           "modalidad": "Regular",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         }
       ]
     },
@@ -243,9 +207,7 @@
           "grupo": 1,
           "profesor": "Gutierrez Fuentes Adrián",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -258,9 +220,7 @@
           "grupo": 1,
           "profesor": "Gutierrez Fuentes Adrián",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -273,9 +233,7 @@
           "grupo": 1,
           "profesor": "Gutierrez Fuentes Adrián",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -288,9 +246,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ GOMEZ GABRIELA",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20]"
         }
       ]
     },
@@ -303,9 +259,7 @@
           "grupo": 1,
           "profesor": "MENDEZ VILLALOBOS GERALD",
           "modalidad": "Regular",
-          "horario": "LUN[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50]"
         }
       ]
     },
@@ -318,9 +272,7 @@
           "grupo": 1,
           "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -333,9 +285,7 @@
           "grupo": 1,
           "profesor": "SAENZ SANCHEZ MARIELA",
           "modalidad": "Regular",
-          "horario": "MAR[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50]"
         }
       ]
     },
@@ -348,9 +298,7 @@
           "grupo": 1,
           "profesor": "ZAMORA ZAMORA CINDY",
           "modalidad": "Regular",
-          "horario": "VIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:00-20:50]"
         }
       ]
     }

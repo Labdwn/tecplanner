@@ -15,17 +15,13 @@
           "grupo": 85,
           "profesor": "GODINEZ ROJAS PAULETTE",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         },
         {
           "grupo": 86,
           "profesor": "GODINEZ ROJAS PAULETTE",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -38,9 +34,7 @@
           "grupo": 85,
           "profesor": "GODINEZ ROJAS PAULETTE",
           "modalidad": "Regular",
-          "horario": "LUN[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:00-11:50]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 85,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Regular",
-          "horario": "MIE[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:00-11:50]"
         }
       ]
     },
@@ -68,9 +60,7 @@
           "grupo": 85,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Regular",
-          "horario": "LUN[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:00-11:50]"
         }
       ]
     },
@@ -83,9 +73,7 @@
           "grupo": 85,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         }
       ]
     }

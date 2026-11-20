@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ACUÑA CHACON REIMAN",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "ALFARO BARQUERO ALEJANDRA",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "BLANCO BENAMBURG RANDALL",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "FIGUEROA MATA GEOVANNI",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50] MIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] MIE[15:00-16:50]"
         }
       ]
     },
@@ -75,17 +67,13 @@
           "grupo": 1,
           "profesor": "GUTIERREZ RUIZ GRETTEL",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "MORA CASASOLA MARIA FERNANDA",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         }
       ]
     },
@@ -98,9 +86,7 @@
           "grupo": 1,
           "profesor": "MONGE FALLAS JORGE",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] MIE[07:30-09:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] MIE[07:30-09:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -113,9 +99,7 @@
           "grupo": 1,
           "profesor": "MONGE MADRIZ CARLOS",
           "modalidad": "Tutoría",
-          "horario": "VIE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[15:00-17:50]"
         }
       ]
     },
@@ -128,9 +112,7 @@
           "grupo": 1,
           "profesor": "NUÑEZ VANEGAS FELIX",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -143,9 +125,7 @@
           "grupo": 1,
           "profesor": "PALMA PICADO KATHERINE",
           "modalidad": "Tutoría",
-          "horario": "MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-10:20]"
         }
       ]
     },
@@ -158,9 +138,7 @@
           "grupo": 1,
           "profesor": "PARRA SALAZAR EDWARD",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -173,9 +151,7 @@
           "grupo": 1,
           "profesor": "RAMIREZ ARCE GREIVIN",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -188,9 +164,7 @@
           "grupo": 1,
           "profesor": "RAMOS MARIN SIGURD",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
         }
       ]
     },
@@ -203,9 +177,7 @@
           "grupo": 1,
           "profesor": "ROSALES ORTEGA JOSE",
           "modalidad": "Regular",
-          "horario": "MIE[16:00-18:50] VIE[16:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:00-18:50] VIE[16:00-17:50]"
         }
       ]
     },
@@ -218,9 +190,7 @@
           "grupo": 1,
           "profesor": "SOTO QUIROS JUAN PABLO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -233,9 +203,7 @@
           "grupo": 1,
           "profesor": "SUAREZ VALDES-AYALA ZULEYKA",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -248,9 +216,7 @@
           "grupo": 1,
           "profesor": "VALVERDE SANCHEZ SAMUEL",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     }

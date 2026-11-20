@@ -15,9 +15,7 @@
           "grupo": 60,
           "profesor": "GUZMAN CONEJO JOSHUA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     }

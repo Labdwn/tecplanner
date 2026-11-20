@@ -15,9 +15,7 @@
           "grupo": 20,
           "profesor": "HERNANDEZ SIBAJA BRYAN",
           "modalidad": "Virtual",
-          "horario": "MAR[08:00-11:50] MIE[08:00-11:50] JUE[08:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:00-11:50] MIE[08:00-11:50] JUE[08:00-10:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 20,
           "profesor": "RAMIREZ JIMENEZ EDDY",
           "modalidad": "Virtual",
-          "horario": "MAR[08:00-11:50] MIE[08:00-10:50] VIE[08:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:00-11:50] MIE[08:00-10:50] VIE[08:00-11:50]"
         }
       ]
     }

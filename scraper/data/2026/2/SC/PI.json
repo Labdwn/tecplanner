@@ -15,17 +15,13 @@
           "grupo": 50,
           "profesor": "BADILLA MURILLO FELIX",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         },
         {
           "grupo": 51,
           "profesor": "PEREZ MURILLO ERICK",
           "modalidad": "Regular",
-          "horario": "MAR[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:10-19:45]"
         }
       ]
     },
@@ -38,9 +34,7 @@
           "grupo": 50,
           "profesor": "HERNANDEZ CORDERO KEVIN",
           "modalidad": "Regular",
-          "horario": "MIE[16:10-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:10-18:50]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 50,
           "profesor": "MCLEAN VALERIO KATHLEEN",
           "modalidad": "Regular",
-          "horario": "LUN[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-19:45]"
         }
       ]
     },
@@ -68,9 +60,7 @@
           "grupo": 50,
           "profesor": "MORALES ARIAS JONATHAN",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-09:40]"
         }
       ]
     },
@@ -83,17 +73,13 @@
           "grupo": 50,
           "profesor": "MORALES ARIAS JONATHAN",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-15:10]"
         },
         {
           "grupo": 51,
           "profesor": "ROJAS RODRIGUEZ DAVID",
           "modalidad": "Regular",
-          "horario": "MAR[08:50-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:50-11:30]"
         }
       ]
     },
@@ -106,9 +92,7 @@
           "grupo": 50,
           "profesor": "MORALES ARIAS JONATHAN",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -121,9 +105,7 @@
           "grupo": 50,
           "profesor": "OCAMPO CAMPOS LAURA",
           "modalidad": "Regular",
-          "horario": "MIE[17:05-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:05-19:45]"
         }
       ]
     },
@@ -136,9 +118,7 @@
           "grupo": 50,
           "profesor": "PEREZ MURILLO ERICK",
           "modalidad": "Regular",
-          "horario": "MAR[08:50-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:50-11:30]"
         }
       ]
     },
@@ -151,9 +131,7 @@
           "grupo": 50,
           "profesor": "PEREZ MURILLO ERICK",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -166,9 +144,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ GONZALEZ LUIS ELADIO",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-10:35]"
         }
       ]
     },
@@ -181,9 +157,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ GONZALEZ LUIS ELADIO",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-15:10]"
         }
       ]
     },
@@ -196,9 +170,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ GONZALEZ LUIS ELADIO",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -211,9 +183,7 @@
           "grupo": 50,
           "profesor": "ROJAS RODRIGUEZ DAVID",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -226,9 +196,7 @@
           "grupo": 50,
           "profesor": "ROJAS RODRIGUEZ DAVID",
           "modalidad": "Regular",
-          "horario": "JUE[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[16:10-19:45]"
         }
       ]
     },
@@ -241,9 +209,7 @@
           "grupo": 50,
           "profesor": "ROJAS RODRIGUEZ DAVID",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -256,9 +222,7 @@
           "grupo": 50,
           "profesor": "VARGAS VARGAS BERNAL",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -271,9 +235,7 @@
           "grupo": 50,
           "profesor": "VARGAS VARGAS BERNAL",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -286,9 +248,7 @@
           "grupo": 50,
           "profesor": "VARGAS VARGAS BERNAL",
           "modalidad": "Regular",
-          "horario": "VIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[12:30-16:05]"
         }
       ]
     },
@@ -301,9 +261,7 @@
           "grupo": 50,
           "profesor": "VARGAS VARGAS BERNAL",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     }

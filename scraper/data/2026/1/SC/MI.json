@@ -15,33 +15,25 @@
           "grupo": 52,
           "profesor": "CHAVES ALVAREZ MARCELA MARIA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[17:05-20:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:05-20:40]"
         },
         {
           "grupo": 50,
           "profesor": "GUZMAN CONEJO JOSHUA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         },
         {
           "grupo": 51,
           "profesor": "UREÑA SANDI NOEL",
           "modalidad": "Virtual",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         },
         {
           "grupo": 53,
           "profesor": "UREÑA SANDI NOEL",
           "modalidad": "Virtual",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -54,9 +46,7 @@
           "grupo": 50,
           "profesor": "GUZMAN CONEJO JOSHUA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:10-19:45]"
         }
       ]
     }

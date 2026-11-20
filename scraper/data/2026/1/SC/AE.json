@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
-          "horario": "VIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:55-11:30]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 50,
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 50,
           "profesor": "ALFARO RAMOS ALFREDO",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 50,
           "profesor": "ALFARO RAMOS ALFREDO",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 50,
           "profesor": "ALFARO RAMOS ALFREDO",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 50,
           "profesor": "ALPIZAR ALPIZAR MARIA ALEJANDRA",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 50,
           "profesor": "BARRANTES BARRANTES EILYN",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -135,9 +119,7 @@
           "grupo": 50,
           "profesor": "CORDOBA ARTAVIA OSCAR",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -150,9 +132,7 @@
           "grupo": 50,
           "profesor": "CORDOBA ARTAVIA OSCAR",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -165,9 +145,7 @@
           "grupo": 50,
           "profesor": "GUERRERO VARGAS LIGIA",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -180,9 +158,7 @@
           "grupo": 50,
           "profesor": "GUERRERO VARGAS LIGIA",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -195,9 +171,7 @@
           "grupo": 50,
           "profesor": "GUERRERO VARGAS LIGIA",
           "modalidad": "Regular",
-          "horario": "JUE[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[16:10-19:45]"
         }
       ]
     },
@@ -210,9 +184,7 @@
           "grupo": 50,
           "profesor": "PEREZ OROZCO ALLAN JOSE",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-10:35]"
         }
       ]
     },
@@ -225,9 +197,7 @@
           "grupo": 50,
           "profesor": "PEREZ OROZCO ALLAN JOSE",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         }
       ]
     },
@@ -240,9 +210,7 @@
           "grupo": 50,
           "profesor": "PEREZ OROZCO ALLAN JOSE",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -255,9 +223,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ BARQUERO  RONNY",
           "modalidad": "Semipresencial",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -270,9 +236,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ BARQUERO  RONNY",
           "modalidad": "Semipresencial",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -285,9 +249,7 @@
           "grupo": 50,
           "profesor": "VILLEGAS ROJAS ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -300,9 +262,7 @@
           "grupo": 50,
           "profesor": "VILLEGAS ROJAS ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-15:10]"
         }
       ]
     },
@@ -315,9 +275,7 @@
           "grupo": 50,
           "profesor": "VIQUEZ PANIAGUA ANA GABRIELA",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         }
       ]
     },
@@ -330,9 +288,7 @@
           "grupo": 50,
           "profesor": "VIQUEZ PANIAGUA ANA GABRIELA",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     }

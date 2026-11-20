@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "ESQUIVEL SEGURA EDWIN",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35] MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35] MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "MORALES ARIAS JONATHAN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:00-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:00-11:30]"
         }
       ]
     }

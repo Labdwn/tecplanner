@@ -15,9 +15,7 @@
           "grupo": 20,
           "profesor": "FUENTES MORA ESTEBAN",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 20,
           "profesor": "GUILLEN MARTINEZ LUIS DIEGO",
           "modalidad": "Virtual",
-          "horario": "SAB[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[09:00-11:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 20,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-19:50]"
         }
       ]
     }

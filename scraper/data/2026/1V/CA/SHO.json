@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "BRENES CERDAS MIRIAM",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-11:20] JUE[08:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20] JUE[08:30-10:20]"
         }
       ]
     },
@@ -30,17 +28,13 @@
           "grupo": 1,
           "profesor": "MEDINA ESCOBAR MARIA LOURDES",
           "modalidad": "Virtual",
-          "horario": "MAR[13:00-15:50] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50] JUE[13:00-16:50]"
         },
         {
           "grupo": 2,
           "profesor": "RODRIGUEZ ZAMORA MARIA GABRIELA",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-11:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20] JUE[08:30-12:20]"
         }
       ]
     }

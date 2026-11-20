@@ -15,25 +15,19 @@
           "grupo": 3,
           "profesor": "AGUERO HERNANDEZ ANA LAURA",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         },
         {
           "grupo": 1,
           "profesor": "PERAZA MORAGA JOHNNY",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "PERAZA MORAGA JOHNNY",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -46,49 +40,37 @@
           "grupo": 3,
           "profesor": "CARVAJAL ALFARO VANESSA",
           "modalidad": "Laboratorio",
-          "horario": "JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-14:50]"
         },
         {
           "grupo": 4,
           "profesor": "CARVAJAL ALFARO VANESSA",
           "modalidad": "Laboratorio",
-          "horario": "JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[15:00-16:50]"
         },
         {
           "grupo": 1,
           "profesor": "CASTRO PIEDRA SILVIA",
           "modalidad": "Laboratorio",
-          "horario": "JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-09:20]"
         },
         {
           "grupo": 2,
           "profesor": "CASTRO PIEDRA SILVIA",
           "modalidad": "Laboratorio",
-          "horario": "JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-11:20]"
         },
         {
           "grupo": 6,
           "profesor": "MURILLO VEGA FRANCINIE",
           "modalidad": "Laboratorio",
-          "horario": "VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-11:20]"
         },
         {
           "grupo": 5,
           "profesor": "VALERIN BERROCAL KARLA",
           "modalidad": "Laboratorio",
-          "horario": "VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-09:20]"
         }
       ]
     },
@@ -101,9 +83,7 @@
           "grupo": 1,
           "profesor": "CARVAJAL ALFARO VANESSA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] LUN[07:30-11:20]"
         }
       ]
     },
@@ -116,25 +96,19 @@
           "grupo": 1,
           "profesor": "CHAVARRIA PIZARRO LAURA",
           "modalidad": "Laboratorio",
-          "horario": "MIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50]"
         },
         {
           "grupo": 2,
           "profesor": "CHAVARRIA PIZARRO LAURA",
           "modalidad": "Laboratorio",
-          "horario": "MIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "WATSON GUIDO WILLIAM",
           "modalidad": "Laboratorio",
-          "horario": "MIE[17:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-18:50]"
         }
       ]
     },
@@ -147,25 +121,19 @@
           "grupo": 1,
           "profesor": "HERNANDEZ CARVAJAL ERICK",
           "modalidad": "Regular",
-          "horario": "LUN[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "HERNANDEZ CARVAJAL ERICK",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-10:20]"
         },
         {
           "grupo": 2,
           "profesor": "PERAZA MORAGA JOHNNY",
           "modalidad": "Regular",
-          "horario": "LUN[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-11:20]"
         }
       ]
     },
@@ -178,9 +146,7 @@
           "grupo": 1,
           "profesor": "SOLERA STELLER PAOLA MARIA",
           "modalidad": "Regular",
-          "horario": "MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20]"
         }
       ]
     },
@@ -193,17 +159,13 @@
           "grupo": 1,
           "profesor": "SOLERA STELLER PAOLA MARIA",
           "modalidad": "Laboratorio",
-          "horario": "MIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-09:20]"
         },
         {
           "grupo": 2,
           "profesor": "SOLERA STELLER PAOLA MARIA",
           "modalidad": "Laboratorio",
-          "horario": "MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20]"
         }
       ]
     },
@@ -216,9 +178,7 @@
           "grupo": 1,
           "profesor": "SOLERA STELLER PAOLA MARIA",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     }

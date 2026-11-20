@@ -15,9 +15,7 @@
           "grupo": 20,
           "profesor": "JIMENEZ JIMENEZ DANIEL",
           "modalidad": "Regular",
-          "horario": "MIE[09:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:00-10:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 20,
           "profesor": "JIMENEZ JIMENEZ DANIEL",
           "modalidad": "Regular",
-          "horario": "VIE[09:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:00-10:50]"
         }
       ]
     },
@@ -45,17 +41,13 @@
           "grupo": 20,
           "profesor": "SERRANO SOLANO ALEX",
           "modalidad": "Regular",
-          "horario": "MIE[10:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[10:00-11:50]"
         },
         {
           "grupo": 21,
           "profesor": "SERRANO SOLANO ALEX",
           "modalidad": "Regular",
-          "horario": "MIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50]"
         }
       ]
     }

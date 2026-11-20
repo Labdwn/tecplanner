@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "CHACON NAVARRO OSCAR",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "GUERRERO LUNA ALEJANDRA DE MARIA",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ CAMACHO ALEXANDER",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "MONTENEGRO SOLIS FABIAN",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "NOVO GUTIERREZ LUDBYG JOHANES",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "RAMIREZ CHACON MARCO",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 1,
           "profesor": "SALAZAR ROJAS FIORELLA MARIA",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50] JUE[17:00-20:50]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 1,
           "profesor": "SANDOVAL QUIROS MILTON",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]"
         }
       ]
     },
@@ -135,9 +119,7 @@
           "grupo": 1,
           "profesor": "SANDOVAL QUIROS MILTON",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]"
         }
       ]
     },
@@ -150,9 +132,7 @@
           "grupo": 1,
           "profesor": "SANDOVAL QUIROS MILTON",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]"
         }
       ]
     },
@@ -165,9 +145,7 @@
           "grupo": 1,
           "profesor": "ZAMORA RAMIREZ NORMAN",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50] MIE[17:00-20:50]"
         }
       ]
     }

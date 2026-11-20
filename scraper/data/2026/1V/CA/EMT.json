@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ARAYA MENESES IVAN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "ELIZONDO RAMIREZ DIEGO HUMBERTO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[08:30-11:20]"
         }
       ]
     },
@@ -45,17 +41,13 @@
           "grupo": 2,
           "profesor": "GARRO ZAVALETA JOSE ALBERTO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[15:00-16:50] MIE[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] MIE[15:00-16:50] JUE[15:00-16:50]"
         },
         {
           "grupo": 1,
           "profesor": "MONGE RUIZ OSCAR EDUARDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] MIE[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] MIE[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -68,9 +60,7 @@
           "grupo": 1,
           "profesor": "MAYORGA ESPINOZA CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-10:20] MIE[07:30-10:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20] MIE[07:30-10:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -83,9 +73,7 @@
           "grupo": 1,
           "profesor": "MORA MELENDEZ JAIME",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] JUE[07:30-10:20]"
         }
       ]
     },
@@ -98,9 +86,7 @@
           "grupo": 1,
           "profesor": "SALAZAR GARCIA CARLOS ADRIAN",
           "modalidad": "Semipresencial",
-          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]"
         }
       ]
     },
@@ -113,9 +99,7 @@
           "grupo": 1,
           "profesor": "VAQUERANO PINEDA NICOLAS",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] VIE[07:30-10:20]"
         }
       ]
     }

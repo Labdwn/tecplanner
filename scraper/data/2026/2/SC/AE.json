@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
-          "horario": "LUN[18:00-20:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:40]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
-          "horario": "VIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:55-11:30]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 50,
           "profesor": "ALFARO RAMOS ALFREDO",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 50,
           "profesor": "BARRANTES BARRANTES EILYN",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 50,
           "profesor": "CORDOBA ARTAVIA OSCAR",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 50,
           "profesor": "CORDOBA ARTAVIA OSCAR",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 50,
           "profesor": "GUERRERO VARGAS LIGIA",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 50,
           "profesor": "GUERRERO VARGAS LIGIA",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -135,9 +119,7 @@
           "grupo": 50,
           "profesor": "PEREZ OROZCO ALLAN JOSE",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         }
       ]
     },
@@ -150,9 +132,7 @@
           "grupo": 50,
           "profesor": "PEREZ OROZCO ALLAN JOSE",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -165,9 +145,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ BARQUERO  RONNY",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -180,9 +158,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ BARQUERO  RONNY",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -195,9 +171,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ BARQUERO  RONNY",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -210,9 +184,7 @@
           "grupo": 50,
           "profesor": "VILLEGAS ROJAS ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -225,9 +197,7 @@
           "grupo": 50,
           "profesor": "VILLEGAS ROJAS ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     }

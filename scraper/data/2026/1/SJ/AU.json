@@ -15,17 +15,13 @@
           "grupo": 40,
           "profesor": "AVILA ZAMORA ANDREA",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         },
         {
           "grupo": 41,
           "profesor": "AVILA ZAMORA ANDREA",
           "modalidad": "Regular",
-          "horario": "LUN[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-11:20]"
         }
       ]
     },
@@ -38,9 +34,7 @@
           "grupo": 40,
           "profesor": "AVILA ZAMORA ANDREA",
           "modalidad": "Semipresencial",
-          "horario": "VIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:30-11:20]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 40,
           "profesor": "AVILA ZAMORA ANDREA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20]"
         }
       ]
     },
@@ -68,9 +60,7 @@
           "grupo": 40,
           "profesor": "AZOFEIFA ORTIZ CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]"
         }
       ]
     },
@@ -83,17 +73,13 @@
           "grupo": 40,
           "profesor": "BULGARELLI BOLAÑOS JOSE PABLO",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20]"
         },
         {
           "grupo": 41,
           "profesor": "CHACON JIMENEZ CARLOS",
           "modalidad": "Regular",
-          "horario": "VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-11:20]"
         }
       ]
     },
@@ -106,9 +92,7 @@
           "grupo": 40,
           "profesor": "CABRERA SANDOVAL MARCO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20]"
         }
       ]
     },
@@ -121,9 +105,7 @@
           "grupo": 40,
           "profesor": "CALDERON ACUÑA ERICK",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -136,9 +118,7 @@
           "grupo": 40,
           "profesor": "CASTRO CHACON ESTEBAN",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]"
         }
       ]
     },
@@ -151,9 +131,7 @@
           "grupo": 40,
           "profesor": "CASTRO CHACON ESTEBAN",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     },
@@ -166,17 +144,13 @@
           "grupo": 41,
           "profesor": "CHANG ALBIZUREZ DOMINIQUE",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50] JUE[13:00-16:50] MAR[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] JUE[13:00-16:50] MAR[13:00-16:50] JUE[13:00-16:50]"
         },
         {
           "grupo": 40,
           "profesor": "HERNANDEZ SALAZAR ILEANA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] JUE[07:30-11:20] LUN[07:30-11:20] JUE[07:30-11:20]"
         }
       ]
     },
@@ -189,9 +163,7 @@
           "grupo": 40,
           "profesor": "CHANG ALBIZUREZ DOMINIQUE",
           "modalidad": "Regular",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         }
       ]
     },
@@ -204,17 +176,13 @@
           "grupo": 40,
           "profesor": "CHAVERRI FLORES LAURA",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 41,
           "profesor": "CHAVERRI FLORES LAURA",
           "modalidad": "Regular",
-          "horario": "JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:30-11:20]"
         }
       ]
     },
@@ -227,17 +195,13 @@
           "grupo": 41,
           "profesor": "GARCIA BALTODANO KENIA",
           "modalidad": "Regular",
-          "horario": "VIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:30-11:20]"
         },
         {
           "grupo": 40,
           "profesor": "MALAVASSI AGUILAR ROSA ELENA",
           "modalidad": "Regular",
-          "horario": "JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:30-11:20]"
         }
       ]
     },
@@ -250,17 +214,13 @@
           "grupo": 40,
           "profesor": "GUEVARA MURILLO MAURICIO",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 41,
           "profesor": "GUEVARA MURILLO MAURICIO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         }
       ]
     },
@@ -273,17 +233,13 @@
           "grupo": 40,
           "profesor": "JIMENEZ ZUÑIGA LUIS GUILLERMO",
           "modalidad": "Regular",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         },
         {
           "grupo": 41,
           "profesor": "MADRIGAL JIMENEZ VICTOR HUGO",
           "modalidad": "Regular",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         }
       ]
     },
@@ -296,9 +252,7 @@
           "grupo": 40,
           "profesor": "MADRIGAL JIMENEZ VICTOR HUGO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-14:50]"
         }
       ]
     },
@@ -311,9 +265,7 @@
           "grupo": 40,
           "profesor": "MALAVASSI AGUILAR ROSA ELENA",
           "modalidad": "Semipresencial",
-          "horario": "VIE[14:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[14:00-16:50]"
         }
       ]
     },
@@ -326,9 +278,7 @@
           "grupo": 40,
           "profesor": "MALAVASSI AGUILAR ROSA ELENA",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -341,9 +291,7 @@
           "grupo": 40,
           "profesor": "MARTINEZ BALDARES TOMAS",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-11:20] JUE[13:00-16:50] LUN[07:30-11:20] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] JUE[13:00-16:50] LUN[07:30-11:20] JUE[13:00-16:50]"
         }
       ]
     },
@@ -356,9 +304,7 @@
           "grupo": 40,
           "profesor": "MARTINEZ BALDARES TOMAS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20]"
         }
       ]
     },
@@ -371,9 +317,7 @@
           "grupo": 40,
           "profesor": "ORDOÑEZ CHACON MAURICIO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         }
       ]
     },
@@ -386,17 +330,13 @@
           "grupo": 41,
           "profesor": "ORDOÑEZ CHACON MAURICIO",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 40,
           "profesor": "PORRAS ALFARO DAVID",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -409,17 +349,13 @@
           "grupo": 40,
           "profesor": "SALAZAR CECILIANO ENMANUEL",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20] VIE[07:30-11:20] MAR[07:30-11:20] VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20] VIE[07:30-11:20] MAR[07:30-11:20] VIE[07:30-11:20]"
         },
         {
           "grupo": 41,
           "profesor": "SALAZAR CECILIANO ENMANUEL",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50] VIE[13:00-16:50] MAR[13:00-16:50] VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] VIE[13:00-16:50] MAR[13:00-16:50] VIE[13:00-16:50]"
         }
       ]
     },
@@ -432,17 +368,13 @@
           "grupo": 40,
           "profesor": "SOLIS GARCIA MARCO",
           "modalidad": "Virtual",
-          "horario": "VIE[14:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[14:00-16:50]"
         },
         {
           "grupo": 41,
           "profesor": "SOLIS GARCIA MARCO",
           "modalidad": "Virtual",
-          "horario": "MIE[14:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[14:00-16:50]"
         }
       ]
     },
@@ -455,17 +387,13 @@
           "grupo": 40,
           "profesor": "VALVERDE MADRIZ LUIS",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 41,
           "profesor": "VALVERDE MADRIZ LUIS",
           "modalidad": "Regular",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         }
       ]
     },
@@ -478,9 +406,7 @@
           "grupo": 40,
           "profesor": "YGLESIAS CUADRA ROBERTO",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         }
       ]
     }

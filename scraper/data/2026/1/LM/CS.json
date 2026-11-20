@@ -15,9 +15,7 @@
           "grupo": 60,
           "profesor": "ACHOY HERNANDEZ ALEJANDRO",
           "modalidad": "Regular",
-          "horario": "VIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[18:00-20:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 60,
           "profesor": "CEDEÑO CAMACHO MAURICIO",
           "modalidad": "Virtual",
-          "horario": "VIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-12:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 61,
           "profesor": "CEDEÑO CAMACHO MAURICIO",
           "modalidad": "Virtual",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 60,
           "profesor": "CEDEÑO CAMACHO MAURICIO",
           "modalidad": "Virtual",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 60,
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Semipresencial",
-          "horario": "VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-09:20]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 60,
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Semipresencial",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 60,
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Virtual",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-19:50]"
         }
       ]
     }

@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ACOSTA VARGAS LUIS GUILLERMO",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20] MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20] MIE[07:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "ACOSTA VARGAS LUIS GUILLERMO",
           "modalidad": "Tutoría",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "ACOSTA VARGAS LUIS GUILLERMO",
           "modalidad": "Tutoría",
-          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "ARIAS AGUILAR  DAGOBERTO",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] MAR[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] MAR[07:30-09:20]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "BADILLA VALVERDE YORLENY",
           "modalidad": "Regular",
-          "horario": "LUN[10:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[10:30-12:20]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "BADILLA VALVERDE YORLENY",
           "modalidad": "Tutoría",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 1,
           "profesor": "BADILLA VALVERDE YORLENY",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 1,
           "profesor": "BERROCAL JIMENEZ ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -135,9 +119,7 @@
           "grupo": 1,
           "profesor": "BERROCAL JIMENEZ ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20] MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20] MIE[07:30-11:20]"
         }
       ]
     },
@@ -150,9 +132,7 @@
           "grupo": 1,
           "profesor": "CAMACHO CORNEJO DIEGO",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -165,9 +145,7 @@
           "grupo": 1,
           "profesor": "CAMACHO CORNEJO DIEGO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -180,17 +158,13 @@
           "grupo": 2,
           "profesor": "CARVAJAL VANEGAS DORIAN",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20] MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20] MIE[07:30-11:20]"
         },
         {
           "grupo": 1,
           "profesor": "SOTO MONTOYA CASIA",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -203,9 +177,7 @@
           "grupo": 1,
           "profesor": "CARVAJAL VANEGAS DORIAN",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -218,9 +190,7 @@
           "grupo": 1,
           "profesor": "CASTILLO UGALDE MARVIN",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-12:20] MAR[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-12:20] MAR[07:30-12:20]"
         }
       ]
     },
@@ -233,17 +203,13 @@
           "grupo": 1,
           "profesor": "GAMBOA BADILLA NANCY",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "GUEVARA BONILLA MARIO",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20]"
         }
       ]
     },
@@ -256,9 +222,7 @@
           "grupo": 1,
           "profesor": "GAMBOA BADILLA NANCY",
           "modalidad": "Tutoría",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -271,17 +235,13 @@
           "grupo": 1,
           "profesor": "GUEVARA BONILLA MARIO",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "TORRES GOMEZ DANILO",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -294,9 +254,7 @@
           "grupo": 1,
           "profesor": "GUEVARA BONILLA MARIO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50] MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MAR[13:00-16:50]"
         }
       ]
     },
@@ -309,9 +267,7 @@
           "grupo": 1,
           "profesor": "HILJE RODRIGUEZ BRANKO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -324,9 +280,7 @@
           "grupo": 1,
           "profesor": "HILJE RODRIGUEZ BRANKO",
           "modalidad": "Tutoría",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         }
       ]
     },
@@ -339,9 +293,7 @@
           "grupo": 1,
           "profesor": "HILJE RODRIGUEZ BRANKO",
           "modalidad": "Tutoría",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -354,9 +306,7 @@
           "grupo": 1,
           "profesor": "JIMENEZ MONTERO MARIBELL",
           "modalidad": "Tutoría",
-          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]"
         }
       ]
     },
@@ -369,9 +319,7 @@
           "grupo": 1,
           "profesor": "MOYA ROQUE ROGER",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]"
         }
       ]
     },
@@ -384,9 +332,7 @@
           "grupo": 1,
           "profesor": "MUÑOZ ACOSTA FREDDY",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -399,9 +345,7 @@
           "grupo": 1,
           "profesor": "MURILLO GAMBOA OLMAN",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -414,9 +358,7 @@
           "grupo": 1,
           "profesor": "SALAS GARITA CYNTHIA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -429,9 +371,7 @@
           "grupo": 1,
           "profesor": "TORRES GOMEZ DANILO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -444,9 +384,7 @@
           "grupo": 1,
           "profesor": "VALVERDE OTAROLA JUAN CARLOS",
           "modalidad": "Tutoría",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -459,9 +397,7 @@
           "grupo": 1,
           "profesor": "VARGAS FONSECA LUPITA",
           "modalidad": "Tutoría",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -474,9 +410,7 @@
           "grupo": 1,
           "profesor": "VARGAS FONSECA LUPITA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-12:20]"
         }
       ]
     },
@@ -489,9 +423,7 @@
           "grupo": 1,
           "profesor": "VARGAS FONSECA LUPITA",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-17:50]"
         }
       ]
     },
@@ -504,9 +436,7 @@
           "grupo": 1,
           "profesor": "ZUÑIGA GARITA IGOR",
           "modalidad": "Tutoría",
-          "horario": "MIE[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-12:20]"
         }
       ]
     },
@@ -519,9 +449,7 @@
           "grupo": 1,
           "profesor": "ZUÑIGA GARITA IGOR",
           "modalidad": "Tutoría",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     }

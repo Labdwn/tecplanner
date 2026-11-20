@@ -15,9 +15,7 @@
           "grupo": 90,
           "profesor": "CHAVES SALAS LEONEL ROLANDO",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-11:50] MIE[07:00-11:50] JUE[07:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-11:50] MIE[07:00-11:50] JUE[07:00-10:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 90,
           "profesor": "GARCIA DELGADO PAULO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 90,
           "profesor": "PRENDAS ROJAS JUAN PABLO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]"
         }
       ]
     }

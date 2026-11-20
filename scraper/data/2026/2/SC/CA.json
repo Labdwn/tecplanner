@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "ALFARO QUESADA ALEJANDRO",
           "modalidad": "Regular",
-          "horario": "LUN[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "ALFARO QUESADA ALEJANDRO",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -45,17 +41,13 @@
           "grupo": 50,
           "profesor": "ALFARO VELASCO JORGE",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "QUIROS OVIEDO ROCIO",
           "modalidad": "Regular",
-          "horario": "LUN[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30]"
         }
       ]
     },
@@ -68,17 +60,13 @@
           "grupo": 50,
           "profesor": "ALFARO VELASCO JORGE",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "ALFARO VELASCO JORGE",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -91,17 +79,13 @@
           "grupo": 50,
           "profesor": "BALLESTERO ALFARO ESTEBAN",
           "modalidad": "Semipresencial",
-          "horario": "VIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:55-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "BALLESTERO ALFARO ESTEBAN",
           "modalidad": "Semipresencial",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -114,9 +98,7 @@
           "grupo": 50,
           "profesor": "CAMPOS FUENTES MARVIN",
           "modalidad": "Regular",
-          "horario": "LUN[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30]"
         }
       ]
     },
@@ -129,9 +111,7 @@
           "grupo": 50,
           "profesor": "CORTES SEAS JONATHAN",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -144,9 +124,7 @@
           "grupo": 50,
           "profesor": "JIMENEZ DELGADO EFREN ANTONIO",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -159,17 +137,13 @@
           "grupo": 51,
           "profesor": "MATA RODRIGUEZ WILLIAM",
           "modalidad": "Regular",
-          "horario": "MIE[09:45-11:30] VIE[09:45-11:30] MIE[09:45-11:30] VIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30] VIE[09:45-11:30] MIE[09:45-11:30] VIE[09:45-11:30]"
         },
         {
           "grupo": 50,
           "profesor": "SOLIS PARAJELES JONATHAN",
           "modalidad": "Regular",
-          "horario": "MAR[17:05-20:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:05-20:40]"
         }
       ]
     },
@@ -182,17 +156,13 @@
           "grupo": 50,
           "profesor": "MENDEZ PORRAS ABEL",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "MENDEZ PORRAS ABEL",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         }
       ]
     },
@@ -205,9 +175,7 @@
           "grupo": 50,
           "profesor": "MONDRAGON CORRALES GABRIEL",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -220,9 +188,7 @@
           "grupo": 50,
           "profesor": "QUIROS OVIEDO ROCIO",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -235,9 +201,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ OVARES MARCO",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -250,17 +214,13 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ OVARES MARCO",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         },
         {
           "grupo": 51,
           "profesor": "SOLIS PARAJELES JONATHAN",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -273,9 +233,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ OVARES MARCO",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -288,9 +246,7 @@
           "grupo": 50,
           "profesor": "ROJAS CHAVARRIA ADRIANA",
           "modalidad": "Virtual",
-          "horario": "LUN[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-19:45]"
         }
       ]
     },
@@ -303,9 +259,7 @@
           "grupo": 50,
           "profesor": "ROJAS VEGA DIEGO",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-16:05]"
         }
       ]
     },
@@ -318,9 +272,7 @@
           "grupo": 50,
           "profesor": "ROJAS VEGA DIEGO",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -333,9 +285,7 @@
           "grupo": 50,
           "profesor": "ROJAS VEGA DIEGO",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -348,25 +298,19 @@
           "grupo": 50,
           "profesor": "VALERIO SOLIS LORENA",
           "modalidad": "Regular",
-          "horario": "LUN[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "VALERIO SOLIS LORENA",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         },
         {
           "grupo": 52,
           "profesor": "VALERIO SOLIS LORENA",
           "modalidad": "Regular",
-          "horario": "LUN[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-19:45]"
         }
       ]
     },
@@ -379,9 +323,7 @@
           "grupo": 50,
           "profesor": "VALERIO SOLIS LORENA",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -394,17 +336,13 @@
           "grupo": 50,
           "profesor": "VIQUEZ ACUÑA LEONARDO",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "VIQUEZ ACUÑA OSCAR MARIO",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -417,17 +355,13 @@
           "grupo": 50,
           "profesor": "VIQUEZ ACUÑA LEONARDO",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "VIQUEZ ACUÑA LEONARDO",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -440,17 +374,13 @@
           "grupo": 50,
           "profesor": "VIQUEZ ACUÑA OSCAR MARIO",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "VIQUEZ ACUÑA OSCAR MARIO",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         }
       ]
     },
@@ -463,9 +393,7 @@
           "grupo": 50,
           "profesor": "VIQUEZ ACUÑA OSCAR MARIO",
           "modalidad": "Regular",
-          "horario": "LUN[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30]"
         }
       ]
     },
@@ -478,9 +406,7 @@
           "grupo": 50,
           "profesor": "ZAMORA CARDENAS WILLARD",
           "modalidad": "Regular",
-          "horario": "JUE[17:05-20:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:05-20:40]"
         }
       ]
     }

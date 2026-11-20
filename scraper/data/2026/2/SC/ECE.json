@@ -15,25 +15,19 @@
           "grupo": 52,
           "profesor": "ALEMAN GUTIERREZ ALVARO",
           "modalidad": "Regular",
-          "horario": "VIE[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[16:10-17:55]"
         },
         {
           "grupo": 50,
           "profesor": "GATJENS BONICHE OMAR",
           "modalidad": "Regular",
-          "horario": "MAR[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:45-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "GATJENS BONICHE OMAR",
           "modalidad": "Regular",
-          "horario": "MAR[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[14:20-16:05]"
         }
       ]
     },
@@ -46,17 +40,13 @@
           "grupo": 50,
           "profesor": "ALVARADO ORTEGA ROMMEL",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-08:45] VIE[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-08:45] VIE[07:00-08:45]"
         },
         {
           "grupo": 51,
           "profesor": "SEQUEIRA CASTRO DAVID",
           "modalidad": "Semipresencial",
-          "horario": "MIE[12:30-14:15] VIE[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-14:15] VIE[12:30-14:15]"
         }
       ]
     },
@@ -69,17 +59,13 @@
           "grupo": 50,
           "profesor": "ALVARADO ORTEGA ROMMEL",
           "modalidad": "Regular",
-          "horario": "MAR[09:45-11:30] VIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:45-11:30] VIE[09:45-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "GAMBOA ALFARO MARVIN RICARDO",
           "modalidad": "Regular",
-          "horario": "MAR[18:00-19:45] JUE[18:00-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-19:45] JUE[18:00-19:45]"
         }
       ]
     },
@@ -92,25 +78,19 @@
           "grupo": 50,
           "profesor": "ALVARADO ORTEGA ROMMEL",
           "modalidad": "Regular",
-          "horario": "MIE[18:00-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-19:45]"
         },
         {
           "grupo": 52,
           "profesor": "ALVARADO ORTEGA ROMMEL",
           "modalidad": "Regular",
-          "horario": "MAR[14:20-16:05] MAR[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[14:20-16:05] MAR[14:20-16:05]"
         },
         {
           "grupo": 51,
           "profesor": "GAMBOA ALFARO MARVIN RICARDO",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-14:15] MAR[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-14:15] MAR[12:30-14:15]"
         }
       ]
     },
@@ -123,9 +103,7 @@
           "grupo": 50,
           "profesor": "ARIAS ALPIZAR KEVIN RICARDO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:00-09:40]"
         }
       ]
     },
@@ -138,17 +116,13 @@
           "grupo": 50,
           "profesor": "ARIAS ALPIZAR KEVIN RICARDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[16:10-17:55] JUE[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:10-17:55] JUE[16:10-17:55]"
         },
         {
           "grupo": 51,
           "profesor": "ARIAS ALPIZAR KEVIN RICARDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[12:30-14:15] JUE[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-14:15] JUE[12:30-14:15]"
         }
       ]
     },
@@ -161,9 +135,7 @@
           "grupo": 50,
           "profesor": "BALLESTERO ALFARO ESTEBAN",
           "modalidad": "Semipresencial",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -176,49 +148,37 @@
           "grupo": 54,
           "profesor": "CARRERA RETANA LUIS ERNESTO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[16:10-18:50] JUE[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:10-18:50] JUE[16:10-17:55]"
         },
         {
           "grupo": 51,
           "profesor": "GONZALEZ VARGAS KARINA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:00-08:45] JUE[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-08:45] JUE[07:00-09:40]"
         },
         {
           "grupo": 52,
           "profesor": "GONZALEZ VARGAS KARINA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[08:50-11:30] JUE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:50-11:30] JUE[09:45-11:30]"
         },
         {
           "grupo": 50,
           "profesor": "JIMENEZ CESPEDES RODOLFO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[12:30-14:15] MIE[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-14:15] MIE[12:30-15:10]"
         },
         {
           "grupo": 53,
           "profesor": "NAVARRO AGUIRRE JESSICA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[08:50-11:30] VIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:50-11:30] VIE[09:45-11:30]"
         },
         {
           "grupo": 55,
           "profesor": "SABORIO CORDERO NATALIA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[16:10-18:50] VIE[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:10-18:50] VIE[07:00-08:45]"
         }
       ]
     },
@@ -231,25 +191,19 @@
           "grupo": 52,
           "profesor": "CARRERA RETANA LUIS ERNESTO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]"
         },
         {
           "grupo": 50,
           "profesor": "FREER PANIAGUA DYLANA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:55-09:40] JUE[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-09:40] JUE[14:20-16:05]"
         },
         {
           "grupo": 51,
           "profesor": "NAVARRO AGUIRRE JESSICA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:45-11:30] JUE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:45-11:30] JUE[09:45-11:30]"
         }
       ]
     },
@@ -262,9 +216,7 @@
           "grupo": 50,
           "profesor": "CARRERA RETANA LUIS ERNESTO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:45-11:30] JUE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:45-11:30] JUE[09:45-11:30]"
         }
       ]
     },
@@ -277,17 +229,13 @@
           "grupo": 51,
           "profesor": "CARVAJAL ALFARO VANESSA",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-15:10] MAR[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-15:10] MAR[12:30-15:10]"
         },
         {
           "grupo": 50,
           "profesor": "JIMENEZ MADRIGAL JOSE PABLO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[08:50-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:50-11:30]"
         }
       ]
     },
@@ -300,9 +248,7 @@
           "grupo": 50,
           "profesor": "CARVAJAL ALFARO VANESSA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[16:10-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:10-18:50]"
         }
       ]
     },
@@ -315,17 +261,13 @@
           "grupo": 50,
           "profesor": "CHAVES ALVAREZ MARCELA MARIA",
           "modalidad": "Regular",
-          "horario": "MAR[09:45-11:30] MIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:45-11:30] MIE[09:45-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "SEQUEIRA CASTRO DAVID",
           "modalidad": "Semipresencial",
-          "horario": "MIE[14:20-16:05] VIE[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[14:20-16:05] VIE[14:20-16:05]"
         }
       ]
     },
@@ -338,49 +280,37 @@
           "grupo": 56,
           "profesor": "CHAVES BARQUERO LUIS GERARDO",
           "modalidad": "Regular",
-          "horario": "VIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:45-11:30]"
         },
         {
           "grupo": 50,
           "profesor": "FERNANDEZ RODRIGUEZ MARCELA",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-08:45]"
         },
         {
           "grupo": 52,
           "profesor": "PORRAS CAJINA DANILO ALBERTO",
           "modalidad": "Regular",
-          "horario": "MIE[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-08:45]"
         },
         {
           "grupo": 51,
           "profesor": "VILLALOBOS MURILLO JOHANA",
           "modalidad": "Regular",
-          "horario": "MAR[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[14:20-16:05]"
         },
         {
           "grupo": 54,
           "profesor": "VILLALOBOS MURILLO JOHANA",
           "modalidad": "Regular",
-          "horario": "MIE[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[14:20-16:05]"
         },
         {
           "grupo": 55,
           "profesor": "VILLALOBOS MURILLO JOHANA",
           "modalidad": "Regular",
-          "horario": "VIE[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:00-08:45]"
         }
       ]
     },
@@ -393,25 +323,19 @@
           "grupo": 52,
           "profesor": "CHAVES BARQUERO LUIS GERARDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[12:30-14:15] JUE[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-14:15] JUE[12:30-14:15]"
         },
         {
           "grupo": 50,
           "profesor": "PORRAS CAJINA DANILO ALBERTO",
           "modalidad": "Semipresencial",
-          "horario": "LUN[18:00-19:45] MIE[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-19:45] MIE[16:10-17:55]"
         },
         {
           "grupo": 51,
           "profesor": "PORRAS CAJINA DANILO ALBERTO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:45-11:30] JUE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30] JUE[09:45-11:30]"
         }
       ]
     },
@@ -424,17 +348,13 @@
           "grupo": 51,
           "profesor": "FERNANDEZ RODRIGUEZ MARCELA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:45-11:30]"
         },
         {
           "grupo": 50,
           "profesor": "VILLALOBOS MURILLO JOHANA",
           "modalidad": "Regular",
-          "horario": "MIE[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:10-17:55]"
         }
       ]
     },
@@ -447,41 +367,31 @@
           "grupo": 53,
           "profesor": "FREER PANIAGUA DYLANA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:45-11:30] JUE[08:50-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30] JUE[08:50-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "GUILLEN PEREZ CARLOS ENRIQUE",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:00-09:40] VIE[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-09:40] VIE[07:00-08:45]"
         },
         {
           "grupo": 52,
           "profesor": "GUILLEN PEREZ CARLOS ENRIQUE",
           "modalidad": "Semipresencial",
-          "horario": "MIE[12:30-15:10] VIE[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-15:10] VIE[12:30-14:15]"
         },
         {
           "grupo": 50,
           "profesor": "MEJIAS RAMIREZ ELVIS ANDRES",
           "modalidad": "Semipresencial",
-          "horario": "MIE[14:20-17:00] JUE[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[14:20-17:00] JUE[14:20-16:05]"
         },
         {
           "grupo": 54,
           "profesor": "SABORIO CORDERO NATALIA",
           "modalidad": "Semipresencial",
-          "horario": "JUE[16:10-18:50] VIE[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[16:10-18:50] VIE[14:20-16:05]"
         }
       ]
     },
@@ -494,9 +404,7 @@
           "grupo": 50,
           "profesor": "GAMBOA ALFARO MARVIN RICARDO",
           "modalidad": "Regular",
-          "horario": "MIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30]"
         }
       ]
     },
@@ -509,9 +417,7 @@
           "grupo": 50,
           "profesor": "GAMBOA ALFARO MARVIN RICARDO",
           "modalidad": "Regular",
-          "horario": "LUN[18:00-19:45] VIE[09:45-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-19:45] VIE[09:45-14:15]"
         }
       ]
     },
@@ -524,9 +430,7 @@
           "grupo": 50,
           "profesor": "GATJENS BONICHE OMAR",
           "modalidad": "Regular",
-          "horario": "MIE[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[14:20-16:05]"
         }
       ]
     },
@@ -539,17 +443,13 @@
           "grupo": 50,
           "profesor": "GATJENS BONICHE OMAR",
           "modalidad": "Regular",
-          "horario": "JUE[14:20-17:00]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[14:20-17:00]"
         },
         {
           "grupo": 51,
           "profesor": "TREJOS ARAYA CARLA",
           "modalidad": "Regular",
-          "horario": "MIE[18:00-20:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:40]"
         }
       ]
     },
@@ -562,17 +462,13 @@
           "grupo": 50,
           "profesor": "GONZALEZ VARGAS KARINA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[12:30-14:15] JUE[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-14:15] JUE[12:30-14:15]"
         },
         {
           "grupo": 51,
           "profesor": "SABORIO CORDERO NATALIA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]"
         }
       ]
     },
@@ -585,9 +481,7 @@
           "grupo": 50,
           "profesor": "GUILLEN PEREZ CARLOS ENRIQUE",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30] VIE[09:45-11:30]"
         }
       ]
     },
@@ -600,9 +494,7 @@
           "grupo": 50,
           "profesor": "JIMENEZ CESPEDES RODOLFO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-11:30]"
         }
       ]
     },
@@ -615,9 +507,7 @@
           "grupo": 50,
           "profesor": "JIMENEZ CESPEDES RODOLFO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30]"
         }
       ]
     },
@@ -630,17 +520,13 @@
           "grupo": 50,
           "profesor": "MAGLIANESI MARIA ALEJANDRA",
           "modalidad": "Regular",
-          "horario": "MIE[07:00-11:30] MIE[07:00-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-11:30] MIE[07:00-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "MAGLIANESI MARIA ALEJANDRA",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-17:00] MIE[12:30-17:00]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-17:00] MIE[12:30-17:00]"
         }
       ]
     },
@@ -653,9 +539,7 @@
           "grupo": 50,
           "profesor": "MEJIAS RAMIREZ ELVIS ANDRES",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:45-11:30] JUE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30] JUE[09:45-11:30]"
         }
       ]
     },
@@ -668,9 +552,7 @@
           "grupo": 50,
           "profesor": "MEJIAS RAMIREZ ELVIS ANDRES",
           "modalidad": "Semipresencial",
-          "horario": "MAR[16:10-17:55] MIE[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:10-17:55] MIE[16:10-17:55]"
         }
       ]
     },
@@ -683,9 +565,7 @@
           "grupo": 50,
           "profesor": "RAMIREZ PEREZ KARINA",
           "modalidad": "Regular",
-          "horario": "MAR[08:50-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:50-11:30]"
         }
       ]
     },
@@ -698,17 +578,13 @@
           "grupo": 50,
           "profesor": "RAMIREZ PEREZ KARINA",
           "modalidad": "Regular",
-          "horario": "JUE[08:50-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:50-10:35]"
         },
         {
           "grupo": 51,
           "profesor": "RAMIREZ PEREZ KARINA",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-14:15]"
         }
       ]
     }

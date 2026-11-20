@@ -15,25 +15,19 @@
           "grupo": 40,
           "profesor": "OVIEDO UGALDE NORBERTO",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-12:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20] VIE[09:30-11:20]"
         },
         {
           "grupo": 41,
           "profesor": "RAMIREZ BOGANTES MELVIN",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]"
         },
         {
           "grupo": 42,
           "profesor": "RAMIREZ BOGANTES MELVIN",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-10:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -46,9 +40,7 @@
           "grupo": 40,
           "profesor": "OVIEDO UGALDE NORBERTO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -61,17 +53,13 @@
           "grupo": 41,
           "profesor": "OVIEDO UGALDE NORBERTO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:30-21:05]"
         },
         {
           "grupo": 40,
           "profesor": "PARRA RODRIGUEZ EMMANUELLE",
           "modalidad": "Regular",
-          "horario": "MAR[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-21:05]"
         }
       ]
     },
@@ -84,17 +72,13 @@
           "grupo": 41,
           "profesor": "PARRA RODRIGUEZ EMMANUELLE",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         },
         {
           "grupo": 40,
           "profesor": "RODRIGUEZ CASTRO BRYAN",
           "modalidad": "Regular",
-          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
         }
       ]
     },
@@ -107,9 +91,7 @@
           "grupo": 40,
           "profesor": "PARRA RODRIGUEZ EMMANUELLE",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -122,9 +104,7 @@
           "grupo": 40,
           "profesor": "RAMIREZ MONTES GUILLERMO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -137,9 +117,7 @@
           "grupo": 40,
           "profesor": "RAMOS MARIN SIGURD",
           "modalidad": "Semipresencial",
-          "horario": "MIE[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:30-21:05]"
         }
       ]
     },
@@ -152,9 +130,7 @@
           "grupo": 40,
           "profesor": "VILLALOBOS ARIAS MARIO",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50] JUE[15:00-17:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-17:30]"
         }
       ]
     }

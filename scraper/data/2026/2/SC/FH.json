@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "BONILLA SOTO LUIS CARLOS",
           "modalidad": "Virtual",
-          "horario": "VIE[17:05-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:05-19:45]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "GARCIA ZAMORA ANTONIO",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:40]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 50,
           "profesor": "ROJAS BRENES SILVIA ELENA",
           "modalidad": "Virtual",
-          "horario": "LUN[16:10-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-18:50]"
         }
       ]
     }

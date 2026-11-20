@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "ARIAS SOSA LUIS ALBAN",
           "modalidad": "Regular",
-          "horario": "JUE[08:50-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:50-11:30]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "CALVO QUIROS ANGELINE",
           "modalidad": "Regular",
-          "horario": "LUN[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 50,
           "profesor": "CESPEDES OBANDO FRANCISCO",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-15:10]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 50,
           "profesor": "FERNANDEZ MORA LADY",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-17:00]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-17:00]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 50,
           "profesor": "PEREZ MURILLO DANIEL",
           "modalidad": "Regular",
-          "horario": "JUE[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[16:10-19:45]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 50,
           "profesor": "PEREZ MURILLO DANIEL",
           "modalidad": "Tutoría",
-          "horario": "LUN[16:10-18:50] MIE[16:10-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-18:50] MIE[16:10-18:50]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 50,
           "profesor": "PEREZ MURILLO DANIEL",
           "modalidad": "Tutoría",
-          "horario": "MAR[08:50-11:30] MIE[13:25-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:50-11:30] MIE[13:25-15:10]"
         }
       ]
     }
