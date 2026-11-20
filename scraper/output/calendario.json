@@ -202,6 +202,17 @@
     },
     {
       "anio": "2026",
+      "periodo": "2",
+      "etiquetaPeriodo": "II Semestre 2026",
+      "tipo": "apelaciones_padron",
+      "actividad": "Apelaciones al padrón preliminar de Citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-06-22",
+      "fin": "2026-06-26",
+      "relevante": false
+    },
+    {
+      "anio": "2026",
       "periodo": "1",
       "etiquetaPeriodo": "I Semestre 2026",
       "tipo": "evaluaciones_finales",
@@ -226,9 +237,31 @@
       "anio": "2026",
       "periodo": "2",
       "etiquetaPeriodo": "II Semestre 2026",
+      "tipo": "otro",
+      "actividad": "Periodo para que el estudiante pronto a graduarse solicite reservas de cupo a las Escuelas",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-06-22",
+      "fin": "2026-06-26",
+      "relevante": false
+    },
+    {
+      "anio": "2026",
+      "periodo": "2",
+      "etiquetaPeriodo": "II Semestre 2026",
       "tipo": "cursos_posibles",
       "actividad": "Publicación de cursos posibles a matricular",
       "tabla": "Guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-06-22",
+      "fin": "2026-06-26",
+      "relevante": true
+    },
+    {
+      "anio": "2026",
+      "periodo": "2",
+      "etiquetaPeriodo": "II Semestre 2026",
+      "tipo": "cursos_posibles",
+      "actividad": "Publicación de cursos posibles a matricular",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
       "inicio": "2026-06-22",
       "fin": "2026-06-26",
       "relevante": true
@@ -248,9 +281,31 @@
       "anio": "2026",
       "periodo": "2",
       "etiquetaPeriodo": "II Semestre 2026",
+      "tipo": "guia_horarios",
+      "actividad": "Publicación guía de horarios",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-06-22",
+      "fin": "2026-06-22",
+      "relevante": true
+    },
+    {
+      "anio": "2026",
+      "periodo": "2",
+      "etiquetaPeriodo": "II Semestre 2026",
       "tipo": "citas_preliminar",
       "actividad": "Publicación preliminar de citas de matrícula",
       "tabla": "Citas de matrícula: Programas Modalidad Semestre",
+      "inicio": "2026-06-22",
+      "fin": "2026-06-22",
+      "relevante": true
+    },
+    {
+      "anio": "2026",
+      "periodo": "2",
+      "etiquetaPeriodo": "II Semestre 2026",
+      "tipo": "citas_preliminar",
+      "actividad": "Publicación preliminar de citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
       "inicio": "2026-06-22",
       "fin": "2026-06-22",
       "relevante": true
@@ -273,6 +328,17 @@
       "tipo": "citas_definitivas",
       "actividad": "Publicación definitiva citas de matrícula",
       "tabla": "Citas de matrícula: Programas Modalidad Semestre",
+      "inicio": "2026-06-29",
+      "fin": "2026-06-29",
+      "relevante": true
+    },
+    {
+      "anio": "2026",
+      "periodo": "2",
+      "etiquetaPeriodo": "II Semestre 2026",
+      "tipo": "citas_definitivas",
+      "actividad": "Publicación definitiva citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
       "inicio": "2026-06-29",
       "fin": "2026-06-29",
       "relevante": true
@@ -421,6 +487,17 @@
       "relevante": false
     },
     {
+      "anio": "2026",
+      "periodo": "1V",
+      "etiquetaPeriodo": "Verano 2026-2027",
+      "tipo": "apelaciones_padron",
+      "actividad": "Apelaciones al padrón preliminar de Citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-02",
+      "fin": "2026-11-06",
+      "relevante": false
+    },
+    {
       "anio": "2027",
       "periodo": "1",
       "etiquetaPeriodo": "I Semestre 2027",
@@ -490,9 +567,31 @@
       "anio": "2026",
       "periodo": "1V",
       "etiquetaPeriodo": "Verano 2026-2027",
+      "tipo": "otro",
+      "actividad": "Periodo para que el estudiante pronto a graduarse solicite reservas de cupo a las Escuelas",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-02",
+      "fin": "2026-11-06",
+      "relevante": false
+    },
+    {
+      "anio": "2026",
+      "periodo": "1V",
+      "etiquetaPeriodo": "Verano 2026-2027",
       "tipo": "cursos_posibles",
       "actividad": "Publicación de cursos posibles a matricular",
       "tabla": "Guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-02",
+      "fin": "2026-11-06",
+      "relevante": true
+    },
+    {
+      "anio": "2026",
+      "periodo": "1V",
+      "etiquetaPeriodo": "Verano 2026-2027",
+      "tipo": "cursos_posibles",
+      "actividad": "Publicación de cursos posibles a matricular",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
       "inicio": "2026-11-02",
       "fin": "2026-11-06",
       "relevante": true
@@ -512,9 +611,31 @@
       "anio": "2026",
       "periodo": "1V",
       "etiquetaPeriodo": "Verano 2026-2027",
+      "tipo": "guia_horarios",
+      "actividad": "Publicación guía de horarios",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-02",
+      "fin": "2026-11-02",
+      "relevante": true
+    },
+    {
+      "anio": "2026",
+      "periodo": "1V",
+      "etiquetaPeriodo": "Verano 2026-2027",
       "tipo": "citas_preliminar",
       "actividad": "Publicación preliminar de citas de matrícula",
       "tabla": "Citas de matrícula: Programas Modalidad Semestre",
+      "inicio": "2026-11-02",
+      "fin": "2026-11-02",
+      "relevante": true
+    },
+    {
+      "anio": "2026",
+      "periodo": "1V",
+      "etiquetaPeriodo": "Verano 2026-2027",
+      "tipo": "citas_preliminar",
+      "actividad": "Publicación preliminar de citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
       "inicio": "2026-11-02",
       "fin": "2026-11-02",
       "relevante": true
@@ -587,6 +708,17 @@
     },
     {
       "anio": "2026",
+      "periodo": "1V",
+      "etiquetaPeriodo": "Verano 2026-2027",
+      "tipo": "citas_definitivas",
+      "actividad": "Publicación definitiva citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-13",
+      "fin": "2026-11-13",
+      "relevante": true
+    },
+    {
+      "anio": "2026",
       "periodo": "2",
       "etiquetaPeriodo": "II Semestre 2026",
       "tipo": "otro",
@@ -641,6 +773,17 @@
       "relevante": false
     },
     {
+      "anio": "2027",
+      "periodo": "1",
+      "etiquetaPeriodo": "I Semestre 2027",
+      "tipo": "apelaciones_padron",
+      "actividad": "Apelaciones al padrón preliminar de Citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-30",
+      "fin": "2026-12-04",
+      "relevante": false
+    },
+    {
       "anio": "2026",
       "periodo": "2",
       "etiquetaPeriodo": "II Semestre 2026",
@@ -649,6 +792,50 @@
       "tabla": "Matrícula y Periodo Lectivo: Programas Modalidad Semestre y Verano",
       "inicio": "2026-11-30",
       "fin": "2026-12-10",
+      "relevante": true
+    },
+    {
+      "anio": "2027",
+      "periodo": "1",
+      "etiquetaPeriodo": "I Semestre 2027",
+      "tipo": "otro",
+      "actividad": "Periodo para que el estudiante pronto a graduarse solicite reservas de cupo a las Escuelas",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-30",
+      "fin": "2026-12-04",
+      "relevante": false
+    },
+    {
+      "anio": "2027",
+      "periodo": "1",
+      "etiquetaPeriodo": "I Semestre 2027",
+      "tipo": "cursos_posibles",
+      "actividad": "Publicación de cursos posibles a matricular",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-30",
+      "fin": "2026-12-04",
+      "relevante": true
+    },
+    {
+      "anio": "2027",
+      "periodo": "1",
+      "etiquetaPeriodo": "I Semestre 2027",
+      "tipo": "guia_horarios",
+      "actividad": "Publicación guía de horarios",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-30",
+      "fin": "2026-11-30",
+      "relevante": true
+    },
+    {
+      "anio": "2027",
+      "periodo": "1",
+      "etiquetaPeriodo": "I Semestre 2027",
+      "tipo": "citas_preliminar",
+      "actividad": "Publicación preliminar de citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-11-30",
+      "fin": "2026-11-30",
       "relevante": true
     },
     {
@@ -661,6 +848,17 @@
       "inicio": "2026-12-11",
       "fin": "2026-12-15",
       "relevante": false
+    },
+    {
+      "anio": "2027",
+      "periodo": "1",
+      "etiquetaPeriodo": "I Semestre 2027",
+      "tipo": "citas_definitivas",
+      "actividad": "Publicación definitiva citas de matrícula",
+      "tabla": "Citas de matrícula y guía de horarios: Programas Modalidad Semestre",
+      "inicio": "2026-12-11",
+      "fin": "2026-12-11",
+      "relevante": true
     },
     {
       "anio": "2026",
