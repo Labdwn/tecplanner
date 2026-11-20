@@ -71,6 +71,7 @@ const MAJOR_TITLES = {
 document.querySelectorAll('.major-card').forEach(card => {
     const careerKey = card.dataset.career;
     const data = careers_information[careerKey];
+    if (!data) { console.error('Falta careers_information.' + careerKey); card.style.display = 'none'; return; }
 
     const parts = [
         `Código ${data.plan}`,
