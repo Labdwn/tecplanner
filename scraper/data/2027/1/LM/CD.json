@@ -1,0 +1,48 @@
+{
+  "codigoEscuela": "CD",
+  "nombreEscuela": "ESCUELA DE CULTURA Y DEPORTE",
+  "codigoSede": "LM",
+  "nombreSede": "CENTRO ACADEMICO DE LIMON",
+  "anio": 2027,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "SE1104",
+      "nombre": "Artes visuales",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "SERRANO SOLANO ALEX",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]"
+        },
+        {
+          "grupo": 61,
+          "profesor": "SERRANO SOLANO ALEX",
+          "modalidad": "Regular",
+          "horario": "VIE[15:00-16:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "SE1206",
+      "nombre": "Acondicionamiento físico",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 60,
+          "profesor": "TRAVIESO RODRIGUEZ ALBERTO",
+          "modalidad": "Regular",
+          "horario": "JUE[15:00-16:50]"
+        },
+        {
+          "grupo": 61,
+          "profesor": "TRAVIESO RODRIGUEZ ALBERTO",
+          "modalidad": "Regular",
+          "horario": "JUE[17:00-18:50]"
+        }
+      ]
+    }
+  ]
+}

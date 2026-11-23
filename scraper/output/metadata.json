@@ -1,12 +1,10 @@
 {
-  "anio": 2026,
+  "anio": 2027,
   "periodos": [
-    "1",
-    "1V",
-    "2"
+    "1"
   ],
   "totalEscuelas": 70,
-  "totalCursos": 1067,
-  "totalArchivos": 203,
-  "ultimaActualizacion": "2026-11-20T14:33:48.310Z"
+  "totalCursos": 254,
+  "totalArchivos": 28,
+  "ultimaActualizacion": "2026-11-23T16:46:15.745Z"
 }

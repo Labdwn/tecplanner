@@ -1,0 +1,275 @@
+{
+  "codigoEscuela": "AMB",
+  "nombreEscuela": "INGENIERIA AMBIENTAL",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2027,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "AI4101",
+      "nombre": "Gestión y diseño en tratamiento de residuos sólidos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA PIEDRA ANDREA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[14:00-17:50] MIE[14:00-17:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6102",
+      "nombre": "Huellas y métricas ambientales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ACUÑA PIEDRA ANDREA",
+          "modalidad": "Semipresencial",
+          "horario": "JUE[09:30-12:20] JUE[09:30-12:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI4103",
+      "nombre": "Laboratorio de ingeniería en emisiones atmosféricas",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CABALLERO CHAVARRIA ANDREY",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-12:20] MIE[09:30-12:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3212",
+      "nombre": "Termodinámica y cinética ambiental",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI1100",
+      "nombre": "Introducción a la Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "GONZALEZ RODRIGUEZ JOSE RICARDO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-17:50] MAR[15:00-17:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6101",
+      "nombre": "Metodología de la investigación ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "HERNANDEZ PARRA DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-15:50]"
+        },
+        {
+          "grupo": 2,
+          "profesor": "HERNANDEZ PARRA DAVID",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-13:50] JUE[13:00-14:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3209",
+      "nombre": "Hidrología",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PICADO VALVERDE SOFIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[17:00-20:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI4304",
+      "nombre": "Formulación y evaluación de proyectos ambientales",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PICADO VALVERDE SOFIA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[16:00-18:50] MIE[16:00-18:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3104",
+      "nombre": "Ecosaneamiento ambiental",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PINO GOMEZ MACARIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-12:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3107",
+      "nombre": "Operaciones Unitarias",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "QUESADA CARVAJAL LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI4102",
+      "nombre": "Ingeniería en emisiones atmosféricas",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "QUESADA CARVAJAL LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3105",
+      "nombre": "Laboratorio de microbiología ambiental",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "QUESADA GONZALEZ ANDREA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-10:20]"
+        },
+        {
+          "grupo": 2,
+          "profesor": "QUESADA GONZALEZ ANDREA",
+          "modalidad": "Regular",
+          "horario": "JUE[07:30-10:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3106",
+      "nombre": "Microbiología ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "QUESADA GONZALEZ ANDREA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[10:30-12:20] JUE[10:30-12:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI2101",
+      "nombre": "Análisis estadístico para Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
+        },
+        {
+          "grupo": 2,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI5104",
+      "nombre": "Análisis y diseño experimental para Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROMERO BLANCO ERIC",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI2401",
+      "nombre": "Análisis topográfico en Ingeniería Ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SOTO MONTOYA CASIA",
+          "modalidad": "Semipresencial",
+          "horario": "LUN[07:30-11:20] LUN[07:30-11:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI3108",
+      "nombre": "Dibujo e interpretación de planos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "UMAÑA QUIROS BRAULIO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-16:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI4104",
+      "nombre": "Administración de la energía en la industria",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "VALERIO PEREZ LUIS GUILLERMO",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-12:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AI6105",
+      "nombre": "Evaluación de impacto ambiental",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ZAMBRANO PIAMBA DIANA",
+          "modalidad": "Virtual",
+          "horario": "SAB[07:30-10:20]"
+        }
+      ]
+    }
+  ]
+}

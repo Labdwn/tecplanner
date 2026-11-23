@@ -1,0 +1,23 @@
+{
+  "codigoEscuela": "AEL",
+  "nombreEscuela": "LICENCIATURA EN ADMINISTRACION DE EMPRESAS",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2027,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "LA5227",
+      "nombre": "Desarrollo gerencial",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CORDOBA GONZALEZ CARLOS MANUEL",
+          "modalidad": "Virtual",
+          "horario": "MAR[17:05-21:35] JUE[17:05-21:35]"
+        }
+      ]
+    }
+  ]
+}

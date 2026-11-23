@@ -1,0 +1,217 @@
+{
+  "codigoEscuela": "EMA",
+  "nombreEscuela": "ENSEÑANZA DE LA MATEMATICA CON ENTORNOS TECNOLOGICOS",
+  "codigoSede": "CA",
+  "nombreSede": "CAMPUS TECNOLOGICO CENTRAL CARTAGO",
+  "anio": 2027,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "EM1404",
+      "nombre": "Teorías psicopedagógicas del aprendizaje",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "AGUILAR CORDERO JOSE FABIAN",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
+        },
+        {
+          "grupo": 1,
+          "profesor": "ALFARO BARQUERO ALEJANDRA",
+          "modalidad": "Regular",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM2607",
+      "nombre": "Cálculo y análisis II",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ALVARADO SOLANO ANDY",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-18:50] VIE[16:00-17:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM4609",
+      "nombre": "Álgebra",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "FIGUEROA MATA GEOVANNI",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM3012",
+      "nombre": "Juegos educativos virtuales en la matemática",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MARIN SANCHEZ MARIO",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1605",
+      "nombre": "Fundamentos de matemática I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE FALLAS JORGE",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] MIE[07:30-09:20] JUE[09:30-11:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM3408",
+      "nombre": "Evaluación del aprendizaje",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "MONGE MADRIZ CARLOS",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1401",
+      "nombre": "Introducción a la pedagogía",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 2,
+          "profesor": "MORA CASASOLA MARIA FERNANDA",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+        },
+        {
+          "grupo": 1,
+          "profesor": "RAMOS MARIN SIGURD",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM3607",
+      "nombre": "Álgebra lineal",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "NUÑEZ VANEGAS FELIX",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-17:50] VIE[16:00-17:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM3407",
+      "nombre": "Psicología del desarrollo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PALMA PICADO KATHERINE",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-15:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1610",
+      "nombre": "Tecnologías digitales aplicadas a la matemática educativa II",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "PARRA SALAZAR EDWARD",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1609",
+      "nombre": "Didáctica de la probabilidad y la estadística",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RAMIREZ ARCE GREIVIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM2606",
+      "nombre": "Geometría II",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "RODRIGUEZ CASTRO BRYAN",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM4610",
+      "nombre": "Ecuaciones diferenciales",
+      "creditos": 5,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "ROSALES ORTEGA JOSE",
+          "modalidad": "Regular",
+          "horario": "MIE[16:00-17:50] VIE[16:00-17:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1611",
+      "nombre": "Geometría analítica",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SANABRIA BRENES GEOVANNI",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "EM1608",
+      "nombre": "Didáctica del álgebra y funciones",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 1,
+          "profesor": "SUAREZ VALDES-AYALA ZULEYKA",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
+        }
+      ]
+    }
+  ]
+}
