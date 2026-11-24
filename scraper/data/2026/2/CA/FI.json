@@ -30,12 +30,6 @@
           "horario": "MIE[15:00-16:50]"
         },
         {
-          "grupo": 24,
-          "profesor": "CAMBRONERO CORDERO MICHAEL",
-          "modalidad": "Regular",
-          "horario": "MIE[17:00-18:50]"
-        },
-        {
           "grupo": 3,
           "profesor": "CAMPOS RODRIGUEZ MELANIA",
           "modalidad": "Regular",
@@ -62,18 +56,6 @@
         {
           "grupo": 22,
           "profesor": "ELIZONDO ZUÑIGA JENNIFER",
-          "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20]"
-        },
-        {
-          "grupo": 2,
-          "profesor": "JIMENEZ CARBALLO CARLOS ADRIAN",
-          "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]"
-        },
-        {
-          "grupo": 7,
-          "profesor": "JIMENEZ CARBALLO CARLOS ADRIAN",
           "modalidad": "Regular",
           "horario": "MIE[09:30-11:20]"
         },
@@ -124,6 +106,24 @@
           "profesor": "PEREZ HIDALGO JOSE ESTEBAN",
           "modalidad": "Regular",
           "horario": "MIE[07:30-09:20]"
+        },
+        {
+          "grupo": 7,
+          "profesor": "SANCHEZ VALLE JONATAN",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]"
+        },
+        {
+          "grupo": 24,
+          "profesor": "SANCHEZ VALLE JONATAN",
+          "modalidad": "Regular",
+          "horario": "MIE[17:00-18:50]"
+        },
+        {
+          "grupo": 2,
+          "profesor": "SEGURA CARVAJAL MARCOS",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]"
         },
         {
           "grupo": 5,
@@ -237,134 +237,6 @@
       ]
     },
     {
-      "codigo": "FI1202",
-      "nombre": "Laboratorio física general II",
-      "creditos": 1,
-      "grupos": [
-        {
-          "grupo": 1,
-          "profesor": "ARAYA SOLANO LUIS ALONSO",
-          "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]"
-        },
-        {
-          "grupo": 2,
-          "profesor": "ARAYA SOLANO LUIS ALONSO",
-          "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50]"
-        },
-        {
-          "grupo": 4,
-          "profesor": "JIMENEZ CARBALLO CARLOS ADRIAN",
-          "modalidad": "Regular",
-          "horario": "MIE[07:30-09:20]"
-        },
-        {
-          "grupo": 7,
-          "profesor": "MORALES MUÑOZ WALTER",
-          "modalidad": "Regular",
-          "horario": "JUE[09:30-11:20]"
-        },
-        {
-          "grupo": 8,
-          "profesor": "MORALES MUÑOZ WALTER",
-          "modalidad": "Regular",
-          "horario": "VIE[13:00-14:50]"
-        },
-        {
-          "grupo": 5,
-          "profesor": "MURILLO ZUMBADO GUSTAVO",
-          "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20]"
-        },
-        {
-          "grupo": 6,
-          "profesor": "OREAMUNO MADRIZ RAFAEL",
-          "modalidad": "Regular",
-          "horario": "MIE[15:00-16:50]"
-        },
-        {
-          "grupo": 9,
-          "profesor": "ROJAS ROJAS LAURA",
-          "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50]"
-        },
-        {
-          "grupo": 3,
-          "profesor": "SEVILLA QUESADA EVAR",
-          "modalidad": "Regular",
-          "horario": "MAR[17:00-18:50]"
-        }
-      ]
-    },
-    {
-      "codigo": "FI2103",
-      "nombre": "Física general III",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 4,
-          "profesor": "ARAYA SOLANO LUIS ALONSO",
-          "modalidad": "Semipresencial",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
-        },
-        {
-          "grupo": 5,
-          "profesor": "FONT CRUZ EDUARDO",
-          "modalidad": "Regular",
-          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]"
-        },
-        {
-          "grupo": 9,
-          "profesor": "GUTIERREZ CHAVES CARLOS ROBERTO",
-          "modalidad": "Regular",
-          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
-        },
-        {
-          "grupo": 3,
-          "profesor": "LOBO ZAMORA JUAN CARLOS",
-          "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
-        },
-        {
-          "grupo": 10,
-          "profesor": "LOBO ZAMORA JUAN CARLOS",
-          "modalidad": "Grupo RN",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
-        },
-        {
-          "grupo": 1,
-          "profesor": "MONTERO ZELEDON ERNESTO",
-          "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
-        },
-        {
-          "grupo": 7,
-          "profesor": "OREAMUNO MADRIZ RAFAEL",
-          "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
-        },
-        {
-          "grupo": 8,
-          "profesor": "ROJAS PEREZ FRANCISCO",
-          "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
-        },
-        {
-          "grupo": 2,
-          "profesor": "ROJAS ROJAS LAURA",
-          "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
-        },
-        {
-          "grupo": 6,
-          "profesor": "SEGURA ZARATE ANA YANCY",
-          "modalidad": "Regular",
-          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
-        }
-      ]
-    },
-    {
       "codigo": "FI1101",
       "nombre": "Física general I",
       "creditos": 3,
@@ -470,6 +342,134 @@
           "profesor": "VARGAS BLANCO IVAN",
           "modalidad": "Regular",
           "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "FI2103",
+      "nombre": "Física general III",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 4,
+          "profesor": "CAMBRONERO CORDERO MICHAEL",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
+        },
+        {
+          "grupo": 5,
+          "profesor": "FONT CRUZ EDUARDO",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]"
+        },
+        {
+          "grupo": 9,
+          "profesor": "GUTIERREZ CHAVES CARLOS ROBERTO",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
+        },
+        {
+          "grupo": 3,
+          "profesor": "LOBO ZAMORA JUAN CARLOS",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
+        },
+        {
+          "grupo": 10,
+          "profesor": "LOBO ZAMORA JUAN CARLOS",
+          "modalidad": "Grupo RN",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
+        },
+        {
+          "grupo": 1,
+          "profesor": "MONTERO ZELEDON ERNESTO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
+        },
+        {
+          "grupo": 7,
+          "profesor": "OREAMUNO MADRIZ RAFAEL",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
+        },
+        {
+          "grupo": 8,
+          "profesor": "ROJAS PEREZ FRANCISCO",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+        },
+        {
+          "grupo": 2,
+          "profesor": "ROJAS ROJAS LAURA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
+        },
+        {
+          "grupo": 6,
+          "profesor": "SEGURA ZARATE ANA YANCY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "FI1202",
+      "nombre": "Laboratorio física general II",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 7,
+          "profesor": "MORALES MUÑOZ WALTER",
+          "modalidad": "Regular",
+          "horario": "JUE[09:30-11:20]"
+        },
+        {
+          "grupo": 8,
+          "profesor": "MORALES MUÑOZ WALTER",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]"
+        },
+        {
+          "grupo": 5,
+          "profesor": "MURILLO ZUMBADO GUSTAVO",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-11:20]"
+        },
+        {
+          "grupo": 6,
+          "profesor": "OREAMUNO MADRIZ RAFAEL",
+          "modalidad": "Regular",
+          "horario": "MIE[15:00-16:50]"
+        },
+        {
+          "grupo": 9,
+          "profesor": "ROJAS ROJAS LAURA",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-14:50]"
+        },
+        {
+          "grupo": 1,
+          "profesor": "SANCHEZ VALLE JONATAN",
+          "modalidad": "Regular",
+          "horario": "MAR[09:30-11:20]"
+        },
+        {
+          "grupo": 2,
+          "profesor": "SANCHEZ VALLE JONATAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:00-14:50]"
+        },
+        {
+          "grupo": 4,
+          "profesor": "SANCHEZ VALLE JONATAN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:30-09:20]"
+        },
+        {
+          "grupo": 3,
+          "profesor": "SEVILLA QUESADA EVAR",
+          "modalidad": "Regular",
+          "horario": "MAR[17:00-18:50]"
         }
       ]
     },
