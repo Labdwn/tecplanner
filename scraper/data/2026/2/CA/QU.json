@@ -193,6 +193,12 @@
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         },
         {
+          "grupo": 12,
+          "profesor": "LEDEZMA ESPINOZA AURA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+        },
+        {
           "grupo": 13,
           "profesor": "LEDEZMA ESPINOZA AURA",
           "modalidad": "Semipresencial",
@@ -211,18 +217,6 @@
           "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         },
         {
-          "grupo": 4,
-          "profesor": "STARBIRD PEREZ RICARDO",
-          "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
-        },
-        {
-          "grupo": 12,
-          "profesor": "STARBIRD PEREZ RICARDO",
-          "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
-        },
-        {
           "grupo": 7,
           "profesor": "VARGAS CAMARENO MARICRUZ",
           "modalidad": "Semipresencial",
@@ -239,6 +233,12 @@
           "profesor": "VARGAS CAMARENO MARICRUZ",
           "modalidad": "Semipresencial",
           "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
+        },
+        {
+          "grupo": 4,
+          "profesor": "VILLALTA ROMERO FABIAN",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -298,12 +298,6 @@
           "horario": "MIE[15:00-16:50]"
         },
         {
-          "grupo": 15,
-          "profesor": "LEDEZMA ESPINOZA AURA",
-          "modalidad": "Regular",
-          "horario": "VIE[13:00-14:50]"
-        },
-        {
           "grupo": 4,
           "profesor": "MATA MATA ALEJANDRA",
           "modalidad": "Regular",
@@ -326,6 +320,12 @@
           "profesor": "MORA MOLINA JESUS",
           "modalidad": "Regular",
           "horario": "MIE[13:00-14:50]"
+        },
+        {
+          "grupo": 15,
+          "profesor": "QUESADA GONZALEZ ANDREA",
+          "modalidad": "Regular",
+          "horario": "VIE[13:00-14:50]"
         },
         {
           "grupo": 9,
