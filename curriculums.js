@@ -2053,6 +2053,8 @@ const careers_information = {
         // en vez de perder u ocultar datos silenciosamente.
         const CURRICULUM_VERSIONS = {
             fisica: 1,
+            matematica: 1,
+            microbiologia: 1,
             biotecnologia: 1,
             electronica: 1,
             computacion: 1,
