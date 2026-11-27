@@ -15,9 +15,7 @@
           "grupo": 40,
           "profesor": "ALVAREZ FIGUEROA ADRIANA",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 40,
           "profesor": "CASTRO MORA JOSE",
           "modalidad": "Virtual",
-          "horario": "LUN[08:30-12:20] MAR[08:30-12:20] JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-12:20] MAR[08:30-12:20] JUE[08:30-11:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 40,
           "profesor": "SOLANO FERNANDEZ ERICKA",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-11:20] MIE[08:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20] MIE[08:30-12:20] JUE[08:30-12:20]"
         }
       ]
     }

@@ -15,17 +15,13 @@
           "grupo": 40,
           "profesor": "CORDERO MAROTO NELSON",
           "modalidad": "Regular",
-          "horario": "MIE[17:30-19:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:30-19:10]"
         },
         {
           "grupo": 41,
           "profesor": "CORDERO MAROTO NELSON",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-14:50]"
         }
       ]
     },
@@ -38,9 +34,7 @@
           "grupo": 40,
           "profesor": "DE SIMONE CASTELLON ALEXANDRA",
           "modalidad": "Virtual",
-          "horario": "VIE[17:30-19:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:30-19:10]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 40,
           "profesor": "HERNANDEZ RAMIREZ MARIELA",
           "modalidad": "Regular",
-          "horario": "JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-11:20]"
         }
       ]
     },
@@ -68,9 +60,7 @@
           "grupo": 40,
           "profesor": "MEZA SOLANO VINICIO",
           "modalidad": "Virtual",
-          "horario": "JUE[17:30-19:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:30-19:10]"
         }
       ]
     },
@@ -83,9 +73,7 @@
           "grupo": 40,
           "profesor": "RAMOS VARGAS ARNOLDO",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20]"
         }
       ]
     },
@@ -98,9 +86,7 @@
           "grupo": 40,
           "profesor": "RAMOS VARGAS ARNOLDO",
           "modalidad": "Regular",
-          "horario": "VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-11:20]"
         }
       ]
     },
@@ -113,9 +99,7 @@
           "grupo": 40,
           "profesor": "VALVERDE JARA ANA",
           "modalidad": "Regular",
-          "horario": "MAR[17:30-19:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-19:10]"
         }
       ]
     },
@@ -128,17 +112,13 @@
           "grupo": 40,
           "profesor": "VIQUEZ ZELEDON JESSENIA",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20]"
         },
         {
           "grupo": 41,
           "profesor": "VIQUEZ ZELEDON JESSENIA",
           "modalidad": "Regular",
-          "horario": "JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[15:00-16:50]"
         }
       ]
     },
@@ -151,9 +131,7 @@
           "grupo": 40,
           "profesor": "VIQUEZ ZELEDON JESSENIA",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20]"
         }
       ]
     }

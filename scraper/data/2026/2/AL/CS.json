@@ -15,9 +15,7 @@
           "grupo": 20,
           "profesor": "CALDERON FERREY MARTHA",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 90,
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
-          "horario": "LUN[07:00-09:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-09:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 20,
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 20,
           "profesor": "PRENDAS SOLANO JORGE",
           "modalidad": "Virtual",
-          "horario": "JUE[07:00-09:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:00-09:50]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 20,
           "profesor": "ROJAS MOLINA BETSY",
           "modalidad": "Virtual",
-          "horario": "LUN[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:00-11:50]"
         }
       ]
     }

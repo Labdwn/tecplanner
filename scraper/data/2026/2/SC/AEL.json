@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "JARA VEGA ANA CATALINA",
           "modalidad": "Virtual",
-          "horario": "MAR[17:05-21:35] JUE[17:05-21:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:05-21:35] JUE[17:05-21:35]"
         }
       ]
     }

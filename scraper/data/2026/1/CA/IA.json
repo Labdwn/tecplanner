@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ARRIETA QUESADA SERGIO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-20:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "CHAVARRIA VIDAL ADRIAN",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "CHAVARRIA VIDAL ADRIAN",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "CHAVARRIA VIDAL ADRIAN",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "GARITA CERDAS ADRIAN DAVID",
           "modalidad": "Regular",
-          "horario": "MAR[14:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[14:00-15:50]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "GARITA CERDAS ADRIAN DAVID",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 1,
           "profesor": "GOMEZ ASTORGA MARIA JOSE",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20] MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20] MAR[07:30-11:20]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 1,
           "profesor": "GOMEZ ASTORGA MARIA JOSE",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     },
@@ -135,9 +119,7 @@
           "grupo": 1,
           "profesor": "GUZMAN ARIAS ISABEL",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50]"
         }
       ]
     },
@@ -150,9 +132,7 @@
           "grupo": 1,
           "profesor": "GUZMAN ARIAS ISABEL",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -165,9 +145,7 @@
           "grupo": 1,
           "profesor": "HERRERA CORTEZ OSCAR",
           "modalidad": "Semipresencial",
-          "horario": "LUN[19:00-20:50] MIE[19:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[19:00-20:50] MIE[19:00-20:50]"
         }
       ]
     },
@@ -180,17 +158,13 @@
           "grupo": 1,
           "profesor": "JIMENEZ AGUILAR JUAN CARLOS",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-12:20]"
         },
         {
           "grupo": 2,
           "profesor": "JIMENEZ AGUILAR JUAN CARLOS",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-12:20]"
         }
       ]
     },
@@ -203,9 +177,7 @@
           "grupo": 1,
           "profesor": "MONGE VARGAS KAREN",
           "modalidad": "Semipresencial",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -218,9 +190,7 @@
           "grupo": 1,
           "profesor": "PICADO MORA ERICKA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -233,9 +203,7 @@
           "grupo": 1,
           "profesor": "RAMIREZ HERNANDEZ LUIS STEVEN",
           "modalidad": "Semipresencial",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         }
       ]
     },
@@ -248,9 +216,7 @@
           "grupo": 1,
           "profesor": "ROMERO CALVO KERIN",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-10:20]"
         }
       ]
     },
@@ -263,9 +229,7 @@
           "grupo": 1,
           "profesor": "SOLORZANO QUINTANA MILTON",
           "modalidad": "Regular",
-          "horario": "MAR[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50]"
         }
       ]
     },
@@ -278,9 +242,7 @@
           "grupo": 1,
           "profesor": "SOTO MONGE ALLAN",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -293,17 +255,13 @@
           "grupo": 1,
           "profesor": "VILLAGRA MENDOZA CAROLINA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         },
         {
           "grupo": 2,
           "profesor": "VILLAGRA MENDOZA CAROLINA",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20]"
         }
       ]
     },
@@ -316,9 +274,7 @@
           "grupo": 1,
           "profesor": "WATSON HERNANDEZ FERNANDO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-20:50]"
         }
       ]
     }

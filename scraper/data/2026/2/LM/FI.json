@@ -15,9 +15,7 @@
           "grupo": 60,
           "profesor": "CASTILLO FALLAS JOSE CARLOS",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 60,
           "profesor": "CASTILLO FALLAS JOSE CARLOS",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 60,
           "profesor": "CASTILLO FALLAS JOSE CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-11:20] JUE[17:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] JUE[17:00-18:50]"
         }
       ]
     }

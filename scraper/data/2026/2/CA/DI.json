@@ -15,17 +15,13 @@
           "grupo": 1,
           "profesor": "ARAYA CALVO MIGUEL",
           "modalidad": "Semipresencial",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         },
         {
           "grupo": 2,
           "profesor": "ARAYA CALVO MIGUEL",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50] MIE[13:00-16:50]"
         }
       ]
     },
@@ -38,9 +34,7 @@
           "grupo": 1,
           "profesor": "ARAYA OROZCO KARLA",
           "modalidad": "Virtual",
-          "horario": "LUN[08:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-10:20]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 1,
           "profesor": "ARAYA ROJAS LUIS CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-09:20]"
         }
       ]
     },
@@ -68,17 +60,13 @@
           "grupo": 1,
           "profesor": "ARAYA ROJAS LUIS CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "GONZALEZ RAMIREZ MARIO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         }
       ]
     },
@@ -91,9 +79,7 @@
           "grupo": 1,
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
-          "horario": "VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-09:20]"
         }
       ]
     },
@@ -106,17 +92,13 @@
           "grupo": 1,
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         },
         {
           "grupo": 2,
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -129,17 +111,13 @@
           "grupo": 1,
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         },
         {
           "grupo": 2,
           "profesor": "BRENES CATALAN JOSE",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-10:20]"
         }
       ]
     },
@@ -152,17 +130,13 @@
           "grupo": 1,
           "profesor": "CUBERO UGALDE MARCELA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-11:20] MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20] MAR[08:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "CUBERO UGALDE MARCELA",
           "modalidad": "Semipresencial",
-          "horario": "JUE[08:30-11:20] JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:30-11:20] JUE[08:30-11:20]"
         }
       ]
     },
@@ -175,9 +149,7 @@
           "grupo": 1,
           "profesor": "CUBERO UGALDE MARCELA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-15:50] MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50] MIE[13:00-15:50]"
         }
       ]
     },
@@ -190,9 +162,7 @@
           "grupo": 1,
           "profesor": "CUBERO UGALDE MARCELA",
           "modalidad": "Virtual",
-          "horario": "LUN[08:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-10:20]"
         }
       ]
     },
@@ -205,25 +175,19 @@
           "grupo": 1,
           "profesor": "GONZALEZ CAMACHO FEDERICO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-11:20] JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20] JUE[08:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "GONZALEZ CAMACHO FEDERICO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[15:00-17:50] VIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-17:50] VIE[08:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "GONZALEZ CAMACHO FEDERICO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[15:00-17:50] JUE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-17:50] JUE[15:00-17:50]"
         }
       ]
     },
@@ -236,9 +200,7 @@
           "grupo": 1,
           "profesor": "GONZALEZ CAMACHO FEDERICO",
           "modalidad": "Semipresencial",
-          "horario": "LUN[08:30-11:20] VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-11:20] VIE[13:00-15:50]"
         }
       ]
     },
@@ -251,9 +213,7 @@
           "grupo": 1,
           "profesor": "GONZALEZ RAMIREZ MARIO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -266,9 +226,7 @@
           "grupo": 1,
           "profesor": "GONZALEZ RAMIREZ MARIO",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-19:50]"
         }
       ]
     },
@@ -281,9 +239,7 @@
           "grupo": 1,
           "profesor": "GRANADOS GOMEZ DONALD",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -296,17 +252,13 @@
           "grupo": 1,
           "profesor": "GRANADOS GOMEZ DONALD",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]"
         },
         {
           "grupo": 2,
           "profesor": "MOREIRA ACUÑA SILVIA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -319,9 +271,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ CASTRO FRANKLIN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-12:20] MAR[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MAR[08:30-12:20]"
         }
       ]
     },
@@ -334,9 +284,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ CASTRO FRANKLIN",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-21:50]"
         }
       ]
     },
@@ -349,9 +297,7 @@
           "grupo": 1,
           "profesor": "MONTERO PIZARRO LEONARDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-11:20] JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20] JUE[08:30-11:20]"
         }
       ]
     },
@@ -364,17 +310,13 @@
           "grupo": 1,
           "profesor": "MONTERO PIZARRO LEONARDO",
           "modalidad": "Semipresencial",
-          "horario": "LUN[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "MONTERO PIZARRO LEONARDO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         }
       ]
     },
@@ -387,9 +329,7 @@
           "grupo": 1,
           "profesor": "MONTERO PIZARRO LEONARDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -402,17 +342,13 @@
           "grupo": 1,
           "profesor": "MORALES RODRIGUEZ PAULA",
           "modalidad": "Semipresencial",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 2,
           "profesor": "MORALES RODRIGUEZ PAULA",
           "modalidad": "Semipresencial",
-          "horario": "VIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:30-11:20]"
         }
       ]
     },
@@ -425,9 +361,7 @@
           "grupo": 1,
           "profesor": "MORALES RODRIGUEZ PAULA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[08:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-10:20]"
         }
       ]
     },
@@ -440,9 +374,7 @@
           "grupo": 1,
           "profesor": "MOREIRA ACUÑA SILVIA",
           "modalidad": "Semipresencial",
-          "horario": "JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-10:20]"
         }
       ]
     },
@@ -455,17 +387,13 @@
           "grupo": 1,
           "profesor": "RAMIREZ CHACON FERNANDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         },
         {
           "grupo": 2,
           "profesor": "RAMIREZ CHACON FERNANDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[16:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:00-18:50]"
         }
       ]
     },
@@ -478,9 +406,7 @@
           "grupo": 1,
           "profesor": "SANCHEZ BRENES OLGA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20]"
         }
       ]
     },
@@ -493,17 +419,13 @@
           "grupo": 1,
           "profesor": "SANCHEZ BRENES OLGA",
           "modalidad": "Semipresencial",
-          "horario": "JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "SANCHEZ BRENES OLGA",
           "modalidad": "Semipresencial",
-          "horario": "VIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:30-11:20]"
         }
       ]
     },
@@ -516,9 +438,7 @@
           "grupo": 1,
           "profesor": "SEGURA SOLIS DAVID",
           "modalidad": "Semipresencial",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         }
       ]
     },
@@ -531,9 +451,7 @@
           "grupo": 1,
           "profesor": "SEGURA SOLIS DAVID",
           "modalidad": "Semipresencial",
-          "horario": "JUE[18:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-19:50]"
         }
       ]
     },
@@ -546,17 +464,13 @@
           "grupo": 1,
           "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
           "modalidad": "Semipresencial",
-          "horario": "VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-14:50]"
         }
       ]
     },
@@ -569,17 +483,13 @@
           "grupo": 1,
           "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 2,
           "profesor": "VALVERDE SOLANO MARIA DEL CARMEN",
           "modalidad": "Semipresencial",
-          "horario": "VIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:30-11:20]"
         }
       ]
     },
@@ -592,9 +502,7 @@
           "grupo": 1,
           "profesor": "VARELA SOJO XINIA",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-21:50]"
         }
       ]
     },
@@ -607,9 +515,7 @@
           "grupo": 1,
           "profesor": "VARELA SOJO XINIA",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-19:50]"
         }
       ]
     },
@@ -622,9 +528,7 @@
           "grupo": 1,
           "profesor": "WALSH ZUÑIGA YOSELYN",
           "modalidad": "Virtual",
-          "horario": "VIE[18:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[18:00-19:50]"
         }
       ]
     }

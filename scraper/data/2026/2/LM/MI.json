@@ -15,9 +15,7 @@
           "grupo": 61,
           "profesor": "GUZMAN CONEJO JOSHUA",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 60,
           "profesor": "MORERA HIDALGO JULIO",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     }

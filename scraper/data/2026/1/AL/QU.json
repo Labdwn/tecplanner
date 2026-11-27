@@ -15,25 +15,19 @@
           "grupo": 91,
           "profesor": "ARAYA CARVAJAL FABIO",
           "modalidad": "Regular",
-          "horario": "VIE[10:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[10:00-11:50]"
         },
         {
           "grupo": 90,
           "profesor": "SANCHEZ KOPPER ANDRES",
           "modalidad": "Regular",
-          "horario": "VIE[08:00-09:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:00-09:50]"
         },
         {
           "grupo": 92,
           "profesor": "SANCHEZ KOPPER ANDRES",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-14:50]"
         }
       ]
     },
@@ -46,17 +40,13 @@
           "grupo": 90,
           "profesor": "ARAYA CARVAJAL FABIO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         },
         {
           "grupo": 91,
           "profesor": "ARAYA CARVAJAL FABIO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:00-10:50] VIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:00-10:50] VIE[15:00-16:50]"
         }
       ]
     }

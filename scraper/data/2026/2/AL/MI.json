@@ -15,17 +15,13 @@
           "grupo": 20,
           "profesor": "OTAROLA ZUÑIGA CARLOS",
           "modalidad": "Regular",
-          "horario": "JUE[07:00-10:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:00-10:50]"
         },
         {
           "grupo": 21,
           "profesor": "OTAROLA ZUÑIGA CARLOS",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     }

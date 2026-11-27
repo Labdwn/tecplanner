@@ -1,0 +1,23 @@
+{
+  "codigoEscuela": "CD",
+  "nombreEscuela": "ESCUELA DE CULTURA Y DEPORTE",
+  "codigoSede": "SJ",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN JOSE",
+  "anio": 2026,
+  "periodo": "1V",
+  "cursos": [
+    {
+      "codigo": "SE1218",
+      "nombre": "Ajedrez",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "CORDERO MAROTO NELSON",
+          "modalidad": "Regular",
+          "horario": "MIE[09:30-12:20] JUE[09:30-12:20]"
+        }
+      ]
+    }
+  ]
+}

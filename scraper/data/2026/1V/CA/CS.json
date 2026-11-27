@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ALVAREZ HERNANDEZ MARIAM",
           "modalidad": "Virtual",
-          "horario": "LUN[08:30-11:20] MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-11:20] MAR[08:30-11:20]"
         }
       ]
     },
@@ -30,25 +28,19 @@
           "grupo": 2,
           "profesor": "CARMONA PINEDA MAIRIM",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-12:20] MIE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20]"
         },
         {
           "grupo": 1,
           "profesor": "MESEN MONTENEGRO VLADIMIR",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]"
         },
         {
           "grupo": 3,
           "profesor": "ROJAS MOLINA BETSY",
           "modalidad": "Virtual",
-          "horario": "MIE[08:30-11:20] JUE[08:30-11:20] VIE[08:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20] JUE[08:30-11:20] VIE[08:30-10:20]"
         }
       ]
     },
@@ -61,25 +53,19 @@
           "grupo": 2,
           "profesor": "CASASOLA RIVERA WILMER",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-12:20] MIE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20]"
         },
         {
           "grupo": 1,
           "profesor": "GARRO REYES MAURICIO",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-11:20] MIE[08:30-11:20] VIE[08:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20] MIE[08:30-11:20] VIE[08:30-10:20]"
         },
         {
           "grupo": 3,
           "profesor": "VARGAS ELIZONDO CELSO",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50] MAR[18:00-20:50] MIE[18:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50] MAR[18:00-20:50] MIE[18:00-19:50]"
         }
       ]
     },
@@ -92,9 +78,7 @@
           "grupo": 1,
           "profesor": "PRENDAS SOLANO JORGE",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] JUE[08:30-12:20]"
         }
       ]
     },
@@ -107,9 +91,7 @@
           "grupo": 1,
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50] JUE[13:00-16:50]"
         }
       ]
     }

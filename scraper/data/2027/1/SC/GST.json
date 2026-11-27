@@ -1,0 +1,153 @@
+{
+  "codigoEscuela": "GST",
+  "nombreEscuela": "GESTIÓN EN SOSTENIBILIDAD TURÍSTICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2027,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "TR1132",
+      "nombre": "Legislación turística de Costa Rica",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ARIAS SOSA LUIS ALBAN",
+          "modalidad": "Regular",
+          "horario": "MAR[13:25-16:05]"
+        }
+      ]
+    },
+    {
+      "codigo": "ST3002",
+      "nombre": "Historia del desarrollo de modelos turísticos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CALVO QUIROS ANGELINE",
+          "modalidad": "Regular",
+          "horario": "MAR[07:55-11:30]"
+        }
+      ]
+    },
+    {
+      "codigo": "TR3211",
+      "nombre": "Gestión ambiental y turismo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CALVO QUIROS ANGELINE",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-17:00]"
+        }
+      ]
+    },
+    {
+      "codigo": "TR1131",
+      "nombre": "Introducción a la gestión del turismo",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "CESPEDES OBANDO FRANCISCO",
+          "modalidad": "Regular",
+          "horario": "LUN[07:55-10:35]"
+        }
+      ]
+    },
+    {
+      "codigo": "TR3331",
+      "nombre": "Formulación y metodologías proyectos turísticos",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "FERNANDEZ MORA LADY",
+          "modalidad": "Regular",
+          "horario": "MIE[07:55-11:30]"
+        }
+      ]
+    },
+    {
+      "codigo": "ST2001",
+      "nombre": "Introducción a la economía del turismo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ MURILLO DANIEL",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-11:30]"
+        }
+      ]
+    },
+    {
+      "codigo": "ST2003",
+      "nombre": "Metodologías de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "PEREZ MURILLO DANIEL",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-11:30]"
+        }
+      ]
+    },
+    {
+      "codigo": "ST3004",
+      "nombre": "Diseño de productos turísticos sostenibles",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "SANCHO JIMENEZ LUIS FELIPE",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-16:05]"
+        }
+      ]
+    },
+    {
+      "codigo": "ST1001",
+      "nombre": "Herramientas tecnológicas para el turismo",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "JUE[16:10-19:45]"
+        }
+      ]
+    },
+    {
+      "codigo": "ST3003",
+      "nombre": "Tics aplicadas al turismo",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05]"
+        }
+      ]
+    },
+    {
+      "codigo": "TR4131",
+      "nombre": "Patrimonio turístico rural",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": null,
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-17:00]"
+        }
+      ]
+    }
+  ]
+}

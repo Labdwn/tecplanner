@@ -15,9 +15,7 @@
           "grupo": 60,
           "profesor": "CAMPOS AGUERO CRISTIAN",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 60,
           "profesor": "MIRANDA FAJARDO JEAN CARLOS",
           "modalidad": "Virtual",
-          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-12:20] MIE[08:30-12:20] JUE[08:30-11:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 60,
           "profesor": "RODRIGUEZ DAVILA ALLAN",
           "modalidad": "Virtual",
-          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] JUE[13:00-15:50]"
         }
       ]
     }

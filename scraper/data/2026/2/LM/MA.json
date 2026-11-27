@@ -15,17 +15,13 @@
           "grupo": 60,
           "profesor": "LOPEZ MORA VERONICA",
           "modalidad": "Grupo RN",
-          "horario": "MAR[09:30-12:20] JUE[10:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20] JUE[10:30-12:20]"
         },
         {
           "grupo": 61,
           "profesor": "WYNTA BANTON RANDY YADIR",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-12:20] JUE[10:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20] JUE[10:30-12:20]"
         }
       ]
     },
@@ -38,9 +34,7 @@
           "grupo": 60,
           "profesor": "LOPEZ MORA VERONICA",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -53,17 +47,13 @@
           "grupo": 61,
           "profesor": "SOTO CASCANTE EMANUELLE",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-10:20]"
         },
         {
           "grupo": 60,
           "profesor": "WYNTA BANTON RANDY YADIR",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-12:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20] VIE[09:30-11:20]"
         }
       ]
     },
@@ -76,9 +66,7 @@
           "grupo": 60,
           "profesor": "SOTO CASCANTE EMANUELLE",
           "modalidad": "Semipresencial",
-          "horario": "MAR[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-21:50]"
         }
       ]
     },
@@ -91,9 +79,7 @@
           "grupo": 60,
           "profesor": "SOTO CASCANTE EMANUELLE",
           "modalidad": "Regular",
-          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
         }
       ]
     },
@@ -106,9 +92,7 @@
           "grupo": 60,
           "profesor": "SOTO CASCANTE EMANUELLE",
           "modalidad": "Semipresencial",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -121,9 +105,7 @@
           "grupo": 60,
           "profesor": "WYNTA BANTON RANDY YADIR",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     }

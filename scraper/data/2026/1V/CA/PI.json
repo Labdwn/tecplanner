@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ALEGRIA GRANADOS MELISSA",
           "modalidad": "Regular",
-          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]"
         }
       ]
     },
@@ -29,10 +27,8 @@
         {
           "grupo": 1,
           "profesor": "ARIAS RAMIREZ DENNIS",
-          "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "modalidad": "Virtual",
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "BRENES BONILLA JARY",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "BRENES MORALES ORLANDO",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "CORDOBA GONZALEZ CARLOS MANUEL",
           "modalidad": "Regular",
-          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "DANIELS CHAN ESTEBAN",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50] JUE[13:00-16:50] VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50] JUE[13:00-16:50] VIE[13:00-15:50]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 1,
           "profesor": "FONSECA RETANA LEONEL",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MAR[07:30-11:20] MIE[07:30-10:20]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 1,
           "profesor": "GARCES MONGE LUIS IGNACIO",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20] VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20] VIE[07:30-11:20]"
         }
       ]
     },
@@ -135,17 +119,13 @@
           "grupo": 1,
           "profesor": "MADRIZ QUIROS CARMEN",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20] MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20] VIE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "SALAS CERDAS LISS",
           "modalidad": "Regular",
-          "horario": "LUN[13:00-16:50] MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50]"
         }
       ]
     },
@@ -158,9 +138,7 @@
           "grupo": 1,
           "profesor": "SILES SOLANO ANA CATALINA",
           "modalidad": "Virtual",
-          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]"
         }
       ]
     }

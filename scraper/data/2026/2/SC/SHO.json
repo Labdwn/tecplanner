@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "AGUERO HERNANDEZ ANA LAURA",
           "modalidad": "Virtual",
-          "horario": "MAR[07:55-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-10:35]"
         }
       ]
     }

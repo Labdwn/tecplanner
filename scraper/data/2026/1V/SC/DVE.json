@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "HERRERA CORDERO SERGIO",
           "modalidad": "Virtual",
-          "horario": "LUN[08:50-11:30] MAR[08:50-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:50-11:30] MAR[08:50-11:30]"
         }
       ]
     }

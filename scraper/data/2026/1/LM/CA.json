@@ -15,9 +15,7 @@
           "grupo": 60,
           "profesor": "ALVARADO CAMPOS LEISTER FRANCISCO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 60,
           "profesor": "ALVARADO CAMPOS LEISTER FRANCISCO",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -45,25 +41,19 @@
           "grupo": 61,
           "profesor": "CAMPOS AGUERO CRISTIAN",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
         },
         {
           "grupo": 60,
           "profesor": "MIRANDA FAJARDO JEAN CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
         },
         {
           "grupo": 62,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -76,17 +66,13 @@
           "grupo": 61,
           "profesor": "CAMPOS AGUERO CRISTIAN",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         },
         {
           "grupo": 60,
           "profesor": "MIRANDA FAJARDO JEAN CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         }
       ]
     },
@@ -99,9 +85,7 @@
           "grupo": 60,
           "profesor": "CAMPOS AGUERO CRISTIAN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -114,9 +98,7 @@
           "grupo": 60,
           "profesor": "CAMPOS AGUILAR JOSE ANGEL",
           "modalidad": "Regular",
-          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]"
         }
       ]
     },
@@ -129,9 +111,7 @@
           "grupo": 60,
           "profesor": "CAMPOS AGUILAR JOSE ANGEL",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -144,9 +124,7 @@
           "grupo": 60,
           "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
           "modalidad": "Semipresencial",
-          "horario": "SAB[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[08:30-12:20]"
         }
       ]
     },
@@ -159,9 +137,7 @@
           "grupo": 60,
           "profesor": "GODINEZ BENAVIDES JOHEL",
           "modalidad": "Virtual",
-          "horario": "JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-20:50]"
         }
       ]
     },
@@ -174,9 +150,7 @@
           "grupo": 60,
           "profesor": "MATA RODRIGUEZ WILLIAM",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -189,9 +163,7 @@
           "grupo": 60,
           "profesor": "MORA FONSECA DAVID RICARDO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
         }
       ]
     },
@@ -204,9 +176,7 @@
           "grupo": 60,
           "profesor": "MORA FONSECA DAVID RICARDO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -219,9 +189,7 @@
           "grupo": 60,
           "profesor": "MORA FONSECA DAVID RICARDO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -234,9 +202,7 @@
           "grupo": 60,
           "profesor": "NOGUERA MENA LUIS DIEGO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         }
       ]
     },
@@ -249,9 +215,7 @@
           "grupo": 60,
           "profesor": "PECOU JOHNSON JOSS",
           "modalidad": "Regular",
-          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-18:50] VIE[17:00-18:50]"
         }
       ]
     },
@@ -264,9 +228,7 @@
           "grupo": 60,
           "profesor": "RODRIGUEZ DAVILA ALLAN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[10:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[10:30-12:20]"
         }
       ]
     },
@@ -279,9 +241,7 @@
           "grupo": 60,
           "profesor": "RODRIGUEZ DAVILA ALLAN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[08:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[08:30-10:20]"
         }
       ]
     },
@@ -294,9 +254,7 @@
           "grupo": 60,
           "profesor": "RODRIGUEZ DAVILA ALLAN",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -309,9 +267,7 @@
           "grupo": 60,
           "profesor": "SOTO CHAVES LUIS PABLO",
           "modalidad": "Semipresencial",
-          "horario": "SAB[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[08:30-12:20]"
         }
       ]
     },
@@ -324,9 +280,7 @@
           "grupo": 60,
           "profesor": "VEGA DIAZ JEAN",
           "modalidad": "Regular",
-          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-18:50] JUE[17:00-18:50]"
         }
       ]
     }

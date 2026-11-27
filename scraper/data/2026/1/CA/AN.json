@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "BLANCO LEITON HAROL",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-19:50]"
         }
       ]
     },
@@ -30,17 +28,13 @@
           "grupo": 1,
           "profesor": "BRENES NAVARRO DAVID HUMBERTO",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "GAMBOA MURILLO MARIANELA",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 1,
           "profesor": "CALDERON CERDAS RUBEN ALFONSO",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -68,9 +60,7 @@
           "grupo": 1,
           "profesor": "CAMPOS RODRIGUEZ ROOEL",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -83,9 +73,7 @@
           "grupo": 1,
           "profesor": "CHAVES ABARCA RANDALL",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -98,9 +86,7 @@
           "grupo": 1,
           "profesor": "CHAVES ABARCA RANDALL",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -113,9 +99,7 @@
           "grupo": 1,
           "profesor": "CHAVES ABARCA RANDALL",
           "modalidad": "Regular",
-          "horario": "LUN[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-12:20]"
         }
       ]
     },
@@ -128,9 +112,7 @@
           "grupo": 1,
           "profesor": "GAMBOA MURILLO MARIANELA",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-17:50]"
         }
       ]
     },
@@ -143,9 +125,7 @@
           "grupo": 1,
           "profesor": "GOMEZ CORDOBA CARLOS EDUARDO",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -158,9 +138,7 @@
           "grupo": 1,
           "profesor": "GUADAMUZ MAYORGA CAROLINA",
           "modalidad": "Asistida",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -173,17 +151,13 @@
           "grupo": 1,
           "profesor": "MONGE GONZALEZ MANUEL",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "MONGE GONZALEZ MANUEL",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -196,9 +170,7 @@
           "grupo": 1,
           "profesor": "MONGE GONZALEZ MANUEL",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -211,9 +183,7 @@
           "grupo": 1,
           "profesor": "THAMES RAMIREZ KARLA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -226,9 +196,7 @@
           "grupo": 1,
           "profesor": "UREÑA JIMENEZ RONALD ANDREY",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -241,9 +209,7 @@
           "grupo": 1,
           "profesor": "VAQUERANO PINEDA FELIPE",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -256,9 +222,7 @@
           "grupo": 1,
           "profesor": "VAQUERANO PINEDA FELIPE",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         }
       ]
     },
@@ -271,9 +235,7 @@
           "grupo": 1,
           "profesor": "VILLAREAL MARCHENA TANIA",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -286,9 +248,7 @@
           "grupo": 1,
           "profesor": "VILLAREAL MARCHENA TANIA",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     }

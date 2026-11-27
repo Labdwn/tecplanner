@@ -15,9 +15,7 @@
           "grupo": 40,
           "profesor": "BOGARIN MARIN MILENE",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 40,
           "profesor": "JIMENEZ RODRIGUEZ ROXANA",
           "modalidad": "Virtual",
-          "horario": "LUN[17:30-20:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:30-20:15]"
         }
       ]
     }

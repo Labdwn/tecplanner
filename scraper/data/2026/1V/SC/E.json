@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "CASTRO BADILLA GUILLERMO",
           "modalidad": "Virtual",
-          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]"
         }
       ]
     },
@@ -30,9 +28,20 @@
           "grupo": 50,
           "profesor": "RIVERA ALVARADO ERNESTO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[12:30-16:05] MIE[12:30-16:05] JUE[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05] MIE[12:30-16:05] JUE[12:30-15:10]"
+        }
+      ]
+    },
+    {
+      "codigo": "EL3216",
+      "nombre": "Circuitos integrados analógicos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RIVERA ALVARADO JAVIER",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[10:40-15:10] MIE[08:50-16:05] JUE[08:50-16:05]"
         }
       ]
     }

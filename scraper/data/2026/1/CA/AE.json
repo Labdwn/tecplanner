@@ -15,25 +15,19 @@
           "grupo": 1,
           "profesor": "ARAYA LEANDRO ARNOLDO",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "ARAYA LEANDRO ARNOLDO",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "HERNANDEZ RAMIREZ MANRIQUE",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -46,17 +40,13 @@
           "grupo": 1,
           "profesor": "ARAYA LEANDRO ARNOLDO",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         },
         {
           "grupo": 2,
           "profesor": "SANCHEZ RAMIREZ VANESSA",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20]"
         }
       ]
     },
@@ -69,25 +59,19 @@
           "grupo": 3,
           "profesor": "ARCE GUTIERREZ SUSAN",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         },
         {
           "grupo": 2,
           "profesor": "MARTINEZ VILLAVICENCIO JOSE",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         },
         {
           "grupo": 1,
           "profesor": "NUÑEZ ARGUEDAS EVELYN",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -100,49 +84,37 @@
           "grupo": 2,
           "profesor": "BRENES CERVANTES IVANNIA",
           "modalidad": "Regular",
-          "horario": "MAR[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50]"
         },
         {
           "grupo": 6,
           "profesor": "FAITH VARGAS MARGIE",
           "modalidad": "Virtual",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         },
         {
           "grupo": 5,
           "profesor": "GARITA GRANADOS CARLA",
           "modalidad": "Semipresencial",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         },
         {
           "grupo": 4,
           "profesor": "GUZMAN RIVERA DIEGO ANDRES",
           "modalidad": "Regular",
-          "horario": "JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-20:50]"
         },
         {
           "grupo": 3,
           "profesor": "LEANDRO ELIZONDO RONALD",
           "modalidad": "Semipresencial",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         },
         {
           "grupo": 1,
           "profesor": "POVEDA MORA JHONNY",
           "modalidad": "Regular",
-          "horario": "LUN[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-21:50]"
         }
       ]
     },
@@ -155,33 +127,25 @@
           "grupo": 4,
           "profesor": "BRENES SANCHEZ RONALD",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "GUILLEN MIRANDA ERICK",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 2,
           "profesor": "MAROTO CALVO OSCAR",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         },
         {
           "grupo": 1,
           "profesor": "POVEDA MORA JHONNY",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]"
         }
       ]
     },
@@ -194,25 +158,19 @@
           "grupo": 1,
           "profesor": "BRENES SANCHEZ RONALD",
           "modalidad": "Semipresencial",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "BRENES SANCHEZ RONALD",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "ROBERT BARRANTES CYNTHIA",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -225,33 +183,25 @@
           "grupo": 3,
           "profesor": "CARMONA CHAVES JORGE",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "CORDERO GALLARDO GRETTEL",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 1,
           "profesor": "ORTEGA BRENES JUAN CARLOS",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         },
         {
           "grupo": 4,
           "profesor": "VALERIN CASTRO ALEXANDER",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -264,25 +214,19 @@
           "grupo": 3,
           "profesor": "CERVANTES MEZA ALBERTO",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         },
         {
           "grupo": 1,
           "profesor": "PRADO ARROYO JOSE",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "RUIZ NAVARRO MARLON",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     },
@@ -295,17 +239,13 @@
           "grupo": 1,
           "profesor": "CHAVARRIA HIDALGO CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "MORA ESQUIVEL RONALD",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -318,25 +258,19 @@
           "grupo": 1,
           "profesor": "CHAVARRIA HIDALGO CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "TIFFER SOTOMAYOR HAYDEE CELINA",
           "modalidad": "Semipresencial",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         }
       ]
     },
@@ -349,25 +283,19 @@
           "grupo": 2,
           "profesor": "CORTES MIXTER JULIO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         },
         {
           "grupo": 1,
           "profesor": "ORTIZ ACUÑA CINDY",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "ORTIZ ACUÑA CINDY",
           "modalidad": "Semipresencial",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -380,33 +308,25 @@
           "grupo": 2,
           "profesor": "CUBILLO SALAS GUSTAVO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "GUZMAN RIVERA DIEGO ANDRES",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         },
         {
           "grupo": 1,
           "profesor": "TENORIO SANCHEZ ANA PATRICIA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         },
         {
           "grupo": 4,
           "profesor": "TENORIO SANCHEZ ANA PATRICIA",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -419,25 +339,19 @@
           "grupo": 3,
           "profesor": "DE LA O CORDERO DYALA",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 1,
           "profesor": "PRADO ARROYO JOSE",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-10:20]"
         },
         {
           "grupo": 2,
           "profesor": "SOJO CASTRO MARJORIE",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-10:20]"
         }
       ]
     },
@@ -450,9 +364,7 @@
           "grupo": 1,
           "profesor": "DE LA O CORDERO DYALA",
           "modalidad": "Regular",
-          "horario": "MAR[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50]"
         }
       ]
     },
@@ -465,33 +377,25 @@
           "grupo": 5,
           "profesor": "DIAZ GUTIERREZ CARLOS",
           "modalidad": "Regular",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-19:50]"
         },
         {
           "grupo": 1,
           "profesor": "GONZALEZ ESPINOZA MANUEL",
           "modalidad": "Regular",
-          "horario": "LUN[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-19:50]"
         },
         {
           "grupo": 2,
           "profesor": "MARTINEZ GUTIERREZ BERNAL",
           "modalidad": "Regular",
-          "horario": "MAR[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-19:50]"
         },
         {
           "grupo": 3,
           "profesor": "MARTINEZ SOLIS KELLER",
           "modalidad": "Virtual",
-          "horario": "MIE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-10:20]"
         }
       ]
     },
@@ -504,25 +408,19 @@
           "grupo": 1,
           "profesor": "FERRETO GUTIERREZ EUGENIA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "FERRETO GUTIERREZ EUGENIA",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "MONGE MATA CECILIA",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -535,17 +433,13 @@
           "grupo": 2,
           "profesor": "FERRETO GUTIERREZ EUGENIA",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         },
         {
           "grupo": 1,
           "profesor": "LEIVA BONILLA JUAN CARLOS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20]"
         }
       ]
     },
@@ -558,9 +452,7 @@
           "grupo": 1,
           "profesor": "GUZMAN RIVERA DIEGO ANDRES",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -573,25 +465,19 @@
           "grupo": 1,
           "profesor": "LEANDRO ELIZONDO RONALD",
           "modalidad": "Semipresencial",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "LEANDRO ELIZONDO RONALD",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "LOPEZ FALLAS BRYAN",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -604,25 +490,19 @@
           "grupo": 1,
           "profesor": "MARTINEZ GUTIERREZ BERNAL",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "MORA CRUZ ALEXANDRA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "PEREZ GUTIERREZ ALEXANDER",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-21:50]"
         }
       ]
     },
@@ -635,9 +515,7 @@
           "grupo": 1,
           "profesor": "MARTINEZ MORA MARCO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -650,9 +528,7 @@
           "grupo": 1,
           "profesor": "MASIS ARCE ALEJANDRO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -665,9 +541,7 @@
           "grupo": 1,
           "profesor": "ORTIZ ACUÑA CINDY",
           "modalidad": "Semipresencial",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -680,17 +554,13 @@
           "grupo": 1,
           "profesor": "SANABRIA COTO CRISTIAN",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 2,
           "profesor": "THAMES RAMIREZ KARLA",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     }

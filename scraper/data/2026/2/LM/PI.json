@@ -15,9 +15,7 @@
           "grupo": 60,
           "profesor": "CUBILLO MORALES DANIER",
           "modalidad": "Regular",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 60,
           "profesor": "CUBILLO MORALES DANIER",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 60,
           "profesor": "CUBILLO MORALES DANIER",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 60,
           "profesor": "ESPINOZA RODRIGUEZ FABIANA",
           "modalidad": "Regular",
-          "horario": "MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 60,
           "profesor": "ESPINOZA RODRIGUEZ FABIANA",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 60,
           "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 60,
           "profesor": "FARAH GUZMAN BILJHANA SHAKIRA",
           "modalidad": "Virtual",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 60,
           "profesor": "GARITA ALPIZAR PABLO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -135,9 +119,7 @@
           "grupo": 60,
           "profesor": "MADRIZ QUIROS CARMEN",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         }
       ]
     },
@@ -150,9 +132,7 @@
           "grupo": 60,
           "profesor": "MITCHELL RILEY MARIO",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         }
       ]
     }

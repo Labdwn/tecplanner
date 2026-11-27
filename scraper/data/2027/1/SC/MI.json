@@ -1,0 +1,35 @@
+{
+  "codigoEscuela": "MI",
+  "nombreEscuela": "ESCUELA DE INGENIERIA ELECTROMECANICA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2027,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "MI2101",
+      "nombre": "Dibujo técnico",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 51,
+          "profesor": "GUZMAN CONEJO JOSHUA",
+          "modalidad": "Semipresencial",
+          "horario": "MAR[12:30-16:05]"
+        },
+        {
+          "grupo": 52,
+          "profesor": "GUZMAN CONEJO JOSHUA",
+          "modalidad": "Semipresencial",
+          "horario": "MIE[07:55-11:30]"
+        },
+        {
+          "grupo": 50,
+          "profesor": "UREÑA SANDI NOEL",
+          "modalidad": "Virtual",
+          "horario": "MAR[07:55-11:30]"
+        }
+      ]
+    }
+  ]
+}

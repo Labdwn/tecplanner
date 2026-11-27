@@ -15,17 +15,13 @@
           "grupo": 1,
           "profesor": "ALPIZAR CHAVES LAURA",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-21:50]"
         },
         {
           "grupo": 2,
           "profesor": "TORRES CARBALLO FEDERICO",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-21:50]"
         }
       ]
     },
@@ -38,33 +34,25 @@
           "grupo": 3,
           "profesor": "ARTAVIA JIMENEZ MARIA JOSE",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         },
         {
           "grupo": 4,
           "profesor": "MORALES RODRIGUEZ NESTOR",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-09:20] MIE[07:30-09:20]"
         },
         {
           "grupo": 1,
           "profesor": "SOTO CHAVES LUIS PABLO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         },
         {
           "grupo": 2,
           "profesor": "SOTO CHAVES LUIS PABLO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -77,33 +65,25 @@
           "grupo": 3,
           "profesor": "ARTAVIA JIMENEZ MARIA JOSE",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         },
         {
           "grupo": 4,
           "profesor": "MORALES RODRIGUEZ NESTOR",
           "modalidad": "Semipresencial",
-          "horario": "LUN[09:30-11:20] MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-11:20] MIE[09:30-11:20]"
         },
         {
           "grupo": 1,
           "profesor": "SOTO CHAVES LUIS PABLO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "SOTO CHAVES LUIS PABLO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -116,9 +96,7 @@
           "grupo": 1,
           "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -131,9 +109,7 @@
           "grupo": 1,
           "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -146,17 +122,13 @@
           "grupo": 1,
           "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50]"
         },
         {
           "grupo": 2,
           "profesor": "GONZALEZ QUESADA MELVIN",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         }
       ]
     },
@@ -169,9 +141,7 @@
           "grupo": 1,
           "profesor": "CHAVARRIA SANCHEZ LUIS JAVIER",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         }
       ]
     },
@@ -184,17 +154,13 @@
           "grupo": 1,
           "profesor": "DELGADO LEANDRO GONZALO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "DELGADO LEANDRO GONZALO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -207,9 +173,7 @@
           "grupo": 1,
           "profesor": "DELGADO LEANDRO GONZALO",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50]"
         }
       ]
     },
@@ -222,9 +186,7 @@
           "grupo": 1,
           "profesor": "DELGADO LEANDRO GONZALO",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -237,25 +199,19 @@
           "grupo": 3,
           "profesor": "GAMBOA CUBERO LUIS MAURICIO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-20:50]"
         },
         {
           "grupo": 1,
           "profesor": "MORA GONZALEZ SONIA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         },
         {
           "grupo": 2,
           "profesor": "PICADO VALVERDE LUIS FELIPE",
           "modalidad": "Semipresencial",
-          "horario": "MAR[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50]"
         }
       ]
     },
@@ -268,9 +224,7 @@
           "grupo": 1,
           "profesor": "GONZALEZ QUESADA MELVIN",
           "modalidad": "Virtual",
-          "horario": "JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-20:50]"
         }
       ]
     },
@@ -283,17 +237,13 @@
           "grupo": 1,
           "profesor": "LEIVA CHINCHILLA PEDRO IGNACIO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "LEIVA CHINCHILLA PEDRO IGNACIO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -306,9 +256,7 @@
           "grupo": 1,
           "profesor": "LEIVA CHINCHILLA PEDRO IGNACIO",
           "modalidad": "Virtual",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         }
       ]
     },
@@ -321,9 +269,7 @@
           "grupo": 1,
           "profesor": "MORA GONZALEZ SONIA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -336,9 +282,7 @@
           "grupo": 1,
           "profesor": "MORALES RODRIGUEZ NESTOR",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -351,9 +295,7 @@
           "grupo": 1,
           "profesor": "MORALES RODRIGUEZ NESTOR",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-19:50]"
         }
       ]
     },
@@ -366,9 +308,7 @@
           "grupo": 1,
           "profesor": "PICADO VALVERDE LUIS FELIPE",
           "modalidad": "Semipresencial",
-          "horario": "LUN[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-21:50]"
         }
       ]
     },
@@ -381,9 +321,7 @@
           "grupo": 1,
           "profesor": "SANCHEZ SOTO MICHAEL",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         }
       ]
     },
@@ -396,9 +334,7 @@
           "grupo": 1,
           "profesor": "SANDOVAL SANCHEZ YARIMA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         }
       ]
     },
@@ -411,9 +347,7 @@
           "grupo": 1,
           "profesor": "SEGREDA JOHANNING JUAN ANDRES",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -426,9 +360,7 @@
           "grupo": 1,
           "profesor": "SEGREDA JOHANNING JUAN ANDRES",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-21:50]"
         }
       ]
     },
@@ -441,9 +373,7 @@
           "grupo": 1,
           "profesor": "SEGREDA JOHANNING JUAN ANDRES",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-21:50]"
         }
       ]
     },
@@ -456,17 +386,13 @@
           "grupo": 1,
           "profesor": "SOLIS CESPEDES JACQUELINE",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         },
         {
           "grupo": 2,
           "profesor": "SOLIS CESPEDES JACQUELINE",
           "modalidad": "Semipresencial",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -479,9 +405,7 @@
           "grupo": 1,
           "profesor": "TORRES CARBALLO FEDERICO",
           "modalidad": "Semipresencial",
-          "horario": "LUN[18:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-21:50]"
         }
       ]
     },
@@ -494,17 +418,13 @@
           "grupo": 1,
           "profesor": "UMAÑA CENTENO GABRIEL",
           "modalidad": "Semipresencial",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "UMAÑA CENTENO GABRIEL",
           "modalidad": "Semipresencial",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         }
       ]
     },
@@ -517,9 +437,7 @@
           "grupo": 1,
           "profesor": "ZUÑIGA SEGURA LORENA",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -532,17 +450,13 @@
           "grupo": 1,
           "profesor": "ZUÑIGA SEGURA LORENA",
           "modalidad": "Virtual",
-          "horario": "VIE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:30-12:20]"
         },
         {
           "grupo": 2,
           "profesor": "ZUÑIGA SEGURA LORENA",
           "modalidad": "Virtual",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         }
       ]
     },
@@ -555,9 +469,7 @@
           "grupo": 1,
           "profesor": "ZUÑIGA SEGURA LORENA",
           "modalidad": "Virtual",
-          "horario": "MIE[08:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-12:20]"
         }
       ]
     }

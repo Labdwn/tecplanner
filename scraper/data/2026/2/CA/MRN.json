@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ARIAS AGUILAR  DAGOBERTO",
           "modalidad": "Semipresencial",
-          "horario": "VIE[17:00-21:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:00-21:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "ARIAS AGUILAR  DAGOBERTO",
           "modalidad": "Semipresencial",
-          "horario": "SAB[13:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[13:00-17:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "ARIAS ZUÑIGA ANA LORENA",
           "modalidad": "Semipresencial",
-          "horario": "SAB[13:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[13:00-17:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "GUEVARA RODRIGUEZ GREGORIO",
           "modalidad": "Semipresencial",
-          "horario": "SAB[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-12:20]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "RODRIGUEZ MOLINA DANIEL",
           "modalidad": "Semipresencial",
-          "horario": "SAB[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-12:20]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "TORRES CONTRERAS ANGELICA",
           "modalidad": "Semipresencial",
-          "horario": "VIE[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-12:20]"
         }
       ]
     }

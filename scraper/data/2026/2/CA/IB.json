@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ALVARADO MARCHENA LUIS FERNANDO",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-18:50] MIE[17:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-18:50] MIE[17:00-18:50]"
         }
       ]
     },
@@ -30,41 +28,31 @@
           "grupo": 5,
           "profesor": "ALVARADO ULLOA CARLOS",
           "modalidad": "Laboratorio",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "BARRIENTOS ALFARO FRANK CARLOS",
           "modalidad": "Laboratorio",
-          "horario": "JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-20:50]"
         },
         {
           "grupo": 4,
           "profesor": "GARRO MONGE GEOVANNY",
           "modalidad": "Laboratorio",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "MURILLO VEGA FRANCINIE",
           "modalidad": "Laboratorio",
-          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50] JUE[13:00-16:50]"
         },
         {
           "grupo": 1,
           "profesor": "SALAS ARIAS KARLA MELISSA",
           "modalidad": "Laboratorio",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         }
       ]
     },
@@ -77,9 +65,7 @@
           "grupo": 1,
           "profesor": "ALVARADO ULLOA CARLOS",
           "modalidad": "Regular",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-19:50]"
         }
       ]
     },
@@ -92,17 +78,13 @@
           "grupo": 1,
           "profesor": "BARBOZA FALLAS LUIS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[17:00-19:50] MAR[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-19:50] MAR[17:00-19:50]"
         },
         {
           "grupo": 2,
           "profesor": "BARBOZA FALLAS LUIS",
           "modalidad": "Semipresencial",
-          "horario": "MIE[17:00-19:50] MIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50] MIE[17:00-19:50]"
         }
       ]
     },
@@ -115,9 +97,7 @@
           "grupo": 1,
           "profesor": "BRENES MADRIZ  JAIME",
           "modalidad": "Regular",
-          "horario": "LUN[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-11:20]"
         }
       ]
     },
@@ -130,25 +110,19 @@
           "grupo": 1,
           "profesor": "BRENES MADRIZ  JAIME",
           "modalidad": "Laboratorio",
-          "horario": "JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "BRENES MADRIZ  JAIME",
           "modalidad": "Laboratorio",
-          "horario": "VIE[08:30-11:20] VIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:30-11:20] VIE[08:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "RIVERA MENDEZ WILLIAM EDUARDO",
           "modalidad": "Laboratorio",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         }
       ]
     },
@@ -161,9 +135,7 @@
           "grupo": 1,
           "profesor": "CALVO CASTRO LAURA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[08:30-11:20] LUN[08:30-11:20] LUN[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:30-11:20] LUN[08:30-11:20] LUN[08:30-11:20]"
         }
       ]
     },
@@ -176,25 +148,19 @@
           "grupo": 3,
           "profesor": "CARVAJAL ALFARO VANESSA",
           "modalidad": "Regular",
-          "horario": "JUE[16:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[16:00-18:50]"
         },
         {
           "grupo": 1,
           "profesor": "CHAVARRIA PIZARRO LAURA",
           "modalidad": "Regular",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "CHAVARRIA PIZARRO LAURA",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         }
       ]
     },
@@ -207,9 +173,7 @@
           "grupo": 1,
           "profesor": "CASTRO PIEDRA SILVIA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -222,9 +186,7 @@
           "grupo": 1,
           "profesor": "CENTENO CERDAS CAROLINA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20]"
         }
       ]
     },
@@ -237,25 +199,19 @@
           "grupo": 1,
           "profesor": "CENTENO CERDAS CAROLINA",
           "modalidad": "Laboratorio",
-          "horario": "JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "ROJAS CHAVES MIGUEL",
           "modalidad": "Laboratorio",
-          "horario": "JUE[16:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[16:00-18:50]"
         },
         {
           "grupo": 2,
           "profesor": "VILLALTA ROMERO FABIAN",
           "modalidad": "Laboratorio",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         }
       ]
     },
@@ -268,17 +224,13 @@
           "grupo": 1,
           "profesor": "CHACON CERDAS RANDALL",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-10:20] JUE[08:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-10:20] JUE[08:30-10:20]"
         },
         {
           "grupo": 2,
           "profesor": "CHACON CERDAS RANDALL",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] MIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] MIE[13:00-14:50]"
         }
       ]
     },
@@ -291,9 +243,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ CARVAJAL ERICK",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         }
       ]
     },
@@ -306,9 +256,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ CARVAJAL ERICK",
           "modalidad": "Semipresencial",
-          "horario": "MAR[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[08:30-11:20]"
         }
       ]
     },
@@ -321,41 +269,31 @@
           "grupo": 5,
           "profesor": "HERNANDEZ CARVAJAL ERICK",
           "modalidad": "Laboratorio",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         },
         {
           "grupo": 2,
           "profesor": "PERAZA MORAGA JOHNNY",
           "modalidad": "Laboratorio",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "PERAZA MORAGA JOHNNY",
           "modalidad": "Laboratorio",
-          "horario": "JUE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-20:50]"
         },
         {
           "grupo": 1,
           "profesor": "VALERIN BERROCAL KARLA",
           "modalidad": "Laboratorio",
-          "horario": "JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-11:20]"
         },
         {
           "grupo": 4,
           "profesor": "VALERIN BERROCAL KARLA",
           "modalidad": "Laboratorio",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     },
@@ -368,9 +306,7 @@
           "grupo": 1,
           "profesor": "JARQUIN CORDERO MONSERRAT",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -383,25 +319,19 @@
           "grupo": 1,
           "profesor": "MENESES MONTERO KARLA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "MONTERO CAMPOS VIRGINIA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 3,
           "profesor": "MONTERO CAMPOS VIRGINIA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[16:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:00-18:50]"
         }
       ]
     },
@@ -414,9 +344,7 @@
           "grupo": 1,
           "profesor": "RIVAS SOLANO OLGA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         }
       ]
     },
@@ -429,17 +357,13 @@
           "grupo": 1,
           "profesor": "ROSALES LOPEZ CATALINA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 2,
           "profesor": "ROSALES LOPEZ CATALINA",
           "modalidad": "Semipresencial",
-          "horario": "VIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[08:30-11:20]"
         }
       ]
     },
@@ -452,25 +376,19 @@
           "grupo": 1,
           "profesor": "SCHMIDT DURAN ALEXANDER",
           "modalidad": "Laboratorio",
-          "horario": "JUE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "SCHMIDT DURAN ALEXANDER",
           "modalidad": "Laboratorio",
-          "horario": "JUE[16:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[16:00-18:50]"
         },
         {
           "grupo": 2,
           "profesor": "SOLERA STELLER PAOLA MARIA",
           "modalidad": "Laboratorio",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         }
       ]
     }

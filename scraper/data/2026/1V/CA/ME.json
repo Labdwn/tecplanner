@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "BENAVIDES RAMIREZ WILLIAM JESUS",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20] MIE[07:30-11:20]"
         }
       ]
     },
@@ -30,17 +28,13 @@
           "grupo": 1,
           "profesor": "CHINE POLITO BRUNO",
           "modalidad": "Virtual",
-          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MAR[13:00-16:50] MIE[13:00-15:50]"
         },
         {
           "grupo": 2,
           "profesor": "QUESADA MARTINEZ ADRIAN",
           "modalidad": "Virtual",
-          "horario": "MIE[07:30-10:20] JUE[07:30-11:20] VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-10:20] JUE[07:30-11:20] VIE[07:30-11:20]"
         }
       ]
     },
@@ -53,17 +47,13 @@
           "grupo": 1,
           "profesor": "DITTEL MEZA FERNANDO",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-10:20] JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20] JUE[07:30-10:20]"
         },
         {
           "grupo": 2,
           "profesor": "DITTEL MEZA FERNANDO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50] JUE[13:00-15:50]"
         }
       ]
     }

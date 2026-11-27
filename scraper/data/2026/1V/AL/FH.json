@@ -15,9 +15,20 @@
           "grupo": 20,
           "profesor": "BOGARIN MARIN MILENE",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:50] JUE[18:00-20:50] VIE[18:00-20:50] SAB[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50] JUE[18:00-20:50] VIE[18:00-20:50] SAB[18:00-20:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "FH0173",
+      "nombre": "Situación energética mundial. Opciones de Costa Rica a corto y mediano plazo",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "CARVAJAL ALFARO VANESSA",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:00-12:50] JUE[09:00-12:50] VIE[09:00-12:50] SAB[09:00-12:50]"
         }
       ]
     },
@@ -30,9 +41,7 @@
           "grupo": 20,
           "profesor": "FLORES LOAIZA JUAN PABLO",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]"
         }
       ]
     },
@@ -45,9 +54,7 @@
           "grupo": 20,
           "profesor": "GODINEZ ROJAS PAULETTE",
           "modalidad": "Virtual",
-          "horario": "MAR[09:00-11:50] MIE[09:00-11:50] JUE[09:00-11:50] VIE[09:00-11:50] SAB[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:00-11:50] JUE[09:00-11:50] VIE[09:00-11:50] SAB[09:00-11:50]"
         }
       ]
     },
@@ -60,9 +67,7 @@
           "grupo": 20,
           "profesor": "RIOS SANCHEZ ARMANDO",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50] JUE[17:00-20:50] VIE[17:00-20:50]"
         }
       ]
     },
@@ -75,9 +80,20 @@
           "grupo": 20,
           "profesor": "RODRIGUEZ HERRA NATALIA",
           "modalidad": "Virtual",
-          "horario": "MIE[09:00-11:50] JUE[09:00-11:50] VIE[09:00-11:50] SAB[09:00-11:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:00-11:50] JUE[09:00-11:50] VIE[09:00-11:50] SAB[09:00-11:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "FH0051",
+      "nombre": "La bomba atómica en Hiroshima y Nagasaki y los esfuerzos de desarme",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 20,
+          "profesor": "SEQUEIRA CASTRO DAVID",
+          "modalidad": "Virtual",
+          "horario": "MIE[09:00-12:50] JUE[09:00-12:50] VIE[09:00-12:50]"
         }
       ]
     },
@@ -90,9 +106,7 @@
           "grupo": 20,
           "profesor": "SEQUEIRA CASTRO DAVID",
           "modalidad": "Virtual",
-          "horario": "MIE[09:00-12:50] JUE[09:00-12:50] VIE[09:00-12:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:00-12:50] JUE[09:00-12:50] VIE[09:00-12:50]"
         }
       ]
     }

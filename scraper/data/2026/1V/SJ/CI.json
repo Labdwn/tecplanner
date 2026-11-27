@@ -15,9 +15,7 @@
           "grupo": 40,
           "profesor": "MOLINA VILLALOBOS TANIA",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-11:20] JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20] JUE[07:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 40,
           "profesor": "QUIROS LEIVA RANDALL",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] JUE[13:00-16:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 40,
           "profesor": "RODRIGUEZ HERRA NATALIA",
           "modalidad": "Regular",
-          "horario": "LUN[13:00-16:50] MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50] MIE[13:00-16:50]"
         }
       ]
     }

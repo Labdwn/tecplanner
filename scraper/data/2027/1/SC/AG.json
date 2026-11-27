@@ -1,0 +1,347 @@
+{
+  "codigoEscuela": "AG",
+  "nombreEscuela": "ESCUELA INGENIERIA EN AGRONOMIA",
+  "codigoSede": "SC",
+  "nombreSede": "CAMPUS TECNOLOGICO LOCAL SAN CARLOS",
+  "anio": 2027,
+  "periodo": "1",
+  "cursos": [
+    {
+      "codigo": "AG1002",
+      "nombre": "Introducción a plagas agropecuarias",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-18:50] JUE[07:00-07:50] MAR[16:10-18:50] JUE[07:00-07:50]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-18:50] JUE[08:50-09:40] MAR[16:10-18:50] JUE[08:50-09:40]"
+        },
+        {
+          "grupo": 52,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "MAR[16:10-18:50] JUE[10:40-11:30] MAR[16:10-18:50] JUE[10:40-11:30]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG1003",
+      "nombre": "Introducción a la agronomía",
+      "creditos": 1,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
+        },
+        {
+          "grupo": 52,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
+        },
+        {
+          "grupo": 53,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
+        },
+        {
+          "grupo": 54,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3219",
+      "nombre": "Protección de cultivos I",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-11:30] MIE[07:00-11:30] MIE[07:00-11:30]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-14:15] MIE[07:00-14:15] MIE[07:00-14:15]"
+        },
+        {
+          "grupo": 52,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-16:05] MIE[07:00-16:05] MIE[07:00-16:05]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG4702",
+      "nombre": "Seminario especializado",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "DURAN MORA JOAQUIN",
+          "modalidad": "Regular",
+          "horario": "LUN[16:10-19:45]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3220",
+      "nombre": "Manejo de suelos",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ESQUIVEL SEGURA EDWIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-11:30]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "ESQUIVEL SEGURA EDWIN",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-14:15]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG5700",
+      "nombre": "Sistemas de producción frutícola",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "FALLAS ALVAREZ ERICK",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-11:30]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "FALLAS ALVAREZ ERICK",
+          "modalidad": "Regular",
+          "horario": "MIE[07:00-14:15]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3106",
+      "nombre": "Sanidad animal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "GALINDO BADILLA JAIME",
+          "modalidad": "Regular",
+          "horario": "MAR[15:15-17:55] JUE[07:00-08:45]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "GALINDO BADILLA JAIME",
+          "modalidad": "Enseñanza remota",
+          "horario": "MAR[15:15-17:55] JUE[09:45-11:30]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG5701",
+      "nombre": "Sistemas de producción porcina",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MADRIGAL VALVERDE MONICA",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-11:30]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3222",
+      "nombre": "Mejoramiento genético agropecuario",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MONTERO CARMONA WAINER",
+          "modalidad": "Regular",
+          "horario": "JUE[12:30-18:50] JUE[12:30-18:50]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MONTERO CARMONA WAINER",
+          "modalidad": "Regular",
+          "horario": "JUE[14:20-18:50] JUE[14:20-18:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG5222",
+      "nombre": "Seminario de trabajos finales de graduación",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MONTERO CARMONA WAINER",
+          "modalidad": "Regular",
+          "horario": "MAR[12:30-16:05] MAR[12:30-16:05]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3306",
+      "nombre": "Agromática I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "MORALES ARIAS JONATHAN",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-09:40]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "MORALES ARIAS JONATHAN",
+          "modalidad": "Regular",
+          "horario": "JUE[16:10-18:50]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG2701",
+      "nombre": "Administración agropecuaria I",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "OBANDO ULLOA JAVIER",
+          "modalidad": "Regular",
+          "horario": "MIE[12:30-16:05]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG5221",
+      "nombre": "Manejo y comercialización de productos agropecuarios",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "OBANDO ULLOA JAVIER",
+          "modalidad": "Regular",
+          "horario": "JUE[14:20-17:55] JUE[14:20-17:55]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG2102",
+      "nombre": "Nutrición animal",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "OROZCO CORRALES CARLOS",
+          "modalidad": "Regular",
+          "horario": "LUN[08:50-14:15]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG4700",
+      "nombre": "Sistema de producción hortícola",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RAMIREZ VARGAS CARLOS VINICIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-11:30]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "RAMIREZ VARGAS CARLOS VINICIO",
+          "modalidad": "Regular",
+          "horario": "MAR[07:00-14:15]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG4701",
+      "nombre": "Sistemas de producción de bovinos de carne",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "RODRIGUEZ GONZALEZ JULIO",
+          "modalidad": "Regular",
+          "horario": "JUE[07:00-11:30]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG5405",
+      "nombre": "Preparación y evaluación proyectos agropecuarios",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "ROJAS SEGURA JAVIER",
+          "modalidad": "Regular",
+          "horario": "JUE[07:55-13:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG3221",
+      "nombre": "Riego y drenaje",
+      "creditos": 2,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "SALAZAR MORERA RODOLFO",
+          "modalidad": "Regular",
+          "horario": "SAB[07:00-09:40]"
+        },
+        {
+          "grupo": 51,
+          "profesor": "SALAZAR MORERA RODOLFO",
+          "modalidad": "Regular",
+          "horario": "SAB[09:45-13:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "AG2304",
+      "nombre": "Agroestadística I",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 50,
+          "profesor": "VEGA ALFARO ANDREY",
+          "modalidad": "Regular",
+          "horario": "LUN[07:00-11:30]"
+        }
+      ]
+    }
+  ]
+}

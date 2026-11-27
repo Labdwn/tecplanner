@@ -15,9 +15,7 @@
           "grupo": 40,
           "profesor": "RIOS SANCHEZ ARMANDO",
           "modalidad": "Virtual",
-          "horario": "SAB[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[08:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 40,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         }
       ]
     }

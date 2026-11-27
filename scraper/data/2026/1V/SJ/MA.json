@@ -15,9 +15,7 @@
           "grupo": 40,
           "profesor": "CHINCHILLA VALVERDE JORGE LUIS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-12:20] MIE[07:30-12:20] JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-12:20] MIE[07:30-12:20] JUE[07:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 40,
           "profesor": "ESQUIVEL SAMUDIO JEISON",
           "modalidad": "Semipresencial",
-          "horario": "MAR[17:30-21:05] MIE[17:30-21:05] JUE[17:30-20:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-20:15] MIE[17:30-20:15] JUE[17:30-20:15] VIE[17:30-19:10]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 40,
           "profesor": "JIMENEZ MADRIGAL JORGE",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-17:30] MIE[13:00-17:30] JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-17:30] MIE[13:00-17:30] JUE[13:00-16:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 40,
           "profesor": "LOPEZ MORA VERONICA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 40,
           "profesor": "MORA CASASOLA MARIA FERNANDA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 40,
           "profesor": "PAEZ PAEZ CRISTIAN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-11:20] MIE[07:30-11:20] JUE[07:30-10:20]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 40,
           "profesor": "PARRA SALAZAR EDWARD",
           "modalidad": "Semipresencial",
-          "horario": "MAR[17:30-21:05] MIE[17:30-21:05] JUE[17:30-20:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-20:15] MIE[17:30-20:15] JUE[17:30-20:15] VIE[17:30-19:10]"
         }
       ]
     },
@@ -120,9 +106,7 @@
           "grupo": 40,
           "profesor": "RAMIREZ BOGANTES MELVIN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[17:30-21:05] MIE[17:30-21:05] JUE[17:30-20:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-20:15] MIE[17:30-20:15] JUE[17:30-20:15] VIE[17:30-19:10]"
         }
       ]
     },
@@ -135,9 +119,7 @@
           "grupo": 40,
           "profesor": "RODRIGUEZ BUSTOS KENDALL",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -150,9 +132,7 @@
           "grupo": 40,
           "profesor": "RODRIGUEZ CASTRO BRYAN",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]"
         }
       ]
     }

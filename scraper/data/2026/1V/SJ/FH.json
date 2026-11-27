@@ -7,17 +7,15 @@
   "periodo": "1V",
   "cursos": [
     {
-      "codigo": "FH0227",
-      "nombre": "Estado o mercado: el origen de la discusión ideológica",
+      "codigo": "FH0025",
+      "nombre": "Sexualidad pareja y teoría psicosexual",
       "creditos": 0,
       "grupos": [
         {
           "grupo": 40,
-          "profesor": "BOJORGE MURILLO ALEXANDER",
+          "profesor": "ACUÑA AVALOS PAOLA",
           "modalidad": "Virtual",
-          "horario": "MIE[16:00-19:10] JUE[16:00-19:10] VIE[16:00-19:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:20-21:55] JUE[18:20-21:55] VIE[18:20-21:55]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 40,
           "profesor": "CARVAJAL ALFARO VANESSA",
           "modalidad": "Virtual",
-          "horario": "MIE[14:00-16:50] JUE[14:00-16:50] VIE[14:00-16:50] SAB[14:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[14:00-16:50] JUE[14:00-16:50] VIE[14:00-16:50] SAB[14:00-16:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 40,
           "profesor": "GUILLEN MARTINEZ LUIS DIEGO",
           "modalidad": "Virtual",
-          "horario": "MIE[18:20-21:05] JUE[18:20-21:05] VIE[18:20-21:05] SAB[18:20-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:20-21:05] JUE[18:20-21:05] VIE[18:20-21:05] SAB[18:20-21:05]"
         }
       ]
     },
@@ -60,9 +54,20 @@
           "grupo": 40,
           "profesor": "JIMENEZ RODRIGUEZ ROXANA",
           "modalidad": "Virtual",
-          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-11:20] JUE[07:30-11:20] VIE[07:30-11:20]"
+        }
+      ]
+    },
+    {
+      "codigo": "FH0011",
+      "nombre": "La revolución científica del siglo XVI y XVII",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "SEQUEIRA CASTRO DAVID",
+          "modalidad": "Virtual",
+          "horario": "MIE[17:30-21:05] JUE[17:30-21:05] VIE[17:30-21:05]"
         }
       ]
     },
@@ -75,9 +80,20 @@
           "grupo": 40,
           "profesor": "SOLANO SOLANO JOSE EDUARDO",
           "modalidad": "Virtual",
-          "horario": "MIE[17:30-20:15] JUE[17:30-20:15] VIE[17:30-20:15] SAB[17:30-20:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:30-20:15] JUE[17:30-20:15] VIE[17:30-20:15] SAB[17:30-20:15]"
+        }
+      ]
+    },
+    {
+      "codigo": "FH0210",
+      "nombre": "Sexo y erotismo en la literatura",
+      "creditos": 0,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "ZUÑIGA RIVERA MONICA",
+          "modalidad": "Virtual",
+          "horario": "MIE[13:00-16:50] JUE[13:00-16:50] VIE[13:00-16:50] SAB[13:00-16:50]"
         }
       ]
     }

@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "CHAVARRIA ZAMORA LUIS",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:30-10:20] MIE[07:30-11:20] JUE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-10:20] MIE[07:30-11:20] JUE[07:30-11:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "LEITON JIMENEZ JASON",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MIE[13:00-16:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "RIVERA MENESES MARCO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[17:00-20:50] MIE[17:00-20:50] JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-20:50] MIE[17:00-20:50] JUE[17:00-19:50]"
         }
       ]
     }

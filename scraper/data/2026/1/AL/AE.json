@@ -15,9 +15,7 @@
           "grupo": 20,
           "profesor": "PEREZ OROZCO ALLAN JOSE",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50]"
         }
       ]
     }

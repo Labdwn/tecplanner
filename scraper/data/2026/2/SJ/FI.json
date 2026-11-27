@@ -15,17 +15,13 @@
           "grupo": 42,
           "profesor": "MURILLO QUIROS NATALIA",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         },
         {
           "grupo": 41,
           "profesor": "SOTO CHINCHILLA YERRY",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         }
       ]
     }

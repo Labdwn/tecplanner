@@ -15,17 +15,13 @@
           "grupo": 50,
           "profesor": "HERRERA CORDERO SERGIO",
           "modalidad": "Regular",
-          "horario": "JUE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:45-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "HERRERA CORDERO SERGIO",
           "modalidad": "Regular",
-          "horario": "MAR[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:45-11:30]"
         }
       ]
     },
@@ -38,9 +34,7 @@
           "grupo": 50,
           "profesor": "HERRERA CORDERO SERGIO",
           "modalidad": "Regular",
-          "horario": "MIE[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:10-17:55]"
         }
       ]
     },
@@ -53,9 +47,7 @@
           "grupo": 50,
           "profesor": "LARIOS CRUZ BORIS ALLAN",
           "modalidad": "Regular",
-          "horario": "MIE[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:10-17:55]"
         }
       ]
     },
@@ -68,17 +60,13 @@
           "grupo": 50,
           "profesor": "LARIOS CRUZ BORIS ALLAN",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-08:45]"
         },
         {
           "grupo": 51,
           "profesor": "RODRIGUEZ MORERA MARCIA",
           "modalidad": "Regular",
-          "horario": "MIE[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-08:45]"
         }
       ]
     },
@@ -91,9 +79,7 @@
           "grupo": 50,
           "profesor": "LARIOS CRUZ BORIS ALLAN",
           "modalidad": "Regular",
-          "horario": "MAR[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:10-17:55]"
         }
       ]
     },
@@ -106,9 +92,7 @@
           "grupo": 50,
           "profesor": "LEANDRO CHACON MARIA FRANCELA",
           "modalidad": "Regular",
-          "horario": "MIE[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:45-11:30]"
         }
       ]
     },
@@ -121,9 +105,7 @@
           "grupo": 50,
           "profesor": "LEANDRO CHACON MARIA FRANCELA",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-09:40]"
         }
       ]
     },
@@ -136,9 +118,7 @@
           "grupo": 50,
           "profesor": "LEANDRO CHACON MARIA FRANCELA",
           "modalidad": "Regular",
-          "horario": "MAR[16:10-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:10-17:55]"
         }
       ]
     },
@@ -151,9 +131,7 @@
           "grupo": 50,
           "profesor": "MENDEZ MENDEZ WILBERTH",
           "modalidad": "Regular",
-          "horario": "JUE[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:00-08:45]"
         }
       ]
     },
@@ -166,9 +144,7 @@
           "grupo": 50,
           "profesor": "MENDEZ MENDEZ WILBERTH",
           "modalidad": "Regular",
-          "horario": "LUN[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:45-11:30]"
         }
       ]
     },
@@ -181,9 +157,7 @@
           "grupo": 50,
           "profesor": "MENDEZ MENDEZ WILBERTH",
           "modalidad": "Regular",
-          "horario": "JUE[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[14:20-16:05]"
         }
       ]
     },
@@ -196,17 +170,13 @@
           "grupo": 50,
           "profesor": "QUIROS SALAZAR MARIA LORNA",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-09:40]"
         },
         {
           "grupo": 51,
           "profesor": "QUIROS SALAZAR MARIA LORNA",
           "modalidad": "Regular",
-          "horario": "LUN[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:45-11:30]"
         }
       ]
     },
@@ -219,9 +189,7 @@
           "grupo": 50,
           "profesor": "QUIROS SALAZAR MARIA LORNA",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-14:15]"
         }
       ]
     },
@@ -234,9 +202,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ MORERA MARCIA",
           "modalidad": "Regular",
-          "horario": "MAR[09:45-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:45-11:30]"
         }
       ]
     },
@@ -249,9 +215,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ MORERA MARCIA",
           "modalidad": "Regular",
-          "horario": "MAR[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[14:20-16:05]"
         }
       ]
     }

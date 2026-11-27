@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "ALEMAN GUTIERREZ ALVARO",
           "modalidad": "Regular",
-          "horario": "MIE[08:50-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:50-15:10]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "ARIAS ALPIZAR KEVIN RICARDO",
           "modalidad": "Grupo RN",
-          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-10:35]"
         }
       ]
     },
@@ -45,17 +41,13 @@
           "grupo": 50,
           "profesor": "CARRERA RETANA LUIS ERNESTO",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-09:40]"
         },
         {
           "grupo": 51,
           "profesor": "SABORIO CORDERO NATALIA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-09:40]"
         }
       ]
     },
@@ -68,9 +60,7 @@
           "grupo": 50,
           "profesor": "GONZALEZ VARGAS KARINA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30] MAR[07:55-11:30] MIE[07:55-10:35]"
         }
       ]
     },
@@ -83,9 +73,7 @@
           "grupo": 50,
           "profesor": "MEJIAS RAMIREZ ELVIS ANDRES",
           "modalidad": "Semipresencial",
-          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-11:30] MIE[07:55-11:30] JUE[07:55-10:35]"
         }
       ]
     },
@@ -98,9 +86,7 @@
           "grupo": 50,
           "profesor": "NAVARRO AGUIRRE JESSICA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[12:30-16:05] MAR[12:30-15:10] MIE[12:30-16:05] JUE[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[12:30-16:05] MAR[12:30-15:10] MIE[12:30-16:05] JUE[12:30-15:10]"
         }
       ]
     },
@@ -113,9 +99,7 @@
           "grupo": 50,
           "profesor": "TREJOS ARAYA CARLA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[17:55-20:35] MAR[17:55-20:35] MIE[17:55-19:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:55-20:35] MAR[17:55-20:35] MIE[17:55-19:40]"
         }
       ]
     }

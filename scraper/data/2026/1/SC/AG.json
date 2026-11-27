@@ -15,25 +15,19 @@
           "grupo": 50,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "JUE[07:00-10:35] JUE[07:00-10:35] JUE[07:00-10:35]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:00-10:35] JUE[07:00-10:35] JUE[07:00-10:35]"
         },
         {
           "grupo": 51,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "JUE[07:00-13:20] JUE[07:00-13:20] JUE[07:00-13:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:00-13:20] JUE[07:00-13:20] JUE[07:00-13:20]"
         },
         {
           "grupo": 52,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "JUE[07:00-15:10] JUE[07:00-15:10] JUE[07:00-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:00-15:10] JUE[07:00-15:10] JUE[07:00-15:10]"
         }
       ]
     },
@@ -46,41 +40,31 @@
           "grupo": 50,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
         },
         {
           "grupo": 51,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
         },
         {
           "grupo": 52,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
         },
         {
           "grupo": 53,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
         },
         {
           "grupo": 54,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40] LUN[07:00-09:40]"
         }
       ]
     },
@@ -93,25 +77,19 @@
           "grupo": 50,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "MIE[07:00-11:30] MIE[07:00-11:30] MIE[07:00-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-11:30] MIE[07:00-11:30] MIE[07:00-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "MIE[07:00-14:15] MIE[07:00-14:15] MIE[07:00-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-14:15] MIE[07:00-14:15] MIE[07:00-14:15]"
         },
         {
           "grupo": 52,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "MIE[07:00-16:05] MIE[07:00-16:05] MIE[07:00-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:00-16:05] MIE[07:00-16:05] MIE[07:00-16:05]"
         }
       ]
     },
@@ -124,9 +102,7 @@
           "grupo": 50,
           "profesor": "DURAN MORA JOAQUIN",
           "modalidad": "Regular",
-          "horario": "LUN[16:10-19:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-19:45]"
         }
       ]
     },
@@ -139,17 +115,13 @@
           "grupo": 50,
           "profesor": "ECHEVERRIA BEIRUTE FABIAN",
           "modalidad": "Regular",
-          "horario": "LUN[16:10-18:50] VIE[12:30-14:15] LUN[16:10-18:50] VIE[12:30-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-18:50] VIE[12:30-14:15] LUN[16:10-18:50] VIE[12:30-14:15]"
         },
         {
           "grupo": 51,
           "profesor": "ECHEVERRIA BEIRUTE FABIAN",
           "modalidad": "Regular",
-          "horario": "LUN[16:10-18:50] VIE[14:20-16:05] LUN[16:10-18:50] VIE[14:20-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-18:50] VIE[14:20-16:05] LUN[16:10-18:50] VIE[14:20-16:05]"
         }
       ]
     },
@@ -162,9 +134,7 @@
           "grupo": 50,
           "profesor": "ESQUIVEL SEGURA EDWIN",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30] JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30] JUE[07:55-11:30]"
         }
       ]
     },
@@ -177,17 +147,13 @@
           "grupo": 50,
           "profesor": "ESQUIVEL SEGURA EDWIN",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "ESQUIVEL SEGURA EDWIN",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-14:15]"
         }
       ]
     },
@@ -200,9 +166,7 @@
           "grupo": 50,
           "profesor": "ESQUIVEL SEGURA EDWIN",
           "modalidad": "Regular",
-          "horario": "MAR[14:20-17:55] MAR[14:20-17:55]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[14:20-17:55] MAR[14:20-17:55]"
         }
       ]
     },
@@ -215,9 +179,7 @@
           "grupo": 50,
           "profesor": "FALLAS ALVAREZ ERICK",
           "modalidad": "Regular",
-          "horario": "LUN[09:45-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:45-15:10]"
         }
       ]
     },
@@ -230,17 +192,13 @@
           "grupo": 50,
           "profesor": "GALINDO BADILLA JAIME",
           "modalidad": "Regular",
-          "horario": "JUE[07:00-18:50] JUE[07:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:00-18:50] JUE[07:00-18:50]"
         },
         {
           "grupo": 51,
           "profesor": "GALINDO BADILLA JAIME",
           "modalidad": "Regular",
-          "horario": "JUE[08:50-18:50] JUE[08:50-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[08:50-18:50] JUE[08:50-18:50]"
         }
       ]
     },
@@ -253,9 +211,7 @@
           "grupo": 50,
           "profesor": "GALINDO BADILLA JAIME",
           "modalidad": "Regular",
-          "horario": "MIE[07:55-14:15] MIE[07:55-14:15] MIE[07:55-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:55-14:15] MIE[07:55-14:15] MIE[07:55-14:15]"
         }
       ]
     },
@@ -268,9 +224,7 @@
           "grupo": 50,
           "profesor": "MONTERO CARMONA WAINER",
           "modalidad": "Regular",
-          "horario": "JUE[12:30-15:10] JUE[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[12:30-15:10] JUE[12:30-15:10]"
         }
       ]
     },
@@ -283,17 +237,13 @@
           "grupo": 50,
           "profesor": "MORALES ARIAS JONATHAN",
           "modalidad": "Regular",
-          "horario": "VIE[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:00-09:40]"
         },
         {
           "grupo": 51,
           "profesor": "MORALES ARIAS JONATHAN",
           "modalidad": "Regular",
-          "horario": "VIE[12:30-15:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[12:30-15:10]"
         }
       ]
     },
@@ -306,9 +256,7 @@
           "grupo": 50,
           "profesor": "OBANDO ULLOA JAVIER",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -321,9 +269,7 @@
           "grupo": 50,
           "profesor": "OBANDO ULLOA JAVIER",
           "modalidad": "Regular",
-          "horario": "MAR[13:25-17:00] MAR[13:25-17:00]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:25-17:00] MAR[13:25-17:00]"
         }
       ]
     },
@@ -336,17 +282,13 @@
           "grupo": 50,
           "profesor": "OROZCO CORRALES CARLOS",
           "modalidad": "Regular",
-          "horario": "LUN[08:50-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:50-14:15]"
         },
         {
           "grupo": 51,
           "profesor": "OROZCO CORRALES CARLOS",
           "modalidad": "Regular",
-          "horario": "LUN[08:50-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:50-16:05]"
         }
       ]
     },
@@ -359,17 +301,13 @@
           "grupo": 50,
           "profesor": "RAMIREZ VARGAS CARLOS VINICIO",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "RAMIREZ VARGAS CARLOS VINICIO",
           "modalidad": "Regular",
-          "horario": "MAR[07:00-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:00-14:15]"
         }
       ]
     },
@@ -382,9 +320,7 @@
           "grupo": 50,
           "profesor": "RODRIGUEZ GONZALEZ JULIO",
           "modalidad": "Regular",
-          "horario": "MIE[16:10-18:50] JUE[07:00-08:45]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:10-18:50] JUE[07:00-08:45]"
         }
       ]
     },
@@ -397,9 +333,7 @@
           "grupo": 50,
           "profesor": "ROJAS SEGURA JAVIER",
           "modalidad": "Regular",
-          "horario": "MAR[07:55-13:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:55-13:20]"
         }
       ]
     },
@@ -412,17 +346,13 @@
           "grupo": 50,
           "profesor": "SALAZAR MORERA RODOLFO",
           "modalidad": "Regular",
-          "horario": "SAB[07:00-09:40]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:00-09:40]"
         },
         {
           "grupo": 51,
           "profesor": "SALAZAR MORERA RODOLFO",
           "modalidad": "Regular",
-          "horario": "SAB[09:45-13:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[09:45-13:20]"
         }
       ]
     },
@@ -435,17 +365,13 @@
           "grupo": 50,
           "profesor": "VEGA ALFARO ANDREY",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-11:30]"
         },
         {
           "grupo": 51,
           "profesor": "VEGA ALFARO ANDREY",
           "modalidad": "Regular",
-          "horario": "LUN[07:00-14:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:00-14:15]"
         }
       ]
     }

@@ -15,17 +15,13 @@
           "grupo": 40,
           "profesor": "ABREGO CAMPOS LEONEL",
           "modalidad": "Regular",
-          "horario": "LUN[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:30-21:05]"
         },
         {
           "grupo": 41,
           "profesor": "MORA CRUZ ALEXANDRA",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50]"
         }
       ]
     },
@@ -38,17 +34,13 @@
           "grupo": 41,
           "profesor": "ACEVEDO WHITFORD OSCAR",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 40,
           "profesor": "BARBOZA DIAZ LINO",
           "modalidad": "Regular",
-          "horario": "MAR[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-21:05]"
         }
       ]
     },
@@ -61,9 +53,7 @@
           "grupo": 40,
           "profesor": "ARAYA LEANDRO ARNOLDO",
           "modalidad": "Regular",
-          "horario": "LUN[17:30-20:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:30-20:15]"
         }
       ]
     },
@@ -76,17 +66,13 @@
           "grupo": 40,
           "profesor": "BARBOZA DIAZ LINO",
           "modalidad": "Regular",
-          "horario": "LUN[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:30-21:05]"
         },
         {
           "grupo": 41,
           "profesor": "CARAZO AGUIRRE LUIS ALBERTO",
           "modalidad": "Regular",
-          "horario": "LUN[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50]"
         }
       ]
     },
@@ -99,17 +85,13 @@
           "grupo": 41,
           "profesor": "CERVANTES MEZA ALBERTO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 40,
           "profesor": "SOLANO MARTINEZ MAURICIO",
           "modalidad": "Regular",
-          "horario": "MAR[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-21:05]"
         }
       ]
     },
@@ -122,9 +104,7 @@
           "grupo": 40,
           "profesor": "CHAVARRIA HIDALGO CARLOS",
           "modalidad": "Regular",
-          "horario": "MIE[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:30-21:05]"
         }
       ]
     },
@@ -137,47 +117,7 @@
           "grupo": 40,
           "profesor": "DIAZ GUTIERREZ CARLOS",
           "modalidad": "Regular",
-          "horario": "MAR[17:30-21:05]",
-          "edificio": null,
-          "aula": null
-        }
-      ]
-    },
-    {
-      "codigo": "AE3505",
-      "nombre": "Metodología de la investigación",
-      "creditos": 3,
-      "grupos": [
-        {
-          "grupo": 41,
-          "profesor": "FAITH VARGAS MARGIE",
-          "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
-        },
-        {
-          "grupo": 40,
-          "profesor": "ROJAS SEGURA JAVIER",
-          "modalidad": "Regular",
-          "horario": "JUE[17:30-21:05]",
-          "edificio": null,
-          "aula": null
-        }
-      ]
-    },
-    {
-      "codigo": "AE4208",
-      "nombre": "Desarrollo de emprendedores",
-      "creditos": 4,
-      "grupos": [
-        {
-          "grupo": 40,
-          "profesor": "FAITH VARGAS MARGIE",
-          "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-21:05]"
         }
       ]
     },
@@ -190,17 +130,13 @@
           "grupo": 40,
           "profesor": "FERNANDEZ AGUILAR JADVY",
           "modalidad": "Regular",
-          "horario": "JUE[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:30-21:05]"
         },
         {
           "grupo": 41,
           "profesor": "MAROTO CALVO OSCAR",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -213,9 +149,7 @@
           "grupo": 40,
           "profesor": "FERNANDEZ AGUILAR JADVY",
           "modalidad": "Virtual",
-          "horario": "LUN[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:30-21:05]"
         }
       ]
     },
@@ -228,9 +162,20 @@
           "grupo": 40,
           "profesor": "GUILLEN MIRANDA ERICK",
           "modalidad": "Regular",
-          "horario": "VIE[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[17:30-21:05]"
+        }
+      ]
+    },
+    {
+      "codigo": "AE4208",
+      "nombre": "Desarrollo de emprendedores",
+      "creditos": 4,
+      "grupos": [
+        {
+          "grupo": 40,
+          "profesor": "JAUBERT SOLANO WILLIAM",
+          "modalidad": "Regular",
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -243,17 +188,32 @@
           "grupo": 41,
           "profesor": "MAROTO CALVO OSCAR",
           "modalidad": "Regular",
-          "horario": "LUN[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[13:00-16:50]"
         },
         {
           "grupo": 40,
           "profesor": "MONGE DAVANZO YAFANNY",
           "modalidad": "Regular",
-          "horario": "MAR[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-21:05]"
+        }
+      ]
+    },
+    {
+      "codigo": "AE3505",
+      "nombre": "Metodología de la investigación",
+      "creditos": 3,
+      "grupos": [
+        {
+          "grupo": 41,
+          "profesor": "MORA CRUZ DESIREE",
+          "modalidad": "Regular",
+          "horario": "MIE[13:00-16:50]"
+        },
+        {
+          "grupo": 40,
+          "profesor": "ROJAS SEGURA JAVIER",
+          "modalidad": "Regular",
+          "horario": "JUE[17:30-21:05]"
         }
       ]
     },
@@ -266,17 +226,13 @@
           "grupo": 41,
           "profesor": "NAVARRO CERDAS GUSTAVO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-16:50]"
         },
         {
           "grupo": 40,
           "profesor": "TENORIO SANCHEZ ANA PATRICIA",
           "modalidad": "Regular",
-          "horario": "MIE[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:30-21:05]"
         }
       ]
     },
@@ -289,9 +245,7 @@
           "grupo": 40,
           "profesor": "ROJAS ESQUIVEL ARMANDO",
           "modalidad": "Regular",
-          "horario": "LUN[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:30-21:05]"
         }
       ]
     },
@@ -304,9 +258,7 @@
           "grupo": 40,
           "profesor": "SOLIS RAMIREZ INGRID",
           "modalidad": "Regular",
-          "horario": "JUE[17:30-21:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:30-21:05]"
         }
       ]
     }

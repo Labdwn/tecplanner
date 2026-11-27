@@ -15,9 +15,7 @@
           "grupo": 35,
           "profesor": "CORDERO GARCIA IVAN GABRIEL",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 35,
           "profesor": "CORDERO GARCIA IVAN GABRIEL",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50] VIE[08:00-09:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[08:00-09:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 35,
           "profesor": "LACY MORA GERARDO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[08:00-09:50] VIE[08:00-09:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:00-09:50] VIE[08:00-09:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 35,
           "profesor": "LACY MORA GERARDO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50]"
         }
       ]
     }

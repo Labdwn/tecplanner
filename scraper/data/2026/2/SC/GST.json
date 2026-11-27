@@ -15,9 +15,7 @@
           "grupo": 50,
           "profesor": "CALVO QUIROS ANGELINE",
           "modalidad": "Regular",
-          "horario": "LUN[08:50-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[08:50-11:30]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 50,
           "profesor": "CESPEDES OBANDO FRANCISCO",
           "modalidad": "Regular",
-          "horario": "LUN[16:10-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[16:10-18:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 50,
           "profesor": "FERNANDEZ MORA LADY",
           "modalidad": "Regular",
-          "horario": "MIE[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[12:30-16:05]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 50,
           "profesor": "PEREZ MURILLO DANIEL",
           "modalidad": "Regular",
-          "horario": "LUN[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:55-11:30]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 50,
           "profesor": "PEREZ MURILLO DANIEL",
           "modalidad": "Regular",
-          "horario": "MAR[12:30-16:05]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[12:30-16:05]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 50,
           "profesor": "PEREZ MURILLO DANIEL",
           "modalidad": "Regular",
-          "horario": "JUE[07:55-11:30]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:55-11:30]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 50,
           "profesor": "SANCHO JIMENEZ LUIS FELIPE",
           "modalidad": "Regular",
-          "horario": "MIE[16:10-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:10-18:50]"
         }
       ]
     }

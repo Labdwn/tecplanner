@@ -15,33 +15,25 @@
           "grupo": 62,
           "profesor": "ARCE FUENTES JOSE DANIEL",
           "modalidad": "Regular",
-          "horario": "VIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-12:20]"
         },
         {
           "grupo": 63,
           "profesor": "ARCE FUENTES JOSE DANIEL",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-15:50]"
         },
         {
           "grupo": 60,
           "profesor": "ZUÑIGA RIVERA MONICA",
           "modalidad": "Regular",
-          "horario": "JUE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[15:00-17:50]"
         },
         {
           "grupo": 61,
           "profesor": "ZUÑIGA RIVERA MONICA",
           "modalidad": "Regular",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         }
       ]
     },
@@ -54,9 +46,7 @@
           "grupo": 60,
           "profesor": "BRENES ROJAS LEONARDO",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         }
       ]
     },
@@ -69,9 +59,7 @@
           "grupo": 60,
           "profesor": "BRENES ROJAS LEONARDO",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         }
       ]
     },
@@ -84,9 +72,7 @@
           "grupo": 60,
           "profesor": "BRENES ROJAS LEONARDO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         }
       ]
     },
@@ -99,9 +85,7 @@
           "grupo": 60,
           "profesor": "BRENES ROJAS LEONARDO",
           "modalidad": "Regular",
-          "horario": "MIE[18:00-21:50] SAB[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-21:50] SAB[15:00-16:50]"
         }
       ]
     }

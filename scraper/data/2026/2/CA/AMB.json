@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ACUÑA PIEDRA ANDREA",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50] MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50] MAR[13:00-16:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "ARAYA VARELA KAREN",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "ARIAS MONGE ESTEBAN DAVID",
           "modalidad": "Semipresencial",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "BARRIOS HERNANDEZ MARYLUZ",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "CABALLERO CHAVARRIA ANDREY",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-15:50] JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50] JUE[13:00-15:50]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "CABALLERO CHAVARRIA ANDREY",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-12:20] MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20] MIE[09:30-12:20]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 1,
           "profesor": "CAMPOS NAVARRO JUAN PABLO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50] MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50] MIE[13:00-15:50]"
         }
       ]
     },
@@ -120,17 +106,13 @@
           "grupo": 1,
           "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         },
         {
           "grupo": 2,
           "profesor": "CESPEDES CAMACHO ISAAC FABIAN",
           "modalidad": "Virtual",
-          "horario": "SAB[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[13:00-16:50]"
         }
       ]
     },
@@ -143,9 +125,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ PARRA DAVID",
           "modalidad": "Regular",
-          "horario": "MIE[16:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[16:00-18:50]"
         }
       ]
     },
@@ -158,9 +138,7 @@
           "grupo": 1,
           "profesor": "HERNANDEZ TORRES HAZEL MARIA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-19:50]"
         }
       ]
     },
@@ -173,9 +151,7 @@
           "grupo": 1,
           "profesor": "MASIS MELENDEZ FEDERICO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         }
       ]
     },
@@ -188,9 +164,7 @@
           "grupo": 1,
           "profesor": "MONTERO CAMPOS VIRGINIA",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         }
       ]
     },
@@ -203,9 +177,7 @@
           "grupo": 1,
           "profesor": "PICADO VALVERDE SOFIA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-20:50]"
         }
       ]
     },
@@ -218,9 +190,7 @@
           "grupo": 1,
           "profesor": "PINO GOMEZ MACARIO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-09:20] SAB[07:30-08:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-09:20] SAB[07:30-08:20]"
         }
       ]
     },
@@ -233,9 +203,7 @@
           "grupo": 1,
           "profesor": "PINO GOMEZ MACARIO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         }
       ]
     },
@@ -248,9 +216,7 @@
           "grupo": 1,
           "profesor": "QUESADA CARVAJAL LAURA",
           "modalidad": "Semipresencial",
-          "horario": "SAB[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-11:20]"
         }
       ]
     },
@@ -263,9 +229,7 @@
           "grupo": 1,
           "profesor": "ROMERO BLANCO ERIC",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -278,9 +242,7 @@
           "grupo": 1,
           "profesor": "ROMERO BLANCO ERIC",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -293,9 +255,7 @@
           "grupo": 1,
           "profesor": "SOTO MONTOYA CASIA",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-11:20]"
         }
       ]
     },
@@ -308,9 +268,7 @@
           "grupo": 1,
           "profesor": "STARBIRD PEREZ RICARDO",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         }
       ]
     },
@@ -323,9 +281,7 @@
           "grupo": 1,
           "profesor": "UMAÑA QUIROS BRAULIO",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -338,9 +294,7 @@
           "grupo": 1,
           "profesor": "VALERIO PEREZ LUIS GUILLERMO",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-16:50]"
         }
       ]
     },
@@ -353,9 +307,7 @@
           "grupo": 1,
           "profesor": "VALERIO PEREZ LUIS GUILLERMO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[07:30-08:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-08:20] JUE[07:30-09:20]"
         }
       ]
     }

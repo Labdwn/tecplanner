@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "LOBO ZAMORA JUAN CARLOS",
           "modalidad": "Virtual",
-          "horario": "LUN[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[17:00-19:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "RIVERA ROJAS FANNI",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50]"
         }
       ]
     }

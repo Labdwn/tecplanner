@@ -15,9 +15,7 @@
           "grupo": 40,
           "profesor": "ALVAREZ FIGUEROA ADRIANA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-09:20] VIE[07:30-09:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 40,
           "profesor": "ALVAREZ FIGUEROA ADRIANA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-11:20] VIE[09:30-11:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 40,
           "profesor": "ALVAREZ FIGUEROA ADRIANA",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-14:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 40,
           "profesor": "ALVAREZ FIGUEROA ADRIANA",
           "modalidad": "Virtual",
-          "horario": "LUN[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-09:20]"
         }
       ]
     },
@@ -75,25 +67,19 @@
           "grupo": 41,
           "profesor": "AVILES CISNEROS MAURICIO",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         },
         {
           "grupo": 42,
           "profesor": "MORA ROJAS DIEGO",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20] MAR[07:30-09:20] JUE[07:30-09:20]"
         },
         {
           "grupo": 40,
           "profesor": "SOLANO FERNANDEZ ERICKA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -106,17 +92,13 @@
           "grupo": 41,
           "profesor": "AVILES CISNEROS MAURICIO",
           "modalidad": "Regular",
-          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
         },
         {
           "grupo": 40,
           "profesor": "SOLANO FERNANDEZ ERICKA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -129,9 +111,7 @@
           "grupo": 41,
           "profesor": "AVILES CISNEROS MAURICIO",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         }
       ]
     },
@@ -144,9 +124,7 @@
           "grupo": 40,
           "profesor": "AVILES CISNEROS MAURICIO",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-14:50]"
         }
       ]
     },
@@ -159,9 +137,7 @@
           "grupo": 40,
           "profesor": "CANESSA MONTERO EDUARDO ADOLFO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -174,9 +150,7 @@
           "grupo": 40,
           "profesor": "CANESSA MONTERO EDUARDO ADOLFO",
           "modalidad": "Virtual",
-          "horario": "LUN[18:20-20:15] MIE[18:20-20:15]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:20-20:15] MIE[18:20-20:15]"
         }
       ]
     },
@@ -189,9 +163,7 @@
           "grupo": 40,
           "profesor": "CANESSA MONTERO EDUARDO ADOLFO",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         }
       ]
     },
@@ -204,9 +176,7 @@
           "grupo": 40,
           "profesor": "CASTRO MORA JOSE",
           "modalidad": "Regular",
-          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] JUE[07:30-09:20]"
         }
       ]
     },
@@ -219,9 +189,7 @@
           "grupo": 40,
           "profesor": "CASTRO MORA JOSE",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -234,9 +202,7 @@
           "grupo": 40,
           "profesor": "CASTRO MORA JOSE",
           "modalidad": "Semipresencial",
-          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
         }
       ]
     },
@@ -249,9 +215,7 @@
           "grupo": 40,
           "profesor": "HERNANDEZ BONILLA ERICK",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50] JUE[13:00-14:50]"
         }
       ]
     },
@@ -264,9 +228,7 @@
           "grupo": 40,
           "profesor": "MONTOYA POITEVIEN LUIS",
           "modalidad": "Regular",
-          "horario": "MAR[17:30-19:10] JUE[17:30-19:10]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:30-19:10] JUE[17:30-19:10]"
         }
       ]
     },
@@ -279,9 +241,7 @@
           "grupo": 40,
           "profesor": "MORA ZAMORA RODOLFO DE JESUS",
           "modalidad": "Regular",
-          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50] VIE[15:00-16:50]"
         }
       ]
     },
@@ -294,9 +254,7 @@
           "grupo": 40,
           "profesor": "MORA ZAMORA RODOLFO DE JESUS",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50] JUE[15:00-16:50]"
         }
       ]
     },
@@ -309,9 +267,7 @@
           "grupo": 40,
           "profesor": "MORA ZAMORA RODOLFO DE JESUS",
           "modalidad": "Virtual",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -324,9 +280,7 @@
           "grupo": 40,
           "profesor": "MORA ZAMORA RODOLFO DE JESUS",
           "modalidad": "Regular",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -339,9 +293,7 @@
           "grupo": 40,
           "profesor": "SOLANO FERNANDEZ ERICKA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-14:50] VIE[13:00-14:50]"
         }
       ]
     },
@@ -354,17 +306,13 @@
           "grupo": 40,
           "profesor": "TORRES ROJAS FRANCISCO JOSE",
           "modalidad": "Regular",
-          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[07:30-09:20] VIE[07:30-09:20]"
         },
         {
           "grupo": 41,
           "profesor": "TORRES ROJAS FRANCISCO JOSE",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20] VIE[09:30-11:20]"
         }
       ]
     },
@@ -377,9 +325,7 @@
           "grupo": 40,
           "profesor": "TORRES ROJAS FRANCISCO JOSE",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20] JUE[09:30-11:20]"
         }
       ]
     },
@@ -392,9 +338,7 @@
           "grupo": 40,
           "profesor": "TORRES ROJAS FRANCISCO JOSE",
           "modalidad": "Tutoría",
-          "horario": "MAR[07:30-09:20] MIE[09:30-11:20] JUE[07:30-09:20] VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[07:30-09:20] MIE[09:30-11:20] JUE[07:30-09:20] VIE[09:30-11:20]"
         }
       ]
     }

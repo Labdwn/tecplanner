@@ -15,57 +15,43 @@
           "grupo": 4,
           "profesor": "ACHOY HERNANDEZ ALEJANDRO",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 3,
           "profesor": "CALDERON FERREY MARTHA",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50]"
         },
         {
           "grupo": 7,
           "profesor": "CALDERON FERREY MARTHA",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         },
         {
           "grupo": 2,
           "profesor": "CHACON MATA ALFONSO",
           "modalidad": "Virtual",
-          "horario": "MIE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-17:50]"
         },
         {
           "grupo": 1,
           "profesor": "HASBUN DEL VALLE DANIEL",
           "modalidad": "Virtual",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         },
         {
           "grupo": 5,
           "profesor": "HASBUN DEL VALLE DANIEL",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50]"
         },
         {
           "grupo": 6,
           "profesor": "HASBUN DEL VALLE DANIEL",
           "modalidad": "Virtual",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-19:50]"
         }
       ]
     },
@@ -78,25 +64,19 @@
           "grupo": 2,
           "profesor": "ACHOY HERNANDEZ ALEJANDRO",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50]"
         },
         {
           "grupo": 3,
           "profesor": "PELAEZ GIL MARA CAROLINA",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50]"
         },
         {
           "grupo": 1,
           "profesor": "PETGRAVE BROWN LYANNETTE",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         }
       ]
     },
@@ -109,65 +89,49 @@
           "grupo": 1,
           "profesor": "ALVAREZ HERNANDEZ MARIAM",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         },
         {
           "grupo": 3,
           "profesor": "FALLAS VARGAS FABRICIO",
           "modalidad": "Virtual",
-          "horario": "VIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-12:20]"
         },
         {
           "grupo": 8,
           "profesor": "FALLAS VARGAS FABRICIO",
           "modalidad": "Regular",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 5,
           "profesor": "LEON RODRIGUEZ MARIA ELENA",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         },
         {
           "grupo": 6,
           "profesor": "LEON RODRIGUEZ MARIA ELENA",
           "modalidad": "Semipresencial",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 7,
           "profesor": "LEON RODRIGUEZ MARIA ELENA",
           "modalidad": "Semipresencial",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 2,
           "profesor": "ORTIZ ACUÑA LEONARDO",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         },
         {
           "grupo": 4,
           "profesor": "ORTIZ ACUÑA LEONARDO",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50]"
         }
       ]
     },
@@ -180,105 +144,79 @@
           "grupo": 7,
           "profesor": "ARIAS HIDALGO DAVID",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         },
         {
           "grupo": 4,
           "profesor": "CARMONA PINEDA MAIRIM",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50]"
         },
         {
           "grupo": 9,
           "profesor": "CARMONA PINEDA MAIRIM",
           "modalidad": "Virtual",
-          "horario": "JUE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[18:00-20:50]"
         },
         {
           "grupo": 11,
           "profesor": "EDUARTE RODRIGUEZ DAVID",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50]"
         },
         {
           "grupo": 12,
           "profesor": "FRANCESCHI SOJO KATTIA",
           "modalidad": "Virtual",
-          "horario": "JUE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-15:50]"
         },
         {
           "grupo": 6,
           "profesor": "MESEN MONTENEGRO VLADIMIR",
           "modalidad": "Virtual",
-          "horario": "VIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-12:20]"
         },
         {
           "grupo": 2,
           "profesor": "MOJICA MENDIETA FRANCISCO JAVIER",
           "modalidad": "Virtual",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         },
         {
           "grupo": 3,
           "profesor": "MOJICA MENDIETA FRANCISCO JAVIER",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         },
         {
           "grupo": 10,
           "profesor": "MOJICA MENDIETA FRANCISCO JAVIER",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 5,
           "profesor": "MORA SANCHEZ AMILKAR",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 13,
           "profesor": "MORA SANCHEZ AMILKAR",
           "modalidad": "Regular",
-          "horario": "MIE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-17:50]"
         },
         {
           "grupo": 1,
           "profesor": "ROJAS MOLINA BETSY",
           "modalidad": "Semipresencial",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         },
         {
           "grupo": 8,
           "profesor": "ROJAS MOLINA BETSY",
           "modalidad": "Semipresencial",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         }
       ]
     },
@@ -291,145 +229,109 @@
           "grupo": 5,
           "profesor": "BOJORGE MURILLO ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20]"
         },
         {
           "grupo": 7,
           "profesor": "BOJORGE MURILLO ALEXANDER",
           "modalidad": "Regular",
-          "horario": "LUN[18:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-19:50]"
         },
         {
           "grupo": 11,
           "profesor": "BOJORGE MURILLO ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MIE[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-16:50]"
         },
         {
           "grupo": 18,
           "profesor": "BOJORGE MURILLO ALEXANDER",
           "modalidad": "Regular",
-          "horario": "MAR[15:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[15:00-16:50]"
         },
         {
           "grupo": 1,
           "profesor": "EDUARTE RODRIGUEZ DAVID",
           "modalidad": "Regular",
-          "horario": "LUN[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-11:20]"
         },
         {
           "grupo": 6,
           "profesor": "EDUARTE RODRIGUEZ DAVID",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20]"
         },
         {
           "grupo": 2,
           "profesor": "GARRO REYES MAURICIO",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-09:20]"
         },
         {
           "grupo": 8,
           "profesor": "GARRO REYES MAURICIO",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-14:50]"
         },
         {
           "grupo": 12,
           "profesor": "GARRO REYES MAURICIO",
           "modalidad": "Regular",
-          "horario": "MIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-11:20]"
         },
         {
           "grupo": 14,
           "profesor": "MENESES MARIN GUILLERMO",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20]"
         },
         {
           "grupo": 16,
           "profesor": "MENESES MARIN GUILLERMO",
           "modalidad": "Regular",
-          "horario": "MAR[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-14:50]"
         },
         {
           "grupo": 17,
           "profesor": "MENESES MARIN GUILLERMO",
           "modalidad": "Regular",
-          "horario": "MAR[16:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[16:00-17:50]"
         },
         {
           "grupo": 4,
           "profesor": "MORA SANCHEZ AMILKAR",
           "modalidad": "Regular",
-          "horario": "VIE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[09:30-11:20]"
         },
         {
           "grupo": 9,
           "profesor": "MORA SANCHEZ AMILKAR",
           "modalidad": "Regular",
-          "horario": "MAR[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-11:20]"
         },
         {
           "grupo": 3,
           "profesor": "ORTIZ ACUÑA LEONARDO",
           "modalidad": "Regular",
-          "horario": "JUE[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-11:20]"
         },
         {
           "grupo": 10,
           "profesor": "ORTIZ ACUÑA LEONARDO",
           "modalidad": "Regular",
-          "horario": "LUN[09:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-11:20]"
         },
         {
           "grupo": 13,
           "profesor": "ORTIZ ACUÑA LEONARDO",
           "modalidad": "Regular",
-          "horario": "JUE[13:00-14:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[13:00-14:50]"
         },
         {
           "grupo": 15,
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Regular",
-          "horario": "JUE[07:30-09:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[07:30-09:20]"
         }
       ]
     },
@@ -442,25 +344,19 @@
           "grupo": 2,
           "profesor": "CALDERON FERREY MARTHA",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-20:50]"
         },
         {
           "grupo": 1,
           "profesor": "PETGRAVE BROWN LYANNETTE",
           "modalidad": "Virtual",
-          "horario": "MAR[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-16:50]"
         },
         {
           "grupo": 3,
           "profesor": "PETGRAVE BROWN LYANNETTE",
           "modalidad": "Virtual",
-          "horario": "VIE[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[07:30-11:20]"
         }
       ]
     },
@@ -473,73 +369,55 @@
           "grupo": 7,
           "profesor": "CASASOLA RIVERA WILMER",
           "modalidad": "Semipresencial",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50]"
         },
         {
           "grupo": 8,
           "profesor": "CASASOLA RIVERA WILMER",
           "modalidad": "Semipresencial",
-          "horario": "MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50]"
         },
         {
           "grupo": 2,
           "profesor": "GARRO REYES MAURICIO",
           "modalidad": "Semipresencial",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 5,
           "profesor": "GARRO REYES MAURICIO",
           "modalidad": "Semipresencial",
-          "horario": "MAR[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[13:00-15:50]"
         },
         {
           "grupo": 4,
           "profesor": "PRENDAS SOLANO JORGE",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         },
         {
           "grupo": 6,
           "profesor": "PRENDAS SOLANO JORGE",
           "modalidad": "Virtual",
-          "horario": "JUE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[09:30-12:20]"
         },
         {
           "grupo": 9,
           "profesor": "PRENDAS SOLANO JORGE",
           "modalidad": "Virtual",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         },
         {
           "grupo": 1,
           "profesor": "VARGAS ELIZONDO CELSO",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         },
         {
           "grupo": 3,
           "profesor": "VARGAS ELIZONDO CELSO",
           "modalidad": "Virtual",
-          "horario": "MAR[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[09:30-12:20]"
         }
       ]
     },
@@ -552,9 +430,7 @@
           "grupo": 1,
           "profesor": "CASASOLA RIVERA WILMER",
           "modalidad": "Semipresencial",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         }
       ]
     },
@@ -567,57 +443,43 @@
           "grupo": 1,
           "profesor": "FRANCESCHI SOJO KATTIA",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         },
         {
           "grupo": 2,
           "profesor": "FRANCESCHI SOJO KATTIA",
           "modalidad": "Virtual",
-          "horario": "MIE[13:00-15:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[13:00-15:50]"
         },
         {
           "grupo": 4,
           "profesor": "ORTIZ ALVAREZ JORGE ISAAC",
           "modalidad": "Virtual",
-          "horario": "MIE[15:00-17:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[15:00-17:50]"
         },
         {
           "grupo": 5,
           "profesor": "ORTIZ ALVAREZ JORGE ISAAC",
           "modalidad": "Virtual",
-          "horario": "MIE[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[09:30-12:20]"
         },
         {
           "grupo": 6,
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Regular",
-          "horario": "LUN[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[07:30-10:20]"
         },
         {
           "grupo": 3,
           "profesor": "ROJAS MOLINA BETSY",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50]"
         },
         {
           "grupo": 7,
           "profesor": "ROJAS MOLINA BETSY",
           "modalidad": "Virtual",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         }
       ]
     },
@@ -630,9 +492,7 @@
           "grupo": 1,
           "profesor": "HASBUN DEL VALLE DANIEL",
           "modalidad": "Virtual",
-          "horario": "LUN[09:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[09:30-12:20]"
         }
       ]
     },
@@ -645,9 +505,7 @@
           "grupo": 1,
           "profesor": "MURILLO SOLIS  JAVIER",
           "modalidad": "Regular",
-          "horario": "VIE[13:00-16:50] VIE[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[13:00-16:50] VIE[13:00-16:50]"
         }
       ]
     },
@@ -660,9 +518,7 @@
           "grupo": 1,
           "profesor": "PELAEZ GIL MARA CAROLINA",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-18:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-18:50]"
         }
       ]
     }

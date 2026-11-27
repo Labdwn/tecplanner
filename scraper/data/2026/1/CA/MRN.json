@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ALAN ZUÑIGA MANUEL ANTONIO",
           "modalidad": "Semipresencial",
-          "horario": "SAB[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[13:00-16:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "ARIAS AGUILAR  DAGOBERTO",
           "modalidad": "Semipresencial",
-          "horario": "SAB[13:00-16:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[13:00-16:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "RIVERA MENDEZ WILLIAM EDUARDO",
           "modalidad": "Semipresencial",
-          "horario": "SAB[07:30-11:20] SAB[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-11:20] SAB[07:30-11:20]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "TORRES CONTRERAS ANGELICA",
           "modalidad": "Semipresencial",
-          "horario": "SAB[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-11:20]"
         }
       ]
     }

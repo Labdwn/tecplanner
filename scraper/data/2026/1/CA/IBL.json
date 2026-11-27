@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ALVARADO ULLOA CARLOS",
           "modalidad": "Virtual",
-          "horario": "VIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "VIE[18:00-20:50]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "CHICAS ROMERO MAURICIO",
           "modalidad": "Virtual",
-          "horario": "SAB[07:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-11:20]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "MENESES MONTERO KARLA",
           "modalidad": "Virtual",
-          "horario": "MAR[18:00-20:50] MAR[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[18:00-20:50] MAR[18:00-20:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "MONTERO CAMPOS VIRGINIA",
           "modalidad": "Semipresencial",
-          "horario": "LUN[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "LUN[18:00-20:50]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "TREJOS ESPINOZA RAUL",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50]"
         }
       ]
     }

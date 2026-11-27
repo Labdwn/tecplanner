@@ -15,9 +15,7 @@
           "grupo": 1,
           "profesor": "ARTAVIA GRANADOS XINIA",
           "modalidad": "Regular",
-          "horario": "SAB[07:30-12:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-12:20]"
         }
       ]
     },
@@ -30,9 +28,7 @@
           "grupo": 1,
           "profesor": "CAMPOS CHAVARRIA BENJAMIN",
           "modalidad": "Virtual",
-          "horario": "JUE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "JUE[17:00-19:50]"
         }
       ]
     },
@@ -45,9 +41,7 @@
           "grupo": 1,
           "profesor": "MATARRITA MC CALLA KIMBERLY",
           "modalidad": "Virtual",
-          "horario": "MIE[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[17:00-19:50]"
         }
       ]
     },
@@ -60,9 +54,7 @@
           "grupo": 1,
           "profesor": "MONGE PEREZ LUIS DIEGO",
           "modalidad": "Virtual",
-          "horario": "MIE[18:00-20:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[18:00-20:50]"
         }
       ]
     },
@@ -75,9 +67,7 @@
           "grupo": 1,
           "profesor": "PEREZ ROJAS NELSON",
           "modalidad": "Virtual",
-          "horario": "SAB[07:30-10:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "SAB[07:30-10:20]"
         }
       ]
     },
@@ -90,9 +80,7 @@
           "grupo": 1,
           "profesor": "RODRIGUEZ MORALES OSCAR",
           "modalidad": "Virtual",
-          "horario": "MAR[17:00-19:50]",
-          "edificio": null,
-          "aula": null
+          "horario": "MAR[17:00-19:50]"
         }
       ]
     },
@@ -105,9 +93,7 @@
           "grupo": 1,
           "profesor": "VEGA ROJAS LUIS MAURICIO",
           "modalidad": "Virtual",
-          "horario": "MIE[08:30-11:20]",
-          "edificio": null,
-          "aula": null
+          "horario": "MIE[08:30-11:20]"
         }
       ]
     }
